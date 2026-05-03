@@ -1,0 +1,101 @@
+id,case_name,country_origin,sector,year_initiated,verification,uz_transferability_score,uz_analogue_institution,kg_transferability_score,kg_analogue_institution,implementation_budget_usd,donor_co_financed
+case-in-bhashini,India Bhashini Multilingual AI Platform,India,Education,2021,VERIFIED,9,UZ-MOHESI,9,KG-MOES,25000000,False
+case-et-buerokratt,Estonia Bürokratt AI Government Virtual Assistant,Estonia,Cross-cutting,2021,VERIFIED,9,UZ-DXA,9,KG-TUNDUK,4500000,False
+case-est-xroad,X-Road / X-Tee Inter-Agency Data Exchange,Estonia,Public Administration & e-Gov,2001,VERIFIED,8,UZ-DXA,9,KG-TUNDUK,15000000,False
+case-kz-ecourt,Kazakhstan e-Court System (Torelik),Kazakhstan,Justice & Rule of Law,2013,VERIFIED,9,UZ-MINJUST,8,KG-MINJUST,45000000,False
+case-kz-damumed,Kazakhstan Damumed AI Diagnostic Platform,Kazakhstan,Health,2019,L2_VERIFIED,9,UZ-MOH,8,KG-MOH,8000000,False
+case-in-esanjeevani,eSanjeevani National Telemedicine Platform (India),India,Health,2019,VERIFIED,8,UZ-MOH,9,KG-MOH,15000000,False
+case-in-diksha,DIKSHA National Digital Infrastructure for School Education (India),India,Education,2017,VERIFIED,9,UZ-MOHESI,8,KG-MOES,20000000,False
+case-kz-bilimland,Bilim Land EdTech Platform (Kazakhstan),Kazakhstan,Education,2012,VERIFIED,9,UZ-MOHESI,8,KG-MOES,12000000,False
+case-kz-smart-agri,Kazakhstan Smart Agriculture System (National Agroinfo),Kazakhstan,Agriculture & Water,2017,VERIFIED,9,UZ-MOAG,8,KG-MOAG,22000000,False
+case-kz-water-ai,Kazakhstan Water Canal AI Monitoring (Syr Darya Basin),Kazakhstan,Agriculture & Water,2019,VERIFIED,9,UZ-MOAG,8,KG-MOAG,18000000,False
+case-nl-deltares-flood-ai,Deltares / Netherlands Flood Early Warning AI,Netherlands,Agriculture & Water,2015,VERIFIED,8,UZ-MOAG,9,KG-MOAG,35000000,False
+case-kz-smart-grid,Kazakhstan KEGOC National Power Grid AI Monitoring,Kazakhstan,Energy,2018,VERIFIED,9,UZ-MINENERGO,8,KG-MINENERGO,45000000,False
+case-kg-naryn-hydro-digital,Kyrgyzstan Toktogul Reservoir Digital Management (Pilot),Kyrgyzstan,Energy,2020,VERIFIED,8,UZ-MINENERGO,9,KG-MINENERGO,12000000,True
+case-kz-dda-etransport,Kazakhstan Digital Driver's Licence & e-Inspection,Kazakhstan,Transport & Urban,2019,VERIFIED,9,UZ-MINTRANS,8,KG-GRS,18000000,False
+case-kz-smartbridge-tax,Kazakhstan Smart Bridge & Tax System Integration,Kazakhstan,Finance & Fiscal,2018,VERIFIED,9,UZ-GNK,8,KG-GNS,28000000,False
+case-kz-egumen-border,Kazakhstan eGümrük Digital Customs & Border AI,Kazakhstan,Security & Public Order,2016,VERIFIED,9,UZ-GTK,8,KG-GTS,45000000,False
+case-kz-enbek,Kazakhstan Enbek Labour Market Digital Platform,Kazakhstan,Labor & Migration,2018,VERIFIED,9,UZ-MINTRUD,8,KG-MINTRUD,22000000,False
+case-kz-migration-tracking,Kazakhstan Digital Labour Migration Monitoring System,Kazakhstan,Labor & Migration,2019,VERIFIED,8,UZ-MINTRUD,9,KG-MINTRUD,16000000,False
+case-fr-albert-govt-llm,France Albert — Government LLM for Civil Servants,France,Cross-cutting,2023,VERIFIED,9,UZ-DXA,8,KG-MINCIFRI,8500000,False
+case-sg-pair-govt-llm,Singapore PAIR Government LLM Platform,Singapore,Cross-cutting,2023,VERIFIED,9,UZ-DXA,8,KG-MINCIFRI,15000000,False
+case-ae-falcon-llm,UAE Falcon LLM — Arabic Sovereign Foundation Model,UAE,Cross-cutting,2022,VERIFIED,9,UZ-MOHESI,8,KG-MINCIFRI,35000000,False
+case-kg-tunduk-modernisation,Kyrgyzstan Tunduk Interoperability Platform Modernisation (EU-Funded),Kyrgyzstan,Cross-cutting,2022,L2_VERIFIED,8,UZ-DXA,9,KG-TUNDUK,4500000,True
+case-kz-smart-social,Kazakhstan Digital Social Protection — e-Otinish Social Registry,Kazakhstan,Cross-cutting,2019,VERIFIED,9,UZ-MINTRUD,8,KG-MINTRUD,32000000,False
+case-kz-egov,eGov.kz National Citizen Portal,Kazakhstan,Public Administration & e-Gov,2006,VERIFIED,9,UZ-DXA,7,KG-TUNDUK,180000000,False
+case-ua-diia,Diia Super-App Digital Government (Ukraine),Ukraine,Public Administration & e-Gov,2019,VERIFIED,8,UZ-DXA,8,KG-TUNDUK,8000000,True
+case-ge-mygov,Georgia Public Service Hall & my.gov.ge,Georgia,Public Administration & e-Gov,2011,VERIFIED,9,UZ-DXA,7,KG-GRS,45000000,True
+case-bd-a2i-health,Bangladesh a2i Telemedicine + Community Clinics,Bangladesh,Health,2009,VERIFIED,8,UZ-MOH,8,KG-MOH,5500000,True
+case-kz-ehealth-epsd,Kazakhstan EPSD Electronic Health Record System,Kazakhstan,Health,2012,VERIFIED,9,UZ-MOH,7,KG-MOH,55000000,False
+case-mn-emongolia-edu,Mongolia E-Mongolia Digital Education Platform,Mongolia,Education,2019,VERIFIED,7,UZ-MOHESI,9,KG-MOES,8500000,True
+case-kz-ai-school,Kazakhstan AI in Schools National Programme (NIS),Kazakhstan,Education,2021,VERIFIED,9,UZ-MOHESI,7,KG-MOES,35000000,True
+case-uz-smart-meter-pilot,Uzbekistan Smart Meter Pilot (Toshkentenergo) — ACTIVE,Uzbekistan,Energy,2022,VERIFIED,9,UZ-MINENERGO,7,KG-MINENERGO,25000000,True
+case-kz-renewable-ai,Kazakhstan Renewable Energy AI Forecasting (KEGOC-KOREM),Kazakhstan,Energy,2021,VERIFIED,8,UZ-MINENERGO,8,KG-MINENERGO,8500000,False
+case-in-upi,India UPI Unified Payments Interface,India,Finance & Fiscal,2016,VERIFIED,8,UZ-CBU,8,KG-NBKR,80000000,False
+case-br-pix,Brazil Pix Instant Payment System,Brazil,Finance & Fiscal,2020,VERIFIED,8,UZ-CBU,8,KG-NBKR,35000000,False
+case-kg-cbdc-digital-som,Kyrgyzstan Digital Som CBDC (In Progress — Law Enacted 2025),Kyrgyzstan,Finance & Fiscal,2022,L2_VERIFIED,7,UZ-CBU,9,KG-NBKR,15000000,True
+case-kz-aral-monitoring,Kazakhstan Aral Sea Restoration AI Monitoring,Kazakhstan,Environment & Climate,2018,VERIFIED,9,UZ-MOAG,7,KG-MOETN,5500000,True
+case-kg-glof-warning,Kyrgyzstan GLOF (Glacial Lake Outburst Flood) Early Warning System,Kyrgyzstan,Environment & Climate,2019,VERIFIED,7,UZ-MOAG,9,KG-MOETN,8000000,True
+case-uz-etravel-silk-road,Uzbekistan eTravelUzbekistan Digital Tourism Platform,Uzbekistan,Tourism & Culture,2018,VERIFIED,9,UZ-TOURISM,7,KG-TOURISM,12000000,False
+case-in-e-shram,India e-Shram National Database of Unorganised Workers,India,Labor & Migration,2021,VERIFIED,8,UZ-MINTRUD,8,KG-MINTRUD,15000000,False
+case-bd-digital-labour-export,Bangladesh BOESL Digital Labour Export Management,Bangladesh,Labor & Migration,2018,VERIFIED,8,UZ-MINTRUD,8,KG-MINTRUD,8500000,True
+case-id-indonesia-satu-data,Indonesia Satu Data Indonesia Open Data Platform,Indonesia,Cross-cutting,2019,VERIFIED,8,UZ-DXA,8,KG-TUNDUK,12000000,False
+case-kz-ai-strategy-2024,Kazakhstan National AI Strategy 2024-2029,Kazakhstan,Cross-cutting,2024,VERIFIED,9,UZ-MOHESI,7,KG-MINCIFRI,1200000000,False
+case-kz-digital-mining,Kazakhstan AI for Critical Minerals Exploration (Kazakhmys/Altyntau),Kazakhstan,Environment & Climate,2020,L2_VERIFIED,8,UZ-MOAG,8,KG-MOETN,9500000,False
+case-az-asan,ASAN Service / ASAN Imza One-Stop Government Shops,Azerbaijan,Public Administration & e-Gov,2012,VERIFIED,9,UZ-DXA,6,KG-GRS,35000000,False
+case-ru-gosuslugi,Gosuslugi (Госуслуги) Federal Services Portal,Russia,Public Administration & e-Gov,2009,VERIFIED,8,UZ-DXA,7,KG-TUNDUK,650000000,False
+case-al-ealbania,e-Albania Rapid Digital Transformation,Albania,Public Administration & e-Gov,2016,VERIFIED,7,UZ-DXA,8,KG-TUNDUK,25000000,True
+case-est-salme,SALME AI-Assisted Court Document Analysis (Estonia),Estonia,Justice & Rule of Law,2019,L2_VERIFIED,8,UZ-MINJUST,7,KG-MINJUST,2500000,False
+case-kz-antikorruption-ai,Kazakhstan Anti-Corruption Agency AI Monitoring System,Kazakhstan,Justice & Rule of Law,2020,L2_VERIFIED,8,UZ-MINJUST,7,KG-MINJUST,12000000,False
+case-est-ehealth,Estonia National E-Health Platform (e-terviseportaal),Estonia,Health,2008,VERIFIED,8,UZ-MOH,7,KG-MOH,30000000,False
+case-in-aarogya-setu,India Aarogya Setu + CoWIN Health Platform,India,Health,2020,VERIFIED,8,UZ-MOH,7,KG-MOH,25000000,False
+case-in-agristack,India AgriStack Unified Farmer Database,India,Agriculture & Water,2021,VERIFIED,8,UZ-MOAG,7,KG-MOAG,45000000,False
+case-kz-cotton-ai,Kazakhstan Crop Monitoring AI — Soy/Sunflower Yield Prediction,Kazakhstan,Agriculture & Water,2020,L2_VERIFIED,9,UZ-MOAG,6,KG-MOAG,4500000,False
+case-in-fastag-national-tolls,India FASTag National Electronic Toll Collection,India,Transport & Urban,2017,VERIFIED,8,UZ-MINTRANS,7,KG-MINTRANS,200000000,False
+case-et-estonia-etax,Estonia e-Tax Declaration (EMTA),Estonia,Finance & Fiscal,2000,VERIFIED,8,UZ-GNK,7,KG-GNS,12000000,False
+case-est-cyber-defense,Estonia National Cyber Defence Centre (NCSC & CERT-EE),Estonia,Security & Public Order,2008,VERIFIED,8,UZ-UNICON,7,KG-MINCIFRI,45000000,False
+case-ua-diia-wartime-id,Ukraine Diia Digital ID Under Wartime Conditions (Resilience Case),Ukraine,Security & Public Order,2022,VERIFIED,7,UZ-DXA,8,KG-TUNDUK,3500000,True
+case-kz-biometric-border,Kazakhstan Biometric Border Control (SafePass & AutoPass),Kazakhstan,Security & Public Order,2018,VERIFIED,8,UZ-MIA,7,KG-MIA,32000000,False
+case-in-isro-bhuvan,India ISRO Bhuvan Geoportal & Environment Monitoring,India,Environment & Climate,2009,VERIFIED,8,UZ-CADASTRE,7,KG-MOETN,45000000,False
+case-in-aadhaar,India Aadhaar Digital Identity — DPI Foundation,India,Cross-cutting,2009,VERIFIED,8,UZ-UZINFOCOM,7,KG-GRS,1700000000,False
+case-br-govbr-portal,Brazil gov.br Digital Government Portal,Brazil,Public Administration & e-Gov,2019,VERIFIED,8,UZ-DXA,7,KG-TUNDUK,85000000,False
+case-kz-astana-hub,Astana Hub Tech Innovation Centre,Kazakhstan,Public Administration & e-Gov,2018,VERIFIED,9,UZ-ITPARK,5,KG-HTP,120000000,False
+case-tr-havelsan-dijital-adalet,Havelsan Digital Judiciary Platform (Turkey),Turkey,Justice & Rule of Law,2015,L2_VERIFIED,9,UZ-MINJUST,5,KG-MINJUST,18000000,False
+case-rw-babyl,Rwanda Babyl AI Health Chatbot,Rwanda,Health,2016,VERIFIED,7,UZ-MOH,7,KG-MOH,6000000,True
+case-kr-on-nara,Korea On-nara / Government 24 Public Service Portal,Korea,Education,2005,VERIFIED,8,UZ-DXA,6,KG-TUNDUK,280000000,False
+case-sa-sdaia-ai-edu,Saudi Arabia SDAIA National AI Capability Building Programme,Saudi Arabia,Education,2020,VERIFIED,8,UZ-MOHESI,6,KG-MOES,180000000,False
+case-il-netafim-precision-irri,Israel Netafim Precision Irrigation AI Export,Israel,Agriculture & Water,1965,VERIFIED,8,UZ-MOAG,6,KG-MOAG,8000000,True
+case-sg-virtual-singapore-cadastre,Singapore Virtual Singapore / National Spatial Data Platform,Singapore,Agriculture & Water,2014,VERIFIED,8,UZ-CADASTRE,6,KG-GRS,73000000,False
+case-ee-smart-meter-grid,Estonia Smart Energy Metering & Elering Grid,Estonia,Energy,2012,VERIFIED,8,UZ-MINENERGO,6,KG-MINENERGO,85000000,False
+case-sg-cbdc-project-ubin,Singapore Project Ubin CBDC / Digital SGD,Singapore,Finance & Fiscal,2016,VERIFIED,6,UZ-CBU,8,KG-NBKR,12000000,False
+case-nl-rotterdam-climate-digital,Rotterdam Climate Adaptation Digital Twin,Netherlands,Environment & Climate,2018,L2_VERIFIED,7,UZ-MOAG,7,KG-MOETN,28000000,False
+case-kg-nomad-digital-heritage,Kyrgyzstan Nomadic Heritage Digital Archive & Tourism AI,Kyrgyzstan,Tourism & Culture,2021,L2_VERIFIED,6,UZ-TOURISM,8,KG-TOURISM,4000000,True
+case-pl-mobywatel-digital-id,Poland mObywatel App (Soviet-Bloc Evolution Reference),Poland,Labor & Migration,2019,VERIFIED,7,UZ-UZINFOCOM,7,KG-GRS,28000000,False
+case-ru-gosuslugi-chatbot,Russia Gosuslugi AI Chatbot and Voice Bot,Russia,Cross-cutting,2019,VERIFIED,7,UZ-DXA,7,KG-TUNDUK,18000000,False
+case-rw-vision2050-digital,Rwanda Vision 2050 AI National Strategy,Rwanda,Cross-cutting,2020,VERIFIED,6,UZ-DXA,8,KG-MINCIFRI,85000000,True
+case-est-digital-id,Estonian Digital ID & Mobile-ID,Estonia,Public Administration & e-Gov,2002,VERIFIED,7,UZ-UZINFOCOM,6,KG-GRS,25000000,False
+case-sg-intellex,Singapore INTELLLEX Legal AI / SAL Ventures,Singapore,Justice & Rule of Law,2017,L2_VERIFIED,7,UZ-MINJUST,6,KG-MINJUST,5000000,False
+case-rw-irembo,Rwanda Irembo Digital Government Platform,Rwanda,Agriculture & Water,2014,VERIFIED,7,UZ-MOAG,6,KG-MOAG,12000000,False
+case-de-eon-predictive-maintenance,E.ON Predictive Maintenance for Distribution Networks,Germany,Energy,2018,VERIFIED,7,UZ-MINENERGO,6,KG-MINENERGO,125000000,False
+case-ke-mpesa,Kenya M-Pesa Mobile Money Platform,Kenya,Finance & Fiscal,2007,VERIFIED,6,UZ-CBU,7,KG-NBKR,15000000,True
+case-fi-finland-aurora-ai,Finland Aurora AI — National AI Strategy for Public Services,Finland,Environment & Climate,2017,VERIFIED,7,UZ-MOAG,6,KG-MOETN,35000000,False
+case-gr-greecegov-rapid-digital,Greece Gov.gr Rapid Digital Transformation (COVID Era),Greece,Tourism & Culture,2020,VERIFIED,7,UZ-DXA,6,KG-TOURISM,18000000,False
+case-ae-uae-labour-inspection,UAE MoHRE AI Labour Inspection System,UAE,Labor & Migration,2020,VERIFIED,7,UZ-MINTRUD,6,KG-MINTRUD,25000000,False
+case-sg-singpass,Singpass National Digital Identity,Singapore,Public Administration & e-Gov,2003,VERIFIED,7,UZ-UZINFOCOM,5,KG-TUNDUK,40000000,False
+case-kz-smart-city-nur,Kazakhstan Nur-Sultan (Astana) Smart City Platform,Kazakhstan,Transport & Urban,2018,VERIFIED,7,UZ-MINTRANS,5,KG-MINTRANS,85000000,False
+case-kz-aifc-fintech,Kazakhstan AIFC Astana International Financial Centre Digital Regime,Kazakhstan,Finance & Fiscal,2018,VERIFIED,7,UZ-ITPARK,5,KG-HTP,400000000,False
+case-sg-i-witness,Singapore SPF i-Witness Crime Reporting & Analytics,Singapore,Security & Public Order,2018,L2_VERIFIED,6,UZ-MIA,6,KG-MIA,8500000,False
+case-cn-digital-silk-road-env,China BeiDou Navigation + Environmental Monitoring in Central Asia,China,Environment & Climate,2020,L2_VERIFIED,6,UZ-MOAG,6,KG-MOETN,7500000,False
+case-nz-mfe-emissions-ai,New Zealand MfE AI Emissions Reporting,New Zealand,Environment & Climate,2021,L2_VERIFIED,6,UZ-MOAG,6,KG-MOETN,12000000,False
+case-sa-neom-digital-tourism,Saudi Arabia Absher Tourism App & Digital Heritage,Saudi Arabia,Tourism & Culture,2018,VERIFIED,7,UZ-TOURISM,5,KG-TOURISM,85000000,False
+case-ae-uae-culture-ai,UAE Louvre Abu Dhabi AI Visitor Experience,UAE,Tourism & Culture,2019,VERIFIED,7,UZ-TOURISM,5,KG-TOURISM,6500000,False
+case-est-eresidency,Estonia e-Residency — Digital Governance Export Programme,Estonia,Cross-cutting,2014,VERIFIED,6,UZ-ITPARK,6,KG-HTP,6500000,False
+case-cn-hangzhou-city-brain,Hangzhou City Brain AI Traffic Management,China,Transport & Urban,2016,VERIFIED,6,UZ-MINTRANS,5,KG-MINTRANS,120000000,False
+case-sg-smart-nation-transport,Singapore Smart Nation Transport — MyTransport.SG,Singapore,Transport & Urban,2014,VERIFIED,6,UZ-MINTRANS,5,KG-MINTRANS,95000000,False
+case-kr-sejong-smart-city,South Korea Sejong City AI Smart City Platform,Korea,Transport & Urban,2019,VERIFIED,7,UZ-MINTRANS,4,KG-MINTRANS,2500000000,False
+case-jp-digital-agency,Japan Digital Agency — Post-COVID Government Digitalisation Sprint,Japan,Public Administration & e-Gov,2021,VERIFIED,6,UZ-DXA,5,KG-TUNDUK,2800000000,False
+case-ae-dewa-ai,Dubai DEWA AI-Powered Smart Grid,UAE,Energy,2015,VERIFIED,5,UZ-MINENERGO,3,KG-MINENERGO,280000000,False
+case-au-robodebt-cautionary,Australia Robodebt Welfare Debt AI (CAUTIONARY),Australia,Justice & Rule of Law,2016,VERIFIED,2,UZ-MINJUST,2,KG-MINJUST,70000000,False
+case-uk-govuk-verify-cautionary,GOV.UK Verify Digital Identity Programme (CAUTIONARY),UK,Justice & Rule of Law,2014,VERIFIED,2,UZ-UZINFOCOM,2,KG-GRS,250000000,False
+case-lv-ehealth-cautionary,Latvia eHealth (Multi-Restart Programme) — CAUTIONARY,Latvia,Health,2009,VERIFIED,2,UZ-MOH,2,KG-MOH,85000000,True
+case-ca-sidewalk-toronto-cautionary,Sidewalk Labs Toronto Smart City (CANCELLED) — CAUTIONARY,Canada,Transport & Urban,2017,VERIFIED,2,UZ-MINTRANS,2,KG-MINTRANS,900000000,False

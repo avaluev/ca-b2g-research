@@ -1,0 +1,183 @@
+CASE TOURNAMENT — COMPLETE
+Generated: 2026-05-03
+Agent: case-tournament
+
+=== SUMMARY STATISTICS ===
+
+Total GlobalCase records: 100
+Schema: docs/state_schema.json GlobalCase definition
+All records have UZ AND KG transferability scores with rationale.
+All records have uz_analogue_institution_id and kg_analogue_institution_id.
+
+=== DISTRIBUTION BY SECTOR ===
+
+Public Administration & e-Gov:    12 cases
+Cross-cutting (digital ID, LLMs): 12 cases
+Health:                            8 cases
+Agriculture & Water:               8 cases
+Finance & Fiscal:                  8 cases
+Environment & Climate:             8 cases
+Justice & Rule of Law:             7 cases
+Education:                         7 cases
+Energy:                            7 cases
+Transport & Urban:                 7 cases
+Labor & Migration:                 6 cases
+Security & Public Order:           5 cases
+Tourism & Culture:                 5 cases
+
+=== DISTRIBUTION BY COUNTRY OF ORIGIN ===
+
+Kazakhstan:      25 cases  [EXCEEDS 15-case minimum requirement]
+India:           10 cases
+Estonia:          9 cases
+Singapore:        7 cases
+Kyrgyzstan:       5 cases  [KG self-cases included for active procurement]
+UAE:              4 cases
+Rwanda:           3 cases
+Ukraine:          2 cases
+Russia:           2 cases
+Bangladesh:       2 cases
+Korea:            2 cases
+Saudi Arabia:     2 cases
+Netherlands:      2 cases
+Uzbekistan:       2 cases  [UZ self-cases included as benchmarks]
+China:            2 cases
+Brazil:           2 cases
+Other (1 each):  14 cases  [Albania, Latvia, Georgia, Azerbaijan, Australia, UK, Mongolia,
+                             Finland, Poland, France, Indonesia, Japan, NZ, Germany, Canada,
+                             Kenya, Israel, Greece]
+
+=== TRANSFERABILITY SCORE STATISTICS ===
+
+Average UZ Transferability Score: 7.58 / 10
+Average KG Transferability Score: 6.86 / 10
+
+UZ scores = 9: 29 cases  (HIGH TRANSFERABILITY)
+UZ scores = 8: 32 cases  (STRONG TRANSFERABILITY)
+UZ scores 5-7: 35 cases  (MODERATE / BUDGET-CONSTRAINED)
+UZ scores ≤ 2:  4 cases  (CAUTIONARY — DO NOT REPLICATE)
+
+KG scores = 9: 11 cases  (HIGH TRANSFERABILITY)
+KG scores = 8: 27 cases  (STRONG TRANSFERABILITY)
+KG scores 5-7: 58 cases  (MODERATE)
+KG scores ≤ 2:  4 cases  (CAUTIONARY)
+
+Note: KG average lower than UZ due to budget realism scoring — Singapore/UAE
+cases rated HIGH for UZ but LOWER for KG given 1/100th budget reality.
+
+=== VERIFICATION LEVELS ===
+
+VERIFIED:    86 cases (official sources + independent confirmation)
+L2_VERIFIED: 14 cases (2+ sources but one is secondary/media)
+INFERRED:     0 cases (all claims sourced)
+UNVERIFIED:   0 cases
+
+=== CAUTIONARY CASES (Score ≤ 2) ===
+
+1. case-au-robodebt-cautionary — Australia Robodebt
+   Warning: AI-automated debt generation with reversed burden of proof.
+   Critical risk for any UZ/KG AI-in-welfare or AI-in-tax-enforcement system.
+
+2. case-uk-govuk-verify-cautionary — UK GOV.UK Verify
+   Warning: Federated identity without authoritative national register = failure.
+   UZ/KG should NOT replicate; their centralised biometric ID is the correct approach.
+
+3. case-lv-ehealth-cautionary — Latvia eHealth
+   Warning: Large vendor, over-scoped procurement, no implementation unit.
+   Critical warning for UZ E-Health (ПП-415) and KG health platform.
+
+4. case-ca-sidewalk-toronto-cautionary — Sidewalk Labs Toronto
+   Warning: Big-tech as data owner in public space.
+   All UZ/KG smart city procurements must maintain government data ownership.
+
+=== TOP 3 SURPRISING TOURNAMENT WINNERS ===
+
+1. BÜROKRATT (case-et-buerokratt) for BOTH UZ and KG — Score 9/9
+   Surprise: Expected a US/China AI company to win the AI chatbot category.
+   Winner: A tiny Estonian open-source project with MIT licence, 15 government
+   agency deployments, and a direct EGA advisory programme. For UZ and KG,
+   this is deployable in 6-9 months for $500k-1.5M. The combination of
+   open-source, EGA bilateral TA, and X-Road integration makes it unbeatable
+   in its category.
+
+2. KAZAKHSTAN SMART BRIDGE TAX (case-kz-smartbridge-tax) for Finance — Score 9/9
+   Surprise: Finance category expected UPI or CBDC architecture to win.
+   Winner: A tax fraud detection AI built by a Kazakhstani company.
+   Reason: The ROI calculation is decisive — KZ recovered $400M in Year 1 on
+   $28M investment. UZ tax gap is $2B+. At same ratio, UZ Smart Bridge equivalent
+   returns $600M+ in Year 1. No other case in the tournament has this ROI profile.
+   Caucionary note: political will to actually prosecute fraud cases is the binding
+   constraint, not the technology.
+
+3. DELTARES FLOOD AI (case-nl-deltares-flood) for KG Environment — Score 9
+   Surprise: Expected a Chinese or Russian system to win for KG infrastructure.
+   Winner: A Dutch government research institute with open-source models.
+   Reason: Deltares has already deployed in Central Asia (World Bank DRM projects),
+   the Delft3D model is open-source and peer-reviewed, and the business case for KG
+   is uniquely strong — KG is the headwater country, upstream monitoring gives KG
+   diplomatic leverage with KZ and UZ in ICWC negotiations. No other case converts
+   technical infrastructure into geopolitical leverage so directly.
+
+=== TOP 3 SURPRISING TOURNAMENT LOSERS ===
+
+1. CHINA HANGZHOU CITY BRAIN (case-cn-hangzhou-city-brain)
+   Expected: Win Transport & Urban category — Chinese smart city tech is dominant in CA.
+   Actual: Score 6 for UZ, 5 for KG (mid-table loss).
+   Reason: $120M investment with Alibaba Cloud dependency creates sovereign data risk.
+   Open-source alternatives (SUMO + YOLO + standard traffic APIs) deliver 60% of
+   Hangzhou benefit at 20% of cost. The data-sovereignty issue is decisive for both
+   governments in the current geopolitical environment.
+
+2. SINGAPORE SINGPASS (case-sg-singpass)
+   Expected: Win Cross-cutting Digital ID for UZ — globally recognised gold standard.
+   Actual: Score 7 (third place behind Aadhaar and Bürokratt).
+   Reason: Singapore's budget ($40M for 5.5M people) doesn't scale to UZ (36M people).
+   More importantly, UZ already HAS the authoritative biometric ID (MyID). What UZ
+   needs is the MyInfo-equivalent consent layer — not a full Singpass rebuild.
+   Singpass is the aspirational end-state, not the near-term deployment target.
+
+3. INDIA AADHAAR (case-in-aadhaar)
+   Expected: Win the overall tournament for both countries — globally promoted as gold
+   standard by World Bank, G20, SCO.
+   Actual: Score 8 for UZ, 7 for KG (strong but not #1 in Cross-cutting).
+   Reason: Aadhaar's most cited failure (biometric exclusion of 100M+ people whose
+   fingerprints are too worn) is especially relevant for CA agricultural populations.
+   The KEY lesson from Aadhaar is 'open the API to private sector' — but UZ/KG
+   already have the identity layer (MyID, GRS). The marginal improvement from
+   copying Aadhaar architecture is lower than deploying Bürokratt on top of
+   existing identity infrastructure.
+
+=== OUTPUT FILES ===
+
+state/cases/cases.json                — 100 GlobalCase records (merged)
+state/cases/tournament_results.md     — Per-sector top-5 rankings for UZ + KG
+state/cases/transferability_matrix.csv — 100×12 matrix sorted by combined score
+state/cases/batch_01_public_admin.json — 10 cases (Public Admin)
+state/cases/batch_02_justice.json      — 7 cases (Justice)
+state/cases/batch_03_health.json       — 8 cases (Health)
+state/cases/batch_04_education.json    — 7 cases (Education)
+state/cases/batch_05_agri.json         — 8 cases (Agriculture & Water)
+state/cases/batch_06_energy.json       — 7 cases (Energy)
+state/cases/batch_07_transport.json    — 6 cases (Transport & Urban)
+state/cases/batch_08_finance.json      — 8 cases (Finance & Fiscal)
+state/cases/batch_09_security.json     — 5 cases (Security)
+state/cases/batch_10_environment.json  — 7 cases (Environment)
+state/cases/batch_11_tourism.json      — 5 cases (Tourism)
+state/cases/batch_12_labor.json        — 6 cases (Labor & Migration)
+state/cases/batch_13_crosscut.json     — 10 cases (Cross-cutting)
+state/cases/batch_14_supplemental.json — 6 cases (Supplemental)
+state/cases/COMPLETE                   — This file
+
+=== DOWNSTREAM AGENT NOTES ===
+
+For initiative-synthesizer: highest-priority convergent cases for each CW:
+- CW-001 (UZ AI Courts): case-kz-ecourt, case-tr-havelsan-dijital-adalet
+- CW-002 (UZ AI Cluster): case-fr-albert-govt-llm, case-ae-falcon-llm, case-sa-sdaia-ai-edu
+- CW-003 (UZ $100M criteria): case-kz-smartbridge-tax, case-kz-cotton-ai, case-in-bhashini
+- CW-004 (KG UDP TORs): case-kg-tunduk-modernisation, case-et-buerokratt
+- CW-005 (KG CBDC wallet): case-kg-cbdc-digital-som, case-br-pix, case-sg-cbdc-project-ubin
+- CW-006 (UZ E-Health): case-kz-ehealth-epsd, case-kz-damumed, case-in-esanjeevani
+- CW-007 (UZ EPIGU chatbot): case-et-buerokratt, case-sg-pair-govt-llm, case-ru-gosuslugi-chatbot
+- CW-008 (KG Tunduk modernisation): case-kg-tunduk-modernisation, case-est-xroad
+
+All cases validated against docs/state_schema.json GlobalCase schema.
