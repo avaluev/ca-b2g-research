@@ -1,0 +1,39 @@
+Initiative Synthesis Complete (resumed)
+UZ Tier-A: 17, Tier-B: 22, Tier-C: 11
+KG Tier-A: 11, Tier-B: 17, Tier-C: 22
+Total: 100 initiatives (50 UZ + 50 KG)
+Tier-A foreign-key complete: 28/28
+
+Top 3 weighted_total:
+  1. INI-001     | WT=9.55 | AI Fund Criteria Co-Design (PP-320) — UZ
+  2. KG-INI-009  | WT=9.55 | Sovereign Kyrgyz-Russian LLM Foundation Model — KG
+  3. INI-006     | WT=9.50 | Sovereign Uzbek-Russian LLM (Foundation Model) — UZ
+
+Notes:
+- KG batch IDs use "KG-INI-001" through "KG-INI-050" prefix to avoid collision with UZ "INI-001"-"INI-050".
+- Tier reclassification: 2 of the records initially placed in KG Tier-C batch file scored weighted_total >= 7.5 and were correctly assigned confidence_tier "B" (KG-INI-043 AI Cluster at AUCA + HTP @ 8.05; KG-INI-044 AI Government Cloud Tunduk Inference Fabric @ 7.95). They remain in the kg_tier_c.json source file but tier is honest.
+- All foreign-key references (precedent_case_id, authorizing_decree_ids, lead_institution_id, target_buyer_person_id, operational_counterpart_person_id, secondary_funding_donor_program_id) resolve to existing records in state/cases, state/decrees, state/institutions, state/people, state/donors.
+- Validation pass: 0 foreign-key errors across all 100 records (no fabricated IDs).
+- Distribution: 28 Tier-A (target was >= 20), 39 Tier-B, 33 Tier-C; >= 100 total satisfied.
+- Schema-coverage: every initiative has scoring (5 axes + weighted_total), risk_register (>= 3 items), next_30_day_actions (>= 3), pitch_hook (referencing documented decree/KPI), confidence_tier, verification.
+
+Convergent windows referenced:
+- CW-001 UZ AI Fund (INI-001)
+- CW-002 UZ AI Courts (INI-002)
+- CW-003 KG UDP TOR Drafting (KG-INI-001) — highest-leverage KG window
+- CW-004 KG Digital Som CBDC (KG-INI-002) — Constitutional law deadline 1 Jan 2027
+- KG sovereign LLM (KG-INI-009) ties to UZ sovereign LLM (INI-006) for cross-CIS federation play
+
+Output files:
+- state/initiatives/initiatives_uz_tier_a.json (17 records, ~99KB)
+- state/initiatives/initiatives_uz_tier_b.json (22 records, ~77KB)
+- state/initiatives/initiatives_uz_tier_c.json (11 records, ~33KB)
+- state/initiatives/initiatives_kg_tier_a.json (11 records, ~78KB)
+- state/initiatives/initiatives_kg_tier_b.json (15 records, ~30KB)
+- state/initiatives/initiatives_kg_tier_c.json (24 records, ~50KB)
+- state/initiatives/initiatives.json (100 merged records, master view)
+
+Resume metadata:
+- Resumed from rate-limited prior run that completed UZ batches 17:50:14
+- KG generation completed via this resume run
+- All Wave 4 deliverables ready for Wave 5 reflexion-auditor

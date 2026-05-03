@@ -1,0 +1,1209 @@
+[
+  {
+    "id": "INI-001",
+    "short_name": "AI Fund Criteria Co-Design (PP-320)",
+    "country": "UZ",
+    "sector": "AI Infrastructure (Enabling Layer)",
+    "one_liner": "Co-design selection criteria for the $100M National AI Project Support Fund and pre-position as one of the first three flagship recipients.",
+    "problem_statement": "PP-320 (May 2025) created a $100M state Fund to back 50 AI projects through 2028, with selection rules drafted between May-September 2026 by MoDT under MoEF supervision. No external vendor has yet shaped the rubric; the Fund's evaluation council is forming and will lock in criteria favoring incumbents unless alternative voices arrive in the next 90 days.",
+    "solution_concept": "Three-track engagement: (1) submit a written technical brief to MoDT and the AI Center on which selection axes drive measurable national AI capability vs. vanity grants (sovereign-LLM enablement, Russian/Uzbek language coverage, government-deployable agentic workflows, sntz.ai-style stack); (2) volunteer as evaluator or observer to the Fund's working group via diaspora warm intro (Tursunov/Google, Toshmatov/Stanford); (3) submit one of the first three flagship project applications in Q4 2026 anchored on a sovereign Uzbek-Russian LLM + government agentic chatbot product line to be deployed at EPIGU and the Supreme Court. The criteria-shaping phase is the highest-leverage 90-day window in the entire UZ AI economy.",
+    "precedent_case_id": "case-ae-falcon-llm",
+    "what_preserved": "UAE Falcon LLM model: sovereign foundation model anchored by sovereign fund, used as anchor for downstream government and private deployments.",
+    "what_adapted": "UZ scale ($100M vs. UAE's multi-billion), focus on bilingual Uzbek-Russian rather than Arabic, distribution through MoDT/AI Center rather than independent research org.",
+    "authorizing_decree_ids": ["UZ-PP-2025-320", "UZ-PP-2024-358", "UZ-UP-2025-189"],
+    "regulatory_hurdles": "Foreign-vendor eligibility for the AI Fund will be defined in the criteria document — primary risk is local-only or JV-mandatory rule. Mitigation: structure as IT Park resident JV with Uzbek talent, leveraging UZ-PP-2024-087 digital export incentives.",
+    "ppp_feasible": true,
+    "lead_institution_id": "UZ-AI-CENTER",
+    "target_buyer_person_id": "uz-uzdigital-ai-center-head",
+    "operational_counterpart_person_id": "uz-mintsifry-dep3",
+    "procurement_pathway": "direct",
+    "primary_funding": "State budget (PP-320 $100M Fund)",
+    "secondary_funding_donor_program_id": "EBRD-UZ-DIGITAL-STRATEGY",
+    "estimated_initial_contract_usd": 5000000,
+    "estimated_3yr_revenue_usd": 25000000,
+    "competitive_landscape": "Empty-field opportunity: PP-320 is 6 months old and no foreign vendor has yet shaped Fund criteria. Russian-CIS vendors avoiding UZ over sanctions exposure; Western vendors slow to engage post-USAID exit; Chinese vendors (Huawei) targeting infrastructure not AI applications. Window for sntz.ai-style positioning is ≤6 months.",
+    "incumbents": ["MTS AI (Russia, sanctions-shy)", "Yandex Cloud (CIS, sanctions-exposed)", "Huawei Cloud Stack (UZ govcloud incumbent for infra not apps)"],
+    "mandatory_local_partner": "IT Park resident with Uzbek dev team — talent partner; not capital partner.",
+    "win_conditions": "Landing flagship status requires: (1) a published Russian-Uzbek bilingual LLM benchmark by Q3 2026; (2) at least one named MoDT or AI Center co-author or endorsement on the technical brief; (3) two diaspora bridge endorsements (Tursunov/Google + Toshmatov/Stanford) carried into the Fund's working group.",
+    "pilot_scope": "Sovereign Uzbek-Russian LLM v1 + EPIGU citizen chatbot pilot replacing the existing rule-based bot, tested against 20 of EPIGU's top services.",
+    "pilot_duration_months": 9,
+    "pilot_success_metrics": [
+      "≥85% intent classification accuracy across 20 EPIGU services in Russian and Uzbek",
+      "≥40% reduction in average citizen call-time vs. existing rule-based bot",
+      "Demonstrated Uzbek-Cyrillic and Uzbek-Latin script coverage with named MoDT validators",
+      "Tested under government cloud (UzCloud) data residency requirements"
+    ],
+    "scale_up_path": "After pilot, embed into EPIGU production and license to Supreme Court (UP-140), Mahalla registry (PP-2025-286), and Tax Committee — three-pronged scale across justice, social, fiscal verticals. Each absorbs the sovereign LLM as horizontal layer.",
+    "pitch_hook": "PP-320 commits $100M of state capital to back 50 AI projects through 2028. The Fund's criteria are being drafted now — and the evaluators have not yet seen a Russian-Uzbek bilingual sovereign LLM stack benchmarked at production parity. We can deliver the first flagship the President can name in his 2026 address.",
+    "risk_register": [
+      {
+        "risk_type": "political",
+        "description": "MoDT or AI Center leadership rotation between criteria-drafting and award decision could reset the relationship.",
+        "mitigation": "Anchor relationship at MoEF (Kuchkarov) and Presidential Administration (chief of staff) so the Fund's institutional memory persists across MoDT changes."
+      },
+      {
+        "risk_type": "commercial",
+        "description": "Fund criteria may impose local-only or JV-mandatory rules that disqualify foreign vendors.",
+        "mitigation": "Structure entry as IT Park resident JV with Uzbek talent partner from day one; use UZ-PP-2024-087 digital export rules to qualify as resident exporter."
+      },
+      {
+        "risk_type": "technical",
+        "description": "Bilingual Uzbek-Russian benchmark contested by competing claims (Yandex GPT, Sber GigaChat, MTS AI) which already have Russian baseline.",
+        "mitigation": "Publish open-licensed benchmark dataset and evaluation protocol with NUU AI Cluster co-authorship — third-party-verifiable Uzbek coverage is the moat, not raw Russian quality."
+      }
+    ],
+    "next_30_day_actions": [
+      "LinkedIn message to uz-mintsifry-dep3 (Deputy Minister AI & Innovation) referencing PP-320 criteria-drafting process and offering written brief on selection axes.",
+      "Warm-intro request through diaspora-uz-abror-tursunov-google to uz-uzdigital-ai-center-head citing Stanford HAI dialogue on sovereign LLM evaluation rubrics.",
+      "Submit pre-qualification expression of interest for tender UZ-TF-2026-002 (Sovereign Uzbek-Russian LLM, $20M) and UZ-TF-2026-001 (AI Cluster at NUU, $15M).",
+      "Attend Digital Bridge Tashkent 2026 (Sept 2026) where uz-mintsifry-minister and Saida Mirziyoyeva are confirmed speakers; book paid sponsor slot to gain on-stage adjacency."
+    ],
+    "scoring": {
+      "speed_to_contract": 9,
+      "strategic_moat": 10,
+      "defensibility": 9,
+      "capital_access": 10,
+      "russian_cis_fit": 10,
+      "weighted_total": 9.55,
+      "scoring_rationale": "Speed 9: Fund criteria drafting is open RIGHT NOW (May-Sept 2026), contract award in Q4 2026. Moat 10: Presidential decree, $100M state allocation, no incumbent has criteria-shaping access. Defensibility 9: foundation model + criteria authorship locks downstream verticals. Capital 10: $100M state Fund + EBRD digital co-financing pipeline. Russian/CIS Fit 10: Russian-Uzbek bilingual UX is REQUIRED, sntz.ai stack is a direct fit, Western vendors are slow."
+    },
+    "confidence_tier": "A",
+    "verification": "VERIFIED"
+  },
+  {
+    "id": "INI-002",
+    "short_name": "AI in Courts Phase 1 (UP-140)",
+    "country": "UZ",
+    "sector": "Justice & Rule of Law",
+    "one_liner": "Land Phase 1 implementation of AI-assisted civil-court document analysis and case-load triage under UP-140's Cifrli Adliya program.",
+    "problem_statement": "UP-140 (May 2025) commits the Supreme Court to deploy AI in civil-court document analysis, case routing, and judicial-decision support by Q4 2027, with $15M earmarked. The pilot RFP (UZ-T-2026-002, $8M, live) is open and will award in Q3 2026. No competing vendor has demonstrated Uzbek-Cyrillic + Russian dual-script legal NLP at production scale; Estonia's SALME (case-est-salme) and Kazakhstan e-Court (case-kz-ecourt) provide proven blueprints.",
+    "solution_concept": "Deliver a hybrid AI judicial-support stack: (1) Uzbek+Russian bilingual legal-NLP (case classification, statute citation extraction, decision-template suggestion) trained on the Supreme Court's existing case archive; (2) judge-facing workflow that drafts case summaries and flags inconsistencies in pleadings; (3) citizen-facing legal aid chatbot routing (links to UNDP-UZ-AI-COURTS donor program). Architecturally adapted from Estonia's SALME (semantic indexing of judicial decisions) preserved as core, but adapted for Uzbek-Cyrillic + Latin + Russian and Supreme Court appellate procedure. Sovereign data residency enforced through UzCloud deployment.",
+    "precedent_case_id": "case-est-salme",
+    "what_preserved": "SALME architecture: semantic indexing of legal decisions, judge-facing case summary auto-generation, decision-template recommender — all proven in production at Estonian Supreme Court 2022-2025.",
+    "what_adapted": "Triple-script legal corpus (Uzbek-Cyrillic, Uzbek-Latin, Russian), Uzbekistan's continental civil-law procedure, integration with existing Sud.uz portal infrastructure, UzCloud data residency.",
+    "authorizing_decree_ids": ["UZ-UP-2025-140", "UZ-LAW-2024-964", "UZ-PP-2024-358"],
+    "regulatory_hurdles": "Personal-data law UZ-LAW-2019-547 + UZ-LAW-2026-1125 amendment requires data localization for judicial PII. Mitigation: deploy fully on UzCloud (UZ-UZCLOUD), no foreign cloud dependency.",
+    "ppp_feasible": false,
+    "lead_institution_id": "UZ-SUPREME-COURT",
+    "target_buyer_person_id": "uz-bahrom-ismoilov",
+    "operational_counterpart_person_id": "uz-digitalcourt-proj-head",
+    "procurement_pathway": "donor_program",
+    "primary_funding": "State budget UP-140 ($15M) + UNDP-UZ-AI-COURTS donor co-financing ($2M)",
+    "secondary_funding_donor_program_id": "UNDP-UZ-AI-COURTS",
+    "estimated_initial_contract_usd": 8000000,
+    "estimated_3yr_revenue_usd": 22000000,
+    "competitive_landscape": "Two visible incumbents: Havelsan (Turkey, case-tr-havelsan-dijital-adalet, sectoral influence in Turkic markets) and Soliton (local UZ vendor with existing Sud.uz contracts). Havelsan is sanctions-clean and politically attractive; Soliton lacks AI capability. Russian vendors (Yandex Court Practice analyzer) are sanctions-exposed and politically risky. The Russian-Uzbek bilingual moat plus Estonia-blueprint (case-est-salme) is the differentiator.",
+    "incumbents": ["Havelsan (Turkey)", "Soliton (UZ local, IT Park resident)", "Yandex Court Practice (sanctions-exposed)"],
+    "mandatory_local_partner": "Local IT Park resident integrator for Sud.uz integration — Soliton or analogous; rev-share model.",
+    "win_conditions": "Win conditions for UZ-T-2026-002 ($8M): (1) Russian-Uzbek dual-script legal NLP demo by submission deadline; (2) Estonian SALME / Estonia eGA partnership endorsement letter; (3) UNDP TTL endorsement; (4) UZ Supreme Court IT department (uz-digitalcourt-proj-head) pre-buy on architecture.",
+    "pilot_scope": "Civil court document analysis pilot at Tashkent City civil court (highest case volume) covering 10,000+ cases; success expands to all 14 oblast courts.",
+    "pilot_duration_months": 12,
+    "pilot_success_metrics": [
+      "≥30% reduction in average case-document review time per judge",
+      "≥90% accuracy on Uzbek-Cyrillic + Uzbek-Latin + Russian citation extraction",
+      "Judge satisfaction ≥4.0/5.0 across Tashkent civil court bench",
+      "Zero PII leakage incidents (UzCloud audit trail)"
+    ],
+    "scale_up_path": "After Tashkent pilot, expand to 14 regional civil courts (Year 2), then Phase 2 criminal-procedure adaptation under UP-140 (Year 3). Long-term: license the underlying Uzbek legal-NLP stack to Ministry of Justice (notary digitization), Prosecutor's Office, and Anti-Monopoly Committee.",
+    "pitch_hook": "UP-140 commits the Supreme Court to deploy AI by Q4 2027 with $15M state budget. Estonia's SALME proves the architecture works in continental civil law. We bring the only production-ready Russian-Uzbek dual-script legal NLP stack — Phase 1 RFP UZ-T-2026-002 closes Q3 2026.",
+    "risk_register": [
+      {
+        "risk_type": "political",
+        "description": "Supreme Court Chairman rotation; Ismoilov's tenure not guaranteed through full pilot.",
+        "mitigation": "Build the relationship at the IT department (uz-digitalcourt-proj-head) where institutional memory survives appointment changes."
+      },
+      {
+        "risk_type": "technical",
+        "description": "Uzbek-Cyrillic vs. Uzbek-Latin script transition complexity; legal corpus is mixed and inconsistent.",
+        "mitigation": "Deliver a bidirectional script normalizer as part of deliverable; co-publish corpus standard with NUU."
+      },
+      {
+        "risk_type": "commercial",
+        "description": "Havelsan or Soliton bid lower with UZ government discount tradition.",
+        "mitigation": "Bundle UNDP donor co-financing to reduce vendor rate exposure; argue value on data localization and Russian-Uzbek bilingual capability that competitors lack."
+      }
+    ],
+    "next_30_day_actions": [
+      "Submit pre-qualification documentation for UZ-T-2026-002 by Q2 2026 deadline.",
+      "LinkedIn message to uz-digitalcourt-proj-head referencing UP-140 Phase 1 architecture and offering Estonia SALME comparison brief.",
+      "Schedule warm intro through kg-tonis-mae (eGA Estonia, KG context but Estonia connection) to e-Governance Academy Estonia for SALME endorsement letter.",
+      "Reach out to UNDP-UZ-AI-COURTS donor TTL via UNDP Tashkent office citing UNDP donor co-financing pathway."
+    ],
+    "scoring": {
+      "speed_to_contract": 10,
+      "strategic_moat": 9,
+      "defensibility": 9,
+      "capital_access": 9,
+      "russian_cis_fit": 10,
+      "weighted_total": 9.40,
+      "scoring_rationale": "Speed 10: live RFP UZ-T-2026-002 ($8M) closing Q3 2026, decision within 90 days. Moat 9: Presidential decree (UP-140), <3 incumbents, dual-script Russian-Uzbek legal NLP is differentiator. Defensibility 9: legal corpus + judge workflow lock-in, multi-year structure standard. Capital 9: $15M state + $2M UNDP co-financing confirmed. Russian/CIS Fit 10: Russian-Uzbek mandatory, sntz.ai stack direct fit."
+    },
+    "confidence_tier": "A",
+    "verification": "VERIFIED"
+  },
+  {
+    "id": "INI-003",
+    "short_name": "EPIGU AI Citizen Chatbot",
+    "country": "UZ",
+    "sector": "Public Administration & e-Government",
+    "one_liner": "Replace EPIGU's rule-based citizen bot with a sovereign Russian-Uzbek LLM chatbot covering 1000+ services, leveraging Bürokratt as architectural anchor.",
+    "problem_statement": "EPIGU (Uzbekistan's e-government portal) handles ~5M citizen interactions annually but its existing chatbot is rule-based and Uzbek-only. Live RFP UZ-T-2026-005 ($2.8M, AI chatbot for EPIGU in Russian and Uzbek) is open with submission Q2 2026 and forthcoming UZ-TF-2026-004 ($9.5M, agentic expansion to 1000+ services) follows in 2027. Estonia's Bürokratt — the world's reference virtual government assistant on X-Road — is direct architectural blueprint.",
+    "solution_concept": "Deliver Bürokratt-class agentic chatbot stack: (1) Russian-Uzbek bilingual conversational layer trained on EPIGU's existing service taxonomy; (2) X-Road-compatible inter-agency data fetcher (UZ has built MyID + Sud.uz interconnects which are X-Road-equivalent); (3) human-handoff escalation to Public Services Agency contact center; (4) audit-trail compliance with personal-data law (UZ-LAW-2019-547 + UZ-LAW-2026-1125). Architectural anchor: Bürokratt's modular bot + government LLM separation. UZ adaptation: triple-script Uzbek + Russian, MyID identity verification, integration with EPIGU's existing 350-service catalog scaling to 1000+.",
+    "precedent_case_id": "case-et-buerokratt",
+    "what_preserved": "Bürokratt architecture: modular bot framework, government-LLM-as-service backend, X-Road-style inter-agency identity fetch, human-handoff escalation, audit-trail logging.",
+    "what_adapted": "Triple-script Uzbek + Russian conversational coverage, MyID identity binding, EPIGU service taxonomy mapping, UzCloud data residency.",
+    "authorizing_decree_ids": ["UZ-UP-2024-132", "UZ-PP-2024-358", "UZ-PP-2025-286"],
+    "regulatory_hurdles": "Personal-data law amendments (UZ-LAW-2026-1125) require data localization. Mitigation: full UzCloud deployment.",
+    "ppp_feasible": false,
+    "lead_institution_id": "UZ-PUBLIC-SERVICES-AGENCY",
+    "target_buyer_person_id": "uz-epgu-product-head",
+    "operational_counterpart_person_id": "uz-mintsifry-dep3",
+    "procurement_pathway": "tender",
+    "primary_funding": "State budget UP-2024-132 implementation + WB-UZ-P179108 ($50M digital inclusion) co-financing pipeline",
+    "secondary_funding_donor_program_id": "WB-UZ-P179108",
+    "estimated_initial_contract_usd": 2800000,
+    "estimated_3yr_revenue_usd": 18000000,
+    "competitive_landscape": "EPIGU contracts have historically gone to Soliton (UZ local) and Uzinfocom (state SOE) for rule-based bots. No incumbent has demonstrated production LLM-based agentic capability in Russian-Uzbek. Yandex (sanctions-shy) and Sber GigaChat (sanctions-exposed) blocked. Open field for sntz.ai-style positioning — but speed matters.",
+    "incumbents": ["Soliton", "Uzinfocom", "Eskhata (UZ local)"],
+    "mandatory_local_partner": "IT Park resident integrator for EPIGU API integration — typically Soliton or Uzinfocom.",
+    "win_conditions": "(1) Russian-Uzbek demo at EPIGU's top-50 services by Q2 2026; (2) Bürokratt / e-Governance Academy endorsement letter; (3) WB-UZ-P179108 TTL endorsement on the value-add for digital inclusion; (4) Public Services Agency product head pre-buy on architecture.",
+    "pilot_scope": "Pilot at EPIGU covering top 50 citizen services in Russian + Uzbek; success extends to 350 (existing) then 1000+ (UZ-TF-2026-004 forthcoming).",
+    "pilot_duration_months": 8,
+    "pilot_success_metrics": [
+      "≥85% intent classification accuracy across 50 EPIGU services in Russian and Uzbek",
+      "≥70% citizen-question containment without human-handoff",
+      "Average response time ≤3 seconds",
+      "MyID-bound personalization for at least 10 services"
+    ],
+    "scale_up_path": "After 50-service pilot, scale to 350 (existing EPIGU catalog), then 1000+ via UZ-TF-2026-004 ($9.5M, 2027). Long-term: license the chatbot stack horizontally to MoJ (notary services), Mahalla (digital social registry under PP-2025-286), and Tax Committee.",
+    "pitch_hook": "Estonia's Bürokratt covers 50+ government services for 1.3M citizens. EPIGU serves 30M+ citizens but its bot is rule-based. UP-2024-132 commits to AI-first government services — RFP UZ-T-2026-005 ($2.8M) closes Q2 2026 and UZ-TF-2026-004 ($9.5M) follows. We are the only Russian-Uzbek LLM stack ready to deploy on UzCloud today.",
+    "risk_register": [
+      {
+        "risk_type": "commercial",
+        "description": "Soliton or Uzinfocom underbid as incumbents.",
+        "mitigation": "Bundle WB co-financing and Estonia eGA endorsement; argue Russian-Uzbek bilingual + LLM-grade containment is fundamentally different category vs. rule-based."
+      },
+      {
+        "risk_type": "technical",
+        "description": "EPIGU API documentation gaps slow integration.",
+        "mitigation": "Stage pilot to 50 services first; build API adapter layer that decouples LLM stack from EPIGU's evolving backend."
+      },
+      {
+        "risk_type": "political",
+        "description": "Public Services Agency leadership change between award and rollout.",
+        "mitigation": "Anchor product manager (uz-epgu-product-head) as primary stakeholder rather than agency director; PMs survive director changes."
+      }
+    ],
+    "next_30_day_actions": [
+      "Submit pre-qualification for UZ-T-2026-005 ($2.8M) by Q2 2026.",
+      "LinkedIn message to uz-epgu-product-head referencing UP-2024-132 and offering live Bürokratt-style demo.",
+      "Reach out to e-Governance Academy Estonia (kg-tonis-mae as bridge) for Bürokratt endorsement letter.",
+      "Schedule briefing with WB-UZ-P179108 TTL via WB Tashkent office citing $2.8M tender as catalytic for $50M digital inclusion goals."
+    ],
+    "scoring": {
+      "speed_to_contract": 10,
+      "strategic_moat": 8,
+      "defensibility": 8,
+      "capital_access": 9,
+      "russian_cis_fit": 10,
+      "weighted_total": 8.80,
+      "scoring_rationale": "Speed 10: live RFP $2.8M closing Q2 2026 plus $9.5M follow-on. Moat 8: presidential decree backing, sectoral priority, modest competition. Defensibility 8: multi-year contract structure, MyID binding lock-in, citizen adoption network effects. Capital 9: state budget + WB co-financing pipeline confirmed. Russian/CIS Fit 10: bilingual mandatory, sntz.ai direct fit."
+    },
+    "confidence_tier": "A",
+    "verification": "VERIFIED"
+  },
+  {
+    "id": "INI-004",
+    "short_name": "Tax Risk-Scoring AI for STC (UZ)",
+    "country": "UZ",
+    "sector": "Finance & Fiscal",
+    "one_liner": "Deploy AI risk-scoring for tax audit selection and e-invoice fraud detection at the State Tax Committee, replicating Kazakhstan Smart Bridge ($28M -> $400M Y1 ROI).",
+    "problem_statement": "Uzbekistan's tax gap is estimated at $2B+ annually, with weak audit-selection driving low recovery efficiency. Live RFP UZ-T-2026-010 ($3.2M, AI for tax fraud risk-scoring) is open with award expected Q3 2026. Kazakhstan Smart Bridge (case-kz-smartbridge-tax) returned $400M in Year 1 on $28M investment — same architectural recipe is directly transferable.",
+    "solution_concept": "Three-layer AI risk-scoring stack: (1) e-invoice graph anomaly detection (vendor-customer relationship graphs, round-trip flags); (2) audit-selection model trained on STC's historical audit outcomes; (3) explainability dashboard for STC inspectors with case-specific rationale. Architectural anchor: Kazakhstan Smart Bridge — preserved as core graph-based fraud-detection design. UZ adaptation: integration with UZ's existing e-invoice mandate (in force since 2022 under UZ-LAW-2022-792 e-commerce law) and STC's case management system. Sovereign deployment on UzCloud.",
+    "precedent_case_id": "case-kz-smartbridge-tax",
+    "what_preserved": "Smart Bridge architecture: vendor-customer relationship graph, anomaly scoring, audit-selection model with explainable rationale, $400M Y1 ROI on $28M investment as verified Kazakhstan precedent.",
+    "what_adapted": "UZ tax law specifics, integration with STC's case management, Russian-Uzbek bilingual UX for inspectors, UzCloud deployment.",
+    "authorizing_decree_ids": ["UZ-LAW-2022-792", "UZ-PP-2024-358", "UZ-UP-2025-189"],
+    "regulatory_hurdles": "Tax data is highly sensitive; PII residency mandatory. Mitigation: deploy on UzCloud, all model training on-prem at STC.",
+    "ppp_feasible": true,
+    "lead_institution_id": "UZ-GNK",
+    "target_buyer_person_id": "uz-gnk-head",
+    "operational_counterpart_person_id": "uz-minfinance-digi-dept",
+    "procurement_pathway": "tender",
+    "primary_funding": "State budget (STC modernization line) + WB-UZ-FINREFORM-P176353 co-financing pathway",
+    "secondary_funding_donor_program_id": "WB-UZ-FINREFORM-P176353",
+    "estimated_initial_contract_usd": 3200000,
+    "estimated_3yr_revenue_usd": 24000000,
+    "competitive_landscape": "Kazakhstan Smart Bridge was delivered by a JV of local vendor + global advisory (typically PwC or Deloitte for advisory layer). UZ analogous incumbents: Soliton (local) for IT, no clear AI specialist. Russian vendors (Sber AI) sanctions-exposed. SAS, Palantir politically heavy. Open positioning for Russian-CIS-friendly delivery.",
+    "incumbents": ["Soliton (local IT)", "PwC (advisory layer for KZ Smart Bridge)", "SAS Institute (international)"],
+    "mandatory_local_partner": "Soliton or analogous IT Park resident for STC integration; advisory layer can be foreign.",
+    "win_conditions": "(1) Kazakhstan Smart Bridge case study with explicit endorsement (Kazakhstan tax committee or KZ MoF reference); (2) live demo of e-invoice graph anomaly detection on synthetic UZ data; (3) WB-UZ-FINREFORM TTL endorsement; (4) MoEF Digital Finance Department (uz-minfinance-digi-dept) pre-buy on architecture.",
+    "pilot_scope": "Pilot at Tashkent City STC office covering ~200K legal-entity taxpayers; e-invoice graph + audit-selection model.",
+    "pilot_duration_months": 9,
+    "pilot_success_metrics": [
+      "≥40% improvement in audit-selection precision (pilot vs. status quo)",
+      "≥$30M in recovered tax revenue from pilot audit batch (extrapolated annualized)",
+      "≥50 inspectors trained and using the explainability dashboard",
+      "Zero PII leakage; full audit trail on UzCloud"
+    ],
+    "scale_up_path": "After Tashkent pilot, scale to 14 oblast STC offices (Year 2). Year 3: extend to State Customs Committee (similar architecture, customs risk-scoring) and Anti-Monopoly Committee (cartel detection). Cross-sell horizontally.",
+    "pitch_hook": "Kazakhstan Smart Bridge returned $400M in Year 1 on $28M investment — verified case-kz-smartbridge-tax. Uzbekistan's tax gap is $2B+ and rising. RFP UZ-T-2026-010 closes Q3 2026 — we deliver the only Russian-Uzbek bilingual stack with the Smart Bridge architectural recipe.",
+    "risk_register": [
+      {
+        "risk_type": "political",
+        "description": "STC chairman rotation (Uzbek tax administration has had multiple chair changes since 2017).",
+        "mitigation": "Anchor at MoEF Digital Finance Department (uz-minfinance-digi-dept), which spans STC cycles."
+      },
+      {
+        "risk_type": "technical",
+        "description": "STC e-invoice data quality gaps; historical audit outcomes may be biased.",
+        "mitigation": "Phase 1 builds on synthetic + de-biased subset; Phase 2 expands as data quality improves through pilot feedback loop."
+      },
+      {
+        "risk_type": "commercial",
+        "description": "Kazakhstan vendor incumbents (e.g., Documentolog, Lemon Tax) may pursue UZ market under EAEU framework.",
+        "mitigation": "Lead with Russian-Uzbek bilingual UX and UZ-specific tax-code mapping; KZ vendors typically Russian-Kazakh and need UZ adaptation."
+      }
+    ],
+    "next_30_day_actions": [
+      "Submit pre-qualification for UZ-T-2026-010 ($3.2M) by Q3 2026.",
+      "Schedule briefing with uz-gnk-head via Tashkent business chamber referencing Kazakhstan Smart Bridge ROI.",
+      "Reach out to WB-UZ-FINREFORM-P176353 TTL through WB Tashkent office citing fiscal-reform DPF lever.",
+      "Warm-intro through diaspora-uz-laziz-umarov-bcg (BCG Tech Advantage) to MoEF Digital Finance Department citing comparative tax-AI ROI."
+    ],
+    "scoring": {
+      "speed_to_contract": 10,
+      "strategic_moat": 9,
+      "defensibility": 8,
+      "capital_access": 9,
+      "russian_cis_fit": 9,
+      "weighted_total": 9.05,
+      "scoring_rationale": "Speed 10: live RFP $3.2M Q3 2026. Moat 9: PP-358 AI strategy backing, < 3 vendors with KZ-Smart-Bridge-equivalent capability. Defensibility 8: multi-year, integration depth, cross-sells to customs/AMC. Capital 9: state budget + WB DPF lever. Russian/CIS Fit 9: bilingual UX preferred, sntz.ai stack direct fit."
+    },
+    "confidence_tier": "A",
+    "verification": "VERIFIED"
+  },
+  {
+    "id": "INI-005",
+    "short_name": "AI Customs Risk-Scoring (SafeGate UZ)",
+    "country": "UZ",
+    "sector": "Finance & Fiscal",
+    "one_liner": "Deploy AI risk-scoring for customs declarations at SCC, replicating Kazakhstan eGümrük (case-kz-egumen-border) plus India ICEGATE patterns.",
+    "problem_statement": "Uzbekistan's customs leakage and inefficiency is estimated at 15-25% of formal import duties, with manual risk-flagging unable to keep pace with Belt & Road traffic growth. Forthcoming RFP UZ-TF-2026-010 ($4.2M, AI customs risk-scoring SafeGate) is in pipeline for late 2026. Kazakhstan eGümrük is direct architectural precedent.",
+    "solution_concept": "AI customs risk-scoring stack: (1) declaration anomaly detection (HS code mismatch, valuation outliers, broker-pattern flags); (2) container/truck routing risk score (origin × commodity × broker × historical pattern); (3) inspector-facing dashboard with explainability. Architectural anchor: Kazakhstan eGümrük preserved as core. UZ adaptation: SCC's existing customs declaration system integration, Russian-Uzbek bilingual inspector UX, UzCloud deployment.",
+    "precedent_case_id": "case-kz-egumen-border",
+    "what_preserved": "eGümrük architecture: declaration anomaly detection, broker-pattern analysis, inspector-facing risk dashboard.",
+    "what_adapted": "UZ HS-code library, integration with SCC declaration system, bilingual inspector UX, UzCloud deployment.",
+    "authorizing_decree_ids": ["UZ-PP-2024-358", "UZ-UP-2025-189"],
+    "regulatory_hurdles": "Customs data export controls; full UzCloud deployment required.",
+    "ppp_feasible": true,
+    "lead_institution_id": "UZ-GTK",
+    "target_buyer_person_id": "uz-icta-head",
+    "operational_counterpart_person_id": "uz-mintsifry-dep2",
+    "procurement_pathway": "tender",
+    "primary_funding": "State budget (SCC modernization) + ADB-UZ-EGOVT-PIPELINE potential co-financing",
+    "secondary_funding_donor_program_id": "ADB-UZ-EGOVT-PIPELINE",
+    "estimated_initial_contract_usd": 4200000,
+    "estimated_3yr_revenue_usd": 16000000,
+    "competitive_landscape": "Customs IT in UZ historically dominated by Crimson Logic (Singapore) and local SOE vendors. AI-specific risk-scoring is a fresh layer with no clear incumbent. Russian vendors politically risky for customs (sanctions-adjacent). Open positioning.",
+    "incumbents": ["Crimson Logic (Singapore)", "Soliton (UZ local)", "Uzinfocom"],
+    "mandatory_local_partner": "Soliton or Uzinfocom for SCC system integration.",
+    "win_conditions": "(1) Kazakhstan eGümrük case-study endorsement; (2) demonstration on synthetic UZ customs data; (3) ADB pipeline TTL endorsement; (4) ICTA director (uz-icta-head) pre-buy.",
+    "pilot_scope": "Tashkent airport + Tashkent regional customs office (highest declaration volume); ~50K declarations/month.",
+    "pilot_duration_months": 9,
+    "pilot_success_metrics": [
+      "≥35% improvement in customs-declaration risk-flag precision",
+      "≥$15M annualized recovery from pilot batch",
+      "≥30 inspectors trained on dashboard",
+      "Latency ≤2 seconds per declaration scoring"
+    ],
+    "scale_up_path": "Expand to all 12 customs posts on Middle Corridor + Afghan transit (Year 2). Year 3: integrate with State Tax Committee for cross-domain fraud (INI-004 cross-sell).",
+    "pitch_hook": "Kazakhstan eGümrük cuts customs fraud by 30%+ on $5B+ annual flow. Uzbekistan's customs gap is similar-or-larger. UZ-TF-2026-010 ($4.2M) is in pipeline for late 2026 — we deliver Russian-Uzbek bilingual SafeGate stack on UzCloud, no Western or Russian sanctions exposure.",
+    "risk_register": [
+      {
+        "risk_type": "political",
+        "description": "Customs is politically sensitive (smuggling networks); reform leadership rotation common.",
+        "mitigation": "Anchor at MoDT (uz-mintsifry-dep2) and ICTA where digital-transformation mandate spans political cycles."
+      },
+      {
+        "risk_type": "commercial",
+        "description": "Crimson Logic has incumbency on customs IT; may bid integrated.",
+        "mitigation": "Position as AI-overlay on existing Crimson Logic system rather than replacement; partnership angle."
+      },
+      {
+        "risk_type": "technical",
+        "description": "Customs declaration data inconsistent quality (broker errors, incomplete fields).",
+        "mitigation": "Data-quality preprocessing layer; phase 1 focuses on highest-quality declaration class."
+      }
+    ],
+    "next_30_day_actions": [
+      "Track UZ-TF-2026-010 publication via gov.uz procurement portal.",
+      "LinkedIn message to uz-icta-head referencing UZ-TF-2026-010 pipeline and offering eGümrük comparison brief.",
+      "Reach out to ADB-UZ-EGOVT-PIPELINE TTL (uz-yun-ji-suh) for pipeline alignment dialogue.",
+      "Explore partnership conversation with Crimson Logic UZ rep at upcoming WCO (World Customs Organization) regional conference."
+    ],
+    "scoring": {
+      "speed_to_contract": 8,
+      "strategic_moat": 8,
+      "defensibility": 8,
+      "capital_access": 8,
+      "russian_cis_fit": 9,
+      "weighted_total": 8.15,
+      "scoring_rationale": "Speed 8: forthcoming RFP $4.2M in pipeline late 2026. Moat 8: PP-358 backing, modest competition. Defensibility 8: multi-year, integration depth. Capital 8: state + ADB pipeline. Russian/CIS Fit 9: bilingual UX, UzCloud, sntz.ai stack."
+    },
+    "confidence_tier": "A",
+    "verification": "VERIFIED"
+  },
+  {
+    "id": "INI-006",
+    "short_name": "Sovereign Uzbek-Russian LLM (Foundation Model)",
+    "country": "UZ",
+    "sector": "AI Infrastructure (Enabling Layer)",
+    "one_liner": "Build the sovereign Uzbek-Russian foundation model for government deployments, anchored by UP-189 and forthcoming tender UZ-TF-2026-011 ($12M).",
+    "problem_statement": "UP-189 (May 2025) commits to AI development with sovereign capability priority. Forthcoming tender UZ-TF-2026-011 ($12M, sovereign Uzbek-Russian language model for government use) is in pipeline. No existing model has demonstrated production-quality bilingual Uzbek-Cyrillic + Uzbek-Latin + Russian coverage; UAE Falcon and Saudi SDAIA models are direct architectural anchors with known training methodology.",
+    "solution_concept": "Train and deliver a 7B-13B parameter Uzbek-Russian sovereign LLM optimized for government use cases: legal NLP, citizen services, education, healthcare conversation. Architectural anchor: Falcon LLM training methodology (data curation, instruction tuning, RLHF) preserved. UZ adaptation: triple-script Uzbek + Russian corpus, government domain specialization, NUU AI Cluster co-publication for academic credibility.",
+    "precedent_case_id": "case-ae-falcon-llm",
+    "what_preserved": "Falcon training methodology, sovereign-fund-backed model strategy, downstream verticalization model.",
+    "what_adapted": "Russian-Uzbek bilingual focus (vs. Arabic), 7-13B scale (vs. larger Falcon variants), government-deployment-first product strategy.",
+    "authorizing_decree_ids": ["UZ-UP-2025-189", "UZ-PP-2024-358", "UZ-PP-2025-320"],
+    "regulatory_hurdles": "Training data residency; corpus licensing requires NUU and MoDT institutional support.",
+    "ppp_feasible": true,
+    "lead_institution_id": "UZ-AI-CENTER",
+    "target_buyer_person_id": "uz-uzdigital-ai-center-head",
+    "operational_counterpart_person_id": "uz-nuu-rector",
+    "procurement_pathway": "tender",
+    "primary_funding": "PP-2025-320 $100M AI Fund + state budget UP-189 + NUU AI Cluster compute allocation",
+    "secondary_funding_donor_program_id": "EBRD-UZ-DIGITAL-STRATEGY",
+    "estimated_initial_contract_usd": 12000000,
+    "estimated_3yr_revenue_usd": 35000000,
+    "competitive_landscape": "Sovereign LLM tenders globally have gone to: domestic teams (UAE TII for Falcon), JVs (KZ AI Strategy 2024 — Kazakh teams), or Western primes (Anthropic Claude, OpenAI for SaaS). UZ is empty field — Yandex/Sber sanctions-exposed; OpenAI/Anthropic SaaS cannot deliver sovereign deployment; no Uzbek incumbent has the talent stack. Strategic prize.",
+    "incumbents": ["TII UAE (Falcon, foreign reference)", "KZ NU AI Lab (regional comparator)", "Yandex GPT (sanctions-exposed)"],
+    "mandatory_local_partner": "NUU AI Cluster as co-publisher; provides academic credibility and on-shore talent.",
+    "win_conditions": "(1) Pre-published bilingual Russian-Uzbek benchmark with NUU co-authorship by Q2 2026; (2) AI Center director (uz-uzdigital-ai-center-head) endorsement; (3) integration plan into INI-001 ($100M Fund) flagship application; (4) compute provisioning plan via UzCloud or NUU GPU cluster.",
+    "pilot_scope": "Phase 1: 7B parameter sovereign Uzbek-Russian model, instruction-tuned on government domain corpus, deployed on UzCloud as government API.",
+    "pilot_duration_months": 12,
+    "pilot_success_metrics": [
+      "≥80% on UZ-language NLP benchmark (custom, co-published with NUU)",
+      "Russian benchmark within 10% of Yandex GPT/Sber GigaChat on UZ-relevant tasks",
+      "Uzbek-Cyrillic and Uzbek-Latin script parity within 5%",
+      "Deployment latency ≤ 500ms p95 on UzCloud government API"
+    ],
+    "scale_up_path": "Year 2: 13B parameter model, expanded domain corpus (legal, medical, education). Year 3: license to private-sector UZ deployments (banking, telco, retail) generating recurring revenue stream beyond government.",
+    "pitch_hook": "UAE Falcon LLM made the UAE a sovereign-AI exporter. UP-189 and the $100M AI Fund (PP-320) commit Uzbekistan to its own. Tender UZ-TF-2026-011 ($12M) is in pipeline — we deliver the only production-ready Russian-Uzbek bilingual stack with NUU AI Cluster co-publication.",
+    "risk_register": [
+      {
+        "risk_type": "political",
+        "description": "MoDT minister rotation; AI Center is new institution with thin institutional memory.",
+        "mitigation": "Anchor at NUU AI Cluster (academic) and Presidential Administration digital advisor — both span MoDT cycles."
+      },
+      {
+        "risk_type": "technical",
+        "description": "Uzbek corpus quality and quantity may be insufficient for 13B-class training; script transition complicates corpus curation.",
+        "mitigation": "Lead with 7B model and Russian foundation + Uzbek instruction tuning; co-publish corpus standard with NUU to bootstrap quality."
+      },
+      {
+        "risk_type": "commercial",
+        "description": "Compute cost (GPU H100/H200 supply chain into UZ) is a key risk; sanctions/export-control complications.",
+        "mitigation": "Lock UzCloud or NUU GPU compute commitment in writing before training begins; explore Huawei Ascend alternative under CHINA-DSR-UZ-GOVCLOUD program."
+      }
+    ],
+    "next_30_day_actions": [
+      "LinkedIn message to uz-uzdigital-ai-center-head referencing UP-189 and offering technical brief on bilingual sovereign LLM training methodology.",
+      "Schedule meeting with uz-nuu-rector through diaspora-uz-akbar-toshmatov-stanford (Stanford HAI) for NUU AI Cluster partnership.",
+      "Reach out to EBRD-UZ-DIGITAL-STRATEGY country team for digital-economy strategy alignment dialogue.",
+      "Track UZ-TF-2026-011 publication and pre-position via UZ-TF-2026-008 ($3M, AI Center of Excellence) bid as warm-up."
+    ],
+    "scoring": {
+      "speed_to_contract": 8,
+      "strategic_moat": 10,
+      "defensibility": 10,
+      "capital_access": 10,
+      "russian_cis_fit": 10,
+      "weighted_total": 9.50,
+      "scoring_rationale": "Speed 8: forthcoming tender ~12 months. Moat 10: presidential decree, sovereign capability priority, no incumbent. Defensibility 10: foundation model lock-in across all downstream verticals, network effects from API adoption. Capital 10: $100M AI Fund + EBRD strategy. Russian/CIS Fit 10: bilingual mandatory, sntz.ai direct fit."
+    },
+    "confidence_tier": "A",
+    "verification": "VERIFIED"
+  },
+  {
+    "id": "INI-007",
+    "short_name": "Sovereign AI Compute Cluster (NUU + UzCloud)",
+    "country": "UZ",
+    "sector": "AI Infrastructure (Enabling Layer)",
+    "one_liner": "Establish the sovereign AI compute cluster at NUU AI Cluster connected to UzCloud, anchoring the foundation-model and verticals stack.",
+    "problem_statement": "UZ has no production-grade sovereign AI compute cluster; current government AI workloads dependent on Huawei Cloud Stack (CHINA-DSR-UZ-GOVCLOUD) or commercial cloud abroad. Live RFP UZ-T-2026-001 ($50M, GPU compute cluster) is open and forthcoming UZ-TF-2026-005 ($35M, consolidated data center) follows. NUU AI Cluster is the policy-blessed academic anchor.",
+    "solution_concept": "Deliver a hybrid GPU compute cluster: (1) ~500 H100/H200 or equivalent GPUs (or Huawei Ascend hybrid for sanction-resilience); (2) UzCloud-integrated multi-tenant orchestration; (3) NUU AI Cluster academic co-host for research uses; (4) government tenant priority with private-sector secondary tenancy. Architectural anchor: combination of Singapore PAIR (case-sg-pair-govt-llm) compute design + Saudi SDAIA (case-sa-sdaia-ai-edu) academic-government hybrid.",
+    "precedent_case_id": "case-sg-pair-govt-llm",
+    "what_preserved": "Singapore PAIR architecture: government-priority compute, multi-tenant orchestration, foundation-model + downstream-app split.",
+    "what_adapted": "Hybrid Huawei Ascend resilience layer for sanctions-clean operation; NUU AI Cluster academic-host model.",
+    "authorizing_decree_ids": ["UZ-UP-2025-189", "UZ-PP-2025-320", "UZ-PP-2024-358"],
+    "regulatory_hurdles": "Export controls on H100/H200 to UZ; Huawei Ascend regulatory acceptance under MoDT cybersecurity framework.",
+    "ppp_feasible": true,
+    "lead_institution_id": "UZ-AI-CENTER",
+    "target_buyer_person_id": "uz-uzdigital-ai-center-head",
+    "operational_counterpart_person_id": "uz-egov-uzcloud-head",
+    "procurement_pathway": "tender",
+    "primary_funding": "State budget UP-189 + PP-2025-320 AI Fund co-financing",
+    "secondary_funding_donor_program_id": "AIIB-UZ-TELECOM-P000758",
+    "estimated_initial_contract_usd": 50000000,
+    "estimated_3yr_revenue_usd": 80000000,
+    "competitive_landscape": "Compute cluster RFPs globally are dominated by NVIDIA reference architectures (Dell, HPE, Lenovo as integrators) or Huawei Ascend reference (Huawei direct). UZ has visible Huawei (CHINA-DSR-UZ-GOVCLOUD) and emerging IT Park resident integrators. Russian vendors (Sber Cloud) blocked. Western primes politically heavy.",
+    "incumbents": ["Huawei (govcloud incumbent)", "Dell/HPE (NVIDIA reference)", "Inspur (China)"],
+    "mandatory_local_partner": "Uzinfocom or IT Park resident system integrator for UzCloud orchestration tier.",
+    "win_conditions": "(1) Hybrid NVIDIA-Huawei resilience design (sanctions-clean fallback); (2) NUU AI Cluster co-host commitment; (3) AIIB telecom infrastructure co-financing pathway; (4) MoDT and AI Center joint endorsement.",
+    "pilot_scope": "Phase 1: 100-GPU pilot cluster at NUU AI Cluster supporting INI-006 sovereign LLM training and 3 government AI workloads.",
+    "pilot_duration_months": 12,
+    "pilot_success_metrics": [
+      "100 GPU pilot operational with ≥95% uptime",
+      "Successfully trains 7B sovereign LLM (INI-006) within 90 days",
+      "Hosts at least 3 production government AI workloads",
+      "Export-control and sanctions-resilience review pass"
+    ],
+    "scale_up_path": "Year 2: scale to 500 GPUs; Year 3: 1000+ with private-sector multi-tenant hosting and regional Central Asia AI hub positioning.",
+    "pitch_hook": "Singapore PAIR proves a sovereign AI compute cluster catalyzes a national AI economy. UP-189 and the $100M AI Fund commit UZ to follow. RFP UZ-T-2026-001 ($50M) is live. We design the hybrid NVIDIA-Huawei resilience cluster co-hosted with NUU AI Cluster — sanctions-resilient, sovereign, ready.",
+    "risk_register": [
+      {
+        "risk_type": "commercial",
+        "description": "Export-control on H100/H200 GPUs to UZ; supply-chain delay or denial.",
+        "mitigation": "Hybrid Huawei Ascend fallback designed in from day one; not a single-supplier risk."
+      },
+      {
+        "risk_type": "political",
+        "description": "MoDT vs. AI Center vs. NUU governance ambiguity over compute tenant priority.",
+        "mitigation": "Pre-negotiate tenancy SLA with all three institutional stakeholders before procurement."
+      },
+      {
+        "risk_type": "technical",
+        "description": "Hybrid NVIDIA-Huawei orchestration is technically complex; few global precedents.",
+        "mitigation": "Phase 1 starts NVIDIA-only; Huawei Ascend tier added in Year 2 once orchestration matures."
+      }
+    ],
+    "next_30_day_actions": [
+      "Submit pre-qualification for UZ-T-2026-001 ($50M).",
+      "Schedule meeting with uz-egov-uzcloud-head referencing AI compute integration with UzCloud.",
+      "Reach out to AIIB-UZ-TELECOM-P000758 country team for digital infrastructure co-financing dialogue.",
+      "Engage diaspora-uz-farida-rakhimova-amazon (AWS) for compute supply-chain advisory and diaspora-uz-sarvar-sadikov-meta (Meta AI Infra) for orchestration architecture review."
+    ],
+    "scoring": {
+      "speed_to_contract": 9,
+      "strategic_moat": 9,
+      "defensibility": 9,
+      "capital_access": 9,
+      "russian_cis_fit": 9,
+      "weighted_total": 9.00,
+      "scoring_rationale": "Speed 9: live RFP $50M Q3 2026. Moat 9: presidential decree, sovereign-compute priority. Defensibility 9: infrastructure lock-in, multi-year SLA standard. Capital 9: state + AIIB + AI Fund co-financing. Russian/CIS Fit 9: sntz.ai stack direct fit; UzCloud integration."
+    },
+    "confidence_tier": "A",
+    "verification": "VERIFIED"
+  },
+  {
+    "id": "INI-008",
+    "short_name": "Healthcare AI Diagnostic Platform (UZ)",
+    "country": "UZ",
+    "sector": "Health",
+    "one_liner": "Deploy AI-assisted clinical decision support across primary care and oblast hospitals, replicating Kazakhstan Damumed (case-kz-damumed) on $200M WB Health Modernization rails.",
+    "problem_statement": "UZ healthcare is undergoing major reform under PP-2024-038 + UP-2025-088, with $200M WB Health System Modernization (WB-UZ-HEALTH-P178562) co-financing. Live tender UZ-T-2026-003 ($6.5M, digital medical info system extension) is open; forthcoming UZ-TF-2026-003 ($8.5M, AI e-prescription with monitoring) follows. Kazakhstan Damumed proves the architecture; UZ adaptation needed.",
+    "solution_concept": "AI clinical decision support stack: (1) primary-care AI triage (chief complaint to differential diagnosis, integrated with E-Health Center system); (2) prescription appropriateness checker (integrated with UZ-TF-2026-003 e-prescription tender); (3) imaging AI (chest x-ray, retina) for oblast hospitals where radiologists are scarce. Architectural anchor: Damumed preserved as core. UZ adaptation: Russian-Uzbek bilingual UX for clinicians, integration with UZ E-Health Center, UzCloud deployment.",
+    "precedent_case_id": "case-kz-damumed",
+    "what_preserved": "Damumed clinical decision support architecture, AI imaging integration, multi-tenant cloud delivery.",
+    "what_adapted": "UZ clinical guidelines (continental civil-medicine), Russian-Uzbek UX, integration with E-Health Center.",
+    "authorizing_decree_ids": ["UZ-PP-2024-038", "UZ-UP-2025-088", "UZ-PP-2024-311", "UZ-PP-2025-185"],
+    "regulatory_hurdles": "Medical device regulation (UZ Ministry of Health certification), patient PII residency, MyID-bound consent.",
+    "ppp_feasible": true,
+    "lead_institution_id": "UZ-MINZDRAV",
+    "target_buyer_person_id": "uz-amrillo-inoyatov",
+    "operational_counterpart_person_id": "uz-ehealth-center-head",
+    "procurement_pathway": "donor_program",
+    "primary_funding": "WB-UZ-HEALTH-P178562 ($200M) + state budget Health Reform line",
+    "secondary_funding_donor_program_id": "WB-UZ-HEALTH-P178562",
+    "estimated_initial_contract_usd": 6500000,
+    "estimated_3yr_revenue_usd": 28000000,
+    "competitive_landscape": "Damumed (KZ vendor extension to UZ via EAEU), local UZ vendors (Soliton-Med), and global incumbents (IBM Watson, Siemens Healthineers). Damumed has direct route via Kazakhstan-Uzbekistan health cooperation; we differentiate on Russian-Uzbek bilingual + UZ-specific clinical guidelines integration.",
+    "incumbents": ["Damumed (KZ extension)", "Siemens Healthineers", "Soliton-Med (UZ local)"],
+    "mandatory_local_partner": "Soliton-Med or analogous UZ MedTech IT integrator.",
+    "win_conditions": "(1) WB-UZ-HEALTH-P178562 TTL endorsement; (2) E-Health Center director pre-buy; (3) MoH certification readiness; (4) Russian-Uzbek clinical-NLP demo on real-world UZ guidelines.",
+    "pilot_scope": "Pilot at 5 Tashkent City and 5 oblast (Samarkand) primary-care clinics + 2 oblast hospitals; ~50K patient encounters.",
+    "pilot_duration_months": 12,
+    "pilot_success_metrics": [
+      "≥30% clinician time savings on documentation",
+      "≥85% AI triage accuracy validated against board-certified physician",
+      "≥95% prescription-appropriateness alert precision",
+      "Successful MoH medical-device certification"
+    ],
+    "scale_up_path": "Year 2: expand to all 14 oblasts; Year 3: link to State Medical Insurance (under PP-2024-311) for outcome-based payment integration.",
+    "pitch_hook": "Kazakhstan Damumed proved AI clinical decision support reduces oblast-hospital diagnostic error by 25%+. UZ has 12,000 primary-care clinicians and a $200M WB modernization envelope. RFP UZ-T-2026-003 ($6.5M) closes Q3 2026 — we deliver Russian-Uzbek bilingual Damumed-class stack on UzCloud.",
+    "risk_register": [
+      {
+        "risk_type": "political",
+        "description": "Health minister rotation (UZ MoH has rotated multiple times since 2017).",
+        "mitigation": "Anchor at E-Health Center director (uz-ehealth-center-head) who survives ministerial cycles."
+      },
+      {
+        "risk_type": "technical",
+        "description": "Clinical data quality and EHR adoption uneven across oblasts; AI training data biased toward urban.",
+        "mitigation": "Federated training; phase 1 limited to data-rich oblasts; expand as data quality improves."
+      },
+      {
+        "risk_type": "commercial",
+        "description": "Damumed has KZ-UZ health cooperation channel and may underbid.",
+        "mitigation": "Lead with Russian-Uzbek bilingual + UZ guidelines; partner positioning rather than direct compete."
+      }
+    ],
+    "next_30_day_actions": [
+      "Submit pre-qualification for UZ-T-2026-003 ($6.5M) by Q3 2026.",
+      "Schedule briefing with uz-ehealth-center-head referencing Damumed precedent and Russian-Uzbek bilingual differentiation.",
+      "Reach out to WB-UZ-HEALTH-P178562 TTL via WB Tashkent office for donor-program TTL endorsement letter.",
+      "Engage diaspora-uz-dilnoza-askarova-hsbc bridge to UZ MoH digital health partners and clinical advisors."
+    ],
+    "scoring": {
+      "speed_to_contract": 9,
+      "strategic_moat": 8,
+      "defensibility": 9,
+      "capital_access": 10,
+      "russian_cis_fit": 9,
+      "weighted_total": 8.95,
+      "scoring_rationale": "Speed 9: live RFP $6.5M Q3 2026 + $8.5M follow-on. Moat 8: presidential decree + WB co-financing, modest competition. Defensibility 9: clinical workflow lock-in, multi-year. Capital 10: $200M WB + state. Russian/CIS Fit 9: bilingual clinical UX, UzCloud."
+    },
+    "confidence_tier": "A",
+    "verification": "VERIFIED"
+  },
+  {
+    "id": "INI-009",
+    "short_name": "Geospatial NSDI AI Imagery (UZ)",
+    "country": "UZ",
+    "sector": "Agriculture & Water",
+    "one_liner": "Deliver AI-powered satellite imagery analysis and digital cadastre for UZ NSDI under WB P506803 ($40.7M), replicating Singapore Virtual Singapore + India Bhuvan.",
+    "problem_statement": "UZ Geospatial NSDI under WB-UZ-P506803 ($40.7M) is in active phase with multiple component RFPs in 2026. Live tender UZ-T-2026-004 ($4.2M, NSDI consulting) is open and forthcoming UZ-TF-2026-015 ($9.8M, NSDI Component B equipment) follows. Singapore Virtual Singapore (case-sg-virtual-singapore-cadastre) and India Bhuvan (case-in-isro-bhuvan) are direct architectural anchors.",
+    "solution_concept": "AI imagery + cadastre stack: (1) satellite imagery anomaly detection (illegal construction, land-use change, flood damage); (2) digital cadastre AI (parcel boundary auto-extraction, building footprint vectorization); (3) Russian-Uzbek bilingual GIS analyst UX. Architectural anchor: Virtual Singapore for 3D digital twin + Bhuvan for satellite imagery + ML pipeline. UZ adaptation: integration with State Cadastre Committee (UZ-CADASTRE) existing parcel database.",
+    "precedent_case_id": "case-sg-virtual-singapore-cadastre",
+    "what_preserved": "Virtual Singapore architecture: 3D digital twin, multi-source imagery integration, public-API tier.",
+    "what_adapted": "UZ scale (Tashkent + 14 oblasts), Russian-Uzbek bilingual GIS UX, integration with State Cadastre Committee.",
+    "authorizing_decree_ids": ["UZ-UP-2024-155", "UZ-PP-2024-358"],
+    "regulatory_hurdles": "Geospatial data classified at intelligence level; collaboration with Space Agency (UZ-SPACE-AGENCY) and Cadastre required.",
+    "ppp_feasible": true,
+    "lead_institution_id": "UZ-CADASTRE",
+    "target_buyer_person_id": "uz-cadastre-director",
+    "operational_counterpart_person_id": "uz-uzgps-piu-director",
+    "procurement_pathway": "donor_program",
+    "primary_funding": "WB-UZ-P506803 ($40.7M)",
+    "secondary_funding_donor_program_id": "WB-UZ-P506803",
+    "estimated_initial_contract_usd": 4200000,
+    "estimated_3yr_revenue_usd": 18000000,
+    "competitive_landscape": "Geospatial AI tenders globally compete: ESRI (US, expensive), Hexagon (Sweden), Bentley (US), local IT Park residents (UZ, AI-light), and Chinese SuperMap (China, integrated with Beidou). India Bhuvan ISRO is reference but not commercial export. Open positioning for Russian-Uzbek bilingual + sntz.ai imagery AI.",
+    "incumbents": ["ESRI", "Hexagon", "SuperMap (China, BeiDou-integrated)", "Soliton (UZ local GIS)"],
+    "mandatory_local_partner": "Local GIS integrator (Soliton or analogous) for State Cadastre integration.",
+    "win_conditions": "(1) WB P506803 PIU director (uz-uzgps-piu-director) pre-buy; (2) ESA Sentinel + Maxar imagery licensing strategy; (3) Russian-Uzbek bilingual GIS analyst demo; (4) Space Agency cooperation MoU.",
+    "pilot_scope": "Pilot in Tashkent City + Samarkand oblast (highest commercial-development pressure) covering ~500K parcels and 100K building footprints.",
+    "pilot_duration_months": 12,
+    "pilot_success_metrics": [
+      "≥95% parcel-boundary extraction accuracy on test set",
+      "≥85% illegal-construction detection precision",
+      "Russian-Uzbek bilingual GIS analyst UX deployed at Cadastre HQ",
+      "Sentinel + Maxar imagery pipeline operational"
+    ],
+    "scale_up_path": "Year 2: expand to all 14 oblasts; Year 3: integrate with INI-018 smart agriculture and MChS emergency-response AI for cross-domain platform value.",
+    "pitch_hook": "WB P506803 commits $40.7M to UZ Geospatial NSDI through 2027. Live tender UZ-T-2026-004 ($4.2M) is open. Singapore Virtual Singapore proves the architecture; India Bhuvan ISRO proves the imagery pipeline. We deliver Russian-Uzbek bilingual NSDI-AI stack on UzCloud.",
+    "risk_register": [
+      {
+        "risk_type": "commercial",
+        "description": "ESRI/Hexagon have global incumbency and may bid integrated with WB procurement preferences.",
+        "mitigation": "Differentiate on Russian-Uzbek bilingual + UZ-specific cadastre data integration; partner with global GIS prime if needed."
+      },
+      {
+        "risk_type": "regulatory",
+        "description": "Geospatial data is intelligence-classified; Space Agency clearance required.",
+        "mitigation": "Pre-negotiate cooperation MoU with UZ-SPACE-AGENCY before bid submission."
+      },
+      {
+        "risk_type": "technical",
+        "description": "UZ existing parcel data quality is uneven; AI training labels noisy.",
+        "mitigation": "Phase 1 limited to data-rich Tashkent + Samarkand; expand with data-quality improvement."
+      }
+    ],
+    "next_30_day_actions": [
+      "Submit pre-qualification for UZ-T-2026-004 ($4.2M).",
+      "Schedule briefing with uz-uzgps-piu-director referencing WB P506803 component sequencing and Russian-Uzbek bilingual differentiation.",
+      "Reach out to WB-UZ-P506803 TTL through WB Tashkent office for donor-program TTL endorsement.",
+      "Engage UZ Space Agency cooperation MoU dialogue ahead of bid submission."
+    ],
+    "scoring": {
+      "speed_to_contract": 10,
+      "strategic_moat": 7,
+      "defensibility": 9,
+      "capital_access": 10,
+      "russian_cis_fit": 8,
+      "weighted_total": 8.85,
+      "scoring_rationale": "Speed 10: live RFP $4.2M plus $9.8M follow-on. Moat 7: WB-led, more competition. Defensibility 9: NSDI integration depth, multi-year. Capital 10: WB $40.7M + state. Russian/CIS Fit 8: bilingual GIS analyst UX is significant."
+    },
+    "confidence_tier": "A",
+    "verification": "VERIFIED"
+  },
+  {
+    "id": "INI-010",
+    "short_name": "Cybersecurity SOC Modernization (UZ)",
+    "country": "UZ",
+    "sector": "Security & Public Order",
+    "one_liner": "Deliver SOC modernization for UZ critical infrastructure under UP-2026-038 (Cybersecurity Strategy), live tender UZ-T-2026-006 ($5.5M).",
+    "problem_statement": "UZ-UP-2026-038 (Feb 2026, Cybersecurity Strategy) is in active-window status; PP-2024-038-CYBERSEC-BANKING mandates banking-sector minimum infosec requirements. Live tender UZ-T-2026-006 ($5.5M, SOC threat detection and prevention) is open. Estonia NCSC (case-est-cyber-defense) is direct architectural anchor. UNICON.UZ is the local certification authority and operational partner.",
+    "solution_concept": "SOC modernization stack: (1) AI-powered threat-detection (UEBA, anomaly detection on government and critical-infrastructure network logs); (2) Russian-Uzbek bilingual analyst console (NIST CSF-aligned playbooks); (3) integration with State Cyber Center and UNICON.UZ certification regime. Architectural anchor: Estonia NCSC NIST-CSF-aligned SOC + KZ analog. UZ adaptation: bilingual analyst UX, UZ critical-infrastructure list, sovereign deployment on UzCloud.",
+    "precedent_case_id": "case-est-cyber-defense",
+    "what_preserved": "Estonia NCSC SOC architecture: NIST CSF playbooks, AI-powered threat detection, multi-tenant national CERT model.",
+    "what_adapted": "Bilingual Russian-Uzbek analyst UX, UZ critical-infrastructure scope, UNICON.UZ certification integration.",
+    "authorizing_decree_ids": ["UZ-UP-2026-038", "UZ-LAW-2022-764", "UZ-PP-2024-038-CYBERSEC-BANKING"],
+    "regulatory_hurdles": "Cybersecurity-classified deployment; UNICON.UZ certification mandatory; UZ-LAW-2022-764 sovereign deployment requirement.",
+    "ppp_feasible": false,
+    "lead_institution_id": "UZ-UNICON",
+    "target_buyer_person_id": "uz-unicon-head",
+    "operational_counterpart_person_id": "uz-president-cyber-advisor",
+    "procurement_pathway": "tender",
+    "primary_funding": "State budget UP-2026-038",
+    "secondary_funding_donor_program_id": "EU-BOTH-C4CA",
+    "estimated_initial_contract_usd": 5500000,
+    "estimated_3yr_revenue_usd": 22000000,
+    "competitive_landscape": "Cyber-SOC tenders dominated by Group-IB (sanctions-shy post-2022, registered in Singapore now), Kaspersky (sanctions-exposed), SentinelOne (US, politically heavy), CrowdStrike (US, politically heavy), Huawei (China, govcloud incumbent). Russian-CIS-friendly + Western-non-aligned positioning is the sweet spot.",
+    "incumbents": ["Kaspersky (sanctions-exposed)", "Group-IB (Singapore-registered)", "Huawei (DSR govcloud)"],
+    "mandatory_local_partner": "UNICON.UZ as certification authority — built into procurement.",
+    "win_conditions": "(1) UNICON.UZ pre-certification of stack; (2) Estonia NCSC eGA partnership endorsement; (3) C4CA EU co-financing pathway; (4) cybersecurity advisor (uz-president-cyber-advisor) pre-buy.",
+    "pilot_scope": "Pilot at State Cyber Center covering top-20 critical-infrastructure entities (banks under PP-2024-038-CYBERSEC-BANKING, MoDT, MoEF, Treasury).",
+    "pilot_duration_months": 12,
+    "pilot_success_metrics": [
+      "Mean-time-to-detect (MTTD) ≤ 1 hour on critical-infra incidents",
+      "≥10K events/sec ingestion at SOC",
+      "Bilingual analyst console deployed and trained",
+      "UNICON.UZ certification achieved"
+    ],
+    "scale_up_path": "Year 2: expand to all 60+ critical-infrastructure entities; Year 3: license SOC-as-a-service to private banks and SOEs at lower price tier.",
+    "pitch_hook": "Estonia NCSC keeps the Baltic state cyber-resilient with $20M annual budget. UP-2026-038 mandates UZ to do the same. Live tender UZ-T-2026-006 ($5.5M) is open Q3 2026 — we bring the only Russian-Uzbek bilingual SOC stack with UNICON.UZ pre-certification and EU C4CA co-financing pathway.",
+    "risk_register": [
+      {
+        "risk_type": "political",
+        "description": "Cyber-strategy implementation across MoDT, State Cyber Center, and SCO has fragmented governance.",
+        "mitigation": "Anchor relationship at UNICON.UZ + Cybersecurity Department of MoDT (uz-president-cyber-advisor)."
+      },
+      {
+        "risk_type": "commercial",
+        "description": "Group-IB (Singapore-registered) has CIS-friendly positioning and may compete head-on.",
+        "mitigation": "Lead with Estonian eGA partnership (Western-aligned but not US/EU-political); UNICON.UZ pre-certification reduces switching cost."
+      },
+      {
+        "risk_type": "technical",
+        "description": "UEBA model accuracy depends on baseline training; UZ critical-infra logs are heterogeneous.",
+        "mitigation": "Phase 1 lab-based baseline; phase 2 production with continuous tuning."
+      }
+    ],
+    "next_30_day_actions": [
+      "Submit pre-qualification for UZ-T-2026-006 ($5.5M).",
+      "Schedule meeting with uz-unicon-head referencing UP-2026-038 implementation and bilingual SOC differentiation.",
+      "Reach out to EU-BOTH-C4CA program lead for cyber-component co-financing dialogue.",
+      "Engage e-Governance Academy Estonia for NCSC SOC architecture endorsement letter."
+    ],
+    "scoring": {
+      "speed_to_contract": 10,
+      "strategic_moat": 8,
+      "defensibility": 9,
+      "capital_access": 8,
+      "russian_cis_fit": 9,
+      "weighted_total": 8.85,
+      "scoring_rationale": "Speed 10: live RFP $5.5M Q3 2026. Moat 8: presidential decree, UNICON certification regime, modest competition. Defensibility 9: certification + multi-year SLA standard. Capital 8: state + EU C4CA. Russian/CIS Fit 9: bilingual analyst UX, sovereign deployment."
+    },
+    "confidence_tier": "A",
+    "verification": "VERIFIED"
+  },
+  {
+    "id": "INI-011",
+    "short_name": "AI Labs at 15 Universities (UZ)",
+    "country": "UZ",
+    "sector": "Education",
+    "one_liner": "Deliver 15 AI laboratories across UZ universities under UP-2024-051 + UP-2025-189, live tender UZ-T-2026-011 ($7.5M).",
+    "problem_statement": "UP-2024-051 (Jan 2024) and UP-2025-189 commit to AI talent pipeline; live tender UZ-T-2026-011 ($7.5M, 15 university AI laboratories) is open. NUU AI Cluster is the policy anchor. Saudi SDAIA (case-sa-sdaia-ai-edu) and KZ AI in Schools (case-kz-ai-school) are precedents.",
+    "solution_concept": "Turnkey AI lab program for 15 universities: (1) compute hardware (modest GPU clusters, 8-16 GPUs each); (2) curriculum (Russian-Uzbek bilingual, NUU-aligned); (3) instructor training; (4) student-project mentorship via diaspora-bridge program (Tursunov/Google, Toshmatov/Stanford, Yakubov/MIT). Architectural anchor: SDAIA national AI capability building + KZ AI in Schools curriculum design preserved.",
+    "precedent_case_id": "case-sa-sdaia-ai-edu",
+    "what_preserved": "SDAIA capability-building architecture: hardware + curriculum + instructor cert + mentorship.",
+    "what_adapted": "Russian-Uzbek bilingual curriculum, NUU AI Cluster anchor, diaspora-bridge mentorship layer.",
+    "authorizing_decree_ids": ["UZ-PP-2024-051", "UZ-UP-2025-189", "UZ-PP-2024-358"],
+    "regulatory_hurdles": "MoHESI accreditation for new programs; multi-university procurement complexity.",
+    "ppp_feasible": true,
+    "lead_institution_id": "UZ-MOHESI",
+    "target_buyer_person_id": "uz-kongratbay-sharipov",
+    "operational_counterpart_person_id": "uz-nuu-rector",
+    "procurement_pathway": "tender",
+    "primary_funding": "State budget UP-2024-051 + IsDB ISDB-UZ-EDUCATION-SMARTED co-financing potential",
+    "secondary_funding_donor_program_id": "ISDB-UZ-EDUCATION-SMARTED",
+    "estimated_initial_contract_usd": 7500000,
+    "estimated_3yr_revenue_usd": 18000000,
+    "competitive_landscape": "EdTech tenders compete: NVIDIA Inception (curriculum partnership), Microsoft AI for Education, KOICA (KOICA-UZ-IT-EDU $14M), local universities-as-vendors. NVIDIA Inception is politically heavy; KOICA is donor-aligned but slow. Open positioning for sntz.ai-stack-aligned curriculum.",
+    "incumbents": ["NVIDIA Inception (international)", "KOICA (donor-led)", "NUU (in-house)"],
+    "mandatory_local_partner": "NUU AI Cluster as curriculum co-publisher + IT Park resident integrator.",
+    "win_conditions": "(1) NUU AI Cluster co-publication of curriculum; (2) IsDB SMARTED co-financing pathway; (3) diaspora-bridge mentorship commitment letters from Tursunov + Toshmatov + Yakubov; (4) MoHESI accreditation pre-clearance.",
+    "pilot_scope": "Phase 1: 5 universities (Tashkent + 4 oblast capitals) with hardware + curriculum + instructor training; expand to 15 over 24 months.",
+    "pilot_duration_months": 12,
+    "pilot_success_metrics": [
+      "5 universities with operational AI labs and trained instructors",
+      "≥500 students enrolled in AI-track curriculum",
+      "≥10 student projects mentored by diaspora-bridge advisors",
+      "MoHESI accreditation achieved for AI-track curriculum"
+    ],
+    "scale_up_path": "Year 2: scale to all 15 universities; Year 3: pipeline-to-IT-Park placement program for top graduates, creating national AI talent flywheel.",
+    "pitch_hook": "Saudi SDAIA built a national AI capability program with 15+ centers — we deliver UZ's equivalent with NUU AI Cluster anchor and Stanford/Google/MIT diaspora mentors. UP-2024-051 commits the state budget; live tender UZ-T-2026-011 ($7.5M) is open Q3 2026.",
+    "risk_register": [
+      {
+        "risk_type": "commercial",
+        "description": "NVIDIA Inception or Microsoft Education direct relationship may underprice on hardware-curriculum bundle.",
+        "mitigation": "Differentiate on Russian-Uzbek bilingual + NUU co-publication + diaspora-bridge mentorship."
+      },
+      {
+        "risk_type": "political",
+        "description": "MoHESI minister change (Sharipov tenure not guaranteed full pilot).",
+        "mitigation": "Anchor at NUU rector and AI Center director — institutional anchors that span MoHESI cycles."
+      },
+      {
+        "risk_type": "technical",
+        "description": "GPU supply-chain delay for 15 university labs simultaneously.",
+        "mitigation": "Phase rollout to 5+5+5; alternative Huawei Ascend tier for sanctions-resilient delivery."
+      }
+    ],
+    "next_30_day_actions": [
+      "Submit pre-qualification for UZ-T-2026-011 ($7.5M).",
+      "Schedule meeting with uz-kongratbay-sharipov via MoHESI digital education department referencing UP-2024-051 implementation.",
+      "Coordinate diaspora-bridge mentorship commitment letters from Tursunov, Toshmatov, Yakubov.",
+      "Reach out to ISDB-UZ-EDUCATION-SMARTED PIU at MoHESI for co-financing pathway dialogue."
+    ],
+    "scoring": {
+      "speed_to_contract": 9,
+      "strategic_moat": 7,
+      "defensibility": 7,
+      "capital_access": 8,
+      "russian_cis_fit": 8,
+      "weighted_total": 7.80,
+      "scoring_rationale": "Speed 9: live RFP $7.5M Q3 2026. Moat 7: presidential decree but multi-vendor edu market. Defensibility 7: curriculum stickiness moderate. Capital 8: state + IsDB pipeline. Russian/CIS Fit 8: bilingual curriculum, sntz.ai-aligned."
+    },
+    "confidence_tier": "A",
+    "verification": "VERIFIED"
+  },
+  {
+    "id": "INI-012",
+    "short_name": "Mahalla Digital Social Registry AI (UZ)",
+    "country": "UZ",
+    "sector": "Public Administration & e-Government",
+    "one_liner": "Deliver AI-driven Mahalla-level digital social registry under PP-2025-286, replicating Kazakhstan e-Otinish (case-kz-smart-social) and India e-Shram.",
+    "problem_statement": "PP-2025-286 (active-window) commits to digital Mahalla and social-services registry. UZ has 9000+ Mahalla committees serving as front-line social-service delivery; current registry fragmented across MoH, MoSocProt, Mahalla Foundation. Forthcoming RFP UZ-TF-2026-012 ($5.8M, AI social-protection registry) follows. Kazakhstan e-Otinish + India e-Shram are direct precedents.",
+    "solution_concept": "AI-driven social registry stack: (1) Mahalla-level case officer mobile app with AI-assisted vulnerability scoring; (2) inter-agency data fetch via X-Road-equivalent (MyID + Sud.uz + EPIGU integration); (3) Russian-Uzbek bilingual conversational intake (call center + chatbot). Architectural anchor: KZ e-Otinish for vulnerability scoring + e-Shram for unorganized-worker registration. UZ adaptation: Mahalla-committee front-line layer (uniquely UZ).",
+    "precedent_case_id": "case-kz-smart-social",
+    "what_preserved": "e-Otinish architecture: vulnerability scoring, inter-agency data fetch, mobile case-officer app.",
+    "what_adapted": "Mahalla-committee layer (UZ-specific), Russian-Uzbek + local-Mahalla-language UX, integration with existing UZ-MCHJ-MAHALLA agency.",
+    "authorizing_decree_ids": ["UZ-PP-2025-286", "UZ-PP-2024-358", "UZ-UP-2024-132"],
+    "regulatory_hurdles": "PII and vulnerability data are sensitive; UZ-LAW-2026-1125 amendment data-localization compliance mandatory.",
+    "ppp_feasible": false,
+    "lead_institution_id": "UZ-MCHJ-MAHALLA",
+    "target_buyer_person_id": "uz-saida-mirziyoyeva",
+    "operational_counterpart_person_id": "uz-mintsifry-dep3",
+    "procurement_pathway": "tender",
+    "primary_funding": "State budget PP-2025-286 + WB-UZ-P179108 digital inclusion",
+    "secondary_funding_donor_program_id": "WB-UZ-P179108",
+    "estimated_initial_contract_usd": 5800000,
+    "estimated_3yr_revenue_usd": 22000000,
+    "competitive_landscape": "Social-registry tenders compete: WB-recommended primes (Atos, Capgemini), local SOEs (Uzinfocom), KZ-vendors (Documentolog). India e-Shram architectural reference but not commercial export. Open for Russian-Uzbek bilingual + Mahalla-aware sntz.ai positioning.",
+    "incumbents": ["Atos", "Capgemini", "Uzinfocom"],
+    "mandatory_local_partner": "Uzinfocom or IT Park resident for Mahalla-app distribution.",
+    "win_conditions": "(1) Saida Mirziyoyeva endorsement (digital media/digital advisor to President); (2) WB P179108 TTL pre-buy; (3) Mahalla Foundation institutional cooperation; (4) Russian-Uzbek + Mahalla-language demo.",
+    "pilot_scope": "Pilot in 100 Mahalla committees across Tashkent City + Samarkand oblast + Karakalpakstan (highest social-vulnerability density).",
+    "pilot_duration_months": 12,
+    "pilot_success_metrics": [
+      "≥100 Mahalla committees with operational case-officer app",
+      "≥50K vulnerable individuals scored",
+      "≥30% reduction in case-processing time",
+      "Inter-agency data fetch operational across MoH, MoSocProt, MyID"
+    ],
+    "scale_up_path": "Year 2: scale to 1000+ Mahalla committees; Year 3: full national rollout to 9000+ Mahallas + integration with State Medical Insurance under PP-2024-311.",
+    "pitch_hook": "PP-2025-286 commits UZ to digitize 9000+ Mahalla-level social services. India e-Shram and KZ e-Otinish prove the architecture. RFP UZ-TF-2026-012 ($5.8M) is in pipeline and WB P179108 ($50M) provides co-financing rails — we deliver Russian-Uzbek-Mahalla-language stack on UzCloud.",
+    "risk_register": [
+      {
+        "risk_type": "political",
+        "description": "Mahalla-system governance is politically sensitive; reform direction depends on Mahalla Foundation leadership.",
+        "mitigation": "Anchor at Saida Mirziyoyeva (presidential digital advisor) — politically resilient."
+      },
+      {
+        "risk_type": "technical",
+        "description": "Mahalla-level digital literacy uneven; case-officer training is a major change-management challenge.",
+        "mitigation": "Phase 1 limited to digitally-prepared Mahallas; mass-training rollout integrated with MoHESI digital-skills program (cross-link INI-022)."
+      },
+      {
+        "risk_type": "commercial",
+        "description": "WB procurement may favor primes (Atos/Capgemini) for risk-management reasons.",
+        "mitigation": "Sub-bid as AI module supplier to a global prime; primary contracting via Uzinfocom."
+      }
+    ],
+    "next_30_day_actions": [
+      "Track UZ-TF-2026-012 publication and pre-qualify.",
+      "Warm intro to uz-saida-mirziyoyeva via diaspora-uz-nodira-islamova-mckinsey or Digital Bridge Tashkent 2026.",
+      "Reach out to WB-UZ-P179108 TTL via WB Tashkent office citing digital inclusion lever.",
+      "Schedule meeting with UZ-MCHJ-MAHALLA leadership via MoDT cooperation channel."
+    ],
+    "scoring": {
+      "speed_to_contract": 8,
+      "strategic_moat": 9,
+      "defensibility": 9,
+      "capital_access": 9,
+      "russian_cis_fit": 10,
+      "weighted_total": 8.85,
+      "scoring_rationale": "Speed 8: forthcoming RFP $5.8M 2026-2027. Moat 9: presidential decree, Mahalla-system uniquely UZ. Defensibility 9: case-officer adoption lock-in, multi-year. Capital 9: state + WB. Russian/CIS Fit 10: bilingual + Mahalla-language critical, sntz.ai conversational stack direct fit."
+    },
+    "confidence_tier": "A",
+    "verification": "VERIFIED"
+  },
+  {
+    "id": "INI-013",
+    "short_name": "AI EdTech Platform for UZ Schools (Bhashini-Style)",
+    "country": "UZ",
+    "sector": "Education",
+    "one_liner": "Deploy Russian-Uzbek bilingual AI tutoring + teacher-AI-literacy platform across UZ schools, replicating India DIKSHA + KZ Bilim Land.",
+    "problem_statement": "UZ-PP-2024-054 + UZ-PP-2025-051-SCHOOL commit to deep school-system reform and digital tutoring; forthcoming RFP UZ-TF-2026-006 ($5.5M, AI EdTech for schools) is in pipeline. India DIKSHA + KZ Bilim Land are precedent at scale; India Bhashini provides multilingual NLP precedent.",
+    "solution_concept": "AI EdTech platform: (1) Russian-Uzbek bilingual personalized tutoring agent; (2) teacher AI-literacy training program; (3) curriculum-aligned content generation. Architectural anchor: DIKSHA platform + Bilim Land delivery + Bhashini multilingual NLP. UZ adaptation: triple-script + native curriculum mapping.",
+    "precedent_case_id": "case-in-diksha",
+    "what_preserved": "DIKSHA national digital infrastructure for school education: open-source platform, content marketplace, teacher-facing toolkit.",
+    "what_adapted": "Russian-Uzbek bilingual + triple-script content, MoSchoolEduc curriculum mapping, Mahalla-school integration.",
+    "authorizing_decree_ids": ["UZ-PP-2024-054", "UZ-PP-2025-051-SCHOOL", "UZ-PP-2024-358"],
+    "regulatory_hurdles": "MoSchool curriculum approval, child-data PII compliance.",
+    "ppp_feasible": true,
+    "lead_institution_id": "UZ-MINSCHOOL",
+    "target_buyer_person_id": "uz-minschool-minister",
+    "operational_counterpart_person_id": "uz-mintsifry-dep3",
+    "procurement_pathway": "tender",
+    "primary_funding": "State budget + UNICEF-UZ-EDTECH-LEARNING + IsDB SMARTED",
+    "secondary_funding_donor_program_id": "UNICEF-UZ-EDTECH-LEARNING",
+    "estimated_initial_contract_usd": 5500000,
+    "estimated_3yr_revenue_usd": 20000000,
+    "competitive_landscape": "EdTech competition: Bilim Land (KZ extension to UZ via EAEU), Microsoft Education (international), local Soliton-Edu. Russian Yandex Uchebnik politically heavy. Open positioning for Russian-Uzbek triple-script bilingual + UNICEF endorsement.",
+    "incumbents": ["Bilim Land (KZ)", "Microsoft Education", "Soliton-Edu"],
+    "mandatory_local_partner": "Soliton-Edu or IT Park resident for MoSchool integration.",
+    "win_conditions": "(1) UNICEF-UZ-EDTECH-LEARNING TTL endorsement; (2) MoSchoolEduc curriculum-mapping pre-approval; (3) Russian-Uzbek triple-script demo; (4) IsDB SMARTED co-financing pathway.",
+    "pilot_scope": "Pilot in 100 schools (50 Tashkent + 50 oblast) covering ~50K students.",
+    "pilot_duration_months": 12,
+    "pilot_success_metrics": [
+      "≥100 schools onboarded",
+      "≥50K students using personalized AI tutoring",
+      "≥80% teacher AI-literacy completion rate",
+      "Demonstrated triple-script Uzbek + Russian curriculum alignment"
+    ],
+    "scale_up_path": "Year 2: 1000+ schools; Year 3: national rollout to 10K+ schools + integration with INI-011 university AI labs to create K-12-to-university talent pipeline.",
+    "pitch_hook": "India DIKSHA reaches 1B+ learners; KZ Bilim Land powers 4M+ KZ students. PP-2024-054 + PP-2025-051-SCHOOL commit UZ to follow. RFP UZ-TF-2026-006 ($5.5M) is in pipeline with UNICEF + IsDB co-financing — we deliver Russian-Uzbek triple-script AI tutoring.",
+    "risk_register": [
+      {
+        "risk_type": "commercial",
+        "description": "Bilim Land KZ-UZ EAEU channel may underbid; Microsoft Education has global incumbency.",
+        "mitigation": "Differentiate on triple-script Uzbek-Cyrillic + Latin + Russian; UNICEF endorsement layers political cover."
+      },
+      {
+        "risk_type": "political",
+        "description": "MoSchool curriculum reform pace uncertain; AI-tutor content must align with shifting standards.",
+        "mitigation": "Modular content layer; curriculum-mapping pre-approval before content generation."
+      },
+      {
+        "risk_type": "technical",
+        "description": "School-level connectivity uneven; offline/low-bandwidth modes required.",
+        "mitigation": "Hybrid online-offline architecture; sync model for low-connectivity schools."
+      }
+    ],
+    "next_30_day_actions": [
+      "Track UZ-TF-2026-006 publication.",
+      "Schedule meeting with uz-minschool-minister via MoSchool digital department.",
+      "Reach out to UNICEF-UZ-EDTECH-LEARNING TTL for donor co-financing dialogue.",
+      "Pre-position via UZ-T-2026-008 ($1.8M civil servant AI training) as warm-up."
+    ],
+    "scoring": {
+      "speed_to_contract": 8,
+      "strategic_moat": 7,
+      "defensibility": 8,
+      "capital_access": 9,
+      "russian_cis_fit": 9,
+      "weighted_total": 8.05,
+      "scoring_rationale": "Speed 8: forthcoming RFP $5.5M 2026-2027. Moat 7: PP backing, multi-vendor edu market. Defensibility 8: curriculum-content lock-in, multi-year. Capital 9: state + UNICEF + IsDB. Russian/CIS Fit 9: triple-script + bilingual."
+    },
+    "confidence_tier": "A",
+    "verification": "VERIFIED"
+  },
+  {
+    "id": "INI-014",
+    "short_name": "AI Precision Agriculture (UZ-Cotton + Wheat)",
+    "country": "UZ",
+    "sector": "Agriculture & Water",
+    "one_liner": "Deliver satellite + IoT AI for cotton, wheat, and water-management at MinSelxoz, replicating Kazakhstan KZ-Cotton-AI + Israel Netafim, $500M WB Agri rails.",
+    "problem_statement": "UZ-PP-2025-099 + UZ-PP-2024-227 + UZ-PP-2023-162-AGRI commit to digital agriculture; WB-UZ-AGRI-DIGITAL ($500M) is the donor envelope. Live tender UZ-T-2026-014 ($4.8M, AI agri monitoring) is open and forthcoming UZ-TF-2026-007 ($6.2M, satellite agri AI) follows. KZ Crop Monitoring (case-kz-cotton-ai) + KZ Smart Agri (case-kz-smart-agri) + Israel Netafim are direct precedents.",
+    "solution_concept": "AI precision-agri stack: (1) satellite imagery + IoT crop-health AI (cotton wilt detection, wheat yield prediction); (2) water-allocation AI (link to MinVoda); (3) Russian-Uzbek bilingual farmer-extension app. Architectural anchor: KZ Crop Monitoring (Sentinel + ML) + Netafim precision irrigation. UZ adaptation: cotton-specific models, Aral basin water mgmt, Russian-Uzbek bilingual extension.",
+    "precedent_case_id": "case-kz-smart-agri",
+    "what_preserved": "KZ Smart Agri Sentinel + ML pipeline architecture, farmer-extension app design.",
+    "what_adapted": "Cotton + wheat focus (vs. KZ wheat + sunflower), Aral basin water integration, Russian-Uzbek bilingual UX.",
+    "authorizing_decree_ids": ["UZ-PP-2025-099", "UZ-PP-2024-227", "UZ-PP-2023-162-AGRI", "UZ-PP-2024-358"],
+    "regulatory_hurdles": "MinSelxoz cooperation, geospatial data classification (cross-link INI-009).",
+    "ppp_feasible": true,
+    "lead_institution_id": "UZ-MINSELXOZ",
+    "target_buyer_person_id": "uz-minselhhoz-minister",
+    "operational_counterpart_person_id": "uz-minvoda-minister",
+    "procurement_pathway": "donor_program",
+    "primary_funding": "WB-UZ-AGRI-DIGITAL ($500M) + state budget PP-2025-099",
+    "secondary_funding_donor_program_id": "WB-UZ-AGRI-DIGITAL",
+    "estimated_initial_contract_usd": 4800000,
+    "estimated_3yr_revenue_usd": 25000000,
+    "competitive_landscape": "Agri-AI tenders: Netafim (Israel, precision irrigation incumbent), Hexagon Agriculture, KZ extension via EAEU (KZ Smart Agri vendors), local Soliton-Agri. Open for Russian-Uzbek bilingual + cotton specialization.",
+    "incumbents": ["Netafim (Israel)", "Hexagon Agriculture", "KZ Smart Agri vendors"],
+    "mandatory_local_partner": "MinSelxoz IT department + IT Park resident integrator.",
+    "win_conditions": "(1) WB Agri TTL endorsement; (2) cotton-specific demo on Sentinel + UZ ground-truth data; (3) MinVoda water-mgmt cooperation MoU; (4) Russian-Uzbek extension-app demo with farmer co-design.",
+    "pilot_scope": "Pilot in Karakalpakstan + Khorezm + Bukhara cotton oblasts covering ~500K hectares.",
+    "pilot_duration_months": 12,
+    "pilot_success_metrics": [
+      "Cotton wilt detection ≥90% precision on satellite + IoT data",
+      "Wheat yield prediction within 10% of harvest",
+      "Water-allocation optimization ≥15% reduction in over-allocation",
+      "≥10K farmers using Russian-Uzbek extension app"
+    ],
+    "scale_up_path": "Year 2: scale to all cotton oblasts (8 oblasts); Year 3: extend to wheat, fruit/veg, livestock + integration with State Tax Committee for agri-subsidy fraud (cross-link INI-004).",
+    "pitch_hook": "WB-UZ-AGRI-DIGITAL ($500M) commits UZ to digital agriculture by 2027. KZ Smart Agri returns $200M+ annually. Live tender UZ-T-2026-014 ($4.8M) is open Q3 2026 — we deliver Russian-Uzbek bilingual cotton-wheat-water AI on UzCloud.",
+    "risk_register": [
+      {
+        "risk_type": "commercial",
+        "description": "Netafim has global precision-irrigation incumbency and Israel-UZ cooperation channel.",
+        "mitigation": "Partner with Netafim at irrigation layer; differentiate on Russian-Uzbek + cotton-specific AI."
+      },
+      {
+        "risk_type": "technical",
+        "description": "Cotton ground-truth data limited; Aral basin imagery has cloud-cover gaps.",
+        "mitigation": "Hybrid Sentinel + Maxar imagery; phase 1 limited to cloud-clear oblasts; expand with Maxar tasking."
+      },
+      {
+        "risk_type": "political",
+        "description": "MinSelxoz-MinVoda inter-ministry cooperation historically slow.",
+        "mitigation": "Pre-negotiate cooperation MoU between two ministries before bid; anchor at MoEF (Kuchkarov) as cross-cutting sponsor."
+      }
+    ],
+    "next_30_day_actions": [
+      "Submit pre-qualification for UZ-T-2026-014 ($4.8M).",
+      "Schedule meeting with uz-minselhhoz-minister via MoEF cooperation channel.",
+      "Reach out to WB-UZ-AGRI-DIGITAL TTL via WB Tashkent office.",
+      "Engage MinVoda for water-allocation cooperation dialogue."
+    ],
+    "scoring": {
+      "speed_to_contract": 10,
+      "strategic_moat": 8,
+      "defensibility": 8,
+      "capital_access": 10,
+      "russian_cis_fit": 8,
+      "weighted_total": 8.80,
+      "scoring_rationale": "Speed 10: live RFP $4.8M Q3 2026 + $6.2M follow-on. Moat 8: PP backing, modest competition. Defensibility 8: multi-year, integration depth. Capital 10: $500M WB + state. Russian/CIS Fit 8: bilingual extension UX, sntz.ai imagery stack."
+    },
+    "confidence_tier": "A",
+    "verification": "VERIFIED"
+  },
+  {
+    "id": "INI-015",
+    "short_name": "Smart Grid AI for Energy (NEGU + Smart Meters)",
+    "country": "UZ",
+    "sector": "Energy",
+    "one_liner": "Deliver AI grid optimization + smart meters for NEGU under ADB-UZ-52322-004 ($125M) Digitize-to-Decarbonize, replicating KZ KEGOC + Estonia Elering.",
+    "problem_statement": "ADB-UZ-52322-004 ($125M Digitize-to-Decarbonize) is in active phase. UZ smart-meter pilot (case-uz-smart-meter-pilot) has proven feasibility at Toshkentenergo. NEGU is the natural buyer. KZ KEGOC (case-kz-smart-grid) and Estonia Elering (case-ee-smart-meter-grid) are precedents. Renewable forecasting (UZ-PP-2025-XXX) ties to UP-2024-157 export support.",
+    "solution_concept": "Smart-grid AI stack: (1) demand-response AI optimization at NEGU SCADA layer; (2) smart-meter rollout (residential + industrial) with AMI analytics; (3) renewable-forecast AI for solar+wind. Architectural anchor: KEGOC AI grid + Elering smart-meter rollout. UZ adaptation: integration with NEGU SCADA, Russian-Uzbek operator UX, sovereign deployment.",
+    "precedent_case_id": "case-kz-smart-grid",
+    "what_preserved": "KEGOC AI grid monitoring architecture, demand-response algorithmic playbook.",
+    "what_adapted": "NEGU integration, Russian-Uzbek operator UX, Toshkentenergo smart-meter pilot extension.",
+    "authorizing_decree_ids": ["UZ-PP-2024-358", "UZ-UP-2025-189"],
+    "regulatory_hurdles": "Energy sector regulatory: Antimonopoly Committee tariff approval, NEGU SCADA cyber-classification.",
+    "ppp_feasible": true,
+    "lead_institution_id": "UZ-MINENERGY",
+    "target_buyer_person_id": "uz-jurabek-mirzamahmudov",
+    "operational_counterpart_person_id": "uz-negu-ceo",
+    "procurement_pathway": "donor_program",
+    "primary_funding": "ADB-UZ-52322-004 ($125M) + state budget MinEnergy",
+    "secondary_funding_donor_program_id": "ADB-UZ-52322-004",
+    "estimated_initial_contract_usd": 8000000,
+    "estimated_3yr_revenue_usd": 30000000,
+    "competitive_landscape": "Smart-grid AI: ABB, Siemens Energy, Schneider Electric (international primes), Huawei Smart Grid (China DSR aligned), KZ-KEGOC vendor extension. International primes have ADB orthodoxy advantage.",
+    "incumbents": ["ABB", "Siemens Energy", "Schneider Electric", "Huawei Smart Grid"],
+    "mandatory_local_partner": "NEGU SCADA integrator; typically global prime + local SI.",
+    "win_conditions": "(1) ADB TTL endorsement; (2) Toshkentenergo smart-meter-pilot extension demo; (3) NEGU CEO pre-buy; (4) renewable-forecast accuracy benchmark.",
+    "pilot_scope": "Phase 1: extension of Toshkentenergo smart-meter pilot to 50K residential + industrial meters + grid-level AI demand-response at NEGU SCADA.",
+    "pilot_duration_months": 12,
+    "pilot_success_metrics": [
+      "≥50K smart meters deployed",
+      "≥10% demand-response load shift in pilot zone",
+      "Renewable solar+wind forecast within 8% of actual",
+      "NEGU SCADA AI integration operational"
+    ],
+    "scale_up_path": "Year 2: scale to 500K smart meters + 14 oblast NEGU SCADA AI; Year 3: cross-border CASA-1000 transmission integration with KZ KEGOC + KG smart grid.",
+    "pitch_hook": "KZ KEGOC AI cuts grid losses by 15%+; Estonia Elering smart-metering reaches 100% coverage. ADB-UZ-52322-004 ($125M) commits UZ to follow. We bring Toshkentenergo pilot extension + Russian-Uzbek operator UX with sovereign UzCloud deployment.",
+    "risk_register": [
+      {
+        "risk_type": "commercial",
+        "description": "International primes (ABB, Siemens) have ADB procurement orthodoxy and global service capability.",
+        "mitigation": "Sub-bid as AI-analytics module to global prime; primary contracting via Uzinfocom or NEGU."
+      },
+      {
+        "risk_type": "political",
+        "description": "Energy is strategic-sensitive; NEGU CEO leadership stability uncertain.",
+        "mitigation": "Anchor at MinEnergy (Mirzamakhmudov) and ADB TTL — institutional anchors."
+      },
+      {
+        "risk_type": "technical",
+        "description": "NEGU SCADA legacy integration complex; cyber-classification adds compliance burden.",
+        "mitigation": "Phased integration; UNICON.UZ pre-certification (cross-link INI-010)."
+      }
+    ],
+    "next_30_day_actions": [
+      "Schedule meeting with uz-negu-ceo via MinEnergy cooperation channel.",
+      "Reach out to ADB-UZ-52322-004 TTL (uz-yun-ji-suh) for project sequencing dialogue.",
+      "Pre-position via Toshkentenergo smart-meter pilot extension proposal.",
+      "Engage diaspora-uz-kamoliddin-yusupov-adb (ADB Senior IT Policy) for ADB-internal pathway."
+    ],
+    "scoring": {
+      "speed_to_contract": 8,
+      "strategic_moat": 8,
+      "defensibility": 9,
+      "capital_access": 10,
+      "russian_cis_fit": 8,
+      "weighted_total": 8.55,
+      "scoring_rationale": "Speed 8: ADB pipeline, smart-meter pilot extension feasible. Moat 8: PP backing, presidential digital mandate. Defensibility 9: SCADA + meter lock-in, multi-year. Capital 10: $125M ADB. Russian/CIS Fit 8: bilingual operator UX, sovereign deployment."
+    },
+    "confidence_tier": "A",
+    "verification": "VERIFIED"
+  },
+  {
+    "id": "INI-016",
+    "short_name": "MyID Mobile-ID National Rollout (UZ)",
+    "country": "UZ",
+    "sector": "Public Administration & e-Government",
+    "one_liner": "Land Mobile-ID rollout under UP-2020-6065 + UZ-T-2026-012 ($4.5M), connecting MyID to gov + bank ecosystems with sntz.ai-grade Russian/Uzbek conversational layer.",
+    "problem_statement": "UZ-UP-2020-6065 mandates national digital ID. MyID is operational but Mobile-ID (mobile passport) rollout is at $4.5M live RFP UZ-T-2026-012. Estonia Mobile-ID (case-est-digital-id) and Poland mObywatel (case-pl-mobywatel-digital-id) are direct precedents. Banking + EPIGU integration drives adoption.",
+    "solution_concept": "Mobile-ID rollout stack: (1) cryptographic mobile credential (PKI-based, FIDO2 or eIDAS-like); (2) wallet UX (Russian-Uzbek bilingual); (3) integration with EPIGU + bank-KYC + Customs-passport scenarios; (4) MyID legacy bridge. Architectural anchor: Estonia Mobile-ID + Poland mObywatel preserved. UZ adaptation: triple-script Uzbek + Russian, MyID legacy compatibility.",
+    "precedent_case_id": "case-pl-mobywatel-digital-id",
+    "what_preserved": "mObywatel architecture: PKI-based mobile cred, multi-service wallet, bank-KYC integration.",
+    "what_adapted": "MyID legacy bridge, Russian-Uzbek bilingual wallet UX, UZ banking + EPIGU integration.",
+    "authorizing_decree_ids": ["UZ-UP-2020-6065", "UZ-LAW-2022-793", "UZ-PP-2024-358"],
+    "regulatory_hurdles": "MyID operator status, Personal Data Protection Authority compliance, bank-KYC AML approval.",
+    "ppp_feasible": false,
+    "lead_institution_id": "UZ-MYID-OPERATOR",
+    "target_buyer_person_id": "uz-myid-head",
+    "operational_counterpart_person_id": "uz-mintsifry-dep1",
+    "procurement_pathway": "tender",
+    "primary_funding": "State budget UP-2020-6065 + WB-UZ-P179108 digital inclusion",
+    "secondary_funding_donor_program_id": "WB-UZ-P179108",
+    "estimated_initial_contract_usd": 4500000,
+    "estimated_3yr_revenue_usd": 18000000,
+    "competitive_landscape": "Mobile-ID tenders: Gemalto/Thales (international), eGA Estonia (technical advisory), Polish Mobile-ID consortium, Soliton (UZ local). Russian Russky-NCC sanctions-shy. Open positioning for Russian-Uzbek bilingual + UzCloud sovereign deployment.",
+    "incumbents": ["Gemalto/Thales", "eGA Estonia", "Soliton (UZ)"],
+    "mandatory_local_partner": "Uzinfocom or MyID legacy operator (UZ-MYID-OPERATOR).",
+    "win_conditions": "(1) MyID head pre-buy; (2) eGA Estonia partnership for PKI architecture; (3) WB P179108 TTL endorsement; (4) bank-KYC pilot bank (Trustbank or Davr Bank) commitment.",
+    "pilot_scope": "Phase 1: 100K Mobile-ID rollout in Tashkent City + integration with EPIGU + 2 pilot banks.",
+    "pilot_duration_months": 12,
+    "pilot_success_metrics": [
+      "100K Mobile-ID users active",
+      "Integration with ≥10 EPIGU services",
+      "≥2 pilot banks accepting Mobile-ID for KYC",
+      "Russian-Uzbek bilingual wallet UX deployed"
+    ],
+    "scale_up_path": "Year 2: 1M+ Mobile-ID users + national bank-KYC standard; Year 3: cross-border use (KZ, KG) + e-residency-style export.",
+    "pitch_hook": "Estonia Mobile-ID powers 99% of e-government use; Poland mObywatel reached 9M+ users in 4 years. UP-2020-6065 mandates UZ to follow. Live RFP UZ-T-2026-012 ($4.5M) closes Q2 2026 — we deliver Russian-Uzbek bilingual Mobile-ID with eGA Estonia partnership and UZ-LAW-2022-793 compliance.",
+    "risk_register": [
+      {
+        "risk_type": "commercial",
+        "description": "Gemalto/Thales has global PKI incumbency.",
+        "mitigation": "Partner with eGA Estonia (technical advisor); differentiate on Russian-Uzbek bilingual + MyID legacy bridge."
+      },
+      {
+        "risk_type": "regulatory",
+        "description": "Personal Data Protection Authority (UZ-DATA-PROTECTION) approval timeline uncertain.",
+        "mitigation": "Pre-engage Authority before submission; UNICON.UZ certification pathway."
+      },
+      {
+        "risk_type": "technical",
+        "description": "MyID legacy system integration complexity.",
+        "mitigation": "Phased migration; legacy bridge as primary deliverable in Phase 1."
+      }
+    ],
+    "next_30_day_actions": [
+      "Submit pre-qualification for UZ-T-2026-012 ($4.5M).",
+      "Schedule meeting with uz-myid-head referencing UP-2020-6065 implementation and Mobile-ID architecture.",
+      "Reach out to eGA Estonia (kg-tonis-mae as bridge) for PKI architecture partnership.",
+      "Engage WB-UZ-P179108 TTL for digital inclusion endorsement."
+    ],
+    "scoring": {
+      "speed_to_contract": 10,
+      "strategic_moat": 8,
+      "defensibility": 10,
+      "capital_access": 8,
+      "russian_cis_fit": 9,
+      "weighted_total": 8.95,
+      "scoring_rationale": "Speed 10: live RFP $4.5M Q2 2026. Moat 8: presidential decree, modest competition. Defensibility 10: ID infrastructure lock-in, multi-year, network effects. Capital 8: state + WB. Russian/CIS Fit 9: bilingual wallet UX, sntz.ai stack."
+    },
+    "confidence_tier": "A",
+    "verification": "VERIFIED"
+  },
+  {
+    "id": "INI-017",
+    "short_name": "AI Civil Servant Training Program (UZ)",
+    "country": "UZ",
+    "sector": "Education",
+    "one_liner": "Deliver Russian-Uzbek bilingual AI literacy + applied training for civil servants under UP-2024-095 + live UZ-T-2026-008 ($1.8M).",
+    "problem_statement": "UZ-UP-2024-095 mandates new civil-service approach with digital competency. Live tender UZ-T-2026-008 ($1.8M, civil-servant AI training) is open. Saudi SDAIA national capability program is anchor; KZ AI strategy 2024 has parallel program. Diaspora-bridge mentorship is key differentiator.",
+    "solution_concept": "Civil-servant AI training: (1) tiered modular curriculum (executive, analyst, frontline) in Russian-Uzbek; (2) hands-on labs using sovereign LLM (cross-link INI-006); (3) diaspora mentor seminar series. Architectural anchor: SDAIA capability + KZ AI strategy training. UZ adaptation: bilingual + diaspora-bridge mentor layer.",
+    "precedent_case_id": "case-sa-sdaia-ai-edu",
+    "what_preserved": "SDAIA tiered capability-building model, hands-on lab pedagogy.",
+    "what_adapted": "Russian-Uzbek bilingual + diaspora-bridge mentor sessions, civil-service-specific modules.",
+    "authorizing_decree_ids": ["UZ-UP-2024-095", "UZ-PP-2024-358", "UZ-PP-2024-051"],
+    "regulatory_hurdles": "MoHESI accreditation for new program track.",
+    "ppp_feasible": true,
+    "lead_institution_id": "UZ-MOHESI",
+    "target_buyer_person_id": "uz-kongratbay-sharipov",
+    "operational_counterpart_person_id": "uz-uzdigital-ai-center-head",
+    "procurement_pathway": "tender",
+    "primary_funding": "State budget UP-2024-095 + KOICA-UZ-IT-EDU pipeline",
+    "secondary_funding_donor_program_id": "KOICA-UZ-IT-EDU",
+    "estimated_initial_contract_usd": 1800000,
+    "estimated_3yr_revenue_usd": 8000000,
+    "competitive_landscape": "Civil-servant training: Academy of Public Administration (AAB UZ — incumbent), KOICA-led training, NUU AI Cluster academic, international primes (BCG, McKinsey advisory).",
+    "incumbents": ["UZ Academy of Public Administration", "KOICA training programs", "NUU"],
+    "mandatory_local_partner": "Academy of Public Administration or NUU AI Cluster.",
+    "win_conditions": "(1) NUU co-publication; (2) diaspora-bridge mentor series commitment letters; (3) KOICA pipeline alignment; (4) Russian-Uzbek triple-script curriculum demo.",
+    "pilot_scope": "Phase 1: 500 civil servants across 3 cohorts (Tashkent + 2 oblasts).",
+    "pilot_duration_months": 9,
+    "pilot_success_metrics": [
+      "≥500 civil servants completing program",
+      "≥80% completion rate",
+      "≥10 diaspora-bridge mentor sessions delivered",
+      "MoHESI accreditation achieved"
+    ],
+    "scale_up_path": "Year 2: 5K civil servants nationwide; Year 3: regional Central Asia capability-building hub.",
+    "pitch_hook": "UP-2024-095 mandates civil servants to acquire digital competency by 2027. Saudi SDAIA trained 50K+ in 2 years. Live RFP UZ-T-2026-008 ($1.8M) is open Q3 2026 — we bring Russian-Uzbek curriculum + Stanford/Google/MIT diaspora mentors.",
+    "risk_register": [
+      {
+        "risk_type": "commercial",
+        "description": "Academy of Public Administration is incumbent state-aligned vendor; political preference.",
+        "mitigation": "Partner with Academy + NUU AI Cluster; sub-bid as content provider rather than competitor."
+      },
+      {
+        "risk_type": "political",
+        "description": "Civil service is sensitive; training content must align with regime narrative.",
+        "mitigation": "Focus on practical AI applications; avoid ideologically-loaded content."
+      },
+      {
+        "risk_type": "technical",
+        "description": "Civil-servant baseline digital literacy uneven; tiered approach mandatory.",
+        "mitigation": "Pre-assessment; tiered enrollment."
+      }
+    ],
+    "next_30_day_actions": [
+      "Submit pre-qualification for UZ-T-2026-008 ($1.8M).",
+      "Schedule meeting with NUU + Academy of Public Administration co-authoring approach.",
+      "Coordinate diaspora-bridge mentor commitment letters (Tursunov, Toshmatov, Yakubov, Sadikov).",
+      "Reach out to KOICA-UZ-IT-EDU for pipeline cooperation."
+    ],
+    "scoring": {
+      "speed_to_contract": 10,
+      "strategic_moat": 7,
+      "defensibility": 7,
+      "capital_access": 7,
+      "russian_cis_fit": 8,
+      "weighted_total": 7.85,
+      "scoring_rationale": "Speed 10: live RFP $1.8M Q3 2026. Moat 7: presidential decree but multi-vendor training. Defensibility 7: program accreditation moderate stickiness. Capital 7: state + KOICA pipeline. Russian/CIS Fit 8: bilingual curriculum, diaspora mentors."
+    },
+    "confidence_tier": "A",
+    "verification": "VERIFIED"
+  }
+]

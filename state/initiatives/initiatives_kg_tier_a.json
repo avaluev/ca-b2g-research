@@ -1,0 +1,805 @@
+[
+  {
+    "id": "KG-INI-001",
+    "short_name": "UDP TOR Drafting Co-Author (Mintsifry Successor)",
+    "country": "KG",
+    "sector": "Public Administration & e-Government",
+    "one_liner": "Pro-bono co-author the post-Минцифры TORs that the Presidential Administration's UDP Digital Department must publish by 31.07.2026 for every inherited program — Tunduk modernization, e-procurement, digital health, AI strategy, Digital Code secondary regulations.",
+    "problem_statement": "On approximately 30.04.2026 the Ministry of Digital Development of the Kyrgyz Republic was liquidated by KG-UP-2026-MINCIFRY-ABOLITION. All functions, programs, donor relationships, and Tunduk governance were transferred to the Digital Transformation Department of the Administration of Presidential Affairs (UDP) under Adilbek Asanbekov. UDP has 1 month to publish structural regulations and 3 months to align every Cabinet decision and donor TOR. They have no in-house technical capacity to draft 20+ procurement TORs in that window. The vendor who provides credible pro-bono drafting input shapes the specification of every downstream contract for the next 24 months — a one-time concentration event that mirrors PP-320 in UZ but is even more leverage-rich because it is structural, not just a fund.",
+    "solution_concept": "Three-track engagement executed in 8 weeks: (1) Submit a Technical Assistance offer letter to UDP Digital Department head Adilbek Asanbekov via diaspora warm intro through Talant Sultanov (former Mintsifry Minister, CMU-educated, now bridges ex-Mintsifry team into UDP). Offer is pro-bono drafting of TORs for three priority programs: Tunduk 2.0 modernization, e-procurement AI analytics, and the National AI Strategy framework draft. (2) Submit parallel Technical Assistance registration with WB Digital CASA PIU (Sandra Sargent TTL) and ADB e-Procurement PIU (Aibek Abdybakirov TTL) so UDP can introduce us as a pre-qualified WB/ADB-accepted vendor inside the donor procurement channels. (3) Embed a senior advisor on-site in Bishkek for 60 days during the structural regulation drafting window, co-located with UDP staff, producing TOR drafts that comply with WB/ADB procurement modalities (QCBS, ICB, RFP). Architecturally anchored on Estonia eGA twinning experience (EGA-KG-TWINNING is the active Estonia-Kyrgyzstan technical assistance vehicle). What is preserved: eGA's TOR drafting playbook for X-Road / Tunduk-class systems. What is adapted: KG-specific donor procurement rules, Russian-Kyrgyz bilingual deliverable requirements, and UDP's centralized governance structure.",
+    "precedent_case_id": "case-kg-tunduk-modernisation",
+    "what_preserved": "EU-funded Tunduk modernization TOR template (EGA-led drafting) — proven to produce procurable specifications that pass WB/ADB review.",
+    "what_adapted": "Post-Минцифры governance — TOR routes through UDP Digital Department, not Mintsifry; Russian-Kyrgyz bilingual deliverables; integration with parallel Digital Code secondary regulations being drafted in same window.",
+    "authorizing_decree_ids": ["KG-UP-2026-MINCIFRY-ABOLITION", "KG-UP-2024-090-CONCEPT", "KG-UDP-REGULATION-PENDING"],
+    "regulatory_hurdles": "UDP Digital Department's draft Regulations on Presidential Administration are still pending (KG-UDP-REGULATION-PENDING). Vendor needs to confirm scope of UDP procurement authority vs. Cabinet of Ministers procurement authority. Mitigation: structure engagement as Technical Assistance under EGA twinning frame (already cleared) and donor PIU registration (already cleared) — both are pathways that bypass the regulatory uncertainty.",
+    "ppp_feasible": false,
+    "lead_institution_id": "KG-UDP",
+    "target_buyer_person_id": "kg-udp-digital-head",
+    "operational_counterpart_person_id": "kg-presidential-digital-dept-dep",
+    "procurement_pathway": "direct",
+    "primary_funding": "Donor Technical Assistance (EU EGA-KG-TWINNING, WB Digital CASA TA, ADB Project 55109 TA)",
+    "secondary_funding_donor_program_id": "EGA-KG-TWINNING",
+    "estimated_initial_contract_usd": 700000,
+    "estimated_3yr_revenue_usd": 18000000,
+    "competitive_landscape": "Empty-field opportunity. Mintsifry liquidation is 30 days old. Estonia eGA has structural advantage via existing twinning programme but lacks deep AI/LLM capability. Cybernetica AS (Estonia, Tunduk incumbent) holds the X-Road technical relationship. EGA + Cybernetica together cover infrastructure and TOR drafting but neither has Russian-Kyrgyz LLM capability or speed-to-deliver agentic government workflows. This is the precise gap a CIS-aligned vendor with sntz.ai stack and a Bishkek-dispatchable team can fill.",
+    "incumbents": ["Estonia eGA (twinning)", "Cybernetica AS (Tunduk infrastructure)", "GIZ governance advisors"],
+    "mandatory_local_partner": "High-Tech Park resident with Russian-Kyrgyz dev team — needed for credibility and HTP tax regime; not capital partner.",
+    "win_conditions": "(1) Confirmed warm intro to Asanbekov via Talant Sultanov within 14 days; (2) registration as TA provider with WB Digital CASA PIU within 30 days; (3) draft Tunduk 2.0 modernization TOR delivered for UDP review within 60 days; (4) named co-author credit on at least one published Cabinet TOR by Q3 2026; (5) parallel ADB e-Procurement PIU TA registration secured for cross-program leverage.",
+    "pilot_scope": "Pro-bono drafting of three TORs (Tunduk 2.0, e-procurement AI, AI Strategy framework) plus one paid TA contract on AI Strategy implementation roadmap (KG-TF-2026-003 forecast value $400K).",
+    "pilot_duration_months": 4,
+    "pilot_success_metrics": [
+      "3 TORs co-authored and accepted by UDP Digital Department",
+      "≥1 paid TA contract awarded under EGA twinning OR donor TA channel",
+      "Named recognition in published Cabinet decision aligning a Mintsifry program with UDP",
+      "Technical Assistance Provider status confirmed by ≥2 of 3 donor PIUs (WB, ADB, EU)",
+      "Russian-Kyrgyz bilingual TOR deliverables accepted as compliant by donor procurement officers"
+    ],
+    "scale_up_path": "Year 1: leverage TOR co-author status into bid eligibility for 4-6 implementation contracts: Tunduk modernization ($1.8M, KG-T-2026-005 live), e-procurement Phase 2 ($650K base + $1M+ extensions), Digital Code secondary regs ($650K, KG-T-2026-008 live), AI Strategy TA ($400K, KG-TF-2026-003 forecast). Year 2-3: anchor as preferred AI/LLM vendor for UDP's full pipeline including digital som CBDC adjacent procurement, mountain telemedicine, and Bishkek smart city.",
+    "pitch_hook": "On 30.04.2026 Минцифры was liquidated and UDP must publish post-Минцифры TORs by 31.07.2026 — but UDP has zero in-house technical drafting capacity and 20+ programs to re-procure. Estonia eGA has the twinning frame. We have the Russian-Kyrgyz bilingual sntz.ai stack and a Bishkek-dispatchable team. Sixty days of pro-bono TOR drafting equals 24 months of priority vendor positioning across every Mintsifry-successor procurement.",
+    "risk_register": [
+      {
+        "risk_type": "political",
+        "description": "UDP Digital Department leadership stabilization is incomplete. Asanbekov's deputy structure and decision authority are still being formalized. A second reorganization within 12 months cannot be ruled out.",
+        "mitigation": "Build relationship at the deputy level (kg-presidential-digital-dept-dep, Timur Koichubaev) and at the Tunduk technical lead (kg-tunduk-tech-lead, Mirlan Asanbekov) — institutional memory survives leadership rotation. Anchor parallel relationship at WB Digital CASA PIU which is donor-side and unaffected by KG reorganization."
+      },
+      {
+        "risk_type": "commercial",
+        "description": "Pro-bono drafting can be absorbed without delivering paid follow-on work if competitor vendors (eGA, Cybernetica, large international firms) push UDP toward conventional procurement channels.",
+        "mitigation": "Time-bound the pro-bono engagement to specific deliverables (3 TORs, 60 days). Couple every pro-bono deliverable with a paid TA proposal under EGA twinning or donor TA channel. Make the engagement registered, named, and citable in subsequent bids."
+      },
+      {
+        "risk_type": "technical",
+        "description": "Russian-Kyrgyz bilingual capability claims must be benchmarked against Yandex GPT, GigaChat, and any forthcoming Kyrgyz NLP efforts. Failure to demonstrate measurable Kyrgyz coverage discredits the entire engagement.",
+        "mitigation": "Publish an open Russian-Kyrgyz bilingual NLP benchmark dataset and evaluation protocol with co-authorship from AUCA (kg-auca-rector, Andrew Wachtel) and HTP linguistic resident. Make the benchmark third-party verifiable before any TOR submission."
+      }
+    ],
+    "next_30_day_actions": [
+      "LinkedIn message to kg-talant-sultanov-former requesting warm intro to Adilbek Asanbekov, framing pro-bono TOR drafting as continuation of Sultanov's CMU-style governance modernization agenda.",
+      "Submit Technical Assistance Provider registration to WB Digital CASA Kyrgyz PIU citing Sandra Sargent (kg-sandra-sargent) as TTL contact, attach team CV bundle and prior X-Road / e-government TOR drafting references.",
+      "Submit parallel TA Provider registration to ADB Project 55109 e-Procurement PIU citing Aibek Abdybakirov (kg-aibek-abdybakirov) as project officer.",
+      "Schedule 60-day Bishkek field visit for senior advisor; request co-location desk at HTP or AUCA innovation hub; brief AUCA rector on Russian-Kyrgyz NLP benchmark co-publication.",
+      "Brief Estonia eGA's KG advisor (kg-tonis-mae) on intent to complement (not compete with) the EGA twinning program; explore subcontract pathway if eGA cannot field LLM/AI capability inside its TOR drafting scope."
+    ],
+    "scoring": {
+      "speed_to_contract": 10,
+      "strategic_moat": 10,
+      "defensibility": 8,
+      "capital_access": 9,
+      "russian_cis_fit": 10,
+      "weighted_total": 9.30,
+      "scoring_rationale": "Speed 10: UDP TOR drafting deadline 31.07.2026 — the highest-urgency window in either country. Moat 10: empty-field structural reorganization, no incumbent has UDP relationship yet, presidential decree concentration. Defensibility 8: TOR co-author status converts into priority bidder positioning across 20+ programs but each contract still requires winning. Capital 9: three active donor TA channels (EU EGA twinning, WB Digital CASA, ADB e-Procurement) all funded and disbursable. Russian/CIS Fit 10: Russian-Kyrgyz bilingual is mandatory, sntz.ai stack direct fit, Western firms cannot field Russian-Kyrgyz NLP, sanctions-sensitive Russian vendors blocked."
+    },
+    "confidence_tier": "A",
+    "verification": "VERIFIED"
+  },
+  {
+    "id": "KG-INI-002",
+    "short_name": "Digital Som CBDC Wallet & AML/KYC Stack",
+    "country": "KG",
+    "sector": "Finance & Fiscal",
+    "one_liner": "Deliver wallet, AML/KYC, fraud-detection and crypto-compliance AI stack for the digital som CBDC under NBKR ahead of mandatory 1 January 2027 go-live (Constitutional Law 74 of 16.04.2025).",
+    "problem_statement": "KG-LAW-2025-074-NBKR-CBDC (16 April 2025) is a Constitutional Law amendment establishing the digital som with mandatory go-live on 1 January 2027. NBKR holds exclusive emission and platform-operation authority. Pilot is running through 2026. Live tender KG-T-2026-004 ($3.5M, digital som software infrastructure) is open and forthcoming KG-TF-2026-002 ($4.5M, Phase 2 offline transactions and AML/KYC) follows in 2026. Constitutional law deadlines cannot slip without legislative amendment — this is the rarest mandatory-by-law procurement event in Central Asia. Brazil Pix (case-br-pix), Singapore Project Ubin (case-sg-cbdc-project-ubin), and India UPI (case-in-upi) provide proven CBDC architecture blueprints.",
+    "solution_concept": "Deliver a four-layer digital som platform stack: (1) consumer wallet (Russian-Kyrgyz bilingual, KYC-bound, MIR/SBP-interoperable for diaspora remittance corridor); (2) AML/KYC AI engine integrating NBKR sanctions lists and Tunduk identity fetch; (3) fraud-detection ML for transaction anomaly scoring at scale (target: 5M+ active wallets by 2028); (4) crypto-virtual-asset compliance layer cross-referencing the KGST stablecoin and the Virtual Assets Registry mandated by KG-LAW-2022-012-VIRTUAL and KG-LAW-2026-003-VA-AMEND. Architecturally anchored on Brazil Pix's centralized rail + Singapore Ubin's wholesale-to-retail bridge. Adapted for KG's hydropower-funded sovereign infrastructure preference and the labor migration remittance use case (Russia → KG corridor, $2.8B annually) where the digital som can capture 5–15% of transaction flow.",
+    "precedent_case_id": "case-kg-cbdc-digital-som",
+    "what_preserved": "Brazil Pix architecture (centralized rail with rich open API surface, fraud detection via ML), Singapore Ubin wholesale-retail bridge pattern.",
+    "what_adapted": "Russian-Kyrgyz bilingual UX, MIR/SBP remittance interoperability, Tunduk identity binding, NBKR sanctions list integration, virtual asset cross-compliance with KGST stablecoin registry.",
+    "authorizing_decree_ids": ["KG-LAW-2025-074-NBKR-CBDC", "KG-LAW-2022-012-VIRTUAL", "KG-LAW-2026-003-VA-AMEND", "KG-CABINET-2025-VIRTUAL-ASSETS-COUNCIL"],
+    "regulatory_hurdles": "Constitutional Law amendment status means infrastructure choices become semi-permanent. NBKR exclusive-emission rule blocks any non-NBKR custodial structure. Sanctions exposure on cross-border rails requires careful bank counterparty vetting. Mitigation: structure as software vendor to NBKR with no custodial role; design AML engine to flag and block any sanctioned-counterparty transaction at the rail level.",
+    "ppp_feasible": false,
+    "lead_institution_id": "KG-NBKR",
+    "target_buyer_person_id": "kg-nbkr-head",
+    "operational_counterpart_person_id": "kg-tunduk-tech-lead",
+    "procurement_pathway": "tender",
+    "primary_funding": "NBKR state budget + WB/IFC technical assistance + EFSD-KG-STABILIZATION digital infrastructure component",
+    "secondary_funding_donor_program_id": "EFSD-KG-STABILIZATION",
+    "estimated_initial_contract_usd": 3500000,
+    "estimated_3yr_revenue_usd": 24000000,
+    "competitive_landscape": "G+D, Giesecke+Devrient and IBM are global CBDC incumbents but have minimal Central Asia presence. Russian vendors (NSPK, Yandex) sanctions-exposed. Chinese vendors (Huawei) targeting infrastructure not application layer. Estonia eGA twinning includes fintech advisory but not CBDC stack delivery. The Russian-Kyrgyz bilingual + sntz.ai agentic stack + sanctions-clean positioning is differentiator. NBKR has run the pilot internally so operational know-how is on the buyer side; vendor differentiation is on speed, AML quality, and Russian-language coverage.",
+    "incumbents": ["G+D Giesecke+Devrient (global CBDC)", "IBM (global CBDC consulting)", "PwC fintech advisory (regional)"],
+    "mandatory_local_partner": "Local commercial bank as integration partner (e.g., RSK Bank, Aiyl Bank) for wallet distribution; HTP IT resident for compliance with HTP digital export rules.",
+    "win_conditions": "(1) NBKR pilot observer status secured by Q2 2026; (2) AML/KYC architecture proposal submitted before KG-TF-2026-002 ($4.5M Phase 2) tender drops; (3) WB/IFC TA alignment letter; (4) Russian-Kyrgyz bilingual wallet demo built on NBKR's published technical specification; (5) referenceable Brazil Pix or Singapore Ubin architecture endorsement.",
+    "pilot_scope": "Phase 1 ($3.5M, KG-T-2026-004): wallet + AML/KYC for 100K pilot users in Bishkek and Osh corridor. Phase 2 ($4.5M, KG-TF-2026-002): offline transactions and full AML scale-out.",
+    "pilot_duration_months": 9,
+    "pilot_success_metrics": [
+      "≥100K pilot wallets onboarded with Tunduk-bound KYC",
+      "≥99.5% AML transaction screening latency < 200ms at pilot volume",
+      "≥95% intent classification accuracy on Russian-Kyrgyz wallet support chatbot",
+      "Zero sanctioned-counterparty leakage in NBKR audit",
+      "Functional remittance corridor demo with at least one MIR/SBP-compatible test partner"
+    ],
+    "scale_up_path": "Year 1 (2026): Phase 1 + Phase 2 awards to seed full stack. Year 2 (2027): production go-live serving 1M+ active wallets, AML expansion to commercial-bank reporting (KG-TF-2026-005 forecast $1.8M). Year 3 (2028): export the stack to NBKR's regional peers (Tajikistan, Mongolia exploring CBDC) and license the AML/fraud engine separately to commercial banks under KG-LAW-2024-121-CYBERSEC compliance frame.",
+    "pitch_hook": "Constitutional Law 74 of 16.04.2025 mandates digital som go-live on 1 January 2027 — a hard legal deadline NBKR cannot miss without amending the constitution. KG-T-2026-004 ($3.5M wallet) is live now and KG-TF-2026-002 ($4.5M Phase 2 AML) follows. Brazil Pix proves the architecture, Singapore Ubin the wholesale-retail bridge. We deliver the only Russian-Kyrgyz bilingual sntz.ai-grade AML/KYC stack that is sanctions-clean and disbursable on NBKR's deadline.",
+    "risk_register": [
+      {
+        "risk_type": "commercial",
+        "description": "G+D or IBM bid late with global CBDC reference deck and political-cover relationships through IFC.",
+        "mitigation": "Pre-position with WB/IFC TA alignment letter so we are inside the IFC-aligned vendor list before they bid. Differentiate on Russian-Kyrgyz bilingual UX which neither can field at production grade in 8 months."
+      },
+      {
+        "risk_type": "political",
+        "description": "NBKR Governor rotation (Melis Turganbekov tenure not guaranteed) could reset architectural decisions and vendor relationships.",
+        "mitigation": "Build relationship at NBKR digital department and Tunduk tech lead (Mirlan Asanbekov, kg-tunduk-tech-lead) — these are operational continuity points that survive Governor rotation. Anchor parallel relationship at WB/IFC TA which is donor-side."
+      },
+      {
+        "risk_type": "technical",
+        "description": "Sanctions exposure on Russia remittance corridor: any AML failure that allows a sanctioned counterparty to transact creates regulatory blowback for NBKR and ends the vendor relationship.",
+        "mitigation": "Engineer AML engine with conservative-by-default rules, third-party audited sanctions list integration (OFAC, EU, UN), explicit deny-list for any MIR/SBP corridor counterparty under sanctions; publish architecture for IFC review before launch."
+      }
+    ],
+    "next_30_day_actions": [
+      "Submit pre-qualification documentation for KG-T-2026-004 ($3.5M digital som software) before submission deadline.",
+      "Request NBKR pilot observer status via formal letter to NBKR Chairman Melis Turganbekov (kg-nbkr-head).",
+      "Secure WB/IFC TA alignment letter through Sandra Sargent (kg-sandra-sargent, WB Digital CASA TTL).",
+      "Build Russian-Kyrgyz bilingual wallet demo against NBKR's published technical specification, deliver as 4-week MVR.",
+      "LinkedIn message to kg-tunduk-tech-lead (Mirlan Asanbekov) on AML integration architecture for Tunduk identity fetch."
+    ],
+    "scoring": {
+      "speed_to_contract": 10,
+      "strategic_moat": 9,
+      "defensibility": 9,
+      "capital_access": 9,
+      "russian_cis_fit": 10,
+      "weighted_total": 9.35,
+      "scoring_rationale": "Speed 10: live RFP KG-T-2026-004, Constitutional Law mandatory deadline. Moat 9: NBKR exclusive-emission, ≤3 incumbents, Russian-Kyrgyz bilingual differentiator. Defensibility 9: CBDC infrastructure is multi-year and switching cost extreme. Capital 9: NBKR state budget + WB/IFC TA + EFSD digital infrastructure component. Russian/CIS Fit 10: Russian-Kyrgyz bilingual mandatory, MIR/SBP corridor, sanctions-aware design needed, sntz.ai stack direct fit."
+    },
+    "confidence_tier": "A",
+    "verification": "VERIFIED"
+  },
+  {
+    "id": "KG-INI-003",
+    "short_name": "Tunduk 2.0 API Gateway & Data Modernization",
+    "country": "KG",
+    "sector": "Public Administration & e-Government",
+    "one_liner": "Modernize the Tunduk inter-agency data exchange platform (KG's X-Road equivalent) under live RFP KG-T-2026-005 ($1.8M) and the post-Минцифры transfer to UDP, replicating Estonia X-Road maturity gains.",
+    "problem_statement": "Tunduk is the State Enterprise operating Kyrgyzstan's inter-agency data exchange platform (X-Road derivative). Following the Mintsifry liquidation, Tunduk SE was transferred to UDP control via KG-TUNDUK-INFOCOM-TRANSFER. Live RFP KG-T-2026-005 ($1.8M, Tunduk platform modernization — API gateway and data management) is open. KG-LAW-2025-178-DIGITAL-CODE and its enactment law (KG-LAW-2025-179-DIGITAL-CODE-ENACTMENT) require Tunduk to host the AI auditability and model registry mandated by the Digital Code. Existing platform is functional but lacks modern API gateway, observability, and the AI inference fabric needed for the next decade. Estonia X-Road / X-Tee (case-est-xroad) is the reference architecture; case-kg-tunduk-modernisation documents the ongoing modernization track.",
+    "solution_concept": "Three-component delivery: (1) modern API gateway with OAuth2/OIDC, rate-limiting, circuit-breaker patterns and observability stack — replacing the current bespoke routing layer; (2) data-management plane with consent receipt management compliant with KG-LAW-2008-058 (personal information law) and Digital Code amendments; (3) AI inference fabric — a managed-runtime layer on which any government agency can deploy a model and have its consumption metered, logged for the Digital Code AI registry, and routed through Tunduk's identity layer. Architecturally anchored on Estonia X-Road maturity (case-est-xroad) preserved as core; adapted for KG's centralized UDP governance, Russian-Kyrgyz bilingual operator UX, and the Digital Code AI auditability requirements that are unique to KG.",
+    "precedent_case_id": "case-est-xroad",
+    "what_preserved": "X-Road peer-to-peer data exchange, message-level signing, audit trail, security server architecture — all production-proven across Estonia, Finland, Iceland.",
+    "what_adapted": "Centralized UDP governance (KG model is more centralized than Estonia's distributed pattern), Russian-Kyrgyz bilingual operator console, AI registry and inference fabric layer (Digital Code requirement absent in Estonia), integration with the Tunduk SE operational team.",
+    "authorizing_decree_ids": ["KG-UP-2018-200-TUNDUK", "KG-LAW-2025-178-DIGITAL-CODE", "KG-LAW-2025-179-DIGITAL-CODE-ENACTMENT", "KG-TUNDUK-INFOCOM-TRANSFER", "KG-CABINET-2022-245-TUNDUK"],
+    "regulatory_hurdles": "Digital Code AI auditability provisions are still being detailed by KG-AI-SECONDARY-REG-WORKING-GROUP. Vendor must follow the secondary regulation drafting closely to avoid building against an outdated specification. Mitigation: bid as part of the same vendor stack participating in Digital Code secondary regulation drafting (linked initiative KG-INI-008).",
+    "ppp_feasible": false,
+    "lead_institution_id": "KG-GP-TUNDUK",
+    "target_buyer_person_id": "kg-tunduk-gp-head",
+    "operational_counterpart_person_id": "kg-tunduk-tech-lead",
+    "procurement_pathway": "tender",
+    "primary_funding": "EU C4CA (Connectivity for Central Asia) + KOICA Tunduk Modernization + state budget under UDP",
+    "secondary_funding_donor_program_id": "KOICA-KG-TUNDUK",
+    "estimated_initial_contract_usd": 1800000,
+    "estimated_3yr_revenue_usd": 12000000,
+    "competitive_landscape": "Cybernetica AS (Estonia) is the historical X-Road technology incumbent and has KG context via EU C4CA. NIIPI Vector (regional Russian SI) sanctions-exposed. Local Kyrgyz integrators (HTP residents) lack API-gateway and observability depth. Open positioning if vendor can field Russian-Kyrgyz bilingual + modern cloud-native API stack + AI inference fabric simultaneously — a triple Cybernetica cannot match.",
+    "incumbents": ["Cybernetica AS (Estonia, X-Road incumbent)", "Local KG integrators (HTP residents)", "GIZ governance advisors"],
+    "mandatory_local_partner": "Tunduk SE technical team + HTP IT integrator. Tunduk SE itself (kg-tunduk-tech-lead, Mirlan Asanbekov) is the operational counterpart and partner-of-record.",
+    "win_conditions": "(1) Co-author Tunduk 2.0 TOR via the UDP TOR initiative (KG-INI-001); (2) Russian-Kyrgyz bilingual operator console demo by submission deadline; (3) Estonia eGA endorsement letter (kg-tonis-mae); (4) Tunduk SE technical lead pre-buy on AI inference fabric architecture; (5) KOICA TTL alignment letter.",
+    "pilot_scope": "Pilot covering API gateway modernization + Digital Code AI registry MVP for 5 government agencies (UDP, Cabinet, NBKR, MoH, MoF) with Russian-Kyrgyz bilingual operator console.",
+    "pilot_duration_months": 10,
+    "pilot_success_metrics": [
+      "API gateway processing ≥1000 RPS sustained across 5 agencies",
+      "AI registry contains ≥20 government AI models with audit trail",
+      "Russian-Kyrgyz bilingual operator console deployed with named UDP operator users",
+      "P99 latency < 500ms for inter-agency data exchange",
+      "Compliance audit pass under Digital Code secondary regulation provisions"
+    ],
+    "scale_up_path": "Year 1: Phase 1 modernization across 5 agencies. Year 2: full Tunduk modernization across 30+ agencies, AI inference fabric onboarding government LLMs and computer-vision services. Year 3: license inference fabric pattern to UZ government cloud (UzCloud) as regional reference architecture, position for ITU regional digital integration role.",
+    "pitch_hook": "KG-LAW-2025-178 mandates an AI registry on Tunduk and KG-T-2026-005 ($1.8M) is open now to modernize the platform. Estonia X-Road proves the architecture; Kazakhstan and Azerbaijan have copied it. We bring the only Russian-Kyrgyz bilingual API-gateway + AI inference fabric stack that satisfies Digital Code auditability on day one — Cybernetica's classic X-Road build does not.",
+    "risk_register": [
+      {
+        "risk_type": "commercial",
+        "description": "Cybernetica's incumbency and EU twinning relationship gives them the inside track and they will defend it.",
+        "mitigation": "Position as complement not competitor: Cybernetica owns the X-Road core, we own the AI inference fabric and Russian-Kyrgyz bilingual operator console. Propose subcontract or partnership structure where each vendor delivers their differentiated layer. Reference Estonia eGA endorsement (kg-tonis-mae) to avoid antagonizing the Estonia ecosystem."
+      },
+      {
+        "risk_type": "technical",
+        "description": "Digital Code secondary regulations are still being drafted (kg-trend-003-digital-code-secondary-regs). Building an AI registry against a draft specification risks rework when final regulation lands.",
+        "mitigation": "Win the linked Digital Code secondary regulation TA contract (KG-INI-008) so we are inside the spec authorship loop. Architect the AI registry with versioned schema and explicit migration path between draft and final specification."
+      },
+      {
+        "risk_type": "political",
+        "description": "Tunduk SE was just transferred from Mintsifry to UDP. Operational governance of Tunduk SE may be revisited (KG-TUNDUK-INFOCOM-TRANSFER suggests partial transfer to GP Infocom).",
+        "mitigation": "Build dual relationships at Tunduk SE (kg-tunduk-gp-head, Marat Isakov) and at GP Infocom and at UDP. Anchor at the technical lead level (kg-tunduk-tech-lead, Mirlan Asanbekov) where engineering continuity is highest."
+      }
+    ],
+    "next_30_day_actions": [
+      "Submit pre-qualification documentation for KG-T-2026-005 ($1.8M Tunduk modernization) before submission deadline.",
+      "LinkedIn message to kg-tunduk-gp-head (Marat Isakov, Tunduk SE Director) referencing case-est-xroad maturity model and offering Russian-Kyrgyz bilingual operator demo.",
+      "Reach out to KOICA-KG-TUNDUK TTL via KOICA Bishkek office citing the active KOICA-KG-TUNDUK $5M co-financing pipeline.",
+      "Brief Estonia eGA's KG advisor (kg-tonis-mae) on partnership rather than competitive positioning vs. Cybernetica.",
+      "Reach out to EU C4CA PIU (kg-eu-piu-c4ca) for technical assistance alignment letter."
+    ],
+    "scoring": {
+      "speed_to_contract": 10,
+      "strategic_moat": 9,
+      "defensibility": 9,
+      "capital_access": 9,
+      "russian_cis_fit": 9,
+      "weighted_total": 9.20,
+      "scoring_rationale": "Speed 10: live RFP KG-T-2026-005 closing in current cycle. Moat 9: post-Минцифры governance flux means even the incumbent (Cybernetica) needs to re-establish position. Defensibility 9: Tunduk hosts identity and inter-agency data — multi-year switching cost. Capital 9: KOICA $5M + EU C4CA + UDP state budget. Russian/CIS Fit 9: Russian-Kyrgyz operator UX needed, sntz.ai stack fits, sanctions-clean positioning preferred."
+    },
+    "confidence_tier": "A",
+    "verification": "VERIFIED"
+  },
+  {
+    "id": "KG-INI-004",
+    "short_name": "KG eHealth EHR & AI Diagnostic Platform",
+    "country": "KG",
+    "sector": "Health",
+    "one_liner": "Deliver electronic health record and AI diagnostic suite for the Ministry of Health under live RFP KG-T-2026-006 ($4.03M), replicating Estonia e-Health and Kazakhstan Damumed precedents.",
+    "problem_statement": "KG-MINHEALTH lacks national EHR; existing data is fragmented across hospital systems. Live tender KG-T-2026-006 ($4.03M, digital health: EHR + AI diagnostic support) is open. Constitutional commitment to digital governance (KG-UP-2024-090-CONCEPT) and Digital Code (KG-LAW-2025-178) mandate health-data interoperability via Tunduk. AKDN-KG-DIGITAL-SCHOOLS2030 ($15M, AKDN) and UNICEF-KG-DIGITAL-EARLY ($1.5M) provide co-financing pathway for child and rural health. Estonia E-Health (case-est-ehealth), Kazakhstan Damumed (case-kz-damumed), and Bangladesh a2i Telemedicine (case-bd-a2i-health) are precedent cases. KG mountain geography (>90% mountainous, scattered population) makes telemedicine + AI triage especially high-value.",
+    "solution_concept": "Three-layer platform: (1) National EHR core with Tunduk-bound identity (KGz citizen ID), patient data store, and clinician-facing UX in Russian-Kyrgyz bilingual; (2) AI diagnostic suite — radiology image triage (chest X-ray TB screening priority, given KG TB burden), retinal screening for diabetic retinopathy, ECG arrhythmia detection — running as inference services on Tunduk inference fabric (linked to KG-INI-003); (3) Telemedicine triage for mountain communities (linked to KG-INI-006), AKDN co-financed, with offline-capable mobile app for ayil ambulatories. Architectural anchor: Estonia e-terviseportaal (case-est-ehealth) + Damumed clinical decision support (case-kz-damumed) + a2i community-clinic delivery model (case-bd-a2i-health). Adapted for KG's centralized procurement, Russian-Kyrgyz bilingual UX, Tunduk integration, and mountain telemedicine field constraints.",
+    "precedent_case_id": "case-est-ehealth",
+    "what_preserved": "Estonia e-Health architecture: patient record data store, X-Road-bound consent, clinician-facing portal — proven in production for 1.3M citizens since 2008.",
+    "what_adapted": "Tunduk integration (rather than X-Road), Russian-Kyrgyz bilingual UX, AI diagnostic suite (Estonia e-Health is foundational EHR not AI-heavy), telemedicine offline mountain delivery (AKDN-funded use case absent in Estonia), Damumed-style clinical decision support imported on top.",
+    "authorizing_decree_ids": ["KG-UP-2024-090-CONCEPT", "KG-LAW-2025-178-DIGITAL-CODE", "KG-LAW-2025-179-DIGITAL-CODE-ENACTMENT", "KG-CABINET-2024-023-DIGITAL-SERVICES"],
+    "regulatory_hurdles": "Personal information law KG-LAW-2008-058 + Digital Code data localization for sensitive personal data (health). Mitigation: deploy on Tunduk-aligned data residency, no cross-border PHI flow without explicit consent receipt.",
+    "ppp_feasible": false,
+    "lead_institution_id": "KG-MINHEALTH",
+    "target_buyer_person_id": "kg-minzdrav-head",
+    "operational_counterpart_person_id": "kg-tunduk-tech-lead",
+    "procurement_pathway": "tender",
+    "primary_funding": "Ministry of Health state budget + AKDN-KG-DIGITAL-SCHOOLS2030 co-financing + UNICEF-KG-DIGITAL-EARLY",
+    "secondary_funding_donor_program_id": "AKDN-KG-DIGITAL-SCHOOLS2030",
+    "estimated_initial_contract_usd": 4030000,
+    "estimated_3yr_revenue_usd": 28000000,
+    "competitive_landscape": "Damumed (Kazakhstan, regional incumbent for health) is direct competitor with sectoral influence and Russian-language native. InterSystems and Allscripts (international EHR vendors) have presence via WB but expensive and not Russian-Kyrgyz native. Estonia e-Health team via eGA twinning (kg-tonis-mae) advisory. Local KG integrators lack AI diagnostic depth. Russian-Kyrgyz bilingual + AI diagnostic + AKDN telemedicine integration is the differentiator package.",
+    "incumbents": ["Damumed (KZ regional)", "InterSystems (international)", "Allscripts (international)"],
+    "mandatory_local_partner": "HTP IT integrator + named hospital network partner (Bishkek Republican Hospital + Osh Inter-Oblast Hospital) for clinical co-design.",
+    "win_conditions": "(1) Live tender KG-T-2026-006 pre-qualification by deadline; (2) AKDN endorsement letter via AKDN-KG-DIGITAL-SCHOOLS2030 PIU; (3) UNICEF TTL alignment for child/early-learning health overlap; (4) Damumed-comparable clinical decision support demo; (5) Russian-Kyrgyz bilingual EHR demo with Bishkek Republican Hospital pilot patients.",
+    "pilot_scope": "Pilot at Bishkek Republican Hospital + 3 Naryn rural ambulatories (mountain telemedicine link) + Osh Inter-Oblast Hospital, covering 50K patients in Year 1.",
+    "pilot_duration_months": 12,
+    "pilot_success_metrics": [
+      "≥50K patient EHR records onboarded",
+      "≥85% sensitivity on chest X-ray TB triage AI vs. radiologist baseline",
+      "≥40% reduction in mountain-to-Bishkek referral time via telemedicine triage",
+      "Russian-Kyrgyz bilingual clinician UX with named clinician users at Bishkek Republican Hospital",
+      "Compliance audit pass under KG-LAW-2008-058 personal information law"
+    ],
+    "scale_up_path": "Year 1: pilot 50K patients, 4 sites. Year 2: scale to all oblast hospitals (~30 sites) + 200 ayil ambulatories with AKDN telemedicine. Year 3: AI diagnostic suite expanded (cardiology, dermatology), regional license to UZ MoH and Tajikistan MoH.",
+    "pitch_hook": "Estonia e-Health serves 1.3M citizens with X-Road; Kazakhstan Damumed proves the regional Russian-language clinical UX. KG-T-2026-006 ($4.03M) is open now to deliver KG's first integrated EHR + AI diagnostic + mountain telemedicine stack. AKDN co-finances the mountain rollout. We bring Russian-Kyrgyz bilingual sntz.ai radiology AI ready to deploy on Tunduk inference fabric.",
+    "risk_register": [
+      {
+        "risk_type": "commercial",
+        "description": "Damumed bids with Kazakhstan precedent and Russian-language UX directly comparable. They are the natural regional incumbent.",
+        "mitigation": "Differentiate on Kyrgyz-language clinical UX (Damumed is Russian-only at scale), AI diagnostic depth, AKDN mountain telemedicine integration, and Tunduk inference fabric native deployment (not just bolted-on)."
+      },
+      {
+        "risk_type": "political",
+        "description": "MoH leadership (Alymkadyr Beishenaliev) tenure not guaranteed; ministerial rotation in KG averages 18 months.",
+        "mitigation": "Build dual relationship at MoH minister level and at clinical lead level (Bishkek Republican Hospital director — pre-identify and brief). Anchor parallel relationship at AKDN PIU which is donor-side."
+      },
+      {
+        "risk_type": "technical",
+        "description": "Mountain telemedicine connectivity is unreliable; offline-first design is required and rarely delivered well by EHR vendors.",
+        "mitigation": "Engineer offline-first sync layer with explicit conflict resolution; partner with KG-MEGACOM (state mobile operator, KG-MEGACOM institution) for connectivity SLAs in pilot zones."
+      }
+    ],
+    "next_30_day_actions": [
+      "Submit pre-qualification documentation for KG-T-2026-006 ($4.03M) before submission deadline.",
+      "LinkedIn message to kg-minzdrav-head (Alymkadyr Beishenaliev) referencing AKDN partnership and Estonia e-Health architecture.",
+      "Schedule meeting with AKDN-KG-DIGITAL-SCHOOLS2030 PIU (kg-akdn-piu) for endorsement letter.",
+      "Brief Estonia eGA's KG advisor (kg-tonis-mae) on EHR architecture and request Estonia e-Health reference letter.",
+      "Reach out to UNICEF-KG-DIGITAL-EARLY TTL for child/early-learning health overlap alignment letter."
+    ],
+    "scoring": {
+      "speed_to_contract": 9,
+      "strategic_moat": 8,
+      "defensibility": 9,
+      "capital_access": 9,
+      "russian_cis_fit": 9,
+      "weighted_total": 8.70,
+      "scoring_rationale": "Speed 9: live RFP, decision within 90 days. Moat 8: Damumed competition limits moat. Defensibility 9: EHR multi-year SLAs, clinical workflow lock-in. Capital 9: AKDN $15M + UNICEF $1.5M + state budget. Russian/CIS Fit 9: Russian-Kyrgyz bilingual mandatory, sntz.ai radiology AI fits."
+    },
+    "confidence_tier": "A",
+    "verification": "VERIFIED"
+  },
+  {
+    "id": "KG-INI-005",
+    "short_name": "ADB e-Procurement Phase 2 AI Analytics",
+    "country": "KG",
+    "sector": "Public Administration & e-Government",
+    "one_liner": "Deliver AI-powered fraud detection, supplier scoring and analytics for KG's State Procurement Agency under the ADB Phase 2 successor to Project 55109-001 (Aibek Abdybakirov TTL).",
+    "problem_statement": "ADB-KG-55109-001 ($650K Phase 1) has completed initial e-Procurement digitalization. Phase 2 will procure AI analytics, fraud detection, and supplier scoring on top of the digitalized procurement platform. Live RFP KG-T-2026-002 ($150K, IT audit) is the precursor. Forthcoming Phase 2 award expected mid-2026. KG-LAW-2022-027 (new procurement law) and KG-LAW-2025-243 / KG-LAW-2025-262 (legislative amendments) create the regulatory frame for AI-assisted procurement decision support. Kazakhstan Smart Bridge tax integration (case-kz-smartbridge-tax) and India e-procurement reference patterns inform the architecture.",
+    "solution_concept": "Three-component AI overlay on the digitalized e-procurement platform: (1) supplier risk scoring — ML model rating each registered supplier on prior contract performance, beneficial-ownership red flags, and price-anomaly history; (2) bid anomaly detection — clustering algorithms flagging suspicious price patterns, shell-company linkages, and bid-rotation rings; (3) procurement decision support dashboard for the State Procurement Agency leadership in Russian-Kyrgyz bilingual. Architectural anchor: Kazakhstan SmartBridge tax-procurement integration and Korea KONEPS analytics overlay. Adapted for KG's central procurement model (KG-PROCUREMENT-DEPT under Cabinet) and integration with Tunduk for beneficial-ownership cross-reference.",
+    "precedent_case_id": "case-kz-smartbridge-tax",
+    "what_preserved": "Kazakhstan SmartBridge analytics overlay on procurement: risk scoring, anomaly detection, decision support dashboard.",
+    "what_adapted": "KG centralized procurement model, Russian-Kyrgyz bilingual UX, Tunduk-bound beneficial-ownership cross-reference, integration with KG-LAW-2022-027 procurement law thresholds.",
+    "authorizing_decree_ids": ["KG-LAW-2022-027", "KG-LAW-2015-072", "KG-LAW-2025-243", "KG-LAW-2025-262"],
+    "regulatory_hurdles": "Procurement law confidentiality provisions limit which bid data can be analyzed cross-tender. Mitigation: design with explicit data partitioning by tender lifecycle stage; analytics on closed tenders only for retrospective scoring.",
+    "ppp_feasible": false,
+    "lead_institution_id": "KG-PROCUREMENT-DEPT",
+    "target_buyer_person_id": "kg-goszakupki-head",
+    "operational_counterpart_person_id": "kg-aibek-abdybakirov",
+    "procurement_pathway": "donor_program",
+    "primary_funding": "ADB Project 55109-001 Phase 2 + state budget under Cabinet of Ministers procurement department",
+    "secondary_funding_donor_program_id": "ADB-KG-55109-001",
+    "estimated_initial_contract_usd": 1200000,
+    "estimated_3yr_revenue_usd": 8500000,
+    "competitive_landscape": "Empty field. Existing Phase 1 vendor relationship is on the digitalization track, not analytics. Korea KONEPS-style vendors not present in KG. SmartBridge / Kazakhstan vendors not yet bidding. Russian-Kyrgyz bilingual + agentic analytics layer is the moat.",
+    "incumbents": ["Phase 1 digitalization vendor (TBD, smaller-scope)", "World Bank-funded procurement TA consultants"],
+    "mandatory_local_partner": "HTP IT integrator + State Procurement Agency technical team.",
+    "win_conditions": "(1) ADB TTL Aibek Abdybakirov (kg-aibek-abdybakirov) endorsement letter; (2) State Procurement Agency director Kadyrbayev (kg-goszakupki-head) pre-buy on architecture; (3) Russian-Kyrgyz bilingual analytics dashboard demo; (4) Tunduk integration roadmap for beneficial-ownership cross-reference; (5) Cabinet procurement law compliance opinion from KG legal partner.",
+    "pilot_scope": "Pilot covering AI analytics on procurement data from Q4 2025 forward, focused on top-100 high-value tenders, with risk scoring of all registered suppliers.",
+    "pilot_duration_months": 9,
+    "pilot_success_metrics": [
+      "≥80% precision on flagged bid anomalies validated by procurement agency review",
+      "Risk scores for all ≥5,000 registered suppliers in production database",
+      "Russian-Kyrgyz bilingual dashboard deployed with named procurement agency users",
+      "≥3 successful fraud detection cases referred to anti-corruption agency",
+      "ADB compliance audit pass"
+    ],
+    "scale_up_path": "Year 1: ADB Phase 2 award. Year 2: extend to oblast-level procurement, integrate with State Tax Service (KG-GNS) cross-data check. Year 3: regional license to UZ State Procurement and Tajikistan; position as ADB regional reference architecture.",
+    "pitch_hook": "ADB Project 55109 Phase 1 digitalized KG procurement — Phase 2 needs the AI analytics overlay that turns digital records into fraud detection. Kazakhstan SmartBridge proves the architecture works in Russian-language CIS context. We deliver Russian-Kyrgyz bilingual supplier risk scoring + bid anomaly detection on Tunduk integration in 9 months, ADB-compliant.",
+    "risk_register": [
+      {
+        "risk_type": "commercial",
+        "description": "Phase 1 vendor extends scope into analytics rather than tendering Phase 2 separately.",
+        "mitigation": "Engage ADB TTL early to confirm tendering of Phase 2 as separate procurement; lobby for ICB modality which favors specialized AI analytics vendors over digitalization generalists."
+      },
+      {
+        "risk_type": "political",
+        "description": "Procurement reform is politically sensitive — anti-corruption flag-raising can generate blowback against the procurement agency leadership.",
+        "mitigation": "Frame system as decision-support not auto-decision; preserve human-in-the-loop for all enforcement actions. Anchor relationship at the procurement department director level so political cover is institutional."
+      },
+      {
+        "risk_type": "technical",
+        "description": "KG procurement data quality is uneven; supplier registration records have gaps.",
+        "mitigation": "Phase 1 of pilot scoped to Q4 2025-forward records where digitalization is complete. Build data-quality scoring as part of supplier risk score so gaps are visible not silent."
+      }
+    ],
+    "next_30_day_actions": [
+      "Submit pre-qualification documentation for KG-T-2026-002 ($150K IT audit) as relationship-builder.",
+      "LinkedIn message to kg-aibek-abdybakirov (ADB TTL) on Phase 2 architecture.",
+      "Schedule meeting with kg-goszakupki-head (Azamat Kadyrbayev) via ADB warm intro.",
+      "Brief ADB-KG-54383-001 capacity-building track for cross-program leverage.",
+      "Build Russian-Kyrgyz bilingual analytics dashboard MVR using public KG procurement data."
+    ],
+    "scoring": {
+      "speed_to_contract": 9,
+      "strategic_moat": 9,
+      "defensibility": 8,
+      "capital_access": 9,
+      "russian_cis_fit": 9,
+      "weighted_total": 8.75,
+      "scoring_rationale": "Speed 9: ADB Phase 2 imminent. Moat 9: empty-field with sntz.ai differentiation. Defensibility 8: ADB multi-phase relationships are renewable. Capital 9: ADB $650K Phase 1 + Phase 2 + state budget. Russian/CIS Fit 9: Russian-Kyrgyz bilingual mandatory, sntz.ai stack direct."
+    },
+    "confidence_tier": "A",
+    "verification": "VERIFIED"
+  },
+  {
+    "id": "KG-INI-006",
+    "short_name": "Mountain Telemedicine AI Triage (AKDN/SDC)",
+    "country": "KG",
+    "sector": "Health",
+    "one_liner": "Deploy AI telemedicine triage for KG mountain communities under AKDN-KG-DIGITAL-SCHOOLS2030 and forthcoming KG-TF-2026-010 ($1.8M), replicating Bangladesh a2i and Rwanda Babyl precedents.",
+    "problem_statement": "Kyrgyzstan is >90% mountainous with scattered rural population and acute shortage of specialists outside Bishkek and Osh. AKDN-KG-DIGITAL-SCHOOLS2030 ($15M) and EU-KG-SDC-GOVERNANCE ($16.2M) co-finance digital health and rural inclusion. Forthcoming tender KG-TF-2026-010 ($1.8M, mountain telemedicine IoT + AI diagnostic) is in pipeline. Bangladesh a2i Telemedicine + community clinics (case-bd-a2i-health), Rwanda Babyl AI chatbot (case-rw-babyl), India eSanjeevani (case-in-esanjeevani), and Estonia e-Health (case-est-ehealth) are precedent cases. Mountain telemedicine is one of the highest-impact AI-for-good use cases globally.",
+    "solution_concept": "Three-tier delivery: (1) ayil ambulatory clinic kit — point-of-care diagnostic device pack (smartphone-grade ECG, otoscope, dermascope) running offline-first AI triage models in Russian-Kyrgyz bilingual; (2) telemedicine bridge with Bishkek Republican Hospital and Osh Inter-Oblast Hospital for specialist consult; (3) AI symptom triage chatbot routing patients between self-care, ambulatory visit, telemedicine bridge, and emergency referral — Russian-Kyrgyz bilingual, deployed via Telegram/WhatsApp for accessibility. Architectural anchor: Bangladesh a2i community-clinic model + Rwanda Babyl chatbot triage + India eSanjeevani national platform integration. Adapted for KG mountain offline constraints, Russian-Kyrgyz bilingual UX, Tunduk-bound patient identity, AKDN's existing presence in Naryn/Osh oblasts.",
+    "precedent_case_id": "case-bd-a2i-health",
+    "what_preserved": "Bangladesh a2i community-clinic AI triage model: device kit, telemedicine bridge, chatbot routing — proven across thousands of rural clinics.",
+    "what_adapted": "Russian-Kyrgyz bilingual UX (Bangladesh is Bangla-only), KG mountain offline-first connectivity, AKDN co-funding and on-the-ground presence in Naryn/Osh, integration with national EHR (linked KG-INI-004), Tunduk identity binding.",
+    "authorizing_decree_ids": ["KG-UP-2024-090-CONCEPT", "KG-UP-2025-001", "KG-CABINET-2024-023-DIGITAL-SERVICES"],
+    "regulatory_hurdles": "Personal information law data residency for PHI; medical device regulation for diagnostic kit. Mitigation: deploy on Tunduk-aligned residency; partner with Kyrgyzpatent for medical device certification pathway.",
+    "ppp_feasible": true,
+    "lead_institution_id": "KG-MINHEALTH",
+    "target_buyer_person_id": "kg-minzdrav-head",
+    "operational_counterpart_person_id": "kg-tunduk-tech-lead",
+    "procurement_pathway": "donor_program",
+    "primary_funding": "AKDN-KG-DIGITAL-SCHOOLS2030 + EU-KG-SDC-GOVERNANCE + UNICEF-KG-DIGITAL-EARLY",
+    "secondary_funding_donor_program_id": "AKDN-KG-DIGITAL-SCHOOLS2030",
+    "estimated_initial_contract_usd": 1800000,
+    "estimated_3yr_revenue_usd": 9000000,
+    "competitive_landscape": "AKDN has been the dominant Naryn/Osh on-ground partner for 25 years and has its own Aga Khan Health Service network — they are partner not competitor. International telemedicine vendors (Babyl/Telerivet) lack Russian-Kyrgyz bilingual capability. Local KG telemedicine pilots are pre-AI. Open positioning for Russian-Kyrgyz bilingual + AI triage + AKDN partnership.",
+    "incumbents": ["AKDN AKHS network (partner-of-record)", "Local KG telemedicine startups (pre-AI)", "International NGO telemedicine (English-only)"],
+    "mandatory_local_partner": "Aga Khan Health Service (AKHS) Kyrgyzstan + Bishkek Republican Hospital + Osh Inter-Oblast Hospital — clinical partner-of-record at three tiers.",
+    "win_conditions": "(1) AKDN-KG-DIGITAL-SCHOOLS2030 PIU partnership letter; (2) AKHS Kyrgyzstan clinical co-design agreement; (3) Russian-Kyrgyz bilingual AI triage chatbot demo; (4) MoH (kg-minzdrav-head) pre-buy on architecture; (5) UNICEF-KG-DIGITAL-EARLY child-health overlap alignment.",
+    "pilot_scope": "Pilot at 10 Naryn ayil ambulatories + 5 Osh oblast ambulatories, covering 30K patients in Year 1, with Bishkek Republican Hospital telemedicine bridge.",
+    "pilot_duration_months": 12,
+    "pilot_success_metrics": [
+      "≥30K patient triage interactions handled in 12 months",
+      "≥80% sensitivity on AI symptom triage vs. clinician baseline",
+      "≥40% reduction in unnecessary mountain-to-Bishkek referrals",
+      "Russian-Kyrgyz bilingual chatbot deployed with named clinician users in 15 sites",
+      "Integration with national EHR (linked KG-INI-004) operational"
+    ],
+    "scale_up_path": "Year 1: 15-site pilot in Naryn + Osh. Year 2: 200-site rollout to all rural ayil ambulatories with AKDN co-finance. Year 3: regional license to Tajikistan AKDN footprint and UZ Surkhandarya/Kashkadarya mountain regions.",
+    "pitch_hook": "Bangladesh a2i delivers AI triage to thousands of community clinics; Rwanda Babyl handles symptom triage at national scale. Kyrgyzstan is >90% mountainous, AKDN funds rural digital health, and KG-TF-2026-010 ($1.8M) is in pipeline. We deliver Russian-Kyrgyz bilingual offline-first AI triage on AKHS clinical infrastructure — the only stack that works above 2,500 meters with intermittent connectivity.",
+    "risk_register": [
+      {
+        "risk_type": "technical",
+        "description": "Mountain connectivity is unreliable; offline-first AI triage requires careful edge model deployment.",
+        "mitigation": "Engineer offline-first sync with edge model deployment; partner with KG-MEGACOM for connectivity SLAs; design fallback paper-trail for network outages."
+      },
+      {
+        "risk_type": "commercial",
+        "description": "AKDN may prefer to lead the technical delivery itself via AKDN's internal digital team rather than contract external vendor.",
+        "mitigation": "Position as AKDN technical-implementation partner not competitor; structure as subcontract under AKDN PIU with named co-author credit."
+      },
+      {
+        "risk_type": "political",
+        "description": "MoH leadership rotation; budget reallocation away from mountain health if Bishkek/Osh urban priorities dominate.",
+        "mitigation": "Anchor at AKDN PIU (donor-side) which has its own multi-year strategic plan independent of MoH leadership; maintain dual relationship at AKHS clinical level."
+      }
+    ],
+    "next_30_day_actions": [
+      "Schedule meeting with AKDN-KG-DIGITAL-SCHOOLS2030 PIU (kg-akdn-piu) for partnership letter.",
+      "LinkedIn message to kg-minzdrav-head (Alymkadyr Beishenaliev) on AKDN partnership and offline-first telemedicine.",
+      "Reach out to AKHS Kyrgyzstan clinical leadership for co-design agreement.",
+      "Build Russian-Kyrgyz bilingual symptom-triage chatbot MVR for Telegram channel demo.",
+      "Track KG-TF-2026-010 publication via procurement portal."
+    ],
+    "scoring": {
+      "speed_to_contract": 8,
+      "strategic_moat": 9,
+      "defensibility": 9,
+      "capital_access": 10,
+      "russian_cis_fit": 9,
+      "weighted_total": 8.85,
+      "scoring_rationale": "Speed 8: forthcoming RFP within 12 months, AKDN funding active. Moat 9: AKDN is partner-of-record, no real competitor in Russian-Kyrgyz bilingual mountain telemedicine. Defensibility 9: clinical workflow lock-in, AKDN multi-year. Capital 10: AKDN $15M + EU SDC $16.2M + UNICEF $1.5M. Russian/CIS Fit 9: Russian-Kyrgyz bilingual mandatory."
+    },
+    "confidence_tier": "A",
+    "verification": "VERIFIED"
+  },
+  {
+    "id": "KG-INI-007",
+    "short_name": "Glacier & GLOF Early Warning AI (Deltares-Style)",
+    "country": "KG",
+    "sector": "Environment & Climate",
+    "one_liner": "Deliver AI-powered glacier monitoring and Glacial Lake Outburst Flood early-warning system for Ministry of Energy / Emergency Service under forthcoming KG-TF-2026-008 ($2.8M), replicating Netherlands Deltares Flood AI.",
+    "problem_statement": "Kyrgyzstan has 8,000+ glaciers and 2,000+ glacial lakes; GLOF events are existential risk for downstream Ferghana Valley population (UZ side) and KG hydropower infrastructure. KG-UP-2025-001 (state services improvement) and Digital Code (KG-LAW-2025-178) provide regulatory frame. Forthcoming KG-TF-2026-008 ($2.8M, AI disaster prevention — early warning) is in pipeline. case-kg-glof-warning documents the existing partial system. Netherlands Deltares Flood AI (case-nl-deltares-flood-ai) is the world reference. Geopolitical leverage: KG controls headwaters for Syr Darya basin which feeds UZ cotton industry — making KG glacier monitoring a regional security asset that ICWC (Interstate Commission for Water Coordination) and Central Asian states value.",
+    "solution_concept": "Three-layer system: (1) satellite + IoT sensor data fusion — Sentinel-2/Landsat satellite imagery + ground IoT sensors at high-risk glacial lakes, processed through computer-vision models for ice volume, lake area, and structural integrity; (2) GLOF risk prediction model — physics-informed ML (Deltares-style) producing 72-hour and 7-day risk forecasts per lake; (3) early warning operator console for KG Ministry of Emergency Situations, regional ICWC counterparts, and downstream hydropower operators (Toktogul, Naryn) in Russian-Kyrgyz bilingual. Architectural anchor: Deltares physics-informed flood AI (case-nl-deltares-flood-ai) preserved as core; adapted for KG glacial-lake context, Russian-Kyrgyz bilingual UX, ICWC regional sharing, and integration with KG-MINENERGY hydropower telemetry.",
+    "precedent_case_id": "case-nl-deltares-flood-ai",
+    "what_preserved": "Deltares physics-informed flood AI: data fusion, physics-informed ML, operator console — proven in Netherlands water management.",
+    "what_adapted": "Glacial-lake (not riverine flood) physics, KG mountain remote-sensing constraints, Russian-Kyrgyz bilingual UX, ICWC regional water-sharing protocol integration.",
+    "authorizing_decree_ids": ["KG-UP-2024-090-CONCEPT", "KG-LAW-2025-178-DIGITAL-CODE", "KG-CABINET-2024-746-CYBERSEC"],
+    "regulatory_hurdles": "Cross-border data sharing with UZ/TJ requires diplomatic framing under ICWC. Mitigation: structure as KG sovereign system with regional sharing API governed by ICWC protocol; align with EU C4CA regional connectivity framework.",
+    "ppp_feasible": false,
+    "lead_institution_id": "KG-MINENERGY",
+    "target_buyer_person_id": "kg-mineco-head",
+    "operational_counterpart_person_id": "kg-udp-digital-head",
+    "procurement_pathway": "donor_program",
+    "primary_funding": "EU-KG-TEAM-EUROPE-DIGITAL + EFSD-KG-STABILIZATION + state Ministry of Emergency budget",
+    "secondary_funding_donor_program_id": "EU-KG-TEAM-EUROPE-DIGITAL",
+    "estimated_initial_contract_usd": 2800000,
+    "estimated_3yr_revenue_usd": 14000000,
+    "competitive_landscape": "Deltares (Netherlands) is the global reference but expensive and slow to localize. ICIMOD (regional environmental NGO, Nepal-based) has glacier expertise but limited deployment muscle. ESA satellite providers have data but not full stack. Russian-Kyrgyz bilingual + AI inference fabric on Tunduk + ICWC-aware design is the differentiator. Open positioning.",
+    "incumbents": ["Deltares (NL, expensive)", "ICIMOD (NGO, advisory only)", "ESA Earth Observation"],
+    "mandatory_local_partner": "Central Asian Institute for Applied Geosciences (CAIAG) + Ministry of Emergency Situations technical team.",
+    "win_conditions": "(1) EU C4CA endorsement letter for regional integration framing; (2) Russian-Kyrgyz bilingual operator demo; (3) ICWC liaison letter for regional sharing protocol; (4) Deltares technical reference letter; (5) Toktogul/Naryn hydropower operator endorsement.",
+    "pilot_scope": "Pilot covering top 50 high-risk glacial lakes in Issyk-Kul, Naryn, and Chui oblasts with Sentinel-2 satellite analysis + 20 ground IoT sensors.",
+    "pilot_duration_months": 10,
+    "pilot_success_metrics": [
+      "Top 50 high-risk lakes monitored with weekly satellite + daily IoT updates",
+      "≥85% precision on GLOF 7-day risk forecasts validated against historical events",
+      "Russian-Kyrgyz bilingual operator console deployed with named MoES users",
+      "Cross-border data sharing API live with ICWC integration test",
+      "Hydropower operator integration at Toktogul demonstrating early-warning escalation"
+    ],
+    "scale_up_path": "Year 1: 50-lake pilot. Year 2: full 2,000+ glacial lakes coverage with Sentinel-2 + targeted IoT at top-200 risk lakes. Year 3: regional license to Tajikistan, regional ICWC integration, position as regional climate-security reference architecture.",
+    "pitch_hook": "Kyrgyzstan has 2,000+ glacial lakes and a 90%+ mountainous geography. KG-TF-2026-008 ($2.8M) procures the early-warning system. Deltares Flood AI proves physics-informed ML works at scale. We bring Russian-Kyrgyz bilingual sntz.ai stack and ICWC-aware regional sharing — KG glacier monitoring as climate-security asset for the entire Aral basin.",
+    "risk_register": [
+      {
+        "risk_type": "political",
+        "description": "Cross-border data sharing with UZ/TJ is politically sensitive — water rights are contested.",
+        "mitigation": "Structure system as KG-sovereign with explicit ICWC protocol governing what is shared and when; align with EU C4CA regional connectivity framework which provides diplomatic cover."
+      },
+      {
+        "risk_type": "technical",
+        "description": "Glacial-lake physics modeling is research-grade; translating Deltares riverine flood approach to glacial-lake outburst is non-trivial.",
+        "mitigation": "Partner with CAIAG (regional glaciology expertise) for physics validation; couple with Deltares technical reference letter and academic co-publication for credibility."
+      },
+      {
+        "risk_type": "commercial",
+        "description": "EU C4CA may prefer to fund a Western European prime contractor (Deltares itself or French/German firm).",
+        "mitigation": "Position as cost-efficient regional implementer that complements Deltares technical reference; lead with Russian-Kyrgyz bilingual + on-the-ground Bishkek delivery capacity."
+      }
+    ],
+    "next_30_day_actions": [
+      "LinkedIn message to kg-udp-digital-head (Adilbek Asanbekov) on climate-security framing of glacier AI.",
+      "Schedule meeting with EU-BOTH-C4CA PIU for regional integration endorsement letter.",
+      "Reach out to CAIAG (Central Asian Institute for Applied Geosciences) for glaciology partnership.",
+      "Brief Toktogul / Naryn hydropower operators on early-warning integration.",
+      "Track KG-TF-2026-008 publication."
+    ],
+    "scoring": {
+      "speed_to_contract": 8,
+      "strategic_moat": 9,
+      "defensibility": 9,
+      "capital_access": 9,
+      "russian_cis_fit": 8,
+      "weighted_total": 8.55,
+      "scoring_rationale": "Speed 8: forthcoming RFP within 12 months. Moat 9: empty-field, climate-security framing, no regional Russian-Kyrgyz competitor. Defensibility 9: physics-informed ML + IoT sensor network multi-year. Capital 9: EU C4CA + EFSD + state budget. Russian/CIS Fit 8: Russian-Kyrgyz bilingual operator UX needed."
+    },
+    "confidence_tier": "A",
+    "verification": "VERIFIED"
+  },
+  {
+    "id": "KG-INI-008",
+    "short_name": "Digital Code Secondary Regulations & AI Registry",
+    "country": "KG",
+    "sector": "AI Infrastructure (Enabling Layer)",
+    "one_liner": "Co-author KG Digital Code secondary regulations on AI auditability and model registry, then deliver the AI registry platform under live RFP KG-T-2026-008 ($650K) and forthcoming KG-TF-2026-004 ($850K).",
+    "problem_statement": "KG-LAW-2025-178-DIGITAL-CODE (Digital Code) and KG-LAW-2025-179-DIGITAL-CODE-ENACTMENT entered into force in 2025-2026 but require secondary regulations on AI auditability, model registry, and certification. KG-AI-SECONDARY-REG-WORKING-GROUP (Tier 7 institution) is drafting these now. Live RFP KG-T-2026-008 ($650K, Digital Code secondary legislation TA) is open and forthcoming KG-TF-2026-004 ($850K, AI registry and certification system) follows. The vendor who shapes the secondary regulations and then delivers the AI registry platform owns the standards-shaping window. trend kg-trend-003-digital-code-secondary-regs has 7 months window remaining — among the tightest in the KG landscape.",
+    "solution_concept": "Two-track delivery: (1) Technical Assistance to KG-AI-SECONDARY-REG-WORKING-GROUP — paid TA contract on drafting AI auditability provisions, model registry schema, and certification process. Apply EU AI Act and Singapore IMDA model AI governance framework as reference; adapt for KG centralized governance and Russian-Kyrgyz bilingual deliverables. (2) Implementation contract for the AI registry platform itself — versioned model registry deployed on Tunduk inference fabric (linked to KG-INI-003), with audit-trail logging, certification workflow, and Russian-Kyrgyz bilingual operator console for the National AI Council (KG-NATIONAL-AI-COUNCIL). Architectural anchor: Singapore PAIR government LLM governance model + Indonesia Satu Data registry pattern; adapted for KG Digital Code requirements.",
+    "precedent_case_id": "case-sg-pair-govt-llm",
+    "what_preserved": "Singapore PAIR governance model: model registry, audit trail, certification workflow.",
+    "what_adapted": "KG Digital Code-specific provisions, Russian-Kyrgyz bilingual UX, Tunduk-bound deployment, National AI Council operator workflow.",
+    "authorizing_decree_ids": ["KG-LAW-2025-178-DIGITAL-CODE", "KG-LAW-2025-179-DIGITAL-CODE-ENACTMENT", "KG-UP-2025-091", "KG-NATIONAL-AI-STRATEGY-PENDING"],
+    "regulatory_hurdles": "Working group composition is informal; vendor must establish credibility quickly to be invited inside drafting. Mitigation: combine TA proposal with pro-bono early input via UDP TOR initiative (KG-INI-001); leverage Estonia eGA twinning as procedural cover.",
+    "ppp_feasible": false,
+    "lead_institution_id": "KG-AI-SECONDARY-REG-WORKING-GROUP",
+    "target_buyer_person_id": "kg-national-ai-council-chair",
+    "operational_counterpart_person_id": "kg-digital-code-legal-adviser",
+    "procurement_pathway": "donor_program",
+    "primary_funding": "EU-KG-TEAM-EUROPE-DIGITAL + EGA-KG-TWINNING + state budget under UDP",
+    "secondary_funding_donor_program_id": "EGA-KG-TWINNING",
+    "estimated_initial_contract_usd": 650000,
+    "estimated_3yr_revenue_usd": 6000000,
+    "competitive_landscape": "Empty field for AI-specific regulatory drafting in Russian-Kyrgyz language. Estonia eGA has procedural framework but lacks AI-specific governance depth. Singapore IMDA reference model is influential but not procurable directly. EU AI Act expertise is available via European consultancies but expensive. Russian-Kyrgyz bilingual + Singapore-EU hybrid framing + operational delivery on Tunduk inference fabric is the unique positioning.",
+    "incumbents": ["Estonia eGA (procedural cover)", "European AI governance consultancies (expensive)", "Local KG legal firms (no AI depth)"],
+    "mandatory_local_partner": "AUCA legal department (kg-auca-rector partnership) + local KG legal firm; Tunduk SE integration partner.",
+    "win_conditions": "(1) Live tender KG-T-2026-008 pre-qualification by deadline; (2) Working group invitation via UDP TOR initiative; (3) AUCA legal department co-author letter; (4) Russian-Kyrgyz bilingual AI registry MVR demo; (5) Singapore IMDA / EU AI Office reference letter.",
+    "pilot_scope": "Phase 1 ($650K, KG-T-2026-008): TA on secondary regulations drafting, 6 months. Phase 2 ($850K, KG-TF-2026-004): AI registry platform delivery and certification system, 9 months.",
+    "pilot_duration_months": 6,
+    "pilot_success_metrics": [
+      "Secondary regulations on AI auditability, model registry and certification published in Cyrillic + Russian + Kyrgyz",
+      "AI registry platform deployed on Tunduk inference fabric with ≥10 government models registered",
+      "Russian-Kyrgyz bilingual National AI Council operator console live",
+      "Certification workflow operational for at least 2 high-risk AI systems",
+      "Compliance audit pass under Digital Code provisions"
+    ],
+    "scale_up_path": "Year 1: TA + AI registry. Year 2: certification workflow scale-out, integration with all government AI systems including digital som CBDC AML, Tunduk inference fabric, e-procurement analytics, EHR diagnostic AI. Year 3: regional license to UZ AI Center and Tajikistan; position as ITU regional reference architecture.",
+    "pitch_hook": "KG Digital Code is in force but its AI auditability provisions have only 7 months to be detailed. KG-T-2026-008 ($650K) procures the drafting now and KG-TF-2026-004 ($850K) procures the registry platform. Singapore PAIR proves the architecture; Estonia eGA proves the procedural framework. We bring Russian-Kyrgyz bilingual sntz.ai stack and operational delivery on Tunduk inference fabric — the only vendor that drafts the rule and runs the platform on the same week.",
+    "risk_register": [
+      {
+        "risk_type": "political",
+        "description": "Secondary regulation drafting is politically contested — civil society, donors, and the Working Group all have input rights and timelines may slip.",
+        "mitigation": "Anchor at the Working Group through formal TA contract (procurement-grade), not informal advisory. Couple with AUCA academic co-author letter for civil-society legitimacy."
+      },
+      {
+        "risk_type": "commercial",
+        "description": "EU AI Act implementation consultancies (Bird & Bird, Latham & Watkins) bid via European prime contractor pathway.",
+        "mitigation": "Partner with one European law firm as legal-content subcontractor while we hold the Russian-Kyrgyz drafting and registry platform delivery; bid as JV not pure software vendor."
+      },
+      {
+        "risk_type": "technical",
+        "description": "AI registry must align with downstream platforms (Tunduk inference fabric, EHR AI, CBDC AML AI). If schema is locked early without platform input, rework is expensive.",
+        "mitigation": "Architect schema with explicit versioning and migration paths; require Tunduk SE technical lead (kg-tunduk-tech-lead) review before schema lock-in."
+      }
+    ],
+    "next_30_day_actions": [
+      "Submit pre-qualification documentation for KG-T-2026-008 ($650K Digital Code TA) before submission deadline.",
+      "LinkedIn message to kg-national-ai-council-chair (Azamat Sydykov) on Russian-Kyrgyz bilingual AI registry architecture.",
+      "Reach out to kg-digital-code-legal-adviser (Aigul Bakytbekova) for Working Group inclusion.",
+      "Schedule meeting with AUCA rector (kg-auca-rector, Andrew Wachtel) on academic legal co-author partnership.",
+      "Secure Singapore IMDA / EU AI Office reference letter via diaspora intro."
+    ],
+    "scoring": {
+      "speed_to_contract": 10,
+      "strategic_moat": 10,
+      "defensibility": 9,
+      "capital_access": 8,
+      "russian_cis_fit": 9,
+      "weighted_total": 9.20,
+      "scoring_rationale": "Speed 10: live RFP KG-T-2026-008 closing imminent, 7-month window. Moat 10: standards-shaping window, no incumbent. Defensibility 9: AI registry becomes regulatory reference architecture. Capital 8: EU + EGA + state. Russian/CIS Fit 9: Russian-Kyrgyz bilingual mandatory."
+    },
+    "confidence_tier": "A",
+    "verification": "VERIFIED"
+  },
+  {
+    "id": "KG-INI-009",
+    "short_name": "Sovereign Kyrgyz-Russian LLM Foundation Model",
+    "country": "KG",
+    "sector": "AI Infrastructure (Enabling Layer)",
+    "one_liner": "Build and deliver KG sovereign Kyrgyz-Russian bilingual LLM as foundation for government AI applications, hosted on UDP-supervised compute and aligned with the National AI Strategy under preparation.",
+    "problem_statement": "Kyrgyzstan has no sovereign LLM. KG-NATIONAL-AI-STRATEGY-PENDING is in drafting. Live tender KG-T-2026-003 ($2.5M, GPU cluster) is open and forthcoming KG-TF-2026-003 ($400K, AI Strategy roadmap) follows. National Council on AI (KG-NATIONAL-AI-COUNCIL, Tier 7) is steering body. trend kg-trend-024-sovereign-llm-kyrgyz documents the demand. UAE Falcon LLM (case-ae-falcon-llm), France Albert (case-fr-albert-govt-llm), Singapore PAIR (case-sg-pair-govt-llm) are precedents. Kyrgyz language is severely under-resourced in major foundation models (Llama, GPT, Claude) — government applications need a bilingual Kyrgyz-Russian model that Western and Russian commercial models cannot competently deliver.",
+    "solution_concept": "Three-component delivery: (1) bilingual Kyrgyz-Russian foundation model — base LLM trained on Kyrgyz language corpus (parliamentary, judicial, news, web data) plus Russian (CIS public data) plus continued pretraining from open-weight base (Mistral or Qwen) — published with open Kyrgyz-Russian benchmark; (2) government instruction-tuned variant — fine-tuned for KG government use cases (citizen-facing chatbot, document drafting, summarization, translation), deployed on Tunduk inference fabric (linked KG-INI-003); (3) developer toolkit — APIs, embeddings, fine-tuning recipes for downstream initiatives (CBDC chatbot, EHR clinician assistant, parliamentary analytics, Tunduk operator). Architectural anchor: UAE Falcon sovereign-fund-anchored model + France Albert government-LLM-as-service deployment pattern. Adapted for KG bilingual Kyrgyz-Russian (more under-resourced than Arabic), AUCA + HTP academic talent base, UDP-supervised compute.",
+    "precedent_case_id": "case-ae-falcon-llm",
+    "what_preserved": "UAE Falcon: sovereign foundation model anchored in sovereign fund / government compute, used as anchor for downstream applications.",
+    "what_adapted": "Kyrgyz-Russian bilingual (UAE was Arabic-primary), KG scale (smaller compute budget, ~100K H100-equivalent hours target), UDP-supervised governance, AUCA + HTP academic talent, alignment with National AI Strategy under preparation.",
+    "authorizing_decree_ids": ["KG-UP-2025-091", "KG-NATIONAL-AI-STRATEGY-PENDING", "KG-LAW-2025-178-DIGITAL-CODE", "KG-UP-2024-090-CONCEPT"],
+    "regulatory_hurdles": "Compute hosting and data-residency rules under Digital Code. Sanctions exposure on GPU procurement. Mitigation: source GPU cluster via KG-T-2026-003 ($2.5M) which is sanctions-cleared procurement; deploy on KG-supervised compute (HTP datacenter or Kyrgyztelekom).",
+    "ppp_feasible": true,
+    "lead_institution_id": "KG-NATIONAL-AI-COUNCIL",
+    "target_buyer_person_id": "kg-national-ai-council-chair",
+    "operational_counterpart_person_id": "kg-udp-digital-head",
+    "procurement_pathway": "pilot_then_scale",
+    "primary_funding": "State budget under UDP + EU-KG-TEAM-EUROPE-DIGITAL + WB-KG-P160230 Digital CASA",
+    "secondary_funding_donor_program_id": "WB-KG-P160230",
+    "estimated_initial_contract_usd": 2500000,
+    "estimated_3yr_revenue_usd": 22000000,
+    "competitive_landscape": "Empty field. No Kyrgyz-Russian sovereign LLM exists. Yandex GPT and GigaChat (Russian) are sanctions-exposed and politically risky. Meta Llama / Mistral / Qwen lack production Kyrgyz coverage. Google/Microsoft Azure offer commercial LLMs but no Kyrgyz fine-tuning at sovereign tier. Russian-Kyrgyz bilingual + sovereign hosting + sntz.ai infrastructure is unique positioning.",
+    "incumbents": ["Yandex GPT (sanctions-exposed)", "Sber GigaChat (sanctions-exposed)", "OpenAI/Anthropic via API (no sovereign hosting)"],
+    "mandatory_local_partner": "AUCA computer science department (academic), HTP linguistic resident (Kyrgyz language data), Kyrgyztelekom (compute hosting).",
+    "win_conditions": "(1) National AI Council pre-buy on architecture; (2) AUCA computer science partnership letter; (3) UDP supervisory framework alignment; (4) Russian-Kyrgyz bilingual benchmark published with named third-party validators; (5) WB Digital CASA TTL (kg-sandra-sargent) endorsement.",
+    "pilot_scope": "Phase 1: Kyrgyz-Russian foundation model v1 trained on initial corpus, instruction-tuned variant for citizen-facing chatbot. Phase 2: deployment to 3 reference applications (CBDC chatbot, EHR clinician assistant, parliamentary analytics). Phase 3: full developer toolkit and downstream initiative integration.",
+    "pilot_duration_months": 14,
+    "pilot_success_metrics": [
+      "≥75% accuracy on Russian-Kyrgyz bilingual government task benchmark",
+      "Foundation model published under open license with reproducible training recipe",
+      "≥3 reference applications deployed on Tunduk inference fabric",
+      "AUCA + HTP linguistic co-author publication",
+      "Compliance audit pass under Digital Code AI registry (linked KG-INI-008)"
+    ],
+    "scale_up_path": "Year 1: foundation model v1 + 3 reference applications. Year 2: National AI Strategy implementation, 10+ government applications using the LLM, fine-tuning service for ministries. Year 3: regional license to UZ Sovereign Uzbek-Russian LLM (linked UZ INI-006) for cross-CIS sovereign LLM federation; ITU regional reference architecture.",
+    "pitch_hook": "Kyrgyzstan has no sovereign LLM and Kyrgyz language is severely under-resourced in every major foundation model. KG-NATIONAL-AI-STRATEGY-PENDING and KG-T-2026-003 ($2.5M GPU cluster) procure the foundation now. UAE Falcon proves the architecture; France Albert proves the deployment pattern. We deliver a Kyrgyz-Russian bilingual sovereign LLM running on UDP-supervised compute — the only stack that satisfies Digital Code auditability and ships in 14 months.",
+    "risk_register": [
+      {
+        "risk_type": "commercial",
+        "description": "WB or EU may push for partnership with established sovereign LLM provider (UAE TII, French AI Cluster) rather than KG-anchored vendor.",
+        "mitigation": "Position as implementation partner that builds the sovereign LLM ON KG soil with KG academic and linguistic talent (AUCA, HTP). Couple with reference letter from UAE TII or comparable as technical anchor while we hold operational delivery."
+      },
+      {
+        "risk_type": "technical",
+        "description": "Kyrgyz language data is scarce and uneven; foundation model quality is bounded by corpus quality.",
+        "mitigation": "Publish open Kyrgyz language corpus with AUCA + HTP linguistic co-authorship; use continued pretraining from Russian-rich open base (Qwen, Mistral) rather than from-scratch training; honest reporting on Kyrgyz-language performance with explicit data gap audit."
+      },
+      {
+        "risk_type": "political",
+        "description": "National AI Council leadership rotation (KG-NATIONAL-AI-COUNCIL is Tier 7, less stable than ministries); strategy could be re-scoped.",
+        "mitigation": "Anchor at UDP Digital Department (Asanbekov, kg-udp-digital-head) which is more stable than the AI Council; structure delivery so foundation model + Tunduk inference fabric is operational regardless of AI Council direction."
+      }
+    ],
+    "next_30_day_actions": [
+      "Submit pre-qualification documentation for KG-T-2026-003 ($2.5M GPU cluster) before submission deadline.",
+      "LinkedIn message to kg-national-ai-council-chair (Azamat Sydykov) on Kyrgyz-Russian sovereign LLM architecture.",
+      "Schedule meeting with AUCA rector (kg-auca-rector) on computer science partnership.",
+      "Brief WB Digital CASA TTL (kg-sandra-sargent) on sovereign LLM as Digital CASA deliverable.",
+      "Build Russian-Kyrgyz bilingual benchmark v1 with AUCA / HTP linguistic input."
+    ],
+    "scoring": {
+      "speed_to_contract": 9,
+      "strategic_moat": 10,
+      "defensibility": 10,
+      "capital_access": 9,
+      "russian_cis_fit": 10,
+      "weighted_total": 9.55,
+      "scoring_rationale": "Speed 9: live RFP KG-T-2026-003 ($2.5M GPU). Moat 10: National AI Strategy anchor, sovereign LLM is generational standards-shaping moment. Defensibility 10: foundation model becomes substrate for all downstream AI applications. Capital 9: state budget + WB Digital CASA + EU. Russian/CIS Fit 10: Russian-Kyrgyz bilingual is the entire premise."
+    },
+    "confidence_tier": "A",
+    "verification": "VERIFIED"
+  },
+  {
+    "id": "KG-INI-010",
+    "short_name": "KG Identity & Social Protection AI Registry (WB P155198)",
+    "country": "KG",
+    "sector": "Public Administration & e-Government",
+    "one_liner": "Deliver AI-augmented identity and social protection registry for Ministry of Labor & Social Protection under World Bank Project P155198 ($20M), replicating Kazakhstan e-Otinish and India e-Shram.",
+    "problem_statement": "WB-KG-IDENTITY-P155198 ($20M) is the active World Bank Identity and Targeting for Social Protection Project. Ministry of Labor and Social Protection (KG-MINLABOR / kg-minsoc-head) is implementing partner. Existing Kyrgyz social registry has data quality gaps and lacks AI-assisted targeting. KG-LAW-2008-058 (personal information) and Digital Code provide regulatory frame. case-kz-smart-social Kazakhstan e-Otinish, case-in-e-shram India e-Shram informal labor registry, and case-pl-mobywatel Poland mObywatel (Soviet-bloc evolution reference) are precedents. The system is a foundation for cash-transfer targeting, child protection, labor market matching, and post-pandemic resilience.",
+    "solution_concept": "Three-layer AI registry: (1) data-quality AI engine — entity resolution, deduplication, and gap detection across existing social registry, civil registry (KG-GRS), tax (KG-GNS), and Tunduk identity records, with named uncertainty for each record; (2) targeting AI — proxy means testing model for cash-transfer eligibility, with explainable scores and human-review workflow; (3) caseworker assistant — Russian-Kyrgyz bilingual conversational interface for social workers in 7 oblast offices to query the registry, draft case notes, and route applications. Architectural anchor: Kazakhstan e-Otinish social registry + India e-Shram unorganized worker pattern. Adapted for KG centralized social fund administration, Russian-Kyrgyz bilingual UX, Tunduk-bound identity, and AKDN/SDC rural inclusion overlap.",
+    "precedent_case_id": "case-kz-smart-social",
+    "what_preserved": "Kazakhstan e-Otinish architecture: registry, targeting, caseworker UX.",
+    "what_adapted": "KG centralized social fund (KG-SOCIAL-FUND), Russian-Kyrgyz bilingual UX, Tunduk identity binding, AKDN rural inclusion overlap, integration with WB P155198 PIU procurement modality.",
+    "authorizing_decree_ids": ["KG-LAW-2008-058", "KG-LAW-2025-178-DIGITAL-CODE", "KG-CABINET-2024-023-DIGITAL-SERVICES", "KG-UP-2024-090-CONCEPT"],
+    "regulatory_hurdles": "Personal data law and social-protection confidentiality. Mitigation: Tunduk-aligned residency, explicit consent receipts, role-based access for caseworkers.",
+    "ppp_feasible": false,
+    "lead_institution_id": "KG-MINLABOR",
+    "target_buyer_person_id": "kg-minsoc-head",
+    "operational_counterpart_person_id": "kg-minsoc-piu-head",
+    "procurement_pathway": "donor_program",
+    "primary_funding": "WB-KG-IDENTITY-P155198 + state budget under MoLSP",
+    "secondary_funding_donor_program_id": "WB-KG-IDENTITY-P155198",
+    "estimated_initial_contract_usd": 2200000,
+    "estimated_3yr_revenue_usd": 11000000,
+    "competitive_landscape": "Existing Phase 1 vendor relationships are on data digitalization, not AI augmentation. Kazakhstan e-Otinish vendor present regionally. International social registry vendors (DSDIA, GovStack) lack Russian-Kyrgyz bilingual depth. Open positioning for Russian-Kyrgyz bilingual + AI registry + AKDN rural integration.",
+    "incumbents": ["WB P155198 Phase 1 vendor (digitalization)", "Kazakhstan e-Otinish vendor", "International social registry vendors"],
+    "mandatory_local_partner": "Social Fund of KG (KG-SOCIAL-FUND) + HTP IT integrator + AKDN rural partnership for outreach.",
+    "win_conditions": "(1) WB Phase 2 tender pre-qualification; (2) MoLSP minister (kg-minsoc-head, Gulnara Baatyrbekova) pre-buy; (3) WB PIU coordinator (kg-minsoc-piu-head, Aziz Dzhaksybekov) endorsement; (4) Russian-Kyrgyz bilingual caseworker assistant demo; (5) AKDN rural integration alignment.",
+    "pilot_scope": "Pilot covering data quality + targeting + caseworker assistant for Naryn and Osh oblasts (highest poverty rate), 50K beneficiaries.",
+    "pilot_duration_months": 12,
+    "pilot_success_metrics": [
+      "≥95% deduplication and entity resolution across 50K records",
+      "≥80% precision on cash-transfer eligibility targeting vs. ground-truth baseline",
+      "Russian-Kyrgyz bilingual caseworker assistant deployed in 2 oblast offices",
+      "Compliance audit pass under personal information law",
+      "Integration with Tunduk identity layer operational"
+    ],
+    "scale_up_path": "Year 1: Naryn + Osh pilot. Year 2: full 7-oblast scale-out with WB Phase 2 funding. Year 3: integration with labor migration AI (linked KG-INI-018) and EHR (linked KG-INI-004); regional license potential.",
+    "pitch_hook": "WB Project P155198 ($20M) is active and procuring AI augmentation now. Kazakhstan e-Otinish proves the architecture; India e-Shram proves the scale model. Naryn and Osh oblasts have KG's highest poverty rate. We deliver Russian-Kyrgyz bilingual sntz.ai-grade data quality + targeting + caseworker assistant on Tunduk integration in 12 months.",
+    "risk_register": [
+      {
+        "risk_type": "commercial",
+        "description": "Kazakhstan e-Otinish vendor bids with regional precedent and Russian-language native capability.",
+        "mitigation": "Differentiate on Kyrgyz language coverage (Kazakhstan vendor is Russian/Kazakh, not Kyrgyz), AKDN rural integration, and Tunduk inference fabric native deployment."
+      },
+      {
+        "risk_type": "political",
+        "description": "MoLSP minister rotation; cash-transfer targeting is politically sensitive (denial of benefits triggers blowback).",
+        "mitigation": "Frame system as decision support not auto-decision; preserve human-in-the-loop. Anchor at WB PIU which is donor-side and stable across ministerial rotation."
+      },
+      {
+        "risk_type": "technical",
+        "description": "Existing social registry data quality is uneven; entity resolution at scale is hard.",
+        "mitigation": "Phase 1 of pilot scoped to oblast where data quality is strongest; build data-quality scoring and gap reporting as part of deliverable so gaps are visible and addressable."
+      }
+    ],
+    "next_30_day_actions": [
+      "LinkedIn message to kg-minsoc-piu-head (Aziz Dzhaksybekov, WB PIU coordinator) on AI augmentation architecture.",
+      "Schedule meeting with kg-minsoc-head (Gulnara Baatyrbekova) via WB PIU intro.",
+      "Brief WB Digital CASA TTL (kg-sandra-sargent) on cross-program integration with Tunduk and identity.",
+      "Reach out to AKDN-KG-DIGITAL-SCHOOLS2030 PIU on rural outreach partnership.",
+      "Build Russian-Kyrgyz bilingual caseworker assistant MVR for demo."
+    ],
+    "scoring": {
+      "speed_to_contract": 8,
+      "strategic_moat": 8,
+      "defensibility": 9,
+      "capital_access": 10,
+      "russian_cis_fit": 9,
+      "weighted_total": 8.55,
+      "scoring_rationale": "Speed 8: WB P155198 active, Phase 2 tender forthcoming. Moat 8: Kazakhstan vendor competition limits moat. Defensibility 9: social registry multi-year SLAs, caseworker workflow lock-in. Capital 10: WB $20M + state. Russian/CIS Fit 9: Russian-Kyrgyz bilingual mandatory."
+    },
+    "confidence_tier": "A",
+    "verification": "VERIFIED"
+  },
+  {
+    "id": "KG-INI-011",
+    "short_name": "KG Cybersecurity SOC & Critical Infrastructure",
+    "country": "KG",
+    "sector": "Security & Public Order",
+    "one_liner": "Modernize KG national SOC and critical-infrastructure protection under live RFP KG-T-2026-010 ($900K) and Cybersecurity Strategy framework.",
+    "problem_statement": "KG-LAW-2024-121-CYBERSEC (Cybersecurity Law) and KG-CABINET-2024-746-CYBERSEC (critical information infrastructure requirements) and KG-CABINET-2025-CYBERSEC-STRATEGY mandate national SOC and CIIP. Live RFP KG-T-2026-010 ($900K, cybersecurity audit and strategy for state bodies) is open. Estonia National Cyber Defence Centre (case-est-cyber-defense) is the global reference. Tunduk modernization (linked KG-INI-003) creates new attack surface. Digital som CBDC (linked KG-INI-002) makes financial system high-value target. SOC modernization is foundational for the entire UDP digital strategy.",
+    "solution_concept": "Three-component delivery: (1) SOC modernization — SIEM upgrade with AI-assisted threat detection (anomaly detection, beaconing detection, lateral movement), Russian-Kyrgyz bilingual operator console; (2) critical infrastructure protection — vulnerability assessment and managed-detection-response for top 20 critical-infrastructure operators (NBKR, Tunduk, Kyrgyztelekom, Toktogul hydropower, MoH, Cabinet); (3) incident response playbook + cybersecurity strategy update aligning with KG-CABINET-2025-CYBERSEC-STRATEGY refresh. Architectural anchor: Estonia NCSC + CERT-EE + 24/7 SOC operational pattern. Adapted for KG centralized governance, Russian-Kyrgyz bilingual UX, Tunduk inference fabric integration.",
+    "precedent_case_id": "case-est-cyber-defense",
+    "what_preserved": "Estonia NCSC operational pattern: 24/7 SOC, CERT-EE coordination, critical infrastructure registry, incident playbook.",
+    "what_adapted": "Russian-Kyrgyz bilingual SOC operator UX, KG centralized governance, integration with Tunduk inference fabric for AI-assisted detection, CBDC and hydropower critical-infrastructure focus.",
+    "authorizing_decree_ids": ["KG-LAW-2024-121-CYBERSEC", "KG-CABINET-2024-746-CYBERSEC", "KG-CABINET-2025-CYBERSEC-STRATEGY", "KG-LAW-2025-178-DIGITAL-CODE"],
+    "regulatory_hurdles": "CIIP scope determination — which operators are critical and under what cybersecurity obligation. Mitigation: bid couples scope determination workshop with TA contract; align with State Security Committee (KG-STATE-SECURITY) on classified handling.",
+    "ppp_feasible": false,
+    "lead_institution_id": "KG-UDP",
+    "target_buyer_person_id": "kg-udp-digital-head",
+    "operational_counterpart_person_id": "kg-tunduk-tech-lead",
+    "procurement_pathway": "tender",
+    "primary_funding": "State budget under UDP + EU-KG-TEAM-EUROPE-DIGITAL + EBRD-KG-SME-DIGITAL cybersecurity component",
+    "secondary_funding_donor_program_id": "EU-KG-TEAM-EUROPE-DIGITAL",
+    "estimated_initial_contract_usd": 900000,
+    "estimated_3yr_revenue_usd": 8500000,
+    "competitive_landscape": "Group-IB and Kaspersky regional incumbents but Russian-headquartered which creates sanctions and political concerns. International SOC vendors (CrowdStrike, Palo Alto) expensive and lacking Kyrgyz coverage. Estonia NCSC + CERT-EE expertise via eGA twinning advisory. Open positioning for Russian-Kyrgyz bilingual + AI-assisted SOC + Estonia reference.",
+    "incumbents": ["Group-IB (sanctions concerns)", "Kaspersky (sanctions concerns)", "CrowdStrike/Palo Alto (expensive, English-only)", "Local KG IT vendors (limited AI depth)"],
+    "mandatory_local_partner": "HTP IT integrator + State Security Committee technical liaison + Tunduk SE technical team.",
+    "win_conditions": "(1) Live RFP KG-T-2026-010 pre-qualification; (2) UDP Digital Head pre-buy; (3) Estonia NCSC reference letter via eGA twinning; (4) Russian-Kyrgyz bilingual SOC operator demo; (5) Critical infrastructure operator (NBKR or Toktogul) co-design letter.",
+    "pilot_scope": "Pilot SOC modernization + CIIP for top 5 operators (UDP, Tunduk SE, NBKR, MoH, Toktogul) with Russian-Kyrgyz bilingual operator console.",
+    "pilot_duration_months": 9,
+    "pilot_success_metrics": [
+      "SIEM with AI-assisted threat detection deployed across 5 operators",
+      "≥85% precision on AI-flagged threat alerts vs. analyst baseline",
+      "Russian-Kyrgyz bilingual SOC operator console live with named UDP operators",
+      "≥3 documented incident response cases handled end-to-end",
+      "Compliance audit pass under KG-LAW-2024-121-CYBERSEC"
+    ],
+    "scale_up_path": "Year 1: 5-operator SOC pilot. Year 2: full critical-infrastructure operator coverage (~20 operators), expand to oblast-level government. Year 3: regional CERT coordination with UZ and TJ; ITU regional reference architecture.",
+    "pitch_hook": "KG-LAW-2024-121 + Cybersecurity Strategy mandate national SOC modernization. Tunduk modernization, digital som CBDC, and hydropower digitalization all create new attack surface. Estonia NCSC is the global reference. Group-IB and Kaspersky carry sanctions concerns. We deliver Russian-Kyrgyz bilingual sntz.ai SOC + Estonia reference letter — KG-T-2026-010 ($900K) is live now.",
+    "risk_register": [
+      {
+        "risk_type": "commercial",
+        "description": "Group-IB or Kaspersky bid with deep regional capability and Russian-language native; despite sanctions concerns, KG procurement may favor them.",
+        "mitigation": "Position with explicit sanctions-clean framing and Estonia NCSC reference letter; couple with EU funding pathway which has explicit non-Russian vendor preference."
+      },
+      {
+        "risk_type": "political",
+        "description": "Cybersecurity is politically sensitive — State Security Committee may push toward classified-only domestic vendor.",
+        "mitigation": "Structure delivery with classified-handling subcontract to local KG vendor with security clearance; we lead unclassified SIEM and AI detection."
+      },
+      {
+        "risk_type": "technical",
+        "description": "Critical infrastructure operators have heterogeneous, often legacy systems; integration is complex.",
+        "mitigation": "Phase 1 limited to 5 operators with documented architecture; build adapter layer that decouples SIEM from operator-specific telemetry."
+      }
+    ],
+    "next_30_day_actions": [
+      "Submit pre-qualification documentation for KG-T-2026-010 ($900K) before submission deadline.",
+      "LinkedIn message to kg-udp-digital-head (Adilbek Asanbekov) on cybersecurity architecture for Tunduk and digital som CBDC.",
+      "Brief Estonia eGA's KG advisor (kg-tonis-mae) on Estonia NCSC reference letter pathway.",
+      "Schedule meeting with NBKR (kg-nbkr-head) on cybersecurity for digital som CBDC infrastructure.",
+      "Reach out to EU-KG-TEAM-EUROPE-DIGITAL PIU for cybersecurity TA alignment."
+    ],
+    "scoring": {
+      "speed_to_contract": 10,
+      "strategic_moat": 8,
+      "defensibility": 9,
+      "capital_access": 8,
+      "russian_cis_fit": 9,
+      "weighted_total": 8.85,
+      "scoring_rationale": "Speed 10: live RFP, decision within 90 days. Moat 8: presidential cybersecurity strategy, sanctions-clean differentiator. Defensibility 9: SOC multi-year SLAs, integration depth. Capital 8: state budget + EU + EBRD. Russian/CIS Fit 9: Russian-Kyrgyz bilingual mandatory."
+    },
+    "confidence_tier": "A",
+    "verification": "VERIFIED"
+  }
+]
