@@ -1,0 +1,259 @@
+[
+  {
+    "id": "KG-NATIONAL-AI-COUNCIL",
+    "country": "KG",
+    "tier": 7,
+    "name_en": "National Council on Artificial Intelligence of the Kyrgyz Republic",
+    "name_ru": "Национальный совет по искусственному интеллекту Кыргызской Республики",
+    "name_local": "Кыргыз Республикасынын Жасалма интеллект боюнча улуттук кеңеши",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-UDP",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": null,
+    "ai_digital_mandate": "Cross-cutting AI governance body. Reports to Presidential Administration (KG-UDP post-April 2026). Responsible body in decree queue for National AI Strategy (announced, pending final signature as of May 2026). Drafts AI policy standards and testing frameworks under Цифровой кодекс. THE pre-procurement engagement target for AI vendors — spec-setting authority.",
+    "recent_decisions_12mo": [
+      "National AI Strategy draft development (pending Presidential signature as of May 2026)",
+      "AI testing framework standards under Цифровой кодекс 2025",
+      "Council reconstitution under UDP oversight after Mintsifry dissolution",
+      "CW-010: secondary regulations drafting for AI auditability and model registries"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://24.kg",
+        "title": "National AI Council Kyrgyzstan — announced establishment",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "24.kg",
+        "source_tier": "media_primary"
+      },
+      {
+        "url": "https://akipress.org",
+        "title": "AI Council Kyrgyzstan — Akipress",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "akipress.org",
+        "source_tier": "media_primary"
+      }
+    ]
+  },
+  {
+    "id": "KG-COORD-COMMITTEE-DIGITAL",
+    "country": "KG",
+    "tier": 7,
+    "name_en": "Coordination Committee for Digital Transformation of the Kyrgyz Republic",
+    "name_ru": "Координационный комитет по цифровой трансформации Кыргызской Республики",
+    "name_local": "Кыргыз Республикасынын санариптик трансформациясы боюнча координациялык комитет",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": null,
+    "ai_digital_mandate": "Cross-cutting implementation oversight body for Digital Kyrgyzstan 2024-2028 strategy (Указ №90/2024). Coordinates all ministries and agencies on digital transformation. Likely being reconstituted under UDP oversight post-April 2026 reorganization.",
+    "recent_decisions_12mo": [
+      "Digital Kyrgyzstan 2024-2028 strategy (Указ №90/2024) implementation oversight",
+      "Reconstitution under UDP oversight (post-April 2026)",
+      "Цифровой кодекс 2025 implementation coordination"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://cbd.minjust.gov.kg",
+        "title": "KG Указ №90 2024 — Digital Transformation Concept establishing coordination committee",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "cbd.minjust.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-WB-PIU-DIGITAL",
+    "country": "KG",
+    "tier": 8,
+    "name_en": "World Bank Digital CASA / Digital GovTech PIU (Kyrgyz Republic)",
+    "name_ru": "ПИЕ ВБ Digital CASA / Digital GovTech (Кыргызская Республика)",
+    "name_local": "Дүйнөлүк банктын санариптик долбоорлорунун аткаруу тобу",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-UDP",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Previously Ministry of Digital Development; now under UDP — Bishkek",
+    "official_website": "https://projects.worldbank.org",
+    "ai_digital_mandate": "Manages Digital CASA Kyrgyz Republic and Digital GovTech TA programs. WB procurement rules apply. THE HIDDEN LEVER — WB Task Team Leader is often the actual customer who writes TORs and approves shortlists. Government counterpart: UDP Digital Department head. Tunduk modernization (CW-008) will route through this PIU.",
+    "recent_decisions_12mo": [
+      "Digital CASA KG program — active implementation",
+      "GovTech TA program components",
+      "CW-008: Tunduk modernization procurement (Estonian EGA advisory, EU-funded)",
+      "Government counterpart transferred to KG-UDP after April 2026 reorganization"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://projects.worldbank.org/en/projects-operations/projects-list?countryshortname=KG",
+        "title": "World Bank Kyrgyz Republic Projects Portfolio",
+        "language": "en",
+        "fetched_at": "2026-05-04",
+        "publisher": "worldbank.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "KG-ADB-PIU-EPROCUREMENT",
+    "country": "KG",
+    "tier": 8,
+    "name_en": "ADB e-Procurement System Digitalization PIU — Project 55109-001 (Kyrgyz Republic)",
+    "name_ru": "ПИЕ АБР по цифровизации системы закупок — Проект 55109-001 (Кыргызская Республика)",
+    "name_local": "АБР сатып алуу системасын санарипттештирүү долбоорунун аткаруу тобу",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-PROCUREMENT-DEPT",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Department of State Procurement, Bishkek",
+    "official_website": "https://adb.org/projects/55109-001",
+    "ai_digital_mandate": "Manages ADB Project 55109-001 (Phase 1): e-Procurement System Digitalization. Procures technical assistance for zakupki.gov.kg upgrade. Government counterpart: State Procurement Department. ADB procurement rules (QCBS for consulting). DIRECT ENTRY POINT for e-procurement technology vendors.",
+    "recent_decisions_12mo": [
+      "Project 55109-001 Phase 1 — active implementation",
+      "zakupki.gov.kg technical upgrade procurement",
+      "E-procurement standards alignment with regional best practice",
+      "Technical advisory services procurement under QCBS"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://adb.org/projects/55109-001",
+        "title": "ADB Project 55109-001 — KG e-Procurement System Digitalization",
+        "language": "en",
+        "fetched_at": "2026-05-04",
+        "publisher": "adb.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "KG-EU-PIU-C4CA",
+    "country": "KG",
+    "tier": 8,
+    "name_en": "EU Connectivity for Central Asia (C4CA) / Global Gateway PIU (Kyrgyz Republic)",
+    "name_ru": "ПИЕ ЕС C4CA / Global Gateway (Кыргызская Республика)",
+    "name_local": "ЕС C4CA долбоорунун аткаруу тобу",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-UDP",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "EU Delegation, Bishkek",
+    "official_website": "https://ec.europa.eu/international-partnerships",
+    "ai_digital_mandate": "EU C4CA satellite connectivity and cybersecurity package for KG. Global Gateway digital components. Estonian EGA advisory engagement for Tunduk/e-government. Team Europe Digital Connectivity Initiative. Government counterpart: UDP Digital Department. CW-008 Tunduk modernization EU-funded track.",
+    "recent_decisions_12mo": [
+      "C4CA satellite connectivity package implementation",
+      "Estonian EGA advisory for Tunduk modernization (CW-008)",
+      "DigiConnect4CA program KG components",
+      "Government counterpart transferred to KG-UDP post-April 2026"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://ec.europa.eu/international-partnerships/where-we-work/central-asia",
+        "title": "EU C4CA Program Kyrgyzstan Components",
+        "language": "en",
+        "fetched_at": "2026-05-04",
+        "publisher": "ec.europa.eu",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "KG-GIZ-PIU-GOVTECH",
+    "country": "KG",
+    "tier": 8,
+    "name_en": "GIZ Public Administration Reform / Digital Justice PIU (Kyrgyz Republic)",
+    "name_ru": "ПИЕ ГИЦ по реформе госуправления / цифровому правосудию (Кыргызская Республика)",
+    "name_local": "GIZ мамлекеттик башкаруу реформасы долбоорунун аткаруу тобу",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-MOJ",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "GIZ Country Office, Bishkek",
+    "official_website": "https://giz.de",
+    "ai_digital_mandate": "GIZ-managed programs: public administration reform, digital justice, decentralization MIS. Government counterpart: MOJ and Cabinet. Procurement follows GIZ/EU rules. Key entry point for governance reform technology vendors with EU/German positioning.",
+    "recent_decisions_12mo": [
+      "Digital justice program — active implementation",
+      "Public administration reform digital component",
+      "Decentralization management information system (MIS) development"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://giz.de/en/worldwide/374.html",
+        "title": "GIZ Kyrgyzstan Country Programs",
+        "language": "en",
+        "fetched_at": "2026-05-04",
+        "publisher": "giz.de",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "KG-UNDP-PIU-DIGITAL",
+    "country": "KG",
+    "tier": 8,
+    "name_en": "UNDP Digital Inclusion / Civic-Tech Program Office (Kyrgyz Republic)",
+    "name_ru": "Офис программы ПРООН по цифровой инклюзии / гражданским технологиям (Кыргызстан)",
+    "name_local": "БУУ ТДБ санариптик инклюзия программасынын бюросу",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-UDP",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "UNDP Country Office, Bishkek",
+    "official_website": "https://undp.org/kyrgyzstan",
+    "ai_digital_mandate": "UNDP civic-tech, e-participation, digital inclusion programs. Government counterpart: UDP Digital Department. Often co-designs pilot programs that become full government procurements.",
+    "recent_decisions_12mo": [
+      "Civic-tech / e-participation program active",
+      "Digital social registry pilot components",
+      "Government counterpart transferred to KG-UDP post-April 2026"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://undp.org/kyrgyzstan",
+        "title": "UNDP Kyrgyzstan — Digital Programs",
+        "language": "en",
+        "fetched_at": "2026-05-04",
+        "publisher": "undp.org",
+        "source_tier": "international_org"
+      }
+    ]
+  }
+]

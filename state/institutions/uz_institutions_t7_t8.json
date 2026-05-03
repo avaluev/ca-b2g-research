@@ -1,0 +1,294 @@
+[
+  {
+    "id": "UZ-STRATEGY-CENTER",
+    "country": "UZ",
+    "tier": 7,
+    "name_en": "Center for Strategy Development (Think Tank under President)",
+    "name_ru": "Центр «Стратегия развития» при Президенте Республики Узбекистан",
+    "name_local": "«Rivojlanish strategiyasi» markazi",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-PRESIDENT",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Tashkent",
+    "official_website": "https://strategy.uz",
+    "ai_digital_mandate": "Presidential think tank drafting long-term strategies including Digital Uzbekistan-2030 implementation roadmaps. Publishes analytical reports on AI/digital trends. High-influence body for strategy pre-shaping — vendor engagement here influences 3-5 year policy direction.",
+    "recent_decisions_12mo": [
+      "AI sector analytical reports supporting ПП-358 implementation",
+      "Digital economy benchmarking reports (CIS/global comparison)",
+      "International donor strategy alignment coordination"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://strategy.uz",
+        "title": "Center for Strategy Development of Uzbekistan — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "strategy.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-NEW-UZBEKISTAN-UNIVERSITY",
+    "country": "UZ",
+    "tier": 7,
+    "name_en": "New Uzbekistan University (AI Cluster Host)",
+    "name_ru": "Университет «Новый Узбекистан» (площадка AI Кластера)",
+    "name_local": "«Yangi O'zbekiston» universiteti",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-MOHESI",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Tashkent",
+    "official_website": "https://newuu.uz",
+    "ai_digital_mandate": "Host for the national AI Cluster (deadline 01.03.2026 per УП-189). NVIDIA partnership integration. Provides GPU compute infrastructure for state AI R&D. Training ground for government AI engineers. Convergent Window CW-002 — compute infrastructure procurement open.",
+    "recent_decisions_12mo": [
+      "Post-Karimov-era institution — entirely new university (2022), highly visible",
+      "AI Cluster launch (deadline 01.03.2026, per УП-189) — CW-002",
+      "NVIDIA partnership for GPU compute infrastructure",
+      "AI curriculum launch for engineering students",
+      "Procurement window for compute infrastructure, AI platforms, curriculum content"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://newuu.uz",
+        "title": "New Uzbekistan University — Official Website",
+        "language": "uz-latn",
+        "fetched_at": "2026-05-04",
+        "publisher": "newuu.uz",
+        "source_tier": "official"
+      },
+      {
+        "url": "https://lex.uz",
+        "title": "УП-189 — AI development decree mandating AI Cluster at New Uzbekistan University",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "lex.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-WB-PIU-DIGITAL",
+    "country": "UZ",
+    "tier": 8,
+    "name_en": "World Bank Digital Economy / GovTech Project Implementation Unit (Uzbekistan)",
+    "name_ru": "ПИЕ Всемирного банка по цифровой экономике / GovTech (Узбекистан)",
+    "name_local": "Jahon banki raqamli iqtisodiyot loyihasi amalga oshirish guruhi",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-MINTSIFRY",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Ministry of Digital Technologies, Tashkent",
+    "official_website": "https://projects.worldbank.org",
+    "ai_digital_mandate": "Donor-embedded PIU operating WB digital economy and GovTech programs in Uzbekistan. Manages procurement under WB rules (QCBS, ICB). THE HIDDEN LEVER — WB task team leader writes TORs, approves vendor shortlists. Government counterpart: MoDT deputy minister. Tenders under this PIU require WB procurement compliance.",
+    "recent_decisions_12mo": [
+      "WB Digital Economy project (P-number TBD) — active program 2023-2027",
+      "GovTech technical assistance program",
+      "WB procurement in pipeline for e-government modernization"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://projects.worldbank.org/en/projects-operations/projects-list?countryshortname=UZ",
+        "title": "World Bank Uzbekistan Projects Portfolio",
+        "language": "en",
+        "fetched_at": "2026-05-04",
+        "publisher": "worldbank.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "UZ-WB-PIU-CADASTRE",
+    "country": "UZ",
+    "tier": 8,
+    "name_en": "World Bank Geospatial NSDI Project PIU (under Cadastre Committee)",
+    "name_ru": "ПИЕ ВБ по геопространственным данным и NSDI (при Агентстве кадастра)",
+    "name_local": "Jahon banki NSDI loyihasi amalga oshirish guruhi",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-CADASTRE",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": 35000000,
+    "staff_size": null,
+    "headquarters_address": "State Cadastre Committee, Tashkent",
+    "official_website": "https://projects.worldbank.org",
+    "ai_digital_mandate": "Manages $35M WB Geospatial NSDI project (2025-2030). Active procurement for satellite imagery processing, AI land use analysis, GIS platform. CW-009 — most active near-term procurement window for geospatial AI vendors. Donor counterpart: WB TTL (to be populated by donor-pipeline agent). Government counterpart: Cadastre Agency head.",
+    "recent_decisions_12mo": [
+      "$35M WB Geospatial NSDI project launched 2025 — ACTIVE PROCUREMENT",
+      "AI land parcel classification tender in pipeline",
+      "GIS platform procurement TOR being drafted",
+      "Satellite imagery analytics services RFP expected 2026 (CW-009)"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://projects.worldbank.org/en/projects-operations/projects-list?countryshortname=UZ",
+        "title": "World Bank Uzbekistan Geospatial NSDI Project",
+        "language": "en",
+        "fetched_at": "2026-05-04",
+        "publisher": "worldbank.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "UZ-ADB-PIU-DIGITAL",
+    "country": "UZ",
+    "tier": 8,
+    "name_en": "ADB Country Partnership Strategy Digital Component PIU (Uzbekistan)",
+    "name_ru": "ПИЕ АБР по цифровым компонентам Стратегии партнерства (Узбекистан)",
+    "name_local": "ADB raqamli komponentlar loyihasi amalga oshirish guruhi",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-MOEF",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Ministry of Economy and Finance, Tashkent",
+    "official_website": "https://adb.org/countries/uzbekistan",
+    "ai_digital_mandate": "Manages ADB Country Partnership Strategy 2024-2028 digital components. Tashkent Metro digital ticketing, tax administration modernization components. ADB procurement rules apply (QCBS for consulting). Government counterpart: MoEF deputy minister.",
+    "recent_decisions_12mo": [
+      "ADB Country Partnership Strategy 2024-2028 digital components active",
+      "Tax administration modernization program under ADB financing",
+      "Tashkent Metro digital ticketing project components"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://adb.org/countries/uzbekistan/projects",
+        "title": "ADB Uzbekistan Projects Portfolio",
+        "language": "en",
+        "fetched_at": "2026-05-04",
+        "publisher": "adb.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "UZ-KOICA-PIU",
+    "country": "UZ",
+    "tier": 8,
+    "name_en": "KOICA IT Education Ecosystem Project PIU (Uzbekistan)",
+    "name_ru": "ПИЕ КОИКА — Экосистема IT-образования (Узбекистан)",
+    "name_local": "KOICA IT ta'lim ekotizimi loyihasi",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-MOHESI",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": 14000000,
+    "staff_size": null,
+    "headquarters_address": "Ministry of Higher Education, Science and Innovations, Tashkent",
+    "official_website": "https://koica.go.kr",
+    "ai_digital_mandate": "Manages KOICA $14M IT Education Ecosystem program (Enhancing Youth Employment). Procures AI curriculum content, EdTech platforms, learning management systems. Government counterpart: MOHESI. KOICA-aligned Korean vendor preference but open to partnerships with local implementation capacity.",
+    "recent_decisions_12mo": [
+      "$14M IT Education program — curriculum and EdTech procurement active",
+      "AI skills training program for youth employment",
+      "Korean-Uzbek technology partnership facilitation"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://koica.go.kr",
+        "title": "KOICA Uzbekistan IT Education Program",
+        "language": "en",
+        "fetched_at": "2026-05-04",
+        "publisher": "koica.go.kr",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "UZ-UNDP-PIU-DIGITAL",
+    "country": "UZ",
+    "tier": 8,
+    "name_en": "UNDP Digital Transformation Program Office (Uzbekistan)",
+    "name_ru": "Офис программы ПРООН по цифровой трансформации (Узбекистан)",
+    "name_local": "BMT TTDP Raqamli transformatsiya dasturi",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-MINTSIFRY",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "UNDP Country Office, 4 Taras Shevchenko Street, Tashkent",
+    "official_website": "https://undp.org/uzbekistan",
+    "ai_digital_mandate": "UNDP digital inclusion and digital transformation advisory program. Earlier 'Advancing Digital Transformation' program (completed); new pipeline programs in civic-tech, e-participation, digital inclusion. Government counterpart: MoDT.",
+    "recent_decisions_12mo": [
+      "Digital inclusion advisory program active",
+      "Civic-tech / e-participation components",
+      "Post-program evaluation of 'Advancing Digital Transformation Uzbekistan'"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://undp.org/uzbekistan",
+        "title": "UNDP Uzbekistan Country Office — Digital Programs",
+        "language": "en",
+        "fetched_at": "2026-05-04",
+        "publisher": "undp.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "UZ-EU-PIU-DIGITAL",
+    "country": "UZ",
+    "tier": 8,
+    "name_en": "EU Global Gateway / C4CA Digital Project PIU (Uzbekistan)",
+    "name_ru": "ПИЕ ЕС Global Gateway / C4CA (Узбекистан)",
+    "name_local": "EU Global Gateway raqamli loyihasi",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-MINTSIFRY",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "EU Delegation, Tashkent",
+    "official_website": "https://ec.europa.eu/international-partnerships",
+    "ai_digital_mandate": "EU Connectivity for Central Asia (C4CA) and Global Gateway programs. €100M satellite + cybersecurity package (2024 Samarkand summit). Team Europe Digital Connectivity Initiative. EGA (Estonia) advisory component for Tunduk/e-government architecture. Government counterpart: MoDT.",
+    "recent_decisions_12mo": [
+      "C4CA program ($100M satellite + cybersecurity) — early implementation stage",
+      "Global Gateway €12B package (April 2025 Samarkand summit) digital components",
+      "DigiConnect4CA technical assistance",
+      "Estonian EGA advisory engagement for e-government architecture"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://ec.europa.eu/international-partnerships/where-we-work/central-asia",
+        "title": "EU International Partnerships — Central Asia Digital Programs",
+        "language": "en",
+        "fetched_at": "2026-05-04",
+        "publisher": "ec.europa.eu",
+        "source_tier": "international_org"
+      }
+    ]
+  }
+]

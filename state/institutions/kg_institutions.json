@@ -1,0 +1,1620 @@
+[
+  {
+    "id": "KG-PRESIDENT",
+    "country": "KG",
+    "tier": 1,
+    "name_en": "Office of the President of the Kyrgyz Republic",
+    "name_ru": "Аппарат Президента Кыргызской Республики",
+    "name_local": "Кыргыз Республикасынын Президентинин Аппарати",
+    "founding_decree_id": null,
+    "reports_to_id": null,
+    "head_person_id": "kg-sadyr-japarov",
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Ala-Too Square 1, Bishkek 720003",
+    "official_website": "https://president.kg",
+    "ai_digital_mandate": "Under Japarov Concentration lens: Presidential Administration is the REAL decision layer for all major digital policy in KG. The April 2026 abolition of the Ministry of Digital Development and transfer of functions to UДП (Presidential Administration) confirms this. All major digital decrees signed by President. National AI Council reports directly here.",
+    "recent_decisions_12mo": [
+      "April 2026 decree abolishing Mintsifry, transferring all digital authority to UДП under Presidential Administration",
+      "Signed Digital Code (Цифровой кодекс) into law (2025)",
+      "National AI Strategy announcement (pending final signature as of May 2026)",
+      "CBDC digital som digital currency framework approval"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://president.kg",
+        "title": "President of Kyrgyz Republic — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "president.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-UDP",
+    "country": "KG",
+    "tier": 1,
+    "name_en": "Administration of Presidential Affairs of the Kyrgyz Republic — Digital Development Department (successor to Ministry of Digital Development)",
+    "name_ru": "Управление делами Президента Кыргызской Республики — Департамент цифровой трансформации (преемник Министерства цифрового развития)",
+    "name_local": "Кыргыз Республикасынын Президентинин Иштери Башкармасы — Санариптик трансформация департаменти",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-PRESIDENT",
+    "head_person_id": "kg-udp-digital-head",
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": "https://president.kg",
+    "ai_digital_mandate": "CRITICAL — The new digital authority for all of Kyrgyzstan from April 2026. Absorbs all Mintsifry functions: Tunduk oversight, e-government services, AI policy, cybersecurity coordination, telecom regulation. UДП Structural Regulations pending publication (≤31.05.2026). This is the single highest-leverage institution in KG for digital vendor engagement. New TORs for all legacy Mintsifry programs will be drafted here (CW-004).",
+    "recent_decisions_12mo": [
+      "CREATED April 2026: absorbs all Mintsifry functions — Japarov Concentration flagship",
+      "UДП Structural Regulations pending (≤31.05.2026) — new TORs will define all program mandates",
+      "Tunduk/e-government platform oversight transfer from Mintsifry",
+      "All legacy Mintsifry procurement pipeline transferred — TORs will be redrafted (CW-004)",
+      "New digital authority for Digital Code (Цифровой кодекс) implementation",
+      "AI governance coordination function absorbed from former National AI Council secretariat"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://president.kg",
+        "title": "Presidential Administration Kyrgyzstan — Restructuring April 2026",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "president.kg",
+        "source_tier": "official"
+      },
+      {
+        "url": "https://24.kg",
+        "title": "KG Mintsifry abolished, functions transferred to Presidential Administration UДП — 24.kg news",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "24.kg",
+        "source_tier": "media_primary"
+      }
+    ]
+  },
+  {
+    "id": "KG-MINCIFRY",
+    "country": "KG",
+    "tier": 3,
+    "name_en": "Ministry of Digital Development of the Kyrgyz Republic (DISSOLVED ~April 30, 2026)",
+    "name_ru": "Министерство цифрового развития Кыргызской Республики (ЛИКВИДИРОВАНО ~30.04.2026)",
+    "name_local": "Кыргыз Республикасынын Санариптик өнүктүрүү министрлиги (ЖОЮЛДУ ~30.04.2026)",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": "kg-talant-sultanov-former",
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Former: Bishkek",
+    "official_website": null,
+    "ai_digital_mandate": "DISSOLVED. All functions transferred to КG-UДП (Presidential Administration Digital Department) per April 2026 decree. Was responsible for: Tunduk, e-government services, AI policy, Цифровой кодекс implementation, Digital Kyrgyzstan 2024-2028 strategy. Any reference to 'Mintsifry KG' in pre-2026 decrees resolves to KG-UDP as successor.",
+    "recent_decisions_12mo": [
+      "DISSOLVED ~30.04.2026 — Japarov Concentration structural move",
+      "All functions and staff transferred to UДП under Presidential Administration",
+      "Successor institution: KG-UDP — use this for all current engagements",
+      "Former head: Talant Sultanov — now likely repositioned within UДП or Cabinet"
+    ],
+    "status": "dissolved",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://24.kg",
+        "title": "Министерство цифрового развития КР ликвидировано — 24.kg",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "24.kg",
+        "source_tier": "media_primary"
+      },
+      {
+        "url": "https://kaktus.media",
+        "title": "Упразднение Минцифры КР — Kaktus.media",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "kaktus.media",
+        "source_tier": "media_primary"
+      }
+    ]
+  },
+  {
+    "id": "KG-GK-ICT",
+    "country": "KG",
+    "tier": 3,
+    "name_en": "State Committee for Information Technologies and Communications of the Kyrgyz Republic (HISTORICAL — merged into Mintsifry ~2020)",
+    "name_ru": "Государственный комитет информационных технологий и связи КР (ИСТОРИЧЕСКИЙ — влит в Минцифры ~2020)",
+    "name_local": "Кыргыз Республикасынын Маалымат технологиялары жана байланыш боюнча мамлекеттик комитети",
+    "founding_decree_id": "KG-UP-2018-201-TUNDUK-GP",
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": null,
+    "ai_digital_mandate": "Historical institution. Was responsible body when Tunduk GP was created (2018). Merged into Ministry of Digital Development during Japarov-era consolidation. Successor: KG-UDP (via KG-MINCIFRY). Referenced in early Tunduk decrees.",
+    "recent_decisions_12mo": [
+      "HISTORICAL — dissolved/merged into Mintsifry ~2020",
+      "Successor institution: KG-UDP",
+      "Referenced in KG-UP-2018-201-TUNDUK-GP decree"
+    ],
+    "status": "merged",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "http://cbd.minjust.gov.kg/act/view/ru-ru/11736",
+        "title": "Постановление КР № 201 от 11.04.2018 — GK ICT referenced as founding body",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "cbd.minjust.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-CABINET",
+    "country": "KG",
+    "tier": 2,
+    "name_en": "Cabinet of Ministers of the Kyrgyz Republic",
+    "name_ru": "Кабинет Министров Кыргызской Республики",
+    "name_local": "Кыргыз Республикасынын Министрлер Кабинети",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-PRESIDENT",
+    "head_person_id": "kg-adylbek-kasymaliev",
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Chuy Avenue 205, Bishkek",
+    "official_website": "https://gov.kg",
+    "ai_digital_mandate": "Issues Cabinet Resolutions implementing presidential decrees. Key vehicle for digital program implementation regulations. Under Japarov Concentration, Cabinet is subordinate to Presidential Administration on major decisions. Relevant for program-level budgeting.",
+    "recent_decisions_12mo": [
+      "Implementation regulations for Цифровой кодекс (Digital Code 2025)",
+      "Budget allocations for digital transformation programs",
+      "April 2026 Mintsifry abolition formally executed through Cabinet process"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://gov.kg",
+        "title": "Cabinet of Ministers of Kyrgyz Republic — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-MINFIN",
+    "country": "KG",
+    "tier": 3,
+    "name_en": "Ministry of Finance of the Kyrgyz Republic",
+    "name_ru": "Министерство финансов Кыргызской Республики",
+    "name_local": "Кыргыз Республикасынын Финансы министрлиги",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": "kg-almaz-baketaev",
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Erkindik Boulevard 58, Bishkek",
+    "official_website": "https://minfin.kg",
+    "ai_digital_mandate": "Budget authority for all digital programs. CBDC digital som counterpart ministry alongside NBKR. Fiscal digitalization (e-treasury, e-budget). Key gatekeeper for donor program co-financing approval. Digital social registry counterpart.",
+    "recent_decisions_12mo": [
+      "Co-implementation of CBDC digital som framework (with NBKR)",
+      "Digital budget execution system modernization",
+      "E-treasury integration with procurement portal (zakupki.gov.kg)"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://minfin.kg",
+        "title": "Ministry of Finance of Kyrgyz Republic — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "minfin.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-MINECONOMY",
+    "country": "KG",
+    "tier": 3,
+    "name_en": "Ministry of Economy and Commerce of the Kyrgyz Republic",
+    "name_ru": "Министерство экономики и коммерции Кыргызской Республики",
+    "name_local": "Кыргыз Республикасынын Экономика жана коммерция министрлиги",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Chuy Avenue 106, Bishkek",
+    "official_website": "https://mineco.gov.kg",
+    "ai_digital_mandate": "Oversees Financial Services Regulatory Authority (SRFR / FSA). Responsible for virtual assets regulation, stablecoin USDKG framework. Key counterpart for digital economy/e-commerce regulatory programs.",
+    "recent_decisions_12mo": [
+      "Virtual assets and stablecoin USDKG regulatory framework",
+      "FSA supervision of digital financial services",
+      "E-commerce regulatory framework development"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://mineco.gov.kg",
+        "title": "Ministry of Economy and Commerce of Kyrgyz Republic",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "mineco.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-MOJ",
+    "country": "KG",
+    "tier": 3,
+    "name_en": "Ministry of Justice of the Kyrgyz Republic",
+    "name_ru": "Министерство юстиции Кыргызской Республики",
+    "name_local": "Кыргыз Республикасынын Юстиция министрлиги",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": "https://minjust.gov.kg",
+    "ai_digital_mandate": "Operates cbd.minjust.gov.kg (legal acts database — primary source for all KG legislation). Responsible body under personal data law (KG-LAW-2008-058). Legal digitalisation including GIZ digital justice program. E-notary, digital registration of legal entities.",
+    "recent_decisions_12mo": [
+      "cbd.minjust.gov.kg maintenance — official legal database",
+      "Personal data law implementation (KG-LAW-2008-058, as expanded by Цифровой кодекс)",
+      "GIZ digital justice program counterpart"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://minjust.gov.kg",
+        "title": "Ministry of Justice of Kyrgyz Republic — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "minjust.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-MINUST",
+    "country": "KG",
+    "tier": 3,
+    "name_en": "Ministry of Justice of the Kyrgyz Republic (alternate slug for KG-MOJ, retained for decree resolution)",
+    "name_ru": "Министерство юстиции КР (второй слаг для резолюции декретов)",
+    "name_local": "Кыргыз Республикасынын Юстиция министрлиги",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": "https://minjust.gov.kg",
+    "ai_digital_mandate": "Same as KG-MOJ — this slug (KG-MINUST) is retained from decree record KG-LAW-2008-058 for cross-reference resolution. Canonical record: KG-MOJ.",
+    "recent_decisions_12mo": [
+      "Resolved to KG-MOJ as canonical record"
+    ],
+    "status": "restructured",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://minjust.gov.kg",
+        "title": "Ministry of Justice — canonical record KG-MOJ",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "minjust.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-MINHEALTH",
+    "country": "KG",
+    "tier": 3,
+    "name_en": "Ministry of Health of the Kyrgyz Republic",
+    "name_ru": "Министерство здравоохранения Кыргызской Республики",
+    "name_local": "Кыргыз Республикасынын Саламаттык сактоо министрлиги",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Moskovskaya Street 148, Bishkek",
+    "official_website": "https://minzdrav.gov.kg",
+    "ai_digital_mandate": "E-health platform, telemedicine programs, AI-assisted diagnostics pilots. Key buyer for health AI in rural telemedicine connectivity. WHO/UNFPA/UNICEF donor-co-financed health digitalization programs.",
+    "recent_decisions_12mo": [
+      "Telemedicine expansion to rural districts",
+      "E-health platform integration with Tunduk data exchange",
+      "AI diagnostic tools procurement planning"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://minzdrav.gov.kg",
+        "title": "Ministry of Health of Kyrgyz Republic — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "minzdrav.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-MINEDUC",
+    "country": "KG",
+    "tier": 3,
+    "name_en": "Ministry of Education and Science of the Kyrgyz Republic",
+    "name_ru": "Министерство образования и науки Кыргызской Республики",
+    "name_local": "Кыргыз Республикасынын Билим берүү жана илим министрлиги",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Tynaliev Street 257, Bishkek",
+    "official_website": "https://edu.gov.kg",
+    "ai_digital_mandate": "EdTech AI platform procurement, digital curriculum, e-learning systems. KOICA multi-phase digital governance education program counterpart. Key buyer for LMS, AI tutoring, digital school infrastructure.",
+    "recent_decisions_12mo": [
+      "KOICA Kyrgyzstan digital governance / education multi-phase program implementation",
+      "AI skills curriculum integration in schools",
+      "EdTech platform procurement programs"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://edu.gov.kg",
+        "title": "Ministry of Education and Science of Kyrgyz Republic",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "edu.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-MINAGRI",
+    "country": "KG",
+    "tier": 3,
+    "name_en": "Ministry of Agriculture of the Kyrgyz Republic",
+    "name_ru": "Министерство сельского хозяйства Кыргызской Республики",
+    "name_local": "Кыргыз Республикасынын Айыл чарба министрлиги",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": "https://moa.gov.kg",
+    "ai_digital_mandate": "Smart agriculture AI, satellite imagery for livestock and crop monitoring. EBRD/WB/FAO co-financed agritech programs. Key buyer for satellite-based field monitoring, AI-assisted disease detection in livestock.",
+    "recent_decisions_12mo": [
+      "Agritech digitalization programs (WB/EBRD co-financed)",
+      "Satellite imagery for land management",
+      "AI livestock disease monitoring pilot"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://moa.gov.kg",
+        "title": "Ministry of Agriculture of Kyrgyz Republic — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "moa.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-PROSECUTOR",
+    "country": "KG",
+    "tier": 3,
+    "name_en": "Prosecutor General's Office of the Kyrgyz Republic",
+    "name_ru": "Генеральная прокуратура Кыргызской Республики",
+    "name_local": "Кыргыз Республикасынын Башкы прокуратурасы",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-PRESIDENT",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": "https://prokuror.gov.kg",
+    "ai_digital_mandate": "Responsible body under Цифровой кодекс (2025) for digital investigation tools, e-evidence standards, AI-assisted fraud detection. Digital case management system modernization.",
+    "recent_decisions_12mo": [
+      "Цифровой кодекс digital investigation provisions implementation",
+      "E-evidence legal framework development",
+      "Anti-corruption AI analytics pilot"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://prokuror.gov.kg",
+        "title": "Prosecutor General's Office of Kyrgyz Republic",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "prokuror.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-JOGORKU-KENESH",
+    "country": "KG",
+    "tier": 3,
+    "name_en": "Jogorku Kenesh — Parliament of the Kyrgyz Republic",
+    "name_ru": "Жогорку Кенеш — Парламент Кыргызской Республики",
+    "name_local": "Кыргыз Республикасынын Жогорку Кеңеши",
+    "founding_decree_id": null,
+    "reports_to_id": null,
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Ala-Too Square 1, Bishkek",
+    "official_website": "https://kenesh.kg",
+    "ai_digital_mandate": "Legislative body. Passed Цифровой кодекс (2025). AI in parliamentary proceedings pilot announced. AI coverage of legislative sessions already reported (trend hypothesis confirmed). Responsible body for approving digital budgets and donor co-financing frameworks.",
+    "recent_decisions_12mo": [
+      "Passed Цифровой кодекс КР №178 (2025) — foundational AI/digital law",
+      "AI coverage of parliamentary proceedings pilot",
+      "Digital Code secondary regulations review and approval"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://kenesh.kg",
+        "title": "Jogorku Kenesh — Parliament of Kyrgyzstan",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "kenesh.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-STATE-SECURITY",
+    "country": "KG",
+    "tier": 3,
+    "name_en": "State Committee for National Security of the Kyrgyz Republic (GKNB)",
+    "name_ru": "Государственный комитет национальной безопасности Кыргызской Республики (ГКНБ)",
+    "name_local": "Кыргыз Республикасынын Улуттук коопсуздук мамлекеттик комитети",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-PRESIDENT",
+    "head_person_id": "kg-kamchybek-tashiev",
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": null,
+    "ai_digital_mandate": "Cybersecurity coordination for national security. Clears vendors for sensitive digital contracts. Cyber units under GKNB oversee critical infrastructure protection under Цифровой кодекс provisions. Key security clearance authority for state AI deployments.",
+    "recent_decisions_12mo": [
+      "Cybersecurity coordination under Цифровой кодекс 2025",
+      "Critical infrastructure protection standards for AI systems",
+      "Security clearance oversight for sensitive state digital projects"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://24.kg",
+        "title": "GKNB Kyrgyzstan — Cybersecurity mandate",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "24.kg",
+        "source_tier": "media_primary"
+      }
+    ]
+  },
+  {
+    "id": "KG-GRS",
+    "country": "KG",
+    "tier": 4,
+    "name_en": "State Registration Service of the Kyrgyz Republic",
+    "name_ru": "Государственная регистрационная служба Кыргызской Республики",
+    "name_local": "Кыргыз Республикасынын Мамлекеттик каттоо кызматы",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": "https://grs.gov.kg",
+    "ai_digital_mandate": "Biometric identification database, civil registration, company/property registration. Interfaces with Tunduk for identity verification. Key buyer for biometric AI verification, e-registry modernization. Population registry underpins all e-government services.",
+    "recent_decisions_12mo": [
+      "Digital civil registration system (birth, death, marriage) modernization",
+      "Biometric identity verification integration with Tunduk platform",
+      "Property registry digitalization"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://grs.gov.kg",
+        "title": "State Registration Service of Kyrgyz Republic — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "grs.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-PROCUREMENT-DEPT",
+    "country": "KG",
+    "tier": 4,
+    "name_en": "Department of State Procurement under the Cabinet of Ministers of the Kyrgyz Republic",
+    "name_ru": "Департамент государственных закупок при Кабинете Министров Кыргызской Республики",
+    "name_local": "Кыргыз Республикасынын Министрлер Кабинети жанындагы Мамлекеттик сатып алуулар департаменти",
+    "founding_decree_id": "KG-LAW-2022-027",
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": "https://zakupki.gov.kg",
+    "ai_digital_mandate": "Operates zakupki.gov.kg electronic procurement portal. Responsible body under KG procurement laws (№72/2015, №27/2022). ADB project 55109-001 (e-Procurement digitalization) implements through this department. KEY ENTRY POINT for all B2G vendors — understand zakupki.gov.kg procedures.",
+    "recent_decisions_12mo": [
+      "ADB project 55109-001 e-Procurement digitalization (Phase 1) — active implementation",
+      "Zakupki.gov.kg portal modernization",
+      "New public procurement law №27/2022 full implementation",
+      "Electronic procurement mandatory format rollout"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://zakupki.gov.kg",
+        "title": "Electronic Procurement Portal of Kyrgyz Republic — zakupki.gov.kg",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "zakupki.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-NATIONAL-STATCOM",
+    "country": "KG",
+    "tier": 4,
+    "name_en": "National Statistics Committee of the Kyrgyz Republic",
+    "name_ru": "Национальный статистический комитет Кыргызской Республики",
+    "name_local": "Кыргыз Республикасынын Улуттук статистика комитети",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": "https://stat.kg",
+    "ai_digital_mandate": "National statistics collection and publication. Open data portal operator (data.gov.kg). AI-assisted statistical modeling. Census digitalization. Key data source for AI applications in government — data partnership entry point.",
+    "recent_decisions_12mo": [
+      "Open data portal data.gov.kg expansion",
+      "Digital census data collection methods",
+      "Statistical data quality AI programs"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://stat.kg",
+        "title": "National Statistics Committee of Kyrgyzstan — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "stat.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-HTP",
+    "country": "KG",
+    "tier": 4,
+    "name_en": "High Tech Park of the Kyrgyz Republic",
+    "name_ru": "Парк высоких технологий Кыргызской Республики (ПВТ)",
+    "name_local": "Кыргыз Республикасынын Жогорку технологиялар паркы",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": "https://htp.kg",
+    "ai_digital_mandate": "Special economic zone for ICT/AI companies. Tax privileges for resident companies. Primary market-entry mechanism for foreign AI vendors in Kyrgyzstan (equivalent to IT Park UZ). Smaller scale than UZ IT Park but similar function.",
+    "recent_decisions_12mo": [
+      "Resident company program expansion",
+      "AI startup incubation programs",
+      "Digital Code (Цифровой кодекс 2025) implementation regarding HTP operation"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://htp.kg",
+        "title": "High Tech Park of Kyrgyzstan — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "htp.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-GP-TUNDUK",
+    "country": "KG",
+    "tier": 5,
+    "name_en": "State Institution 'Tunduk' — Inter-Agency Electronic Interaction System (under UDP after April 2026)",
+    "name_ru": "Государственное учреждение «Тундук» — система межведомственного электронного взаимодействия (под УДП с апреля 2026)",
+    "name_local": "«Тундук» мамлекеттик мекемеси",
+    "founding_decree_id": "KG-CABINET-2022-245-TUNDUK",
+    "reports_to_id": "KG-UDP",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": "https://tunduk.gov.kg",
+    "ai_digital_mandate": "Kyrgyzstan's X-Road equivalent. 800+ government information systems connected. All inter-agency data exchange flows through Tunduk. CRITICAL infrastructure layer — any AI system needing government data must integrate via Tunduk API. Post-April 2026 now under UDP (transferred from dissolved Mintsifry). CW-008 (Tunduk modernization, Estonian EGA-led, EU-funded).",
+    "recent_decisions_12mo": [
+      "Transferred to UDP oversight after April 2026 Mintsifry dissolution",
+      "CW-008: Tunduk modernization with Estonian EGA advisory (EU-funded)",
+      "800+ information systems connected",
+      "New API standards development under Цифровой кодекс 2025",
+      "Procurement window for Tunduk technical upgrade open"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://tunduk.gov.kg",
+        "title": "Tunduk — Inter-Agency Data Exchange System of Kyrgyzstan",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "tunduk.gov.kg",
+        "source_tier": "official"
+      },
+      {
+        "url": "https://cbd.minjust.gov.kg/11735/edition/954119/ru",
+        "title": "Постановление КР №200 от 11.04.2018 — Tunduk founding",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "cbd.minjust.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-GP-INFOCOM",
+    "country": "KG",
+    "tier": 5,
+    "name_en": "State Enterprise Infocom (IT integrator and infrastructure operator)",
+    "name_ru": "Государственное предприятие «Инфоком» (IT-интегратор и оператор инфраструктуры)",
+    "name_local": "«Инфоком» мамлекеттик ишканасы",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-UDP",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": null,
+    "ai_digital_mandate": "State IT infrastructure operator. Tunduk is operated within Infocom ecosystem. Government data center operator. Key implementation partner for any large-scale digital government project — JV or white-label arrangement is standard path for foreign vendors. Transferred to UDP oversight after April 2026.",
+    "recent_decisions_12mo": [
+      "Transferred to UDP oversight after April 2026 reorganization",
+      "Tunduk operational management within Infocom ecosystem",
+      "Government data center expansion programs",
+      "Key JV/white-label partner for foreign AI vendors"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://24.kg",
+        "title": "GP Infocom Kyrgyzstan — IT infrastructure operator",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "24.kg",
+        "source_tier": "media_primary"
+      }
+    ]
+  },
+  {
+    "id": "KG-KYRGYZTELEKOM",
+    "country": "KG",
+    "tier": 5,
+    "name_en": "Kyrgyztelekom JSC (State Telecommunications Operator)",
+    "name_ru": "ОАО «Кыргызтелеком» (государственный телекоммуникационный оператор)",
+    "name_local": "«Кыргызтелеком» ААК",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-UDP",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": "https://kt.kg",
+    "ai_digital_mandate": "State fixed-line and internet backbone. Government connectivity infrastructure. Secondary role in digital government programs. Market share declining vs MegaCom. Key for rural connectivity programs (AKDN, SDC co-financed).",
+    "recent_decisions_12mo": [
+      "Government connectivity programs under Digital Kyrgyzstan 2024-2028",
+      "Rural internet expansion programs"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://kt.kg",
+        "title": "Kyrgyztelekom JSC — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "kt.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-MEGACOM",
+    "country": "KG",
+    "tier": 5,
+    "name_en": "Alfa Telecom CJSC / MegaCom (State mobile operator)",
+    "name_ru": "ЗАО «Альфа Телеком» / MegaCom (государственный мобильный оператор)",
+    "name_local": "«Альфа Телеком» ЖАК / МегаКом",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": "https://megacom.kg",
+    "ai_digital_mandate": "Largest mobile operator. 4G network. 5G rollout planned. State-owned (contested). Key infrastructure for mobile government services, CBDC digital som wallet distribution, mobile-ID. Potential partner for government AI mobile services delivery.",
+    "recent_decisions_12mo": [
+      "5G technology roadmap under Digital Kyrgyzstan 2024-2028",
+      "Mobile wallet integration planning for CBDC digital som",
+      "Government mobile services delivery partnership"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://megacom.kg",
+        "title": "MegaCom Kyrgyzstan — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "megacom.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-NBKR",
+    "country": "KG",
+    "tier": 6,
+    "name_en": "National Bank of the Kyrgyz Republic (NBKR)",
+    "name_ru": "Национальный банк Кыргызской Республики (НБКР)",
+    "name_local": "Кыргыз Республикасынын Улуттук банкы",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-JOGORKU-KENESH",
+    "head_person_id": "kg-melis-turgunbaev",
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Umetaliev Street 101, Bishkek",
+    "official_website": "https://nbkr.kg",
+    "ai_digital_mandate": "CBDC digital som development (in force January 2027 target). AML/KYC AI requirements for banks. Fintech licensing authority. Open banking framework. Key procurement authority for CBDC infrastructure (wallets, AML AI, KYC systems — CW-005). National AI for financial stability monitoring.",
+    "recent_decisions_12mo": [
+      "CBDC digital som law passed (CBDC in force January 2027) — CW-005",
+      "Digital som wallet architecture RFP preparation",
+      "AML/KYC AI compliance requirements for commercial banks",
+      "USDKG stablecoin framework co-development with FSA",
+      "Fintech licensing framework under Цифровой кодекс 2025"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://nbkr.kg",
+        "title": "National Bank of Kyrgyz Republic — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "nbkr.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-FSA",
+    "country": "KG",
+    "tier": 6,
+    "name_en": "Financial Services Regulatory Authority of the Kyrgyz Republic (SRFR / FSA)",
+    "name_ru": "Служба регулирования и надзора финансового рынка при Правительстве КР (СРНФР / ФСА)",
+    "name_local": "КР Финансы рыногун жөнгө салуу жана көзөмөлдөө кызматы",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": "https://fsa.gov.kg",
+    "ai_digital_mandate": "Regulates virtual assets (crypto), stablecoins (USDKG), non-bank financial services digital transformation. Oversees crypto exchange licensing. Key regulator for any blockchain/crypto AI compliance tool. Post-Japarov consolidation: expanded mandate for virtual assets under Цифровой кодекс 2025.",
+    "recent_decisions_12mo": [
+      "USDKG stablecoin regulatory framework (Цифровой кодекс 2025)",
+      "Virtual assets licensing under new Digital Code",
+      "Crypto exchange oversight — AI compliance tool procurement",
+      "AML/KYC requirements for crypto/virtual asset operators"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://fsa.gov.kg",
+        "title": "Financial Services Regulatory Authority of Kyrgyz Republic",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "fsa.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-GNS",
+    "country": "KG",
+    "tier": 6,
+    "name_en": "State Tax Service under the Cabinet of Ministers of the Kyrgyz Republic",
+    "name_ru": "Государственная налоговая служба при Правительстве Кыргызской Республики",
+    "name_local": "Кыргыз Республикасынын Министрлер Кабинети жанындагы Мамлекеттик салык кызматы",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": "https://sti.gov.kg",
+    "ai_digital_mandate": "E-tax portal. E-invoicing rollout. AI-assisted tax audit and fraud detection. ADB-financed tax administration modernization component. Key buyer for tax AI analytics, e-filing systems, taxpayer risk scoring.",
+    "recent_decisions_12mo": [
+      "E-invoicing mandatory rollout",
+      "AI tax fraud risk-scoring pilot",
+      "ADB tax administration modernization component"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://sti.gov.kg",
+        "title": "State Tax Service of Kyrgyzstan — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "sti.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-GTS",
+    "country": "KG",
+    "tier": 6,
+    "name_en": "State Customs Service of the Kyrgyz Republic",
+    "name_ru": "Государственная таможенная служба Кыргызской Республики",
+    "name_local": "Кыргыз Республикасынын Мамлекеттик бажы кызматы",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": "https://customs.gov.kg",
+    "ai_digital_mandate": "Digital customs (e-declarations), risk scoring for cargo clearance. Kyrgyzstan is EAEU member — customs interoperability with EAEU digital systems. AI customs risk-scoring and OCR cargo scanning procurement.",
+    "recent_decisions_12mo": [
+      "EAEU customs digital interoperability implementation",
+      "AI cargo risk-scoring pilot",
+      "E-customs declaration system modernization"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://customs.gov.kg",
+        "title": "State Customs Service of Kyrgyzstan",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "customs.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-ANTIMONOPOLY",
+    "country": "KG",
+    "tier": 6,
+    "name_en": "Anti-Monopoly Regulation Authority of the Kyrgyz Republic",
+    "name_ru": "Орган антимонопольного регулирования Кыргызской Республики",
+    "name_local": "Кыргыз Республикасынын монополияга каршы жөнгө салуу органы",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": null,
+    "ai_digital_mandate": "Digital markets competition oversight. Ensures non-exclusionary procurement for digital services. Less direct leverage than tax/customs but important for market entry policy.",
+    "recent_decisions_12mo": [
+      "Digital market competition guidelines",
+      "State IT procurement review"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://gov.kg",
+        "title": "Anti-Monopoly Authority Kyrgyzstan — referenced in government portal",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-NATIONAL-AI-COUNCIL",
+    "country": "KG",
+    "tier": 7,
+    "name_en": "National Council on Artificial Intelligence of the Kyrgyz Republic",
+    "name_ru": "Национальный совет по искусственному интеллекту Кыргызской Республики",
+    "name_local": "Кыргыз Республикасынын Жасалма интеллект боюнча улуттук кеңеши",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-UDP",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": null,
+    "ai_digital_mandate": "Cross-cutting AI governance body. Reports to Presidential Administration (KG-UDP post-April 2026). Responsible body in decree queue for National AI Strategy (announced, pending final signature as of May 2026). Drafts AI policy standards and testing frameworks under Цифровой кодекс. THE pre-procurement engagement target for AI vendors — spec-setting authority.",
+    "recent_decisions_12mo": [
+      "National AI Strategy draft development (pending Presidential signature as of May 2026)",
+      "AI testing framework standards under Цифровой кодекс 2025",
+      "Council reconstitution under UDP oversight after Mintsifry dissolution",
+      "CW-010: secondary regulations drafting for AI auditability and model registries"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://24.kg",
+        "title": "National AI Council Kyrgyzstan — announced establishment",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "24.kg",
+        "source_tier": "media_primary"
+      },
+      {
+        "url": "https://akipress.org",
+        "title": "AI Council Kyrgyzstan — Akipress",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "akipress.org",
+        "source_tier": "media_primary"
+      }
+    ]
+  },
+  {
+    "id": "KG-COORD-COMMITTEE-DIGITAL",
+    "country": "KG",
+    "tier": 7,
+    "name_en": "Coordination Committee for Digital Transformation of the Kyrgyz Republic",
+    "name_ru": "Координационный комитет по цифровой трансформации Кыргызской Республики",
+    "name_local": "Кыргыз Республикасынын санариптик трансформациясы боюнча координациялык комитет",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": null,
+    "ai_digital_mandate": "Cross-cutting implementation oversight body for Digital Kyrgyzstan 2024-2028 strategy (Указ №90/2024). Coordinates all ministries and agencies on digital transformation. Likely being reconstituted under UDP oversight post-April 2026 reorganization.",
+    "recent_decisions_12mo": [
+      "Digital Kyrgyzstan 2024-2028 strategy (Указ №90/2024) implementation oversight",
+      "Reconstitution under UDP oversight (post-April 2026)",
+      "Цифровой кодекс 2025 implementation coordination"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://cbd.minjust.gov.kg",
+        "title": "KG Указ №90 2024 — Digital Transformation Concept establishing coordination committee",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "cbd.minjust.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-WB-PIU-DIGITAL",
+    "country": "KG",
+    "tier": 8,
+    "name_en": "World Bank Digital CASA / Digital GovTech PIU (Kyrgyz Republic)",
+    "name_ru": "ПИЕ ВБ Digital CASA / Digital GovTech (Кыргызская Республика)",
+    "name_local": "Дүйнөлүк банктын санариптик долбоорлорунун аткаруу тобу",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-UDP",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Previously Ministry of Digital Development; now under UDP — Bishkek",
+    "official_website": "https://projects.worldbank.org",
+    "ai_digital_mandate": "Manages Digital CASA Kyrgyz Republic and Digital GovTech TA programs. WB procurement rules apply. THE HIDDEN LEVER — WB Task Team Leader is often the actual customer who writes TORs and approves shortlists. Government counterpart: UDP Digital Department head. Tunduk modernization (CW-008) will route through this PIU.",
+    "recent_decisions_12mo": [
+      "Digital CASA KG program — active implementation",
+      "GovTech TA program components",
+      "CW-008: Tunduk modernization procurement (Estonian EGA advisory, EU-funded)",
+      "Government counterpart transferred to KG-UDP after April 2026 reorganization"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://projects.worldbank.org/en/projects-operations/projects-list?countryshortname=KG",
+        "title": "World Bank Kyrgyz Republic Projects Portfolio",
+        "language": "en",
+        "fetched_at": "2026-05-04",
+        "publisher": "worldbank.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "KG-ADB-PIU-EPROCUREMENT",
+    "country": "KG",
+    "tier": 8,
+    "name_en": "ADB e-Procurement System Digitalization PIU — Project 55109-001 (Kyrgyz Republic)",
+    "name_ru": "ПИЕ АБР по цифровизации системы закупок — Проект 55109-001 (Кыргызская Республика)",
+    "name_local": "АБР сатып алуу системасын санарипттештирүү долбоорунун аткаруу тобу",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-PROCUREMENT-DEPT",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Department of State Procurement, Bishkek",
+    "official_website": "https://adb.org/projects/55109-001",
+    "ai_digital_mandate": "Manages ADB Project 55109-001 (Phase 1): e-Procurement System Digitalization. Procures technical assistance for zakupki.gov.kg upgrade. Government counterpart: State Procurement Department. ADB procurement rules (QCBS for consulting). DIRECT ENTRY POINT for e-procurement technology vendors.",
+    "recent_decisions_12mo": [
+      "Project 55109-001 Phase 1 — active implementation",
+      "zakupki.gov.kg technical upgrade procurement",
+      "E-procurement standards alignment with regional best practice",
+      "Technical advisory services procurement under QCBS"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://adb.org/projects/55109-001",
+        "title": "ADB Project 55109-001 — KG e-Procurement System Digitalization",
+        "language": "en",
+        "fetched_at": "2026-05-04",
+        "publisher": "adb.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "KG-EU-PIU-C4CA",
+    "country": "KG",
+    "tier": 8,
+    "name_en": "EU Connectivity for Central Asia (C4CA) / Global Gateway PIU (Kyrgyz Republic)",
+    "name_ru": "ПИЕ ЕС C4CA / Global Gateway (Кыргызская Республика)",
+    "name_local": "ЕС C4CA долбоорунун аткаруу тобу",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-UDP",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "EU Delegation, Bishkek",
+    "official_website": "https://ec.europa.eu/international-partnerships",
+    "ai_digital_mandate": "EU C4CA satellite connectivity and cybersecurity package for KG. Global Gateway digital components. Estonian EGA advisory engagement for Tunduk/e-government. Team Europe Digital Connectivity Initiative. Government counterpart: UDP Digital Department. CW-008 Tunduk modernization EU-funded track.",
+    "recent_decisions_12mo": [
+      "C4CA satellite connectivity package implementation",
+      "Estonian EGA advisory for Tunduk modernization (CW-008)",
+      "DigiConnect4CA program KG components",
+      "Government counterpart transferred to KG-UDP post-April 2026"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://ec.europa.eu/international-partnerships/where-we-work/central-asia",
+        "title": "EU C4CA Program Kyrgyzstan Components",
+        "language": "en",
+        "fetched_at": "2026-05-04",
+        "publisher": "ec.europa.eu",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "KG-GIZ-PIU-GOVTECH",
+    "country": "KG",
+    "tier": 8,
+    "name_en": "GIZ Public Administration Reform / Digital Justice PIU (Kyrgyz Republic)",
+    "name_ru": "ПИЕ ГИЦ по реформе госуправления / цифровому правосудию (Кыргызская Республика)",
+    "name_local": "GIZ мамлекеттик башкаруу реформасы долбоорунун аткаруу тобу",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-MOJ",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "GIZ Country Office, Bishkek",
+    "official_website": "https://giz.de",
+    "ai_digital_mandate": "GIZ-managed programs: public administration reform, digital justice, decentralization MIS. Government counterpart: MOJ and Cabinet. Procurement follows GIZ/EU rules. Key entry point for governance reform technology vendors with EU/German positioning.",
+    "recent_decisions_12mo": [
+      "Digital justice program — active implementation",
+      "Public administration reform digital component",
+      "Decentralization management information system (MIS) development"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://giz.de/en/worldwide/374.html",
+        "title": "GIZ Kyrgyzstan Country Programs",
+        "language": "en",
+        "fetched_at": "2026-05-04",
+        "publisher": "giz.de",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "KG-UNDP-PIU-DIGITAL",
+    "country": "KG",
+    "tier": 8,
+    "name_en": "UNDP Digital Inclusion / Civic-Tech Program Office (Kyrgyz Republic)",
+    "name_ru": "Офис программы ПРООН по цифровой инклюзии / гражданским технологиям (Кыргызстан)",
+    "name_local": "БУУ ТДБ санариптик инклюзия программасынын бюросу",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-UDP",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "UNDP Country Office, Bishkek",
+    "official_website": "https://undp.org/kyrgyzstan",
+    "ai_digital_mandate": "UNDP civic-tech, e-participation, digital inclusion programs. Government counterpart: UDP Digital Department. Often co-designs pilot programs that become full government procurements.",
+    "recent_decisions_12mo": [
+      "Civic-tech / e-participation program active",
+      "Digital social registry pilot components",
+      "Government counterpart transferred to KG-UDP post-April 2026"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://undp.org/kyrgyzstan",
+        "title": "UNDP Kyrgyzstan — Digital Programs",
+        "language": "en",
+        "fetched_at": "2026-05-04",
+        "publisher": "undp.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "KG-MINTRANSPORT",
+    "country": "KG",
+    "tier": 3,
+    "name_en": "Ministry of Transport and Roads of the Kyrgyz Republic",
+    "name_ru": "Министерство транспорта и дорог Кыргызской Республики",
+    "name_local": "Кыргыз Республикасынын Транспорт жана жолдор министрлиги",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": "https://mintrans.gov.kg",
+    "ai_digital_mandate": "ITS, digital logistics, road condition monitoring, Bishkek smart traffic management. Key buyer for transport AI, route optimization.",
+    "recent_decisions_12mo": [
+      "Bishkek smart traffic management pilot",
+      "Road condition AI monitoring programs",
+      "Digital freight logistics programs"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://mintrans.gov.kg",
+        "title": "Ministry of Transport of Kyrgyz Republic",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "mintrans.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-MINENERGY",
+    "country": "KG",
+    "tier": 3,
+    "name_en": "Ministry of Energy of the Kyrgyz Republic",
+    "name_ru": "Министерство энергетики Кыргызской Республики",
+    "name_local": "Кыргыз Республикасынын Энергетика министрлиги",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": "https://minenergo.gov.kg",
+    "ai_digital_mandate": "Hydropower grid optimization AI, smart meter rollout, digital utility monitoring. EBRD/WB/ADB energy sector financing includes digital components.",
+    "recent_decisions_12mo": [
+      "Smart grid / SCADA upgrade programs",
+      "Hydropower dispatch optimization AI",
+      "Digital utility monitoring pilots"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://minenergo.gov.kg",
+        "title": "Ministry of Energy of Kyrgyzstan",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "minenergo.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-MINLABOR",
+    "country": "KG",
+    "tier": 3,
+    "name_en": "Ministry of Labor, Social Security and Migration of the Kyrgyz Republic",
+    "name_ru": "Министерство труда, социального обеспечения и миграции Кыргызской Республики",
+    "name_local": "Кыргыз Республикасынын Эмгек, социалдык камсыздандыруу жана көчүп-кону министрлиги",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": "https://mlsp.gov.kg",
+    "ai_digital_mandate": "Digital social registry, Айыл аймагы (rural) social assistance, AI targeting for social transfers. Key for donor-co-financed social protection digitalization (WB, UNDP).",
+    "recent_decisions_12mo": [
+      "Digital social registry modernization",
+      "AI targeting for social transfers pilot",
+      "Rural (Айыл аймагы) digital social service delivery"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://mlsp.gov.kg",
+        "title": "Ministry of Labor of Kyrgyzstan",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "mlsp.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-KYRGYZPATENT",
+    "country": "KG",
+    "tier": 4,
+    "name_en": "Kyrgyzpatent — State Service for Intellectual Property and Innovation (Kyrgyzstan)",
+    "name_ru": "Кыргызпатент — Государственная служба интеллектуальной собственности и инноваций КР",
+    "name_local": "Кыргызпатент — КРнын Интеллектуалдык менчик жана инновациялар мамлекеттик кызматы",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": "https://patent.gov.kg",
+    "ai_digital_mandate": "IP registration digitalization. AI-assisted patent search and prior-art detection. Innovation ecosystem registration. Growing mandate for AI-generated IP questions under Цифровой кодекс 2025.",
+    "recent_decisions_12mo": [
+      "Digital patent and trademark registration system upgrade",
+      "AI-assisted IP search tools",
+      "Цифровой кодекс 2025 IP provisions for AI-generated content"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://patent.gov.kg",
+        "title": "Kyrgyzpatent — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "patent.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-SOCIAL-FUND",
+    "country": "KG",
+    "tier": 4,
+    "name_en": "Social Fund of the Kyrgyz Republic",
+    "name_ru": "Социальный фонд Кыргызской Республики",
+    "name_local": "Кыргыз Республикасынын Социалдык фонду",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": "https://fund.gov.kg",
+    "ai_digital_mandate": "Pension and social insurance digital administration. E-portal for pension services. AI-assisted claims verification and fraud detection. Tunduk integration for cross-government data exchange.",
+    "recent_decisions_12mo": [
+      "Digital pension services portal (integrated with Tunduk)",
+      "AI claims verification pilot",
+      "E-social card program"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://fund.gov.kg",
+        "title": "Social Fund of Kyrgyzstan — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "fund.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-KYRGYZ-DIGITAL-HUB",
+    "country": "KG",
+    "tier": 7,
+    "name_en": "Bishkek Digital Hub / Innovation Ecosystem (informal, emerging as of 2025)",
+    "name_ru": "Бишкекский цифровой хаб / инновационная экосистема (формирующаяся)",
+    "name_local": "Бишкек санариптик хабы",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-HTP",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": null,
+    "ai_digital_mandate": "Emerging AI/startup ecosystem. Co-working and incubation. Key entry point for diaspora-bridge connections — Kyrgyz tech diaspora events. Not yet institutionalized as of May 2026 but referenced in Digital Kyrgyzstan strategy.",
+    "recent_decisions_12mo": [
+      "Digital Kyrgyzstan 2024-2028 strategy mentions digital hub development",
+      "Informal networking events connecting diaspora with domestic startups"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://24.kg",
+        "title": "Bishkek digital ecosystem development — 24.kg",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "24.kg",
+        "source_tier": "media_secondary"
+      }
+    ]
+  },
+  {
+    "id": "KG-AI-SECONDARY-REG-WORKING-GROUP",
+    "country": "KG",
+    "tier": 7,
+    "name_en": "Digital Code Secondary Regulations Working Group (AI Auditability and Model Registry)",
+    "name_ru": "Рабочая группа по разработке подзаконных актов к Цифровому кодексу (аудит ИИ, реестр моделей)",
+    "name_local": "Санариптик кодекс боюнча иш тобу",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-UDP",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": null,
+    "ai_digital_mandate": "CW-010: Drafting secondary regulations for Цифровой кодекс (2025) covering AI auditability standards, AI model registries, and testing requirements. Highest leverage pre-procurement spec-shaping opportunity in KG. Vendor participation in this working group shapes all future KG AI procurement TORs.",
+    "recent_decisions_12mo": [
+      "CW-010: Secondary regulations for AI auditability under Цифровой кодекс 2025",
+      "AI model registry design consultations (May-Q4 2026)",
+      "AI testing requirements framework drafting"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://cbd.minjust.gov.kg",
+        "title": "Цифровой кодекс КР — secondary regulations process",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "cbd.minjust.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-KOICA-PIU",
+    "country": "KG",
+    "tier": 8,
+    "name_en": "KOICA Digital Governance Multi-Phase Project PIU (Kyrgyz Republic)",
+    "name_ru": "ПИЕ КОИКА — многофазный проект цифрового управления (Кыргызская Республика)",
+    "name_local": "KOICA санариптик башкаруу долбоорунун аткаруу тобу",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-UDP",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "KOICA Country Office, Bishkek",
+    "official_website": "https://koica.go.kr",
+    "ai_digital_mandate": "KOICA Kyrgyzstan digital governance multi-phase project. Covers e-government, AI training, digital skills. Korean vendor preference but technical partnerships welcome. Government counterpart: UDP Digital Department (post-April 2026 transferred from Mintsifry).",
+    "recent_decisions_12mo": [
+      "Multi-phase digital governance program active implementation",
+      "AI training component for government officials",
+      "Government counterpart transferred to KG-UDP post-April 2026"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://koica.go.kr",
+        "title": "KOICA Kyrgyzstan Digital Governance Program",
+        "language": "en",
+        "fetched_at": "2026-05-04",
+        "publisher": "koica.go.kr",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "KG-UNDP-PIU-GOVERNANCE",
+    "country": "KG",
+    "tier": 8,
+    "name_en": "UNDP Open Government / Anti-Corruption Digital PIU (Kyrgyz Republic)",
+    "name_ru": "ПИЕ ПРООН — открытое правительство / цифровая антикоррупция (Кыргызстан)",
+    "name_local": "БУУ ТДБ ачык өкмөт долбоорунун аткаруу тобу",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "UNDP Country Office, Bishkek",
+    "official_website": "https://undp.org/kyrgyzstan",
+    "ai_digital_mandate": "UNDP open government, anti-corruption digital tools, digital rights monitoring. Government counterpart: Cabinet of Ministers anti-corruption secretariat. Pilots often become full government procurements.",
+    "recent_decisions_12mo": [
+      "Open government digital platform support",
+      "Anti-corruption AI tools advisory",
+      "Digital rights monitoring program"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://undp.org/kyrgyzstan",
+        "title": "UNDP Kyrgyzstan — Governance Programs",
+        "language": "en",
+        "fetched_at": "2026-05-04",
+        "publisher": "undp.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "KG-AKDN-PIU",
+    "country": "KG",
+    "tier": 8,
+    "name_en": "AKDN Mountain Regions Digital Connectivity PIU (Kyrgyz Republic)",
+    "name_ru": "ПИЕ АКДН — цифровая связность горных регионов (Кыргызстан)",
+    "name_local": "AKDN тоо аймактарынын санариптик байланыш долбоорунун тобу",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-MINEDUC",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Aga Khan Foundation, Bishkek",
+    "official_website": "https://akdn.org/kyrgyzstan",
+    "ai_digital_mandate": "AKDN mountain connectivity, AKF education tech, Pamir Energy digital monitoring. Government counterpart: Ministry of Education. Serves remote mountain communities — unique AI deployment challenge for satellite/offline-capable AI systems.",
+    "recent_decisions_12mo": [
+      "Mountain community digital connectivity program",
+      "AKF EdTech programs for remote schools",
+      "PamirEnergy digital operations monitoring"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://akdn.org",
+        "title": "Aga Khan Development Network Kyrgyzstan Programs",
+        "language": "en",
+        "fetched_at": "2026-05-04",
+        "publisher": "akdn.org",
+        "source_tier": "international_org"
+      }
+    ]
+  }
+]

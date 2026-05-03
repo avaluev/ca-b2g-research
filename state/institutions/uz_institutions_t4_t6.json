@@ -1,0 +1,646 @@
+[
+  {
+    "id": "UZ-ASR",
+    "country": "UZ",
+    "tier": 4,
+    "name_en": "Agency for Strategic Reforms under the President of the Republic of Uzbekistan",
+    "name_ru": "Агентство стратегических реформ при Президенте Республики Узбекистан",
+    "name_local": "O'zbekiston Respublikasi Prezidenti huzuridagi Strategik islohotlar agentligi",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-PRESIDENT",
+    "head_person_id": "uz-bahador-rakhmatov",
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Tashkent",
+    "official_website": "https://asr.gov.uz",
+    "ai_digital_mandate": "Think-tank and reform coordination arm directly under the President. Drafts reform strategies including digital economy components. Coordinates with international donors on reform design. Post-2017 institution with Western-educated staff — PRIME candidate for early-stage vendor engagement. Often influences tender specs before they go to sector ministries.",
+    "recent_decisions_12mo": [
+      "Post-Karimov-era institution (created ~2021) — leadership Western-educated, hungry for visible wins",
+      "Draft AI governance framework support for ПП-358 strategy",
+      "Donor coordination for digital reform programs (WB, ADB governance components)"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://asr.gov.uz",
+        "title": "Agency for Strategic Reforms — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "asr.gov.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-PUBLIC-SERVICES-AGENCY",
+    "country": "UZ",
+    "tier": 4,
+    "name_en": "Agency for Public Services under the President of the Republic of Uzbekistan",
+    "name_ru": "Агентство государственных услуг при Президенте Республики Узбекистан",
+    "name_local": "O'zbekiston Respublikasi Prezidenti huzuridagi Davlat xizmatlari agentligi",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-PRESIDENT",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Tashkent",
+    "official_website": "https://davlatxizmatlari.uz",
+    "ai_digital_mandate": "Operates Multifunctional Centers (МФЦ/ЦГУ) network and EPIGU e-government portal (720+ services). Key buyer for citizen-facing AI/chatbot, service automation, queue management systems. Post-2017 institution with modern mandate — direct analog to Azerbaijan ASAN Service. Convergent Window CW-007 (EPIGU agentic chatbot).",
+    "recent_decisions_12mo": [
+      "Post-Karimov-era institution — modern mandate, fast procurement track",
+      "EPIGU portal expansion to 720+ services",
+      "AI citizen chatbot / conversational assistant procurement planned 2026 (CW-007)",
+      "Multifunctional center (ЦГУ) network expansion"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://davlatxizmatlari.uz",
+        "title": "Agency for Public Services of Uzbekistan — Official Website",
+        "language": "uz-latn",
+        "fetched_at": "2026-05-04",
+        "publisher": "davlatxizmatlari.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-CADASTRE",
+    "country": "UZ",
+    "tier": 4,
+    "name_en": "State Committee for Cadastre (under Ministry of Economy and Finance)",
+    "name_ru": "Государственный комитет по кадастру (при Министерстве экономики и финансов)",
+    "name_local": "Davlat Kadastr Qo'mitasi",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-MOEF",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Tashkent",
+    "official_website": "https://kadastr.uz",
+    "ai_digital_mandate": "Implementing WB-financed Geospatial NSDI project ($35M, 2025-2030). Buyer for satellite imagery AI, land parcel digitalization, GIS platform, geospatial data analytics. Key procurement authority for CW-009 (geospatial tenders). Post-2017 restructured agency with modern mandate.",
+    "recent_decisions_12mo": [
+      "Post-Karimov-era restructuring — new scope as lead NSDI agency",
+      "WB Geospatial NSDI project ($35M) launched 2025 — active procurement",
+      "Geoportal modernization tender issued",
+      "Satellite imagery AI analytics procurement window (CW-009)"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://kadastr.uz",
+        "title": "State Committee for Cadastre of Uzbekistan — Official Website",
+        "language": "uz-latn",
+        "fetched_at": "2026-05-04",
+        "publisher": "kadastr.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-IT-PARK",
+    "country": "UZ",
+    "tier": 4,
+    "name_en": "IT Park Uzbekistan",
+    "name_ru": "ИТ-Парк Узбекистана",
+    "name_local": "O'zbekiston IT Parki",
+    "founding_decree_id": "UZ-PP-2022-357",
+    "reports_to_id": "UZ-MINTSIFRY",
+    "head_person_id": "uz-farhod-ibragimov",
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Muslim Qodirov Street 2A, Tashkent",
+    "official_website": "https://it-park.uz",
+    "ai_digital_mandate": "Special economic zone and accelerator for IT/AI companies. Tax benefits: 0% income/payroll tax for residents. 700+ resident companies, $300M+ export target. Key institution for landing AI vendors in Uzbekistan — IT Park residency is the standard market-entry mechanism. Post-2017 institution with Western-educated management.",
+    "recent_decisions_12mo": [
+      "Post-Karimov-era institution — leadership Western-educated (Farhod Ibragimov), pro-market",
+      "IT export acceleration program under ПП-286 (2025)",
+      "AI Cluster partnership with New Uzbekistan University (co-coordinator)",
+      "Regional IT Park branches expansion (Samarkand, Namangan, Nukus)",
+      "Foreign AI vendor licensing facilitation programs"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://it-park.uz",
+        "title": "IT Park Uzbekistan — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "it-park.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-AI-CENTER",
+    "country": "UZ",
+    "tier": 4,
+    "name_en": "Center for the Development of Artificial Intelligence and Digital Economy (under Ministry of Digital Technologies)",
+    "name_ru": "Центр развития искусственного интеллекта и цифровой экономики при МЦТ",
+    "name_local": "Sun'iy intellekt va raqamli iqtisodiyotni rivojlantirish markazi",
+    "founding_decree_id": "UZ-PP-2024-358",
+    "reports_to_id": "UZ-MINTSIFRY",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Tashkent",
+    "official_website": "https://digital.uz",
+    "ai_digital_mandate": "Post-2017 institution created specifically to implement ПП-358 (AI Strategy to 2030). Runs AI testing environments, AI standards drafting, AI vendor certification. Key body for shaping AI procurement TORs. Convergent Window CW-003 (criteria for $100M AI fund distribution). PRIME target for pre-procurement vendor engagement.",
+    "recent_decisions_12mo": [
+      "Post-Karimov-era institution — created 2024, entirely new mandate",
+      "Implementation of ПП-358 AI Strategy to 2030 — TOR drafting authority",
+      "Criteria drafting for $100M AI fund distribution (CW-003, window May-Sept 2026)",
+      "AI vendor certification and testing framework development",
+      "University AI lab curriculum standards under УП-189"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://lex.uz",
+        "title": "ПП-358 — AI Development Strategy creating AI Center mandate",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "lex.uz",
+        "source_tier": "official"
+      },
+      {
+        "url": "https://digital.uz",
+        "title": "AI Center under MoDT Uzbekistan",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "digital.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-NATIONAL-ADVANCED-PROJECTS-AGENCY",
+    "country": "UZ",
+    "tier": 4,
+    "name_en": "Agency for Advanced Technology Projects (National Innovation Agency)",
+    "name_ru": "Агентство перспективных технологических проектов (Агентство инноваций)",
+    "name_local": "Innovatsiyalar agentligi",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-MOHESI",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Tashkent",
+    "official_website": "https://mininnovation.uz",
+    "ai_digital_mandate": "Manages innovation grant programs, technology transfer. Coordinates with international technology partners. Post-2017 institution under MOHESI with mandate over science-technology commercialization. Interfaces with $100M AI fund criteria under ПП-320.",
+    "recent_decisions_12mo": [
+      "Post-Karimov-era institution — innovation mandate, pro-startup orientation",
+      "Grant criteria design for AI startup fund (ПП-320)",
+      "International technology transfer facilitation"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://mininnovation.uz",
+        "title": "Innovation Agency of Uzbekistan — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "mininnovation.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-SPACE-AGENCY",
+    "country": "UZ",
+    "tier": 4,
+    "name_en": "Agency for Space Research and Technologies of the Republic of Uzbekistan (Uzbekistan Space Agency)",
+    "name_ru": "Агентство космических исследований и технологий Республики Узбекистан",
+    "name_local": "O'zbekiston Respublikasi Fazoviy tadqiqotlar va texnologiyalar agentligi",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Tashkent",
+    "official_website": "https://space.uz",
+    "ai_digital_mandate": "Operates UzbekSat-1 satellite. Provides remote sensing data for agriculture, environment, cadastre. Key buyer for satellite imagery AI processing, Earth observation analytics. Post-2017 institution with growing mandate for commercial space applications.",
+    "recent_decisions_12mo": [
+      "Post-Karimov-era institution — new commercial satellite applications mandate",
+      "UzbekSat imagery provision for NSDI Cadastre project",
+      "Earth observation AI analytics partnership programs"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://space.uz",
+        "title": "Uzbekistan Space Agency — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "space.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-FRR",
+    "country": "UZ",
+    "tier": 4,
+    "name_en": "Reconstruction and Development Fund of the Republic of Uzbekistan (FRR)",
+    "name_ru": "Фонд реконструкции и развития Республики Узбекистан (ФРР)",
+    "name_local": "O'zbekiston Respublikasi Qayta qurilish va rivojlantirish fondi",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-MOEF",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Tashkent",
+    "official_website": "https://frd.uz",
+    "ai_digital_mandate": "Sovereign wealth fund vehicle. Source of $100M AI fund under ПП-320 (30.10.2025). Evaluates and approves major state-financed technology projects. Key financial decision-maker for large AI infrastructure investments.",
+    "recent_decisions_12mo": [
+      "ПП-320 (30.10.2025) — $100M AI support fund disbursement vehicle",
+      "Investment evaluation for AI startup grant program",
+      "Technology infrastructure co-financing decisions"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://frd.uz",
+        "title": "Reconstruction and Development Fund of Uzbekistan",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "frd.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-FUND-OF-FUNDS",
+    "country": "UZ",
+    "tier": 4,
+    "name_en": "Uzbekistan Fund of Funds (under FRR)",
+    "name_ru": "Фонд фондов Узбекистана (при ФРР)",
+    "name_local": "O'zbekiston Fondlar Fondi",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-FRR",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Tashkent",
+    "official_website": null,
+    "ai_digital_mandate": "VC co-investment vehicle for tech/AI startups. Channels capital into IT Park resident companies. Part of ПП-320 AI fund ecosystem. Post-2017 institution.",
+    "recent_decisions_12mo": [
+      "AI fund co-investment criteria under ПП-320",
+      "IT Park resident company investment portfolio expansion"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://lex.uz",
+        "title": "ПП-320 — AI fund referencing Fund of Funds vehicle",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "lex.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-STATE-CENTER-PERSONALIZATION",
+    "country": "UZ",
+    "tier": 4,
+    "name_en": "State Center for Personalization (under Ministry of Internal Affairs)",
+    "name_ru": "Государственный центр персонализации при МВД Республики Узбекистан",
+    "name_local": "Davlat Shaxslashtirish Markazi",
+    "founding_decree_id": "UZ-UP-2020-6065",
+    "reports_to_id": "UZ-MVD",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Tashkent",
+    "official_website": null,
+    "ai_digital_mandate": "Operates biometric ID card production and issuance. Maintains biometric database (fingerprints, digital photos, chip data). Provides biometric verification services to MyID and EPIGU. Key operational arm for identity infrastructure.",
+    "recent_decisions_12mo": [
+      "Mandatory biometric ID rollout (УП-6065) — 100% population coverage program",
+      "MyID biometric verification integration",
+      "Mobile-ID chip compatibility upgrade (2025-2026)"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://lex.uz/ru/docs/5015117",
+        "title": "УП-6065 — Creating State Center for Personalization mandate",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "lex.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-UZINFOCOM",
+    "country": "UZ",
+    "tier": 5,
+    "name_en": "Uzinfocom JSC (State IT Integrator)",
+    "name_ru": "АО «Узинфоком» (государственный ИТ-интегратор)",
+    "name_local": "«Uzinfocom» AJ",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-MINTSIFRY",
+    "head_person_id": "uz-tavaqqalov-uzinfocom",
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Tashkent",
+    "official_website": "https://uzinfocom.uz",
+    "ai_digital_mandate": "State-owned IT integrator. Operates MyID digital identity infrastructure. Government cloud (UzCloud) operations. E-government infrastructure backbone. Integrates all 720+ EPIGU services. Strategic partner or competitor for any foreign vendor — JV or white-label arrangement is the standard path. Responsible body under ПП-5000 (E-Health) and foundational digital decrees.",
+    "recent_decisions_12mo": [
+      "MyID digital ID — primary operator (biometric + PKI infrastructure)",
+      "UzCloud sovereign cloud expansion",
+      "EPIGU integration layer for new services",
+      "E-Health platform (ПП-415) integration architecture"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://uzinfocom.uz",
+        "title": "Uzinfocom JSC — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "uzinfocom.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-UZTELECOM",
+    "country": "UZ",
+    "tier": 5,
+    "name_en": "Uztelecom JSC (National Telecommunications Operator)",
+    "name_ru": "АО «Узбектелеком» (национальный телекоммуникационный оператор)",
+    "name_local": "«Uzbektelekom» AJ",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-MINTSIFRY",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Amir Temur Avenue 24, Tashkent",
+    "official_website": "https://uztelecom.uz",
+    "ai_digital_mandate": "State-owned telecommunications backbone. Operates government fiber network. Internet connectivity for all state bodies and schools. Key infrastructure layer for digital government services. Potential partner for AI/data center connectivity and edge computing.",
+    "recent_decisions_12mo": [
+      "Government fiber network expansion for Digital Uzbekistan-2030",
+      "School internet connectivity programs (EdTech infrastructure)",
+      "State data center connectivity upgrade"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://uztelecom.uz",
+        "title": "Uztelecom JSC — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "uztelecom.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-UNICON",
+    "country": "UZ",
+    "tier": 5,
+    "name_en": "UNICON.UZ State Unitary Enterprise (Cybersecurity Center)",
+    "name_ru": "ГУП UNICON.UZ (Центр кибербезопасности Узбекистана)",
+    "name_local": "UNICON.UZ DUK",
+    "founding_decree_id": "UZ-LAW-2022-764",
+    "reports_to_id": "UZ-MINTSIFRY",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Tashkent",
+    "official_website": "https://unicon.uz",
+    "ai_digital_mandate": "National cybersecurity center. Operates CERT (Computer Emergency Response Team). Cybersecurity certification of state information systems. Any foreign vendor's AI system sold to Uzbekistan government must pass UNICON certification. Critical gatekeeper institution.",
+    "recent_decisions_12mo": [
+      "CERT operations for state cybersecurity incident response",
+      "ЗРУ-764 / ЗРУ-964 implementation — cybersecurity certification of state IS",
+      "AI system security assessment framework development under УП-189"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://unicon.uz",
+        "title": "UNICON.UZ — Cybersecurity Center of Uzbekistan",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "unicon.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-GNK",
+    "country": "UZ",
+    "tier": 6,
+    "name_en": "State Tax Committee of the Republic of Uzbekistan",
+    "name_ru": "Государственный налоговый комитет Республики Узбекистан",
+    "name_local": "O'zbekiston Respublikasi Davlat soliq qo'mitasi",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-MOEF",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Tashkent",
+    "official_website": "https://soliq.uz",
+    "ai_digital_mandate": "Operates Soliq.uz electronic tax portal. Implements e-invoicing (ЭДО) mandatory for VAT payers. Key buyer for AI-assisted tax audit, e-invoice analytics, fraud detection AI. High-volume transaction data environment — prime AI use case.",
+    "recent_decisions_12mo": [
+      "E-invoicing mandatory rollout for all VAT payers",
+      "AI tax fraud detection pilot programs",
+      "Soliq.uz portal integration with EPIGU citizen portal"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://soliq.uz",
+        "title": "State Tax Committee of Uzbekistan — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "soliq.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-GTK",
+    "country": "UZ",
+    "tier": 6,
+    "name_en": "State Customs Committee of the Republic of Uzbekistan",
+    "name_ru": "Государственный таможенный комитет Республики Узбекистан",
+    "name_local": "O'zbekiston Respublikasi Davlat bojxona qo'mitasi",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Tashkent",
+    "official_website": "https://customs.uz",
+    "ai_digital_mandate": "Implements e-customs (Single Window for trade). AI risk-scoring for customs clearance. Buyer for SafeGate-style cargo risk AI, OCR/scanning systems, customs data analytics. ADB-financed customs modernization components.",
+    "recent_decisions_12mo": [
+      "Single Window trade facilitation platform expansion",
+      "AI risk-scoring for customs declarations",
+      "ADB-financed customs modernization program"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://customs.uz",
+        "title": "State Customs Committee of Uzbekistan — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "customs.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-CBU",
+    "country": "UZ",
+    "tier": 6,
+    "name_en": "Central Bank of the Republic of Uzbekistan",
+    "name_ru": "Центральный банк Республики Узбекистан",
+    "name_local": "O'zbekiston Respublikasi Markaziy banki",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-CABINET",
+    "head_person_id": "uz-mamarizo-nurmuratov",
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Islam Karimov Street 6, Tashkent",
+    "official_website": "https://cbu.uz",
+    "ai_digital_mandate": "Fintech licensing authority. Open banking framework. Digital sum (CBDC) pilot exploration. AI AML/KYC requirements for banks. Key regulator for any fintech AI vendor needing operating license. IFC and WB counterpart for financial sector digitalization.",
+    "recent_decisions_12mo": [
+      "Fintech licensing framework update (2024-2025)",
+      "Open banking API standards publication",
+      "CBDC (digital sum) pilot exploration",
+      "AI AML/KYC compliance requirements for state-owned banks"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://cbu.uz",
+        "title": "Central Bank of Uzbekistan — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "cbu.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-DATA-PROTECTION",
+    "country": "UZ",
+    "tier": 6,
+    "name_en": "Authorized Body for Personal Data Protection of the Republic of Uzbekistan",
+    "name_ru": "Уполномоченный орган по защите персональных данных Республики Узбекистан",
+    "name_local": "Shaxsiy ma'lumotlarni himoya qilish bo'yicha vakolatli organ",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-MINTSIFRY",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Tashkent",
+    "official_website": "https://pd.uz",
+    "ai_digital_mandate": "Enforces personal data protection law. Data localization requirements for AI systems processing citizen data. Any foreign AI vendor must comply with UZ data residency rules. Key certification body for GDPR-equivalent compliance in Uzbekistan.",
+    "recent_decisions_12mo": [
+      "Personal data protection law enforcement (updated 2022-2024)",
+      "AI system data compliance requirements development",
+      "Data localization enforcement for state information systems"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://pd.uz",
+        "title": "Personal Data Protection Authority of Uzbekistan",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "pd.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-ANTIMONOPOLY",
+    "country": "UZ",
+    "tier": 6,
+    "name_en": "Anti-Monopoly Committee of the Republic of Uzbekistan",
+    "name_ru": "Антимонопольный комитет Республики Узбекистан",
+    "name_local": "O'zbekiston Respublikasi Antimonopol qo'mitasi",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Tashkent",
+    "official_website": "https://antimonopoly.uz",
+    "ai_digital_mandate": "Digital markets competition regulation. AI/platform market dominance oversight. Relevant for large-scale AI platform tenders to ensure non-exclusionary specifications. Less direct procurement leverage but important for market entry policy.",
+    "recent_decisions_12mo": [
+      "Digital market competition guidelines development",
+      "Review of state IT procurement for anti-monopoly compliance"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://antimonopoly.uz",
+        "title": "Anti-Monopoly Committee of Uzbekistan — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "antimonopoly.uz",
+        "source_tier": "official"
+      }
+    ]
+  }
+]

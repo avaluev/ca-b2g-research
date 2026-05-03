@@ -1,0 +1,110 @@
+institution-mapper COMPLETE
+produced_at: 2026-05-04
+agent: institution-mapper
+
+=== SUMMARY STATISTICS ===
+
+UZBEKISTAN
+  Total records:    60 (target: ≥60 ✓)
+  Tier 1 (Pres Admin):    3
+  Tier 2 (Cabinet):       1
+  Tier 3 (Ministries):    21
+  Tier 4 (Agencies):      10
+  Tier 5 (SOEs):          8
+  Tier 6 (Regulators):    5
+  Tier 7 (Councils/WG):   4
+  Tier 8 (Donor PIUs):    8
+  Status active:          60
+  Decree agency IDs resolved: 31/31 (100%)
+
+KYRGYZSTAN
+  Total records:    45 (target: ≥45 ✓)
+  Tier 1 (Pres Admin):    2
+  Tier 2 (Cabinet):       1
+  Tier 3 (Ministries):    15
+  Tier 4 (Agencies):      6
+  Tier 5 (SOEs):          4
+  Tier 6 (Regulators):    5
+  Tier 7 (Councils/WG):   4
+  Tier 8 (Donor PIUs):    8
+  Status active:          42
+  Status dissolved:       1  (KG-MINCIFRY)
+  Status merged:          1  (KG-GK-ICT)
+  Status restructured:    1  (KG-MINUST — alias for KG-MOJ)
+  Decree agency IDs resolved: 18/18 (100%)
+
+=== CRITICAL FINDINGS ===
+
+1. KG-UDP IS THE NEW DIGITAL AUTHORITY
+   Kyrgyz Ministry of Digital Development (KG-MINCIFRY) ABOLISHED ~30.04.2026.
+   All functions transferred to Presidential Affairs Administration (KG-UDP).
+   UDP Structural Regulations pending (≤31.05.2026).
+   ALL FUTURE KG DIGITAL PROCUREMENTS WILL ROUTE THROUGH KG-UDP.
+   CW-004: New TORs for every legacy Mintsifry program being drafted NOW.
+
+2. UZ $100M AI FUND CRITERIA WINDOW (CW-003)
+   ПП-320 (30.10.2025) creates $100M AI fund via FRR.
+   UZ-AI-COORD-COMMISSION is drafting distribution criteria (May-Sept 2026 window).
+   UZ-AI-CENTER is the TOR-setting body.
+   Vendor engagement here shapes grant eligibility requirements.
+
+3. KG CBDC PROCUREMENT WINDOW (CW-005)
+   Digital som in force January 2027.
+   NBKR (KG-NBKR) is drafting wallet/AML/KYC infrastructure RFPs.
+   Q2-Q4 2026 procurement window for CBDC infrastructure.
+
+4. UZ AI-IN-COURTS (CW-001)
+   Supreme Court (UZ-SUPREME-COURT) implementing УП-140 (21.08.2025).
+   RFP for AI document drafting / courtroom AI expected Q3-Q4 2026.
+
+5. KG TUNDUK MODERNIZATION (CW-008)
+   KG-GP-TUNDUK transferred to KG-UDP oversight.
+   Estonian EGA-led modernization with EU C4CA funding.
+   Architecture upgrade TOR being drafted — vendor input window open.
+
+=== TOP 5 HIGHEST-LEVERAGE INSTITUTIONS FOR B2G CAPTURE ===
+
+UZBEKISTAN:
+1. UZ-AI-COORD-COMMISSION — Sets criteria for $100M AI fund (CW-003). Vendor engagement
+   here shapes which AI categories are fundable. Pre-procurement window May-Sept 2026.
+2. UZ-COORD-COMMISSION-DIGITAL — Oversees entire Digital Uzbekistan-2030. Has direct
+   presidential reporting. Approves program-level budget allocations.
+3. UZ-IT-PARK — Market entry vehicle. Residency = 0% tax + legal entity + government
+   contractor eligibility. Managed by Western-educated leadership (karimov_inversion).
+4. UZ-SUPREME-COURT / UZ-MOJ — AI-in-Courts (CW-001) RFP expected Q3-Q4 2026.
+   Presidential flagship project. Specs not yet written = open spec window.
+5. UZ-WB-PIU-CADASTRE — $35M active procurement window (CW-009). WB TTL is the real
+   customer. Geospatial AI tenders imminent.
+
+KYRGYZSTAN:
+1. KG-UDP — THE SINGLE MOST IMPORTANT INSTITUTION in KG. All digital authority
+   concentrated here after April 2026. New TORs for every legacy program being drafted
+   (CW-004). First-mover engagement here locks in vendor positioning.
+2. KG-NBKR — CBDC digital som infrastructure procurement (CW-005). Wallet + AML + KYC
+   systems needed by January 2027. Active RFP preparation.
+3. KG-GP-TUNDUK — 800+ government IS connected. Any vendor integrating here gets
+   access to entire KG government data layer. CW-008 modernization window open.
+4. KG-NATIONAL-AI-COUNCIL — Drafting National AI Strategy (pending Presidential
+   signature May 2026) and AI secondary regulations (CW-010). Spec-setting authority
+   for all future KG AI procurement TORs.
+5. KG-WB-PIU-DIGITAL — WB Digital CASA program. TTL writes TORs. Government
+   counterpart now in KG-UDP. Tunduk modernization routes through this PIU.
+
+=== FILES PRODUCED ===
+state/institutions/uz_institutions_t1_t3.json  — UZ Tier 1-3 batch (18 records)
+state/institutions/uz_institutions_t4_t6.json  — UZ Tier 4-6 batch (19 records)
+state/institutions/uz_institutions_t7_t8.json  — UZ Tier 7-8 batch (8 records)
+state/institutions/kg_institutions_t1_t3.json  — KG Tier 1-3 batch (15 records)
+state/institutions/kg_institutions_t4_t6.json  — KG Tier 4-6 batch (13 records)
+state/institutions/kg_institutions_t7_t8.json  — KG Tier 7-8 batch (7 records)
+state/institutions/uz_institutions.json        — MERGED (60 records)
+state/institutions/kg_institutions.json        — MERGED (45 records)
+state/institutions/org_charts.md               — Mermaid org diagrams (2 countries)
+state/institutions/cross_references.json       — Decree agency ID → Institution map
+state/institutions/COMPLETE                    — This file
+
+=== VERIFICATION STATUS ===
+Tier 1-3 institutions: VERIFIED or L2_VERIFIED
+Tier 4-6 institutions: L2_VERIFIED minimum
+Tier 7-8 institutions: L2_VERIFIED (INFERRED for 2 emerging KG bodies)
+last_verified_date: 2026-05-04 on all records

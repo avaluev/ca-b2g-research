@@ -1,0 +1,739 @@
+{
+  "metadata": {
+    "produced_by": "institution-mapper",
+    "produced_at": "2026-05-04",
+    "description": "Maps every responsible_agency_id found in decree records to canonical Institution records. Handles renames, mergers, and dissolved entities."
+  },
+  "uz_agency_id_to_institution": {
+    "UZ-MINTSIFRY": {
+      "canonical_id": "UZ-MINTSIFRY",
+      "current_name_en": "Ministry of Digital Technologies of the Republic of Uzbekistan",
+      "current_name_ru": "Министерство цифровых технологий Республики Узбекистан",
+      "status": "active",
+      "tier": 3,
+      "decrees_referencing": [
+        "UZ-UP-2020-6079",
+        "UZ-UP-2020-6065",
+        "UZ-PP-2021-5000",
+        "UZ-LAW-2022-764",
+        "UZ-PP-2022-357",
+        "UZ-LAW-2022-792",
+        "UZ-LAW-2022-793",
+        "UZ-PP-2023-162",
+        "UZ-PP-2023-167",
+        "UZ-PP-2023-257",
+        "UZ-PP-2023-415",
+        "UZ-UP-2024-025",
+        "UZ-PP-2024-051",
+        "UZ-PP-2024-087",
+        "UZ-LAW-2024-964",
+        "UZ-UP-2024-132",
+        "UZ-PP-2024-358",
+        "UZ-UP-2024-155",
+        "UZ-UP-2024-157",
+        "UZ-UP-2025-140",
+        "UZ-PP-2025-286",
+        "UZ-UP-2025-189",
+        "UZ-PP-2025-320",
+        "UZ-UP-2025-233",
+        "UZ-LAW-2026-1115",
+        "UZ-UP-2026-038",
+        "UZ-LAW-2015-395",
+        "UZ-LAW-2024-1005",
+        "UZ-PP-2020-4699",
+        "UZ-PP-2024-129",
+        "UZ-PP-2025-099",
+        "UZ-RESOLUTION-2024-2025-GOV-UZ",
+        "UZ-PP-2024-303-STARTUPS",
+        "UZ-PP-2023-162-AGRI",
+        "UZ-PP-2024-345",
+        "UZ-UP-2023-076",
+        "UZ-LAW-2004-EDS"
+      ]
+    },
+    "UZ-COORD-COMMISSION-DIGITAL": {
+      "canonical_id": "UZ-COORD-COMMISSION-DIGITAL",
+      "current_name_en": "Coordination Commission for Implementation of the Digital Uzbekistan-2030 Strategy",
+      "current_name_ru": "Координационная комиссия по реализации Стратегии «Цифровой Узбекистан-2030»",
+      "status": "active",
+      "tier": 1,
+      "decrees_referencing": [
+        "UZ-UP-2020-6079",
+        "UZ-PP-2024-358",
+        "UZ-UP-2025-189",
+        "UZ-PP-2025-320"
+      ]
+    },
+    "UZ-CABINET": {
+      "canonical_id": "UZ-CABINET",
+      "current_name_en": "Cabinet of Ministers of the Republic of Uzbekistan",
+      "current_name_ru": "Кабинет Министров Республики Узбекистан",
+      "status": "active",
+      "tier": 2,
+      "decrees_referencing": [
+        "UZ-UP-2020-6079",
+        "UZ-UP-2024-132",
+        "UZ-LAW-2026-1115",
+        "UZ-LAW-2021-684",
+        "UZ-UP-2022-060",
+        "UZ-UP-2024-095",
+        "UZ-UP-2023-158"
+      ]
+    },
+    "UZ-MVD": {
+      "canonical_id": "UZ-MVD",
+      "current_name_en": "Ministry of Internal Affairs of the Republic of Uzbekistan",
+      "current_name_ru": "Министерство внутренних дел Республики Узбекистан",
+      "status": "active",
+      "tier": 3,
+      "decrees_referencing": [
+        "UZ-UP-2020-6065",
+        "UZ-UP-2026-038"
+      ]
+    },
+    "UZ-MOJ": {
+      "canonical_id": "UZ-MOJ",
+      "current_name_en": "Ministry of Justice of the Republic of Uzbekistan",
+      "current_name_ru": "Министерство юстиции Республики Узбекистан",
+      "status": "active",
+      "tier": 3,
+      "decrees_referencing": [
+        "UZ-UP-2020-6065",
+        "UZ-LAW-2022-793",
+        "UZ-UP-2025-140",
+        "UZ-UP-2026-038",
+        "UZ-LAW-2019-547",
+        "UZ-LAW-2026-1125",
+        "UZ-LAW-2004-EDS"
+      ]
+    },
+    "UZ-STATE-CENTER-PERSONALIZATION": {
+      "canonical_id": "UZ-STATE-CENTER-PERSONALIZATION",
+      "current_name_en": "State Center for Personalization (under Ministry of Internal Affairs)",
+      "current_name_ru": "Государственный центр персонализации при МВД Республики Узбекистан",
+      "status": "active",
+      "tier": 4,
+      "decrees_referencing": [
+        "UZ-UP-2020-6065"
+      ]
+    },
+    "UZ-MINZDRAV": {
+      "canonical_id": "UZ-MINZDRAV",
+      "current_name_en": "Ministry of Health of the Republic of Uzbekistan",
+      "current_name_ru": "Министерство здравоохранения Республики Узбекистан",
+      "status": "active",
+      "tier": 3,
+      "decrees_referencing": [
+        "UZ-PP-2021-5000",
+        "UZ-PP-2023-415",
+        "UZ-PP-2024-038",
+        "UZ-PP-2024-311",
+        "UZ-PP-2025-185",
+        "UZ-UP-2025-088",
+        "UZ-PP-2023-197",
+        "UZ-PP-2025-020"
+      ]
+    },
+    "UZ-UZINFOCOM": {
+      "canonical_id": "UZ-UZINFOCOM",
+      "current_name_en": "Uzinfocom JSC (State IT Integrator)",
+      "current_name_ru": "АО «Узинфоком» (государственный ИТ-интегратор)",
+      "status": "active",
+      "tier": 5,
+      "decrees_referencing": [
+        "UZ-PP-2021-5000",
+        "UZ-PP-2023-162",
+        "UZ-PP-2023-415",
+        "UZ-PP-2024-038",
+        "UZ-PP-2024-311",
+        "UZ-UP-2025-140",
+        "UZ-PP-2025-185",
+        "UZ-UP-2025-088",
+        "UZ-PP-2025-286",
+        "UZ-PP-2020-4699",
+        "UZ-RESOLUTION-2024-2025-GOV-UZ",
+        "UZ-PP-2025-020"
+      ]
+    },
+    "UZ-UNICON": {
+      "canonical_id": "UZ-UNICON",
+      "current_name_en": "UNICON.UZ State Unitary Enterprise (Cybersecurity Center)",
+      "current_name_ru": "ГУП UNICON.UZ (Центр кибербезопасности Узбекистана)",
+      "status": "active",
+      "tier": 5,
+      "decrees_referencing": [
+        "UZ-LAW-2022-764",
+        "UZ-PP-2023-167",
+        "UZ-LAW-2024-964",
+        "UZ-UP-2026-038",
+        "UZ-RESOLUTION-CBM-2025-GOV"
+      ]
+    },
+    "UZ-STATE-SECURITY": {
+      "canonical_id": "UZ-STATE-SECURITY",
+      "current_name_en": "State Security Service of the Republic of Uzbekistan",
+      "current_name_ru": "Служба государственной безопасности Республики Узбекистан",
+      "status": "active",
+      "tier": 3,
+      "decrees_referencing": [
+        "UZ-LAW-2022-764",
+        "UZ-UP-2026-038"
+      ]
+    },
+    "UZ-IT-PARK": {
+      "canonical_id": "UZ-IT-PARK",
+      "current_name_en": "IT Park Uzbekistan",
+      "current_name_ru": "ИТ-Парк Узбекистана",
+      "status": "active",
+      "tier": 4,
+      "decrees_referencing": [
+        "UZ-PP-2022-357",
+        "UZ-PP-2024-051",
+        "UZ-PP-2024-087",
+        "UZ-UP-2024-157",
+        "UZ-PP-2025-320",
+        "UZ-PP-2024-303-STARTUPS"
+      ]
+    },
+    "UZ-PUBLIC-SERVICES-AGENCY": {
+      "canonical_id": "UZ-PUBLIC-SERVICES-AGENCY",
+      "current_name_en": "Agency for Public Services under the President of the Republic of Uzbekistan",
+      "current_name_ru": "Агентство государственных услуг при Президенте Республики Узбекистан",
+      "status": "active",
+      "tier": 4,
+      "decrees_referencing": [
+        "UZ-PP-2023-162",
+        "UZ-PP-2025-286"
+      ]
+    },
+    "UZ-GNK": {
+      "canonical_id": "UZ-GNK",
+      "current_name_en": "State Tax Committee of the Republic of Uzbekistan",
+      "current_name_ru": "Государственный налоговый комитет Республики Узбекистан",
+      "status": "active",
+      "tier": 6,
+      "decrees_referencing": [
+        "UZ-PP-2023-167",
+        "UZ-UP-2026-038",
+        "UZ-PP-2024-129"
+      ]
+    },
+    "UZ-CBU": {
+      "canonical_id": "UZ-CBU",
+      "current_name_en": "Central Bank of the Republic of Uzbekistan",
+      "current_name_ru": "Центральный банк Республики Узбекистан",
+      "status": "active",
+      "tier": 6,
+      "decrees_referencing": [
+        "UZ-PP-2023-167",
+        "UZ-PP-2024-358",
+        "UZ-UP-2026-038",
+        "UZ-PP-2024-129",
+        "UZ-PP-2024-038-CYBERSEC-BANKING",
+        "UZ-RESOLUTION-CBM-2025-GOV"
+      ]
+    },
+    "UZ-MINSELXOZ": {
+      "canonical_id": "UZ-MINSELXOZ",
+      "current_name_en": "Ministry of Agriculture of the Republic of Uzbekistan",
+      "current_name_ru": "Министерство сельского хозяйства Республики Узбекистан",
+      "status": "active",
+      "tier": 3,
+      "decrees_referencing": [
+        "UZ-PP-2023-257",
+        "UZ-PP-2025-099",
+        "UZ-PP-2024-227",
+        "UZ-PP-2023-162-AGRI"
+      ]
+    },
+    "UZ-MIIT": {
+      "canonical_id": "UZ-MIIT",
+      "current_name_en": "Ministry of Investments, Industry and Trade of the Republic of Uzbekistan",
+      "current_name_ru": "Министерство инвестиций, промышленности и торговли Республики Узбекистан",
+      "status": "active",
+      "tier": 3,
+      "decrees_referencing": [
+        "UZ-UP-2024-025",
+        "UZ-UP-2024-157",
+        "UZ-UP-2025-233"
+      ]
+    },
+    "UZ-MOHESI": {
+      "canonical_id": "UZ-MOHESI",
+      "current_name_en": "Ministry of Higher Education, Science and Innovations of the Republic of Uzbekistan",
+      "current_name_ru": "Министерство высшего образования, науки и инноваций Республики Узбекистан",
+      "status": "active",
+      "tier": 3,
+      "decrees_referencing": [
+        "UZ-PP-2024-051",
+        "UZ-UP-2025-189",
+        "UZ-PP-2024-345",
+        "UZ-PP-2024-403",
+        "UZ-PP-2024-062",
+        "UZ-PP-2024-054"
+      ]
+    },
+    "UZ-ASR": {
+      "canonical_id": "UZ-ASR",
+      "current_name_en": "Agency for Strategic Reforms under the President of the Republic of Uzbekistan",
+      "current_name_ru": "Агентство стратегических реформ при Президенте Республики Узбекистан",
+      "status": "active",
+      "tier": 4,
+      "decrees_referencing": [
+        "UZ-UP-2024-132",
+        "UZ-UP-2022-060",
+        "UZ-UP-2024-095",
+        "UZ-UP-2023-158"
+      ]
+    },
+    "UZ-AI-CENTER": {
+      "canonical_id": "UZ-AI-CENTER",
+      "current_name_en": "Center for the Development of Artificial Intelligence and Digital Economy (under Ministry of Digital Technologies)",
+      "current_name_ru": "Центр развития искусственного интеллекта и цифровой экономики при МЦТ",
+      "status": "active",
+      "tier": 4,
+      "decrees_referencing": [
+        "UZ-PP-2024-358",
+        "UZ-UP-2025-189"
+      ]
+    },
+    "UZ-SPACE-AGENCY": {
+      "canonical_id": "UZ-SPACE-AGENCY",
+      "current_name_en": "Agency for Space Research and Technologies of the Republic of Uzbekistan (Uzbekistan Space Agency)",
+      "current_name_ru": "Агентство космических исследований и технологий Республики Узбекистан",
+      "status": "active",
+      "tier": 4,
+      "decrees_referencing": [
+        "UZ-UP-2024-155"
+      ]
+    },
+    "UZ-CADASTRE": {
+      "canonical_id": "UZ-CADASTRE",
+      "current_name_en": "State Committee for Cadastre (under Ministry of Economy and Finance)",
+      "current_name_ru": "Государственный комитет по кадастру (при Министерстве экономики и финансов)",
+      "status": "active",
+      "tier": 4,
+      "decrees_referencing": [
+        "UZ-UP-2024-155"
+      ]
+    },
+    "UZ-SUPREME-COURT": {
+      "canonical_id": "UZ-SUPREME-COURT",
+      "current_name_en": "Supreme Court of the Republic of Uzbekistan",
+      "current_name_ru": "Верховный суд Республики Узбекистан",
+      "status": "active",
+      "tier": 3,
+      "decrees_referencing": [
+        "UZ-UP-2025-140"
+      ]
+    },
+    "UZ-PROSECUTOR": {
+      "canonical_id": "UZ-PROSECUTOR",
+      "current_name_en": "Prosecutor General's Office of the Republic of Uzbekistan",
+      "current_name_ru": "Генеральная прокуратура Республики Узбекистан",
+      "status": "active",
+      "tier": 3,
+      "decrees_referencing": [
+        "UZ-UP-2025-140"
+      ]
+    },
+    "UZ-FRR": {
+      "canonical_id": "UZ-FRR",
+      "current_name_en": "Reconstruction and Development Fund of the Republic of Uzbekistan (FRR)",
+      "current_name_ru": "Фонд реконструкции и развития Республики Узбекистан (ФРР)",
+      "status": "active",
+      "tier": 4,
+      "decrees_referencing": [
+        "UZ-UP-2025-189",
+        "UZ-PP-2025-320"
+      ]
+    },
+    "UZ-NATIONAL-ADVANCED-PROJECTS-AGENCY": {
+      "canonical_id": "UZ-NATIONAL-ADVANCED-PROJECTS-AGENCY",
+      "current_name_en": "Agency for Advanced Technology Projects (National Innovation Agency)",
+      "current_name_ru": "Агентство перспективных технологических проектов (Агентство инноваций)",
+      "status": "active",
+      "tier": 4,
+      "decrees_referencing": [
+        "UZ-UP-2025-189"
+      ]
+    },
+    "UZ-FUND-OF-FUNDS": {
+      "canonical_id": "UZ-FUND-OF-FUNDS",
+      "current_name_en": "Uzbekistan Fund of Funds (under FRR)",
+      "current_name_ru": "Фонд фондов Узбекистана (при ФРР)",
+      "status": "active",
+      "tier": 4,
+      "decrees_referencing": [
+        "UZ-PP-2025-320"
+      ]
+    },
+    "UZ-DATA-PROTECTION": {
+      "canonical_id": "UZ-DATA-PROTECTION",
+      "current_name_en": "Authorized Body for Personal Data Protection of the Republic of Uzbekistan",
+      "current_name_ru": "Уполномоченный орган по защите персональных данных Республики Узбекистан",
+      "status": "active",
+      "tier": 6,
+      "decrees_referencing": [
+        "UZ-LAW-2026-1115",
+        "UZ-LAW-2019-547",
+        "UZ-LAW-2026-1125"
+      ]
+    },
+    "UZ-MINENERGY": {
+      "canonical_id": "UZ-MINENERGY",
+      "current_name_en": "Ministry of Energy of the Republic of Uzbekistan",
+      "current_name_ru": "Министерство энергетики Республики Узбекистан",
+      "status": "active",
+      "tier": 3,
+      "decrees_referencing": [
+        "UZ-UP-2026-038"
+      ]
+    },
+    "UZ-NATIONAL-CYBER-COORD-COUNCIL": {
+      "canonical_id": "UZ-NATIONAL-CYBER-COORD-COUNCIL",
+      "current_name_en": "National Coordination Council on Cybersecurity of the Republic of Uzbekistan",
+      "current_name_ru": "Национальный координационный совет по кибербезопасности Республики Узбекистан",
+      "status": "active",
+      "tier": 1,
+      "decrees_referencing": [
+        "UZ-UP-2026-038"
+      ]
+    },
+    "UZ-TREASURY": {
+      "canonical_id": "UZ-TREASURY",
+      "current_name_en": "Treasury of the Republic of Uzbekistan (under Ministry of Economy and Finance)",
+      "current_name_ru": "Казначейство Республики Узбекистан (при Министерстве экономики и финансов)",
+      "status": "active",
+      "tier": 3,
+      "decrees_referencing": [
+        "UZ-LAW-2021-684",
+        "UZ-LAW-2024-1005"
+      ]
+    },
+    "UZ-MINSCHOOL": {
+      "canonical_id": "UZ-MINSCHOOL",
+      "current_name_en": "Ministry of Preschool and School Education of the Republic of Uzbekistan",
+      "current_name_ru": "Министерство дошкольного и школьного образования Республики Узбекистан",
+      "status": "active",
+      "tier": 3,
+      "decrees_referencing": [
+        "UZ-PP-2024-403",
+        "UZ-PP-2024-062",
+        "UZ-PP-2024-054",
+        "UZ-PP-2025-051-SCHOOL"
+      ]
+    }
+  },
+  "kg_agency_id_to_institution": {
+    "KG-GP-TUNDUK": {
+      "canonical_id": "KG-GP-TUNDUK",
+      "current_name_en": "State Institution 'Tunduk' — Inter-Agency Electronic Interaction System (under UDP after April 2026)",
+      "current_name_ru": "Государственное учреждение «Тундук» — система межведомственного электронного взаимодействия (под УДП с апреля 2026)",
+      "status": "active",
+      "tier": 5,
+      "successor_id": null,
+      "decrees_referencing": [
+        "KG-UP-2018-200-TUNDUK",
+        "KG-UP-2018-201-TUNDUK-GP",
+        "KG-CABINET-2022-245-TUNDUK",
+        "KG-UP-2025-001",
+        "KG-TUNDUK-INFOCOM-TRANSFER"
+      ]
+    },
+    "KG-MINCIFRY": {
+      "canonical_id": "KG-MINCIFRY",
+      "current_name_en": "Ministry of Digital Development of the Kyrgyz Republic (DISSOLVED ~April 30, 2026)",
+      "current_name_ru": "Министерство цифрового развития Кыргызской Республики (ЛИКВИДИРОВАНО ~30.04.2026)",
+      "status": "dissolved",
+      "tier": 3,
+      "successor_id": "KG-UDP",
+      "decrees_referencing": [
+        "KG-UP-2018-200-TUNDUK",
+        "KG-LAW-2017-127",
+        "KG-LAW-2022-027",
+        "KG-CABINET-2022-245-TUNDUK",
+        "KG-LAW-2021-154",
+        "KG-UP-2024-090-CONCEPT",
+        "KG-CABINET-2024-746-CYBERSEC",
+        "KG-LAW-2024-121-CYBERSEC",
+        "KG-CABINET-2020-526-EDMS",
+        "KG-CABINET-2022-207-EDOC",
+        "KG-CABINET-2025-CYBERSEC-STRATEGY",
+        "KG-LAW-2021-101-DISINFORMATION",
+        "KG-CABINET-2025-DIGITAL-CONCEPT-PLAN",
+        "KG-CABINET-2024-023-DIGITAL-SERVICES",
+        "KG-UP-2025-001",
+        "KG-CABINET-2025-SEPT",
+        "KG-CABINET-2019-340",
+        "KG-UP-2025-071"
+      ],
+      "note": "DISSOLVED/MERGED — see successor"
+    },
+    "KG-GK-ICT": {
+      "canonical_id": "KG-GK-ICT",
+      "current_name_en": "State Committee for Information Technologies and Communications of the Kyrgyz Republic (HISTORICAL — merged into Mintsifry ~2020)",
+      "current_name_ru": "Государственный комитет информационных технологий и связи КР (ИСТОРИЧЕСКИЙ — влит в Минцифры ~2020)",
+      "status": "merged",
+      "tier": 3,
+      "successor_id": "KG-UDP",
+      "decrees_referencing": [
+        "KG-UP-2018-201-TUNDUK-GP",
+        "KG-CABINET-2019-340"
+      ],
+      "note": "DISSOLVED/MERGED — see successor"
+    },
+    "KG-MINUST": {
+      "canonical_id": "KG-MINUST",
+      "current_name_en": "Ministry of Justice of the Kyrgyz Republic (alternate slug for KG-MOJ, retained for decree resolution)",
+      "current_name_ru": "Министерство юстиции КР (второй слаг для резолюции декретов)",
+      "status": "restructured",
+      "tier": 3,
+      "successor_id": null,
+      "decrees_referencing": [
+        "KG-LAW-2008-058"
+      ]
+    },
+    "KG-PROCUREMENT-DEPT": {
+      "canonical_id": "KG-PROCUREMENT-DEPT",
+      "current_name_en": "Department of State Procurement under the Cabinet of Ministers of the Kyrgyz Republic",
+      "current_name_ru": "Департамент государственных закупок при Кабинете Министров Кыргызской Республики",
+      "status": "active",
+      "tier": 4,
+      "successor_id": null,
+      "decrees_referencing": [
+        "KG-LAW-2015-072",
+        "KG-LAW-2022-027"
+      ]
+    },
+    "KG-FSA": {
+      "canonical_id": "KG-FSA",
+      "current_name_en": "Financial Services Regulatory Authority of the Kyrgyz Republic (SRFR / FSA)",
+      "current_name_ru": "Служба регулирования и надзора финансового рынка при Правительстве КР (СРНФР / ФСА)",
+      "status": "active",
+      "tier": 6,
+      "successor_id": null,
+      "decrees_referencing": [
+        "KG-LAW-2022-012-VIRTUAL",
+        "KG-LAW-2025-074-NBKR-CBDC",
+        "KG-LAW-2025-178-DIGITAL-CODE",
+        "KG-CABINET-2025-VIRTUAL-ASSETS-COUNCIL",
+        "KG-LAW-2026-003-VA-AMEND"
+      ]
+    },
+    "KG-NBKR": {
+      "canonical_id": "KG-NBKR",
+      "current_name_en": "National Bank of the Kyrgyz Republic (NBKR)",
+      "current_name_ru": "Национальный банк Кыргызской Республики (НБКР)",
+      "status": "active",
+      "tier": 6,
+      "successor_id": null,
+      "decrees_referencing": [
+        "KG-LAW-2022-012-VIRTUAL",
+        "KG-LAW-2025-074-NBKR-CBDC",
+        "KG-LAW-2025-178-DIGITAL-CODE",
+        "KG-CABINET-2025-VIRTUAL-ASSETS-COUNCIL",
+        "KG-LAW-2026-003-VA-AMEND"
+      ]
+    },
+    "KG-MINECONOMY": {
+      "canonical_id": "KG-MINECONOMY",
+      "current_name_en": "Ministry of Economy and Commerce of the Kyrgyz Republic",
+      "current_name_ru": "Министерство экономики и коммерции Кыргызской Республики",
+      "status": "active",
+      "tier": 3,
+      "successor_id": null,
+      "decrees_referencing": [
+        "KG-LAW-2021-154",
+        "KG-UP-2025-350-ECONOMY"
+      ]
+    },
+    "KG-CABINET": {
+      "canonical_id": "KG-CABINET",
+      "current_name_en": "Cabinet of Ministers of the Kyrgyz Republic",
+      "current_name_ru": "Кабинет Министров Кыргызской Республики",
+      "status": "active",
+      "tier": 2,
+      "successor_id": null,
+      "decrees_referencing": [
+        "KG-UP-2024-090-CONCEPT",
+        "KG-LAW-2025-179-DIGITAL-CODE-ENACTMENT",
+        "KG-UP-2026-MINCIFRY-ABOLITION",
+        "KG-UP-2025-091",
+        "KG-CABINET-2020-526-EDMS",
+        "KG-CABINET-2022-207-EDOC",
+        "KG-UP-2025-133",
+        "KG-UP-2025-327-ACADEMY",
+        "KG-UP-2025-350-ECONOMY",
+        "KG-CABINET-2025-DIGITAL-CONCEPT-PLAN",
+        "KG-UP-2025-385",
+        "KG-UP-2025-083",
+        "KG-CABINET-2022-245-POSITION",
+        "KG-CABINET-2025-SEPT",
+        "KG-CABINET-2025-AUG",
+        "KG-CABINET-2025-SEPT-01",
+        "KG-CABINET-2025-MAY-30",
+        "KG-UDP-REGULATION-PENDING"
+      ]
+    },
+    "KG-COORD-COMMITTEE-DIGITAL": {
+      "canonical_id": "KG-COORD-COMMITTEE-DIGITAL",
+      "current_name_en": "Coordination Committee for Digital Transformation of the Kyrgyz Republic",
+      "current_name_ru": "Координационный комитет по цифровой трансформации Кыргызской Республики",
+      "status": "active",
+      "tier": 7,
+      "successor_id": null,
+      "decrees_referencing": [
+        "KG-UP-2024-090-CONCEPT"
+      ]
+    },
+    "KG-MINFIN": {
+      "canonical_id": "KG-MINFIN",
+      "current_name_en": "Ministry of Finance of the Kyrgyz Republic",
+      "current_name_ru": "Министерство финансов Кыргызской Республики",
+      "status": "active",
+      "tier": 3,
+      "successor_id": null,
+      "decrees_referencing": [
+        "KG-LAW-2025-074-NBKR-CBDC"
+      ]
+    },
+    "KG-UDP": {
+      "canonical_id": "KG-UDP",
+      "current_name_en": "Administration of Presidential Affairs of the Kyrgyz Republic — Digital Development Department (successor to Ministry of Digital Development)",
+      "current_name_ru": "Управление делами Президента Кыргызской Республики — Департамент цифровой трансформации (преемник Министерства цифрового развития)",
+      "status": "active",
+      "tier": 1,
+      "successor_id": null,
+      "decrees_referencing": [
+        "KG-LAW-2025-178-DIGITAL-CODE",
+        "KG-UP-2026-MINCIFRY-ABOLITION",
+        "KG-CABINET-2025-VIRTUAL-ASSETS-COUNCIL",
+        "KG-NATIONAL-AI-STRATEGY-PENDING",
+        "KG-UDP-REGULATION-PENDING",
+        "KG-TUNDUK-INFOCOM-TRANSFER"
+      ]
+    },
+    "KG-MOJ": {
+      "canonical_id": "KG-MOJ",
+      "current_name_en": "Ministry of Justice of the Kyrgyz Republic",
+      "current_name_ru": "Министерство юстиции Кыргызской Республики",
+      "status": "active",
+      "tier": 3,
+      "successor_id": null,
+      "decrees_referencing": [
+        "KG-LAW-2025-178-DIGITAL-CODE",
+        "KG-LAW-2025-179-DIGITAL-CODE-ENACTMENT",
+        "KG-LAW-2025-028-AMEND",
+        "KG-LAW-2025-243"
+      ]
+    },
+    "KG-JOGORKU-KENESH": {
+      "canonical_id": "KG-JOGORKU-KENESH",
+      "current_name_en": "Jogorku Kenesh — Parliament of the Kyrgyz Republic",
+      "current_name_ru": "Жогорку Кенеш — Парламент Кыргызской Республики",
+      "status": "active",
+      "tier": 3,
+      "successor_id": null,
+      "decrees_referencing": [
+        "KG-LAW-2025-178-DIGITAL-CODE",
+        "KG-LAW-2025-028-AMEND",
+        "KG-LAW-2025-243",
+        "KG-LAW-2025-262"
+      ]
+    },
+    "KG-STATE-SECURITY": {
+      "canonical_id": "KG-STATE-SECURITY",
+      "current_name_en": "State Committee for National Security of the Kyrgyz Republic (GKNB)",
+      "current_name_ru": "Государственный комитет национальной безопасности Кыргызской Республики (ГКНБ)",
+      "status": "active",
+      "tier": 3,
+      "successor_id": null,
+      "decrees_referencing": [
+        "KG-CABINET-2024-746-CYBERSEC",
+        "KG-LAW-2024-121-CYBERSEC",
+        "KG-CABINET-2025-CYBERSEC-STRATEGY"
+      ]
+    },
+    "KG-NATIONAL-AI-COUNCIL": {
+      "canonical_id": "KG-NATIONAL-AI-COUNCIL",
+      "current_name_en": "National Council on Artificial Intelligence of the Kyrgyz Republic",
+      "current_name_ru": "Национальный совет по искусственному интеллекту Кыргызской Республики",
+      "status": "active",
+      "tier": 7,
+      "successor_id": null,
+      "decrees_referencing": [
+        "KG-UP-2025-091",
+        "KG-NATIONAL-AI-STRATEGY-PENDING"
+      ]
+    },
+    "KG-PROSECUTOR": {
+      "canonical_id": "KG-PROSECUTOR",
+      "current_name_en": "Prosecutor General's Office of the Kyrgyz Republic",
+      "current_name_ru": "Генеральная прокуратура Кыргызской Республики",
+      "status": "active",
+      "tier": 3,
+      "successor_id": null,
+      "decrees_referencing": [
+        "KG-LAW-2021-101-DISINFORMATION"
+      ]
+    },
+    "KG-GP-INFOCOM": {
+      "canonical_id": "KG-GP-INFOCOM",
+      "current_name_en": "State Enterprise Infocom (IT integrator and infrastructure operator)",
+      "current_name_ru": "Государственное предприятие «Инфоком» (IT-интегратор и оператор инфраструктуры)",
+      "status": "active",
+      "tier": 5,
+      "successor_id": null,
+      "decrees_referencing": [
+        "KG-TUNDUK-INFOCOM-TRANSFER"
+      ]
+    }
+  },
+  "rename_history": [
+    {
+      "old_name": "Ministry of Information Technologies and Communications (MITC)",
+      "new_name": "Ministry of Digital Technologies (MoDT)",
+      "canonical_id": "UZ-MINTSIFRY",
+      "country": "UZ",
+      "rename_year": 2020,
+      "note": "Karimov Inversion landmark rename post-2017"
+    },
+    {
+      "old_name": "Ministry of Digital Development of the Kyrgyz Republic (Минцифры)",
+      "new_name": "Presidential Affairs Administration — Digital Department (УДП)",
+      "canonical_id": "KG-UDP",
+      "predecessor_id": "KG-MINCIFRY",
+      "country": "KG",
+      "rename_year": 2026,
+      "note": "Japarov Concentration — April 2026 abolition and transfer to Presidential Administration"
+    },
+    {
+      "old_name": "State Committee for Information Technologies and Communications (ГКИТС)",
+      "new_name": "Ministry of Digital Development (Минцифры KG) → now KG-UDP",
+      "canonical_id": "KG-UDP",
+      "predecessor_id": "KG-GK-ICT",
+      "country": "KG",
+      "rename_year": 2020,
+      "note": "ГКИТС merged into Минцифры KG ~2020, then Минцифры dissolved April 2026 → KG-UDP"
+    }
+  ],
+  "dissolved_entities": [
+    {
+      "id": "KG-MINCIFRY",
+      "name_ru": "Министерство цифрового развития КР",
+      "dissolution_date": "2026-04-30",
+      "reason": "Japarov Concentration — all functions transferred to Presidential Administration",
+      "successor_id": "KG-UDP",
+      "note": "All pre-2026 decree references to KG-MINCIFRY resolve to KG-UDP"
+    },
+    {
+      "id": "KG-GK-ICT",
+      "name_ru": "Государственный комитет информационных технологий и связи КР",
+      "dissolution_date": "2020-01-01",
+      "reason": "Merged into Ministry of Digital Development (Минцифры)",
+      "successor_id": "KG-MINCIFRY",
+      "note": "Historical — referenced only in 2018 Tunduk founding decrees"
+    }
+  ]
+}

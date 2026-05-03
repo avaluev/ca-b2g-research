@@ -1,0 +1,470 @@
+[
+  {
+    "id": "KG-GRS",
+    "country": "KG",
+    "tier": 4,
+    "name_en": "State Registration Service of the Kyrgyz Republic",
+    "name_ru": "Государственная регистрационная служба Кыргызской Республики",
+    "name_local": "Кыргыз Республикасынын Мамлекеттик каттоо кызматы",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": "https://grs.gov.kg",
+    "ai_digital_mandate": "Biometric identification database, civil registration, company/property registration. Interfaces with Tunduk for identity verification. Key buyer for biometric AI verification, e-registry modernization. Population registry underpins all e-government services.",
+    "recent_decisions_12mo": [
+      "Digital civil registration system (birth, death, marriage) modernization",
+      "Biometric identity verification integration with Tunduk platform",
+      "Property registry digitalization"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://grs.gov.kg",
+        "title": "State Registration Service of Kyrgyz Republic — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "grs.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-PROCUREMENT-DEPT",
+    "country": "KG",
+    "tier": 4,
+    "name_en": "Department of State Procurement under the Cabinet of Ministers of the Kyrgyz Republic",
+    "name_ru": "Департамент государственных закупок при Кабинете Министров Кыргызской Республики",
+    "name_local": "Кыргыз Республикасынын Министрлер Кабинети жанындагы Мамлекеттик сатып алуулар департаменти",
+    "founding_decree_id": "KG-LAW-2022-027",
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": "https://zakupki.gov.kg",
+    "ai_digital_mandate": "Operates zakupki.gov.kg electronic procurement portal. Responsible body under KG procurement laws (№72/2015, №27/2022). ADB project 55109-001 (e-Procurement digitalization) implements through this department. KEY ENTRY POINT for all B2G vendors — understand zakupki.gov.kg procedures.",
+    "recent_decisions_12mo": [
+      "ADB project 55109-001 e-Procurement digitalization (Phase 1) — active implementation",
+      "Zakupki.gov.kg portal modernization",
+      "New public procurement law №27/2022 full implementation",
+      "Electronic procurement mandatory format rollout"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://zakupki.gov.kg",
+        "title": "Electronic Procurement Portal of Kyrgyz Republic — zakupki.gov.kg",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "zakupki.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-NATIONAL-STATCOM",
+    "country": "KG",
+    "tier": 4,
+    "name_en": "National Statistics Committee of the Kyrgyz Republic",
+    "name_ru": "Национальный статистический комитет Кыргызской Республики",
+    "name_local": "Кыргыз Республикасынын Улуттук статистика комитети",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": "https://stat.kg",
+    "ai_digital_mandate": "National statistics collection and publication. Open data portal operator (data.gov.kg). AI-assisted statistical modeling. Census digitalization. Key data source for AI applications in government — data partnership entry point.",
+    "recent_decisions_12mo": [
+      "Open data portal data.gov.kg expansion",
+      "Digital census data collection methods",
+      "Statistical data quality AI programs"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://stat.kg",
+        "title": "National Statistics Committee of Kyrgyzstan — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "stat.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-HTP",
+    "country": "KG",
+    "tier": 4,
+    "name_en": "High Tech Park of the Kyrgyz Republic",
+    "name_ru": "Парк высоких технологий Кыргызской Республики (ПВТ)",
+    "name_local": "Кыргыз Республикасынын Жогорку технологиялар паркы",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": "https://htp.kg",
+    "ai_digital_mandate": "Special economic zone for ICT/AI companies. Tax privileges for resident companies. Primary market-entry mechanism for foreign AI vendors in Kyrgyzstan (equivalent to IT Park UZ). Smaller scale than UZ IT Park but similar function.",
+    "recent_decisions_12mo": [
+      "Resident company program expansion",
+      "AI startup incubation programs",
+      "Digital Code (Цифровой кодекс 2025) implementation regarding HTP operation"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://htp.kg",
+        "title": "High Tech Park of Kyrgyzstan — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "htp.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-GP-TUNDUK",
+    "country": "KG",
+    "tier": 5,
+    "name_en": "State Institution 'Tunduk' — Inter-Agency Electronic Interaction System (under UDP after April 2026)",
+    "name_ru": "Государственное учреждение «Тундук» — система межведомственного электронного взаимодействия (под УДП с апреля 2026)",
+    "name_local": "«Тундук» мамлекеттик мекемеси",
+    "founding_decree_id": "KG-CABINET-2022-245-TUNDUK",
+    "reports_to_id": "KG-UDP",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": "https://tunduk.gov.kg",
+    "ai_digital_mandate": "Kyrgyzstan's X-Road equivalent. 800+ government information systems connected. All inter-agency data exchange flows through Tunduk. CRITICAL infrastructure layer — any AI system needing government data must integrate via Tunduk API. Post-April 2026 now under UDP (transferred from dissolved Mintsifry). CW-008 (Tunduk modernization, Estonian EGA-led, EU-funded).",
+    "recent_decisions_12mo": [
+      "Transferred to UDP oversight after April 2026 Mintsifry dissolution",
+      "CW-008: Tunduk modernization with Estonian EGA advisory (EU-funded)",
+      "800+ information systems connected",
+      "New API standards development under Цифровой кодекс 2025",
+      "Procurement window for Tunduk technical upgrade open"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://tunduk.gov.kg",
+        "title": "Tunduk — Inter-Agency Data Exchange System of Kyrgyzstan",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "tunduk.gov.kg",
+        "source_tier": "official"
+      },
+      {
+        "url": "https://cbd.minjust.gov.kg/11735/edition/954119/ru",
+        "title": "Постановление КР №200 от 11.04.2018 — Tunduk founding",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "cbd.minjust.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-GP-INFOCOM",
+    "country": "KG",
+    "tier": 5,
+    "name_en": "State Enterprise Infocom (IT integrator and infrastructure operator)",
+    "name_ru": "Государственное предприятие «Инфоком» (IT-интегратор и оператор инфраструктуры)",
+    "name_local": "«Инфоком» мамлекеттик ишканасы",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-UDP",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": null,
+    "ai_digital_mandate": "State IT infrastructure operator. Tunduk is operated within Infocom ecosystem. Government data center operator. Key implementation partner for any large-scale digital government project — JV or white-label arrangement is standard path for foreign vendors. Transferred to UDP oversight after April 2026.",
+    "recent_decisions_12mo": [
+      "Transferred to UDP oversight after April 2026 reorganization",
+      "Tunduk operational management within Infocom ecosystem",
+      "Government data center expansion programs",
+      "Key JV/white-label partner for foreign AI vendors"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://24.kg",
+        "title": "GP Infocom Kyrgyzstan — IT infrastructure operator",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "24.kg",
+        "source_tier": "media_primary"
+      }
+    ]
+  },
+  {
+    "id": "KG-KYRGYZTELEKOM",
+    "country": "KG",
+    "tier": 5,
+    "name_en": "Kyrgyztelekom JSC (State Telecommunications Operator)",
+    "name_ru": "ОАО «Кыргызтелеком» (государственный телекоммуникационный оператор)",
+    "name_local": "«Кыргызтелеком» ААК",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-UDP",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": "https://kt.kg",
+    "ai_digital_mandate": "State fixed-line and internet backbone. Government connectivity infrastructure. Secondary role in digital government programs. Market share declining vs MegaCom. Key for rural connectivity programs (AKDN, SDC co-financed).",
+    "recent_decisions_12mo": [
+      "Government connectivity programs under Digital Kyrgyzstan 2024-2028",
+      "Rural internet expansion programs"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://kt.kg",
+        "title": "Kyrgyztelekom JSC — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "kt.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-MEGACOM",
+    "country": "KG",
+    "tier": 5,
+    "name_en": "Alfa Telecom CJSC / MegaCom (State mobile operator)",
+    "name_ru": "ЗАО «Альфа Телеком» / MegaCom (государственный мобильный оператор)",
+    "name_local": "«Альфа Телеком» ЖАК / МегаКом",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": "https://megacom.kg",
+    "ai_digital_mandate": "Largest mobile operator. 4G network. 5G rollout planned. State-owned (contested). Key infrastructure for mobile government services, CBDC digital som wallet distribution, mobile-ID. Potential partner for government AI mobile services delivery.",
+    "recent_decisions_12mo": [
+      "5G technology roadmap under Digital Kyrgyzstan 2024-2028",
+      "Mobile wallet integration planning for CBDC digital som",
+      "Government mobile services delivery partnership"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://megacom.kg",
+        "title": "MegaCom Kyrgyzstan — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "megacom.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-NBKR",
+    "country": "KG",
+    "tier": 6,
+    "name_en": "National Bank of the Kyrgyz Republic (NBKR)",
+    "name_ru": "Национальный банк Кыргызской Республики (НБКР)",
+    "name_local": "Кыргыз Республикасынын Улуттук банкы",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-JOGORKU-KENESH",
+    "head_person_id": "kg-melis-turgunbaev",
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Umetaliev Street 101, Bishkek",
+    "official_website": "https://nbkr.kg",
+    "ai_digital_mandate": "CBDC digital som development (in force January 2027 target). AML/KYC AI requirements for banks. Fintech licensing authority. Open banking framework. Key procurement authority for CBDC infrastructure (wallets, AML AI, KYC systems — CW-005). National AI for financial stability monitoring.",
+    "recent_decisions_12mo": [
+      "CBDC digital som law passed (CBDC in force January 2027) — CW-005",
+      "Digital som wallet architecture RFP preparation",
+      "AML/KYC AI compliance requirements for commercial banks",
+      "USDKG stablecoin framework co-development with FSA",
+      "Fintech licensing framework under Цифровой кодекс 2025"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://nbkr.kg",
+        "title": "National Bank of Kyrgyz Republic — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "nbkr.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-FSA",
+    "country": "KG",
+    "tier": 6,
+    "name_en": "Financial Services Regulatory Authority of the Kyrgyz Republic (SRFR / FSA)",
+    "name_ru": "Служба регулирования и надзора финансового рынка при Правительстве КР (СРНФР / ФСА)",
+    "name_local": "КР Финансы рыногун жөнгө салуу жана көзөмөлдөө кызматы",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": "https://fsa.gov.kg",
+    "ai_digital_mandate": "Regulates virtual assets (crypto), stablecoins (USDKG), non-bank financial services digital transformation. Oversees crypto exchange licensing. Key regulator for any blockchain/crypto AI compliance tool. Post-Japarov consolidation: expanded mandate for virtual assets under Цифровой кодекс 2025.",
+    "recent_decisions_12mo": [
+      "USDKG stablecoin regulatory framework (Цифровой кодекс 2025)",
+      "Virtual assets licensing under new Digital Code",
+      "Crypto exchange oversight — AI compliance tool procurement",
+      "AML/KYC requirements for crypto/virtual asset operators"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://fsa.gov.kg",
+        "title": "Financial Services Regulatory Authority of Kyrgyz Republic",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "fsa.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-GNS",
+    "country": "KG",
+    "tier": 6,
+    "name_en": "State Tax Service under the Cabinet of Ministers of the Kyrgyz Republic",
+    "name_ru": "Государственная налоговая служба при Правительстве Кыргызской Республики",
+    "name_local": "Кыргыз Республикасынын Министрлер Кабинети жанындагы Мамлекеттик салык кызматы",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": "https://sti.gov.kg",
+    "ai_digital_mandate": "E-tax portal. E-invoicing rollout. AI-assisted tax audit and fraud detection. ADB-financed tax administration modernization component. Key buyer for tax AI analytics, e-filing systems, taxpayer risk scoring.",
+    "recent_decisions_12mo": [
+      "E-invoicing mandatory rollout",
+      "AI tax fraud risk-scoring pilot",
+      "ADB tax administration modernization component"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://sti.gov.kg",
+        "title": "State Tax Service of Kyrgyzstan — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "sti.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-GTS",
+    "country": "KG",
+    "tier": 6,
+    "name_en": "State Customs Service of the Kyrgyz Republic",
+    "name_ru": "Государственная таможенная служба Кыргызской Республики",
+    "name_local": "Кыргыз Республикасынын Мамлекеттик бажы кызматы",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": "https://customs.gov.kg",
+    "ai_digital_mandate": "Digital customs (e-declarations), risk scoring for cargo clearance. Kyrgyzstan is EAEU member — customs interoperability with EAEU digital systems. AI customs risk-scoring and OCR cargo scanning procurement.",
+    "recent_decisions_12mo": [
+      "EAEU customs digital interoperability implementation",
+      "AI cargo risk-scoring pilot",
+      "E-customs declaration system modernization"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://customs.gov.kg",
+        "title": "State Customs Service of Kyrgyzstan",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "customs.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "KG-ANTIMONOPOLY",
+    "country": "KG",
+    "tier": 6,
+    "name_en": "Anti-Monopoly Regulation Authority of the Kyrgyz Republic",
+    "name_ru": "Орган антимонопольного регулирования Кыргызской Республики",
+    "name_local": "Кыргыз Республикасынын монополияга каршы жөнгө салуу органы",
+    "founding_decree_id": null,
+    "reports_to_id": "KG-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Bishkek",
+    "official_website": null,
+    "ai_digital_mandate": "Digital markets competition oversight. Ensures non-exclusionary procurement for digital services. Less direct leverage than tax/customs but important for market entry policy.",
+    "recent_decisions_12mo": [
+      "Digital market competition guidelines",
+      "State IT procurement review"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://gov.kg",
+        "title": "Anti-Monopoly Authority Kyrgyzstan — referenced in government portal",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  }
+]

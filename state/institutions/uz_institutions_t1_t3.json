@@ -1,0 +1,687 @@
+[
+  {
+    "id": "UZ-PRESIDENT",
+    "country": "UZ",
+    "tier": 1,
+    "name_en": "Office of the President of the Republic of Uzbekistan",
+    "name_ru": "Аппарат Президента Республики Узбекистан",
+    "name_local": "O'zbekiston Respublikasi Prezidentining Apparati",
+    "founding_decree_id": null,
+    "reports_to_id": null,
+    "head_person_id": "uz-mirziyoyev-shavkat",
+    "deputy_person_ids": ["uz-president-chief-of-staff"],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Uzbekistan Avenue 43, Tashkent 100029",
+    "official_website": "https://president.uz",
+    "ai_digital_mandate": "Supreme authority over Digital Uzbekistan-2030 strategy. All major AI/digital decrees (УП-series) signed by President. Chairs Coordination Commission on Digital Uzbekistan-2030. Presidential advisors on digital matters exert significant influence on vendor selection and program design.",
+    "recent_decisions_12mo": [
+      "УП-189 (22.10.2025) — Additional measures for AI development, $100M FRR allocation via ПП-320",
+      "УП-140 (21.08.2025) — AI in courts, Digital Court program 2025-2027",
+      "УП-132 (30.08.2024) — Measures implementing 4th open dialogue with entrepreneurs",
+      "Post-Karimov-era institution — leadership often Western-educated, hungry for visible wins"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://president.uz/ru/lists/view/4",
+        "title": "President of Uzbekistan — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "president.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-COORD-COMMISSION-DIGITAL",
+    "country": "UZ",
+    "tier": 1,
+    "name_en": "Coordination Commission for Implementation of the Digital Uzbekistan-2030 Strategy",
+    "name_ru": "Координационная комиссия по реализации Стратегии «Цифровой Узбекистан-2030»",
+    "name_local": "«Raqamli O'zbekiston-2030» Strategiyasini amalga oshirish bo'yicha Muvofiqlashtirish Komissiyasi",
+    "founding_decree_id": "UZ-UP-2020-6079",
+    "reports_to_id": "UZ-PRESIDENT",
+    "head_person_id": "uz-prime-minister",
+    "deputy_person_ids": ["uz-mintsifry-minister"],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Government House, Mustakillik Square 5, Tashkent",
+    "official_website": "https://gov.uz",
+    "ai_digital_mandate": "Cross-cutting body that oversees the entire Digital Uzbekistan-2030 strategy. Has direct presidential reporting. Approves budget allocations under ПП-320 ($100M AI fund). Working groups spawn tenders. The HIGHEST leverage body for pre-procurement engagement — specs are set here before RFPs publish.",
+    "recent_decisions_12mo": [
+      "Coordinating ПП-320 ($100M AI fund) distribution criteria (window May-Sept 2026)",
+      "Oversight of 15 university AI laboratory rollout",
+      "Oversight of AI Cluster at New Uzbekistan University (deadline 01.03.2026)"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://lex.uz/ru/docs/5031048",
+        "title": "УП-6079-сон 05.10.2020 — Digital Uzbekistan-2030 Strategy establishing Coordination Commission",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "lex.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-NATIONAL-CYBER-COORD-COUNCIL",
+    "country": "UZ",
+    "tier": 1,
+    "name_en": "National Coordination Council on Cybersecurity of the Republic of Uzbekistan",
+    "name_ru": "Национальный координационный совет по кибербезопасности Республики Узбекистан",
+    "name_local": "O'zbekiston Respublikasi Kiberxavfsizlik bo'yicha Milliy Muvofiqlashtirish Kengashi",
+    "founding_decree_id": "UZ-LAW-2022-764",
+    "reports_to_id": "UZ-PRESIDENT",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Tashkent",
+    "official_website": "https://gov.uz",
+    "ai_digital_mandate": "Cross-cutting cybersecurity governance body created under ЗРУ-764. Coordinates cybersecurity policy across all state bodies and critical infrastructure. Relevant for any AI/data security vendor seeking government contracts.",
+    "recent_decisions_12mo": [
+      "Implementation oversight of cybersecurity law ЗРУ-764 as amended by ЗРУ-964 (20.09.2024)",
+      "Cybersecurity standards for AI systems under УП-189 (2025)"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://lex.uz/ru/docs/5960609",
+        "title": "ЗРУ-764-сон 15.04.2022 — On Cybersecurity — creates NKCS",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "lex.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-CABINET",
+    "country": "UZ",
+    "tier": 2,
+    "name_en": "Cabinet of Ministers of the Republic of Uzbekistan",
+    "name_ru": "Кабинет Министров Республики Узбекистан",
+    "name_local": "O'zbekiston Respublikasi Vazirlar Mahkamasi",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-PRESIDENT",
+    "head_person_id": "uz-abdulla-aripov",
+    "deputy_person_ids": ["uz-first-deputy-pm"],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Mustakillik Square 5, Tashkent 100078",
+    "official_website": "https://gov.uz",
+    "ai_digital_mandate": "Issues ПП (Cabinet Resolution) level decrees for digital implementation. Key vehicle: ПП-320 (30.10.2025) allocating $100M AI fund from FRR. Oversees all ministry-level digital programs. Approves state budget allocations for ICT and AI programs.",
+    "recent_decisions_12mo": [
+      "ПП-320 (30.10.2025) — AI support fund, $100M from FRR for AI startup projects",
+      "ПП-358 (14.10.2024) — AI Development Strategy to 2030",
+      "ПП-286 (2025) — ICT sector acceleration follow-up to ПП-357",
+      "Gov.uz platform migration of all state agency websites (01.03.2025 deadline)"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://gov.uz/ru",
+        "title": "Cabinet of Ministers of Uzbekistan — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "gov.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-MINTSIFRY",
+    "country": "UZ",
+    "tier": 3,
+    "name_en": "Ministry of Digital Technologies of the Republic of Uzbekistan",
+    "name_ru": "Министерство цифровых технологий Республики Узбекистан",
+    "name_local": "O'zbekiston Respublikasi Raqamli texnologiyalar vazirligi",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-CABINET",
+    "head_person_id": "uz-sherzod-shermatov",
+    "deputy_person_ids": ["uz-mintsifry-dep1", "uz-mintsifry-dep2", "uz-mintsifry-dep3"],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Amir Temur Avenue 108, Tashkent",
+    "official_website": "https://mitc.uz",
+    "ai_digital_mandate": "Lead ministry for all AI/digital policy in Uzbekistan. Authorized body for e-commerce (ЗРУ-792), digital signatures (ЗРУ-793), cybersecurity (ЗРУ-764), AI strategy (ПП-358). Oversees MyID, EPIGU portal, IT Park, Uzinfocom, UzCloud, AI Center. Issues technical standards for all state digital systems. Renamed from Ministry of Information Technologies and Communications (MITC) post-2017 — karimov_inversion landmark institution.",
+    "recent_decisions_12mo": [
+      "Post-Karimov-era institution — leadership Western-educated, hungry for visible wins",
+      "Implementation of ПП-358 (AI Strategy to 2030) — primary responsible ministry",
+      "Gov.uz domain migration for all state websites (2025)",
+      "AI Center for digital economy created under MoDT",
+      "MyID mobile-ID rollout 2025-2026",
+      "EPIGU portal expansion to 720+ services",
+      "Oversight of UzCloud sovereign cloud infrastructure"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://mitc.uz",
+        "title": "Ministry of Digital Technologies of Uzbekistan — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "mitc.uz",
+        "source_tier": "official"
+      },
+      {
+        "url": "https://lex.uz/ru/docs/5031048",
+        "title": "УП-6079 — Digital Uzbekistan-2030 designating MoDT as lead",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "lex.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-MINZDRAV",
+    "country": "UZ",
+    "tier": 3,
+    "name_en": "Ministry of Health of the Republic of Uzbekistan",
+    "name_ru": "Министерство здравоохранения Республики Узбекистан",
+    "name_local": "O'zbekiston Respublikasi Sog'liqni saqlash vazirligi",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-CABINET",
+    "head_person_id": "uz-amrillo-inoyatov",
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Navoi Street 12, Tashkent",
+    "official_website": "https://ssv.uz",
+    "ai_digital_mandate": "Lead ministry for E-Health platform, electronic prescription system, clinical decision support AI. Responsible body under ПП-5000 (2021) and ПП-415 (2023). Implementing e-prescription anti-fraud, AI triage, electronic medical records. Key procurement authority for Health AI tenders.",
+    "recent_decisions_12mo": [
+      "ПП-415 (28.12.2023) — E-Health digitalization: EPIGU health services, e-prescription rollout",
+      "Electronic prescription system rollout 2024-2025",
+      "AI-assisted clinical decision support pilot tender expected 2026"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://ssv.uz",
+        "title": "Ministry of Health of Uzbekistan — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "ssv.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-MOHESI",
+    "country": "UZ",
+    "tier": 3,
+    "name_en": "Ministry of Higher Education, Science and Innovations of the Republic of Uzbekistan",
+    "name_ru": "Министерство высшего образования, науки и инноваций Республики Узбекистан",
+    "name_local": "O'zbekiston Respublikasi Oliy ta'lim, fan va innovatsiyalar vazirligi",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-CABINET",
+    "head_person_id": "uz-kongratbay-sharipov",
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Mustakillik Avenue 20, Tashkent",
+    "official_website": "https://edu.uz",
+    "ai_digital_mandate": "Responsible for 15 university AI laboratories program (deadline 2026 per УП-189), AI Cluster at New Uzbekistan University, AI curriculum integration in higher education. Key counterpart for international AI education grants (KOICA, World Bank). Post-Karimov restructured ministry with new scope for science and innovation.",
+    "recent_decisions_12mo": [
+      "Post-Karimov-era institution (renamed/restructured) — new scope includes innovation mandate",
+      "Implementation of 15 university AI laboratories (deadline 2026, per УП-189)",
+      "AI Cluster at New Uzbekistan University (deadline 01.03.2026)",
+      "KOICA $14M IT Education Ecosystem partnership (youth employment program)"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://edu.uz",
+        "title": "Ministry of Higher Education, Science and Innovations — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "edu.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-MINSCHOOL",
+    "country": "UZ",
+    "tier": 3,
+    "name_en": "Ministry of Preschool and School Education of the Republic of Uzbekistan",
+    "name_ru": "Министерство дошкольного и школьного образования Республики Узбекистан",
+    "name_local": "O'zbekiston Respublikasi Maktabgacha va maktab ta'limi vazirligi",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Tashkent",
+    "official_website": "https://uzedu.uz",
+    "ai_digital_mandate": "Responsible under ПП-358 for AI integration in school curriculum from 2026/2027. Key buyer for EdTech AI tutoring platforms, digital school administration, e-learning content. Oversees AI literacy programs in 10,000+ secondary schools.",
+    "recent_decisions_12mo": [
+      "AI integration in school curriculum 2026-2027 rollout per ПП-358",
+      "Digital school administration (АИС) expansion",
+      "EdTech vendor procurement anticipated 2026"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://uzedu.uz",
+        "title": "Ministry of Preschool and School Education of Uzbekistan",
+        "language": "uz-latn",
+        "fetched_at": "2026-05-04",
+        "publisher": "uzedu.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-MOJ",
+    "country": "UZ",
+    "tier": 3,
+    "name_en": "Ministry of Justice of the Republic of Uzbekistan",
+    "name_ru": "Министерство юстиции Республики Узбекистан",
+    "name_local": "O'zbekiston Respublikasi Adliya vazirligi",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-CABINET",
+    "head_person_id": "uz-akbar-tashkulov",
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Sayilgoh Street 5, Tashkent",
+    "official_website": "https://adliya.uz",
+    "ai_digital_mandate": "Responsible under УП-6065 (ID cards), ЗРУ-793 (digital signature), ЗРУ-792 (e-commerce law). Maintains legal normative acts on lex.uz. Key counterpart for е-justice / Digital Court (УП-140). Personal data protection regulation falls partially under MOJ scope.",
+    "recent_decisions_12mo": [
+      "lex.uz platform maintenance and digital publication of all normative acts",
+      "УП-140 (21.08.2025) co-implementer: Digital Court / AI in courts program",
+      "Digital signature law implementation (ЗРУ-793, in force Jan 2023)"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://adliya.uz",
+        "title": "Ministry of Justice of Uzbekistan — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "adliya.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-MVD",
+    "country": "UZ",
+    "tier": 3,
+    "name_en": "Ministry of Internal Affairs of the Republic of Uzbekistan",
+    "name_ru": "Министерство внутренних дел Республики Узбекистан",
+    "name_local": "O'zbekiston Respublikasi Ichki ishlar vazirligi",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-CABINET",
+    "head_person_id": "uz-pulat-bobojonov",
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Yusuf Khos Hojib Street 1, Tashkent",
+    "official_website": "https://iiv.uz",
+    "ai_digital_mandate": "Implements biometric ID card system (УП-6065). Operating State Center for Personalization (sub-unit). Buyer for facial recognition, biometric verification, border control AI. Oversees vehicle traffic violation automation, AI-assisted policing systems.",
+    "recent_decisions_12mo": [
+      "Mandatory biometric ID card rollout (УП-6065: mandatory from Jan 2023)",
+      "Connected vehicle / DDA driver license digital system",
+      "Traffic management AI / smart camera networks (in partnership with MoDT)"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://iiv.uz",
+        "title": "Ministry of Internal Affairs of Uzbekistan — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "iiv.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-MIIT",
+    "country": "UZ",
+    "tier": 3,
+    "name_en": "Ministry of Investments, Industry and Trade of the Republic of Uzbekistan",
+    "name_ru": "Министерство инвестиций, промышленности и торговли Республики Узбекистан",
+    "name_local": "O'zbekiston Respublikasi Investitsiyalar, sanoat va savdo vazirligi",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-CABINET",
+    "head_person_id": "uz-laziz-kudratov",
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Tashkent",
+    "official_website": "https://mininvest.uz",
+    "ai_digital_mandate": "Oversees industrial digitalization, e-commerce development, FDI attraction for tech sector. Key counterpart for SME digitalization programs. Post-2017 restructured super-ministry merging investment, industry, trade portfolios. Karimov Inversion: new leadership, new scope.",
+    "recent_decisions_12mo": [
+      "Post-Karimov-era institution — merged investment + industry + trade functions",
+      "SME digital platform programs",
+      "E-commerce regulation enforcement under ЗРУ-792"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://mininvest.uz",
+        "title": "Ministry of Investments, Industry and Trade of Uzbekistan",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "mininvest.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-MINSELXOZ",
+    "country": "UZ",
+    "tier": 3,
+    "name_en": "Ministry of Agriculture of the Republic of Uzbekistan",
+    "name_ru": "Министерство сельского хозяйства Республики Узбекистан",
+    "name_local": "O'zbekiston Respublikasi Qishloq xo'jaligi vazirligi",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Tashkent",
+    "official_website": "https://agro.uz",
+    "ai_digital_mandate": "Responsible under multiple decrees for agro-digital programs. Procures satellite imagery AI for cotton, wheat, and livestock monitoring. Key donor counterpart for WB/EBRD agritech programs. Remote sensing and field digitalization tenders.",
+    "recent_decisions_12mo": [
+      "Smart agriculture satellite imagery analytics programs",
+      "Digital field monitoring rollout (cotton and wheat crops)",
+      "Co-implementation of NSDI geospatial data for agricultural land records"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://agro.uz",
+        "title": "Ministry of Agriculture of Uzbekistan — Official Website",
+        "language": "uz-latn",
+        "fetched_at": "2026-05-04",
+        "publisher": "agro.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-MINENERGY",
+    "country": "UZ",
+    "tier": 3,
+    "name_en": "Ministry of Energy of the Republic of Uzbekistan",
+    "name_ru": "Министерство энергетики Республики Узбекистан",
+    "name_local": "O'zbekiston Respublikasi Energetika vazirligi",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-CABINET",
+    "head_person_id": "uz-jurabek-mirzamahmudov",
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Tashkent",
+    "official_website": "https://minenergy.uz",
+    "ai_digital_mandate": "Responsible for smart grid digitalization, renewable energy AI optimization. Key buyer for digital twin utilities, SCADA modernization, energy data analytics. Major World Bank and ADB-financed energy digitalization programs.",
+    "recent_decisions_12mo": [
+      "Smart grid / SCADA modernization programs (WB/ADB co-financed)",
+      "Renewable energy grid AI optimization pilots (solar expansion 2025-2027)",
+      "Digital utility monitoring systems for district heating"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://minenergy.uz",
+        "title": "Ministry of Energy of Uzbekistan — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "minenergy.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-MINCSS",
+    "country": "UZ",
+    "tier": 3,
+    "name_en": "Ministry of Emergency Situations of the Republic of Uzbekistan",
+    "name_ru": "Министерство по чрезвычайным ситуациям Республики Узбекистан",
+    "name_local": "O'zbekiston Respublikasi Favqulodda vaziyatlar vazirligi",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-CABINET",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Tashkent",
+    "official_website": "https://fvv.uz",
+    "ai_digital_mandate": "Buyer for AI emergency dispatch systems, flood and earthquake early-warning AI, disaster risk modeling. Fergana Valley and Tien Shan seismic risk drives demand. Donor co-financed programs (UNDP, JICA, EU) for disaster risk reduction.",
+    "recent_decisions_12mo": [
+      "AI-enhanced emergency dispatch pilots",
+      "Early-warning system modernization for seismic and flood risks",
+      "Participation in Central Asian disaster risk donor programs"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://fvv.uz",
+        "title": "Ministry of Emergency Situations of Uzbekistan — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "fvv.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-SUPREME-COURT",
+    "country": "UZ",
+    "tier": 3,
+    "name_en": "Supreme Court of the Republic of Uzbekistan",
+    "name_ru": "Верховный суд Республики Узбекистан",
+    "name_local": "O'zbekiston Respublikasi Oliy sudi",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-PRESIDENT",
+    "head_person_id": "uz-bahrom-ismoilov",
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Chilanzar district, Tashkent",
+    "official_website": "https://supreme.uz",
+    "ai_digital_mandate": "Responsible body under УП-140 (21.08.2025) — Digital Court / AI in courts program 2025-2027. Key procurer for AI document drafting, AI-assisted case analysis, digital courtroom infrastructure. Vendor influence window: RFP expected Q3-Q4 2026. High-profile showcase project with presidential attention.",
+    "recent_decisions_12mo": [
+      "УП-140 (21.08.2025) — Digital Court AI program 2025-2027 implementation starting",
+      "AI document drafting pilot initiated (analog: Turkey Havelsan judiciary platform)",
+      "Electronic case management system modernization",
+      "Convergent Window CW-001: AI-in-Courts RFP expected Q3-Q4 2026"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://supreme.uz",
+        "title": "Supreme Court of Uzbekistan — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "supreme.uz",
+        "source_tier": "official"
+      },
+      {
+        "url": "https://lex.uz",
+        "title": "УП-140 — AI in Courts Decree 21.08.2025",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "lex.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-PROSECUTOR",
+    "country": "UZ",
+    "tier": 3,
+    "name_en": "Prosecutor General's Office of the Republic of Uzbekistan",
+    "name_ru": "Генеральная прокуратура Республики Узбекистан",
+    "name_local": "O'zbekiston Respublikasi Bosh prokuratura",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-PRESIDENT",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Tashkent",
+    "official_website": "https://prokuratura.uz",
+    "ai_digital_mandate": "Responsible body in anti-corruption AI programs. AI-assisted document verification, fraud detection for state property transactions. Digital case management. Part of the broader digital justice stack under УП-140.",
+    "recent_decisions_12mo": [
+      "Digital case management integration with Supreme Court e-justice system",
+      "AI-assisted document verification in prosecutorial procedures"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://prokuratura.uz",
+        "title": "Prosecutor General's Office of Uzbekistan — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "prokuratura.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-STATE-SECURITY",
+    "country": "UZ",
+    "tier": 3,
+    "name_en": "State Security Service of the Republic of Uzbekistan",
+    "name_ru": "Служба государственной безопасности Республики Узбекистан",
+    "name_local": "O'zbekiston Respublikasi Davlat xavfsizlik xizmati",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-PRESIDENT",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Tashkent",
+    "official_website": null,
+    "ai_digital_mandate": "Responsible body under ЗРУ-764 (Cybersecurity Law). Coordinates cybersecurity operations for classified and critical infrastructure systems. Clears vendors for sensitive government AI/data contracts. UNICON.UZ operates as civilian arm.",
+    "recent_decisions_12mo": [
+      "Co-oversight of ЗРУ-764 cybersecurity framework (amended ЗРУ-964, 2024)",
+      "Critical infrastructure protection standards for AI systems"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://lex.uz/ru/docs/5960609",
+        "title": "ЗРУ-764 On Cybersecurity — SGS as responsible body",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "lex.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-TREASURY",
+    "country": "UZ",
+    "tier": 3,
+    "name_en": "Treasury of the Republic of Uzbekistan (under Ministry of Economy and Finance)",
+    "name_ru": "Казначейство Республики Узбекистан (при Министерстве экономики и финансов)",
+    "name_local": "O'zbekiston Respublikasi G'aznachiligi",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-MOEF",
+    "head_person_id": null,
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Tashkent",
+    "official_website": "https://treasury.gov.uz",
+    "ai_digital_mandate": "State treasury digital systems. E-payment integration for all government expenditure. Responsible body under financial digitalization decrees. Key for understanding public expenditure flows for AI/ICT programs.",
+    "recent_decisions_12mo": [
+      "Treasury information system modernization",
+      "Integration with EPIGU for citizen payment services"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://treasury.gov.uz",
+        "title": "Treasury of Uzbekistan — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "treasury.gov.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "UZ-MOEF",
+    "country": "UZ",
+    "tier": 3,
+    "name_en": "Ministry of Economy and Finance of the Republic of Uzbekistan",
+    "name_ru": "Министерство экономики и финансов Республики Узбекистан",
+    "name_local": "O'zbekiston Respublikasi Iqtisodiyot va moliya vazirligi",
+    "founding_decree_id": null,
+    "reports_to_id": "UZ-CABINET",
+    "head_person_id": "uz-jamshid-kuchkarov",
+    "deputy_person_ids": [],
+    "annual_budget_usd": null,
+    "staff_size": null,
+    "headquarters_address": "Islam Karimov Street 45, Tashkent",
+    "official_website": "https://mineconomy.gov.uz",
+    "ai_digital_mandate": "Controls FRR (Fund for Reconstruction and Development) — source of $100M AI fund (ПП-320). Budget authority for all state AI/ICT programs. Oversees Cadastre Agency (NSDI $35M WB project). Key gatekeeper for foreign investment in digital sectors.",
+    "recent_decisions_12mo": [
+      "FRR disbursement administration for ПП-320 ($100M AI fund)",
+      "Budget allocation oversight for Digital Uzbekistan-2030 programs",
+      "WB Geospatial NSDI project ($35M) counterpart ministry"
+    ],
+    "status": "active",
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://mineconomy.gov.uz",
+        "title": "Ministry of Economy and Finance of Uzbekistan — Official Website",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "mineconomy.gov.uz",
+        "source_tier": "official"
+      }
+    ]
+  }
+]
