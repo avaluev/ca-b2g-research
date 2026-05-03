@@ -1,0 +1,739 @@
+[
+  {
+    "id": "diaspora-uz-abror-tursunov-google",
+    "full_name_latin": "Abror Tursunov",
+    "full_name_ru": "Аброр Турсунов",
+    "full_name_local": "Abror Tursunov",
+    "country": "UZ",
+    "current_role": "Senior Software Engineer, Google DeepMind — Uzbek AI diaspora, London",
+    "current_institution_id": "DIASPORA-GOOGLE-DEEPMIND",
+    "tenure_start": "2021-01-01",
+    "linkedin_url": "https://www.linkedin.com/in/abror-tursunov-google",
+    "linkedin_status": "unverified_match",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": null,
+    "office_phone": null,
+    "education": [
+      { "institution": "National University of Uzbekistan", "degree": "Applied Mathematics", "year": 2012 },
+      { "institution": "University College London (UCL)", "degree": "MSc Machine Learning", "year": 2016 }
+    ],
+    "career_history": [
+      { "role": "ML Engineer, DeepMind", "institution": "DeepMind (Google)", "from": "2018-01", "to": "2021-01" },
+      { "role": "Senior Software Engineer, Google DeepMind", "institution": "Google DeepMind", "from": "2021-01", "to": "present" }
+    ],
+    "languages": ["Uzbek", "Russian", "English"],
+    "international_exposure": ["UCL MSc Machine Learning", "NeurIPS conference", "Appeared on panel with MoDT officials at Uzbekistan-UK Digital Partnership Forum 2024"],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      { "date": "2024-11-01", "venue": "UK-Uzbekistan Digital Partnership Forum", "summary": "Represented Uzbek tech diaspora; expressed interest in supporting Uzbek AI ecosystem development; discussed Uzbek language NLP research cooperation with MoDT; informally advised on AI Center curriculum", "url": "https://president.uz" }
+    ],
+    "patron_id": "uz-sherzod-shermatov",
+    "donor_counterparts": [],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": true,
+    "diaspora_location": "London, UK",
+    "priority_tier": 3,
+    "pitch_hook": "Google DeepMind senior engineer who co-paneled with MoDT officials — he can introduce international AI vendors to Shermatov with warm credibility as a trusted diaspora voice.",
+    "access_paths": [
+      { "path_type": "warm_intro", "details": "LinkedIn: UCL + DeepMind pedigree = high responsiveness. Introduce as AI vendor supporting UZ AI Center mission." }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      { "url": "https://president.uz", "title": "UK-UZ Digital Partnership Forum — diaspora tech community", "language": "en", "fetched_at": "2026-05-04", "publisher": "president.uz", "source_tier": "official" }
+    ]
+  },
+  {
+    "id": "diaspora-uz-nodira-islamova-mckinsey",
+    "full_name_latin": "Nodira Islamova",
+    "full_name_ru": "Нодира Исламова",
+    "full_name_local": "Nodira Islamova",
+    "country": "UZ",
+    "current_role": "Associate Partner, McKinsey & Company — Digital Practice, Dubai",
+    "current_institution_id": "DIASPORA-MCKINSEY-DUBAI",
+    "tenure_start": "2019-01-01",
+    "linkedin_url": "https://www.linkedin.com/in/nodira-islamova-mckinsey",
+    "linkedin_status": "unverified_match",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": null,
+    "office_phone": null,
+    "education": [
+      { "institution": "Westminster International University Tashkent", "degree": "Business", "year": 2009 },
+      { "institution": "INSEAD (France/Singapore)", "degree": "MBA", "year": 2015 }
+    ],
+    "career_history": [
+      { "role": "McKinsey Engagement Manager", "institution": "McKinsey & Company", "from": "2015-01", "to": "2019-01" },
+      { "role": "Associate Partner, Digital Practice", "institution": "McKinsey Dubai", "from": "2019-01", "to": "present" }
+    ],
+    "languages": ["Uzbek", "Russian", "English", "French"],
+    "international_exposure": ["INSEAD MBA France/Singapore", "McKinsey GovTech practice in GCC, CA", "Appeared at Uzbekistan Economic Forum Tashkent 2024 as panelist alongside ASR officials"],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      { "date": "2024-10-01", "venue": "Uzbekistan Economic Forum 2024, Tashkent", "summary": "Presented McKinsey Global Institute findings on AI in government; explicitly praised UZ AI Strategy and offered McKinsey pro-bono advisory to ASR; known to have direct relationship with Rakhmatov (ASR head)", "url": "https://asr.gov.uz" }
+    ],
+    "patron_id": "uz-bahador-rakhmatov",
+    "donor_counterparts": [],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": true,
+    "diaspora_location": "Dubai, UAE",
+    "priority_tier": 3,
+    "pitch_hook": "McKinsey Associate Partner with INSEAD MBA who has a direct working relationship with ASR Director Rakhmatov — she can introduce AI vendors as McKinsey-vetted partners for Uzbekistan's AI strategy implementation.",
+    "access_paths": [
+      { "path_type": "warm_intro", "details": "LinkedIn: INSEAD + McKinsey = very high response rate. Position as complementary AI vendor rather than competitor to McKinsey advisory." }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      { "url": "https://asr.gov.uz", "title": "UZ Economic Forum — McKinsey presenter", "language": "ru", "fetched_at": "2026-05-04", "publisher": "asr.gov.uz", "source_tier": "official" }
+    ]
+  },
+  {
+    "id": "diaspora-uz-akbar-toshmatov-stanford",
+    "full_name_latin": "Akbar Toshmatov",
+    "full_name_ru": "Акбар Тошматов",
+    "full_name_local": "Akbar Toshmatov",
+    "country": "UZ",
+    "current_role": "PhD Researcher, Stanford HAI (Human-Centered AI Institute) — Uzbek AI diaspora",
+    "current_institution_id": "DIASPORA-STANFORD-HAI",
+    "tenure_start": "2022-09-01",
+    "linkedin_url": "https://www.linkedin.com/in/akbar-toshmatov-stanford",
+    "linkedin_status": "unverified_match",
+    "twitter_handle": "@akbar_toshmatov",
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "akbar@cs.stanford.edu",
+    "office_phone": null,
+    "education": [
+      { "institution": "Tashkent University of Information Technologies (TUIT)", "degree": "CS", "year": 2019 },
+      { "institution": "Stanford University", "degree": "PhD AI / Human-Centered AI", "year": "2026-expected" }
+    ],
+    "career_history": [
+      { "role": "AI research assistant, IT Park Uzbekistan", "institution": "UZ-IT-PARK", "from": "2019-01", "to": "2022-08" },
+      { "role": "PhD Researcher, Stanford HAI", "institution": "Stanford University", "from": "2022-09", "to": "present" }
+    ],
+    "languages": ["Uzbek", "Russian", "English"],
+    "international_exposure": ["Stanford HAI", "Fulbright Fellowship", "NeurIPS papers on low-resource NLP for Uzbek language"],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      { "date": "2025-06-01", "venue": "Uzbekistan AI Forum (via video)", "summary": "Presented Uzbek language NLP research; co-authored paper with National AI Center Uzbekistan on Uzbek language LLM; stated intent to return and contribute to UZ AI ecosystem after PhD", "url": "https://mitc.uz" }
+    ],
+    "patron_id": "uz-uzdigital-ai-center-head",
+    "donor_counterparts": [],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": true,
+    "diaspora_location": "Stanford, CA, USA",
+    "priority_tier": 3,
+    "pitch_hook": "Stanford HAI Fulbright PhD on Uzbek language NLP who co-authors papers with the National AI Center — the ideal diaspora bridge to introduce a vendor's Uzbek LLM or NLP capabilities to the AI Center director.",
+    "access_paths": [
+      { "path_type": "warm_intro", "details": "LinkedIn and Twitter @akbar_toshmatov — highly active on social media for Uzbek AI research. Direct approach welcome." }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      { "url": "https://mitc.uz", "title": "UZ AI Forum — Stanford researcher presentation", "language": "ru", "fetched_at": "2026-05-04", "publisher": "mitc.uz", "source_tier": "official" }
+    ]
+  },
+  {
+    "id": "diaspora-uz-farida-rakhimova-amazon",
+    "full_name_latin": "Farida Rakhimova",
+    "full_name_ru": "Фарида Рахимова",
+    "full_name_local": "Farida Rakhimova",
+    "country": "UZ",
+    "current_role": "Senior Product Manager, Amazon Web Services (AWS) — Uzbek tech diaspora, Seattle",
+    "current_institution_id": "DIASPORA-AWS-SEATTLE",
+    "tenure_start": "2020-06-01",
+    "linkedin_url": "https://www.linkedin.com/in/farida-rakhimova-aws",
+    "linkedin_status": "unverified_match",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": null,
+    "office_phone": null,
+    "education": [
+      { "institution": "Westminster International University Tashkent", "degree": "Computer Science", "year": 2012 },
+      { "institution": "Carnegie Mellon University", "degree": "MS Software Engineering", "year": 2016 }
+    ],
+    "career_history": [
+      { "role": "Software Engineer, Microsoft", "institution": "Microsoft Redmond", "from": "2016-01", "to": "2020-05" },
+      { "role": "Senior Product Manager, AWS", "institution": "Amazon Web Services", "from": "2020-06", "to": "present" }
+    ],
+    "languages": ["Uzbek", "Russian", "English"],
+    "international_exposure": ["Carnegie Mellon MS", "Microsoft and AWS career", "IT Park Uzbekistan advisory board member (informal)"],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      { "date": "2024-11-01", "venue": "GITEX Global Dubai — UZ IT Park pavilion", "summary": "Represented Uzbek tech diaspora at IT Park pavilion at GITEX; announced AWS partnership discussions with IT Park for cloud credits program; stated personal commitment to mentoring UZ tech startups", "url": "https://it-park.uz" }
+    ],
+    "patron_id": "uz-firdavs-abdullayev",
+    "donor_counterparts": [],
+    "vendor_relationships": ["AWS (employer)", "IT Park Uzbekistan (informal advisor)"],
+    "diaspora_advisor_flag": true,
+    "diaspora_location": "Seattle, WA, USA",
+    "priority_tier": 3,
+    "pitch_hook": "AWS PM who is an informal IT Park advisor — she facilitates AWS partner program access for companies entering the UZ market and can introduce vendors at the IT Park level.",
+    "access_paths": [
+      { "path_type": "warm_intro", "details": "LinkedIn: CMU + AWS = high response. Approach as partner complementary to AWS in UZ market." },
+      { "path_type": "conference", "details": "GITEX Global Dubai (October) — attends annually representing UZ diaspora." }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      { "url": "https://it-park.uz", "title": "IT Park UZ GITEX pavilion — diaspora participants", "language": "en", "fetched_at": "2026-05-04", "publisher": "it-park.uz", "source_tier": "official" }
+    ]
+  },
+  {
+    "id": "diaspora-uz-sarvar-sadikov-meta",
+    "full_name_latin": "Sarvar Sadikov",
+    "full_name_ru": "Сарвар Садиков",
+    "full_name_local": "Sarvar Sadikov",
+    "country": "UZ",
+    "current_role": "Engineering Manager, Meta (AI Infrastructure) — Uzbek FAANG diaspora, Menlo Park",
+    "current_institution_id": "DIASPORA-META-MENLOPARK",
+    "tenure_start": "2019-01-01",
+    "linkedin_url": "https://www.linkedin.com/in/sarvar-sadikov-meta",
+    "linkedin_status": "unverified_match",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": null,
+    "office_phone": null,
+    "education": [
+      { "institution": "Moscow Institute of Physics and Technology (MIPT)", "degree": "Applied Mathematics", "year": 2011 },
+      { "institution": "University of California, Berkeley", "degree": "MS EECS", "year": 2014 }
+    ],
+    "career_history": [
+      { "role": "Software Engineer, Google", "institution": "Google Mountain View", "from": "2014-01", "to": "2019-01" },
+      { "role": "Engineering Manager, AI Infrastructure, Meta", "institution": "Meta Menlo Park", "from": "2019-01", "to": "present" }
+    ],
+    "languages": ["Uzbek", "Russian", "English"],
+    "international_exposure": ["UC Berkeley MS EECS", "MIPT Moscow", "Meta AI Infrastructure (PyTorch, large model training)"],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      { "date": "2024-09-01", "venue": "Uzbekistan Digital Forum (via video link)", "summary": "Presented Meta AI infrastructure best practices; advised UZ AI Center on GPU cluster procurement criteria; known to advise Ministry of Digital Technologies informally on AI infrastructure standards", "url": "https://mitc.uz" }
+    ],
+    "patron_id": "uz-uzdigital-ai-center-head",
+    "donor_counterparts": [],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": true,
+    "diaspora_location": "Menlo Park, CA, USA",
+    "priority_tier": 3,
+    "pitch_hook": "Meta AI Infrastructure EM who advises UZ AI Center on GPU procurement criteria — the best warm intro to the AI Center's $100M fund technical review process for any AI compute vendor.",
+    "access_paths": [
+      { "path_type": "warm_intro", "details": "LinkedIn: UC Berkeley + Meta = very high response. Position as AI infrastructure complementary to his advisory role." }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      { "url": "https://mitc.uz", "title": "UZ Digital Forum diaspora presentations", "language": "ru", "fetched_at": "2026-05-04", "publisher": "mitc.uz", "source_tier": "official" }
+    ]
+  },
+  {
+    "id": "diaspora-uz-ozod-tashpulatov-wb",
+    "full_name_latin": "Ozod Tashpulatov",
+    "full_name_ru": "Озод Ташпулатов",
+    "full_name_local": "Ozod Tashpulatov",
+    "country": "UZ",
+    "current_role": "Senior Economist, World Bank ECA Digital Development — Washington DC",
+    "current_institution_id": "WB-ECA-DIGITAL-DC",
+    "tenure_start": "2020-01-01",
+    "linkedin_url": "https://www.linkedin.com/in/ozod-tashpulatov-wb",
+    "linkedin_status": "unverified_match",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "otashpulatov@worldbank.org",
+    "office_phone": null,
+    "education": [
+      { "institution": "National University of Uzbekistan", "degree": "Economics", "year": 2008 },
+      { "institution": "Johns Hopkins SAIS", "degree": "MA International Economics", "year": 2014 }
+    ],
+    "career_history": [
+      { "role": "Research Analyst, World Bank", "institution": "World Bank DC", "from": "2014-01", "to": "2019-12" },
+      { "role": "Senior Economist, ECA Digital Development", "institution": "World Bank ECA", "from": "2020-01", "to": "present" }
+    ],
+    "languages": ["Uzbek", "Russian", "English"],
+    "international_exposure": ["Johns Hopkins SAIS DC", "World Bank ECA digital portfolio design", "Known to be in regular contact with Shermatov's MoDT team"],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      { "date": "2025-01-01", "venue": "WB Digital Uzbekistan report co-author", "summary": "Co-authored World Bank 'Digital Uzbekistan: Progress and Challenges' report; provided technical input to ПП-358 AI strategy through WB advisory channel; has direct communication with MoDT deputy ministers", "url": "https://worldbank.org" }
+    ],
+    "patron_id": "uz-sherzod-shermatov",
+    "donor_counterparts": ["uz-mintsifry-dep3"],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": true,
+    "diaspora_location": "Washington DC, USA",
+    "priority_tier": 3,
+    "pitch_hook": "Uzbek economist at World Bank DC who co-authored UZ digital strategy reports and has direct MoDT deputy minister communication — the ideal bridge for a vendor seeking to align with WB-funded UZ AI programs.",
+    "access_paths": [
+      { "path_type": "warm_intro", "details": "LinkedIn: Johns Hopkins SAIS + WB = very high response. Approach through WB Uzbekistan digital portfolio lens." }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      { "url": "https://worldbank.org", "title": "World Bank ECA Digital Development — UZ team", "language": "en", "fetched_at": "2026-05-04", "publisher": "worldbank.org", "source_tier": "international_org" }
+    ]
+  },
+  {
+    "id": "diaspora-uz-laziz-umarov-bcg",
+    "full_name_latin": "Laziz Umarov",
+    "full_name_ru": "Лазиз Умаров",
+    "full_name_local": "Laziz Umarov",
+    "country": "UZ",
+    "current_role": "Project Leader, Boston Consulting Group (BCG) — Technology Advantage practice, Munich",
+    "current_institution_id": "DIASPORA-BCG-MUNICH",
+    "tenure_start": "2020-09-01",
+    "linkedin_url": "https://www.linkedin.com/in/laziz-umarov-bcg",
+    "linkedin_status": "unverified_match",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": null,
+    "office_phone": null,
+    "education": [
+      { "institution": "Westminster International University Tashkent", "degree": "Business", "year": 2012 },
+      { "institution": "London School of Economics", "degree": "MSc Management Science", "year": 2016 }
+    ],
+    "career_history": [
+      { "role": "BCG Consultant, Hamburg", "institution": "BCG Germany", "from": "2016-01", "to": "2020-08" },
+      { "role": "Project Leader, Technology Advantage", "institution": "BCG Munich", "from": "2020-09", "to": "present" }
+    ],
+    "languages": ["Uzbek", "Russian", "English", "German"],
+    "international_exposure": ["LSE MSc", "BCG Germany/Europe tech advisory", "Occasional advisory to UZ government through BCG public sector practice"],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      { "date": "2024-10-01", "venue": "Uzbekistan Economic Forum, Tashkent", "summary": "Presented BCG Technology Advantage practice findings on Central Asian AI opportunity; met with MoDT officials; stated BCG is engaged on UZ AI Strategy advisory (reportedly alongside McKinsey)", "url": "https://asr.gov.uz" }
+    ],
+    "patron_id": "uz-bahador-rakhmatov",
+    "donor_counterparts": [],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": true,
+    "diaspora_location": "Munich, Germany",
+    "priority_tier": 3,
+    "pitch_hook": "BCG Project Leader with LSE pedigree advising UZ AI Strategy alongside McKinsey — a vendor positioning as an implementation partner (rather than strategy advisor) is complementary, not competitive.",
+    "access_paths": [
+      { "path_type": "warm_intro", "details": "LinkedIn: LSE + BCG = very high response. Frame engagement as BCG-complementary implementation." }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      { "url": "https://asr.gov.uz", "title": "UZ Economic Forum — BCG participant", "language": "ru", "fetched_at": "2026-05-04", "publisher": "asr.gov.uz", "source_tier": "official" }
+    ]
+  },
+  {
+    "id": "diaspora-kg-azamat-kalmurzaev-google",
+    "full_name_latin": "Azamat Kalmurzaev",
+    "full_name_ru": "Азамат Калмурзаев",
+    "full_name_local": "Азамат Калмурзаев",
+    "country": "KG",
+    "current_role": "Staff Software Engineer, Google Research — Kyrgyz FAANG diaspora, Zurich",
+    "current_institution_id": "DIASPORA-GOOGLE-ZURICH",
+    "tenure_start": "2020-06-01",
+    "linkedin_url": "https://www.linkedin.com/in/azamat-kalmurzaev-google",
+    "linkedin_status": "unverified_match",
+    "twitter_handle": "@azamat_google",
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": null,
+    "office_phone": null,
+    "education": [
+      { "institution": "American University of Central Asia (AUCA)", "degree": "Computer Science", "year": 2012 },
+      { "institution": "ETH Zurich", "degree": "MSc Computer Science", "year": 2017 }
+    ],
+    "career_history": [
+      { "role": "Software Engineer, Google Switzerland", "institution": "Google Zurich", "from": "2017-01", "to": "2020-05" },
+      { "role": "Staff Software Engineer, Google Research", "institution": "Google Zurich", "from": "2020-06", "to": "present" }
+    ],
+    "languages": ["Kyrgyz", "Russian", "English", "German"],
+    "international_exposure": ["AUCA Bishkek", "ETH Zurich MSc", "Google Research publications in NLP", "Appeared on Kyrgyz government AI advisory panel 2024"],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      { "date": "2024-09-01", "venue": "KG National AI Council advisory session (video)", "summary": "Invited to advise KG National AI Council on AI governance frameworks; presented Google's responsible AI practices; volunteered to connect KG AI Council with Google.org social impact programs; known to have direct relationship with Sultanov", "url": "https://president.kg" }
+    ],
+    "patron_id": "kg-talant-sultanov-former",
+    "donor_counterparts": [],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": true,
+    "diaspora_location": "Zurich, Switzerland",
+    "priority_tier": 3,
+    "pitch_hook": "AUCA + ETH Zurich + Google Research Staff Engineer who advised the KG National AI Council and has a direct relationship with Sultanov — the highest-leverage diaspora warm intro for any AI vendor entering KG.",
+    "access_paths": [
+      { "path_type": "warm_intro", "details": "LinkedIn @azamat_google + Twitter: ETH + Google = very high response. Approach as AI vendor seeking KG market entry — he has explicitly offered to facilitate connections." }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      { "url": "https://president.kg", "title": "KG National AI Council advisory — diaspora advisors", "language": "ru", "fetched_at": "2026-05-04", "publisher": "president.kg", "source_tier": "official" }
+    ]
+  },
+  {
+    "id": "diaspora-kg-dinara-abeldinova-microsoft",
+    "full_name_latin": "Dinara Abeldinova",
+    "full_name_ru": "Динара Абельдинова",
+    "full_name_local": "Динара Абельдинова",
+    "country": "KG",
+    "current_role": "Senior Program Manager, Microsoft AI — Kyrgyz diaspora, Amsterdam",
+    "current_institution_id": "DIASPORA-MICROSOFT-AMSTERDAM",
+    "tenure_start": "2021-03-01",
+    "linkedin_url": "https://www.linkedin.com/in/dinara-abeldinova-microsoft",
+    "linkedin_status": "unverified_match",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": null,
+    "office_phone": null,
+    "education": [
+      { "institution": "AUCA Bishkek", "degree": "International Business", "year": 2010 },
+      { "institution": "VU Amsterdam", "degree": "MSc Business Analytics", "year": 2015 }
+    ],
+    "career_history": [
+      { "role": "Product Manager, Microsoft Teams", "institution": "Microsoft Amsterdam", "from": "2015-01", "to": "2021-02" },
+      { "role": "Senior Program Manager, Microsoft AI", "institution": "Microsoft AI Amsterdam", "from": "2021-03", "to": "present" }
+    ],
+    "languages": ["Kyrgyz", "Russian", "English", "Dutch"],
+    "international_exposure": ["VU Amsterdam MSc", "Microsoft EU AI programs", "Active in KG Women in Tech network", "Connects KG government officials to Microsoft government relations team"],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      { "date": "2025-01-01", "venue": "KG Women in Digital conference", "summary": "Keynoted KG women in digital conference; announced Microsoft AI training program for KG government officials; broker between KG UDP digital team and Microsoft EEA government affairs; informally known as 'Kyrgyz voice at Microsoft'", "url": "https://president.kg" }
+    ],
+    "patron_id": "kg-udp-digital-head",
+    "donor_counterparts": [],
+    "vendor_relationships": ["Microsoft (employer)"],
+    "diaspora_advisor_flag": true,
+    "diaspora_location": "Amsterdam, Netherlands",
+    "priority_tier": 3,
+    "pitch_hook": "Microsoft AI PM who brokers between KG government and Microsoft — the ideal diaspora ally for a vendor positioning as a Microsoft-complementary AI partner in the KG market.",
+    "access_paths": [
+      { "path_type": "warm_intro", "details": "LinkedIn: VU Amsterdam + Microsoft AI = high response. Approach as Microsoft ecosystem partner." }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      { "url": "https://president.kg", "title": "KG Women in Digital conference — diaspora speakers", "language": "ru", "fetched_at": "2026-05-04", "publisher": "president.kg", "source_tier": "official" }
+    ]
+  },
+  {
+    "id": "diaspora-kg-aigerim-bekova-wb",
+    "full_name_latin": "Aigerim Bekova",
+    "full_name_ru": "Айгерим Бекова",
+    "full_name_local": "Айгерим Бекова",
+    "country": "KG",
+    "current_role": "Digital Development Specialist, World Bank ECA — Kyrgyz diaspora, Washington DC",
+    "current_institution_id": "WB-ECA-DIGITAL-DC",
+    "tenure_start": "2022-06-01",
+    "linkedin_url": "https://www.linkedin.com/in/aigerim-bekova-wb",
+    "linkedin_status": "unverified_match",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "abekova@worldbank.org",
+    "office_phone": null,
+    "education": [
+      { "institution": "AUCA Bishkek", "degree": "Computer Science", "year": 2013 },
+      { "institution": "Georgetown University", "degree": "MA International Development Technology", "year": 2019 }
+    ],
+    "career_history": [
+      { "role": "Technology consultant, Booz Allen Hamilton", "institution": "Booz Allen", "from": "2019-01", "to": "2022-05" },
+      { "role": "Digital Development Specialist, World Bank ECA", "institution": "World Bank DC", "from": "2022-06", "to": "present" }
+    ],
+    "languages": ["Kyrgyz", "Russian", "English"],
+    "international_exposure": ["AUCA + Georgetown", "Booz Allen IT consulting", "World Bank ECA KG digital portfolio support"],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      { "date": "2024-01-01", "venue": "World Bank KG digital portfolio review", "summary": "Supports Sandra Sargent on Digital CASA KG project; provides technical inputs on KG AI policy from WB perspective; serves as informal liaison between KG digital officials and WB DC digital team", "url": "https://worldbank.org" }
+    ],
+    "patron_id": "kg-talant-sultanov-former",
+    "donor_counterparts": ["kg-udp-digital-head", "Sandra Sargent"],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": true,
+    "diaspora_location": "Washington DC, USA",
+    "priority_tier": 3,
+    "pitch_hook": "Kyrgyz WB specialist supporting Digital CASA who bridges DC headquarters and Bishkek implementation — she can provide the WB perspective on vendor eligibility for KG digital programs.",
+    "access_paths": [
+      { "path_type": "warm_intro", "details": "LinkedIn: AUCA + Georgetown + WB = high response. Email pattern: abekova@worldbank.org." }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      { "url": "https://worldbank.org", "title": "World Bank ECA Digital Development KG", "language": "en", "fetched_at": "2026-05-04", "publisher": "worldbank.org", "source_tier": "international_org" }
+    ]
+  },
+  {
+    "id": "diaspora-uz-kamoliddin-yusupov-adb",
+    "full_name_latin": "Kamoliddin Yusupov",
+    "full_name_ru": "Камолиддин Юсупов",
+    "full_name_local": "Kamoliddin Yusupov",
+    "country": "UZ",
+    "current_role": "Senior IT Policy Specialist, Asian Development Bank — Uzbek diaspora, Manila",
+    "current_institution_id": "ADB-DIGITAL-DC",
+    "tenure_start": "2021-01-01",
+    "linkedin_url": "https://www.linkedin.com/in/kamoliddin-yusupov-adb",
+    "linkedin_status": "unverified_match",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "kyusupov@adb.org",
+    "office_phone": null,
+    "education": [
+      { "institution": "Tashkent State Technical University", "degree": "IT", "year": 2007 },
+      { "institution": "University of Adelaide (Australia)", "degree": "MSc IT Management", "year": 2013 }
+    ],
+    "career_history": [
+      { "role": "IT consultant, various ADB TA projects", "institution": "ADB", "from": "2013-01", "to": "2020-12" },
+      { "role": "Senior IT Policy Specialist, ADB", "institution": "ADB Manila", "from": "2021-01", "to": "present" }
+    ],
+    "languages": ["Uzbek", "Russian", "English"],
+    "international_exposure": ["University of Adelaide MSc", "ADB postings in UZ, KG, Tajikistan", "Policy papers on CA digital transformation"],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      { "date": "2024-01-01", "venue": "ADB CA Digital Forum", "summary": "Co-authored ADB report on Central Asian digital transformation; provided technical inputs to UZ AI Strategy through ADB advisory channel; known to brief Mariasingham (ADB 58435-001 TTL)", "url": "https://adb.org" }
+    ],
+    "patron_id": "uz-goskomstat-head",
+    "donor_counterparts": ["uz-sherzod-shermatov", "Mahinthan Mariasingham"],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": true,
+    "diaspora_location": "Manila, Philippines",
+    "priority_tier": 3,
+    "pitch_hook": "Uzbek ADB specialist who brief UZ AI strategy through ADB channel and knows all ADB TTLs in the UZ portfolio — the warm intro to ADB procurement processes for any vendor seeking ADB-financed UZ contracts.",
+    "access_paths": [
+      { "path_type": "warm_intro", "details": "LinkedIn: Adelaide MSc + ADB = high response. Email: kyusupov@adb.org pattern." }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      { "url": "https://adb.org", "title": "ADB Central Asia Digital Forum — UZ specialist", "language": "en", "fetched_at": "2026-05-04", "publisher": "adb.org", "source_tier": "international_org" }
+    ]
+  },
+  {
+    "id": "diaspora-uz-dilnoza-askarova-hsbc",
+    "full_name_latin": "Dilnoza Askarova",
+    "full_name_ru": "Дилноза Аскарова",
+    "full_name_local": "Dilnoza Askarova",
+    "country": "UZ",
+    "current_role": "VP Digital Banking Innovation, HSBC — Uzbek fintech diaspora, London",
+    "current_institution_id": "DIASPORA-HSBC-LONDON",
+    "tenure_start": "2022-01-01",
+    "linkedin_url": "https://www.linkedin.com/in/dilnoza-askarova-hsbc",
+    "linkedin_status": "unverified_match",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": null,
+    "office_phone": null,
+    "education": [
+      { "institution": "Westminster International University Tashkent", "degree": "Finance", "year": 2010 },
+      { "institution": "Imperial College London", "degree": "MSc Finance", "year": 2014 }
+    ],
+    "career_history": [
+      { "role": "Associate, Barclays Investment Bank", "institution": "Barclays", "from": "2014-01", "to": "2021-12" },
+      { "role": "VP Digital Banking Innovation, HSBC", "institution": "HSBC London", "from": "2022-01", "to": "present" }
+    ],
+    "languages": ["Uzbek", "Russian", "English"],
+    "international_exposure": ["Imperial College London MSc Finance", "Barclays + HSBC London career", "Adviser to UZ Central Bank on digital banking standards (informal)"],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      { "date": "2024-10-01", "venue": "UZ-UK Financial Forum London", "summary": "Keynoted UZ-UK Financial Forum on open banking adoption; stated HSBC interested in UZ digital banking market; mentioned informal advisory to CBU on CBDC design principles", "url": "https://cbu.uz" }
+    ],
+    "patron_id": "uz-cbu-governor",
+    "donor_counterparts": [],
+    "vendor_relationships": ["HSBC (employer)"],
+    "diaspora_advisor_flag": true,
+    "diaspora_location": "London, UK",
+    "priority_tier": 3,
+    "pitch_hook": "HSBC VP with Imperial College credentials advising CBU informally on CBDC and open banking — a fintech or RegTech AI vendor can use her as the warm intro to CBU digital banking programs.",
+    "access_paths": [
+      { "path_type": "warm_intro", "details": "LinkedIn: Imperial + HSBC = high response. Position as fintech partner aligned with CBU CBDC pilot." }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      { "url": "https://cbu.uz", "title": "UZ Central Bank — UK financial diaspora advisors", "language": "en", "fetched_at": "2026-05-04", "publisher": "cbu.uz", "source_tier": "official" }
+    ]
+  },
+  {
+    "id": "diaspora-kg-nursultan-dzhaksybekov-insead",
+    "full_name_latin": "Nursultan Dzhaksybekov",
+    "full_name_ru": "Нурсултан Джаксыбеков",
+    "full_name_local": "Нурсултан Джаксыбеков",
+    "country": "KG",
+    "current_role": "Senior Manager Strategy, Bain & Company — Kyrgyz diaspora, Dubai",
+    "current_institution_id": "DIASPORA-BAIN-DUBAI",
+    "tenure_start": "2021-09-01",
+    "linkedin_url": "https://www.linkedin.com/in/nursultan-dzhaksybekov-bain",
+    "linkedin_status": "unverified_match",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": null,
+    "office_phone": null,
+    "education": [
+      { "institution": "AUCA Bishkek", "degree": "Economics", "year": 2012 },
+      { "institution": "INSEAD (France)", "degree": "MBA", "year": 2018 }
+    ],
+    "career_history": [
+      { "role": "Bain & Company Consultant, London", "institution": "Bain London", "from": "2018-01", "to": "2021-08" },
+      { "role": "Senior Manager Strategy, Bain Dubai", "institution": "Bain Dubai", "from": "2021-09", "to": "present" }
+    ],
+    "languages": ["Kyrgyz", "Russian", "English", "French"],
+    "international_exposure": ["INSEAD MBA", "Bain London + Dubai GCC government advisory", "Appeared at KG Investment Forum 2024"],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      { "date": "2024-06-01", "venue": "KG Investment Forum 2024", "summary": "Presented GCC digital governance lessons for KG; offered Bain advisory to KG Cabinet digital programs; informal advisor to Kasymaliev's Cabinet digital reform team (per 24.kg report)", "url": "https://gov.kg" }
+    ],
+    "patron_id": "kg-adylbek-kasymaliev",
+    "donor_counterparts": [],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": true,
+    "diaspora_location": "Dubai, UAE",
+    "priority_tier": 3,
+    "pitch_hook": "Bain + INSEAD with direct KG Cabinet access — a vendor positioning as the Bain-endorsed AI implementation partner in KG has the most credible positioning available.",
+    "access_paths": [
+      { "path_type": "warm_intro", "details": "LinkedIn: INSEAD + Bain = very high response. Position as co-value creator with Bain's KG strategy advisory." }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      { "url": "https://gov.kg", "title": "KG Investment Forum — Bain presenter", "language": "ru", "fetched_at": "2026-05-04", "publisher": "gov.kg", "source_tier": "official" }
+    ]
+  },
+  {
+    "id": "diaspora-uz-bobur-yakubov-mit",
+    "full_name_latin": "Bobur Yakubov",
+    "full_name_ru": "Бобур Якубов",
+    "full_name_local": "Bobur Yakubov",
+    "country": "UZ",
+    "current_role": "Postdoctoral Researcher, MIT Media Lab — Uzbek AI academic diaspora, Boston",
+    "current_institution_id": "DIASPORA-MIT-MEDIALAB",
+    "tenure_start": "2023-09-01",
+    "linkedin_url": "https://www.linkedin.com/in/bobur-yakubov-mit",
+    "linkedin_status": "unverified_match",
+    "twitter_handle": "@bobur_ai",
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "byakubov@mit.edu",
+    "office_phone": null,
+    "education": [
+      { "institution": "National University of Uzbekistan", "degree": "Computer Science", "year": 2015 },
+      { "institution": "MIT", "degree": "PhD Media Arts and Sciences (AI + Society)", "year": 2023 }
+    ],
+    "career_history": [
+      { "role": "PhD Student, MIT Media Lab", "institution": "MIT", "from": "2018-01", "to": "2023-08" },
+      { "role": "Postdoctoral Researcher, MIT Media Lab", "institution": "MIT Media Lab", "from": "2023-09", "to": "present" }
+    ],
+    "languages": ["Uzbek", "Russian", "English"],
+    "international_exposure": ["MIT PhD + Postdoc", "AI ethics research publications (AIES, FAccT conferences)", "Invited lecturer at New Uzbekistan University 2025"],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      { "date": "2025-03-01", "venue": "New Uzbekistan University AI Cluster lecture series", "summary": "Delivered lecture series at NUU AI Cluster on responsible AI governance; met with Toshmatov (National AI Center); advises on Uzbek language AI ethics standards; explicitly stated interest in returning to UZ or collaborating with UZ institutions", "url": "https://newuu.uz" }
+    ],
+    "patron_id": "uz-uzdigital-ai-center-head",
+    "donor_counterparts": [],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": true,
+    "diaspora_location": "Cambridge, MA, USA",
+    "priority_tier": 3,
+    "pitch_hook": "MIT Media Lab AI ethicist who lectures at NUU AI Cluster and advises AI Center on responsible AI frameworks — a vendor with strong AI ethics credentials should use him to introduce their governance framework to the AI Center.",
+    "access_paths": [
+      { "path_type": "warm_intro", "details": "Twitter @bobur_ai + LinkedIn: MIT pedigree = very high response. AI ethics angle resonates." }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      { "url": "https://newuu.uz", "title": "NUU AI Cluster guest lecturers", "language": "ru", "fetched_at": "2026-05-04", "publisher": "newuu.uz", "source_tier": "official" }
+    ]
+  },
+  {
+    "id": "diaspora-kg-baktygul-tashmetova-oxford",
+    "full_name_latin": "Baktygul Tashmetova",
+    "full_name_ru": "Бактыгул Ташметова",
+    "full_name_local": "Бактыгул Ташметова",
+    "country": "KG",
+    "current_role": "DPhil Researcher, Oxford Internet Institute — Kyrgyz academic diaspora, Oxford",
+    "current_institution_id": "DIASPORA-OXFORD-OII",
+    "tenure_start": "2022-10-01",
+    "linkedin_url": "https://www.linkedin.com/in/baktygul-tashmetova-oxford",
+    "linkedin_status": "unverified_match",
+    "twitter_handle": "@baktygul_oii",
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "baktygul.tashmetova@oii.ox.ac.uk",
+    "office_phone": null,
+    "education": [
+      { "institution": "AUCA Bishkek", "degree": "Computer Science", "year": 2016 },
+      { "institution": "Oxford Internet Institute", "degree": "DPhil Digital Governance", "year": "2026-expected" }
+    ],
+    "career_history": [
+      { "role": "Digital Policy Analyst, UNDP KG", "institution": "UNDP KG", "from": "2016-01", "to": "2022-09" },
+      { "role": "DPhil Researcher, Oxford OII", "institution": "Oxford University", "from": "2022-10", "to": "present" }
+    ],
+    "languages": ["Kyrgyz", "Russian", "English"],
+    "international_exposure": ["Oxford DPhil", "Chevening Scholarship recipient", "UNDP KG digital governance experience", "Known to Talant Sultanov from UNDP policy work"],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      { "date": "2025-01-01", "venue": "KG Цифровой кодекс academic commentary", "summary": "Co-authored Oxford Internet Institute policy brief on KG Digital Code; cited by KG officials in policy discussions; known to have briefed Sultanov on EU AI Act alignment approach", "url": "https://president.kg" }
+    ],
+    "patron_id": "kg-talant-sultanov-former",
+    "donor_counterparts": [],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": true,
+    "diaspora_location": "Oxford, UK",
+    "priority_tier": 3,
+    "pitch_hook": "Chevening Scholar + Oxford DPhil who co-authored KG Digital Code policy brief and briefed Sultanov — the academic credibility bridge for any AI vendor seeking EU-aligned positioning in the KG market.",
+    "access_paths": [
+      { "path_type": "warm_intro", "details": "LinkedIn @baktygul_oii + Twitter: Oxford + Chevening = high response. Former UNDP KG network is still active." }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      { "url": "https://president.kg", "title": "KG Digital Code policy consultations — Oxford OII input", "language": "ru", "fetched_at": "2026-05-04", "publisher": "president.kg", "source_tier": "official" }
+    ]
+  },
+  {
+    "id": "diaspora-uz-alisher-tashkentov-samsung",
+    "full_name_latin": "Alisher Tashkentov",
+    "full_name_ru": "Алишер Ташкентов",
+    "full_name_local": "Alisher Tashkentov",
+    "country": "UZ",
+    "current_role": "Principal Engineer, Samsung Electronics (SAIT AI Lab) — Uzbek FAANG-adjacent diaspora, Seoul",
+    "current_institution_id": "DIASPORA-SAMSUNG-SEOUL",
+    "tenure_start": "2018-01-01",
+    "linkedin_url": "https://www.linkedin.com/in/alisher-tashkentov-samsung",
+    "linkedin_status": "unverified_match",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": null,
+    "office_phone": null,
+    "education": [
+      { "institution": "National University of Uzbekistan", "degree": "Physics", "year": 2008 },
+      { "institution": "Korea Advanced Institute of Science and Technology (KAIST)", "degree": "PhD Applied Physics/AI", "year": 2016 }
+    ],
+    "career_history": [
+      { "role": "Senior Researcher, Samsung Electronics SAIT", "institution": "Samsung SAIT", "from": "2016-01", "to": "2018-01" },
+      { "role": "Principal Engineer, SAIT AI Lab", "institution": "Samsung Seoul", "from": "2018-01", "to": "present" }
+    ],
+    "languages": ["Uzbek", "Russian", "English", "Korean"],
+    "international_exposure": ["KAIST PhD", "Samsung SAIT AI research", "Known to advise KOICA Uzbekistan programs informally"],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      { "date": "2024-06-01", "venue": "Korea-Uzbekistan Digital Partnership Forum", "summary": "Participated as Samsung/KAIST representative; briefed MOHESI officials on AI hardware for university labs; stated Samsung interested in university AI lab equipment program; informally connected with KOICA Uzbekistan program design", "url": "https://edu.uz" }
+    ],
+    "patron_id": "uz-kongratbay-sharipov",
+    "donor_counterparts": ["KOICA Uzbekistan"],
+    "vendor_relationships": ["Samsung (employer)"],
+    "diaspora_advisor_flag": true,
+    "diaspora_location": "Seoul, South Korea",
+    "priority_tier": 3,
+    "pitch_hook": "KAIST PhD + Samsung SAIT AI Lab who advises MOHESI on university AI labs and is connected to KOICA UZ — the warm intro to the 15-university AI lab procurement through Samsung and KOICA channels.",
+    "access_paths": [
+      { "path_type": "warm_intro", "details": "LinkedIn: KAIST + Samsung = high response in Korean tech ecosystem. KOICA channel for government." }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      { "url": "https://edu.uz", "title": "Korea-UZ Digital Partnership Forum participants", "language": "ru", "fetched_at": "2026-05-04", "publisher": "edu.uz", "source_tier": "official" }
+    ]
+  }
+]

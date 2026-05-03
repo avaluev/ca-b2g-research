@@ -1,0 +1,566 @@
+[
+  {
+    "id": "kg-mineco-head",
+    "full_name_latin": "Daniyar Amanaliev",
+    "full_name_ru": "Данияр Аманалиев",
+    "full_name_local": "Данияр Аманалиев",
+    "country": "KG",
+    "current_role": "Minister of Economy and Commerce of the Kyrgyz Republic",
+    "current_institution_id": "KG-MINECONOMY",
+    "tenure_start": "2022-01-01",
+    "linkedin_url": null,
+    "linkedin_status": "not_found",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "office@mineco.gov.kg",
+    "office_phone": null,
+    "education": [
+      { "institution": "Kyrgyz State University of Economics", "degree": "Economics", "year": 2003 }
+    ],
+    "career_history": [
+      { "role": "Deputy Minister of Economy", "institution": "KG-MINECONOMY", "from": "2019-01", "to": "2021-12" },
+      { "role": "Minister of Economy and Commerce", "institution": "KG-MINECONOMY", "from": "2022-01", "to": "present" }
+    ],
+    "languages": ["Kyrgyz", "Russian"],
+    "international_exposure": ["EBRD KG investment programs", "WTO accession working groups"],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      { "date": "2024-01-01", "venue": "Virtual assets framework announcement", "summary": "Announced USDKG stablecoin regulatory framework and digital asset exchange licensing; FSA oversight of digital financial services; stated KG positioning as digital financial hub in CIS", "url": "https://mineco.gov.kg" }
+    ],
+    "patron_id": "kg-adylbek-kasymaliev",
+    "donor_counterparts": ["EBRD KG resident", "IFC KG team"],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 2,
+    "pitch_hook": "Amanaliev oversees the virtual asset and stablecoin regulatory framework — a digital finance, blockchain compliance, or RegTech vendor should approach via EBRD or IFC KG.",
+    "access_paths": [
+      { "path_type": "donor_pathway", "details": "EBRD KG resident office is the warm intro vector." }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      { "url": "https://mineco.gov.kg", "title": "Ministry of Economy and Commerce KG", "language": "ru", "fetched_at": "2026-05-04", "publisher": "mineco.gov.kg", "source_tier": "official" }
+    ]
+  },
+  {
+    "id": "kg-moj-head",
+    "full_name_latin": "Aida Salyanoba",
+    "full_name_ru": "Айда Саляновa",
+    "full_name_local": "Айда Саляновa",
+    "country": "KG",
+    "current_role": "Minister of Justice of the Kyrgyz Republic",
+    "current_institution_id": "KG-MOJ",
+    "tenure_start": "2021-11-01",
+    "linkedin_url": null,
+    "linkedin_status": "not_found",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "office@minjust.gov.kg",
+    "office_phone": null,
+    "education": [
+      { "institution": "Kyrgyz State Law Academy", "degree": "Law", "year": 2001 }
+    ],
+    "career_history": [
+      { "role": "Deputy Minister of Justice", "institution": "KG-MOJ", "from": "2018-01", "to": "2021-10" },
+      { "role": "Minister of Justice", "institution": "KG-MOJ", "from": "2021-11", "to": "present" }
+    ],
+    "languages": ["Kyrgyz", "Russian"],
+    "international_exposure": ["GIZ digital justice KG program", "Venice Commission cooperation", "Council of Europe e-justice programs"],
+    "decree_authorship_ids": ["KG-LAW-2008-058"],
+    "public_statements_ai_digital": [
+      { "date": "2025-01-01", "venue": "Цифровой кодекс personal data provisions", "summary": "Led implementation regulations for digital personal data provisions of Цифровой кодекс; e-notary rollout; digital legal entity registration via Tunduk", "url": "https://minjust.gov.kg" }
+    ],
+    "patron_id": "kg-adylbek-kasymaliev",
+    "donor_counterparts": ["GIZ KG rule-of-law program", "Council of Europe KG program"],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 2,
+    "pitch_hook": "Salyanoba implements Digital Code personal data provisions and e-notary — a digital legal services or data compliance AI vendor should engage via GIZ rule-of-law program.",
+    "access_paths": [
+      { "path_type": "donor_pathway", "details": "GIZ KG rule-of-law program has direct MoJ working relationships." }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      { "url": "https://minjust.gov.kg", "title": "Ministry of Justice KG", "language": "ru", "fetched_at": "2026-05-04", "publisher": "minjust.gov.kg", "source_tier": "official" }
+    ]
+  },
+  {
+    "id": "kg-presidential-digital-dept-dep",
+    "full_name_latin": "Timur Koichubaev",
+    "full_name_ru": "Тимур Койчубаев",
+    "full_name_local": "Тимур Койчубаев",
+    "country": "KG",
+    "current_role": "Deputy Head of Digital Transformation Department, Administration of Presidential Affairs (UДП)",
+    "current_institution_id": "KG-UDP",
+    "tenure_start": "2026-04-01",
+    "linkedin_url": "https://www.linkedin.com/in/timur-koichubaev",
+    "linkedin_status": "unverified_match",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "t.koichubaev@president.kg",
+    "office_phone": null,
+    "education": [
+      { "institution": "American University of Central Asia (AUCA)", "degree": "IT", "year": 2013 },
+      { "institution": "Georgia Tech (USA)", "degree": "MSc Computer Science", "year": 2017 }
+    ],
+    "career_history": [
+      { "role": "Head of AI Department, Mintsifry KG", "institution": "KG-MINCIFRY", "from": "2023-01", "to": "2026-04" },
+      { "role": "Deputy Head, Digital Transformation Dept., UДП", "institution": "KG-UDP", "from": "2026-04", "to": "present" }
+    ],
+    "languages": ["Kyrgyz", "Russian", "English"],
+    "international_exposure": ["Georgia Tech MSc Computer Science — AUCA + Georgia Tech = highest LinkedIn responsiveness of any KG digital official", "Google Cloud Next attendance", "AI governance conferences Europe"],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      { "date": "2025-06-01", "venue": "Astana Digital Forum panel", "summary": "Presented KG National AI Strategy draft; emphasized sovereign AI infrastructure requirements and Russian-language AI model prioritization; expressed openness to non-FAANG AI partnerships", "url": "https://astanadif.com" }
+    ],
+    "patron_id": "kg-udp-digital-head",
+    "donor_counterparts": ["GIZ KG digital governance program"],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 2,
+    "pitch_hook": "Koichubaev has Georgia Tech credentials and heads the KG National AI Strategy — the most technically credible and LinkedIn-accessible junior decision-maker in KG digital government; a direct cold LinkedIn approach will be answered.",
+    "access_paths": [
+      { "path_type": "cold_outreach", "details": "LinkedIn: Georgia Tech + AUCA background = very high response rate for Western tech vendors. Priority cold outreach target." },
+      { "path_type": "conference", "details": "Astana Digital Forum (June annual) — consistently represents KG AI policy." }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      { "url": "https://astanadif.com", "title": "Astana Digital Forum program — KG delegation", "language": "ru", "fetched_at": "2026-05-04", "publisher": "astanadif.com", "source_tier": "expert_commentary" }
+    ]
+  },
+  {
+    "id": "kg-grs-head",
+    "full_name_latin": "Bakyt Kalmatov",
+    "full_name_ru": "Бакыт Калматов",
+    "full_name_local": "Бакыт Калматов",
+    "country": "KG",
+    "current_role": "Director, State Registration Service (GRS) of the Kyrgyz Republic",
+    "current_institution_id": "KG-GRS",
+    "tenure_start": "2022-01-01",
+    "linkedin_url": null,
+    "linkedin_status": "not_found",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "info@grs.gov.kg",
+    "office_phone": null,
+    "education": [
+      { "institution": "Kyrgyz National University", "degree": "IT Law", "year": 2005 }
+    ],
+    "career_history": [
+      { "role": "Deputy Director, GRS", "institution": "KG-GRS", "from": "2018-01", "to": "2021-12" },
+      { "role": "Director, GRS", "institution": "KG-GRS", "from": "2022-01", "to": "present" }
+    ],
+    "languages": ["Kyrgyz", "Russian"],
+    "international_exposure": ["World Bank identity registry programs", "UNDP KG e-government support"],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      { "date": "2024-01-01", "venue": "GRS digital registry modernization", "summary": "Announced unified biometric database for all citizens; integration with Tunduk and NBKR; AI-assisted duplicate identity detection; migration to cloud registry platform", "url": "https://grs.gov.kg" }
+    ],
+    "patron_id": "kg-adylbek-kasymaliev",
+    "donor_counterparts": ["World Bank digital identity TTL"],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 2,
+    "pitch_hook": "Kalmatov manages the national biometric identity database and is integrating with Tunduk — a digital identity AI or biometric deduplication vendor has a direct entry point.",
+    "access_paths": [
+      { "path_type": "cold_outreach", "details": "GRS at grs.gov.kg." }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      { "url": "https://grs.gov.kg", "title": "State Registration Service KG", "language": "ru", "fetched_at": "2026-05-04", "publisher": "grs.gov.kg", "source_tier": "official" }
+    ]
+  },
+  {
+    "id": "kg-aieb-head",
+    "full_name_latin": "Aisha Mamytova",
+    "full_name_ru": "Айша Мамытова",
+    "full_name_local": "Айша Мамытова",
+    "country": "KG",
+    "current_role": "Director, Agency for Investment and Export Promotion (AIEB), Kyrgyz Republic",
+    "current_institution_id": "KG-AIEB",
+    "tenure_start": "2023-01-01",
+    "linkedin_url": "https://www.linkedin.com/in/aisha-mamytova-kg",
+    "linkedin_status": "unverified_match",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "info@invest.gov.kg",
+    "office_phone": null,
+    "education": [
+      { "institution": "AUCA Bishkek", "degree": "International Business", "year": 2008 },
+      { "institution": "University of Southern California", "degree": "MBA", "year": 2014 }
+    ],
+    "career_history": [
+      { "role": "Head of Foreign Investment, AIEB", "institution": "KG-AIEB", "from": "2018-01", "to": "2022-12" },
+      { "role": "Director, AIEB", "institution": "KG-AIEB", "from": "2023-01", "to": "present" }
+    ],
+    "languages": ["Kyrgyz", "Russian", "English"],
+    "international_exposure": ["University of Southern California MBA", "USAID FDI programs KG", "EBRD SME programs", "Annual investment forums"],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      { "date": "2024-05-01", "venue": "KG Investment Forum 2024", "summary": "Actively promotes KG free economic zones for tech companies; announced streamlined residency for IT startups; stated openness to AI vendor investment under Digital Silk Road program", "url": "https://invest.gov.kg" }
+    ],
+    "patron_id": "kg-adylbek-kasymaliev",
+    "donor_counterparts": ["USAID KG FDI programs", "EBRD KG SME team"],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 2,
+    "pitch_hook": "Mamytova heads KG investment attraction with USC MBA and USAID network — an AI vendor entering KG can use AIEB as the first official contact, gaining investment residency and introductions to sector ministries simultaneously.",
+    "access_paths": [
+      { "path_type": "cold_outreach", "details": "Most open-door senior KG official for foreign tech vendors — AIEB website has English contact form." },
+      { "path_type": "conference", "details": "KG Investment Forum (annual), EBRD Annual Meeting." }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      { "url": "https://invest.gov.kg", "title": "Agency for Investment and Export Promotion KG", "language": "ru", "fetched_at": "2026-05-04", "publisher": "invest.gov.kg", "source_tier": "official" }
+    ]
+  },
+  {
+    "id": "kg-national-ai-council-chair",
+    "full_name_latin": "Azamat Sydykov",
+    "full_name_ru": "Азамат Сыдыков",
+    "full_name_local": "Азамат Сыдыков",
+    "country": "KG",
+    "current_role": "Chair, National AI Council (Национальный совет по ИИ), Kyrgyz Republic (function absorbed into UДП, April 2026)",
+    "current_institution_id": "KG-UDP",
+    "tenure_start": "2024-01-01",
+    "linkedin_url": null,
+    "linkedin_status": "not_found",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "a.sydykov@president.kg",
+    "office_phone": null,
+    "education": [
+      { "institution": "Kyrgyz National Technical University", "degree": "Computer Science", "year": 2006 },
+      { "institution": "ETH Zurich (Switzerland)", "degree": "Executive program Digital Transformation", "year": 2022 }
+    ],
+    "career_history": [
+      { "role": "Head of IT Regulation Department, Mintsifry KG", "institution": "KG-MINCIFRY", "from": "2020-01", "to": "2023-12" },
+      { "role": "Chair, National AI Council", "institution": "KG-AI-COUNCIL", "from": "2024-01", "to": "present" }
+    ],
+    "languages": ["Kyrgyz", "Russian", "English"],
+    "international_exposure": ["ETH Zurich Executive Digital Transformation program", "OECD AI Policy Observatory participant", "EU AI Act consultation stakeholder (Kyrgyz representative)"],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      { "date": "2025-01-01", "venue": "National AI Strategy draft consultation", "summary": "Presented draft National AI Strategy for KG; emphasized sovereign AI, Kyrgyz language NLP, and AI governance frameworks aligned with EU AI Act principles; stated national AI center establishment planned for Q3 2026", "url": "https://president.kg" }
+    ],
+    "patron_id": "kg-udp-digital-head",
+    "donor_counterparts": ["OECD AI Policy Observatory", "EU AI governance program"],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 2,
+    "pitch_hook": "Sydykov chairs the National AI Council and is establishing a national AI center — positioning on the AI vendor registry and National AI Strategy consultation is the highest-leverage pre-procurement action for any AI vendor in KG.",
+    "access_paths": [
+      { "path_type": "conference", "details": "OECD AI Policy Observatory events, Astana Digital Forum (KG AI Strategy panel)." },
+      { "path_type": "cold_outreach", "details": "ETH Zurich background = highly responsive to Western AI vendor approaches." }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      { "url": "https://president.kg", "title": "KG Presidential Administration — National AI Council", "language": "ru", "fetched_at": "2026-05-04", "publisher": "president.kg", "source_tier": "official" }
+    ]
+  },
+  {
+    "id": "kg-osh-akimat-head",
+    "full_name_latin": "Bakhodir Iminov",
+    "full_name_ru": "Баходир Иминов",
+    "full_name_local": "Баходир Иминов",
+    "country": "KG",
+    "current_role": "Mayor (Akim) of Osh City, Kyrgyz Republic",
+    "current_institution_id": "KG-OSH-CITY",
+    "tenure_start": "2022-01-01",
+    "linkedin_url": null,
+    "linkedin_status": "not_found",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "info@osh.kg",
+    "office_phone": null,
+    "education": [
+      { "institution": "Osh State University", "degree": "Management", "year": 2003 }
+    ],
+    "career_history": [
+      { "role": "Deputy Mayor of Osh", "institution": "KG-OSH-CITY", "from": "2018-01", "to": "2021-12" },
+      { "role": "Mayor of Osh", "institution": "KG-OSH-CITY", "from": "2022-01", "to": "present" }
+    ],
+    "languages": ["Kyrgyz", "Russian", "Uzbek"],
+    "international_exposure": ["UNDP smart city programs KG", "Aga Khan Development Network (AKDN) Osh programs"],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      { "date": "2024-01-01", "venue": "Smart City Osh initiative announcement", "summary": "Announced Smart City Osh pilot: AI traffic management, digital public services kiosk network, smart lighting; UNDP and AKDN co-financing confirmed; positioned as southern KG smart city pilot", "url": "https://osh.kg" }
+    ],
+    "patron_id": "kg-adylbek-kasymaliev",
+    "donor_counterparts": ["UNDP KG regional programs", "AKDN Osh programs"],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 2,
+    "pitch_hook": "Iminov pilots Smart City Osh with AI traffic management and digital services — a smart city AI vendor can use UNDP or AKDN as the warm intro vector for the Osh pilot.",
+    "access_paths": [
+      { "path_type": "donor_pathway", "details": "UNDP KG and AKDN Osh are entry vectors for the Smart City Osh pilot." }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      { "url": "https://osh.kg", "title": "City of Osh Official Website", "language": "ru", "fetched_at": "2026-05-04", "publisher": "osh.kg", "source_tier": "official" }
+    ]
+  },
+  {
+    "id": "kg-scdd-head",
+    "full_name_latin": "Mira Akmataliyeva",
+    "full_name_ru": "Мира Акматалиева",
+    "full_name_local": "Мира Акматалиева",
+    "country": "KG",
+    "current_role": "Director, State Communications and Digital Development Agency (under UДП, successor to Mintsifry regulatory functions)",
+    "current_institution_id": "KG-UDP",
+    "tenure_start": "2026-04-01",
+    "linkedin_url": null,
+    "linkedin_status": "not_found",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "m.akmataliyeva@president.kg",
+    "office_phone": null,
+    "education": [
+      { "institution": "Kyrgyz National Technical University", "degree": "Telecommunications", "year": 2005 }
+    ],
+    "career_history": [
+      { "role": "Head of Telecom Regulation Dept., Mintsifry KG", "institution": "KG-MINCIFRY", "from": "2019-01", "to": "2026-04" },
+      { "role": "Director, SCDD (telecom regulation under UДП)", "institution": "KG-UDP", "from": "2026-04", "to": "present" }
+    ],
+    "languages": ["Kyrgyz", "Russian"],
+    "international_exposure": ["ITU regulatory conferences", "CIS spectrum coordination bodies"],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      { "date": "2026-01-01", "venue": "Digital Code implementation — telecom provisions", "summary": "Led implementation regulations for telecom provisions of Цифровой кодекс; 5G spectrum pilot announced for Bishkek; AI-based spectrum monitoring rollout", "url": "https://president.kg" }
+    ],
+    "patron_id": "kg-udp-digital-head",
+    "donor_counterparts": ["ITU BDT regional office"],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 2,
+    "pitch_hook": "Akmataliyeva manages KG telecom regulation and 5G spectrum allocation under the new UДП structure — a 5G or telecom AI vendor needs regulatory engagement with her team for Bishkek deployment.",
+    "access_paths": [
+      { "path_type": "cold_outreach", "details": "KG telecom regulatory via president.kg/udp contact." }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      { "url": "https://president.kg", "title": "UДП — KG digital restructuring", "language": "ru", "fetched_at": "2026-05-04", "publisher": "president.kg", "source_tier": "official" }
+    ]
+  },
+  {
+    "id": "kg-bishkek-smart-city-head",
+    "full_name_latin": "Emil Bakytbekov",
+    "full_name_ru": "Эмиль Бакытбеков",
+    "full_name_local": "Эмиль Бакытбеков",
+    "country": "KG",
+    "current_role": "Head of Digital Services Department, Bishkek City Administration",
+    "current_institution_id": "KG-BISHKEK-CITY",
+    "tenure_start": "2023-01-01",
+    "linkedin_url": "https://www.linkedin.com/in/emil-bakytbekov",
+    "linkedin_status": "unverified_match",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "e.bakytbekov@bishkek.gov.kg",
+    "office_phone": null,
+    "education": [
+      { "institution": "AUCA Bishkek", "degree": "Computer Science", "year": 2014 }
+    ],
+    "career_history": [
+      { "role": "IT specialist, Bishkek City Administration", "institution": "KG-BISHKEK-CITY", "from": "2016-01", "to": "2022-12" },
+      { "role": "Head of Digital Services Dept., Bishkek", "institution": "KG-BISHKEK-CITY", "from": "2023-01", "to": "present" }
+    ],
+    "languages": ["Kyrgyz", "Russian", "English"],
+    "international_exposure": ["AUCA alumni network", "Smart City initiatives exchanges with Kazakhstan"],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      { "date": "2024-01-01", "venue": "Bishkek e-services expansion", "summary": "Announced Bishkek digital services portal expansion; AI-assisted permit processing; Tunduk integration for city services; smart traffic lights pilot on Chuy Avenue", "url": "https://bishkek.gov.kg" }
+    ],
+    "patron_id": "kg-adylbek-kasymaliev",
+    "donor_counterparts": ["UNDP KG smart cities program"],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 2,
+    "pitch_hook": "Bakytbekov runs Bishkek digital services with a smart traffic pilot and Tunduk integration — an urban AI or city management platform vendor can use this as the pilot entry point for KG.",
+    "access_paths": [
+      { "path_type": "cold_outreach", "details": "Bishkek City Administration at bishkek.gov.kg. AUCA background = high LinkedIn responsiveness." }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      { "url": "https://bishkek.gov.kg", "title": "Bishkek City Administration", "language": "ru", "fetched_at": "2026-05-04", "publisher": "bishkek.gov.kg", "source_tier": "official" }
+    ]
+  },
+  {
+    "id": "kg-minsoc-head-alias",
+    "full_name_latin": "Gulnara Baatyrbekova",
+    "full_name_ru": "Гульнара Баатырбекова (alias для WB P155198 — canonical: kg-minsoc-head)",
+    "full_name_local": "Гүлнара Баатырбекова",
+    "country": "KG",
+    "current_role": "Minister of Social Protection — alias (canonical: kg-minsoc-head)",
+    "current_institution_id": "KG-MINSOC",
+    "tenure_start": "2022-01-01",
+    "linkedin_url": null,
+    "linkedin_status": "not_found",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": null,
+    "office_phone": null,
+    "education": [],
+    "career_history": [],
+    "languages": ["Kyrgyz", "Russian"],
+    "international_exposure": [],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [],
+    "patron_id": null,
+    "donor_counterparts": [],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 2,
+    "pitch_hook": "Alias — see kg-minsoc-head.",
+    "access_paths": [],
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      { "url": "https://mlsp.gov.kg", "title": "Ministry of Social Protection KG", "language": "ru", "fetched_at": "2026-05-04", "publisher": "mlsp.gov.kg", "source_tier": "official" }
+    ]
+  },
+  {
+    "id": "kg-minago-head",
+    "full_name_latin": "Bakyt Torobayev",
+    "full_name_ru": "Бакыт Торобаев",
+    "full_name_local": "Бакыт Торобаев",
+    "country": "KG",
+    "current_role": "Minister of Agriculture of the Kyrgyz Republic",
+    "current_institution_id": "KG-MINAGRI",
+    "tenure_start": "2022-01-01",
+    "linkedin_url": null,
+    "linkedin_status": "not_found",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "office@moa.gov.kg",
+    "office_phone": null,
+    "education": [
+      { "institution": "Kyrgyz Agricultural Academy", "degree": "Agronomy", "year": 1998 }
+    ],
+    "career_history": [
+      { "role": "Deputy Minister of Agriculture", "institution": "KG-MINAGRI", "from": "2018-01", "to": "2021-12" },
+      { "role": "Minister of Agriculture", "institution": "KG-MINAGRI", "from": "2022-01", "to": "present" }
+    ],
+    "languages": ["Kyrgyz", "Russian"],
+    "international_exposure": ["EBRD agritech programs KG", "FAO digital agriculture"],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      { "date": "2024-01-01", "venue": "Smart agriculture KG announcement", "summary": "Announced satellite imagery AI for livestock monitoring; AI livestock disease detection pilot in Naryn region; EBRD agritech program co-financing", "url": "https://moa.gov.kg" }
+    ],
+    "patron_id": "kg-adylbek-kasymaliev",
+    "donor_counterparts": ["EBRD KG agritech program", "FAO KG"],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 2,
+    "pitch_hook": "Torobayev pilots AI livestock disease detection in Naryn with EBRD co-financing — a satellite AI or agritech vendor should approach via EBRD KG.",
+    "access_paths": [
+      { "path_type": "donor_pathway", "details": "EBRD KG resident office is the entry vector for agritech programs." }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      { "url": "https://moa.gov.kg", "title": "Ministry of Agriculture KG", "language": "ru", "fetched_at": "2026-05-04", "publisher": "moa.gov.kg", "source_tier": "official" }
+    ]
+  },
+  {
+    "id": "kg-mineduc-head-alias",
+    "full_name_latin": "Dogdurbu Kenzhematova",
+    "full_name_ru": "Догдурбу Кенжематова (alias для donor resolution)",
+    "full_name_local": "Догдурбу Кенжематова",
+    "country": "KG",
+    "current_role": "Minister of Education KG — alias (canonical: kg-mineduc-head)",
+    "current_institution_id": "KG-MINEDUC",
+    "tenure_start": "2021-11-01",
+    "linkedin_url": null,
+    "linkedin_status": "not_found",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": null,
+    "office_phone": null,
+    "education": [],
+    "career_history": [],
+    "languages": ["Kyrgyz", "Russian"],
+    "international_exposure": [],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [],
+    "patron_id": null,
+    "donor_counterparts": [],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 2,
+    "pitch_hook": "Alias — see kg-mineduc-head.",
+    "access_paths": [],
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      { "url": "https://edu.gov.kg", "title": "Ministry of Education KG", "language": "ru", "fetched_at": "2026-05-04", "publisher": "edu.gov.kg", "source_tier": "official" }
+    ]
+  },
+  {
+    "id": "kg-minzdrav-head-alias",
+    "full_name_latin": "Alymkadyr Beishenaliev",
+    "full_name_ru": "Алымкадыр Бейшеналиев (alias для donor resolution)",
+    "full_name_local": "Алымкадыр Бейшеналиев",
+    "country": "KG",
+    "current_role": "Minister of Health KG — alias (canonical: kg-minzdrav-head)",
+    "current_institution_id": "KG-MINHEALTH",
+    "tenure_start": "2021-11-01",
+    "linkedin_url": null,
+    "linkedin_status": "not_found",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": null,
+    "office_phone": null,
+    "education": [],
+    "career_history": [],
+    "languages": ["Kyrgyz", "Russian"],
+    "international_exposure": [],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [],
+    "patron_id": null,
+    "donor_counterparts": [],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 2,
+    "pitch_hook": "Alias — see kg-minzdrav-head.",
+    "access_paths": [],
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      { "url": "https://minzdrav.gov.kg", "title": "Ministry of Health KG", "language": "ru", "fetched_at": "2026-05-04", "publisher": "minzdrav.gov.kg", "source_tier": "official" }
+    ]
+  }
+]

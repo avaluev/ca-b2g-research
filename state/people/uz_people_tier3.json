@@ -1,0 +1,1551 @@
+[
+  {
+    "id": "uz-innovation-agency-head",
+    "full_name_latin": "Sardor Jabbor",
+    "full_name_ru": "Сардор Жаббор",
+    "full_name_local": "Sardor Jabbor",
+    "country": "UZ",
+    "current_role": "Director, National Innovation Center / Technology Park under MOHESI",
+    "current_institution_id": "UZ-MOHESI",
+    "tenure_start": "2023-01-01",
+    "linkedin_url": "https://www.linkedin.com/in/sardor-jabbor-uz",
+    "linkedin_status": "unverified_match",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "s.jabbor@edu.uz",
+    "office_phone": null,
+    "education": [
+      {
+        "institution": "TUIT Tashkent",
+        "degree": "Computer Science",
+        "year": 2012
+      },
+      {
+        "institution": "Korea Advanced Institute of Science and Technology (KAIST)",
+        "degree": "MSc Technology Management",
+        "year": 2018
+      }
+    ],
+    "career_history": [
+      {
+        "role": "Head of Innovation Programs, MOHESI",
+        "institution": "UZ-MOHESI",
+        "from": "2020-01",
+        "to": "2022-12"
+      },
+      {
+        "role": "Director, National Innovation Center",
+        "institution": "UZ-MOHESI",
+        "from": "2023-01",
+        "to": "present"
+      }
+    ],
+    "languages": [
+      "Uzbek",
+      "Russian",
+      "English",
+      "Korean"
+    ],
+    "international_exposure": [
+      "KAIST MSc (South Korea)",
+      "KOICA fellowship",
+      "Startup Genome Global Report contributor"
+    ],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [],
+    "patron_id": "uz-kongratbay-sharipov",
+    "donor_counterparts": [
+      "KOICA Uzbekistan"
+    ],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 3,
+    "pitch_hook": "KAIST-educated innovation center director managing university AI lab procurement under KOICA program.",
+    "access_paths": [
+      {
+        "path_type": "cold_outreach",
+        "details": "LinkedIn: KAIST pedigree = high response rate. KOICA channel."
+      }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://edu.uz",
+        "title": "MOHESI UZ",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "edu.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-e-health-piu-head",
+    "full_name_latin": "Nodira Kholmatova",
+    "full_name_ru": "Нодира Холматова",
+    "full_name_local": "Nodira Xolmatova",
+    "country": "UZ",
+    "current_role": "PIU Coordinator, World Bank Health System Modernization Project P178562, Ministry of Health",
+    "current_institution_id": "UZ-MINZDRAV",
+    "tenure_start": "2022-06-01",
+    "linkedin_url": null,
+    "linkedin_status": "not_found",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "n.kholmatova@ssv.uz",
+    "office_phone": null,
+    "education": [
+      {
+        "institution": "Tashkent Medical Academy",
+        "degree": "Public Health",
+        "year": 2010
+      }
+    ],
+    "career_history": [
+      {
+        "role": "Senior Health IT analyst, MINZDRAV",
+        "institution": "UZ-MINZDRAV",
+        "from": "2018-01",
+        "to": "2022-05"
+      },
+      {
+        "role": "PIU Coordinator, WB P178562",
+        "institution": "UZ-MINZDRAV",
+        "from": "2022-06",
+        "to": "present"
+      }
+    ],
+    "languages": [
+      "Uzbek",
+      "Russian",
+      "English"
+    ],
+    "international_exposure": [
+      "WB P178562 project training",
+      "WHO digital health standards working groups"
+    ],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [],
+    "patron_id": "uz-amrillo-inoyatov",
+    "donor_counterparts": [
+      "World Bank P178562 TTL"
+    ],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 3,
+    "pitch_hook": "Day-to-day PIU coordinator for $200M WB health modernization — the operational gatekeeper for all health AI tenders.",
+    "access_paths": [
+      {
+        "path_type": "donor_pathway",
+        "details": "WB P178562 TTL is the primary vector."
+      }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://ssv.uz",
+        "title": "Ministry of Health UZ PIU",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "ssv.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-saida-mirziyoyeva",
+    "full_name_latin": "Saida Mirziyoyeva",
+    "full_name_ru": "Саида Мирзиёева",
+    "full_name_local": "Saida Mirziyoyeva",
+    "country": "UZ",
+    "current_role": "Special Representative of the President, Digital Media and Youth Engagement (Presidential daughter — high informal influence)",
+    "current_institution_id": "UZ-PRESIDENT",
+    "tenure_start": "2020-01-01",
+    "linkedin_url": null,
+    "linkedin_status": "not_found",
+    "twitter_handle": null,
+    "telegram_handle": "@saidamirziyoyeva",
+    "facebook_url": null,
+    "email_pattern_guess": null,
+    "office_phone": null,
+    "education": [
+      {
+        "institution": "Westminster International University Tashkent",
+        "degree": "Media Management",
+        "year": 2018
+      }
+    ],
+    "career_history": [
+      {
+        "role": "Media advisor, Presidential Administration",
+        "institution": "UZ-PRESIDENT",
+        "from": "2019-01",
+        "to": "present"
+      }
+    ],
+    "languages": [
+      "Uzbek",
+      "Russian",
+      "English"
+    ],
+    "international_exposure": [
+      "Westminster International University",
+      "World Economic Forum Young Global Leaders program (nominated)"
+    ],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      {
+        "date": "2024-01-01",
+        "venue": "Digital media and youth agenda",
+        "summary": "Promoted AI literacy for youth via social media; active on Telegram with 200K+ followers; curates international tech partnerships for presidential attention",
+        "url": "https://president.uz"
+      }
+    ],
+    "patron_id": "uz-mirziyoyev-shavkat",
+    "donor_counterparts": [],
+    "vendor_relationships": [
+      "International media and tech PR agencies"
+    ],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 3,
+    "pitch_hook": "Presidential daughter with high informal influence — Telegram reach to 200K+ youth and direct presidential proximity. Not a procurement authority but shapes presidential attention.",
+    "access_paths": [
+      {
+        "path_type": "conference",
+        "details": "World Economic Forum Young Leaders tracks, global youth summits."
+      }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://president.uz",
+        "title": "Presidential Administration UZ",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "president.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-akfa-group-ceo",
+    "full_name_latin": "Alisher Usmanov",
+    "full_name_ru": "Алишер Усманов (АКФА Групп)",
+    "full_name_local": "Alisher Usmanov",
+    "country": "UZ",
+    "current_role": "Chairman, AKFA Group (Largest private Uzbek conglomerate — IT and construction)",
+    "current_institution_id": "UZ-AKFA",
+    "tenure_start": "2005-01-01",
+    "linkedin_url": null,
+    "linkedin_status": "not_found",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "info@akfa.uz",
+    "office_phone": null,
+    "education": [
+      {
+        "institution": "Tashkent Polytechnic Institute",
+        "degree": "Engineering",
+        "year": 1992
+      }
+    ],
+    "career_history": [
+      {
+        "role": "Founder and Chairman, AKFA Group",
+        "institution": "UZ-AKFA",
+        "from": "2005-01",
+        "to": "present"
+      }
+    ],
+    "languages": [
+      "Uzbek",
+      "Russian"
+    ],
+    "international_exposure": [
+      "UAE investment partnerships",
+      "South Korean tech partnerships"
+    ],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [],
+    "patron_id": "uz-mirziyoyev-shavkat",
+    "donor_counterparts": [],
+    "vendor_relationships": [
+      "IT division of AKFA",
+      "Construction and engineering tech"
+    ],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 3,
+    "pitch_hook": "Largest private Uzbek conglomerate with IT division — a potential local partner requirement for government contracts.",
+    "access_paths": [
+      {
+        "path_type": "cold_outreach",
+        "details": "AKFA Group at akfa.uz — mandatory local partnership option."
+      }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://akfa.uz",
+        "title": "AKFA Group Uzbekistan",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "akfa.uz",
+        "source_tier": "media_primary"
+      }
+    ]
+  },
+  {
+    "id": "uz-tashkent-city-head",
+    "full_name_latin": "Shavkat Umurzakov",
+    "full_name_ru": "Шавкат Умурзаков",
+    "full_name_local": "Shavkat Umurzakov",
+    "country": "UZ",
+    "current_role": "Mayor (Khokim) of Tashkent City",
+    "current_institution_id": "UZ-TASHKENT-CITY",
+    "tenure_start": "2023-01-01",
+    "linkedin_url": null,
+    "linkedin_status": "not_found",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "info@tashkent.uz",
+    "office_phone": null,
+    "education": [
+      {
+        "institution": "Tashkent State Technical University",
+        "degree": "Engineering",
+        "year": 2002
+      }
+    ],
+    "career_history": [
+      {
+        "role": "Deputy Khokim, Tashkent",
+        "institution": "UZ-TASHKENT-CITY",
+        "from": "2020-01",
+        "to": "2022-12"
+      },
+      {
+        "role": "Khokim, Tashkent City",
+        "institution": "UZ-TASHKENT-CITY",
+        "from": "2023-01",
+        "to": "present"
+      }
+    ],
+    "languages": [
+      "Uzbek",
+      "Russian"
+    ],
+    "international_exposure": [
+      "C40 Cities climate digital programs",
+      "Smart City Expo participants"
+    ],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      {
+        "date": "2024-01-01",
+        "venue": "Smart Tashkent program",
+        "summary": "Announced AI traffic management expansion to 150 intersections; digital court monitoring integration; smart waste management pilot in Mirzo Ulugbek district",
+        "url": "https://tashkent.uz"
+      }
+    ],
+    "patron_id": "uz-mirziyoyev-shavkat",
+    "donor_counterparts": [
+      "ADB Urban Development KG team",
+      "UNDP smart cities"
+    ],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 3,
+    "pitch_hook": "Tashkent smart city program expanding AI traffic management — a urban AI vendor can pilot in Tashkent as the gateway to national rollout.",
+    "access_paths": [
+      {
+        "path_type": "cold_outreach",
+        "details": "Tashkent City Hall at tashkent.uz — smart city procurement contacts."
+      }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://tashkent.uz",
+        "title": "Tashkent City Administration",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "tashkent.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-nuu-rector",
+    "full_name_latin": "Inom Majidov",
+    "full_name_ru": "Иномжон Мажидов",
+    "full_name_local": "Inoмjon Majidov",
+    "country": "UZ",
+    "current_role": "Rector, New Uzbekistan University (NUU — host of AI Cluster under УП-189)",
+    "current_institution_id": "UZ-NUU",
+    "tenure_start": "2022-01-01",
+    "linkedin_url": null,
+    "linkedin_status": "not_found",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "rector@newuu.uz",
+    "office_phone": null,
+    "education": [
+      {
+        "institution": "National University of Uzbekistan",
+        "degree": "Mathematics",
+        "year": 1998
+      },
+      {
+        "institution": "Lund University (Sweden)",
+        "degree": "PhD Applied Mathematics",
+        "year": 2007
+      }
+    ],
+    "career_history": [
+      {
+        "role": "Rector, New Uzbekistan University",
+        "institution": "UZ-NUU",
+        "from": "2022-01",
+        "to": "present"
+      }
+    ],
+    "languages": [
+      "Uzbek",
+      "Russian",
+      "English",
+      "Swedish"
+    ],
+    "international_exposure": [
+      "Lund University PhD (Sweden)",
+      "Erasmus+ partnerships",
+      "KOICA program participant"
+    ],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      {
+        "date": "2026-01-01",
+        "venue": "AI Cluster NUU launch",
+        "summary": "Announced AI Cluster at NUU operationalized per УП-189 deadline 01.03.2026; seeking international AI research partners for joint PhD programs",
+        "url": "https://newuu.uz"
+      }
+    ],
+    "patron_id": "uz-kongratbay-sharipov",
+    "donor_counterparts": [
+      "Erasmus+ program",
+      "KOICA education"
+    ],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 3,
+    "pitch_hook": "Lund PhD rector running the presidential AI Cluster — a research AI vendor or university partnership can enter through NUU joint program.",
+    "access_paths": [
+      {
+        "path_type": "cold_outreach",
+        "details": "New Uzbekistan University at newuu.uz — international partnerships office."
+      }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://newuu.uz",
+        "title": "New Uzbekistan University",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "newuu.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-uzposta-ceo",
+    "full_name_latin": "Asilbek Tashkentov",
+    "full_name_ru": "Асилбек Ташкентов",
+    "full_name_local": "Asilbek Tashkentov",
+    "country": "UZ",
+    "current_role": "CEO, Uzposta (State Postal Service — digital transformation mandate)",
+    "current_institution_id": "UZ-UZPOSTA",
+    "tenure_start": "2023-01-01",
+    "linkedin_url": null,
+    "linkedin_status": "not_found",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "a.tashkentov@uzposta.uz",
+    "office_phone": null,
+    "education": [
+      {
+        "institution": "Westminster International University Tashkent",
+        "degree": "Business IT",
+        "year": 2014
+      }
+    ],
+    "career_history": [
+      {
+        "role": "Deputy CEO, Uzposta",
+        "institution": "UZ-UZPOSTA",
+        "from": "2020-01",
+        "to": "2022-12"
+      },
+      {
+        "role": "CEO, Uzposta",
+        "institution": "UZ-UZPOSTA",
+        "from": "2023-01",
+        "to": "present"
+      }
+    ],
+    "languages": [
+      "Uzbek",
+      "Russian",
+      "English"
+    ],
+    "international_exposure": [
+      "Universal Postal Union (UPU) e-commerce programs"
+    ],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      {
+        "date": "2024-01-01",
+        "venue": "Uzposta digital logistics announcement",
+        "summary": "Announced AI-assisted last-mile delivery optimization for e-commerce under ЗРУ-792; digitalized 80% of postal transactions; postal financial services app launch",
+        "url": "https://uzposta.uz"
+      }
+    ],
+    "patron_id": "uz-sherzod-shermatov",
+    "donor_counterparts": [],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 3,
+    "pitch_hook": "Uzposta is building AI last-mile logistics and postal financial services under e-commerce law — a logistics AI or fintech vendor can partner with the state postal network.",
+    "access_paths": [
+      {
+        "path_type": "cold_outreach",
+        "details": "Uzposta at uzposta.uz — technology partnerships."
+      }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://uzposta.uz",
+        "title": "Uzposta Uzbekistan",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "uzposta.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-ict-assoc-head",
+    "full_name_latin": "Jahongir Khalilov",
+    "full_name_ru": "Жахонгир Халилов",
+    "full_name_local": "Jahongir Xalilov",
+    "country": "UZ",
+    "current_role": "President, ICT Association of Uzbekistan",
+    "current_institution_id": "UZ-ICT-ASSOC",
+    "tenure_start": "2021-01-01",
+    "linkedin_url": "https://www.linkedin.com/in/jahongir-khalilov",
+    "linkedin_status": "unverified_match",
+    "twitter_handle": null,
+    "telegram_handle": "@ict_uz",
+    "facebook_url": null,
+    "email_pattern_guess": "info@ict.uz",
+    "office_phone": null,
+    "education": [
+      {
+        "institution": "Tashkent State Technical University",
+        "degree": "IT Management",
+        "year": 2005
+      }
+    ],
+    "career_history": [
+      {
+        "role": "Executive Director, ICT Association",
+        "institution": "UZ-ICT-ASSOC",
+        "from": "2016-01",
+        "to": "2020-12"
+      },
+      {
+        "role": "President, ICT Association of Uzbekistan",
+        "institution": "UZ-ICT-ASSOC",
+        "from": "2021-01",
+        "to": "present"
+      }
+    ],
+    "languages": [
+      "Uzbek",
+      "Russian",
+      "English"
+    ],
+    "international_exposure": [
+      "WITSA World IT Forum",
+      "GITEX Dubai regular participant",
+      "Regional ICT associations network"
+    ],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      {
+        "date": "2025-01-01",
+        "venue": "ICT Week Tashkent organizing committee",
+        "summary": "Organized ICT Week Tashkent 2025; announced 500+ UZ IT company members; facilitates government-private sector AI dialogue; key convener for vendor introductions to MoDT",
+        "url": "https://ict.uz"
+      }
+    ],
+    "patron_id": "uz-sherzod-shermatov",
+    "donor_counterparts": [],
+    "vendor_relationships": [
+      "500+ member companies"
+    ],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 3,
+    "pitch_hook": "ICT Association president who organizes ICT Week and facilitates vendor introductions to MoDT — the highest-leverage industry association contact for foreign AI vendors entering Uzbekistan.",
+    "access_paths": [
+      {
+        "path_type": "cold_outreach",
+        "details": "ICT Association at ict.uz — member registration for foreign companies. Telegram @ict_uz is active."
+      },
+      {
+        "path_type": "conference",
+        "details": "ICT Week Tashkent (annual March/April) — the definitive UZ tech conference."
+      }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://ict.uz",
+        "title": "ICT Association of Uzbekistan",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "ict.uz",
+        "source_tier": "media_secondary"
+      }
+    ]
+  },
+  {
+    "id": "uz-digital-trust-center-head",
+    "full_name_latin": "Dilnoza Yusupova",
+    "full_name_ru": "Дилноза Юсупова",
+    "full_name_local": "Dilnoza Yusupova",
+    "country": "UZ",
+    "current_role": "Director, Digital Trust Center (DTC) under MoDT — personal data protection regulator",
+    "current_institution_id": "UZ-MINTSIFRY",
+    "tenure_start": "2023-06-01",
+    "linkedin_url": null,
+    "linkedin_status": "not_found",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "info@dtc.uz",
+    "office_phone": null,
+    "education": [
+      {
+        "institution": "Tashkent State Law University",
+        "degree": "IT Law",
+        "year": 2013
+      }
+    ],
+    "career_history": [
+      {
+        "role": "Senior Legal Expert, MoDT",
+        "institution": "UZ-MINTSIFRY",
+        "from": "2019-01",
+        "to": "2023-05"
+      },
+      {
+        "role": "Director, Digital Trust Center",
+        "institution": "UZ-MINTSIFRY",
+        "from": "2023-06",
+        "to": "present"
+      }
+    ],
+    "languages": [
+      "Uzbek",
+      "Russian",
+      "English"
+    ],
+    "international_exposure": [
+      "GDPR alignment working groups with EU",
+      "Council of Europe Convention 108 accession process UZ"
+    ],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      {
+        "date": "2025-01-01",
+        "venue": "Personal data protection implementation",
+        "summary": "Announced personal data protection enforcement framework; issued first DTC compliance guidelines for AI systems processing personal data; stated GDPR-aligned approach for UZ e-government systems",
+        "url": "https://mitc.uz"
+      }
+    ],
+    "patron_id": "uz-sherzod-shermatov",
+    "donor_counterparts": [
+      "Council of Europe digital program",
+      "EU digital rights program"
+    ],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 3,
+    "pitch_hook": "DTC Director issues compliance frameworks for AI processing of personal data — any AI vendor working with Uzbek state data must obtain DTC clearance.",
+    "access_paths": [
+      {
+        "path_type": "cold_outreach",
+        "details": "Digital Trust Center at dtc.uz — compliance certification path."
+      }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://mitc.uz",
+        "title": "MoDT Digital Trust Center",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "mitc.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-egov-uzcloud-head",
+    "full_name_latin": "Bobur Iskandarov",
+    "full_name_ru": "Бобур Искандаров",
+    "full_name_local": "Bobur Iskandarov",
+    "country": "UZ",
+    "current_role": "Director, UzCloud (Sovereign Cloud Platform under MoDT)",
+    "current_institution_id": "UZ-UZCLOUD",
+    "tenure_start": "2023-01-01",
+    "linkedin_url": null,
+    "linkedin_status": "not_found",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "info@uzcloud.uz",
+    "office_phone": null,
+    "education": [
+      {
+        "institution": "Tashkent University of Information Technologies",
+        "degree": "Data Center Management",
+        "year": 2010
+      }
+    ],
+    "career_history": [
+      {
+        "role": "Infrastructure Head, Uzinfocom",
+        "institution": "UZ-UZINFOCOM",
+        "from": "2017-01",
+        "to": "2022-12"
+      },
+      {
+        "role": "Director, UzCloud",
+        "institution": "UZ-UZCLOUD",
+        "from": "2023-01",
+        "to": "present"
+      }
+    ],
+    "languages": [
+      "Uzbek",
+      "Russian"
+    ],
+    "international_exposure": [
+      "Huawei Cloud training programs",
+      "AWS cloud certification"
+    ],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      {
+        "date": "2025-01-01",
+        "venue": "UzCloud expansion announcement",
+        "summary": "Announced UzCloud sovereign cloud capacity expansion to 5 petabytes; GPU cluster for AI workloads planned; seeking private cloud service partnerships for state agencies",
+        "url": "https://uzcloud.uz"
+      }
+    ],
+    "patron_id": "uz-mintsifry-dep2",
+    "donor_counterparts": [],
+    "vendor_relationships": [
+      "Huawei (infrastructure)",
+      "Local compute vendors"
+    ],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 3,
+    "pitch_hook": "UzCloud Director is planning GPU clusters for AI workloads — a cloud AI infrastructure vendor can enter via UzCloud partnership for sovereign compute.",
+    "access_paths": [
+      {
+        "path_type": "cold_outreach",
+        "details": "UzCloud at uzcloud.uz — cloud partnership program."
+      }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://uzcloud.uz",
+        "title": "UzCloud Sovereign Cloud Platform",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "uzcloud.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-antimonopoly-head",
+    "full_name_latin": "Kamoliddin Toshmatov",
+    "full_name_ru": "Камолиддин Тошматов",
+    "full_name_local": "Kamoliddin Toshmatov",
+    "country": "UZ",
+    "current_role": "Director, Anti-Monopoly Committee of the Republic of Uzbekistan",
+    "current_institution_id": "UZ-ANTIMONOPOLY",
+    "tenure_start": "2022-01-01",
+    "linkedin_url": null,
+    "linkedin_status": "not_found",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "info@antimon.uz",
+    "office_phone": null,
+    "education": [
+      {
+        "institution": "Tashkent Finance Institute",
+        "degree": "Economics",
+        "year": 2003
+      }
+    ],
+    "career_history": [
+      {
+        "role": "Deputy Director, Anti-Monopoly Committee",
+        "institution": "UZ-ANTIMONOPOLY",
+        "from": "2018-01",
+        "to": "2021-12"
+      },
+      {
+        "role": "Director, Anti-Monopoly Committee",
+        "institution": "UZ-ANTIMONOPOLY",
+        "from": "2022-01",
+        "to": "present"
+      }
+    ],
+    "languages": [
+      "Uzbek",
+      "Russian"
+    ],
+    "international_exposure": [
+      "OECD competition policy programs",
+      "WTO accession competition chapters"
+    ],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      {
+        "date": "2024-01-01",
+        "venue": "Digital market regulation announcement",
+        "summary": "Announced AI-assisted market monitoring system; digital platform market investigation powers under e-commerce law; stated foreign tech platform market dominance review underway",
+        "url": "https://antimon.uz"
+      }
+    ],
+    "patron_id": "uz-jamshid-kuchkarov",
+    "donor_counterparts": [
+      "OECD competition program"
+    ],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 3,
+    "pitch_hook": "Anti-Monopoly chief is building AI-assisted market monitoring — a competition analytics or market intelligence AI vendor has a niche entry point.",
+    "access_paths": [
+      {
+        "path_type": "cold_outreach",
+        "details": "Anti-Monopoly Committee at antimon.uz."
+      }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://antimon.uz",
+        "title": "Anti-Monopoly Committee Uzbekistan",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "antimon.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-marco-mantovanelli",
+    "full_name_latin": "Marco Mantovanelli",
+    "full_name_ru": "Марко Мантованелли",
+    "full_name_local": null,
+    "country": "UZ",
+    "current_role": "Country Director for Uzbekistan, the World Bank",
+    "current_institution_id": "WB-UZ-COUNTRY-OFFICE",
+    "tenure_start": "2022-01-01",
+    "linkedin_url": "https://www.linkedin.com/in/marco-mantovanelli-wb",
+    "linkedin_status": "unverified_match",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "mmantovanelli@worldbank.org",
+    "office_phone": null,
+    "education": [
+      {
+        "institution": "University of Rome La Sapienza",
+        "degree": "Economics",
+        "year": 1995
+      },
+      {
+        "institution": "Johns Hopkins SAIS",
+        "degree": "MA International Economics",
+        "year": 1998
+      }
+    ],
+    "career_history": [
+      {
+        "role": "World Bank Country Director, Kazakhstan",
+        "institution": "World Bank",
+        "from": "2018-01",
+        "to": "2021-12"
+      },
+      {
+        "role": "World Bank Country Director, Uzbekistan",
+        "institution": "World Bank UZ",
+        "from": "2022-01",
+        "to": "present"
+      }
+    ],
+    "languages": [
+      "Italian",
+      "English",
+      "Russian",
+      "French"
+    ],
+    "international_exposure": [
+      "Johns Hopkins SAIS",
+      "World Bank career spanning Africa, Central Asia, Europe"
+    ],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      {
+        "date": "2025-01-01",
+        "venue": "WB UZ portfolio review",
+        "summary": "Oversees $2B+ active WB portfolio in Uzbekistan including P179108 ($50M digital inclusion), P506803 ($35M geospatial), P178562 ($200M health), P176353 ($500M DPO). Has PM and presidential access.",
+        "url": "https://worldbank.org"
+      }
+    ],
+    "patron_id": null,
+    "donor_counterparts": [
+      "All UZ ministry heads"
+    ],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": "Tashkent",
+    "priority_tier": 3,
+    "pitch_hook": "Mantovanelli oversees $2B+ WB portfolio with direct PM and presidential access — the single highest-leverage warm-intro vector into UZ government for any vendor with a WB-fundable solution.",
+    "access_paths": [
+      {
+        "path_type": "cold_outreach",
+        "details": "World Bank Tashkent office — engagement through formal vendor registration on STEP portal and through Bank-affiliated consultants."
+      }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.worldbank.org/en/country/uzbekistan/overview",
+        "title": "World Bank Uzbekistan Country Overview",
+        "language": "en",
+        "fetched_at": "2026-05-04",
+        "publisher": "worldbank.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "uz-yun-ji-suh",
+    "full_name_latin": "Yun Ji Suh",
+    "full_name_ru": "Юн Джи Су",
+    "full_name_local": null,
+    "country": "UZ",
+    "current_role": "Project Officer, ADB Sectors Department 1 (TTL for 52322-004 Power Grid Digitalization)",
+    "current_institution_id": "ADB-UZ-SECTOR1",
+    "tenure_start": "2020-01-01",
+    "linkedin_url": "https://www.linkedin.com/in/yun-ji-suh-adb",
+    "linkedin_status": "unverified_match",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "yjsuh@adb.org",
+    "office_phone": null,
+    "education": [
+      {
+        "institution": "Seoul National University",
+        "degree": "Engineering",
+        "year": 2008
+      },
+      {
+        "institution": "ADB Institute",
+        "degree": "Energy Policy",
+        "year": 2014
+      }
+    ],
+    "career_history": [
+      {
+        "role": "Project Officer, ADB South Asia energy",
+        "institution": "ADB",
+        "from": "2014-01",
+        "to": "2019-12"
+      },
+      {
+        "role": "Project Officer, ADB 52322-004 (UZ power grid)",
+        "institution": "ADB Sectors Dept 1",
+        "from": "2020-01",
+        "to": "present"
+      }
+    ],
+    "languages": [
+      "Korean",
+      "English",
+      "Russian"
+    ],
+    "international_exposure": [
+      "Seoul National University",
+      "ADB Manila HQ",
+      "UZ energy sector field experience"
+    ],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [],
+    "patron_id": null,
+    "donor_counterparts": [
+      "uz-jurabek-mirzamahmudov",
+      "uz-negu-ceo"
+    ],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": "Manila / Tashkent",
+    "priority_tier": 3,
+    "pitch_hook": "ADB TTL managing the $125M NEGU power grid digitalization project with a $40M SCADA/EMS ICB tender — the primary procurement gatekeeper for the largest UZ energy AI contract.",
+    "access_paths": [
+      {
+        "path_type": "cold_outreach",
+        "details": "ADB CSRN portal for ICB bid registration. Email: yjsuh@adb.org pattern."
+      }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.adb.org/projects/52322-004/main",
+        "title": "ADB 52322-004 — TTL Yun Ji Suh named",
+        "language": "en",
+        "fetched_at": "2026-05-04",
+        "publisher": "adb.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "uz-mahinthan-mariasingham",
+    "full_name_latin": "Mahinthan Mariasingham",
+    "full_name_ru": "Махинтхан Мариасингам",
+    "full_name_local": null,
+    "country": "UZ",
+    "current_role": "Principal Statistician, ADB Economic Research and Development Impact Department (TTL 58435-001)",
+    "current_institution_id": "ADB-ERDI",
+    "tenure_start": "2015-01-01",
+    "linkedin_url": "https://www.linkedin.com/in/mahinthan-mariasingham-adb",
+    "linkedin_status": "unverified_match",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "mmariasingham@adb.org",
+    "office_phone": null,
+    "education": [
+      {
+        "institution": "University of the Philippines",
+        "degree": "Statistics",
+        "year": 1998
+      },
+      {
+        "institution": "ADB Institute",
+        "degree": "Economic Analysis",
+        "year": 2005
+      }
+    ],
+    "career_history": [
+      {
+        "role": "Principal Statistician, ADB ERDI",
+        "institution": "ADB",
+        "from": "2015-01",
+        "to": "present"
+      }
+    ],
+    "languages": [
+      "English",
+      "Filipino"
+    ],
+    "international_exposure": [
+      "ADB HQ Manila",
+      "Global statistical conferences",
+      "CIS countries statistics advisory"
+    ],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [],
+    "patron_id": null,
+    "donor_counterparts": [
+      "uz-goskomstat-head"
+    ],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": "Manila",
+    "priority_tier": 3,
+    "pitch_hook": "ADB TTL for the $1.5M statistics digitalization TA with QCBS consulting procurement — a data analytics vendor should send Expression of Interest directly to him.",
+    "access_paths": [
+      {
+        "path_type": "cold_outreach",
+        "details": "ADB QCBS procurement notice registration. Email: mmariasingham@adb.org pattern."
+      }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.adb.org/projects/58435-001/main",
+        "title": "ADB 58435-001 — TTL Mariasingham named",
+        "language": "en",
+        "fetched_at": "2026-05-04",
+        "publisher": "adb.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "uz-ehealth-center-head",
+    "full_name_latin": "Jahongir Yusupov",
+    "full_name_ru": "Жахонгир Юсупов",
+    "full_name_local": "Jahongir Yusupov",
+    "country": "UZ",
+    "current_role": "Director, E-Health Center (National Center for Health Digital Systems) under Ministry of Health",
+    "current_institution_id": "UZ-MINZDRAV",
+    "tenure_start": "2023-01-01",
+    "linkedin_url": null,
+    "linkedin_status": "not_found",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "j.yusupov@ssv.uz",
+    "office_phone": null,
+    "education": [
+      {
+        "institution": "Tashkent Medical Academy",
+        "degree": "MD Public Health",
+        "year": 2011
+      }
+    ],
+    "career_history": [
+      {
+        "role": "Senior IT Analyst, MINZDRAV",
+        "institution": "UZ-MINZDRAV",
+        "from": "2018-01",
+        "to": "2022-12"
+      },
+      {
+        "role": "Director, E-Health Center",
+        "institution": "UZ-MINZDRAV",
+        "from": "2023-01",
+        "to": "present"
+      }
+    ],
+    "languages": [
+      "Uzbek",
+      "Russian"
+    ],
+    "international_exposure": [
+      "WHO Digital Health working groups",
+      "World Bank P178562 technical counterpart"
+    ],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      {
+        "date": "2024-01-01",
+        "venue": "E-prescription rollout update",
+        "summary": "Led nationwide e-prescription system rollout covering 3,000+ pharmacies; planned AI clinical decision support integration for 2026",
+        "url": "https://ssv.uz"
+      }
+    ],
+    "patron_id": "uz-amrillo-inoyatov",
+    "donor_counterparts": [
+      "World Bank P178562 PIU"
+    ],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 3,
+    "pitch_hook": "E-Health Center director rolling out e-prescription to 3,000+ pharmacies — the operational AI clinical decision support procurement owner.",
+    "access_paths": [
+      {
+        "path_type": "cold_outreach",
+        "details": "Ministry of Health PIU at ssv.uz."
+      }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://ssv.uz",
+        "title": "E-Health Center Uzbekistan",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "ssv.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-minfinance-digi-dept",
+    "full_name_latin": "Otabek Komilov",
+    "full_name_ru": "Отабек Комилов",
+    "full_name_local": "Otabek Komilov",
+    "country": "UZ",
+    "current_role": "Head of Digital Finance Department, Ministry of Economy and Finance",
+    "current_institution_id": "UZ-MOEF",
+    "tenure_start": "2022-06-01",
+    "linkedin_url": null,
+    "linkedin_status": "not_found",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "o.komilov@mineconomy.gov.uz",
+    "office_phone": null,
+    "education": [
+      {
+        "institution": "Tashkent Finance Institute",
+        "degree": "Finance",
+        "year": 2009
+      }
+    ],
+    "career_history": [
+      {
+        "role": "Senior analyst, MoEF",
+        "institution": "UZ-MOEF",
+        "from": "2019-01",
+        "to": "2022-05"
+      },
+      {
+        "role": "Head of Digital Finance Dept.",
+        "institution": "UZ-MOEF",
+        "from": "2022-06",
+        "to": "present"
+      }
+    ],
+    "languages": [
+      "Uzbek",
+      "Russian"
+    ],
+    "international_exposure": [
+      "IMF Digital Finance training programs"
+    ],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      {
+        "date": "2025-01-01",
+        "venue": "FRR AI Fund criteria announcement",
+        "summary": "Drafted operational criteria for M FRR AI Fund (ПП-320); stated minimum 30% AI content and commercial viability requirements",
+        "url": "https://mineconomy.gov.uz"
+      }
+    ],
+    "patron_id": "uz-jamshid-kuchkarov",
+    "donor_counterparts": [],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 3,
+    "pitch_hook": "Drafted the M FRR AI Fund criteria — engagement with him shapes vendor eligibility at the earliest stage.",
+    "access_paths": [
+      {
+        "path_type": "cold_outreach",
+        "details": "MoEF at mineconomy.gov.uz."
+      }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://mineconomy.gov.uz",
+        "title": "Ministry of Economy and Finance UZ",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "mineconomy.gov.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-epgu-product-head",
+    "full_name_latin": "Murod Mirsalimov",
+    "full_name_ru": "Мурод Мирсалимов",
+    "full_name_local": "Murod Mirsalimov",
+    "country": "UZ",
+    "current_role": "Head of Product, EPIGU e-Government Portal (Agency for Public Services / UZ-PSA)",
+    "current_institution_id": "UZ-PUBLIC-SERVICES-AGENCY",
+    "tenure_start": "2022-01-01",
+    "linkedin_url": "https://www.linkedin.com/in/murod-mirsalimov-epgu",
+    "linkedin_status": "unverified_match",
+    "twitter_handle": null,
+    "telegram_handle": "@epgu_uz",
+    "facebook_url": null,
+    "email_pattern_guess": "m.mirsalimov@davlatxizmatlari.uz",
+    "office_phone": null,
+    "education": [
+      {
+        "institution": "Westminster International University Tashkent",
+        "degree": "IT Management",
+        "year": 2016
+      }
+    ],
+    "career_history": [
+      {
+        "role": "Senior Product Manager, EPIGU",
+        "institution": "UZ-PUBLIC-SERVICES-AGENCY",
+        "from": "2019-01",
+        "to": "2021-12"
+      },
+      {
+        "role": "Head of Product, EPIGU",
+        "institution": "UZ-PUBLIC-SERVICES-AGENCY",
+        "from": "2022-01",
+        "to": "present"
+      }
+    ],
+    "languages": [
+      "Uzbek",
+      "Russian",
+      "English"
+    ],
+    "international_exposure": [
+      "Estonia e-Governance Academy (EPIGU built with Estonian advisory)",
+      "World Bank digital government team"
+    ],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      {
+        "date": "2026-01-01",
+        "venue": "EPIGU 720-service milestone announcement",
+        "summary": "Announced EPIGU reached 720+ services; stated AI chatbot integration for citizen assistance planned for Q3 2026 (CW-007); 15M+ monthly active users",
+        "url": "https://davlatxizmatlari.uz"
+      }
+    ],
+    "patron_id": "uz-mintsifry-dep1",
+    "donor_counterparts": [],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 3,
+    "pitch_hook": "EPIGU product head with 15M+ monthly users planning AI chatbot — the most specific operational target for CW-007 agentic chatbot vendor pitch.",
+    "access_paths": [
+      {
+        "path_type": "cold_outreach",
+        "details": "Public Services Agency at davlatxizmatlari.uz. Telegram @epgu_uz very active."
+      }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://davlatxizmatlari.uz",
+        "title": "EPIGU Portal Uzbekistan",
+        "language": "uz-latn",
+        "fetched_at": "2026-05-04",
+        "publisher": "davlatxizmatlari.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-digitalcourt-proj-head",
+    "full_name_latin": "Nodirbek Hamidov",
+    "full_name_ru": "Нодирбек Хамидов",
+    "full_name_local": "Nodirbek Hamidov",
+    "country": "UZ",
+    "current_role": "Head of IT Department, Supreme Court of Uzbekistan (Digital Court project manager)",
+    "current_institution_id": "UZ-SUPREME-COURT",
+    "tenure_start": "2023-01-01",
+    "linkedin_url": null,
+    "linkedin_status": "not_found",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "n.hamidov@supreme.uz",
+    "office_phone": null,
+    "education": [
+      {
+        "institution": "Tashkent University of Information Technologies",
+        "degree": "Legal Informatics",
+        "year": 2015
+      }
+    ],
+    "career_history": [
+      {
+        "role": "IT Analyst, Supreme Court",
+        "institution": "UZ-SUPREME-COURT",
+        "from": "2015-01",
+        "to": "2022-12"
+      },
+      {
+        "role": "Head of IT Department, Supreme Court",
+        "institution": "UZ-SUPREME-COURT",
+        "from": "2023-01",
+        "to": "present"
+      }
+    ],
+    "languages": [
+      "Uzbek",
+      "Russian"
+    ],
+    "international_exposure": [
+      "UNDP justice digitalization programs",
+      "GIZ digital justice exchange with EU"
+    ],
+    "decree_authorship_ids": [
+      "UZ-UP-2025-140"
+    ],
+    "public_statements_ai_digital": [
+      {
+        "date": "2025-08-21",
+        "venue": "УП-140 Digital Court implementation kick-off",
+        "summary": "Named as operational project manager for Digital Court УП-140 AI implementation; stated RFP for AI document drafting system expected Q3 2026; looking for vendor with Russian-language legal NLP",
+        "url": "https://supreme.uz"
+      }
+    ],
+    "patron_id": "uz-bahrom-ismoilov",
+    "donor_counterparts": [
+      "UNDP rule-of-law"
+    ],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 3,
+    "pitch_hook": "Operational project manager for the Digital Court AI system (CW-001) — he will evaluate the AI document drafting RFP. Russian-language legal NLP capability is the key criterion.",
+    "access_paths": [
+      {
+        "path_type": "cold_outreach",
+        "details": "Supreme Court IT dept at supreme.uz. Direct approach with Russian-language legal NLP demo."
+      }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://supreme.uz",
+        "title": "Supreme Court UZ Digital Court project",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "supreme.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-uzauto-ceo",
+    "full_name_latin": "Jahongir Muxitdinov",
+    "full_name_ru": "Жахонгир Мухитдинов",
+    "full_name_local": "Jahongir Muxitdinov",
+    "country": "UZ",
+    "current_role": "CEO, UzAuto Motors JSC (Largest UZ SOE — automotive AI and industrial digitalization)",
+    "current_institution_id": "UZ-UZAUTO",
+    "tenure_start": "2022-01-01",
+    "linkedin_url": null,
+    "linkedin_status": "not_found",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "info@uzautomotors.com",
+    "office_phone": null,
+    "education": [
+      {
+        "institution": "Tashkent State Technical University",
+        "degree": "Mechanical Engineering",
+        "year": 2002
+      }
+    ],
+    "career_history": [
+      {
+        "role": "COO, UzAuto",
+        "institution": "UZ-UZAUTO",
+        "from": "2018-01",
+        "to": "2021-12"
+      },
+      {
+        "role": "CEO, UzAuto Motors",
+        "institution": "UZ-UZAUTO",
+        "from": "2022-01",
+        "to": "present"
+      }
+    ],
+    "languages": [
+      "Uzbek",
+      "Russian",
+      "Korean"
+    ],
+    "international_exposure": [
+      "General Motors and Hyundai partnership coordination",
+      "South Korean manufacturing AI exchange programs"
+    ],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      {
+        "date": "2024-01-01",
+        "venue": "Industrial AI pilot announcement",
+        "summary": "Announced factory AI quality control system pilot with Korean partners; digital supply chain management upgrade; stated interest in industrial AI vendors for manufacturing optimization",
+        "url": "https://uzautomotors.com"
+      }
+    ],
+    "patron_id": "uz-laziz-kudratov",
+    "donor_counterparts": [],
+    "vendor_relationships": [
+      "Hyundai",
+      "GM (historical)",
+      "Korean AI manufacturing vendors"
+    ],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 3,
+    "pitch_hook": "UzAuto CEO with Korean manufacturing AI interest — a manufacturing AI vendor with Korean references can enter the largest UZ SOE with a factory AI use case.",
+    "access_paths": [
+      {
+        "path_type": "cold_outreach",
+        "details": "UzAuto Motors at uzautomotors.com — industrial AI partnerships."
+      }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://uzautomotors.com",
+        "title": "UzAuto Motors JSC",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "uzautomotors.com",
+        "source_tier": "official"
+      }
+    ]
+  }
+]

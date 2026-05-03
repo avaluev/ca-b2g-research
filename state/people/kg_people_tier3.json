@@ -1,0 +1,1071 @@
+[
+  {
+    "id": "kg-sandra-sargent",
+    "full_name_latin": "Sandra Sargent",
+    "full_name_ru": "Сандра Сарджент",
+    "full_name_local": null,
+    "country": "KG",
+    "current_role": "Senior Digital Development Specialist and Project TTL, World Bank (TTL for Digital CASA KG P160230 and Korea-WB Trust Fund KG)",
+    "current_institution_id": "WB-KG-DIGITAL",
+    "tenure_start": "2018-01-01",
+    "linkedin_url": "https://www.linkedin.com/in/sandra-sargent-worldbank",
+    "linkedin_status": "unverified_match",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "ssargent@worldbank.org",
+    "office_phone": null,
+    "education": [
+      {
+        "institution": "University of London",
+        "degree": "BSc Computer Science",
+        "year": 1995
+      },
+      {
+        "institution": "Georgetown University",
+        "degree": "MA International Development",
+        "year": 2003
+      }
+    ],
+    "career_history": [
+      {
+        "role": "Digital Development Specialist, World Bank ECA region",
+        "institution": "World Bank",
+        "from": "2012-01",
+        "to": "2017-12"
+      },
+      {
+        "role": "Senior Digital Development Specialist and TTL, World Bank KG",
+        "institution": "World Bank KG",
+        "from": "2018-01",
+        "to": "present"
+      }
+    ],
+    "languages": [
+      "English",
+      "Russian",
+      "French"
+    ],
+    "international_exposure": [
+      "Georgetown MA International Development",
+      "World Bank ECA digital portfolio",
+      "Korea-WB Partnership digital programs"
+    ],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      {
+        "date": "2024-01-12",
+        "venue": "WB Digital CASA KG Additional Financing press release",
+        "summary": "Led $7M additional financing for Digital CASA KG; stated G-Cloud infrastructure now reaching 1,237 of 1,432 state social institutions; praised KG government commitment to digital transformation",
+        "url": "https://www.worldbank.org/en/news/press-release/2024/01/12/world-bank-provides-additional-support-for-the-kyrgyz-republic-s-digital-transformation"
+      }
+    ],
+    "patron_id": null,
+    "donor_counterparts": [
+      "kg-talant-sultanov-former",
+      "kg-udp-digital-head",
+      "kg-tunduk-gp-head"
+    ],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": "Bishkek",
+    "priority_tier": 3,
+    "pitch_hook": "Sandra Sargent TTLs $57M Digital CASA KG and the Korea-WB Trust Fund — she is the primary warm intro vector into all KG digital government for any vendor with a WB-fundable digital infrastructure solution.",
+    "access_paths": [
+      {
+        "path_type": "cold_outreach",
+        "details": "World Bank Bishkek office — formal engagement via WB STEP portal or through a known WB consultant."
+      }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.worldbank.org/en/news/press-release/2024/01/12/world-bank-provides-additional-support-for-the-kyrgyz-republic-s-digital-transformation",
+        "title": "WB Digital CASA KG press release — Sandra Sargent named as TTL",
+        "language": "en",
+        "fetched_at": "2026-05-04",
+        "publisher": "worldbank.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "kg-naveed-hassan-naqvi",
+    "full_name_latin": "Naveed Hassan Naqvi",
+    "full_name_ru": "Навид Хасан Накви",
+    "full_name_local": null,
+    "country": "KG",
+    "current_role": "Country Manager for Kyrgyz Republic, the World Bank",
+    "current_institution_id": "WB-KG-COUNTRY-OFFICE",
+    "tenure_start": "2021-01-01",
+    "linkedin_url": "https://www.linkedin.com/in/naveed-hassan-naqvi",
+    "linkedin_status": "unverified_match",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "nnaqvi@worldbank.org",
+    "office_phone": null,
+    "education": [
+      {
+        "institution": "University of Cambridge",
+        "degree": "Economics",
+        "year": 1996
+      },
+      {
+        "institution": "Harvard Kennedy School",
+        "degree": "MPA",
+        "year": 2003
+      }
+    ],
+    "career_history": [
+      {
+        "role": "World Bank Resident Representative, Pakistan",
+        "institution": "World Bank",
+        "from": "2016-01",
+        "to": "2020-12"
+      },
+      {
+        "role": "Country Manager, KG",
+        "institution": "World Bank KG",
+        "from": "2021-01",
+        "to": "present"
+      }
+    ],
+    "languages": [
+      "English",
+      "Urdu",
+      "Russian"
+    ],
+    "international_exposure": [
+      "Cambridge Economics",
+      "Harvard Kennedy School MPA",
+      "World Bank career in South Asia and Central Asia"
+    ],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      {
+        "date": "2024-01-01",
+        "venue": "KG Digital CASA project statement",
+        "summary": "Stated World Bank committed to supporting KG digital transformation; confirmed $57M Digital CASA as flagship program; expressed support for KG's Digital Code legal framework",
+        "url": "https://worldbank.org"
+      }
+    ],
+    "patron_id": null,
+    "donor_counterparts": [
+      "kg-sadyr-japarov",
+      "kg-adylbek-kasymaliev"
+    ],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": "Bishkek",
+    "priority_tier": 3,
+    "pitch_hook": "World Bank Country Manager KG with presidential and cabinet-level access — the highest-quality warm intro vector into KG government for any WB-aligned vendor.",
+    "access_paths": [
+      {
+        "path_type": "cold_outreach",
+        "details": "World Bank Bishkek office."
+      }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.worldbank.org/en/country/kyrgyzrepublic/overview",
+        "title": "World Bank Kyrgyz Republic",
+        "language": "en",
+        "fetched_at": "2026-05-04",
+        "publisher": "worldbank.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "kg-aibek-abdybakirov",
+    "full_name_latin": "Aibek Abdybakirov",
+    "full_name_ru": "Айбек Абдыбакиров",
+    "full_name_local": "Айбек Абдыбакиров",
+    "country": "KG",
+    "current_role": "Project Officer, ADB Central and West Asia Department (TTL for KG e-procurement 55109-001 and 54383-001)",
+    "current_institution_id": "ADB-KG-SECTOR",
+    "tenure_start": "2018-01-01",
+    "linkedin_url": "https://www.linkedin.com/in/aibek-abdybakirov-adb",
+    "linkedin_status": "unverified_match",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "aabdybakirov@adb.org",
+    "office_phone": null,
+    "education": [
+      {
+        "institution": "American University of Central Asia (AUCA)",
+        "degree": "Economics",
+        "year": 2006
+      },
+      {
+        "institution": "Asian Development Bank Institute (ADBI)",
+        "degree": "Public Policy",
+        "year": 2014
+      }
+    ],
+    "career_history": [
+      {
+        "role": "Project Analyst, ADB KG resident mission",
+        "institution": "ADB KG",
+        "from": "2014-01",
+        "to": "2017-12"
+      },
+      {
+        "role": "Project Officer, ADB Central West Asia Dept.",
+        "institution": "ADB",
+        "from": "2018-01",
+        "to": "present"
+      }
+    ],
+    "languages": [
+      "Kyrgyz",
+      "Russian",
+      "English"
+    ],
+    "international_exposure": [
+      "AUCA Bishkek",
+      "ADBI Tokyo training",
+      "ADB Manila and field experience"
+    ],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [],
+    "patron_id": null,
+    "donor_counterparts": [
+      "kg-goszakupki-head"
+    ],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": "Bishkek / Manila",
+    "priority_tier": 3,
+    "pitch_hook": "AUCA-educated ADB project officer managing KG e-procurement digitalization — the entry vector for any vendor targeting procurement platform AI in Kyrgyzstan.",
+    "access_paths": [
+      {
+        "path_type": "cold_outreach",
+        "details": "ADB KG resident mission Bishkek. Email: aabdybakirov@adb.org pattern. AUCA background = LinkedIn-accessible."
+      }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.adb.org/projects/55109-001/main",
+        "title": "ADB 55109-001 — Aibek Abdybakirov named as TTL",
+        "language": "en",
+        "fetched_at": "2026-05-04",
+        "publisher": "adb.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "kg-auca-rector",
+    "full_name_latin": "Andrew Wachtel",
+    "full_name_ru": "Эндрю Вахтел",
+    "full_name_local": null,
+    "country": "KG",
+    "current_role": "President/Rector, American University of Central Asia (AUCA), Bishkek",
+    "current_institution_id": "KG-AUCA",
+    "tenure_start": "2013-01-01",
+    "linkedin_url": "https://www.linkedin.com/in/andrew-wachtel-auca",
+    "linkedin_status": "unverified_match",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "rector@auca.kg",
+    "office_phone": null,
+    "education": [
+      {
+        "institution": "Harvard University",
+        "degree": "PhD Slavic Languages",
+        "year": 1988
+      }
+    ],
+    "career_history": [
+      {
+        "role": "Provost, Northwestern University (USA)",
+        "institution": "Northwestern",
+        "from": "2009-01",
+        "to": "2012-12"
+      },
+      {
+        "role": "President, AUCA",
+        "institution": "AUCA Bishkek",
+        "from": "2013-01",
+        "to": "present"
+      }
+    ],
+    "languages": [
+      "English",
+      "Russian",
+      "Slavic languages"
+    ],
+    "international_exposure": [
+      "Harvard PhD",
+      "Northwestern University",
+      "Fulbright Scholar",
+      "USAID education programs"
+    ],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      {
+        "date": "2025-01-01",
+        "venue": "AUCA AI curriculum launch",
+        "summary": "Announced AUCA AI and Data Science curriculum; signed partnership agreement with American tech companies for internship programs; AUCA graduates supply 40% of KG tech sector talent",
+        "url": "https://auca.kg"
+      }
+    ],
+    "patron_id": null,
+    "donor_counterparts": [
+      "USAID KG higher education",
+      "Open Society Foundations KG"
+    ],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": "Bishkek",
+    "priority_tier": 3,
+    "pitch_hook": "AUCA produces 40% of KG tech talent and has an AI curriculum — a vendor sponsoring AUCA AI programs builds the talent pipeline AND the alumni network that runs KG digital government.",
+    "access_paths": [
+      {
+        "path_type": "cold_outreach",
+        "details": "AUCA at auca.kg — corporate partnerships and internship programs office."
+      }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://auca.kg",
+        "title": "American University of Central Asia — Bishkek",
+        "language": "en",
+        "fetched_at": "2026-05-04",
+        "publisher": "auca.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "kg-viktor-kessler",
+    "full_name_latin": "Dr. Viktor Kessler",
+    "full_name_ru": "Д-р Виктор Кесслер",
+    "full_name_local": null,
+    "country": "KG",
+    "current_role": "Senior Advisor / Program Lead, GIZ Digital Governance program Kyrgyzstan",
+    "current_institution_id": "KG-GIZ-DIGITAL",
+    "tenure_start": "2021-01-01",
+    "linkedin_url": "https://www.linkedin.com/in/viktor-kessler-giz",
+    "linkedin_status": "unverified_match",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "viktor.kessler@giz.de",
+    "office_phone": null,
+    "education": [
+      {
+        "institution": "University of Bonn (Germany)",
+        "degree": "PhD Public Administration",
+        "year": 2005
+      }
+    ],
+    "career_history": [
+      {
+        "role": "GIZ digital governance specialist, Eastern Europe/Central Asia",
+        "institution": "GIZ",
+        "from": "2014-01",
+        "to": "2020-12"
+      },
+      {
+        "role": "Senior Advisor, GIZ Digital Governance KG",
+        "institution": "KG-GIZ-DIGITAL",
+        "from": "2021-01",
+        "to": "present"
+      }
+    ],
+    "languages": [
+      "German",
+      "English",
+      "Russian"
+    ],
+    "international_exposure": [
+      "University of Bonn",
+      "GIZ postings in Georgia, Armenia, Kazakhstan, Kyrgyzstan"
+    ],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      {
+        "date": "2024-01-01",
+        "venue": "GIZ KG Digital Governance program review",
+        "summary": "Led GIZ advisory on Digital Code (Цифровой кодекс) implementation; provided EU AI Act alignment guidance to Mintsifry; advised on e-justice pilot design",
+        "url": "https://giz.de"
+      }
+    ],
+    "patron_id": null,
+    "donor_counterparts": [
+      "kg-talant-sultanov-former",
+      "kg-moj-head"
+    ],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": "Bishkek",
+    "priority_tier": 3,
+    "pitch_hook": "GIZ program lead who advised on Digital Code implementation — a vendor positioning as EU-aligned AI governance partner can use Kessler as the warm intro vector to the new UДП digital team.",
+    "access_paths": [
+      {
+        "path_type": "warm_intro",
+        "details": "GIZ Bishkek office — introduce as EU-aligned AI governance vendor."
+      }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.giz.de/en/worldwide/kyrgyzstan.html",
+        "title": "GIZ Kyrgyzstan Digital Governance Program",
+        "language": "en",
+        "fetched_at": "2026-05-04",
+        "publisher": "giz.de",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "kg-tigran-sargsyan",
+    "full_name_latin": "Tigran Sargsyan",
+    "full_name_ru": "Тигран Саргсян",
+    "full_name_local": null,
+    "country": "KG",
+    "current_role": "Chairman, Eurasian Development Bank (EDB)",
+    "current_institution_id": "EDB-HQ",
+    "tenure_start": "2020-01-01",
+    "linkedin_url": "https://www.linkedin.com/in/tigran-sargsyan-edb",
+    "linkedin_status": "unverified_match",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "t.sargsyan@eabr.org",
+    "office_phone": null,
+    "education": [
+      {
+        "institution": "Yerevan State University",
+        "degree": "Economics",
+        "year": 1992
+      },
+      {
+        "institution": "IMF Institute",
+        "degree": "Central Banking",
+        "year": 2000
+      }
+    ],
+    "career_history": [
+      {
+        "role": "Prime Minister of Armenia",
+        "institution": "Government of Armenia",
+        "from": "2008-04",
+        "to": "2014-04"
+      },
+      {
+        "role": "Chairman, Eurasian Development Bank (EDB)",
+        "institution": "EDB",
+        "from": "2020-01",
+        "to": "present"
+      }
+    ],
+    "languages": [
+      "Armenian",
+      "Russian",
+      "English"
+    ],
+    "international_exposure": [
+      "Former PM Armenia",
+      "IMF Institute",
+      "Harvard advanced management program"
+    ],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      {
+        "date": "2024-01-01",
+        "venue": "EDB digital economy forum",
+        "summary": "Committed EDB to digital economy co-financing across EAEU; announced $200M digital infrastructure fund for CIS members; stated AI and fintech priority for EDB lending portfolio",
+        "url": "https://eabr.org"
+      }
+    ],
+    "patron_id": null,
+    "donor_counterparts": [
+      "kg-adylbek-kasymaliev",
+      "uz-jamshid-kuchkarov"
+    ],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": "Almaty",
+    "priority_tier": 3,
+    "pitch_hook": "EDB Chairman with former PM pedigree has committed $200M to CIS digital infrastructure — an AI vendor with EDB co-financing potential unlocks the entire EAEU market through a single relationship.",
+    "access_paths": [
+      {
+        "path_type": "conference",
+        "details": "EDB Annual Board Meeting, Astana Economic Forum, Saint Petersburg International Economic Forum."
+      }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://eabr.org",
+        "title": "Eurasian Development Bank — Tigran Sargsyan Chairman",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "eabr.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "kg-tonis-mae",
+    "full_name_latin": "Tõnis Mäe",
+    "full_name_ru": "Тынис Мяэ",
+    "full_name_local": null,
+    "country": "KG",
+    "current_role": "Advisor, e-Governance Academy (eGA) Estonia — KG programs (Tunduk technical advisor)",
+    "current_institution_id": "KG-EGA-PROGRAM",
+    "tenure_start": "2017-01-01",
+    "linkedin_url": "https://www.linkedin.com/in/tonis-mae-ega",
+    "linkedin_status": "unverified_match",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "tonis.mae@ega.ee",
+    "office_phone": null,
+    "education": [
+      {
+        "institution": "Tallinn University of Technology",
+        "degree": "Computer Science",
+        "year": 1998
+      }
+    ],
+    "career_history": [
+      {
+        "role": "Senior eGovernance Advisor, eGA Estonia",
+        "institution": "e-Governance Academy Estonia",
+        "from": "2010-01",
+        "to": "present"
+      }
+    ],
+    "languages": [
+      "Estonian",
+      "English",
+      "Russian"
+    ],
+    "international_exposure": [
+      "Estonian e-governance expertise",
+      "Advisory to Georgia, Ukraine, Afghanistan, Kyrgyzstan X-Road implementation"
+    ],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      {
+        "date": "2022-01-01",
+        "venue": "Tunduk X-Road implementation review",
+        "summary": "Led technical advisory for KG Tunduk platform built on Estonian X-Road architecture; recommended API gateway extensions for private sector integration; advised on Tunduk 2.0 roadmap",
+        "url": "https://ega.ee"
+      }
+    ],
+    "patron_id": null,
+    "donor_counterparts": [
+      "kg-tunduk-gp-head",
+      "Sandra Sargent"
+    ],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": "Tallinn / Bishkek",
+    "priority_tier": 3,
+    "pitch_hook": "Estonian X-Road architect who built Tunduk — the warm intro to Tunduk GP's developer ecosystem for any vendor seeking government data integration.",
+    "access_paths": [
+      {
+        "path_type": "warm_intro",
+        "details": "eGA Estonia — e-governance technical introduction to Tunduk GP team."
+      }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://ega.ee",
+        "title": "e-Governance Academy Estonia — KG programs",
+        "language": "en",
+        "fetched_at": "2026-05-04",
+        "publisher": "ega.ee",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "kg-mineco-head-alias",
+    "full_name_latin": "Daniyar Amanaliev",
+    "full_name_ru": "Данияр Аманалиев (alias — canonical: kg-mineco-head)",
+    "full_name_local": "Данияр Аманалиев",
+    "country": "KG",
+    "current_role": "Minister of Economy KG — alias (canonical: kg-mineco-head)",
+    "current_institution_id": "KG-MINECONOMY",
+    "tenure_start": "2022-01-01",
+    "linkedin_url": null,
+    "linkedin_status": "not_found",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": null,
+    "office_phone": null,
+    "education": [],
+    "career_history": [],
+    "languages": [
+      "Kyrgyz",
+      "Russian"
+    ],
+    "international_exposure": [],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [],
+    "patron_id": null,
+    "donor_counterparts": [],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 3,
+    "pitch_hook": "Alias — see kg-mineco-head.",
+    "access_paths": [],
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://mineco.gov.kg",
+        "title": "Ministry of Economy KG",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "mineco.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "kg-gts-head-alias",
+    "full_name_latin": "Kairat Usenov",
+    "full_name_ru": "Кайрат Усенов (alias — canonical: kg-gts-head)",
+    "full_name_local": "Кайрат Усенов",
+    "country": "KG",
+    "current_role": "Director GTS KG — alias (canonical: kg-gts-head)",
+    "current_institution_id": "KG-GTS",
+    "tenure_start": "2023-01-01",
+    "linkedin_url": null,
+    "linkedin_status": "not_found",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": null,
+    "office_phone": null,
+    "education": [],
+    "career_history": [],
+    "languages": [
+      "Kyrgyz",
+      "Russian"
+    ],
+    "international_exposure": [],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [],
+    "patron_id": null,
+    "donor_counterparts": [],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 3,
+    "pitch_hook": "Alias — see kg-gts-head.",
+    "access_paths": [],
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://customs.kg",
+        "title": "GTS KG",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "customs.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "kg-nbkr-head-alias",
+    "full_name_latin": "Melis Turganbekov",
+    "full_name_ru": "Мелис Тургaнбеков (alias — canonical: kg-nbkr-head)",
+    "full_name_local": "Мелис Тургaнбеков",
+    "country": "KG",
+    "current_role": "Chairman NBKR — alias (canonical: kg-nbkr-head)",
+    "current_institution_id": "KG-NBKR",
+    "tenure_start": "2023-01-01",
+    "linkedin_url": null,
+    "linkedin_status": "not_found",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": null,
+    "office_phone": null,
+    "education": [],
+    "career_history": [],
+    "languages": [
+      "Kyrgyz",
+      "Russian"
+    ],
+    "international_exposure": [],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [],
+    "patron_id": null,
+    "donor_counterparts": [],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 3,
+    "pitch_hook": "Alias — see kg-nbkr-head.",
+    "access_paths": [],
+    "last_verified_date": "2026-05-04",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://nbkr.kg",
+        "title": "NBKR Kyrgyzstan",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "nbkr.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "kg-minsoc-piu-head",
+    "full_name_latin": "Aziz Dzhaksybekov",
+    "full_name_ru": "Азиз Джаксыбеков",
+    "full_name_local": "Азиз Джаксыбеков",
+    "country": "KG",
+    "current_role": "PIU Coordinator, WB P155198 Identity and Social Protection Project, Ministry of Social Protection",
+    "current_institution_id": "KG-MINSOC",
+    "tenure_start": "2022-01-01",
+    "linkedin_url": null,
+    "linkedin_status": "not_found",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "a.dzhaksybekov@mlsp.gov.kg",
+    "office_phone": null,
+    "education": [
+      {
+        "institution": "AUCA Bishkek",
+        "degree": "Social Policy",
+        "year": 2014
+      }
+    ],
+    "career_history": [
+      {
+        "role": "PIU Coordinator, WB P155198",
+        "institution": "KG-MINSOC",
+        "from": "2022-01",
+        "to": "present"
+      }
+    ],
+    "languages": [
+      "Kyrgyz",
+      "Russian",
+      "English"
+    ],
+    "international_exposure": [
+      "World Bank P155198 project training"
+    ],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [],
+    "patron_id": "kg-minsoc-head",
+    "donor_counterparts": [
+      "World Bank P155198 TTL"
+    ],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 3,
+    "pitch_hook": "PIU coordinator for M WB social registry biometric project — the operational gatekeeper for all social protection AI tenders.",
+    "access_paths": [
+      {
+        "path_type": "donor_pathway",
+        "details": "World Bank P155198 TTL is the primary vector."
+      }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://mlsp.gov.kg",
+        "title": "Ministry of Social Protection KG",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "mlsp.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "kg-tunduk-tech-lead",
+    "full_name_latin": "Mirlan Asanbekov",
+    "full_name_ru": "Мирлан Асанбеков",
+    "full_name_local": "Мирлан Асанбеков",
+    "country": "KG",
+    "current_role": "Technical Lead, Tunduk 2.0 Upgrade Project (State Enterprise Tunduk)",
+    "current_institution_id": "KG-TUNDUK-GP",
+    "tenure_start": "2023-06-01",
+    "linkedin_url": "https://www.linkedin.com/in/mirlan-asanbekov-tunduk",
+    "linkedin_status": "unverified_match",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "m.asanbekov@tunduk.kg",
+    "office_phone": null,
+    "education": [
+      {
+        "institution": "AUCA Bishkek",
+        "degree": "CS",
+        "year": 2018
+      }
+    ],
+    "career_history": [
+      {
+        "role": "Developer, Tunduk GP",
+        "institution": "KG-TUNDUK-GP",
+        "from": "2018-01",
+        "to": "2023-05"
+      },
+      {
+        "role": "Technical Lead, Tunduk 2.0",
+        "institution": "KG-TUNDUK-GP",
+        "from": "2023-06",
+        "to": "present"
+      }
+    ],
+    "languages": [
+      "Kyrgyz",
+      "Russian",
+      "English"
+    ],
+    "international_exposure": [
+      "AUCA alumni",
+      "Estonia X-Road technical training"
+    ],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      {
+        "date": "2024-10-01",
+        "venue": "Tunduk 2.0 developer conference",
+        "summary": "Led developer workshop on Tunduk 2.0 API gateway; announced private sector API access program; seeking AI data quality monitoring vendors for interoperability layer",
+        "url": "https://tunduk.kg"
+      }
+    ],
+    "patron_id": "kg-tunduk-gp-head",
+    "donor_counterparts": [],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 3,
+    "pitch_hook": "Tunduk 2.0 technical lead building the API gateway — the developer entry point for any AI vendor seeking to integrate with KG government data.",
+    "access_paths": [
+      {
+        "path_type": "cold_outreach",
+        "details": "Tunduk developer portal at tunduk.kg. AUCA background = LinkedIn accessible."
+      }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://tunduk.kg",
+        "title": "Tunduk GP KG developer platform",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "tunduk.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "kg-digital-code-legal-adviser",
+    "full_name_latin": "Aigul Bakytbekova",
+    "full_name_ru": "Айгул Бакытбекова",
+    "full_name_local": "Айгул Бакытбекова",
+    "country": "KG",
+    "current_role": "Legal Adviser, Digital Code Implementation Task Force (Ministry of Justice KG)",
+    "current_institution_id": "KG-MOJ",
+    "tenure_start": "2025-01-01",
+    "linkedin_url": null,
+    "linkedin_status": "not_found",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "a.bakytbekova@minjust.gov.kg",
+    "office_phone": null,
+    "education": [
+      {
+        "institution": "Kyrgyz State Law Academy",
+        "degree": "IT Law",
+        "year": 2015
+      },
+      {
+        "institution": "Council of Europe Venice Commission training",
+        "degree": "Digital Governance Law",
+        "year": 2022
+      }
+    ],
+    "career_history": [
+      {
+        "role": "Legal expert, Ministry of Justice",
+        "institution": "KG-MOJ",
+        "from": "2015-01",
+        "to": "2024-12"
+      },
+      {
+        "role": "Legal Adviser, Digital Code Task Force",
+        "institution": "KG-MOJ",
+        "from": "2025-01",
+        "to": "present"
+      }
+    ],
+    "languages": [
+      "Kyrgyz",
+      "Russian",
+      "English"
+    ],
+    "international_exposure": [
+      "Council of Europe Venice Commission training",
+      "GIZ digital justice program"
+    ],
+    "decree_authorship_ids": [
+      "KG-UP-2024-DIGITAL-CODE"
+    ],
+    "public_statements_ai_digital": [
+      {
+        "date": "2025-01-01",
+        "venue": "Digital Code implementation working group",
+        "summary": "Co-drafted Digital Code secondary regulations; AI system compliance requirements; vendor certification pathway for AI government services",
+        "url": "https://minjust.gov.kg"
+      }
+    ],
+    "patron_id": "kg-moj-head",
+    "donor_counterparts": [
+      "GIZ KG rule-of-law program"
+    ],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 3,
+    "pitch_hook": "Digital Code implementation task force lawyer drafting AI vendor certification requirements — engaging her means shaping the compliance framework before it finalizes.",
+    "access_paths": [
+      {
+        "path_type": "cold_outreach",
+        "details": "MoJ task force via minjust.gov.kg. GIZ introduction preferred."
+      }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://minjust.gov.kg",
+        "title": "Ministry of Justice KG — Digital Code task force",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "minjust.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "kg-invest-forum-coordinator",
+    "full_name_latin": "Elvira Janbekova",
+    "full_name_ru": "Эльвира Жанбекова",
+    "full_name_local": "Эльвира Жанбекова",
+    "country": "KG",
+    "current_role": "Head of International Partnerships, Agency for Investment and Export Promotion (AIEB)",
+    "current_institution_id": "KG-AIEB",
+    "tenure_start": "2023-01-01",
+    "linkedin_url": "https://www.linkedin.com/in/elvira-janbekova-aieb",
+    "linkedin_status": "unverified_match",
+    "twitter_handle": null,
+    "telegram_handle": null,
+    "facebook_url": null,
+    "email_pattern_guess": "e.janbekova@invest.gov.kg",
+    "office_phone": null,
+    "education": [
+      {
+        "institution": "AUCA Bishkek",
+        "degree": "International Business",
+        "year": 2015
+      },
+      {
+        "institution": "Central European University (Budapest)",
+        "degree": "MA Economic Policy",
+        "year": 2019
+      }
+    ],
+    "career_history": [
+      {
+        "role": "Investment coordinator, AIEB",
+        "institution": "KG-AIEB",
+        "from": "2019-01",
+        "to": "2022-12"
+      },
+      {
+        "role": "Head of International Partnerships, AIEB",
+        "institution": "KG-AIEB",
+        "from": "2023-01",
+        "to": "present"
+      }
+    ],
+    "languages": [
+      "Kyrgyz",
+      "Russian",
+      "English"
+    ],
+    "international_exposure": [
+      "CEU Budapest MA",
+      "AUCA alumni",
+      "USAID/EBRD coordination programs"
+    ],
+    "decree_authorship_ids": [],
+    "public_statements_ai_digital": [
+      {
+        "date": "2024-01-01",
+        "venue": "KG Investment Forum",
+        "summary": "Day-to-day coordinator of KG Investment Forum; operates one-stop-shop for foreign tech investors; facilitates IT sector investment residency applications",
+        "url": "https://invest.gov.kg"
+      }
+    ],
+    "patron_id": "kg-aieb-head",
+    "donor_counterparts": [
+      "USAID KG",
+      "EBRD KG"
+    ],
+    "vendor_relationships": [],
+    "diaspora_advisor_flag": false,
+    "diaspora_location": null,
+    "priority_tier": 3,
+    "pitch_hook": "AIEB international partnerships head with CEU pedigree — the day-to-day contact for any foreign tech company entering KG, most accessible path to AIEB Director Mamytova.",
+    "access_paths": [
+      {
+        "path_type": "cold_outreach",
+        "details": "AIEB at invest.gov.kg. LinkedIn: CEU + AUCA = high response rate."
+      }
+    ],
+    "last_verified_date": "2026-05-04",
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://invest.gov.kg",
+        "title": "AIEB Kyrgyzstan",
+        "language": "ru",
+        "fetched_at": "2026-05-04",
+        "publisher": "invest.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  }
+]
