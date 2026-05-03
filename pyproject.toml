@@ -50,6 +50,15 @@ Homepage = "https://avaluev.github.io/ca-b2g-research"
 Repository = "https://github.com/avaluev/ca-b2g-research"
 Issues = "https://github.com/avaluev/ca-b2g-research/issues"
 
+[tool.setuptools]
+py-modules = []
+
+[tool.setuptools.packages.find]
+where = ["scripts"]
+include = []
+exclude = ["state*", "outputs*", "docs*", "tests*", "ca-b2g-research*"]
+namespaces = false
+
 [tool.ruff]
 line-length = 100
 target-version = "py310"
