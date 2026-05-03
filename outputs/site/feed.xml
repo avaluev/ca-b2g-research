@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Central Asia B2G Intelligence</title>
+  <id>https://avaluev.github.io/ca-b2g-research/</id>
+  <link href="https://avaluev.github.io/ca-b2g-research/"/>
+  <link rel="self" href="https://avaluev.github.io/ca-b2g-research/feed.xml"/>
+  <updated>2026-05-03T23:43:00.130969+00:00</updated>
+  <author><name>Alexandr Valuev</name><email>valuev.alexandr@gmail.com</email></author>
+  <subtitle>AI and digital government opportunity research for Uzbekistan and Kyrgyzstan.</subtitle>
+  <entry>
+    <title>Kyrgyzstan — Decree Atlas</title>
+    <id>https://avaluev.github.io/ca-b2g-research/decrees/kg/</id>
+    <link href="https://avaluev.github.io/ca-b2g-research/decrees/kg/"/>
+    <updated>2026-05-03T23:43:00.130969+00:00</updated>
+    <summary>Decrees and resolutions on AI and digital government in Kyrgyzstan, with implementation half-life status.</summary>
+  </entry>
+  <entry>
+    <title>Uzbekistan — Decree Atlas</title>
+    <id>https://avaluev.github.io/ca-b2g-research/decrees/uz/</id>
+    <link href="https://avaluev.github.io/ca-b2g-research/decrees/uz/"/>
+    <updated>2026-05-03T23:43:00.130969+00:00</updated>
+    <summary>Decrees and resolutions on AI and digital government in Uzbekistan, with implementation half-life status.</summary>
+  </entry>
+  <entry>
+    <title>Donor pipeline (WB · ADB · EU · others)</title>
+    <id>https://avaluev.github.io/ca-b2g-research/donors/</id>
+    <link href="https://avaluev.github.io/ca-b2g-research/donors/"/>
+    <updated>2026-05-03T23:43:00.130969+00:00</updated>
+    <summary>Active and pipeline donor programmes funding AI and digital government in Uzbekistan and Kyrgyzstan, with TTL/PM and government counterpart for each.</summary>
+  </entry>
+  <entry>
+    <title>Honesty: what we did not find</title>
+    <id>https://avaluev.github.io/ca-b2g-research/honesty/</id>
+    <link href="https://avaluev.github.io/ca-b2g-research/honesty/"/>
+    <updated>2026-05-03T23:43:00.130969+00:00</updated>
+    <summary>The known gaps, dead-end pathways, and opaque domains in this research. Honesty as a first-class output.</summary>
+  </entry>
+  <entry>
+    <title>Central Asia B2G Intelligence — Uzbekistan + Kyrgyzstan A...</title>
+    <id>https://avaluev.github.io/ca-b2g-research/</id>
+    <link href="https://avaluev.github.io/ca-b2g-research/"/>
+    <updated>2026-05-03T23:43:00.130969+00:00</updated>
+    <summary>Open research on B2G AI and digital-government opportunities in Uzbekistan + Kyrgyzstan: 100+ initiatives mapped to decrees, donors, decision-makers, and pre...</summary>
+  </entry>
+  <entry>
+    <title>Initiative top 100 — Tier-A B2G deals</title>
+    <id>https://avaluev.github.io/ca-b2g-research/initiatives/</id>
+    <link href="https://avaluev.github.io/ca-b2g-research/initiatives/"/>
+    <updated>2026-05-03T23:43:00.130969+00:00</updated>
+    <summary>100 deployable AI/digital government initiatives in Uzbekistan and Kyrgyzstan, scored on five axes, with 28 Tier-A deal-ready opportunities.</summary>
+  </entry>
+  <entry>
+    <title>Institution map (UZ + KG)</title>
+    <id>https://avaluev.github.io/ca-b2g-research/institutions/</id>
+    <link href="https://avaluev.github.io/ca-b2g-research/institutions/"/>
+    <updated>2026-05-03T23:43:00.130969+00:00</updated>
+    <summary>Eight-tier institution taxonomy covering AI/digital state bodies in Uzbekistan and Kyrgyzstan.</summary>
+  </entry>
+  <entry>
+    <title>The five analytical lenses</title>
+    <id>https://avaluev.github.io/ca-b2g-research/lenses/</id>
+    <link href="https://avaluev.github.io/ca-b2g-research/lenses/"/>
+    <updated>2026-05-03T23:43:00.130969+00:00</updated>
+    <summary>The six lenses applied to every record in this research: Karimov Inversion, Japarov Concentration, Decree Half-Life, Donor Co-Financing, Diaspora Bridge, Rus...</summary>
+  </entry>
+  <entry>
+    <title>Methodology</title>
+    <id>https://avaluev.github.io/ca-b2g-research/methodology/</id>
+    <link href="https://avaluev.github.io/ca-b2g-research/methodology/"/>
+    <updated>2026-05-03T23:43:00.130969+00:00</updated>
+    <summary>The seven-wave eleven-agent research pipeline behind Central Asia B2G Intelligence.</summary>
+  </entry>
+  <entry>
+    <title>Solopreneur MVPs (UZ + KG)</title>
+    <id>https://avaluev.github.io/ca-b2g-research/mvp/</id>
+    <link href="https://avaluev.github.io/ca-b2g-research/mvp/"/>
+    <updated>2026-05-03T23:43:00.130969+00:00</updated>
+    <summary>200 solopreneur-bootstrappable MVP ideas across Both countries, scored on demand clarity, speed-to-MVR, monetization, founder feasibility, and local market fit.</summary>
+  </entry>
+  <entry>
+    <title>Solopreneur MVPs — Kyrgyzstan</title>
+    <id>https://avaluev.github.io/ca-b2g-research/mvp/kg/</id>
+    <link href="https://avaluev.github.io/ca-b2g-research/mvp/kg/"/>
+    <updated>2026-05-03T23:43:00.130969+00:00</updated>
+    <summary>100 solopreneur-bootstrappable MVP ideas across Kyrgyzstan, scored on demand clarity, speed-to-MVR, monetization, founder feasibility, and local market fit.</summary>
+  </entry>
+  <entry>
+    <title>Solopreneur MVPs — Uzbekistan</title>
+    <id>https://avaluev.github.io/ca-b2g-research/mvp/uz/</id>
+    <link href="https://avaluev.github.io/ca-b2g-research/mvp/uz/"/>
+    <updated>2026-05-03T23:43:00.130969+00:00</updated>
+    <summary>100 solopreneur-bootstrappable MVP ideas across Uzbekistan, scored on demand clarity, speed-to-MVR, monetization, founder feasibility, and local market fit.</summary>
+  </entry>
+  <entry>
+    <title>Decision-makers (UZ + KG)</title>
+    <id>https://avaluev.github.io/ca-b2g-research/people/</id>
+    <link href="https://avaluev.github.io/ca-b2g-research/people/"/>
+    <updated>2026-05-03T23:43:00.130969+00:00</updated>
+    <summary>117 named decision-makers across Uzbekistan and Kyrgyzstan with mandate over AI/digital procurement, plus diaspora advisors.</summary>
+  </entry>
+  <entry>
+    <title>Live procurement (UZ + KG)</title>
+    <id>https://avaluev.github.io/ca-b2g-research/procurement/</id>
+    <link href="https://avaluev.github.io/ca-b2g-research/procurement/"/>
+    <updated>2026-05-03T23:43:00.130969+00:00</updated>
+    <summary>Live and forthcoming AI/digital government tenders in Uzbekistan and Kyrgyzstan, with win probability and incumbent risk annotations.</summary>
+  </entry>
+  <entry>
+    <title>Provenance and audit trail</title>
+    <id>https://avaluev.github.io/ca-b2g-research/provenance/</id>
+    <link href="https://avaluev.github.io/ca-b2g-research/provenance/"/>
+    <updated>2026-05-03T23:43:00.130969+00:00</updated>
+    <summary>Every claim&#x27;s source, every cross-model verification card, every audit finding — public and reproducible.</summary>
+  </entry>
+  <entry>
+    <title>Scoring rubric</title>
+    <id>https://avaluev.github.io/ca-b2g-research/scoring/</id>
+    <link href="https://avaluev.github.io/ca-b2g-research/scoring/"/>
+    <updated>2026-05-03T23:43:00.130969+00:00</updated>
+    <summary>The five-axis weighted scoring rubric for every initiative: Speed-to-Contract, Strategic Moat, Defensibility, Capital Access, Russian/CIS Fit.</summary>
+  </entry>
+  <entry>
+    <title>Sectoral trends</title>
+    <id>https://avaluev.github.io/ca-b2g-research/trends/</id>
+    <link href="https://avaluev.github.io/ca-b2g-research/trends/"/>
+    <updated>2026-05-03T23:43:00.130969+00:00</updated>
+    <summary>61 AI and digital government trends across 12 sectors in Uzbekistan and Kyrgyzstan, with lens annotations.</summary>
+  </entry>
+</feed>

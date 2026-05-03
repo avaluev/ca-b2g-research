@@ -1,0 +1,28 @@
+# Central Asia B2G Intelligence
+
+> Open research on B2G AI and digital-government opportunities in Uzbekistan + Kyrgyzstan. Typed knowledge graph mapping decrees, institutions, decision-makers, donor programmes, and global precedents to deployable initiatives. Apache 2.0.
+
+## Pillar pages
+
+- [Kyrgyzstan — Decree Atlas](https://avaluev.github.io/ca-b2g-research/decrees/kg/) — Decrees and resolutions on AI and digital government in Kyrgyzstan, with implementation half-life status.
+- [Uzbekistan — Decree Atlas](https://avaluev.github.io/ca-b2g-research/decrees/uz/) — Decrees and resolutions on AI and digital government in Uzbekistan, with implementation half-life status.
+- [Donor pipeline (WB · ADB · EU · others)](https://avaluev.github.io/ca-b2g-research/donors/) — Active and pipeline donor programmes funding AI and digital government in Uzbekistan and Kyrgyzstan, with TTL/PM and government counterpart for each.
+- [Honesty: what we did not find](https://avaluev.github.io/ca-b2g-research/honesty/) — The known gaps, dead-end pathways, and opaque domains in this research. Honesty as a first-class output.
+- [Central Asia B2G Intelligence — Uzbekistan + Kyrgyzstan A...](https://avaluev.github.io/ca-b2g-research/) — Open research on B2G AI and digital-government opportunities in Uzbekistan + Kyrgyzstan: 100+ initiatives mapped to decrees, donors, decision-makers, and pre...
+- [Initiative top 100 — Tier-A B2G deals](https://avaluev.github.io/ca-b2g-research/initiatives/) — 100 deployable AI/digital government initiatives in Uzbekistan and Kyrgyzstan, scored on five axes, with 28 Tier-A deal-ready opportunities.
+- [Institution map (UZ + KG)](https://avaluev.github.io/ca-b2g-research/institutions/) — Eight-tier institution taxonomy covering AI/digital state bodies in Uzbekistan and Kyrgyzstan.
+- [The five analytical lenses](https://avaluev.github.io/ca-b2g-research/lenses/) — The six lenses applied to every record in this research: Karimov Inversion, Japarov Concentration, Decree Half-Life, Donor Co-Financing, Diaspora Bridge, Rus...
+- [Methodology](https://avaluev.github.io/ca-b2g-research/methodology/) — The seven-wave eleven-agent research pipeline behind Central Asia B2G Intelligence.
+- [Solopreneur MVPs (UZ + KG)](https://avaluev.github.io/ca-b2g-research/mvp/) — 200 solopreneur-bootstrappable MVP ideas across Both countries, scored on demand clarity, speed-to-MVR, monetization, founder feasibility, and local market fit.
+- [Solopreneur MVPs — Kyrgyzstan](https://avaluev.github.io/ca-b2g-research/mvp/kg/) — 100 solopreneur-bootstrappable MVP ideas across Kyrgyzstan, scored on demand clarity, speed-to-MVR, monetization, founder feasibility, and local market fit.
+- [Solopreneur MVPs — Uzbekistan](https://avaluev.github.io/ca-b2g-research/mvp/uz/) — 100 solopreneur-bootstrappable MVP ideas across Uzbekistan, scored on demand clarity, speed-to-MVR, monetization, founder feasibility, and local market fit.
+- [Decision-makers (UZ + KG)](https://avaluev.github.io/ca-b2g-research/people/) — 117 named decision-makers across Uzbekistan and Kyrgyzstan with mandate over AI/digital procurement, plus diaspora advisors.
+- [Live procurement (UZ + KG)](https://avaluev.github.io/ca-b2g-research/procurement/) — Live and forthcoming AI/digital government tenders in Uzbekistan and Kyrgyzstan, with win probability and incumbent risk annotations.
+- [Provenance and audit trail](https://avaluev.github.io/ca-b2g-research/provenance/) — Every claim's source, every cross-model verification card, every audit finding — public and reproducible.
+- [Scoring rubric](https://avaluev.github.io/ca-b2g-research/scoring/) — The five-axis weighted scoring rubric for every initiative: Speed-to-Contract, Strategic Moat, Defensibility, Capital Access, Russian/CIS Fit.
+- [Sectoral trends](https://avaluev.github.io/ca-b2g-research/trends/) — 61 AI and digital government trends across 12 sectors in Uzbekistan and Kyrgyzstan, with lens annotations.
+
+## Source code
+
+- [GitHub repository](https://github.com/avaluev/ca-b2g-research)
+- [Apache 2.0 License](https://github.com/avaluev/ca-b2g-research/blob/main/LICENSE)

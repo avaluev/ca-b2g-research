@@ -412,7 +412,7 @@ def scoring_page(rubric_md: str) -> str:
 
 def decrees_page(graph: dict[str, Any], country: str) -> str:
     decrees = [d for d in graph.get("decrees", []) or [] if d.get("country") == country]
-    decrees = sorted(decrees, key=lambda d: d.get("date", ""), reverse=True)
+    decrees = sorted(decrees, key=lambda d: d.get("date") or "", reverse=True)
     n = len(decrees)
     active = sum(1 for d in decrees if d.get("half_life_status") == "active_window")
     cname = "Uzbekistan" if country == "UZ" else "Kyrgyzstan"

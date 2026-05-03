@@ -1,36 +1,110 @@
 {
-  "pages_checked": 22,
-  "total_issues": 4,
+  "pages_checked": 904,
+  "total_issues": 16,
   "by_severity": {
-    "WARN": 4
+    "WARN": 1,
+    "ERROR": 15
   },
   "by_gate": {
-    "11_country_source": 4
+    "02_no_internal_id_leak": 1,
+    "04_decree_fabrication": 15
   },
   "issues": [
     {
-      "gate": "11_country_source",
+      "gate": "02_no_internal_id_leak",
       "severity": "WARN",
-      "page": "outputs/site/mvp/uz/index.html",
-      "detail": "page tagged country=UZ but no priority RU/UZ/KY-domain source linked"
+      "page": "outputs/site/honesty/index.html",
+      "detail": "internal IDs in prose: INI-001"
     },
     {
-      "gate": "11_country_source",
-      "severity": "WARN",
-      "page": "outputs/site/mvp/kg/index.html",
-      "detail": "page tagged country=KG but no priority RU/UZ/KY-domain source linked"
-    },
-    {
-      "gate": "11_country_source",
-      "severity": "WARN",
+      "gate": "04_decree_fabrication",
+      "severity": "ERROR",
       "page": "outputs/site/decrees/uz/index.html",
-      "detail": "page tagged country=UZ but no priority RU/UZ/KY-domain source linked"
+      "detail": "decree UZ-PP-2025-051 not in state/decrees/"
     },
     {
-      "gate": "11_country_source",
-      "severity": "WARN",
+      "gate": "04_decree_fabrication",
+      "severity": "ERROR",
+      "page": "outputs/site/decrees/uz/index.html",
+      "detail": "decree UZ-PP-2024-303 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_fabrication",
+      "severity": "ERROR",
       "page": "outputs/site/decrees/kg/index.html",
-      "detail": "page tagged country=KG but no priority RU/UZ/KY-domain source linked"
+      "detail": "decree KG-LAW-2026-003 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_fabrication",
+      "severity": "ERROR",
+      "page": "outputs/site/decrees/kg/index.html",
+      "detail": "decree KG-UP-2025-350 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_fabrication",
+      "severity": "ERROR",
+      "page": "outputs/site/decrees/kg/index.html",
+      "detail": "decree KG-UP-2025-327 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_fabrication",
+      "severity": "ERROR",
+      "page": "outputs/site/decrees/kg/index.html",
+      "detail": "decree KG-LAW-2025-178 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_fabrication",
+      "severity": "ERROR",
+      "page": "outputs/site/decrees/kg/index.html",
+      "detail": "decree KG-LAW-2025-179 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_fabrication",
+      "severity": "ERROR",
+      "page": "outputs/site/decrees/kg/index.html",
+      "detail": "decree KG-LAW-2025-074 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_fabrication",
+      "severity": "ERROR",
+      "page": "outputs/site/decrees/kg/index.html",
+      "detail": "decree KG-LAW-2025-028 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_fabrication",
+      "severity": "ERROR",
+      "page": "outputs/site/decrees/kg/index.html",
+      "detail": "decree KG-LAW-2024-121 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_fabrication",
+      "severity": "ERROR",
+      "page": "outputs/site/decrees/kg/index.html",
+      "detail": "decree KG-UP-2024-090 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_fabrication",
+      "severity": "ERROR",
+      "page": "outputs/site/decrees/kg/index.html",
+      "detail": "decree KG-LAW-2022-012 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_fabrication",
+      "severity": "ERROR",
+      "page": "outputs/site/decrees/kg/index.html",
+      "detail": "decree KG-LAW-2021-101 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_fabrication",
+      "severity": "ERROR",
+      "page": "outputs/site/decrees/kg/index.html",
+      "detail": "decree KG-UP-2018-200 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_fabrication",
+      "severity": "ERROR",
+      "page": "outputs/site/decrees/kg/index.html",
+      "detail": "decree KG-UP-2018-201 not in state/decrees/"
     }
   ]
 }

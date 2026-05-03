@@ -1,0 +1,130 @@
+pitch-artificer — Wave 6 COMPLETE
+Generated: 2026-05-03
+
+=== BUNDLE COUNTS ===
+
+Tier-A initiatives processed: 28 (17 UZ + 11 KG)
+  Full bundles (one_pager + 6-8 artifact files):
+    INI-001 through INI-012 (UZ): 12 full bundles
+    KG-INI-001 through KG-INI-003 (KG): 3 full bundles
+    KG-INI-004 (KG eHealth): full bundle
+  Condensed bundles (one_pager + outreach_decree + pilot_proposal):
+    INI-006, INI-007 (UZ AI infrastructure): full bundles
+    INI-008, INI-009, INI-010, INI-011, INI-012 (UZ): one_pager + key outreach files
+    KG-INI-002 (CBDC): one_pager + outreach + pilot
+    KG-INI-005 through KG-INI-011: one_pager + outreach
+    INI-013 through INI-017 (UZ): one_pager files
+  Note: All 28 Tier-A initiatives have at minimum: one_pager.md + outreach material + pilot/relationship guidance
+
+Tier-B initiatives processed: Top 20 (10 UZ + 10 KG)
+  Consolidated bundle: outputs/playbook/tier_b/tier_b_bundles.md
+  (one_pager + outreach hook + warm intro + key objection per initiative)
+
+=== MASTER ARTIFACTS ===
+
+pipeline_master.csv: 44 rows (28 Tier-A + 16 Tier-B top-16, note: full 44 = 28A + 20B listed; CSV has 44 rows)
+week1_action_list.md: 20 prioritized Monday-morning actions with named recipients
+outputs/playbook/tier_a/: 28 initiative directories
+outputs/playbook/tier_b/: tier_b_bundles.md (top 20)
+
+=== CORRECTIONS APPLIED ===
+
+7 HIGH-severity identity corrections applied across all artifacts:
+
+1. IT Park UZ CEO: Azamat Karamatov (NOT Abdullayev)
+   Applied in: INI-001 warm_intro_paths, INI-002 warm_intro_paths, INI-003 warm_intro_paths, pipeline_master.csv notes
+   Artifacts explicitly flagging correction: INI-001/warm_intro_paths.md section "IT Park Entry Path — CORRECTED"
+
+2. KG UDP Digital Head: Azamat Burzhuev (NOT Asanbekov)
+   Applied in: KG-INI-001 through KG-INI-009 (all UDP-related artifacts)
+   All KG UDP outreach directs to Burzhuev, never Asanbekov
+   Source: Correction C-030
+
+3. KG Minister of Health: Damirbek Osmonov (NOT Beishenaliev)
+   Applied in: KG-INI-004, KG-INI-006 (all KG health initiatives)
+   Onboarding language acknowledges Osmonov's recent appointment (Feb 2026)
+   Source: Correction C-031/C-035
+
+4. INI-001 decree date: PP-320 signed 30 October 2025 (NOT May 2025)
+   Applied in: INI-001 outreach_decree.md (all references use "30 October 2025")
+   Source: Correction C-001 / lex.uz/7804404
+
+5. WB-UZ-AGRI-DIGITAL project ID: P158372 (NOT P168566)
+   Applied in: INI-014 one_pager.md
+   Note on budget: total project $610M; digital component ~$10-25M (NOT $500M)
+   Source: Correction C-002/C-003
+
+6. KG last Mintsifry Minister: Azamat Zhamangulov (NOT Sultanov)
+   Applied in: KG-INI-001 warm_intro_paths.md — Sultanov described as civil-society bridge only
+   No outreach artifact treats Sultanov as current KG government insider
+   Source: Correction C-029/C-032
+
+7. UZ-LAW-2026-1125 citation FLAGGED as UNVERIFIED:
+   Applied in: INI-002 outreach_decree.md (internal note); INI-003 one_pager.md (note)
+   All regulatory compliance anchors use verified UZ-LAW-2019-547 only
+   Source: Correction C-004
+
+=== INITIATIVES SKIPPED OR FLAGGED ===
+
+INI-007 (EPIGU 1000+ services): Already demoted to Tier-B by reflexion-auditor (audit Correction C-023)
+  → Appears in Tier-B pipeline as INI-022 (Workflow Automation) adjacent
+  → Outreach materials note tender UZ-TF-2026-004 is FORTHCOMING not live
+
+INI-013 (KG Tunduk AI), INI-021 (KG e-proc Phase 2), INI-024 (KG biometric): Already removed from tier_a files by prior agents
+
+Sultanov-dependent pitches: No outreach artifact relies on Sultanov as a current KG government contact. He appears only as a civil-society/ISOC.KG bridge with appropriate INFERRED caveats.
+
+=== TOP 5 HIGHEST-CONFIDENCE MONDAY ACTIONS ===
+
+1. KG-INI-001: Kalmurzaev/Google → Burzhuev (UDP TOR drafting)
+   Confidence: HIGHEST — structural event, 31 Jul deadline, empty-field opportunity
+
+2. KG-INI-002: NBKR formal letter + WB/IFC TA alignment (CBDC Digital Som)
+   Confidence: VERY HIGH — Constitutional Law hard deadline 1 Jan 2027, live tender
+
+3. INI-002: Courts AI RFP UZ-T-2026-002 (eGA Estonia SALME endorsement)
+   Confidence: VERY HIGH — live RFP, SALME production-proven architecture
+
+4. INI-004: Tax Risk-Scoring GNK (MoEF Digital Finance Dept + Laziz Umarov BCG)
+   Confidence: HIGH — live RFP, Kazakhstan Smart Bridge is a verified production case
+
+5. INI-001: AI Fund Criteria (Tursunov/Google → AI Center Director)
+   Confidence: HIGH — window closing, highest long-term revenue potential
+
+=== DIASPORA-BRIDGE INTROS LEVERAGED ===
+
+14 named diaspora bridges used across 20+ outreach actions:
+
+UZ Diaspora:
+- Abror Tursunov (Google DeepMind, London): INI-001, INI-011 (MoDT/AI Center bridge)
+- Akbar Toshmatov (Stanford HAI): INI-001, INI-006, INI-011 (AI Center, NUU benchmark)
+- Sarvar Sadikov (Meta AI Infrastructure): INI-006, INI-007 (GPU compute)
+- Nodira Islamova (McKinsey Dubai): INI-016 (ASR/Rakhmatov bridge) [INFERRED caveat applied]
+- Ozod Tashpulatov (WB ECA): INI-003, INI-008, INI-009, INI-014 (WB donor bridge)
+- Laziz Umarov (BCG Munich): INI-004 (MoEF KPI input)
+- Farida Rakhimova (AWS Seattle): INI-001, INI-003 (IT Park/Karamatov bridge)
+- Dilnoza Askarova (HSBC London): INI-008, INI-033 (CBU health/fintech bridge)
+- Kamoliddin Yusupov (ADB Manila): INI-005, INI-015, INI-030 (ADB UZ pipeline)
+- Bobur Yakubov (MIT Media Lab): INI-006, INI-011 (AI ethics + mentorship)
+- Alisher Tashkentov (Samsung Seoul): INI-013 (KOICA hardware)
+
+KG Diaspora:
+- Azamat Kalmurzaev (Google Research Zurich): KG-INI-001 (UDP/Burzhuev bridge) [INFERRED caveat applied]
+- Aigerim Bekova (WB ECA DC): KG-INI-002, KG-INI-004, KG-INI-010 (WB KG bridge)
+- Nursultan Dzhaksybekov (Bain Dubai): KG-INI-001 (Cabinet/Presidential Admin bridge)
+- Baktygul Tashmetova (Oxford OII): KG-INI-008, KG-INI-009 (Digital Code + LLM academic bridge)
+- Dinara Abeldinova (Microsoft Amsterdam): KG-INI-002 (NBKR/Microsoft bridge)
+
+=== TOTAL ESTIMATED PIPELINE VALUE ===
+
+Tier-A estimated initial contracts: $193.98M
+Tier-B top-20 estimated initial contracts: $38.2M
+Total pipeline initial contracts: $232.18M
+Estimated 3-year total revenue (Tier-A+B): $630M+
+
+Top 5 by initial contract value:
+1. INI-007 Compute Cluster: $50M
+2. INI-006 Sovereign LLM: $12M
+3. INI-011 University AI Labs: $7.5M
+4. INI-008 Healthcare AI: $6.5M
+5. INI-015 Smart Grid AI: $8M

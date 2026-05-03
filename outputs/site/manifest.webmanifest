@@ -1,0 +1,12 @@
+{
+  "name": "Central Asia B2G Intelligence",
+  "short_name": "CA B2G",
+  "description": "Open research on B2G AI and digital government opportunities in Uzbekistan + Kyrgyzstan.",
+  "start_url": "/",
+  "display": "minimal-ui",
+  "background_color": "#ffffff",
+  "theme_color": "#0a4d34",
+  "icons": [
+    {"src": "/favicon.svg", "type": "image/svg+xml", "sizes": "any"}
+  ]
+}

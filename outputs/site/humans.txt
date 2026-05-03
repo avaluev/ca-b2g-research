@@ -1,0 +1,9 @@
+# Central Asia B2G Intelligence
+
+Author: Alexandr Valuev
+Contact: valuev.alexandr@gmail.com
+GitHub: https://github.com/avaluev
+Site: https://avaluev.github.io/ca-b2g-research
+License: Apache 2.0
+
+This research is open. Pull requests welcome.

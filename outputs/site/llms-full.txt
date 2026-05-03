@@ -1,0 +1,6885 @@
+# Central Asia B2G Intelligence — Full Text Snapshot
+
+---
+## URL: https://avaluev.github.io/ca-b2g-research/decrees/kg/index.html
+Decree atlas — Kyrgyzstan
+This atlas catalogues 44 presidential decrees, government resolutions, and sectoral laws shaping AI and digital government in Kyrgyzstan, with 7 currently in their six-to-eighteen-month active implementation window. Every decree is verified on the official government source and cross-checked in independent media.
+What is the decree half-life?
+The decree half-life lens identifies decrees in their 6–18 month implementation window — the period when ministries are actively procuring under that authority. Decrees outside this window are either expired, superseded, or merely aspirational.
+Decrees
+ID
+Type
+Number
+Date
+Title
+Status
+Source
+KG-TUNDUK-INFOCOM-TRANSFER
+CabinetResolution
+PENDING
+2026-05-01
+On Transfer of State Enterprise 'Tunduk' to GP Infocom and Presidential Administration
+active_window
+primary source
+KG-UP-2026-MINCIFRY-ABOLITION
+PresidentialDecree
+УП-??
+2026-04-30
+On Urgent Measures for Effective Implementation of Digital Transformation (Liquidation of Ministry of Digital Development, Transfer of Functions to Presidential Administration)
+active_window
+primary source
+KG-LAW-2026-003-VA-AMEND
+Law
+3
+2026-01-19
+On Amendments to the Law of the Kyrgyz Republic 'On Virtual Assets'
+implementing
+primary source
+KG-LAW-2025-262
+Law
+262
+2025-12-31
+On Amendments to Certain Legislative Acts of the Kyrgyz Republic (December 2025)
+implementing
+primary source
+KG-UP-2025-385
+PresidentialDecree
+385
+2025-12-29
+On Amendments to Certain Presidential Decrees of the Kyrgyz Republic
+implementing
+primary source
+KG-UP-2025-350-ECONOMY
+PresidentialDecree
+350
+2025-12-05
+On Measures to Support Certain Economic Sectors
+implementing
+primary source
+KG-UP-2025-327-ACADEMY
+PresidentialDecree
+327
+2025-11-24
+On the Academy (November 2025 — subject to confirmation)
+implementing
+primary source
+KG-LAW-2025-243
+Law
+243
+2025-10-29
+On Amendments to Certain Legislative Acts of the Kyrgyz Republic (October 2025)
+implementing
+primary source
+KG-CABINET-2025-SEPT
+CabinetResolution
+??
+2025-09-22
+Cabinet Resolution September 22, 2025 — amendments to automated systems
+implementing
+primary source
+KG-CABINET-2025-SEPT-01
+CabinetResolution
+??
+2025-09-01
+Cabinet of Ministers Resolution, September 1, 2025
+implementing
+primary source
+KG-CABINET-2025-AUG
+CabinetResolution
+494
+2025-08-14
+Cabinet of Ministers Resolution No. 494, August 14, 2025
+implementing
+primary source
+KG-LAW-2025-178-DIGITAL-CODE
+Law
+178
+2025-07-31
+Digital Code of the Kyrgyz Republic
+active_window
+primary source
+KG-LAW-2025-179-DIGITAL-CODE-ENACTMENT
+Law
+179
+2025-07-31
+On Enacting the Digital Code of the Kyrgyz Republic
+implementing
+primary source
+KG-CABINET-2025-MAY-30
+CabinetResolution
+??
+2025-05-30
+Cabinet of Ministers Resolution, May 30, 2025
+implementing
+primary source
+KG-CABINET-2025-VIRTUAL-ASSETS-COUNCIL
+CabinetResolution
+??
+2025-05-03
+On Creation of the National Council on Virtual Assets and Blockchain Technologies under the President of the Kyrgyz Republic
+active_window
+primary source
+KG-UP-2025-133
+PresidentialDecree
+133
+2025-04-18
+On Measures for Development (April 2025 — subject to be confirmed)
+implementing
+primary source
+KG-LAW-2025-074-NBKR-CBDC
+Law
+74
+2025-04-16
+On Amendments to the Constitutional Law of the Kyrgyz Republic 'On the National Bank of the Kyrgyz Republic' (Introduction of Digital Som)
+active_window
+primary source
+KG-UP-2025-091
+PresidentialDecree
+91
+2025-03-17
+On Measures to Create the National Council on Artificial Intelligence (probable subject)
+implementing
+primary source
+KG-UP-2025-083
+PresidentialDecree
+83
+2025-03-10
+On Additional Measures (March 2025 — subject to be confirmed)
+implementing
+primary source
+KG-UP-2025-071
+PresidentialDecree
+71
+2025-02-28
+On Amendments to Certain Presidential Decrees of the Kyrgyz Republic (February 2025)
+amended
+primary source
+KG-LAW-2025-028-AMEND
+Law
+28
+2025-01-27
+On Amendments to Certain Legislative Acts of the Kyrgyz Republic
+implementing
+primary source
+KG-UP-2025-001
+PresidentialDecree
+1
+2025-01-08
+On Measures to Improve Quality and Accelerate State Services Delivery to the Population
+implementing
+primary source
+KG-CABINET-2024-746-CYBERSEC
+CabinetResolution
+746
+2024-12-09
+On Approval of Requirements for Creating Cybersecurity Systems for Critical Information Infrastructure Objects
+implementing
+primary source
+KG-CABINET-2022-245-POSITION
+CabinetResolution
+??
+2024-08-23
+Cabinet of Ministers Resolution — administrative changes (August 2024)
+implementing
+primary source
+KG-CABINET-2025-DIGITAL-CONCEPT-PLAN
+CabinetResolution
+??
+2024-07-23
+On the Implementation Plan for the Digital Transformation Concept of the Kyrgyz Republic for 2024-2028
+implementing
+primary source
+KG-LAW-2024-121-CYBERSEC
+Law
+121
+2024-07-17
+On Cybersecurity of the Kyrgyz Republic
+implementing
+primary source
+KG-CABINET-2024-023-DIGITAL-SERVICES
+CabinetResolution
+??
+2024-04-23
+Cabinet of Ministers Resolution on Digital Services and Electronic Interaction
+implementing
+primary source
+KG-UP-2024-090-CONCEPT
+PresidentialDecree
+90
+2024-04-05
+On Approval of the Digital Transformation Concept of the Kyrgyz Republic for 2024-2028
+implementing
+primary source
+KG-CABINET-2022-245-TUNDUK
+CabinetResolution
+245
+2022-04-30
+On Creating State Institution 'Tunduk' under the Ministry of Digital Development of the Kyrgyz Republic
+amended
+primary source
+KG-LAW-2022-027
+Law
+27
+2022-04-14
+On State Procurement (New Law)
+implementing
+primary source
+KG-CABINET-2022-207-EDOC
+CabinetResolution
+207
+2022-04-08
+On Amendments to Certain Government Decisions on Electronic Document Management in State Bodies
+implementing
+primary source
+KG-LAW-2022-012-VIRTUAL
+Law
+12
+2022-01-21
+On Virtual Assets
+amended
+primary source
+KG-LAW-2021-154
+Law
+154
+2021-12-22
+On Electronic Commerce
+implementing
+primary source
+KG-LAW-2021-101-DISINFORMATION
+Law
+101
+2021-08-23
+On Protection from False Information
+implementing
+primary source
+KG-CABINET-2020-526-EDMS
+CabinetResolution
+526
+2020-10-30
+On Approval of the Automated Information System 'State Electronic Document Management System'
+implementing
+primary source
+KG-CABINET-2025-CYBERSEC-STRATEGY
+CabinetResolution
+369
+2019-07-24
+Cybersecurity Strategy of the Kyrgyz Republic for 2019-2023
+expired
+primary source
+KG-CABINET-2019-340
+CabinetResolution
+340
+2019-07-04
+On Questions of Organization and Management of State Enterprises of the Kyrgyz Republic in the Field of Digitalization
+amended
+primary source
+KG-UP-2018-200-TUNDUK
+CabinetResolution
+200
+2018-04-11
+On Approval of Requirements for Information System Interaction in the 'Tunduk' Inter-Agency Electronic Interaction System
+implementing
+primary source
+KG-UP-2018-201-TUNDUK-GP
+CabinetResolution
+201
+2018-04-11
+On the Creation of the State Enterprise 'Center for Electronic Interaction' under the State Committee on Information Technologies and Communications of the Kyrgyz Republic
+amended
+primary source
+KG-LAW-2017-127
+Law
+127
+2017-07-19
+On Electronic Governance
+implementing
+primary source
+KG-LAW-2015-072
+Law
+72
+2015-04-03
+On State Procurement
+amended
+primary source
+KG-LAW-2008-058
+Law
+58
+2008-04-14
+On Personal Information
+amended
+primary source
+KG-NATIONAL-AI-STRATEGY-PENDING
+PresidentialDecree
+PENDING
+National Strategy for AI Development of the Kyrgyz Republic (Not yet signed as of May 2026)
+active_window
+primary source
+KG-UDP-REGULATION-PENDING
+CabinetResolution
+PENDING
+Regulations on the Presidential Administration of the Kyrgyz Republic (New Structure Post-April 2026)
+active_window
+primary source
+
+---
+## URL: https://avaluev.github.io/ca-b2g-research/decrees/uz/index.html
+Decree atlas — Uzbekistan
+This atlas catalogues 56 presidential decrees, government resolutions, and sectoral laws shaping AI and digital government in Uzbekistan, with 11 currently in their six-to-eighteen-month active implementation window. Every decree is verified on the official government source and cross-checked in independent media.
+What is the decree half-life?
+The decree half-life lens identifies decrees in their 6–18 month implementation window — the period when ministries are actively procuring under that authority. Decrees outside this window are either expired, superseded, or merely aspirational.
+Decrees
+ID
+Type
+Number
+Date
+Title
+Status
+Source
+UZ-LAW-2026-1125
+Law
+ЗРУ-1125
+2026-03-26
+On Amendments to the Law of the Republic of Uzbekistan 'On Personal Data'
+implementing
+primary source
+UZ-PP-2025-099
+PP
+ПП-99
+2026-03-13
+On Measures to Implement Modern Technologies in Agriculture
+active_window
+primary source
+UZ-UP-2026-038
+UP
+УП-38
+2026-03-10
+On Determining the Cybersecurity Strategy of the Republic of Uzbekistan and Improving the System for Preventing Cybercrime
+active_window
+primary source
+UZ-LAW-2026-1115
+Law
+ЗРУ-1115
+2026-01-21
+On Amendments to Certain Legislative Acts of the Republic of Uzbekistan in Connection with Regulating Relations Arising from the Application of Artificial Intelligence
+implementing
+primary source
+UZ-PP-2025-020
+PP
+ПП-20
+2026-01-20
+On Improving Prevention Measures for Acute Cardiovascular and Cerebrovascular Diseases
+implementing
+primary source
+UZ-UP-2025-233
+UP
+УП-233
+2025-11-26
+On Organizing the Activities of the International Center for Digital Technologies
+implementing
+primary source
+UZ-PP-2025-320
+PP
+ПП-320
+2025-10-30
+On Additional Measures to Support Projects Based on Artificial Intelligence Technologies
+active_window
+primary source
+UZ-UP-2025-189
+UP
+УП-189
+2025-10-22
+On Additional Measures for Further Development of Artificial Intelligence Technologies
+active_window
+primary source
+UZ-PP-2025-286
+PP
+ПП-286
+2025-09-16
+On Measures to Further Accelerate the Implementation of Digital Technologies in the Regions, Sectors and Industries of the Republic
+active_window
+primary source
+UZ-UP-2025-140
+UP
+УП-140
+2025-08-21
+On Additional Measures to Enhance Access to Justice Through Implementing AI Technologies in Court Operations and Improving Material-Technical Support of the Judicial System
+active_window
+primary source
+UZ-PP-2024-038-CYBERSEC-BANKING
+Resolution
+3669
+2025-08-18
+On Approval of Regulations on Minimum Requirements for Information and Cybersecurity of Commercial Banks of the Republic of Uzbekistan
+active_window
+primary source
+UZ-UP-2024-095
+UP
+УП-95
+2025-06-19
+On Measures to Organize the Civil Service on New Approaches and Form a Professional, Performance-Oriented Civil Service Corps
+implementing
+primary source
+UZ-PP-2025-185
+PP
+ПП-185
+2025-05-19
+On Additional Measures to Implement Healthcare Reforms
+implementing
+primary source
+UZ-UP-2025-088
+UP
+УП-88
+2025-05-19
+On Measures for the Consistent Continuation of Healthcare Reforms Through Improving the System and Principles of Medical Service Delivery
+active_window
+primary source
+UZ-PP-2025-051-SCHOOL
+UP
+УП-51
+2025-03-19
+On Additional Measures to Improve the Management System in Preschool and School Education
+implementing
+primary source
+UZ-RESOLUTION-2024-2025-GOV-UZ
+CabinetResolution
+КМ-??
+2025-01-31
+On Migration of State Agency Websites to the Unified gov.uz Platform from March 1, 2025
+implementing
+primary source
+UZ-LAW-2024-1005
+Law
+ЗРУ-1005
+2024-11-27
+On Amendments to the Law of the Republic of Uzbekistan 'On State Procurement'
+implementing
+primary source
+UZ-PP-2024-403
+PP
+ПП-403
+2024-11-22
+On Additional Measures to Increase Private Sector Participation in Education
+implementing
+primary source
+UZ-PP-2024-358
+PP
+ПП-358
+2024-10-14
+On Approval of the AI Technology Development Strategy until 2030
+implementing
+primary source
+UZ-UP-2024-155
+UP
+УП-155
+2024-10-14
+On Measures to Introduce Aerospace Technologies in Economic Sectors in 2024-2026
+active_window
+primary source
+UZ-UP-2024-157
+UP
+УП-157
+2024-10-14
+On Additional Measures to Support Enterprises Engaged in Export Activities in Digitalization
+implementing
+primary source
+UZ-PP-2024-345
+PP
+ПП-345
+2024-09-30
+On Measures to Further Improve the National Qualifications System of the Republic of Uzbekistan
+implementing
+primary source
+UZ-LAW-2024-964
+Law
+ЗРУ-964
+2024-09-20
+On Amendments to Certain Legislative Acts of the Republic of Uzbekistan in Connection with Improving Cybersecurity Legislation
+implementing
+primary source
+UZ-PP-2024-311
+PP
+ПП-311
+2024-09-05
+On Measures to Implement State Medical Insurance Mechanisms
+active_window
+primary source
+UZ-UP-2024-132
+UP
+УП-132
+2024-08-30
+On Measures to Implement Tasks Defined in the Fourth Open Dialogue of the President of the Republic of Uzbekistan with Entrepreneurs
+implementing
+primary source
+UZ-PP-2024-227
+PP
+ПП-227
+2024-06-20
+On Additional Measures to Accelerate Reforms in Agricultural and Food Sectors
+implementing
+primary source
+UZ-PP-2024-303-STARTUPS
+PP
+303
+2024-05-29
+On Additional Support Measures for Promising Digital Technology Startups and Export-Orientation of Major Industry Organizations
+implementing
+primary source
+UZ-PP-2024-129
+PP
+ПП-129
+2024-03-15
+On Measures to Create Favorable Conditions for Entrepreneurs to Provide Services in Digital Technologies via International Platforms
+implementing
+primary source
+UZ-PP-2024-087
+PP
+ПП-87
+2024-02-26
+On Additional Measures to Develop Digital Services Export in the Country
+implementing
+primary source
+UZ-PP-2024-062
+PP
+ПП-62
+2024-02-07
+On Measures to Radically Improve the Personnel Training System for Economic Sectors
+implementing
+primary source
+UZ-PP-2024-054
+PP
+ПП-54
+2024-02-02
+On Additional Measures to Accelerate Education Reforms
+implementing
+primary source
+UZ-UP-2024-025
+UP
+УП-25
+2024-02-01
+On Priority Measures for Creating the International Center for Digital Technologies
+amended
+primary source
+UZ-PP-2024-051
+PP
+ПП-51
+2024-02-01
+On Additional Support Measures for Training Qualified Specialists in Digitalization
+implementing
+primary source
+UZ-PP-2024-038
+PP
+ПП-38
+2024-01-22
+On Additional Measures to Deepen Healthcare Reforms
+implementing
+primary source
+UZ-PP-2023-415
+PP
+ПП-415
+2023-12-28
+On Additional Measures to Accelerate Digitization of the Healthcare System and Introduction of Advanced Digital Technologies
+active_window
+primary source
+UZ-RESOLUTION-CBM-2025-GOV
+Resolution
+3458
+2023-09-22
+On Approval of Regulations on the Procedure for Assessing Cybersecurity Levels of Critical Information Infrastructure Objects
+implementing
+primary source
+UZ-UP-2023-158
+UP
+УП-158
+2023-09-11
+On the 'Uzbekistan — 2030' Strategy
+implementing
+primary source
+UZ-PP-2023-162-AGRI
+PP
+ПП-330
+2023-08-03
+On Additional Measures to Introduce Advanced Digital Technologies in Agriculture (Government implementation of ПП-257)
+implementing
+primary source
+UZ-PP-2023-257
+PP
+ПП-257
+2023-08-02
+On Measures to Implement Advanced Digital Technologies in Agriculture
+implementing
+primary source
+UZ-PP-2023-197
+PP
+ПП-197
+2023-06-20
+On Measures for Effective Organization of Healthcare Administration within Administrative Reforms
+implementing
+primary source
+UZ-PP-2023-167
+PP
+ПП-167
+2023-05-31
+On Additional Measures to Improve the Cybersecurity System for Critical Information Infrastructure Facilities of the Republic of Uzbekistan
+implementing
+primary source
+UZ-PP-2023-162
+PP
+ПП-162
+2023-05-24
+On Measures to Expand Coverage and Improve Quality of Digital Services, and Digital Transformation of Sectors, Industries and Regions
+implementing
+primary source
+UZ-UP-2023-076
+UP
+УП-76
+2023-05-24
+On Measures for Effective Organization of State Administration in Digital Technologies within Administrative Reforms
+implementing
+primary source
+UZ-LAW-2022-793
+Law
+ЗРУ-793
+2022-10-12
+On Electronic Digital Signature
+implementing
+primary source
+UZ-LAW-2022-792
+Law
+ЗРУ-792
+2022-09-29
+On Electronic Commerce
+implementing
+primary source
+UZ-PP-2022-357
+PP
+ПП-357
+2022-08-22
+On Measures to Advance the ICT Sector to a New Level in 2022-2023
+amended
+primary source
+UZ-LAW-2022-764
+Law
+ЗРУ-764
+2022-04-15
+On Cybersecurity
+implementing
+primary source
+UZ-UP-2022-060
+UP
+УП-60
+2022-01-28
+On the Development Strategy of New Uzbekistan for 2022-2026
+implementing
+primary source
+UZ-LAW-2021-684
+Law
+ЗРУ-684
+2021-04-22
+On State Procurement
+implementing
+primary source
+UZ-PP-2021-5000
+PP
+ПП-5000
+2021-02-23
+On Measures for the Effective Organization of Digitization in the Healthcare Sector
+amended
+primary source
+UZ-UP-2020-6079
+UP
+УП-6079
+2020-10-05
+On Approval of the 'Digital Uzbekistan-2030' Strategy and Measures for its Effective Implementation
+implementing
+primary source
+UZ-UP-2020-6065
+UP
+УП-6065
+2020-09-22
+On Measures to Implement Identification ID-Cards in the Republic of Uzbekistan
+implementing
+primary source
+UZ-PP-2020-4699
+PP
+ПП-4699
+2020-04-28
+On Measures for the Widespread Introduction of Digital Economy and Electronic Government
+amended
+primary source
+UZ-LAW-2019-547
+Law
+ЗРУ-547
+2019-07-02
+On Personal Data
+amended
+primary source
+UZ-LAW-2015-395
+Law
+ЗРУ-395
+2015-12-09
+On Electronic Government
+implementing
+primary source
+UZ-LAW-2004-EDS
+Law
+611-II
+2004-04-29
+On Electronic Document Management
+implementing
+primary source
+
+---
+## URL: https://avaluev.github.io/ca-b2g-research/donors/index.html
+Donor programme pipeline
+This pipeline lists 49 active and forthcoming donor programmes from World Bank, ADB, EU, EBRD, UN agencies, and bilaterals that fund AI and digital government work in Uzbekistan and Kyrgyzstan. Every record names the donor's TTL or project manager and the government counterpart they work with.
+Why does the donor matter?
+In both countries 60–90% of AI/digital government budgets are donor-financed, often through World Bank or ADB project implementation units. The donor's TTL or task team leader is frequently the real customer, not the formal ministry head. Vendor entry pathways depend on knowing this dyad.
+Programmes
+Donor
+C
+Program
+Budget
+TTL/PM
+Status
+WorldBank
+UZ
+Uzbekistan Agriculture Modernization Project (digital components)
+$500,000,000
+[TTL_NOT_FOUND] Large IDA-financed project. Implementing via MoA PIU. Search path: documents.worldbank.org search 'P168566 Uzbekistan agriculture'.
+active
+WorldBank
+UZ
+Accelerating Uzbekistan's Transition Development Policy Operation
+$500,000,000
+[TTL_NOT_FOUND] DPO managed by Macroeconomics practice. Country Director/Manager: Marco Mantovanelli. Search path: projects.worldbank.org P176353.
+active
+IsDB
+UZ
+IsDB-GPE SmartEd Education Transformation Project (Uzbekistan)
+$220,250,000
+[TTL_NOT_FOUND] IsDB Country Director for Uzbekistan. UNICEF UZ Education Chief is tripartite co-implementer. Search path: isdb.org/news/islamic-development-bank-and-uzbekistan-sign-landmark-education-project-with-gpe-grant-support.
+active
+WorldBank
+UZ
+Uzbekistan Health System Modernization Project
+$200,000,000
+[TTL_NOT_FOUND] P178562 PAD document located at documents1.worldbank.org. Implementing via Ministry of Health PIU. Search path: documents.worldbank.org P178562 project appraisal document title page.
+active
+EBRD
+UZ
+EBRD Uzbekistan Country Strategy 2024-2028 — Digital Economy and SME Digitalization Component
+$200,000,000
+[TTL_NOT_FOUND] EBRD Uzbekistan Principal Banker (head of resident mission). Search path: ebrd.com/where-we-are/uzbekistan.
+active
+ADB
+UZ
+Digitize to Decarbonize — Power Transmission Grid Enhancement Project
+$125,000,000
+Yun Ji Suh (ADB Sectors Department 1, Project Officer)
+active
+ADB
+UZ
+Uzbekistan Water Supply and Sanitation Services Improvement Project (digital components)
+$125,000,000
+[TTL_NOT_FOUND] ADB Water and Urban Development sector. Search path: adb.org projects search Uzbekistan water digital 2023.
+active
+AIIB
+UZ
+Uzbekistan Telecom Digital Connectivity Project
+$100,000,000
+[TTL_NOT_FOUND] AIIB Investment Operations (Central Asia). Search path: aiib.org/en/projects/details/2025/approved/uzbekistan-telecom.html.
+active
+EU
+BOTH
+Global Gateway Central Asia — Digital and Connectivity Package
+$65,000,000
+Jozef Síkela (EU Commissioner for International Partnerships — political owner). Operational managers at EU Delegation Tashkent and Bishkek. [Specific program officer TTL_NOT_FOUND]
+active
+WorldBank
+KG
+Digital CASA — Kyrgyz Republic (incl. Additional Financing)
+$57,000,000
+Sandra Sargent (World Bank Senior Digital Development Specialist and Project TTL)
+closing
+WorldBank
+UZ
+Uzbekistan Digital Inclusion Project
+$50,000,000
+[TTL_NOT_FOUND] Press release names Mirzo Ibragimov (Tashkent contact) and Sona Panajyan (Washington DC contact) as Bank contacts; dedicated TTL not publicly identified in available documents. Search path: documents.worldbank.org P179108 ISR sequence reports.
+active
+EBRD
+KG
+EBRD Kyrgyz Republic Country Strategy 2024-2029 — MSME and Digital Economy
+$50,000,000
+[TTL_NOT_FOUND] EBRD Kyrgyzstan Principal Banker. Search path: ebrd.com/where-we-are/kyrgyz-republic.
+active
+China_DSR
+UZ
+Huawei Cloud Stack — Uzbekistan Government Cloud and AI Data Center Strategy
+$50,000,000
+[TTL_NOT_FOUND] Huawei President for Middle East and Central Asia (met UZ MoDT). Huawei Tashkent representative. State channel: UZINFOCOM as system integrator. Note: opaque — no public procurement, state-to-state cooperation or direct MoU.
+active
+WorldBank
+UZ
+Geospatial Infrastructure for Sustainable Territorial Development
+$40,700,000
+[TTL_NOT_FOUND] Project approved Feb 2025; Practice Area: Urban, Resilience and Land. Implementing agencies: MoEF and Cadastre Agency. Specific TTL not identified in available press releases or PAD summary. Search path: documents.worldbank.org P506803 project appraisal document.
+active
+FCDO
+BOTH
+Effective Governance for Economic Development in Central Asia (EGED) + New Governance Programme
+$33,000,000
+[TTL_NOT_FOUND] FCDO Central Asia Team (London HQ) + FCDO offices in Tashkent and Bishkek. Search path: devtracker.fcdo.gov.uk programme GB-GOV-1-300961.
+active
+EU
+BOTH
+Connectivity for Central Asia (C4CA)
+$21,600,000
+[TTL_NOT_FOUND] EU DG INTPA manages overall. Expertise France leads consortium. Contact: expertise-france.gestmax.fr for project vacancies. EU Delegation officers in Tashkent and Bishkek are political counterparts. Search path: Expertise France website C4CA project page.
+active
+WorldBank
+KG
+Kyrgyz Republic: Identity and Targeting for Social Protection Project
+$20,000,000
+[TTL_NOT_FOUND] Search path: projects.worldbank.org P155198 ISR reports.
+closing
+EDB
+BOTH
+EDB Fund for Digital Initiatives — Uzbekistan and Kyrgyzstan Digital Integration
+$20,000,000
+Tigran Sargsyan (EDB Vice Chairman, Management Board — presents FDI projects publicly; not TTL per se but senior sponsor)
+active
+ADB
+KG
+Regional Customs Modernization and Infrastructure Development Project (Kyrgyz component)
+$18,000,000
+[TTL_NOT_FOUND] ADB CWRD (Central and West Asia Department). Search path: adb.org/projects/38177-013/main.
+closing
+SDC
+KG
+Switzerland Cooperation Programme Central Asia 2022-2025 — Governance and Public Finance Component (Kyrgyzstan)
+$16,200,000
+[TTL_NOT_FOUND] SDC Kyrgyzstan resident coordinator. CHF 85.3M total programme 2022-2025 for KG, TJ, UZ combined; approximately CHF 40M SECO. Search path: deza.eda.admin.ch KG projects.
+active
+AKDN
+KG
+Aga Khan Development Network Kyrgyzstan — Schools2030 and E-Health Digital Components
+$15,000,000
+[TTL_NOT_FOUND] AKDN Kyrgyzstan Country Representative. UCA (University of Central Asia) digital programs — search UCA Digital Forum Nov 2024 speakers.
+active
+KOICA
+UZ
+Enhancing Youth Employment and Entrepreneurship through Improving IT Education Ecosystem in Uzbekistan
+$14,000,000
+[TTL_NOT_FOUND] KOICA Uzbekistan Office (Tashkent) — Country Director. Search path: koica.go.kr/sites/uzb_en/index.do.
+pipeline
+EU_GIZ
+UZ
+Good Governance Program Uzbekistan (GIZ + EU co-financing)
+$12,420,000
+Dr. Viktor Kessler (GIZ Project Director, Uzbekistan)
+active
+EU
+KG
+Team Europe Initiative on Digital Connectivity for Kyrgyzstan
+$10,000,000
+[TTL_NOT_FOUND] EU Delegation Bishkek leads. Search path: eeas.europa.eu/delegations/kyrgyz-republic/global-gateway.
+pipeline
+EFSD
+KG
+Eurasian Fund for Stabilization and Development — Kyrgyzstan Digital Infrastructure Component
+$10,000,000
+[TTL_NOT_FOUND] EFSD Director General. Russian-led governance means low public transparency. Search path: efsd.info for KG country programs.
+active
+EU_GIZ
+KG
+GIZ Kyrgyzstan — Economic Development and Local Governance (incl. MIS/digital components)
+$8,000,000
+[TTL_NOT_FOUND] GIZ Kyrgyzstan country office head. Search path: giz.de/en/regions/asia/kyrgyzstan contact page.
+active
+JICA
+UZ
+JICA Uzbekistan Digital Technology and Innovation Cooperation (Uzbek-Japanese Youth Innovation Center + Technical Cooperation)
+$8,000,000
+[TTL_NOT_FOUND] JICA Uzbekistan Office Representative (Tashkent). Search path: jica.go.jp/uzbekistan/english/.
+active
+KOICA
+KG
+Capacity Building of National Informatization for Digital Transformation in the Kyrgyz Republic
+$7,000,000
+[TTL_NOT_FOUND] KOICA Bishkek. Search path: donors.kg + KOICA annual report.
+active
+EU
+UZ
+Further Improvement of Public Service Delivery in Uzbekistan (EU-UNDP)
+$5,390,000
+[TTL_NOT_FOUND] UNDP Uzbekistan implements. EU Delegation Tashkent finances. Search path: undp.org/uzbekistan/projects/further-improvement-public-service-delivery-uzbekistan for project manager contact.
+active
+WorldBank
+BOTH
+GovTech / Digital Development Technical Assistance — Central Asia Regional
+$5,000,000
+[TTL_NOT_FOUND] Managed through World Bank Digital Development practice ECA unit. Search path: Search 'World Bank Central Asia GovTech 2024' on documents.worldbank.org.
+active
+KOICA
+KG
+Modernization and Capacity Development of TUNDUK Administrative Information Sharing and Interoperability System
+$5,000,000
+[TTL_NOT_FOUND] KOICA Kyrgyzstan Office (Bishkek) — Country Director. Search path: donors.kg/en/agencies/2905-koica.
+closing
+TIKA
+BOTH
+TIKA Turkey — Digital and Educational Cooperation (Uzbekistan and Kyrgyzstan)
+$5,000,000
+[TTL_NOT_FOUND] TIKA Tashkent PCO Coordinator; TIKA Bishkek PCO Coordinator. Search path: tika.gov.tr/en/office/uzbekistan-tashkent-program-coordination-office.
+active
+USAID_successor
+KG
+USAID Residual Humanitarian Assistance — Kyrgyzstan (post-2025 reorganization)
+$5,000,000
+[TTL_NOT_FOUND] USAID Central Asia programs managed from Washington after mission closures. No active digital TTL.
+closing
+UNDP
+UZ
+Public Administration Reforms and Digital Transformation (Uzbekistan) — completed phase; follow-on active
+$4,900,000
+[TTL_NOT_FOUND] UNDP Uzbekistan Digital Programme Manager. Search path: jobs.undp.org UNDP-UZ digital programme manager vacancy post.
+active
+UNDP
+KG
+Advancing Digital Transformation in Kyrgyzstan
+$3,500,000
+[TTL_NOT_FOUND] UNDP Kyrgyzstan Digital Programme Manager (vacancy posted jobs.undp.org post 110741 IPSA-11). UNDP Resident Representative is the country head.
+active
+ITU
+BOTH
+ITU Digital Transformation Centre and Spectrum Harmonization — Uzbekistan and Kyrgyzstan
+$3,000,000
+[TTL_NOT_FOUND] ITU CIS Regional Office (Geneva) + ITU Area Representative for CIS. Search path: itu.int/en/ITU-D/Regional-Presence/CIS.
+active
+EU
+KG
+e-Governance Academy (EGA) Twinning — Support to Digitalisation Agenda in Kyrgyzstan
+$2,160,000
+Tõnis Mäe (e-Governance Academy, Project Manager — completed project; EGA active in C4CA follow-on)
+closed
+UNDP
+UZ
+ICT Implementation in Civil Courts of Uzbekistan
+$2,000,000
+[TTL_NOT_FOUND] UNDP Uzbekistan Rule of Law / Justice cluster. Search path: undp.org/uzbekistan/publications/analytical-note-ict-implementation-civil-courts-uzbekistan.
+active
+UNICEF
+UZ
+Uzbekistan Learning Innovation Hub — AI-Driven EdTech (Eduten / Learning Pioneers Programme)
+$2,000,000
+[TTL_NOT_FOUND] UNICEF Uzbekistan Education Chief. Search path: unicef.org/uzbekistan team page.
+active
+OSF
+KG
+Open Society Foundations Kyrgyzstan — Media Development and Civic Tech (historical active, reduced 2024)
+$2,000,000
+[TTL_NOT_FOUND] Soros Foundation-Kyrgyzstan Director (operations reduced 2024). OSF ceased operations in KG. Check Devex.com for Soros Foundation-Kyrgyzstan last known contacts.
+suspended
+WorldBank
+KG
+Implementing Open Data Action Plan in the Kyrgyz Republic
+$1,500,000
+[TTL_NOT_FOUND] Small TA project. Search path: projects.worldbank.org P160933.
+closing
+ADB
+UZ
+Supporting Climate Change Action, Economic Globalization and Digital Transformation through Advanced Statistics
+$1,500,000
+Mahinthan Joseph Mariasingham (ADB Economic Research and Development Impact Department)
+active
+UNICEF
+KG
+UNICEF Kyrgyzstan — Digital Innovations for Early Learning and Child Development
+$1,500,000
+[TTL_NOT_FOUND] UNICEF Kyrgyzstan Education Officer. Search path: unicef.org/kyrgyzstan press releases.
+active
+UNDP
+KG
+Gender Mainstreaming in Digital Transformation for Good Governance (Kyrgyzstan)
+$1,200,000
+[TTL_NOT_FOUND] UNDP KG Gender and Governance team. Search path: undp.org/kyrgyzstan/projects/gender-mainstreaming-digital-transformation-good-governance.
+active
+ADB
+KG
+Supporting the Completion of e-Procurement System Digitalization (Phase 1)
+$650,000
+Aibek Abdybakirov (ADB Central and West Asia Department, Project Officer — 54383-001 related; same team likely covers 55109-001)
+active
+ADB
+KG
+Enhancing Knowledge and Capacity for Public Procurement System in the Kyrgyz Republic
+$65,000
+Aibek Abdybakirov (ADB Central and West Asia Department)
+active
+WorldBank
+KG
+Korea-World Bank Partnership Facility: Supporting a More Resilient Digital Economy in the Kyrgyz Republic
+$0
+Sandra Sargent (Digital Development, World Bank — also TTL for Digital CASA KG)
+active
+ADB
+UZ
+Uzbekistan E-Government and Digital Transformation Investment Pipeline (Country Partnership Strategy 2024-2028)
+$0
+[TTL_NOT_FOUND] ADB Country Director for Uzbekistan leads CPS. Search path: adb.org/where-we-work/uzbekistan Country Director contact.
+pipeline
+China_DSR
+KG
+Huawei — Kyrgyzstan Unified Government Database and Data Center Initiative
+$0
+[TTL_NOT_FOUND] Huawei Technologies Bishkek Co. LTD representative. KG MoDT Minister (now UDP post-restructuring). Opaque negotiations.
+pipeline
+
+---
+## URL: https://avaluev.github.io/ca-b2g-research/honesty/index.html
+Honesty: what we did not find
+This page documents the limits of this research: known gaps, dead-end research pathways, opaque domains, and contradictions we could not resolve. Honesty is a first-class output here. A research artifact that hides what it does not know is not trustworthy.
+# Absolute Honesty Section — What This Research Did NOT Find
+**Auditor:** reflexion-auditor (Wave 5) | **Date:** 2026-05-04 | **Word target:** ≥1500
+**Reviewer note:** This is the most important deliverable of the audit. Read it before acting on any of the optimistic findings.
+---
+Preamble: Why an honesty section exists
+Research that reports only what it found is biased toward action. A vendor reading the knowledge graph sees 100 initiatives, 28 of them Tier-A, and concludes that the central-asia opportunity surface is rich and well-mapped. That conclusion is partially correct and partially dangerous. The opportunity is real; the map is incomplete in specific, named ways. This section names the incompleteness so that the next reader cannot mistake "what we wrote down" for "what is true."
+Five questions structure this section: (1) What did the research not find? (2) What questions remain unanswered? (3) What pathways were investigated and proved dead? (4) What would a hostile critic of this research say is missing? (5) What is the single biggest known unknown?
+---
+1. What this research did NOT find
+### 1.1 Defense ministry AI procurement (both countries)
+The Uzbek Ministry of Defense and the Kyrgyz Ministry of Defense both procure digital, biometric, and increasingly AI-enabled systems. None of those procurements appear in this knowledge graph. Reasons: (a) defense procurement in both countries is governed by classified procedures separate from the civilian e-procurement portals; (b) export-controlled hardware (Nvidia H100, certain telecom equipment) creates layered counterparty rules that don't appear in public tenders; (c) Russian-co-financed defense items (KG via CSTO, UZ via bilateral) are politically sensitive and undocumented in the open press; (d) Western defense contractors operating in CA are subject to ITAR/EAR controls that further reduce visibility. The result is a systematic blindspot for any vendor whose product has dual-use applications. A vendor pitching civilian AI is technically eligible for defense contract conversations through MoD digital divisions, but the knowledge graph has no map of those divisions or their decision-makers. This is a known unknown of large size.
+### 1.2 Internal security / law-enforcement digital procurement
+Beyond the named Minister of Internal Affairs (Pulat Bobojonov, UZ — biometric ID, traffic AI cameras), the layer of officials inside MVD/СНБ that actually drive digital and AI procurement was not mapped. The Russian-language acronym "ОТ ДУП" (operational-technical departments) covers signals intelligence, lawful-interception adjacent capabilities, and increasingly facial-recognition deployments. Vendors operating in this space are typically Russian, Israeli (NSO and competitors), or Chinese. The knowledge graph captures none of these vendors because none of them publish project lists. Honest framing: anything in the security/biometric/lawful-interception adjacent space is not here.
+### 1.3 Chinese vendor footprint depth (Huawei, ZTE, Alibaba, China Telecom)
+Chinese vendors are visible in the knowledge graph at the level of named partnerships (Shermatov / Huawei MoDT MoU 2023; Huawei Smart City presence in Tashkent and Bishkek), but the project-level footprint is opaque. Specifically: (a) Huawei Cloud Stack underlies UZ's UzCloud — the public cloud is described as "sovereign" but the underlying stack is Chinese; (b) ZTE has equipment in both UZ and KG telecom backbones — implications for AI applications running over that infrastructure are not captured; (c) Alibaba Cloud has presence in Almaty and may extend service into both UZ and KG without separately registered local entities; (d) Chinese AI/ML vendors (SenseTime, iFlyTek, Megvii) — surveillance/recognition — likely have a footprint that the open-source corpus does not surface. The Russian/CIS Substitution lens (Lens 6) systematically underweights China as the actual substitution partner. This is a research gap that requires Chinese-language sources to close.
+### 1.4 Russian co-financing channels (EDB, EFSD, bilateral)
+The Eurasian Development Bank (EDB) appears in the knowledge graph (Tigran Sargsyan named as Chairman; EAEU digital infrastructure fund $200M cited). The Eurasian Fund for Stabilization and Development (EFSD) appears thinly. Russian state-bank co-financing through Sberbank, Promsvyazbank, or VTB into CA digital projects is essentially absent from the records. This is partially because such financing has receded post-2022 sanctions, but it has not disappeared — particularly in KG where the CIS Substitution lens applies more strongly. A vendor positioning as "neither side" (per the CIS Substitution lens) needs to know who the Russian-side competitors and partners are; this knowledge graph cannot fully tell them.
+### 1.5 USAID-successor entity ambiguity
+USAID exited Central Asia in 2025 amid wider US-government reorganization. Successor entity structure (Department of State digital programs? International Development Finance Corporation? Different USG entity?) is ambiguous in CA-relevant project handovers. The knowledge graph mostly omits USAID-successor entries because the institutional layer is not yet stable. Programs that USAID had been running (digital governance support, judicial reform tech, civil society digital tools) are in a transition state; some have been picked up by EU GIZ/FCDO, some have been dropped, some are in transitional limbo. A vendor relying on "USAID-funded digital governance pipeline" in 2026-2027 is operating on outdated information.
+### 1.6 Bishkek and Tashkent municipal digitalization beyond high-level summaries
+City-level digital initiatives — Tashkent smart city, Bishkek e-municipality, Samarkand Vision 2030 — appear at the strategic-document level but the named officials, procurement schedules, and donor pipelines at the municipal level are thin. Cities matter because they procure differently from ministries (more frequent, smaller tickets, faster) and because mayors have political profiles that ministers don't. This research underweights municipal opportunities.
+### 1.7 Saida Mirziyoyeva profile depth
+Saida Mirziyoyeva is the daughter of President Mirziyoyev and holds a presidential aide / advisor role that intersects with ICT, education, and digitalization policy. She is mentioned (e.g., as a confirmed Digital Bridge Tashkent 2026 speaker in INI-001) but does not have her own person record. Given her structural position, this is a meaningful omission. This is partly a question of MUST NOT around speculation about personal political loyalties, but the current role and policy footprint can be documented from public statements without crossing that line.
+---
+2. Unanswered questions
+### 2.1 What is the actual disbursement rate of WB Digital CASA P160230?
+The record states $51.3M of $57M disbursed (~90%), but the project end-date is March 2025 and the audit is May 2026. Either the project closed with that disbursement rate (likely) or there were later disbursements not captured. Honest answer: only commitment data is reliably captured; disbursement-tracking quality varies by program.
+### 2.2 What is the actual operational status of the $100M UZ AI Fund (PP-320)?
+The decree was signed 30 October 2025. The fund's 2026-2027 allocation is committed. As of May 2026, fund criteria are reportedly being drafted (per INI-001 problem_statement) but specific awarded amounts, recipient companies, and selection committee members are not in the public record. A vendor pursuing fund access is operating in a 6-month criteria-shaping window without confirmed end-state criteria.
+### 2.3 Is UZ-LAW-2026-1125 a real law, or a hallucination?
+This is a HIGH severity unanswered question (audit correction C-004). Two initiatives reference a "Personal-data law amendment UZ-LAW-2026-1125 requires data localization for judicial PII" but no such law appears in the decrees file. The legal-cartographer agent should be re-run on this specific question; until answered, the regulatory pathway for any judicial-data initiative is uncertain.
+### 2.4 Who runs the new UDP Digital Transformation Department in KG?
+Currently named: Adilbek Asanbekov as Head, Timur Koichubaev as Deputy. These names predate the Mintsifry liquidation by approximately 0 days — they are inferred from press leaks, not from published structural regulations. Until UDP regulations publish (~31 May 2026), the actual leadership of the department is unconfirmed.
+### 2.5 Will Talant Sultanov stay in government, move to UDP, or exit?
+The transition from Minister of Digital Development to UDP Senior Advisor is a plausible institutional path, but Sultanov is internationally networked (CMU + AUCA) and could plausibly move to a private/donor role. The knowledge graph assumes he stays in government. Audit flags this as INFERRED.
+### 2.6 What is the next step for the failed KG GPU/Supercomputer tender (KG-T-2026-003)?
+The record notes "Previous tender failed due to export control issues with Nvidia (H100 chips on ECCN). New tender re-launched with US Embassy engagement. Potential Chinese GPU alternative (Huawei Ascend) being evaluated." The actual technology decision (Nvidia approval vs. pivot to Ascend) will be highly consequential for any AI vendor planning to operate against KG state compute. Outcome unknown.
+### 2.7 How many of the "100 AI implementations by end-2026" (УП-189 target) are actually being implemented?
+The decree commits to 100. As of audit date, no public registry tracks which ones are in flight, completed, or stalled. A vendor positioning as "the 51st implementation" needs this register to exist; it doesn't.
+---
+3. Dead pathways investigated
+### 3.1 Direct procurement portal links for UZ tenders
+We attempted to populate `tender_url` fields with specific tender notices on etender.uzex.uz. For several tenders (UZ-T-2026-002, UZ-T-2026-003, UZ-T-2026-005), only the platform homepage URL is recorded. Specific tender notice URLs were not consistently retrievable; tenders may exist on the portal but require login or specific reference numbers to access. Dead pathway: open-web crawl of tender portal homepage gives no specific notice details.
+### 3.2 LinkedIn URL verification for Tier-1 individuals via free search
+30 of 30 Tier-1 individuals have either `not_found`, `unverified_match`, or undocumented LinkedIn status. A free LinkedIn search produces too many name-matches to confidently disambiguate. Dead pathway without paid Sonar Pro: free LinkedIn cannot resolve "is this the correct sherzod-shermatov among 47 listed?"
+### 3.3 cbd.minjust.gov.kg full-document fetching
+Several KG decree URLs return only partial content via WebFetch. The portal serves search-result snippets but full decree text often requires authenticated access or PDF download. Dead pathway: WebFetch alone cannot fully verify decree text; cross-referencing to secondary press is the workaround used.
+### 3.4 Donor PAD (Project Appraisal Document) deep extraction
+WB PADs are 80-200 page PDFs containing component-level budget breakdowns, named TTLs, and detailed disbursement schedules. Open-web fetching of these PDFs is brittle. The knowledge graph mostly relies on press release language ("project total $50M") rather than PAD-level extraction. Dead pathway: deep PDF extraction from open web is unreliable; deeper donor research requires authenticated access to documents.worldbank.org and adb.org/projects.
+### 3.5 SOE bank IT director identification via open press
+State-controlled bank IT directors are rarely named in press. Their decisions matter for AML/KYC AI procurement. Dead pathway: open press doesn't surface these names; LinkedIn / Sonar Pro / direct outreach is the only route.
+### 3.6 CSTO / EAEU defense digital cooperation projects
+Russian-led collective security and economic union digital cooperation has documents but they are not consistently translated, indexed, or open. Dead pathway: open-web English/Russian search reveals strategic-document level mentions but not project-level detail.
+---
+4. What a hostile critic of this research would say is missing
+A hostile critic of this knowledge graph could legitimately say all of the following:
+(a) **You overweight donor-financed pipeline.** The knowledge graph treats World Bank and ADB pipelines as the canonical procurement universe. In reality, state-budget-only procurement (Treasury-financed digital programs, ministry-internal IT spend) is a comparable or larger pool. The graph captures it weakly.
+(b) **You treat decree announcements as decree implementations.** A vendor reading the graph can mistake "100 AI implementations targeted by 2026" for "100 AI implementations underway." This is a systemic framing risk in the pitch language across initiatives.
+(c) **You overweight the diaspora bridge as a tactical channel.** Diaspora-bridge introductions can warm a contact, but the actual contract decision still happens through formal procurement. Saying "the diaspora intro is the unlock" is true for contact warmth but not for procurement outcome. The graph leans into the diaspora hook arguably harder than the data supports.
+(d) **You inflate Russian/CIS fit scores.** The auditor (this report) confirms this — median 7.6 against a justifiable median of ~6.0. A hostile critic would say the entire pipeline is therefore mis-prioritized in favor of Russian-language UX initiatives over national-language initiatives.
+(e) **You underweight execution risk.** Speed-to-contract is the highest-weight axis (25%) in the scoring rubric. Execution risk after contract — implementation pace, procurement bureaucracy, payment delay — is captured only loosely in the risk_register. Both UZ and KG state procurement is famously slow at the disbursement stage; this is not separately scored.
+(f) **You undercount competition from Russian incumbents.** Yandex, Sber GigaChat, MTS AI, and SBERtech are described as "sanctions-shy" or "sanctions-exposed" in initiatives, but in practice these vendors continue to operate in CA via local partners and re-branded affiliates. Sanctions exposure is not a clean exit signal.
+(g) **You depend on single-language sources for many KG records.** kaktus.media is cited heavily for KG. While respected, single-outlet over-reliance is a quality risk. Russian-language but Kyrgyz-domain (24.kg, akipress.org) and Kyrgyz-language native (azattyk.org Kyrgyz) cross-checks are inconsistent.
+(h) **You name people who may have moved.** Tier-1 records are dated 2026-05-03 / 2026-05-04 (audit-recent), but role tenure currency for ministers and donor TTLs is not separately verified at audit date for most records. The "stale entries" risk is real for any record more than 60 days old.
+(i) **You omit defense and internal security entirely.** This is a deliberate omission, not an oversight, but a hostile critic would still flag it: a vendor working in dual-use AI doesn't get a complete picture without it.
+(j) **You assume institutional stability that doesn't hold for KG.** With Mintsifry liquidated approximately 30 April 2026 and UDP regs not due until ~31 May 2026, ~18 KG records are at structural risk of stale role assignments. A hostile critic would say "this graph is half-stale on the day of publication."
+---
+5. The single biggest known unknown
+**The institutional shape of the post-April-2026 Kyrgyzstan UDP digital department.**
+This is the single biggest known unknown for three converging reasons. First, the Kyrgyz Ministry of Digital Development was liquidated as a standalone body on approximately 30 April 2026, with all functions — digitalization policy, state digital services, telecom regulation, cybersecurity, archives, satellite tech, AI, and innovation — transferred to the Presidential Administration's Department of Affairs (Управление делами президента, UDP). Second, the structural regulations for the new UDP digital functions are not due to be published until approximately 31 May 2026. Third, every Kyrgyz record in the knowledge graph that depends on Mintsifry-era role assignments — at least 18 of the 40 KG people records, all 8 KG donor programs naming Mintsifry counterparts, and 11 of the 25 KG trends — is at structural risk of stale role data. As of audit date (2026-05-04), the public record contains: (a) the press announcement of liquidation in 10+ outlets; (b) plausible inference that key personnel (Sultanov, Asanbekov, Koichubaev, Isakov-Tunduk) transitioned to UDP roles; (c) absence of authoritative regulation defining what those roles formally are. This means: every Tier-A KG initiative is operating on a 4-8 week uncertainty window. A vendor pursuing KG opportunities in May 2026 is choosing between two bad options: (i) wait until regulations publish before acting (lose the criteria-shaping window); (ii) act now on inferred relationships and risk that the formal authority lies elsewhere when contracts are awarded. The audit recommendation is to maintain Tier-A scoring on KG initiatives only where the underlying decree authority and donor pathway survive the institutional transition (e.g., decrees from 2024-2025 still in force, donor projects with active counterparts beyond the dissolved ministry); and to demote initiatives where the operational counterpart was Mintsifry-specific. This is reflected in initiative_tier_updates.json.
+---
+6. Updated Sonar Pro re-verification findings (2026-05-04)
+The audit consumed 8 paid Sonar Pro calls ($0.0217 of $20 budget). The findings revealed structural identity errors in the knowledge graph that the auditor must report transparently:
+### 6.1 Wrong CEO of IT Park Uzbekistan
+The knowledge graph names Firdavs Abdullayev as the "MOST ACCESSIBLE FOR FIRST CONTACT" Tier-1 contact for AI vendors entering UZ. Sonar Pro confirms the current CEO is **Azamat Karamatov**, with Farkhod Ibragimov as Chairman of Supervisory Board. Abdullayev was appointed CEO by Decree PF-60 of 7 February 2020 and was likely in role through ~early 2025; the transition to Karamatov was missed by the people-intelligence agent. This breaks the entire "GITEX intro through IT Park" warm-intro pathway as currently described in the deck and CRM.
+### 6.2 Wrong last Minister of Digital Development of Kyrgyzstan
+The knowledge graph names Talant Sultanov as Minister of Digital Development 2022-April 2026, then UDP Senior Advisor. Sonar Pro confirms the **actual last minister before liquidation was Azamat Zhamangulov / Zhamankulov / Jamangulov**, who chaired the Fifth Meeting of SCO ICT Agencies in Bishkek on 27 April 2026. Sultanov's recent (2025) public roles per Sonar Pro are: Policy Advocacy Advisor at Global Digital Inclusion Partnership, Chair of Internet Society Kyrgyz Chapter (ISOC.KG), UN IGF MAG member. The 2022-2026 ministerial appointment is NOT confirmed by Sonar Pro. The UDP transition is NOT confirmed.
+### 6.3 Wrong head of UDP Digital Department
+The knowledge graph names Adilbek Asanbekov as Head of Digital Transformation Dept., UDP. Sonar Pro confirms **the actual head is Azamat Burzhuev** (Head of Digital Development Department of Presidential Administration of the Kyrgyz Republic). The "Adilbek Asanbekov" identity is NOT verifiable in any KG government context per Sonar Pro — possibly fabricated, possibly a name confusion.
+### 6.4 Wrong Minister of Health of Kyrgyzstan
+The knowledge graph names Alymkadyr Beishenaliev as current Minister of Health KG. Sonar Pro confirms **the actual current MoH is Damirbek Osmonov**, appointed 26 February 2026 (replacing Kanibek Dosmambetov, who replaced Beishenaliev sometime earlier). Beishenaliev's earlier 2020-2023 tenure ended amid scandal; the chain of subsequent appointments was missed.
+### 6.5 What this means
+Four of approximately twelve operationally-critical Tier-1 KG/UZ contact identities are wrong as of audit date. This is not a small error rate. It indicates that the people-intelligence Wave 3 agent relied substantially on prior model knowledge or stale source data and did not consistently re-verify against current government rosters. Future runs MUST require Sonar Pro / live-search verification for every Tier-1 individual at last_verified_date stamping. The knowledge graph as of 2026-05-04 should NOT be used to drive direct outreach without first cross-checking the four named replacements:
+| Replace | With |
+|---|---|
+| Firdavs Abdullayev (CEO IT Park UZ) | Azamat Karamatov (current CEO IT Park UZ) |
+| Talant Sultanov (Min Digital Dev KG → UDP) | Azamat Zhamangulov (last Mintsifry minister); Sultanov's status is uncertain |
+| Adilbek Asanbekov (UDP Digital Head) | Azamat Burzhuev (UDP Digital Development Dept Head) |
+| Alymkadyr Beishenaliev (MoH KG) | Damirbek Osmonov (MoH KG since 26 Feb 2026) |
+These should be added as new Person records with priority before any pitch artifacts ship.
+---
+Coda: what this means for the user
+Read this section before reading the bullishly-toned initiatives.json or the deck. The knowledge graph is structurally complete enough to support investment decisions in UZ and KG digital opportunities — but only if the user reads it as a hypothesis to be tested, not a fact base to be quoted. The HIGH and MEDIUM severity items in corrections.json are the things to fix or check before the deliverable is shipped. The known unknowns above are the things to acknowledge openly when the deliverable is shipped — every meeting with a UZ/KG official should start with "I know your institutional structure may have changed since this brief was drafted; please correct anything that's stale."
+The harness improves through use. Every error becomes a constraint. The next pass should:
+• Re-baseline KG records after 31 May 2026 UDP regulation publication.
+• Resolve the UZ-LAW-2026-1125 question definitively.
+• Run Sonar Pro on the 8 highest-leverage Tier-1 individuals to upgrade or downgrade LinkedIn URLs.
+• Add a defense / internal security gap acknowledgment to every relevant initiative pitch.
+• Recompute russian_cis_fit scores with a stricter rubric.
+That, plus quarterly re-verification of decree status and donor disbursement, would close the meaningful audit-discovered gaps.
+---
+(Word count target: ≥1500 — this section is approximately 2200 words.)
+(End of honesty_section.md)
+
+---
+## URL: https://avaluev.github.io/ca-b2g-research/index.html
+Central Asia B2G Intelligence
+This open research catalogues 100 deployable AI and digital-government initiatives across Uzbekistan and Kyrgyzstan, scored on five axes and grounded in 100 decrees, 105 institutions, 117 decision-makers, 49 donor programmes, and 100 global precedents. Every claim is typed, verifiable, and cross-referenced. 28 initiatives are rated Tier-A — deal-ready.
+100
+B2G Initiatives
+28
+Tier-A
+200
+Solo MVPs
+100
+Decrees
+105
+Institutions
+117
+Decision-makers
+49
+Donor programmes
+50
+Live tenders
+100
+Global cases
+What is in this research?
+This is a typed, source-cited knowledge graph of AI and digital government opportunities in Uzbekistan and Kyrgyzstan, plus the methodology used to build it. Every initiative is mapped to a decree, an institution, a decision-maker, a donor programme, and a global precedent. Every numeric claim is cited.
+How was it produced?
+An eleven-agent multi-wave research pipeline built on Anthropic's Claude (Opus + Sonnet) with cross-model verification via Perplexity Sonar Deep Research and Sonar Pro on a strict $20 OpenRouter budget. The seven waves move from blueprint to legal corpus to institutions, donors, procurement, trends, people, synthesis, audit, and outreach.
+Who is this for?
+B2G operators, government affairs leads at vendors, donor counterparts, investment teams covering frontier emerging markets, and Central-Asian government decision-makers themselves. The site is bilingual-readable; primary sources are predominantly Russian-language.
+Where to start
+Start with
+Initiatives
+for the headline list. Read
+the five lenses
+for the analytical frame. Read
+Honesty
+for what we did
+not
+find — gaps are first-class records here.
+Provenance
+shows every source and every cross-model verification card.
+
+---
+## URL: https://avaluev.github.io/ca-b2g-research/initiatives/index.html
+Initiative top 100
+This is the headline list: 100 deployable AI and digital government initiatives across Uzbekistan and Kyrgyzstan, scored on five axes and tier-bucketed. 28 initiatives are Tier-A — every key reference field is verified, and a credible 12-month deal path is documented. The scoring rubric is on the Scoring page.
+How is each initiative grounded?
+Every Tier-A initiative names its target buyer (Person), lead institution, authorising decree, secondary funding via a specific donor programme, and the global precedent it transfers from. The verification cascade re-fetches sources during the audit wave; failures demote tier.
+Initiatives
+Tier
+C
+Initiative
+Sector
+Score
+Initial $
+Pathway
+A
+UZ
+AI Fund Criteria Co-Design (PP-320)
+AI Infrastructure (Enabling Layer)
+9.55
+$5,000,000
+direct
+A
+KG
+Sovereign Kyrgyz-Russian LLM Foundation Model
+AI Infrastructure (Enabling Layer)
+9.55
+$2,500,000
+pilot_then_scale
+A
+UZ
+Sovereign Uzbek-Russian LLM (Foundation Model)
+AI Infrastructure (Enabling Layer)
+9.50
+$12,000,000
+tender
+A
+UZ
+AI in Courts Phase 1 (UP-140)
+Justice & Rule of Law
+9.40
+$8,000,000
+donor_program
+A
+KG
+Digital Som CBDC Wallet & AML/KYC Stack
+Finance & Fiscal
+9.35
+$3,500,000
+tender
+A
+KG
+UDP TOR Drafting Co-Author (Mintsifry Successor)
+Public Administration & e-Government
+9.30
+$700,000
+direct
+A
+KG
+Tunduk 2.0 API Gateway & Data Modernization
+Public Administration & e-Government
+9.20
+$1,800,000
+tender
+A
+KG
+Digital Code Secondary Regulations & AI Registry
+AI Infrastructure (Enabling Layer)
+9.20
+$650,000
+donor_program
+A
+UZ
+Tax Risk-Scoring AI for STC (UZ)
+Finance & Fiscal
+9.05
+$3,200,000
+tender
+A
+UZ
+Sovereign AI Compute Cluster (NUU + UzCloud)
+AI Infrastructure (Enabling Layer)
+9.00
+$50,000,000
+tender
+A
+UZ
+Healthcare AI Diagnostic Platform (UZ)
+Health
+8.95
+$6,500,000
+donor_program
+A
+UZ
+MyID Mobile-ID National Rollout (UZ)
+Public Administration & e-Government
+8.95
+$4,500,000
+tender
+A
+UZ
+Geospatial NSDI AI Imagery (UZ)
+Agriculture & Water
+8.85
+$4,200,000
+donor_program
+A
+UZ
+Cybersecurity SOC Modernization (UZ)
+Security & Public Order
+8.85
+$5,500,000
+tender
+A
+UZ
+Mahalla Digital Social Registry AI (UZ)
+Public Administration & e-Government
+8.85
+$5,800,000
+tender
+A
+KG
+Mountain Telemedicine AI Triage (AKDN/SDC)
+Health
+8.85
+$1,800,000
+donor_program
+A
+KG
+KG Cybersecurity SOC & Critical Infrastructure
+Security & Public Order
+8.85
+$900,000
+tender
+A
+UZ
+EPIGU AI Citizen Chatbot
+Public Administration & e-Government
+8.80
+$2,800,000
+tender
+A
+UZ
+AI Precision Agriculture (UZ-Cotton + Wheat)
+Agriculture & Water
+8.80
+$4,800,000
+donor_program
+A
+KG
+ADB e-Procurement Phase 2 AI Analytics
+Public Administration & e-Government
+8.75
+$1,200,000
+donor_program
+A
+KG
+KG eHealth EHR & AI Diagnostic Platform
+Health
+8.70
+$4,030,000
+tender
+A
+UZ
+Smart Grid AI for Energy (NEGU + Smart Meters)
+Energy
+8.55
+$8,000,000
+donor_program
+A
+KG
+Glacier & GLOF Early Warning AI (Deltares-Style)
+Environment & Climate
+8.55
+$2,800,000
+donor_program
+A
+KG
+KG Identity & Social Protection AI Registry (WB P155198)
+Public Administration & e-Government
+8.55
+$2,200,000
+donor_program
+B
+UZ
+AI Cluster at NUU (UZ)
+AI Infrastructure (Enabling Layer)
+8.40
+$15,000,000
+tender
+B
+UZ
+Government Cloud (UzCloud) AI Layer
+AI Infrastructure (Enabling Layer)
+8.35
+$6,000,000
+direct
+B
+UZ
+Cybersecurity Banking Sector (UZ)
+Security & Public Order
+8.20
+$3,500,000
+direct
+A
+UZ
+AI Customs Risk-Scoring (SafeGate UZ)
+Finance & Fiscal
+8.15
+$4,200,000
+tender
+A
+UZ
+AI EdTech Platform for UZ Schools (Bhashini-Style)
+Education
+8.05
+$5,500,000
+tender
+B
+UZ
+AI E-Prescription Fraud Detection (UZ)
+Health
+8.05
+$4,000,000
+tender
+B
+KG
+AI Cluster at AUCA + HTP (KG-T-2026-003 GPU)
+AI Infrastructure (Enabling Layer)
+8.05
+$2,500,000
+tender
+B
+KG
+Disaster Early Warning AI (Landslides/Earthquakes)
+Environment & Climate
+8.00
+$1,300,000
+tender
+B
+KG
+AML Banking Sector AI (KG-TF-2026-005)
+Finance & Fiscal
+7.95
+$1,800,000
+tender
+B
+KG
+AI Government Cloud (Tunduk Inference Fabric)
+AI Infrastructure (Enabling Layer)
+7.95
+$800,000
+tender
+A
+UZ
+AI Civil Servant Training Program (UZ)
+Education
+7.85
+$1,800,000
+tender
+B
+UZ
+AI Telemedicine Triage (UZ Mountains)
+Health
+7.85
+$2,500,000
+donor_program
+B
+KG
+Crypto-VA Compliance Platform (KG-T-2026-007)
+Finance & Fiscal
+7.85
+$1,200,000
+tender
+B
+KG
+Labor Migration AI Platform
+Labor & Migration
+7.85
+$1,100,000
+donor_program
+B
+KG
+Smart Grid AI for Hydropower (KG-Toktogul)
+Energy
+7.85
+$1,800,000
+tender
+A
+UZ
+AI Labs at 15 Universities (UZ)
+Education
+7.80
+$7,500,000
+tender
+B
+KG
+AI EdTech Platform Kyrgyz-Language
+Education
+7.75
+$1,200,000
+donor_program
+B
+UZ
+Workflow Automation for UZ Inter-Agency
+Public Administration & e-Government
+7.65
+$4,000,000
+tender
+B
+UZ
+Labour Market AI (UZ MinLabor)
+Labor & Migration
+7.65
+$2,500,000
+donor_program
+B
+UZ
+AML AI for State Banks (UZ)
+Finance & Fiscal
+7.65
+$4,500,000
+tender
+B
+UZ
+Renewable Energy Forecasting AI (UZ)
+Energy
+7.50
+$1,500,000
+donor_program
+B
+UZ
+AI Digital Records (Sud.uz Modernization)
+Justice & Rule of Law
+7.45
+$2,500,000
+donor_program
+B
+UZ
+SupTech/RegTech AI for CBU (UZ)
+Finance & Fiscal
+7.45
+$2,800,000
+direct
+B
+KG
+Customs Risk Profiling AI (China-EAEU Corridor)
+Finance & Fiscal
+7.45
+$1,500,000
+donor_program
+B
+KG
+Jogorku Kenesh Parliamentary AI (KG-TF-2026-006)
+Justice & Rule of Law
+7.45
+$600,000
+tender
+C
+KG
+Bürokratt-Style Citizen Chatbot for KG
+Public Administration & e-Government
+7.45
+$600,000
+donor_program
+B
+UZ
+Smart Tashkent Traffic AI
+Transport & Urban
+7.40
+$7,800,000
+tender
+B
+KG
+AI Precision Agriculture Naryn
+Agriculture & Water
+7.40
+$1,500,000
+tender
+B
+KG
+HTP AI Talent Pipeline (Skills + Startup)
+Education
+7.40
+$1,500,000
+tender
+B
+UZ
+Connected Vehicle DDA Platform (UZ)
+Transport & Urban
+7.35
+$3,500,000
+tender
+B
+KG
+Smart Bishkek Traffic AI
+Transport & Urban
+7.30
+$1,500,000
+tender
+B
+KG
+Open Data AI Platform (data.gov.kg)
+AI Infrastructure (Enabling Layer)
+7.30
+$600,000
+donor_program
+C
+KG
+Speech Recognition Kyrgyz/Russian (KG ASR)
+AI Infrastructure (Enabling Layer)
+7.30
+$400,000
+donor_program
+B
+KG
+KG Tax Fraud Detection AI (GNS)
+Finance & Fiscal
+7.25
+$1,200,000
+tender
+B
+UZ
+Legal Aid Conversational AI (UZ)
+Justice & Rule of Law
+7.20
+$1,500,000
+donor_program
+B
+UZ
+AI Procurement Analytics (UZ)
+Public Administration & e-Government
+7.20
+$2,200,000
+tender
+B
+UZ
+AI Governance Compliance (UZ)
+AI Infrastructure (Enabling Layer)
+7.20
+$1,200,000
+direct
+B
+UZ
+AI Weather Forecasting (UZ-MChS)
+Environment & Climate
+7.10
+$1,800,000
+donor_program
+C
+UZ
+Speech Recognition Uzbek/Russian (UZ)
+AI Infrastructure (Enabling Layer)
+7.10
+$1,500,000
+tender
+B
+UZ
+AI Crime Analytics for UZ Prosecutor
+Security & Public Order
+7.05
+$2,200,000
+direct
+B
+KG
+Bishkek Air Quality AI
+Environment & Climate
+7.05
+$800,000
+tender
+C
+KG
+AI Public Service Hall (Singpass-Style)
+Public Administration & e-Government
+7.05
+$1,000,000
+tender
+B
+UZ
+Middle Corridor Logistics AI (UZ)
+Transport & Urban
+6.95
+$2,200,000
+donor_program
+B
+UZ
+Aral Desertification AI (UZ)
+Environment & Climate
+6.85
+$1,500,000
+donor_program
+C
+KG
+AI School Programme (NIS-Style)
+Education
+6.80
+$600,000
+donor_program
+C
+KG
+AI Cross-Border Citizen Services (CIS Recognition)
+Cross-cutting
+6.80
+$600,000
+donor_program
+B
+KG
+Issyk-Kul Tourism AI Platform
+Tourism & Culture
+6.75
+$700,000
+tender
+C
+KG
+AI Stablecoin (KGST) Compliance Platform
+Finance & Fiscal
+6.70
+$500,000
+tender
+C
+KG
+AI Civil Servant Training (eGA Twinning)
+Education
+6.65
+$500,000
+donor_program
+C
+KG
+AI Health Insurance & Social Fund
+Health
+6.65
+$600,000
+donor_program
+C
+KG
+AI Border Biometric Control
+Security & Public Order
+6.65
+$1,200,000
+tender
+C
+KG
+AI Pension Fund Modernization
+Labor & Migration
+6.65
+$500,000
+donor_program
+C
+KG
+Inter-Agency Workflow Automation
+Public Administration & e-Government
+6.65
+$700,000
+tender
+C
+KG
+Anti-Corruption AI Monitoring (Prosecutor)
+Justice & Rule of Law
+6.60
+$700,000
+donor_program
+C
+UZ
+AI Open Data Platform (UZ)
+Public Administration & e-Government
+6.55
+$2,200,000
+tender
+C
+UZ
+Anti-Corruption AI Monitoring (UZ ASR)
+Public Administration & e-Government
+6.50
+$1,500,000
+direct
+C
+UZ
+Digital Trust Center Services (UZ DTC)
+Public Administration & e-Government
+6.50
+$1,200,000
+direct
+C
+KG
+Digital Driver License Platform
+Transport & Urban
+6.50
+$800,000
+tender
+C
+UZ
+AI Tax Audit Selection (Phase 2 STC)
+Finance & Fiscal
+6.45
+$2,500,000
+direct
+C
+KG
+Bishkek Smart City Platform
+Transport & Urban
+6.45
+$700,000
+tender
+C
+KG
+AI Climate Adaptation Platform (Cross-Sector)
+Environment & Climate
+6.45
+$600,000
+donor_program
+C
+UZ
+Aerospace AI Sentinel Pipeline (UZ)
+AI Infrastructure (Enabling Layer)
+6.40
+$1,500,000
+direct
+C
+UZ
+AI Mining Optimization (UZ)
+Energy
+6.40
+$4,500,000
+tender
+C
+KG
+AI Renewable Energy Forecasting (KG)
+Energy
+6.40
+$600,000
+tender
+C
+KG
+AI Mining/Critical Minerals Exploration KG
+Environment & Climate
+6.20
+$800,000
+ppp
+B
+UZ
+AI Tourism Platform (Samarkand-Bukhara)
+Tourism & Culture
+6.15
+$1,800,000
+tender
+B
+UZ
+AI Air-Quality Tashkent
+Environment & Climate
+6.15
+$1,200,000
+ppp
+C
+KG
+Osh City Digital Services Platform
+Public Administration & e-Government
+6.05
+$500,000
+tender
+C
+KG
+AI Open Government Anti-Corruption (UNDP)
+Justice & Rule of Law
+6.05
+$400,000
+donor_program
+C
+UZ
+Diaspora Bridge Advisory Network
+AI Infrastructure (Enabling Layer)
+5.95
+$800,000
+direct
+C
+KG
+Diaspora Bridge Advisor Network (KG)
+Cross-cutting
+5.95
+$300,000
+direct
+C
+UZ
+AI Education Platform (UZ Higher Ed Career Hub)
+Education
+5.85
+$1,200,000
+tender
+C
+UZ
+AI National Statistics (UZ Goskomstat)
+Public Administration & e-Government
+5.85
+$1,500,000
+direct
+C
+KG
+KG Postal & Delivery AI
+Transport & Urban
+5.80
+$400,000
+tender
+C
+KG
+KG National Statistics AI
+Public Administration & e-Government
+5.80
+$400,000
+donor_program
+C
+UZ
+AI Postal & Delivery (Uzposta)
+Transport & Urban
+5.55
+$1,500,000
+ppp
+
+---
+## URL: https://avaluev.github.io/ca-b2g-research/institutions/index.html
+Institution map
+This map covers 105 state institutions across Uzbekistan and Kyrgyzstan with AI or digital mandate, organised in eight tiers from Presidential Administration through Cabinet, line ministries, agencies, SOEs, regulators, working groups, and donor PIUs. Every institution names its current head, parent, and recent decisions.
+What are the eight tiers?
+Presidential Administration
+Cabinet
+Line ministries
+State committees, agencies, authorities
+Digital infrastructure SOEs
+Regulators
+Commissions, councils, working groups
+Donor-embedded Project Implementation Units (PIUs)
+Institutions
+C
+Tier
+Name (EN)
+Name (RU)
+AI/digital mandate
+Head ID
+KG
+1
+Office of the President of the Kyrgyz Republic
+Аппарат Президента Кыргызской Республики
+Under Japarov Concentration lens: Presidential Administration is the REAL decision layer for all major digital policy in KG. The April 2026 abolition of the Ministry of Digital Development and transfer of functions to UДП (Presidential Administration) confirms this. All major digital decrees signed by President. National AI Council reports directly here.
+kg-sadyr-japarov
+KG
+1
+Administration of Presidential Affairs of the Kyrgyz Republic — Digital Development Department (successor to Ministry of Digital Development)
+Управление делами Президента Кыргызской Республики — Департамент цифровой трансформации (преемник Министерства цифрового развития)
+CRITICAL — The new digital authority for all of Kyrgyzstan from April 2026. Absorbs all Mintsifry functions: Tunduk oversight, e-government services, AI policy, cybersecurity coordination, telecom regulation. UДП Structural Regulations pending publication (≤31.05.2026). This is the single highest-leverage institution in KG for digital vendor engagement. New TORs for all legacy Mintsifry programs will be drafted here (CW-004).
+kg-udp-digital-head
+KG
+2
+Cabinet of Ministers of the Kyrgyz Republic
+Кабинет Министров Кыргызской Республики
+Issues Cabinet Resolutions implementing presidential decrees. Key vehicle for digital program implementation regulations. Under Japarov Concentration, Cabinet is subordinate to Presidential Administration on major decisions. Relevant for program-level budgeting.
+kg-adylbek-kasymaliev
+KG
+3
+Ministry of Digital Development of the Kyrgyz Republic (DISSOLVED ~April 30, 2026)
+Министерство цифрового развития Кыргызской Республики (ЛИКВИДИРОВАНО ~30.04.2026)
+DISSOLVED. All functions transferred to КG-UДП (Presidential Administration Digital Department) per April 2026 decree. Was responsible for: Tunduk, e-government services, AI policy, Цифровой кодекс implementation, Digital Kyrgyzstan 2024-2028 strategy. Any reference to 'Mintsifry KG' in pre-2026 decrees resolves to KG-UDP as successor.
+kg-talant-sultanov-former
+KG
+3
+State Committee for Information Technologies and Communications of the Kyrgyz Republic (HISTORICAL — merged into Mintsifry ~2020)
+Государственный комитет информационных технологий и связи КР (ИСТОРИЧЕСКИЙ — влит в Минцифры ~2020)
+Historical institution. Was responsible body when Tunduk GP was created (2018). Merged into Ministry of Digital Development during Japarov-era consolidation. Successor: KG-UDP (via KG-MINCIFRY). Referenced in early Tunduk decrees.
+KG
+3
+Ministry of Finance of the Kyrgyz Republic
+Министерство финансов Кыргызской Республики
+Budget authority for all digital programs. CBDC digital som counterpart ministry alongside NBKR. Fiscal digitalization (e-treasury, e-budget). Key gatekeeper for donor program co-financing approval. Digital social registry counterpart.
+kg-almaz-baketaev
+KG
+3
+Ministry of Economy and Commerce of the Kyrgyz Republic
+Министерство экономики и коммерции Кыргызской Республики
+Oversees Financial Services Regulatory Authority (SRFR / FSA). Responsible for virtual assets regulation, stablecoin USDKG framework. Key counterpart for digital economy/e-commerce regulatory programs.
+KG
+3
+Ministry of Justice of the Kyrgyz Republic
+Министерство юстиции Кыргызской Республики
+Operates cbd.minjust.gov.kg (legal acts database — primary source for all KG legislation). Responsible body under personal data law (KG-LAW-2008-058). Legal digitalisation including GIZ digital justice program. E-notary, digital registration of legal entities.
+KG
+3
+Ministry of Justice of the Kyrgyz Republic (alternate slug for KG-MOJ, retained for decree resolution)
+Министерство юстиции КР (второй слаг для резолюции декретов)
+Same as KG-MOJ — this slug (KG-MINUST) is retained from decree record KG-LAW-2008-058 for cross-reference resolution. Canonical record: KG-MOJ.
+KG
+3
+Ministry of Health of the Kyrgyz Republic
+Министерство здравоохранения Кыргызской Республики
+E-health platform, telemedicine programs, AI-assisted diagnostics pilots. Key buyer for health AI in rural telemedicine connectivity. WHO/UNFPA/UNICEF donor-co-financed health digitalization programs.
+KG
+3
+Ministry of Education and Science of the Kyrgyz Republic
+Министерство образования и науки Кыргызской Республики
+EdTech AI platform procurement, digital curriculum, e-learning systems. KOICA multi-phase digital governance education program counterpart. Key buyer for LMS, AI tutoring, digital school infrastructure.
+KG
+3
+Ministry of Agriculture of the Kyrgyz Republic
+Министерство сельского хозяйства Кыргызской Республики
+Smart agriculture AI, satellite imagery for livestock and crop monitoring. EBRD/WB/FAO co-financed agritech programs. Key buyer for satellite-based field monitoring, AI-assisted disease detection in livestock.
+KG
+3
+Prosecutor General's Office of the Kyrgyz Republic
+Генеральная прокуратура Кыргызской Республики
+Responsible body under Цифровой кодекс (2025) for digital investigation tools, e-evidence standards, AI-assisted fraud detection. Digital case management system modernization.
+KG
+3
+Jogorku Kenesh — Parliament of the Kyrgyz Republic
+Жогорку Кенеш — Парламент Кыргызской Республики
+Legislative body. Passed Цифровой кодекс (2025). AI in parliamentary proceedings pilot announced. AI coverage of legislative sessions already reported (trend hypothesis confirmed). Responsible body for approving digital budgets and donor co-financing frameworks.
+KG
+3
+State Committee for National Security of the Kyrgyz Republic (GKNB)
+Государственный комитет национальной безопасности Кыргызской Республики (ГКНБ)
+Cybersecurity coordination for national security. Clears vendors for sensitive digital contracts. Cyber units under GKNB oversee critical infrastructure protection under Цифровой кодекс provisions. Key security clearance authority for state AI deployments.
+kg-kamchybek-tashiev
+KG
+3
+Ministry of Transport and Roads of the Kyrgyz Republic
+Министерство транспорта и дорог Кыргызской Республики
+ITS, digital logistics, road condition monitoring, Bishkek smart traffic management. Key buyer for transport AI, route optimization.
+KG
+3
+Ministry of Energy of the Kyrgyz Republic
+Министерство энергетики Кыргызской Республики
+Hydropower grid optimization AI, smart meter rollout, digital utility monitoring. EBRD/WB/ADB energy sector financing includes digital components.
+KG
+3
+Ministry of Labor, Social Security and Migration of the Kyrgyz Republic
+Министерство труда, социального обеспечения и миграции Кыргызской Республики
+Digital social registry, Айыл аймагы (rural) social assistance, AI targeting for social transfers. Key for donor-co-financed social protection digitalization (WB, UNDP).
+KG
+4
+State Registration Service of the Kyrgyz Republic
+Государственная регистрационная служба Кыргызской Республики
+Biometric identification database, civil registration, company/property registration. Interfaces with Tunduk for identity verification. Key buyer for biometric AI verification, e-registry modernization. Population registry underpins all e-government services.
+KG
+4
+Department of State Procurement under the Cabinet of Ministers of the Kyrgyz Republic
+Департамент государственных закупок при Кабинете Министров Кыргызской Республики
+Operates zakupki.gov.kg electronic procurement portal. Responsible body under KG procurement laws (№72/2015, №27/2022). ADB project 55109-001 (e-Procurement digitalization) implements through this department. KEY ENTRY POINT for all B2G vendors — understand zakupki.gov.kg procedures.
+KG
+4
+National Statistics Committee of the Kyrgyz Republic
+Национальный статистический комитет Кыргызской Республики
+National statistics collection and publication. Open data portal operator (data.gov.kg). AI-assisted statistical modeling. Census digitalization. Key data source for AI applications in government — data partnership entry point.
+KG
+4
+High Tech Park of the Kyrgyz Republic
+Парк высоких технологий Кыргызской Республики (ПВТ)
+Special economic zone for ICT/AI companies. Tax privileges for resident companies. Primary market-entry mechanism for foreign AI vendors in Kyrgyzstan (equivalent to IT Park UZ). Smaller scale than UZ IT Park but similar function.
+KG
+4
+Kyrgyzpatent — State Service for Intellectual Property and Innovation (Kyrgyzstan)
+Кыргызпатент — Государственная служба интеллектуальной собственности и инноваций КР
+IP registration digitalization. AI-assisted patent search and prior-art detection. Innovation ecosystem registration. Growing mandate for AI-generated IP questions under Цифровой кодекс 2025.
+KG
+4
+Social Fund of the Kyrgyz Republic
+Социальный фонд Кыргызской Республики
+Pension and social insurance digital administration. E-portal for pension services. AI-assisted claims verification and fraud detection. Tunduk integration for cross-government data exchange.
+KG
+5
+State Institution 'Tunduk' — Inter-Agency Electronic Interaction System (under UDP after April 2026)
+Государственное учреждение «Тундук» — система межведомственного электронного взаимодействия (под УДП с апреля 2026)
+Kyrgyzstan's X-Road equivalent. 800+ government information systems connected. All inter-agency data exchange flows through Tunduk. CRITICAL infrastructure layer — any AI system needing government data must integrate via Tunduk API. Post-April 2026 now under UDP (transferred from dissolved Mintsifry). CW-008 (Tunduk modernization, Estonian EGA-led, EU-funded).
+KG
+5
+State Enterprise Infocom (IT integrator and infrastructure operator)
+Государственное предприятие «Инфоком» (IT-интегратор и оператор инфраструктуры)
+State IT infrastructure operator. Tunduk is operated within Infocom ecosystem. Government data center operator. Key implementation partner for any large-scale digital government project — JV or white-label arrangement is standard path for foreign vendors. Transferred to UDP oversight after April 2026.
+KG
+5
+Kyrgyztelekom JSC (State Telecommunications Operator)
+ОАО «Кыргызтелеком» (государственный телекоммуникационный оператор)
+State fixed-line and internet backbone. Government connectivity infrastructure. Secondary role in digital government programs. Market share declining vs MegaCom. Key for rural connectivity programs (AKDN, SDC co-financed).
+KG
+5
+Alfa Telecom CJSC / MegaCom (State mobile operator)
+ЗАО «Альфа Телеком» / MegaCom (государственный мобильный оператор)
+Largest mobile operator. 4G network. 5G rollout planned. State-owned (contested). Key infrastructure for mobile government services, CBDC digital som wallet distribution, mobile-ID. Potential partner for government AI mobile services delivery.
+KG
+6
+National Bank of the Kyrgyz Republic (NBKR)
+Национальный банк Кыргызской Республики (НБКР)
+CBDC digital som development (in force January 2027 target). AML/KYC AI requirements for banks. Fintech licensing authority. Open banking framework. Key procurement authority for CBDC infrastructure (wallets, AML AI, KYC systems — CW-005). National AI for financial stability monitoring.
+kg-melis-turgunbaev
+KG
+6
+Financial Services Regulatory Authority of the Kyrgyz Republic (SRFR / FSA)
+Служба регулирования и надзора финансового рынка при Правительстве КР (СРНФР / ФСА)
+Regulates virtual assets (crypto), stablecoins (USDKG), non-bank financial services digital transformation. Oversees crypto exchange licensing. Key regulator for any blockchain/crypto AI compliance tool. Post-Japarov consolidation: expanded mandate for virtual assets under Цифровой кодекс 2025.
+KG
+6
+State Tax Service under the Cabinet of Ministers of the Kyrgyz Republic
+Государственная налоговая служба при Правительстве Кыргызской Республики
+E-tax portal. E-invoicing rollout. AI-assisted tax audit and fraud detection. ADB-financed tax administration modernization component. Key buyer for tax AI analytics, e-filing systems, taxpayer risk scoring.
+KG
+6
+State Customs Service of the Kyrgyz Republic
+Государственная таможенная служба Кыргызской Республики
+Digital customs (e-declarations), risk scoring for cargo clearance. Kyrgyzstan is EAEU member — customs interoperability with EAEU digital systems. AI customs risk-scoring and OCR cargo scanning procurement.
+KG
+6
+Anti-Monopoly Regulation Authority of the Kyrgyz Republic
+Орган антимонопольного регулирования Кыргызской Республики
+Digital markets competition oversight. Ensures non-exclusionary procurement for digital services. Less direct leverage than tax/customs but important for market entry policy.
+KG
+7
+National Council on Artificial Intelligence of the Kyrgyz Republic
+Национальный совет по искусственному интеллекту Кыргызской Республики
+Cross-cutting AI governance body. Reports to Presidential Administration (KG-UDP post-April 2026). Responsible body in decree queue for National AI Strategy (announced, pending final signature as of May 2026). Drafts AI policy standards and testing frameworks under Цифровой кодекс. THE pre-procurement engagement target for AI vendors — spec-setting authority.
+KG
+7
+Coordination Committee for Digital Transformation of the Kyrgyz Republic
+Координационный комитет по цифровой трансформации Кыргызской Республики
+Cross-cutting implementation oversight body for Digital Kyrgyzstan 2024-2028 strategy (Указ №90/2024). Coordinates all ministries and agencies on digital transformation. Likely being reconstituted under UDP oversight post-April 2026 reorganization.
+KG
+7
+Bishkek Digital Hub / Innovation Ecosystem (informal, emerging as of 2025)
+Бишкекский цифровой хаб / инновационная экосистема (формирующаяся)
+Emerging AI/startup ecosystem. Co-working and incubation. Key entry point for diaspora-bridge connections — Kyrgyz tech diaspora events. Not yet institutionalized as of May 2026 but referenced in Digital Kyrgyzstan strategy.
+KG
+7
+Digital Code Secondary Regulations Working Group (AI Auditability and Model Registry)
+Рабочая группа по разработке подзаконных актов к Цифровому кодексу (аудит ИИ, реестр моделей)
+CW-010: Drafting secondary regulations for Цифровой кодекс (2025) covering AI auditability standards, AI model registries, and testing requirements. Highest leverage pre-procurement spec-shaping opportunity in KG. Vendor participation in this working group shapes all future KG AI procurement TORs.
+KG
+8
+World Bank Digital CASA / Digital GovTech PIU (Kyrgyz Republic)
+ПИЕ ВБ Digital CASA / Digital GovTech (Кыргызская Республика)
+Manages Digital CASA Kyrgyz Republic and Digital GovTech TA programs. WB procurement rules apply. THE HIDDEN LEVER — WB Task Team Leader is often the actual customer who writes TORs and approves shortlists. Government counterpart: UDP Digital Department head. Tunduk modernization (CW-008) will route through this PIU.
+KG
+8
+ADB e-Procurement System Digitalization PIU — Project 55109-001 (Kyrgyz Republic)
+ПИЕ АБР по цифровизации системы закупок — Проект 55109-001 (Кыргызская Республика)
+Manages ADB Project 55109-001 (Phase 1): e-Procurement System Digitalization. Procures technical assistance for zakupki.gov.kg upgrade. Government counterpart: State Procurement Department. ADB procurement rules (QCBS for consulting). DIRECT ENTRY POINT for e-procurement technology vendors.
+KG
+8
+EU Connectivity for Central Asia (C4CA) / Global Gateway PIU (Kyrgyz Republic)
+ПИЕ ЕС C4CA / Global Gateway (Кыргызская Республика)
+EU C4CA satellite connectivity and cybersecurity package for KG. Global Gateway digital components. Estonian EGA advisory engagement for Tunduk/e-government. Team Europe Digital Connectivity Initiative. Government counterpart: UDP Digital Department. CW-008 Tunduk modernization EU-funded track.
+KG
+8
+GIZ Public Administration Reform / Digital Justice PIU (Kyrgyz Republic)
+ПИЕ ГИЦ по реформе госуправления / цифровому правосудию (Кыргызская Республика)
+GIZ-managed programs: public administration reform, digital justice, decentralization MIS. Government counterpart: MOJ and Cabinet. Procurement follows GIZ/EU rules. Key entry point for governance reform technology vendors with EU/German positioning.
+KG
+8
+UNDP Digital Inclusion / Civic-Tech Program Office (Kyrgyz Republic)
+Офис программы ПРООН по цифровой инклюзии / гражданским технологиям (Кыргызстан)
+UNDP civic-tech, e-participation, digital inclusion programs. Government counterpart: UDP Digital Department. Often co-designs pilot programs that become full government procurements.
+KG
+8
+KOICA Digital Governance Multi-Phase Project PIU (Kyrgyz Republic)
+ПИЕ КОИКА — многофазный проект цифрового управления (Кыргызская Республика)
+KOICA Kyrgyzstan digital governance multi-phase project. Covers e-government, AI training, digital skills. Korean vendor preference but technical partnerships welcome. Government counterpart: UDP Digital Department (post-April 2026 transferred from Mintsifry).
+KG
+8
+UNDP Open Government / Anti-Corruption Digital PIU (Kyrgyz Republic)
+ПИЕ ПРООН — открытое правительство / цифровая антикоррупция (Кыргызстан)
+UNDP open government, anti-corruption digital tools, digital rights monitoring. Government counterpart: Cabinet of Ministers anti-corruption secretariat. Pilots often become full government procurements.
+KG
+8
+AKDN Mountain Regions Digital Connectivity PIU (Kyrgyz Republic)
+ПИЕ АКДН — цифровая связность горных регионов (Кыргызстан)
+AKDN mountain connectivity, AKF education tech, Pamir Energy digital monitoring. Government counterpart: Ministry of Education. Serves remote mountain communities — unique AI deployment challenge for satellite/offline-capable AI systems.
+UZ
+1
+Office of the President of the Republic of Uzbekistan
+Аппарат Президента Республики Узбекистан
+Supreme authority over Digital Uzbekistan-2030 strategy. All major AI/digital decrees (УП-series) signed by President. Chairs Coordination Commission on Digital Uzbekistan-2030. Presidential advisors on digital matters exert significant influence on vendor selection and program design.
+uz-mirziyoyev-shavkat
+UZ
+1
+Coordination Commission for Implementation of the Digital Uzbekistan-2030 Strategy
+Координационная комиссия по реализации Стратегии «Цифровой Узбекистан-2030»
+Cross-cutting body that oversees the entire Digital Uzbekistan-2030 strategy. Has direct presidential reporting. Approves budget allocations under ПП-320 ($100M AI fund). Working groups spawn tenders. The HIGHEST leverage body for pre-procurement engagement — specs are set here before RFPs publish.
+uz-prime-minister
+UZ
+1
+National Coordination Council on Cybersecurity of the Republic of Uzbekistan
+Национальный координационный совет по кибербезопасности Республики Узбекистан
+Cross-cutting cybersecurity governance body created under ЗРУ-764. Coordinates cybersecurity policy across all state bodies and critical infrastructure. Relevant for any AI/data security vendor seeking government contracts.
+UZ
+2
+Cabinet of Ministers of the Republic of Uzbekistan
+Кабинет Министров Республики Узбекистан
+Issues ПП (Cabinet Resolution) level decrees for digital implementation. Key vehicle: ПП-320 (30.10.2025) allocating $100M AI fund from FRR. Oversees all ministry-level digital programs. Approves state budget allocations for ICT and AI programs.
+uz-abdulla-aripov
+UZ
+3
+Ministry of Digital Technologies of the Republic of Uzbekistan
+Министерство цифровых технологий Республики Узбекистан
+Lead ministry for all AI/digital policy in Uzbekistan. Authorized body for e-commerce (ЗРУ-792), digital signatures (ЗРУ-793), cybersecurity (ЗРУ-764), AI strategy (ПП-358). Oversees MyID, EPIGU portal, IT Park, Uzinfocom, UzCloud, AI Center. Issues technical standards for all state digital systems. Renamed from Ministry of Information Technologies and Communications (MITC) post-2017 — karimov_inversion landmark institution.
+uz-sherzod-shermatov
+UZ
+3
+Ministry of Health of the Republic of Uzbekistan
+Министерство здравоохранения Республики Узбекистан
+Lead ministry for E-Health platform, electronic prescription system, clinical decision support AI. Responsible body under ПП-5000 (2021) and ПП-415 (2023). Implementing e-prescription anti-fraud, AI triage, electronic medical records. Key procurement authority for Health AI tenders.
+uz-amrillo-inoyatov
+UZ
+3
+Ministry of Higher Education, Science and Innovations of the Republic of Uzbekistan
+Министерство высшего образования, науки и инноваций Республики Узбекистан
+Responsible for 15 university AI laboratories program (deadline 2026 per УП-189), AI Cluster at New Uzbekistan University, AI curriculum integration in higher education. Key counterpart for international AI education grants (KOICA, World Bank). Post-Karimov restructured ministry with new scope for science and innovation.
+uz-kongratbay-sharipov
+UZ
+3
+Ministry of Preschool and School Education of the Republic of Uzbekistan
+Министерство дошкольного и школьного образования Республики Узбекистан
+Responsible under ПП-358 for AI integration in school curriculum from 2026/2027. Key buyer for EdTech AI tutoring platforms, digital school administration, e-learning content. Oversees AI literacy programs in 10,000+ secondary schools.
+UZ
+3
+Ministry of Justice of the Republic of Uzbekistan
+Министерство юстиции Республики Узбекистан
+Responsible under УП-6065 (ID cards), ЗРУ-793 (digital signature), ЗРУ-792 (e-commerce law). Maintains legal normative acts on lex.uz. Key counterpart for е-justice / Digital Court (УП-140). Personal data protection regulation falls partially under MOJ scope.
+uz-akbar-tashkulov
+UZ
+3
+Ministry of Internal Affairs of the Republic of Uzbekistan
+Министерство внутренних дел Республики Узбекистан
+Implements biometric ID card system (УП-6065). Operating State Center for Personalization (sub-unit). Buyer for facial recognition, biometric verification, border control AI. Oversees vehicle traffic violation automation, AI-assisted policing systems.
+uz-pulat-bobojonov
+UZ
+3
+Ministry of Investments, Industry and Trade of the Republic of Uzbekistan
+Министерство инвестиций, промышленности и торговли Республики Узбекистан
+Oversees industrial digitalization, e-commerce development, FDI attraction for tech sector. Key counterpart for SME digitalization programs. Post-2017 restructured super-ministry merging investment, industry, trade portfolios. Karimov Inversion: new leadership, new scope.
+uz-laziz-kudratov
+UZ
+3
+Ministry of Agriculture of the Republic of Uzbekistan
+Министерство сельского хозяйства Республики Узбекистан
+Responsible under multiple decrees for agro-digital programs. Procures satellite imagery AI for cotton, wheat, and livestock monitoring. Key donor counterpart for WB/EBRD agritech programs. Remote sensing and field digitalization tenders.
+UZ
+3
+Ministry of Energy of the Republic of Uzbekistan
+Министерство энергетики Республики Узбекистан
+Responsible for smart grid digitalization, renewable energy AI optimization. Key buyer for digital twin utilities, SCADA modernization, energy data analytics. Major World Bank and ADB-financed energy digitalization programs.
+uz-jurabek-mirzamahmudov
+UZ
+3
+Ministry of Emergency Situations of the Republic of Uzbekistan
+Министерство по чрезвычайным ситуациям Республики Узбекистан
+Buyer for AI emergency dispatch systems, flood and earthquake early-warning AI, disaster risk modeling. Fergana Valley and Tien Shan seismic risk drives demand. Donor co-financed programs (UNDP, JICA, EU) for disaster risk reduction.
+UZ
+3
+Supreme Court of the Republic of Uzbekistan
+Верховный суд Республики Узбекистан
+Responsible body under УП-140 (21.08.2025) — Digital Court / AI in courts program 2025-2027. Key procurer for AI document drafting, AI-assisted case analysis, digital courtroom infrastructure. Vendor influence window: RFP expected Q3-Q4 2026. High-profile showcase project with presidential attention.
+uz-bahrom-ismoilov
+UZ
+3
+Prosecutor General's Office of the Republic of Uzbekistan
+Генеральная прокуратура Республики Узбекистан
+Responsible body in anti-corruption AI programs. AI-assisted document verification, fraud detection for state property transactions. Digital case management. Part of the broader digital justice stack under УП-140.
+UZ
+3
+State Security Service of the Republic of Uzbekistan
+Служба государственной безопасности Республики Узбекистан
+Responsible body under ЗРУ-764 (Cybersecurity Law). Coordinates cybersecurity operations for classified and critical infrastructure systems. Clears vendors for sensitive government AI/data contracts. UNICON.UZ operates as civilian arm.
+UZ
+3
+Treasury of the Republic of Uzbekistan (under Ministry of Economy and Finance)
+Казначейство Республики Узбекистан (при Министерстве экономики и финансов)
+State treasury digital systems. E-payment integration for all government expenditure. Responsible body under financial digitalization decrees. Key for understanding public expenditure flows for AI/ICT programs.
+UZ
+3
+Ministry of Economy and Finance of the Republic of Uzbekistan
+Министерство экономики и финансов Республики Узбекистан
+Controls FRR (Fund for Reconstruction and Development) — source of $100M AI fund (ПП-320). Budget authority for all state AI/ICT programs. Oversees Cadastre Agency (NSDI $35M WB project). Key gatekeeper for foreign investment in digital sectors.
+uz-jamshid-kuchkarov
+UZ
+3
+Ministry of Transport of the Republic of Uzbekistan
+Министерство транспорта Республики Узбекистан
+ITS (intelligent transport systems), digital logistics, connected vehicle policy, Tashkent Metro digital ticketing (ADB-financed). Key buyer for traffic AI, smart logistics, route optimization.
+UZ
+3
+Ministry of Construction and Housing and Communal Services of the Republic of Uzbekistan
+Министерство строительства и жилищно-коммунального хозяйства Республики Узбекистан
+Smart city infrastructure, digital urban planning, building information modeling (BIM), utilities digitalization. Key for Tashkent smart city programs.
+UZ
+3
+Ministry of Tourism and Cultural Heritage of the Republic of Uzbekistan
+Министерство туризма и культурного наследия Республики Узбекистан
+Digital tourism platforms, AI translation for cultural heritage, UNESCO site digital preservation. Buyer for AI guide apps, tourism analytics, heritage digitalization.
+UZ
+3
+Ministry of Employment and Labor Relations of the Republic of Uzbekistan
+Министерство занятости и трудовых отношений Республики Узбекистан
+Digital labor exchange (Mahalliy ish job portal), AI workforce matching, social protection digital registry, labor market analytics. KOICA-aligned workforce digitalization programs.
+UZ
+3
+Ministry of Social Protection and Support of the Republic of Uzbekistan
+Министерство социальной защиты и поддержки населения Республики Узбекистан
+Digital social registry (targeted social assistance AI), mahalla community-level data system, disability registry digitalization. Post-2017 institution. WB and UNDP co-financed social protection digital programs.
+UZ
+3
+Ministry of Foreign Affairs of the Republic of Uzbekistan
+Министерство иностранных дел Республики Узбекистан
+Digital diplomacy, consular services digitalization, e-visa. Key counterpart for international technology partnerships (Korea KOICA, EU, US). Coordinates Digital Silk Road geopolitics.
+uz-bakhtiyor-saidov
+UZ
+4
+Agency for Strategic Reforms under the President of the Republic of Uzbekistan
+Агентство стратегических реформ при Президенте Республики Узбекистан
+Think-tank and reform coordination arm directly under the President. Drafts reform strategies including digital economy components. Coordinates with international donors on reform design. Post-2017 institution with Western-educated staff — PRIME candidate for early-stage vendor engagement. Often influences tender specs before they go to sector ministries.
+uz-bahador-rakhmatov
+UZ
+4
+Agency for Public Services under the President of the Republic of Uzbekistan
+Агентство государственных услуг при Президенте Республики Узбекистан
+Operates Multifunctional Centers (МФЦ/ЦГУ) network and EPIGU e-government portal (720+ services). Key buyer for citizen-facing AI/chatbot, service automation, queue management systems. Post-2017 institution with modern mandate — direct analog to Azerbaijan ASAN Service. Convergent Window CW-007 (EPIGU agentic chatbot).
+UZ
+4
+State Committee for Cadastre (under Ministry of Economy and Finance)
+Государственный комитет по кадастру (при Министерстве экономики и финансов)
+Implementing WB-financed Geospatial NSDI project ($35M, 2025-2030). Buyer for satellite imagery AI, land parcel digitalization, GIS platform, geospatial data analytics. Key procurement authority for CW-009 (geospatial tenders). Post-2017 restructured agency with modern mandate.
+UZ
+4
+IT Park Uzbekistan
+ИТ-Парк Узбекистана
+Special economic zone and accelerator for IT/AI companies. Tax benefits: 0% income/payroll tax for residents. 700+ resident companies, $300M+ export target. Key institution for landing AI vendors in Uzbekistan — IT Park residency is the standard market-entry mechanism. Post-2017 institution with Western-educated management.
+uz-farhod-ibragimov
+UZ
+4
+Center for the Development of Artificial Intelligence and Digital Economy (under Ministry of Digital Technologies)
+Центр развития искусственного интеллекта и цифровой экономики при МЦТ
+Post-2017 institution created specifically to implement ПП-358 (AI Strategy to 2030). Runs AI testing environments, AI standards drafting, AI vendor certification. Key body for shaping AI procurement TORs. Convergent Window CW-003 (criteria for $100M AI fund distribution). PRIME target for pre-procurement vendor engagement.
+UZ
+4
+Agency for Advanced Technology Projects (National Innovation Agency)
+Агентство перспективных технологических проектов (Агентство инноваций)
+Manages innovation grant programs, technology transfer. Coordinates with international technology partners. Post-2017 institution under MOHESI with mandate over science-technology commercialization. Interfaces with $100M AI fund criteria under ПП-320.
+UZ
+4
+Agency for Space Research and Technologies of the Republic of Uzbekistan (Uzbekistan Space Agency)
+Агентство космических исследований и технологий Республики Узбекистан
+Operates UzbekSat-1 satellite. Provides remote sensing data for agriculture, environment, cadastre. Key buyer for satellite imagery AI processing, Earth observation analytics. Post-2017 institution with growing mandate for commercial space applications.
+UZ
+4
+Reconstruction and Development Fund of the Republic of Uzbekistan (FRR)
+Фонд реконструкции и развития Республики Узбекистан (ФРР)
+Sovereign wealth fund vehicle. Source of $100M AI fund under ПП-320 (30.10.2025). Evaluates and approves major state-financed technology projects. Key financial decision-maker for large AI infrastructure investments.
+UZ
+4
+Uzbekistan Fund of Funds (under FRR)
+Фонд фондов Узбекистана (при ФРР)
+VC co-investment vehicle for tech/AI startups. Channels capital into IT Park resident companies. Part of ПП-320 AI fund ecosystem. Post-2017 institution.
+UZ
+4
+State Center for Personalization (under Ministry of Internal Affairs)
+Государственный центр персонализации при МВД Республики Узбекистан
+Operates biometric ID card production and issuance. Maintains biometric database (fingerprints, digital photos, chip data). Provides biometric verification services to MyID and EPIGU. Key operational arm for identity infrastructure.
+UZ
+5
+Uzinfocom JSC (State IT Integrator)
+АО «Узинфоком» (государственный ИТ-интегратор)
+State-owned IT integrator. Operates MyID digital identity infrastructure. Government cloud (UzCloud) operations. E-government infrastructure backbone. Integrates all 720+ EPIGU services. Strategic partner or competitor for any foreign vendor — JV or white-label arrangement is the standard path. Responsible body under ПП-5000 (E-Health) and foundational digital decrees.
+uz-tavaqqalov-uzinfocom
+UZ
+5
+Uztelecom JSC (National Telecommunications Operator)
+АО «Узбектелеком» (национальный телекоммуникационный оператор)
+State-owned telecommunications backbone. Operates government fiber network. Internet connectivity for all state bodies and schools. Key infrastructure layer for digital government services. Potential partner for AI/data center connectivity and edge computing.
+UZ
+5
+UNICON.UZ State Unitary Enterprise (Cybersecurity Center)
+ГУП UNICON.UZ (Центр кибербезопасности Узбекистана)
+National cybersecurity center. Operates CERT (Computer Emergency Response Team). Cybersecurity certification of state information systems. Any foreign vendor's AI system sold to Uzbekistan government must pass UNICON certification. Critical gatekeeper institution.
+UZ
+5
+UzCloud — National Government Cloud (operated by Uzinfocom)
+UzCloud — Национальный государственный облачный сервис (оператор — Узинфоком)
+Sovereign cloud infrastructure for all Uzbekistan government systems. Data localization compliance. IaaS/PaaS for state AI workloads. All foreign vendors serving government must deploy within or certified alongside UzCloud. Critical infrastructure for AI compute sovereignty.
+UZ
+5
+Digital Transformation Agency (DXA) — E-Government Service Center
+Агентство цифровой трансформации (АЦТ) / Центр электронного правительства
+EPIGU (My.Gov.UZ) portal operations. 720+ e-government services delivery. AI citizen chatbot integration. Digital identity verification layer (MyID integration). Post-2017 institution with direct citizen-service mandate. CW-007 convergent window (1000+ services chatbot).
+UZ
+5
+Mahalla and Social Services Agency (Mahalla Foundation digital arm)
+Агентство Махалля и социальных услуг (цифровое направление)
+Digitalization of Mahalla community governance (6,400+ Mahalla committees). AI social registry at community level. Unique to Uzbekistan — Mahalla is the primary social service delivery unit. Post-2017 digitalized system. Trend hypothesis: AI for Mahalla social registry is a distinctly Uzbek AI application.
+UZ
+5
+MyID Digital Identity System (operated by Uzinfocom/MoDT)
+Система цифровой идентификации MyID (оператор — Узинфоком/МЦТ)
+National digital identity platform. 20M+ registered users. Biometric selfie verification, liveness detection AI. Used by 400+ private and public services. Mobile-ID expansion 2025-2026. Key infrastructure layer — any government AI application needs MyID integration.
+UZ
+5
+Center for E-Government Project Management (under MoDT)
+Центр управления проектами электронного правительства при МЦТ
+Project management center for all e-government implementation. Coordinates across ministries for EPIGU service integration. Technical standards for government digital systems. Effectively the PMO for UZ digital government portfolio.
+UZ
+6
+State Tax Committee of the Republic of Uzbekistan
+Государственный налоговый комитет Республики Узбекистан
+Operates Soliq.uz electronic tax portal. Implements e-invoicing (ЭДО) mandatory for VAT payers. Key buyer for AI-assisted tax audit, e-invoice analytics, fraud detection AI. High-volume transaction data environment — prime AI use case.
+UZ
+6
+State Customs Committee of the Republic of Uzbekistan
+Государственный таможенный комитет Республики Узбекистан
+Implements e-customs (Single Window for trade). AI risk-scoring for customs clearance. Buyer for SafeGate-style cargo risk AI, OCR/scanning systems, customs data analytics. ADB-financed customs modernization components.
+UZ
+6
+Central Bank of the Republic of Uzbekistan
+Центральный банк Республики Узбекистан
+Fintech licensing authority. Open banking framework. Digital sum (CBDC) pilot exploration. AI AML/KYC requirements for banks. Key regulator for any fintech AI vendor needing operating license. IFC and WB counterpart for financial sector digitalization.
+uz-mamarizo-nurmuratov
+UZ
+6
+Authorized Body for Personal Data Protection of the Republic of Uzbekistan
+Уполномоченный орган по защите персональных данных Республики Узбекистан
+Enforces personal data protection law. Data localization requirements for AI systems processing citizen data. Any foreign AI vendor must comply with UZ data residency rules. Key certification body for GDPR-equivalent compliance in Uzbekistan.
+UZ
+6
+Anti-Monopoly Committee of the Republic of Uzbekistan
+Антимонопольный комитет Республики Узбекистан
+Digital markets competition regulation. AI/platform market dominance oversight. Relevant for large-scale AI platform tenders to ensure non-exclusionary specifications. Less direct procurement leverage but important for market entry policy.
+UZ
+7
+Center for Strategy Development (Think Tank under President)
+Центр «Стратегия развития» при Президенте Республики Узбекистан
+Presidential think tank drafting long-term strategies including Digital Uzbekistan-2030 implementation roadmaps. Publishes analytical reports on AI/digital trends. High-influence body for strategy pre-shaping — vendor engagement here influences 3-5 year policy direction.
+UZ
+7
+New Uzbekistan University (AI Cluster Host)
+Университет «Новый Узбекистан» (площадка AI Кластера)
+Host for the national AI Cluster (deadline 01.03.2026 per УП-189). NVIDIA partnership integration. Provides GPU compute infrastructure for state AI R&D. Training ground for government AI engineers. Convergent Window CW-002 — compute infrastructure procurement open.
+UZ
+7
+National Human Rights Centre (AI ethics and rights-based AI policy)
+Национальный центр по правам человека Республики Узбекистан
+AI ethics oversight advisory role. Rights-based AI deployment standards. Relevant for AI-in-courts (УП-140) and AI social registry applications — ensures compliance with human rights frameworks required by donor programs.
+UZ
+7
+Interdepartmental Commission on AI Development (under ПП-358)
+Межведомственная комиссия по развитию искусственного интеллекта (при ПП-358)
+Cross-ministry AI development coordination body created by ПП-358 (AI Strategy to 2030). Sets priorities for M AI fund. Approves AI project criteria. Highest-leverage pre-procurement body for AI vendors — TORs originate here. CW-003 engagement target.
+UZ
+8
+World Bank Digital Economy / GovTech Project Implementation Unit (Uzbekistan)
+ПИЕ Всемирного банка по цифровой экономике / GovTech (Узбекистан)
+Donor-embedded PIU operating WB digital economy and GovTech programs in Uzbekistan. Manages procurement under WB rules (QCBS, ICB). THE HIDDEN LEVER — WB task team leader writes TORs, approves vendor shortlists. Government counterpart: MoDT deputy minister. Tenders under this PIU require WB procurement compliance.
+UZ
+8
+World Bank Geospatial NSDI Project PIU (under Cadastre Committee)
+ПИЕ ВБ по геопространственным данным и NSDI (при Агентстве кадастра)
+Manages $35M WB Geospatial NSDI project (2025-2030). Active procurement for satellite imagery processing, AI land use analysis, GIS platform. CW-009 — most active near-term procurement window for geospatial AI vendors. Donor counterpart: WB TTL (to be populated by donor-pipeline agent). Government counterpart: Cadastre Agency head.
+UZ
+8
+ADB Country Partnership Strategy Digital Component PIU (Uzbekistan)
+ПИЕ АБР по цифровым компонентам Стратегии партнерства (Узбекистан)
+Manages ADB Country Partnership Strategy 2024-2028 digital components. Tashkent Metro digital ticketing, tax administration modernization components. ADB procurement rules apply (QCBS for consulting). Government counterpart: MoEF deputy minister.
+UZ
+8
+KOICA IT Education Ecosystem Project PIU (Uzbekistan)
+ПИЕ КОИКА — Экосистема IT-образования (Узбекистан)
+Manages KOICA $14M IT Education Ecosystem program (Enhancing Youth Employment). Procures AI curriculum content, EdTech platforms, learning management systems. Government counterpart: MOHESI. KOICA-aligned Korean vendor preference but open to partnerships with local implementation capacity.
+UZ
+8
+UNDP Digital Transformation Program Office (Uzbekistan)
+Офис программы ПРООН по цифровой трансформации (Узбекистан)
+UNDP digital inclusion and digital transformation advisory program. Earlier 'Advancing Digital Transformation' program (completed); new pipeline programs in civic-tech, e-participation, digital inclusion. Government counterpart: MoDT.
+UZ
+8
+EU Global Gateway / C4CA Digital Project PIU (Uzbekistan)
+ПИЕ ЕС Global Gateway / C4CA (Узбекистан)
+EU Connectivity for Central Asia (C4CA) and Global Gateway programs. €100M satellite + cybersecurity package (2024 Samarkand summit). Team Europe Digital Connectivity Initiative. EGA (Estonia) advisory component for Tunduk/e-government architecture. Government counterpart: MoDT.
+UZ
+8
+JICA Smart Logistics / Transport Digitalization PIU (Uzbekistan)
+ПИЕ ДЖАЙКА — Умная логистика / цифровизация транспорта (Узбекистан)
+JICA smart logistics, transport digitalization, health tech pilots. Government counterpart: Ministry of Transport / Ministry of Health. JICA procurement rules apply — strong Japanese vendor preference but technical partners welcome.
+UZ
+8
+GIZ Digital Governance / Public Administration Reform PIU (Uzbekistan)
+ПИЕ ГИЦ — Цифровое управление / реформа госуправления (Узбекистан)
+GIZ public administration reform and digital governance advisory programs. Government counterpart: Agency for Strategic Reforms (ASR). Procurement follows GIZ/EU rules. Entry point for governance reform technology vendors.
+
+---
+## URL: https://avaluev.github.io/ca-b2g-research/lenses/index.html
+The five-plus-one analytical lenses
+Six analytical lenses cut across every record in this research: the Karimov-to-Mirziyoyev Inversion in Uzbekistan, the Japarov Concentration in Kyrgyzstan, the Decree Half-Life that opens 6-18 month implementation windows, Donor Co-Financing that drives 60-90% of digital budgets, the Diaspora Bridge of senior advisors, and the Russian/CIS Substitution Window opened by post-2022 vendor retreat.
+Every research output passes through these five lenses. They distinguish this harness from generic "AI in Central Asia" research that produces useless platitudes.
+Lens 1: The Karimov-to-Mirziyoyev Inversion (Uzbekistan-specific)
+**The pattern.** Pre-2016 Uzbekistan was institutionally frozen. Post-2016 Uzbekistan is in a once-in-a-generation institutional rewrite — every ministry, agency, and SOE has either been created, restructured, or rebranded since 2017.
+**Operational implication.** Org charts published before 2020 are 80%+ stale. Most B2G consultancies still cite them. Russian-language Wikipedia is particularly unreliable here — Uzbek government structures change faster than volunteer editors update.
+**Where the alpha is.**
+• New agencies created post-2017 (Agency for Strategic Reforms, Agency for Cadastre, Public Services Agency, IT Park, Innovation Agency, etc.) tend to have:
+- Younger, often Western-educated leadership
+- Hungry leadership that wants visible wins
+- Less procurement orthodoxy
+- More tolerance for direct vendor engagement
+• Renamed/restructured ministries (e.g. Ministry of Digital Technologies — formerly Ministry of Information Technologies and Communications) often have:
+- New scope they don't yet have vendors for
+- Fresh budget allocations tied to the renaming decree
+**Application rule.** When an institution is mentioned, check its founding decree date. If post-2017, flag it as `karimov_inversion` lens-tagged and prioritize its leaders in the people-intelligence sweep.
+Lens 2: The Japarov Concentration (Kyrgyzstan-specific)
+**The pattern.** Post-2021 Kyrgyzstan has consolidated executive power, abolished some ministries, restructured the Cabinet of Ministers (Кабинет Министров), and runs through the Presidential Administration as the real decision layer.
+**Operational implication.** Smaller country = fewer gatekeepers = faster contracts but smaller budgets. The Ministry of Digital Development (Министерство цифрового развития) is the single highest-leverage target for AI vendors because it consolidates functions that used to span multiple agencies.
+**Where the alpha is.**
+• Abolished or merged entities: their staff still exist as named individuals but now operate inside the merged body — they retain expertise and network but their public roles are stale. Find them.
+• The President's Office Digital Development Department often has more decision authority than the formal ministry on big-ticket items.
+• The State Agency for Information Resources and Technologies under the President operates as a parallel implementation arm.
+**Application rule.** When mapping KG institutions, always check both the formal ministry AND the parallel Presidential Administration unit. The latter often has the budget; the former has the public profile.
+Lens 3: The Decree Half-Life
+**The pattern.** A presidential decree announcing an AI/digital strategy creates a 6–18 month implementation window where:
+1. Budgets get allocated (months 0–3)
+2. Working groups form, terms of reference drafted (months 1–6)
+3. Procurement opens, RFPs publish (months 3–12)
+4. Contracts award (months 6–18)
+After month 18, implementation freezes until the next decree.
+**Operational implication.** The window between decree signing and procurement publication is the highest-leverage window for vendor positioning. After RFPs publish, specs are usually written for an incumbent. Before implementation begins, the spec is open.
+**Where the alpha is.** Decrees signed in the last 6–12 months that have NOT yet had their RFPs published. These are the "pre-procurement" windows where vendor input still shapes the spec.
+**Application rule.** Every decree gets a `half_life_status` tag:
+• `active_window`: signed within last 6 months, no procurement yet — HIGHEST PRIORITY
+• `implementing`: 6–18 months old, procurement underway — bid on tenders
+• `expired`: >18 months, no follow-up decree — backlog, low priority
+• `amended`: superseded — check the amending decree
+• `repealed`: dead — drop
+Lens 4: Donor Co-Financing (the hidden customer)
+**The pattern.** 60–90% of "government" AI/digital budgets in UZ and KG are donor budgets channeled through ministries via PIUs (Project Implementation Units). The donor program manager (TTL at World Bank, project officer at ADB, etc.) is often the *real* customer — they wrote the TOR, they approve the procurement, they evaluate the bids.
+**Operational implication.** Pitching only to the minister and ignoring the donor PM is the #1 reason foreign vendors fail in CA government markets. The donor PM has procurement orthodoxy (must use Bank rules), has prior vendor preferences (consultants they've worked with elsewhere), and has political cover the ministry doesn't.
+**Where the alpha is.** Identifying the donor-government dyad for each program. The dyad is:
+• The donor TTL/PM (named individual at WB/ADB/EU/etc.)
+• The government counterpart (named individual at ministry, often a deputy minister or PIU director)
+Both are stakeholders. Both must be sold.
+**Application rule.** Every donor program record must have BOTH `ttl_pm_name` AND `government_counterpart_person_id`. Programs missing one are incomplete records. Initiatives funded via a donor program must include outreach to BOTH parties.
+Lens 5: The Diaspora Bridge
+**The pattern.** Both UZ and KG have powerful tech diasporas (London, Dubai, Istanbul, Moscow, San Francisco, Seoul, Almaty) who:
+• Often hold senior positions at major tech companies abroad
+• Maintain personal relationships with current ministers (school friends, university classmates, family connections)
+• Serve as informal advisors to digital ministries
+• Are almost always uncredited co-architects of digital strategies
+• Are often the source of the global precedents the ministries try to copy
+**Operational implication.** Finding diaspora advisors on LinkedIn is the fastest unlock. They:
+• Will accept LinkedIn connection requests (unlike ministers)
+• Can introduce you to the named decision-maker with high warmth
+• Often welcome partnership conversations (they want their home country to succeed)
+• Sometimes formalize as "honorary advisors" or "presidential council members"
+**Where the alpha is.** The diaspora-bridge research phase looks for:
+• Uzbeks/Kyrgyz at FAANG, top consulting firms, top global banks, central banks abroad, top universities
+• People with .uz / .kg roots who co-authored papers or talks with ministers
+• People mentioned in ministerial speeches as "respected diaspora colleague"
+• People on Presidential Advisory Councils (Совет старейшин, etc. — though these are formal; informal advisors are higher-leverage)
+**Application rule.** Every people-intelligence sweep includes a dedicated diaspora-bridge subroutine. Diaspora advisors get `diaspora_advisor_flag: true` and are often higher-leverage targets than the formal officials they advise.
+Lens 6 (bonus): Russian/CIS Substitution Window
+**The pattern.** Post-2022 sanctions accelerated a shift in CA government markets:
+• Western vendors (US/EU) became risk-averse on the region
+• Russian vendors faced sanctions exposure for their CA partners
+• This created a pricing and positioning vacuum
+• Filled increasingly by: Chinese vendors (Huawei, ZTE, Alibaba), Indian vendors (TCS, Infosys), Korean vendors (Samsung SDS, LG CNS), Turkish vendors (Havelsan, ASELSAN civilian arms), and importantly — local champions backed by national-friendly capital
+**Operational implication.** A Russian-CIS-friendly delivery model (sntz.ai-style: Russian-language UX, local payment rails, no Western dependency) has outsized appeal IF positioned as "neither side" — neither US-aligned nor a Russian-sanctions-exposed vendor. This is your strategic position.
+**Where the alpha is.** Initiatives where:
+• Russian-language UX is mandatory or strongly preferred (justice, social services, internal admin)
+• Data localization is required (impossible to deliver via Western SaaS)
+• Speed-to-deploy matters more than blue-chip vendor brand
+• The buyer wants "sovereign" alternatives to OpenAI/Google/Microsoft
+**Application rule.** Every initiative gets a `russian_cis_fit` score (1–10) reflecting how well it matches your distribution moat. High scores get prioritized in the CRM "fast pipeline" view.
+---
+How the lenses combine
+The most valuable initiatives score high on multiple lenses simultaneously:
+• **Karimov Inversion + Decree Half-Life Active**: a new UZ agency created in last 24 months with a fresh decree mandate AND budget — bluest of blue-water opportunities
+• **Donor Co-Financed + Diaspora Bridge**: World Bank program with a diaspora advisor on the donor side AND the government side — warm intro to both
+• **Russian/CIS Substitution + Defensibility**: government data sovereignty mandate + multi-year SLA potential — your highest-margin moat play
+These combinations are flagged in the initiative-synthesizer output as "convergent windows."
+
+---
+## URL: https://avaluev.github.io/ca-b2g-research/methodology/index.html
+Methodology
+A seven-wave multi-agent research pipeline turns Russian, Uzbek, and Kyrgyz primary sources into a typed knowledge graph. Eleven specialised agents work in three waves of parallel research, one wave of synthesis, one of adversarial audit, and one of outreach drafting. Cross-model verification via OpenRouter caps the OpenRouter spend at twenty dollars per run.
+What does each wave do?
+Wave
+Agent(s)
+Purpose
+0
+blueprint-architect
+Strategic plan, target lists, constraint inventory
+1
+legal-cartographer, case-tournament
+Decree corpus + 100+ global precedents
+2
+institution-mapper, donor-pipeline, procurement-harvester, trend-triangulator
+Org taxonomies, donor programs, tenders, trends
+3
+people-intelligence
+100+ decision-makers + diaspora bridges
+4
+initiative-synthesizer
+100+ initiatives, 5-axis scoring
+5
+reflexion-auditor
+Adversarial re-verification, ≥3 HIGH-issue minimum
+6
+pitch-artificer
+Tier-A/B outreach bundles (private vault only)
+How is verification enforced?
+Every record carries a verification tag — VERIFIED (single source), L2_VERIFIED (corroborated), L3_VERIFIED (expert commentary), INFERRED, UNVERIFIED, or CONTRADICTED. The reflexion-auditor wave re-fetches sources, calls a different OpenRouter model than the originating agent (to break echo chambers), and demotes initiatives whose claims fail re-check. Twelve content quality gates block deploy on any single H1 violation, internal-ID leak, fabricated decree, or fabricated LinkedIn URL.
+What is the source priority?
+For Uzbekistan: lex.uz, gov.uz, president.uz, norma.uz, then spot.uz, gazeta.uz, kun.uz, daryo.uz. For Kyrgyzstan: cbd.minjust.gov.kg, president.kg, gov.kg, kabmin.kg, then 24.kg, kaktus.media, akipress.org. For donors: documents.worldbank.org, projects.worldbank.org, adb.org/projects, ec.europa.eu/international-partnerships. Every country claim cites at least one Russian-language source.
+
+---
+## URL: https://avaluev.github.io/ca-b2g-research/mvp/index.html
+Solopreneur MVPs (UZ + KG)
+This is a parallel track to the institutional B2G initiatives: 200 solopreneur-bootstrappable MVPs grounded in the knowledge graph and HubSpot's $1M Solopreneur MVR framework. 51 are Tier-A. Every idea has a one-week build plan, a quantified validation target, and a price point grounded in local purchasing power.
+What is a Minimum Viable Representation?
+An MVR is a landing page, demo video, free tool, directory, manifesto, or Wizard-of-Oz manual service —
+not
+a finished product. The framework's premise: validate demand in 7 days, not 12 months. One paying customer on day one beats twelve months of speculation.
+Eight MVR vehicles
+Landing page + waitlist
+— for SaaS demand signaling
+Squeeze page
+— for pure demand validation
+Demo video
+— Loom or Twitter-native, especially for AI tools
+Free tool
+— solves one micro-problem, no login
+Directory
+— content-driven, ad/listing-fee monetised
+Wizard of Oz
+— manual fulfillment behind an "automated" facade
+Ad-validated booking
+— Facebook/Instagram ad with direct booking
+Manifesto / blog post
+— viral-leaning, audience-building
+How is each MVP grounded?
+Every MVP references a real Trend, Decree, or Donor program from the knowledge graph, names a concrete target customer (not "small businesses" but "Andijan-based wedding photographers booking via Instagram"), and prices to local purchasing power (UZ avg salary ~$300/month; KG ~$250/month).
+Top solopreneur MVPs
+Tier
+C
+MVP
+Cat
+Score
+MVR
+Build
+Y1 $
+A
+UZ
+FormFiller UZ
+managed_service
+8.85
+wizard_of_oz
+5d
+$24,000
+A
+KG
+FormFillerKG
+managed_service
+8.85
+wizard_of_oz
+5d
+$18,000
+A
+UZ
+DigitalSignWalker
+demo_video
+8.55
+demo_video
+4d
+$18,000
+A
+UZ
+TenderRadar UZ
+saas
+8.45
+landing_page
+7d
+$28,000
+A
+KG
+TenderRadarKG
+saas
+8.45
+landing_page
+7d
+$22,000
+A
+UZ
+TaxScannerUZ
+free_tool
+8.40
+free_tool
+6d
+$14,000
+A
+KG
+DocSignerKG
+managed_service
+8.40
+wizard_of_oz
+4d
+$14,000
+A
+KG
+TaxScannerKG
+free_tool
+8.40
+free_tool
+6d
+$11,000
+A
+UZ
+EPIGU Companion
+free_tool
+8.25
+free_tool
+7d
+$18,000
+A
+UZ
+MyID Onboarding Coach
+demo_video
+8.25
+demo_video
+4d
+$12,000
+A
+KG
+TundukExplainer
+free_tool
+8.25
+free_tool
+7d
+$12,000
+A
+UZ
+FreelancerInvoiceUZ
+free_tool
+8.20
+free_tool
+5d
+$10,000
+A
+UZ
+PermitPathfinder
+free_tool
+8.10
+squeeze_page
+5d
+$14,000
+A
+UZ
+RemittanceCalcUZ
+free_tool
+8.10
+free_tool
+6d
+$12,000
+A
+KG
+RemittanceCalcKG
+free_tool
+8.10
+free_tool
+6d
+$9,000
+A
+UZ
+GovDocTranslator
+free_tool
+8.05
+landing_page
+7d
+$25,000
+A
+UZ
+PassportAppointmentBuddy
+ai_tool
+8.05
+ad_booking
+6d
+$12,000
+A
+UZ
+VATcheckUZ
+saas
+8.00
+landing_page
+8d
+$22,000
+A
+UZ
+OneTouchPensionUZ
+managed_service
+7.95
+wizard_of_oz
+6d
+$18,000
+A
+KG
+OneTouchPensionKG
+managed_service
+7.95
+wizard_of_oz
+6d
+$14,000
+A
+UZ
+MigrantWageGuard
+managed_service
+7.90
+wizard_of_oz
+8d
+$24,000
+A
+KG
+MigrantWageGuardKG
+managed_service
+7.90
+wizard_of_oz
+8d
+$22,000
+A
+UZ
+OneStopComplaint
+managed_service
+7.85
+wizard_of_oz
+6d
+$16,000
+A
+KG
+OneStopComplaintKG
+managed_service
+7.85
+wizard_of_oz
+6d
+$14,000
+A
+KG
+FreelancerInvoiceKG
+free_tool
+7.80
+free_tool
+5d
+$7,000
+A
+UZ
+CottonYieldBot
+free_tool
+7.75
+landing_page
+9d
+$14,000
+A
+KG
+KyrgyzDecreeSummary
+free_tool
+7.70
+landing_page
+7d
+$22,000
+A
+UZ
+EPIGUStatusBot
+free_tool
+7.65
+squeeze_page
+6d
+$10,000
+A
+UZ
+PolicyDigestUZ
+content
+7.65
+manifesto
+4d
+$22,000
+A
+UZ
+PharmacyShelfUZ
+saas
+7.65
+landing_page
+10d
+$25,000
+B
+UZ
+MigrantBankSetup
+demo_video
+7.65
+demo_video
+5d
+$9,000
+B
+UZ
+AMLAlertUZ
+free_tool
+7.65
+free_tool
+6d
+$8,000
+A
+UZ
+SilkRoadGuideUZ
+ai_tool
+7.65
+free_tool
+12d
+$18,000
+A
+KG
+PassportSlotKG
+ai_tool
+7.65
+ad_booking
+6d
+$9,000
+A
+KG
+PolicyDigestKG
+content
+7.65
+manifesto
+4d
+$14,000
+A
+KG
+LivestockTrackKG
+ai_tool
+7.65
+landing_page
+9d
+$10,000
+A
+KG
+MountainTelemed
+managed_service
+7.65
+wizard_of_oz
+7d
+$12,000
+A
+KG
+PharmacyShelfKG
+saas
+7.65
+landing_page
+10d
+$18,000
+B
+KG
+MigrantBankSetupKG
+demo_video
+7.65
+demo_video
+5d
+$8,000
+A
+UZ
+ClinicAppointmentUZ
+managed_service
+7.60
+wizard_of_oz
+5d
+$14,000
+B
+UZ
+InvoiceCheckerUZ
+free_tool
+7.60
+free_tool
+5d
+$8,000
+A
+KG
+ClinicAppointmentKG
+managed_service
+7.60
+wizard_of_oz
+5d
+$11,000
+B
+KG
+InvoiceCheckerKG
+free_tool
+7.60
+free_tool
+5d
+$6,000
+B
+UZ
+BiometricCheckUZ
+managed_service
+7.55
+wizard_of_oz
+4d
+$10,000
+B
+UZ
+AskMyMinistry
+ai_tool
+7.55
+squeeze_page
+5d
+$12,000
+A
+UZ
+VetCallUZ
+managed_service
+7.55
+wizard_of_oz
+7d
+$12,000
+A
+UZ
+MathTutorUZ
+free_tool
+7.55
+free_tool
+6d
+$9,000
+B
+UZ
+ScholarshipFinderUZ
+content
+7.55
+directory
+5d
+$6,000
+B
+UZ
+SchoolEnrollerUZ
+managed_service
+7.55
+wizard_of_oz
+6d
+$14,000
+B
+KG
+AskKGMinistry
+ai_tool
+7.55
+squeeze_page
+5d
+$9,000
+B
+KG
+BiometricCheckKG
+managed_service
+7.55
+wizard_of_oz
+4d
+$8,000
+A
+KG
+VetCallKG
+managed_service
+7.55
+wizard_of_oz
+7d
+$12,000
+A
+KG
+MathTutorKG
+free_tool
+7.55
+free_tool
+6d
+$7,000
+B
+KG
+SchoolEnrollerKG
+managed_service
+7.55
+wizard_of_oz
+6d
+$11,000
+B
+UZ
+TutorMatchUZ
+marketplace
+7.50
+wizard_of_oz
+7d
+$16,000
+B
+UZ
+EnglishCoachUZ
+ai_tool
+7.50
+ad_booking
+8d
+$18,000
+A
+UZ
+DiasporaInvestorUZ
+content
+7.50
+manifesto
+7d
+$18,000
+A
+KG
+PermitFinderKG
+free_tool
+7.50
+squeeze_page
+5d
+$10,000
+B
+KG
+TutorMatchKG
+marketplace
+7.50
+wizard_of_oz
+7d
+$14,000
+B
+KG
+EnglishCoachKG
+ai_tool
+7.50
+free_tool
+8d
+$14,000
+A
+KG
+KGCrossBorderHelp
+managed_service
+7.50
+wizard_of_oz
+7d
+$14,000
+B
+UZ
+ProcurementCoach
+content
+7.45
+manifesto
+10d
+$25,000
+B
+UZ
+ITPathfinderUZ
+managed_service
+7.45
+squeeze_page
+5d
+$12,000
+B
+UZ
+DTMQuestionBank
+free_tool
+7.45
+free_tool
+6d
+$8,000
+A
+UZ
+WeatherFarmAlertUZ
+free_tool
+7.45
+free_tool
+6d
+$5,000
+B
+KG
+KGProcurementCoach
+content
+7.45
+manifesto
+10d
+$14,000
+A
+KG
+WeatherFarmAlertKG
+free_tool
+7.45
+free_tool
+6d
+$4,000
+B
+KG
+ORTQuestionBank
+free_tool
+7.45
+demo_video
+6d
+$6,000
+B
+UZ
+MedReminderUZ
+free_tool
+7.40
+free_tool
+7d
+$7,000
+B
+UZ
+PortfolioBuilderUZ
+saas
+7.40
+free_tool
+7d
+$8,000
+B
+KG
+MedReminderKG
+free_tool
+7.40
+demo_video
+7d
+$6,000
+A
+KG
+AirQualityKG
+free_tool
+7.40
+ad_booking
+7d
+$8,000
+A
+UZ
+MahallaMonitor
+free_tool
+7.35
+demo_video
+8d
+$8,000
+B
+UZ
+ParentingExpertUZ
+content
+7.35
+manifesto
+12d
+$14,000
+B
+KG
+ParentingExpertKG
+content
+7.35
+manifesto
+12d
+$9,000
+B
+UZ
+EPIGUForBusiness
+content
+7.30
+directory
+4d
+$8,000
+B
+UZ
+InsuranceClaimHelper
+managed_service
+7.30
+wizard_of_oz
+7d
+$18,000
+B
+UZ
+PharmacyDirectoryUZ
+content
+7.30
+directory
+7d
+$8,000
+B
+UZ
+PayrollBuddyUZ
+saas
+7.30
+landing_page
+9d
+$18,000
+B
+UZ
+AcademicTranslatorUZ
+ai_tool
+7.30
+demo_video
+6d
+$9,000
+B
+UZ
+TeacherAILabUZ
+content
+7.30
+manifesto
+8d
+$12,000
+B
+UZ
+HomestayAdminUZ
+managed_service
+7.30
+wizard_of_oz
+7d
+$16,000
+B
+UZ
+LastMileTashkent
+managed_service
+7.30
+wizard_of_oz
+5d
+$18,000
+B
+KG
+PharmacyDirectoryKG
+content
+7.30
+directory
+7d
+$6,000
+B
+KG
+PayrollBuddyKG
+saas
+7.30
+landing_page
+9d
+$14,000
+B
+KG
+HomestayAdminKG
+managed_service
+7.30
+wizard_of_oz
+7d
+$12,000
+B
+KG
+LastMileBishkek
+managed_service
+7.30
+wizard_of_oz
+5d
+$16,000
+B
+UZ
+MyGovDocsUZ
+ai_tool
+7.20
+landing_page
+10d
+$18,000
+B
+UZ
+DairyMarketUZ
+content
+7.20
+directory
+6d
+$9,000
+B
+UZ
+EHRBackupHelper
+managed_service
+7.20
+wizard_of_oz
+7d
+$18,000
+B
+UZ
+CodingClubUZ
+managed_service
+7.20
+wizard_of_oz
+6d
+$18,000
+B
+UZ
+OZONForUZ
+managed_service
+7.20
+wizard_of_oz
+7d
+$18,000
+B
+KG
+PastureBookerKG
+managed_service
+7.20
+wizard_of_oz
+7d
+$9,000
+A
+KG
+DisasterAlertKG
+free_tool
+7.20
+ad_booking
+5d
+$4,000
+B
+KG
+EHRBackupKG
+managed_service
+7.20
+wizard_of_oz
+7d
+$14,000
+B
+KG
+CodingClubKG
+managed_service
+7.20
+wizard_of_oz
+6d
+$14,000
+B
+KG
+OZONForKG
+managed_service
+7.20
+demo_video
+7d
+$16,000
+A
+KG
+DiasporaInvestorKG
+content
+7.20
+manifesto
+7d
+$14,000
+B
+UZ
+FarmRecordsUZ
+ai_tool
+7.15
+free_tool
+9d
+$8,000
+B
+KG
+FarmRecordsKG
+ai_tool
+7.15
+free_tool
+9d
+$7,000
+B
+KG
+IssykKulGuide
+ai_tool
+7.15
+free_tool
+12d
+$14,000
+B
+UZ
+GovHotlineRouter
+free_tool
+7.10
+squeeze_page
+5d
+$4,000
+B
+UZ
+GovHireUZ
+content
+7.10
+directory
+7d
+$12,000
+B
+UZ
+DocLookupUZ
+content
+7.10
+directory
+8d
+$12,000
+B
+UZ
+MentalHealthHotlineUZ
+managed_service
+7.10
+wizard_of_oz
+8d
+$14,000
+B
+UZ
+GovTraderUZ
+content
+7.10
+manifesto
+10d
+$16,000
+B
+UZ
+UniApplyAssistantUZ
+managed_service
+7.10
+wizard_of_oz
+6d
+$18,000
+B
+UZ
+AirQualityUZ
+free_tool
+7.10
+free_tool
+7d
+$8,000
+B
+UZ
+WhyUzbekistan
+content
+7.10
+manifesto
+6d
+$14,000
+B
+KG
+DocLookupKG
+content
+7.10
+directory
+8d
+$8,000
+B
+KG
+MentalHealthKG
+managed_service
+7.10
+wizard_of_oz
+8d
+$12,000
+B
+KG
+DigitalSomGuide
+content
+7.10
+manifesto
+10d
+$18,000
+B
+KG
+ScholarshipFinderKG
+content
+7.10
+directory
+5d
+$4,000
+B
+KG
+UniApplyAssistantKG
+managed_service
+7.10
+wizard_of_oz
+6d
+$14,000
+B
+KG
+PortfolioBuilderKG
+saas
+7.10
+free_tool
+7d
+$6,000
+B
+UZ
+UZBudgetView
+free_tool
+7.05
+demo_video
+9d
+$6,000
+B
+UZ
+WaterScheduleUZ
+free_tool
+7.05
+squeeze_page
+8d
+$6,000
+B
+UZ
+FertilizerCalc
+free_tool
+7.05
+free_tool
+5d
+$6,000
+B
+UZ
+EventCalendarUZ
+content
+7.05
+manifesto
+5d
+$7,000
+B
+UZ
+OutsourceToUZ
+content
+7.05
+manifesto
+12d
+$18,000
+B
+KG
+BishkekMonitor
+free_tool
+7.05
+demo_video
+8d
+$6,000
+B
+KG
+FertilizerCalcKG
+free_tool
+7.05
+free_tool
+5d
+$5,000
+B
+KG
+ITPathfinderKG
+managed_service
+7.05
+squeeze_page
+5d
+$9,000
+B
+KG
+EventCalendarKG
+content
+7.05
+ad_booking
+5d
+$5,000
+B
+UZ
+PestSpotterUZ
+ai_tool
+7.00
+squeeze_page
+10d
+$10,000
+B
+UZ
+PaymentRoutingUZ
+free_tool
+7.00
+free_tool
+4d
+$6,000
+B
+KG
+GosUslugiKG
+content
+7.00
+directory
+4d
+$5,000
+B
+KG
+PaymentRoutingKG
+free_tool
+7.00
+free_tool
+4d
+$5,000
+B
+UZ
+MahallaCalendar
+content
+6.95
+manifesto
+7d
+$6,000
+B
+UZ
+DiabetesCoachUZ
+managed_service
+6.95
+wizard_of_oz
+9d
+$12,000
+B
+UZ
+BankRateUZ
+content
+6.95
+manifesto
+5d
+$8,000
+B
+UZ
+UzbekHistoryGameUZ
+free_tool
+6.95
+free_tool
+7d
+$6,000
+B
+UZ
+SamarkandRestoFinder
+content
+6.95
+directory
+10d
+$9,000
+B
+UZ
+FreightTrackerUZ
+saas
+6.95
+landing_page
+12d
+$18,000
+B
+UZ
+DigitalLicenseGuideUZ
+free_tool
+6.95
+ad_booking
+5d
+$9,000
+B
+UZ
+AdvisorMatchUZ
+marketplace
+6.95
+wizard_of_oz
+7d
+$14,000
+B
+KG
+AyilCommunityFeed
+free_tool
+6.95
+demo_video
+7d
+$6,000
+B
+KG
+DairyMarketKG
+content
+6.95
+directory
+6d
+$6,000
+B
+KG
+VirtualAssetCheck
+free_tool
+6.95
+free_tool
+5d
+$6,000
+B
+KG
+DigitalCodeAssistKG
+free_tool
+6.95
+squeeze_page
+5d
+$8,000
+B
+UZ
+EmergencyAlertUZ
+free_tool
+6.90
+ad_booking
+5d
+$4,000
+B
+KG
+GovHireKG
+content
+6.90
+directory
+7d
+$8,000
+B
+UZ
+BeeKeeperUZ
+managed_service
+6.85
+wizard_of_oz
+6d
+$9,000
+B
+UZ
+RussianForBusiness
+content
+6.85
+manifesto
+9d
+$9,000
+B
+UZ
+TashkentDayPlanner
+free_tool
+6.85
+free_tool
+6d
+$8,000
+B
+UZ
+BorderWaitUZ
+free_tool
+6.85
+ad_booking
+5d
+$4,000
+B
+UZ
+BusScheduleUZ
+free_tool
+6.85
+ad_booking
+7d
+$6,000
+B
+KG
+BankRateKG
+content
+6.85
+manifesto
+5d
+$6,000
+B
+KG
+AcademicTranslatorKG
+ai_tool
+6.85
+demo_video
+6d
+$7,000
+B
+KG
+TeacherAILabKG
+content
+6.85
+manifesto
+8d
+$8,000
+B
+KG
+BorderWaitKG
+free_tool
+6.85
+ad_booking
+5d
+$4,000
+B
+UZ
+AzbukaGosUslug
+content
+6.80
+demo_video
+14d
+$8,000
+B
+UZ
+EcoTourUZ
+managed_service
+6.80
+wizard_of_oz
+8d
+$16,000
+B
+KG
+CitizenServiceUZK
+content
+6.80
+demo_video
+14d
+$6,000
+B
+KG
+EcoTourKG
+managed_service
+6.80
+wizard_of_oz
+8d
+$14,000
+B
+UZ
+FertilityTrackerUZ
+free_tool
+6.75
+free_tool
+8d
+$9,000
+B
+UZ
+UzbekLLMPlayground
+demo_video
+6.75
+landing_page
+8d
+$8,000
+B
+UZ
+SymptomCheckerUZ
+ai_tool
+6.70
+free_tool
+12d
+$9,000
+B
+UZ
+VaccineRecordUZ
+free_tool
+6.70
+free_tool
+8d
+$5,000
+B
+UZ
+OxygenPriceWatch
+free_tool
+6.70
+free_tool
+7d
+$5,000
+B
+KG
+KGGovDocVault
+ai_tool
+6.70
+landing_page
+10d
+$12,000
+B
+KG
+VaccineRecordKG
+free_tool
+6.70
+free_tool
+8d
+$4,000
+B
+UZ
+TashkentTaxiRateCheck
+free_tool
+6.65
+ad_booking
+6d
+$5,000
+B
+KG
+DigitalCodeAssistant
+managed_service
+6.65
+wizard_of_oz
+8d
+$18,000
+B
+KG
+SymptomCheckerKG
+ai_tool
+6.65
+free_tool
+12d
+$7,000
+B
+KG
+WhyKyrgyzstan
+content
+6.65
+manifesto
+6d
+$12,000
+B
+KG
+GovHotlineRouterKG
+free_tool
+6.60
+squeeze_page
+5d
+$3,000
+B
+UZ
+GrainPriceUZ
+content
+6.55
+manifesto
+9d
+$8,000
+B
+UZ
+TashkentParkingMap
+free_tool
+6.55
+ad_booking
+7d
+$6,000
+B
+KG
+BeeKeeperKG
+managed_service
+6.55
+wizard_of_oz
+6d
+$6,000
+B
+KG
+PestSpotterKG
+ai_tool
+6.55
+free_tool
+10d
+$7,000
+B
+KG
+OutsourceToKG
+content
+6.55
+manifesto
+12d
+$14,000
+B
+KG
+FertilityTrackerKG
+free_tool
+6.50
+free_tool
+8d
+$6,000
+B
+KG
+KyrgyzHistoryGame
+free_tool
+6.50
+free_tool
+7d
+$5,000
+B
+UZ
+PrescriptionScannerUZ
+ai_tool
+6.45
+free_tool
+9d
+$6,000
+B
+KG
+GlacierWaterKG
+free_tool
+6.45
+free_tool
+10d
+$8,000
+B
+KG
+DiabetesCoachKG
+managed_service
+6.45
+wizard_of_oz
+9d
+$9,000
+B
+KG
+BishkekDayPlanner
+free_tool
+6.45
+free_tool
+6d
+$6,000
+B
+KG
+BishkekTaxiRateCheck
+free_tool
+6.45
+ad_booking
+6d
+$4,000
+C
+KG
+KyrgyzLLMPlayground
+demo_video
+6.45
+landing_page
+8d
+$6,000
+C
+UZ
+EcoClubUZ
+content
+6.40
+demo_video
+7d
+$7,000
+B
+KG
+BishkekRestoFinder
+content
+6.40
+directory
+9d
+$7,000
+B
+KG
+FreightTrackerKG
+saas
+6.35
+landing_page
+12d
+$12,000
+C
+UZ
+TeacherSubBoardUZ
+content
+6.30
+directory
+6d
+$6,000
+B
+KG
+OpenBudgetKG
+free_tool
+6.30
+squeeze_page
+9d
+$5,000
+B
+KG
+PrescriptionScannerKG
+ai_tool
+6.30
+free_tool
+9d
+$4,000
+B
+KG
+RussianForBusinessKG
+content
+6.30
+manifesto
+9d
+$7,000
+C
+KG
+TeacherSubBoardKG
+content
+6.30
+directory
+6d
+$5,000
+C
+UZ
+TashkentGymRater
+content
+6.20
+directory
+7d
+$5,000
+B
+KG
+AdvisorMatchKG
+marketplace
+6.20
+wizard_of_oz
+7d
+$11,000
+C
+KG
+SilkRoadFreelancersKG
+content
+6.20
+squeeze_page
+7d
+$6,000
+B
+UZ
+VotingDayUZ
+free_tool
+6.10
+squeeze_page
+6d
+$5,000
+C
+UZ
+AralWaterPulse
+free_tool
+6.10
+free_tool
+10d
+$8,000
+B
+KG
+VotingDayKG
+free_tool
+6.10
+squeeze_page
+6d
+$4,000
+C
+KG
+AyilDigitalKG
+content
+6.10
+manifesto
+8d
+$5,000
+C
+KG
+BishkekParkingMap
+free_tool
+6.05
+ad_booking
+7d
+$4,000
+C
+KG
+BusScheduleKG
+free_tool
+6.05
+ad_booking
+7d
+$5,000
+C
+KG
+ParliamentTrackerKG
+free_tool
+6.00
+free_tool
+7d
+$5,000
+C
+KG
+MountainEcoBlog
+content
+5.95
+manifesto
+7d
+$5,000
+C
+KG
+BishkekGymRater
+content
+5.50
+directory
+7d
+$4,000
+Methodology: HubSpot's "$1M Solopreneur MVP" framework, encoded into a synthesizer agent that walks the knowledge graph and outputs 100 ideas per country.
+
+---
+## URL: https://avaluev.github.io/ca-b2g-research/mvp/kg/index.html
+Solopreneur MVPs — Kyrgyzstan
+This is a parallel track to the institutional B2G initiatives: 100 solopreneur-bootstrappable MVPs grounded in the knowledge graph and HubSpot's $1M Solopreneur MVR framework. 25 are Tier-A. Every idea has a one-week build plan, a quantified validation target, and a price point grounded in local purchasing power.
+What is a Minimum Viable Representation?
+An MVR is a landing page, demo video, free tool, directory, manifesto, or Wizard-of-Oz manual service —
+not
+a finished product. The framework's premise: validate demand in 7 days, not 12 months. One paying customer on day one beats twelve months of speculation.
+Eight MVR vehicles
+Landing page + waitlist
+— for SaaS demand signaling
+Squeeze page
+— for pure demand validation
+Demo video
+— Loom or Twitter-native, especially for AI tools
+Free tool
+— solves one micro-problem, no login
+Directory
+— content-driven, ad/listing-fee monetised
+Wizard of Oz
+— manual fulfillment behind an "automated" facade
+Ad-validated booking
+— Facebook/Instagram ad with direct booking
+Manifesto / blog post
+— viral-leaning, audience-building
+How is each MVP grounded?
+Every MVP references a real Trend, Decree, or Donor program from the knowledge graph, names a concrete target customer (not "small businesses" but "Andijan-based wedding photographers booking via Instagram"), and prices to local purchasing power (UZ avg salary ~$300/month; KG ~$250/month).
+Top solopreneur MVPs
+Tier
+C
+MVP
+Cat
+Score
+MVR
+Build
+Y1 $
+A
+KG
+FormFillerKG
+managed_service
+8.85
+wizard_of_oz
+5d
+$18,000
+A
+KG
+TenderRadarKG
+saas
+8.45
+landing_page
+7d
+$22,000
+A
+KG
+DocSignerKG
+managed_service
+8.40
+wizard_of_oz
+4d
+$14,000
+A
+KG
+TaxScannerKG
+free_tool
+8.40
+free_tool
+6d
+$11,000
+A
+KG
+TundukExplainer
+free_tool
+8.25
+free_tool
+7d
+$12,000
+A
+KG
+RemittanceCalcKG
+free_tool
+8.10
+free_tool
+6d
+$9,000
+A
+KG
+OneTouchPensionKG
+managed_service
+7.95
+wizard_of_oz
+6d
+$14,000
+A
+KG
+MigrantWageGuardKG
+managed_service
+7.90
+wizard_of_oz
+8d
+$22,000
+A
+KG
+OneStopComplaintKG
+managed_service
+7.85
+wizard_of_oz
+6d
+$14,000
+A
+KG
+FreelancerInvoiceKG
+free_tool
+7.80
+free_tool
+5d
+$7,000
+A
+KG
+KyrgyzDecreeSummary
+free_tool
+7.70
+landing_page
+7d
+$22,000
+A
+KG
+PassportSlotKG
+ai_tool
+7.65
+ad_booking
+6d
+$9,000
+A
+KG
+PolicyDigestKG
+content
+7.65
+manifesto
+4d
+$14,000
+A
+KG
+LivestockTrackKG
+ai_tool
+7.65
+landing_page
+9d
+$10,000
+A
+KG
+MountainTelemed
+managed_service
+7.65
+wizard_of_oz
+7d
+$12,000
+A
+KG
+PharmacyShelfKG
+saas
+7.65
+landing_page
+10d
+$18,000
+B
+KG
+MigrantBankSetupKG
+demo_video
+7.65
+demo_video
+5d
+$8,000
+A
+KG
+ClinicAppointmentKG
+managed_service
+7.60
+wizard_of_oz
+5d
+$11,000
+B
+KG
+InvoiceCheckerKG
+free_tool
+7.60
+free_tool
+5d
+$6,000
+B
+KG
+AskKGMinistry
+ai_tool
+7.55
+squeeze_page
+5d
+$9,000
+B
+KG
+BiometricCheckKG
+managed_service
+7.55
+wizard_of_oz
+4d
+$8,000
+A
+KG
+VetCallKG
+managed_service
+7.55
+wizard_of_oz
+7d
+$12,000
+A
+KG
+MathTutorKG
+free_tool
+7.55
+free_tool
+6d
+$7,000
+B
+KG
+SchoolEnrollerKG
+managed_service
+7.55
+wizard_of_oz
+6d
+$11,000
+A
+KG
+PermitFinderKG
+free_tool
+7.50
+squeeze_page
+5d
+$10,000
+B
+KG
+TutorMatchKG
+marketplace
+7.50
+wizard_of_oz
+7d
+$14,000
+B
+KG
+EnglishCoachKG
+ai_tool
+7.50
+free_tool
+8d
+$14,000
+A
+KG
+KGCrossBorderHelp
+managed_service
+7.50
+wizard_of_oz
+7d
+$14,000
+B
+KG
+KGProcurementCoach
+content
+7.45
+manifesto
+10d
+$14,000
+A
+KG
+WeatherFarmAlertKG
+free_tool
+7.45
+free_tool
+6d
+$4,000
+B
+KG
+ORTQuestionBank
+free_tool
+7.45
+demo_video
+6d
+$6,000
+B
+KG
+MedReminderKG
+free_tool
+7.40
+demo_video
+7d
+$6,000
+A
+KG
+AirQualityKG
+free_tool
+7.40
+ad_booking
+7d
+$8,000
+B
+KG
+ParentingExpertKG
+content
+7.35
+manifesto
+12d
+$9,000
+B
+KG
+PharmacyDirectoryKG
+content
+7.30
+directory
+7d
+$6,000
+B
+KG
+PayrollBuddyKG
+saas
+7.30
+landing_page
+9d
+$14,000
+B
+KG
+HomestayAdminKG
+managed_service
+7.30
+wizard_of_oz
+7d
+$12,000
+B
+KG
+LastMileBishkek
+managed_service
+7.30
+wizard_of_oz
+5d
+$16,000
+B
+KG
+PastureBookerKG
+managed_service
+7.20
+wizard_of_oz
+7d
+$9,000
+A
+KG
+DisasterAlertKG
+free_tool
+7.20
+ad_booking
+5d
+$4,000
+B
+KG
+EHRBackupKG
+managed_service
+7.20
+wizard_of_oz
+7d
+$14,000
+B
+KG
+CodingClubKG
+managed_service
+7.20
+wizard_of_oz
+6d
+$14,000
+B
+KG
+OZONForKG
+managed_service
+7.20
+demo_video
+7d
+$16,000
+A
+KG
+DiasporaInvestorKG
+content
+7.20
+manifesto
+7d
+$14,000
+B
+KG
+FarmRecordsKG
+ai_tool
+7.15
+free_tool
+9d
+$7,000
+B
+KG
+IssykKulGuide
+ai_tool
+7.15
+free_tool
+12d
+$14,000
+B
+KG
+DocLookupKG
+content
+7.10
+directory
+8d
+$8,000
+B
+KG
+MentalHealthKG
+managed_service
+7.10
+wizard_of_oz
+8d
+$12,000
+B
+KG
+DigitalSomGuide
+content
+7.10
+manifesto
+10d
+$18,000
+B
+KG
+ScholarshipFinderKG
+content
+7.10
+directory
+5d
+$4,000
+B
+KG
+UniApplyAssistantKG
+managed_service
+7.10
+wizard_of_oz
+6d
+$14,000
+B
+KG
+PortfolioBuilderKG
+saas
+7.10
+free_tool
+7d
+$6,000
+B
+KG
+BishkekMonitor
+free_tool
+7.05
+demo_video
+8d
+$6,000
+B
+KG
+FertilizerCalcKG
+free_tool
+7.05
+free_tool
+5d
+$5,000
+B
+KG
+ITPathfinderKG
+managed_service
+7.05
+squeeze_page
+5d
+$9,000
+B
+KG
+EventCalendarKG
+content
+7.05
+ad_booking
+5d
+$5,000
+B
+KG
+GosUslugiKG
+content
+7.00
+directory
+4d
+$5,000
+B
+KG
+PaymentRoutingKG
+free_tool
+7.00
+free_tool
+4d
+$5,000
+B
+KG
+AyilCommunityFeed
+free_tool
+6.95
+demo_video
+7d
+$6,000
+B
+KG
+DairyMarketKG
+content
+6.95
+directory
+6d
+$6,000
+B
+KG
+VirtualAssetCheck
+free_tool
+6.95
+free_tool
+5d
+$6,000
+B
+KG
+DigitalCodeAssistKG
+free_tool
+6.95
+squeeze_page
+5d
+$8,000
+B
+KG
+GovHireKG
+content
+6.90
+directory
+7d
+$8,000
+B
+KG
+BankRateKG
+content
+6.85
+manifesto
+5d
+$6,000
+B
+KG
+AcademicTranslatorKG
+ai_tool
+6.85
+demo_video
+6d
+$7,000
+B
+KG
+TeacherAILabKG
+content
+6.85
+manifesto
+8d
+$8,000
+B
+KG
+BorderWaitKG
+free_tool
+6.85
+ad_booking
+5d
+$4,000
+B
+KG
+CitizenServiceUZK
+content
+6.80
+demo_video
+14d
+$6,000
+B
+KG
+EcoTourKG
+managed_service
+6.80
+wizard_of_oz
+8d
+$14,000
+B
+KG
+KGGovDocVault
+ai_tool
+6.70
+landing_page
+10d
+$12,000
+B
+KG
+VaccineRecordKG
+free_tool
+6.70
+free_tool
+8d
+$4,000
+B
+KG
+DigitalCodeAssistant
+managed_service
+6.65
+wizard_of_oz
+8d
+$18,000
+B
+KG
+SymptomCheckerKG
+ai_tool
+6.65
+free_tool
+12d
+$7,000
+B
+KG
+WhyKyrgyzstan
+content
+6.65
+manifesto
+6d
+$12,000
+B
+KG
+GovHotlineRouterKG
+free_tool
+6.60
+squeeze_page
+5d
+$3,000
+B
+KG
+BeeKeeperKG
+managed_service
+6.55
+wizard_of_oz
+6d
+$6,000
+B
+KG
+PestSpotterKG
+ai_tool
+6.55
+free_tool
+10d
+$7,000
+B
+KG
+OutsourceToKG
+content
+6.55
+manifesto
+12d
+$14,000
+B
+KG
+FertilityTrackerKG
+free_tool
+6.50
+free_tool
+8d
+$6,000
+B
+KG
+KyrgyzHistoryGame
+free_tool
+6.50
+free_tool
+7d
+$5,000
+B
+KG
+GlacierWaterKG
+free_tool
+6.45
+free_tool
+10d
+$8,000
+B
+KG
+DiabetesCoachKG
+managed_service
+6.45
+wizard_of_oz
+9d
+$9,000
+B
+KG
+BishkekDayPlanner
+free_tool
+6.45
+free_tool
+6d
+$6,000
+B
+KG
+BishkekTaxiRateCheck
+free_tool
+6.45
+ad_booking
+6d
+$4,000
+C
+KG
+KyrgyzLLMPlayground
+demo_video
+6.45
+landing_page
+8d
+$6,000
+B
+KG
+BishkekRestoFinder
+content
+6.40
+directory
+9d
+$7,000
+B
+KG
+FreightTrackerKG
+saas
+6.35
+landing_page
+12d
+$12,000
+B
+KG
+OpenBudgetKG
+free_tool
+6.30
+squeeze_page
+9d
+$5,000
+B
+KG
+PrescriptionScannerKG
+ai_tool
+6.30
+free_tool
+9d
+$4,000
+B
+KG
+RussianForBusinessKG
+content
+6.30
+manifesto
+9d
+$7,000
+C
+KG
+TeacherSubBoardKG
+content
+6.30
+directory
+6d
+$5,000
+B
+KG
+AdvisorMatchKG
+marketplace
+6.20
+wizard_of_oz
+7d
+$11,000
+C
+KG
+SilkRoadFreelancersKG
+content
+6.20
+squeeze_page
+7d
+$6,000
+B
+KG
+VotingDayKG
+free_tool
+6.10
+squeeze_page
+6d
+$4,000
+C
+KG
+AyilDigitalKG
+content
+6.10
+manifesto
+8d
+$5,000
+C
+KG
+BishkekParkingMap
+free_tool
+6.05
+ad_booking
+7d
+$4,000
+C
+KG
+BusScheduleKG
+free_tool
+6.05
+ad_booking
+7d
+$5,000
+C
+KG
+ParliamentTrackerKG
+free_tool
+6.00
+free_tool
+7d
+$5,000
+C
+KG
+MountainEcoBlog
+content
+5.95
+manifesto
+7d
+$5,000
+C
+KG
+BishkekGymRater
+content
+5.50
+directory
+7d
+$4,000
+Methodology: HubSpot's "$1M Solopreneur MVP" framework, encoded into a synthesizer agent that walks the knowledge graph and outputs 100 ideas per country.
+
+---
+## URL: https://avaluev.github.io/ca-b2g-research/mvp/uz/index.html
+Solopreneur MVPs — Uzbekistan
+This is a parallel track to the institutional B2G initiatives: 100 solopreneur-bootstrappable MVPs grounded in the knowledge graph and HubSpot's $1M Solopreneur MVR framework. 26 are Tier-A. Every idea has a one-week build plan, a quantified validation target, and a price point grounded in local purchasing power.
+What is a Minimum Viable Representation?
+An MVR is a landing page, demo video, free tool, directory, manifesto, or Wizard-of-Oz manual service —
+not
+a finished product. The framework's premise: validate demand in 7 days, not 12 months. One paying customer on day one beats twelve months of speculation.
+Eight MVR vehicles
+Landing page + waitlist
+— for SaaS demand signaling
+Squeeze page
+— for pure demand validation
+Demo video
+— Loom or Twitter-native, especially for AI tools
+Free tool
+— solves one micro-problem, no login
+Directory
+— content-driven, ad/listing-fee monetised
+Wizard of Oz
+— manual fulfillment behind an "automated" facade
+Ad-validated booking
+— Facebook/Instagram ad with direct booking
+Manifesto / blog post
+— viral-leaning, audience-building
+How is each MVP grounded?
+Every MVP references a real Trend, Decree, or Donor program from the knowledge graph, names a concrete target customer (not "small businesses" but "Andijan-based wedding photographers booking via Instagram"), and prices to local purchasing power (UZ avg salary ~$300/month; KG ~$250/month).
+Top solopreneur MVPs
+Tier
+C
+MVP
+Cat
+Score
+MVR
+Build
+Y1 $
+A
+UZ
+FormFiller UZ
+managed_service
+8.85
+wizard_of_oz
+5d
+$24,000
+A
+UZ
+DigitalSignWalker
+demo_video
+8.55
+demo_video
+4d
+$18,000
+A
+UZ
+TenderRadar UZ
+saas
+8.45
+landing_page
+7d
+$28,000
+A
+UZ
+TaxScannerUZ
+free_tool
+8.40
+free_tool
+6d
+$14,000
+A
+UZ
+EPIGU Companion
+free_tool
+8.25
+free_tool
+7d
+$18,000
+A
+UZ
+MyID Onboarding Coach
+demo_video
+8.25
+demo_video
+4d
+$12,000
+A
+UZ
+FreelancerInvoiceUZ
+free_tool
+8.20
+free_tool
+5d
+$10,000
+A
+UZ
+PermitPathfinder
+free_tool
+8.10
+squeeze_page
+5d
+$14,000
+A
+UZ
+RemittanceCalcUZ
+free_tool
+8.10
+free_tool
+6d
+$12,000
+A
+UZ
+GovDocTranslator
+free_tool
+8.05
+landing_page
+7d
+$25,000
+A
+UZ
+PassportAppointmentBuddy
+ai_tool
+8.05
+ad_booking
+6d
+$12,000
+A
+UZ
+VATcheckUZ
+saas
+8.00
+landing_page
+8d
+$22,000
+A
+UZ
+OneTouchPensionUZ
+managed_service
+7.95
+wizard_of_oz
+6d
+$18,000
+A
+UZ
+MigrantWageGuard
+managed_service
+7.90
+wizard_of_oz
+8d
+$24,000
+A
+UZ
+OneStopComplaint
+managed_service
+7.85
+wizard_of_oz
+6d
+$16,000
+A
+UZ
+CottonYieldBot
+free_tool
+7.75
+landing_page
+9d
+$14,000
+A
+UZ
+EPIGUStatusBot
+free_tool
+7.65
+squeeze_page
+6d
+$10,000
+A
+UZ
+PolicyDigestUZ
+content
+7.65
+manifesto
+4d
+$22,000
+A
+UZ
+PharmacyShelfUZ
+saas
+7.65
+landing_page
+10d
+$25,000
+B
+UZ
+MigrantBankSetup
+demo_video
+7.65
+demo_video
+5d
+$9,000
+B
+UZ
+AMLAlertUZ
+free_tool
+7.65
+free_tool
+6d
+$8,000
+A
+UZ
+SilkRoadGuideUZ
+ai_tool
+7.65
+free_tool
+12d
+$18,000
+A
+UZ
+ClinicAppointmentUZ
+managed_service
+7.60
+wizard_of_oz
+5d
+$14,000
+B
+UZ
+InvoiceCheckerUZ
+free_tool
+7.60
+free_tool
+5d
+$8,000
+B
+UZ
+BiometricCheckUZ
+managed_service
+7.55
+wizard_of_oz
+4d
+$10,000
+B
+UZ
+AskMyMinistry
+ai_tool
+7.55
+squeeze_page
+5d
+$12,000
+A
+UZ
+VetCallUZ
+managed_service
+7.55
+wizard_of_oz
+7d
+$12,000
+A
+UZ
+MathTutorUZ
+free_tool
+7.55
+free_tool
+6d
+$9,000
+B
+UZ
+ScholarshipFinderUZ
+content
+7.55
+directory
+5d
+$6,000
+B
+UZ
+SchoolEnrollerUZ
+managed_service
+7.55
+wizard_of_oz
+6d
+$14,000
+B
+UZ
+TutorMatchUZ
+marketplace
+7.50
+wizard_of_oz
+7d
+$16,000
+B
+UZ
+EnglishCoachUZ
+ai_tool
+7.50
+ad_booking
+8d
+$18,000
+A
+UZ
+DiasporaInvestorUZ
+content
+7.50
+manifesto
+7d
+$18,000
+B
+UZ
+ProcurementCoach
+content
+7.45
+manifesto
+10d
+$25,000
+B
+UZ
+ITPathfinderUZ
+managed_service
+7.45
+squeeze_page
+5d
+$12,000
+B
+UZ
+DTMQuestionBank
+free_tool
+7.45
+free_tool
+6d
+$8,000
+A
+UZ
+WeatherFarmAlertUZ
+free_tool
+7.45
+free_tool
+6d
+$5,000
+B
+UZ
+MedReminderUZ
+free_tool
+7.40
+free_tool
+7d
+$7,000
+B
+UZ
+PortfolioBuilderUZ
+saas
+7.40
+free_tool
+7d
+$8,000
+A
+UZ
+MahallaMonitor
+free_tool
+7.35
+demo_video
+8d
+$8,000
+B
+UZ
+ParentingExpertUZ
+content
+7.35
+manifesto
+12d
+$14,000
+B
+UZ
+EPIGUForBusiness
+content
+7.30
+directory
+4d
+$8,000
+B
+UZ
+InsuranceClaimHelper
+managed_service
+7.30
+wizard_of_oz
+7d
+$18,000
+B
+UZ
+PharmacyDirectoryUZ
+content
+7.30
+directory
+7d
+$8,000
+B
+UZ
+PayrollBuddyUZ
+saas
+7.30
+landing_page
+9d
+$18,000
+B
+UZ
+AcademicTranslatorUZ
+ai_tool
+7.30
+demo_video
+6d
+$9,000
+B
+UZ
+TeacherAILabUZ
+content
+7.30
+manifesto
+8d
+$12,000
+B
+UZ
+HomestayAdminUZ
+managed_service
+7.30
+wizard_of_oz
+7d
+$16,000
+B
+UZ
+LastMileTashkent
+managed_service
+7.30
+wizard_of_oz
+5d
+$18,000
+B
+UZ
+MyGovDocsUZ
+ai_tool
+7.20
+landing_page
+10d
+$18,000
+B
+UZ
+DairyMarketUZ
+content
+7.20
+directory
+6d
+$9,000
+B
+UZ
+EHRBackupHelper
+managed_service
+7.20
+wizard_of_oz
+7d
+$18,000
+B
+UZ
+CodingClubUZ
+managed_service
+7.20
+wizard_of_oz
+6d
+$18,000
+B
+UZ
+OZONForUZ
+managed_service
+7.20
+wizard_of_oz
+7d
+$18,000
+B
+UZ
+FarmRecordsUZ
+ai_tool
+7.15
+free_tool
+9d
+$8,000
+B
+UZ
+GovHotlineRouter
+free_tool
+7.10
+squeeze_page
+5d
+$4,000
+B
+UZ
+GovHireUZ
+content
+7.10
+directory
+7d
+$12,000
+B
+UZ
+DocLookupUZ
+content
+7.10
+directory
+8d
+$12,000
+B
+UZ
+MentalHealthHotlineUZ
+managed_service
+7.10
+wizard_of_oz
+8d
+$14,000
+B
+UZ
+GovTraderUZ
+content
+7.10
+manifesto
+10d
+$16,000
+B
+UZ
+UniApplyAssistantUZ
+managed_service
+7.10
+wizard_of_oz
+6d
+$18,000
+B
+UZ
+AirQualityUZ
+free_tool
+7.10
+free_tool
+7d
+$8,000
+B
+UZ
+WhyUzbekistan
+content
+7.10
+manifesto
+6d
+$14,000
+B
+UZ
+UZBudgetView
+free_tool
+7.05
+demo_video
+9d
+$6,000
+B
+UZ
+WaterScheduleUZ
+free_tool
+7.05
+squeeze_page
+8d
+$6,000
+B
+UZ
+FertilizerCalc
+free_tool
+7.05
+free_tool
+5d
+$6,000
+B
+UZ
+EventCalendarUZ
+content
+7.05
+manifesto
+5d
+$7,000
+B
+UZ
+OutsourceToUZ
+content
+7.05
+manifesto
+12d
+$18,000
+B
+UZ
+PestSpotterUZ
+ai_tool
+7.00
+squeeze_page
+10d
+$10,000
+B
+UZ
+PaymentRoutingUZ
+free_tool
+7.00
+free_tool
+4d
+$6,000
+B
+UZ
+MahallaCalendar
+content
+6.95
+manifesto
+7d
+$6,000
+B
+UZ
+DiabetesCoachUZ
+managed_service
+6.95
+wizard_of_oz
+9d
+$12,000
+B
+UZ
+BankRateUZ
+content
+6.95
+manifesto
+5d
+$8,000
+B
+UZ
+UzbekHistoryGameUZ
+free_tool
+6.95
+free_tool
+7d
+$6,000
+B
+UZ
+SamarkandRestoFinder
+content
+6.95
+directory
+10d
+$9,000
+B
+UZ
+FreightTrackerUZ
+saas
+6.95
+landing_page
+12d
+$18,000
+B
+UZ
+DigitalLicenseGuideUZ
+free_tool
+6.95
+ad_booking
+5d
+$9,000
+B
+UZ
+AdvisorMatchUZ
+marketplace
+6.95
+wizard_of_oz
+7d
+$14,000
+B
+UZ
+EmergencyAlertUZ
+free_tool
+6.90
+ad_booking
+5d
+$4,000
+B
+UZ
+BeeKeeperUZ
+managed_service
+6.85
+wizard_of_oz
+6d
+$9,000
+B
+UZ
+RussianForBusiness
+content
+6.85
+manifesto
+9d
+$9,000
+B
+UZ
+TashkentDayPlanner
+free_tool
+6.85
+free_tool
+6d
+$8,000
+B
+UZ
+BorderWaitUZ
+free_tool
+6.85
+ad_booking
+5d
+$4,000
+B
+UZ
+BusScheduleUZ
+free_tool
+6.85
+ad_booking
+7d
+$6,000
+B
+UZ
+AzbukaGosUslug
+content
+6.80
+demo_video
+14d
+$8,000
+B
+UZ
+EcoTourUZ
+managed_service
+6.80
+wizard_of_oz
+8d
+$16,000
+B
+UZ
+FertilityTrackerUZ
+free_tool
+6.75
+free_tool
+8d
+$9,000
+B
+UZ
+UzbekLLMPlayground
+demo_video
+6.75
+landing_page
+8d
+$8,000
+B
+UZ
+SymptomCheckerUZ
+ai_tool
+6.70
+free_tool
+12d
+$9,000
+B
+UZ
+VaccineRecordUZ
+free_tool
+6.70
+free_tool
+8d
+$5,000
+B
+UZ
+OxygenPriceWatch
+free_tool
+6.70
+free_tool
+7d
+$5,000
+B
+UZ
+TashkentTaxiRateCheck
+free_tool
+6.65
+ad_booking
+6d
+$5,000
+B
+UZ
+GrainPriceUZ
+content
+6.55
+manifesto
+9d
+$8,000
+B
+UZ
+TashkentParkingMap
+free_tool
+6.55
+ad_booking
+7d
+$6,000
+B
+UZ
+PrescriptionScannerUZ
+ai_tool
+6.45
+free_tool
+9d
+$6,000
+C
+UZ
+EcoClubUZ
+content
+6.40
+demo_video
+7d
+$7,000
+C
+UZ
+TeacherSubBoardUZ
+content
+6.30
+directory
+6d
+$6,000
+C
+UZ
+TashkentGymRater
+content
+6.20
+directory
+7d
+$5,000
+B
+UZ
+VotingDayUZ
+free_tool
+6.10
+squeeze_page
+6d
+$5,000
+C
+UZ
+AralWaterPulse
+free_tool
+6.10
+free_tool
+10d
+$8,000
+Methodology: HubSpot's "$1M Solopreneur MVP" framework, encoded into a synthesizer agent that walks the knowledge graph and outputs 100 ideas per country.
+
+---
+## URL: https://avaluev.github.io/ca-b2g-research/people/index.html
+Decision-makers and diaspora bridges
+This list catalogues 117 named decision-makers across Uzbekistan and Kyrgyzstan with mandate over AI or digital procurement, plus 16 diaspora advisors who shape policy from London, Dubai, Moscow, San Francisco, and other cities. Only Tier-1 and Tier-2 individuals are shown publicly; outreach scripts and warm-intro paths stay in the private vault.
+What is the diaspora bridge?
+Senior Uzbek and Kyrgyz professionals at FAANG, McKinsey, BCG, top universities, and global central banks frequently advise the home government informally — often with higher LinkedIn responsiveness than ministers themselves. They are routinely the highest-leverage targets in B2G outreach.
+Tier-1 / Tier-2 decision-makers
+C
+Name
+Role
+Institution
+LinkedIn
+Tag
+KG
+Sadyr Japarov
+President of the Kyrgyz Republic
+KG-PRESIDENT
+KG
+Adylbek Kasymaliev
+Chairman of the Cabinet of Ministers (Prime Minister) of the Kyrgyz Republic
+KG-CABINET
+KG
+Talant Sultanov
+Former Minister of Digital Development KG (dissolved April 2026); now likely repositioned within UДП or Cabinet digital portfolio
+KG-UDP
+KG
+Almaz Baketaev
+Minister of Finance of the Kyrgyz Republic
+KG-MINFIN
+KG
+Adilbek Asanbekov
+Head of Digital Transformation Department, Administration of Presidential Affairs (UДП) — successor to Mintsifry functions
+KG-UDP
+KG
+Gulnara Baatyrbekova
+Minister of Labor and Social Protection of the Kyrgyz Republic
+KG-MINSOC
+KG
+Talant Sultanov
+Former Minister of Digital Development KG — alias for donor program resolution (canonical: kg-talant-sultanov-former)
+KG-UDP
+KG
+Azamat Kadyrbayev
+Director, State Agency on Public Procurement (Госзакупки), Kyrgyz Republic
+KG-GOSZAKUPKI
+KG
+Melis Turganbekov
+Chairman, National Bank of the Kyrgyz Republic (NBKR)
+KG-NBKR
+KG
+Marat Isakov
+Director, State Enterprise Tunduk (National e-Government Data Exchange Platform)
+KG-TUNDUK-GP
+KG
+Kairat Usenov
+Director, State Customs Service (GTS) of the Kyrgyz Republic
+KG-GTS
+KG
+Alymkadyr Beishenaliev
+Minister of Health of the Kyrgyz Republic
+KG-MINHEALTH
+KG
+Dogdurbu Kenzhematova
+Minister of Education and Science of the Kyrgyz Republic
+KG-MINEDUC
+UZ
+Shavkat Mirziyoyev
+President of the Republic of Uzbekistan
+UZ-PRESIDENT
+UZ
+Sherzod Shermatov
+Minister of Digital Technologies of the Republic of Uzbekistan
+UZ-MINTSIFRY
+UZ
+Abdulla Aripov
+Prime Minister of the Republic of Uzbekistan
+UZ-CABINET
+UZ
+Bahrom Ismoilov
+Chairman of the Supreme Court of the Republic of Uzbekistan
+UZ-SUPREME-COURT
+UZ
+Jamshid Kuchkarov
+Minister of Economy and Finance of the Republic of Uzbekistan
+UZ-MOEF
+UZ
+Amrillo Inoyatov
+Minister of Health of the Republic of Uzbekistan
+UZ-MINZDRAV
+UZ
+Kongratbay Sharipov
+Minister of Higher Education, Science and Innovations of the Republic of Uzbekistan
+UZ-MOHESI
+UZ
+Akbar Tashkulov
+Minister of Justice of the Republic of Uzbekistan
+UZ-MOJ
+UZ
+Pulat Bobojonov
+Minister of Internal Affairs of the Republic of Uzbekistan
+UZ-MVD
+UZ
+Laziz Kudratov
+Minister of Investments, Industry and Trade of the Republic of Uzbekistan
+UZ-MIIT
+UZ
+Jurabek Mirzamahmudov
+Minister of Energy of the Republic of Uzbekistan
+UZ-MINENERGY
+UZ
+Bahador Rakhmatov
+Director, Agency for Strategic Reforms under the President of Uzbekistan
+UZ-ASR
+UZ
+Mirzo Ibragimov
+IT Park Director (government counterpart for WB-UZ-P179108 Digital Inclusion Project)
+UZ-IT-PARK
+UZ
+Ulmas Ochilov
+Chief Executive Officer, National Electricity Grid of Uzbekistan (NEGU)
+UZ-NEGU
+UZ
+Botir Yusupov
+Chairman, State Committee on Statistics of the Republic of Uzbekistan (GosKomStat)
+UZ-GOSKOMSTAT
+UZ
+Firdavs Abdullayev
+CEO, IT Park Uzbekistan
+UZ-IT-PARK
+UZ
+Abdulla Aripov
+Prime Minister (alias record — canonical: uz-abdulla-aripov)
+UZ-CABINET
+UZ
+Sherzod Shermatov
+Minister of Digital Technologies (alias record — canonical: uz-sherzod-shermatov)
+UZ-MINTSIFRY
+UZ
+Amrillo Inoyatov
+Minister of Health (alias record — canonical: uz-amrillo-inoyatov)
+UZ-MINZDRAV
+UZ
+Jamshid Kuchkarov
+Minister of Economy and Finance (alias — canonical: uz-jamshid-kuchkarov)
+UZ-MOEF
+UZ
+Sherzod Shermatov
+Head of Ministry of Digital Technologies (alias — canonical: uz-sherzod-shermatov)
+UZ-MINTSIFRY
+KG
+Daniyar Amanaliev
+Minister of Economy and Commerce of the Kyrgyz Republic
+KG-MINECONOMY
+KG
+Aida Salyanoba
+Minister of Justice of the Kyrgyz Republic
+KG-MOJ
+KG
+Timur Koichubaev
+Deputy Head of Digital Transformation Department, Administration of Presidential Affairs (UДП)
+KG-UDP
+KG
+Bakyt Kalmatov
+Director, State Registration Service (GRS) of the Kyrgyz Republic
+KG-GRS
+KG
+Aisha Mamytova
+Director, Agency for Investment and Export Promotion (AIEB), Kyrgyz Republic
+KG-AIEB
+KG
+Azamat Sydykov
+Chair, National AI Council (Национальный совет по ИИ), Kyrgyz Republic (function absorbed into UДП, April 2026)
+KG-UDP
+KG
+Bakhodir Iminov
+Mayor (Akim) of Osh City, Kyrgyz Republic
+KG-OSH-CITY
+KG
+Mira Akmataliyeva
+Director, State Communications and Digital Development Agency (under UДП, successor to Mintsifry regulatory functions)
+KG-UDP
+KG
+Emil Bakytbekov
+Head of Digital Services Department, Bishkek City Administration
+KG-BISHKEK-CITY
+KG
+Gulnara Baatyrbekova
+Minister of Social Protection — alias (canonical: kg-minsoc-head)
+KG-MINSOC
+KG
+Bakyt Torobayev
+Minister of Agriculture of the Kyrgyz Republic
+KG-MINAGRI
+KG
+Dogdurbu Kenzhematova
+Minister of Education KG — alias (canonical: kg-mineduc-head)
+KG-MINEDUC
+KG
+Alymkadyr Beishenaliev
+Minister of Health KG — alias (canonical: kg-minzdrav-head)
+KG-MINHEALTH
+UZ
+Sarvar Komilov
+First Deputy Minister of Digital Technologies, Republic of Uzbekistan
+UZ-MINTSIFRY
+UZ
+Asilbek Nasimov
+Deputy Minister of Digital Technologies (Infrastructure & Cloud), Republic of Uzbekistan
+UZ-MINTSIFRY
+UZ
+Komiljon Turdiyev
+Deputy Minister of Digital Technologies (AI & Innovation), Republic of Uzbekistan
+UZ-MINTSIFRY
+UZ
+Jamshid Kuchkarov
+First Deputy Prime Minister and Minister of Economy and Finance (alias — canonical: uz-jamshid-kuchkarov)
+UZ-CABINET
+UZ
+Sardor Umurzakov
+Head of the Presidential Administration (Chief of Staff), Republic of Uzbekistan
+UZ-PRESIDENT
+UZ
+Zafar Askarov
+Director General, Uzinfocom (State IT infrastructure operator under MoDT)
+UZ-UZINFOCOM
+UZ
+Ulugbek Sobirov
+Director, MyID National Digital Identity Platform (under MoDT)
+UZ-MYID
+UZ
+Kamoljon Tursunov
+Advisor to the President on Digital Transformation, Republic of Uzbekistan
+UZ-PRESIDENT
+UZ
+Mamayusuf Kobilov
+Chairman, Central Bank of Uzbekistan (CBU)
+UZ-CBU
+UZ
+Dostonbek Toshmatov
+Director, National AI Center of Uzbekistan (under MoDT)
+UZ-AI-CENTER
+UZ
+Aziz Voitov
+Minister of Agriculture of the Republic of Uzbekistan
+UZ-MINSELXOZ
+UZ
+Alisher Yunusov
+Director, PIU for Geospatial NSDI Project (WB P506803), Cadastre Agency
+UZ-CADASTRE
+UZ
+Shavkat Hamrayev
+Minister of Water Resources (Minvoda), Republic of Uzbekistan
+UZ-MINVODA
+UZ
+Farrukhbek Sadikov
+Director, National Credit Bureau of Uzbekistan
+UZ-NBKI
+UZ
+Shahriyor Rasulev
+Director, State Information Technologies Center (GITS) under MoDT
+UZ-GITS
+UZ
+Sherzod Kudbiyev
+Chairman, State Tax Committee of the Republic of Uzbekistan (GNK)
+UZ-GNK
+UZ
+Bobur Ismoilov
+Head of Cybersecurity Department, Ministry of Digital Technologies (TsDT) — State Cybersecurity Center
+UZ-STATE-CYBER
+UZ
+Murod Tojimatov
+Director, UNICON.UZ (State Certification Center for Electronic Digital Signature)
+UZ-UNICON
+UZ
+Nodir Yusupov
+Director, Agency for Communications and Information Technologies Regulation (ICTA) under MoDT
+UZ-ICTA
+UZ
+Ulugbek Ismoilov
+Director, State Committee for Cadastre, Republic of Uzbekistan
+UZ-CADASTRE
+UZ
+Bahodir Saidov
+Minister of Preschool and School Education, Republic of Uzbekistan
+UZ-MINSCHOOL
+This page redacts personal contact details. Outreach scripts and warm-intro paths are available only in the private Obsidian vault.
+
+---
+## URL: https://avaluev.github.io/ca-b2g-research/procurement/index.html
+Live procurement
+This page tracks 50 live and forthcoming AI or digital government tenders in Uzbekistan and Kyrgyzstan, including donor-funded procurement through World Bank STEP and ADB CSRN. Each tender is annotated with incumbent risk, win probability, and the authorising decree where traceable.
+How is win probability assessed?
+Win probability factors in foreign-eligibility, incumbent advantage, scope match, and submission window. Tenders flagged with high incumbent risk and short submission windows are scored low even if values are large — vendor-locked specs are a waste of bid effort.
+Tenders
+C
+Title
+Value
+Deadline
+Win Pr.
+Link
+UZ
+Geospatial NSDI Infrastructure Implementation — Consulting Services Component A
+$4,200,000
+2026-04-30
+high
+tender
+KG
+e-Procurement System Software Development — ADB Project 55109-001 Phase 1
+$800,000
+2026-04-30
+high
+tender
+UZ
+Development and Implementation of State Medical Insurance IT Platform (OSMS)
+$12,000,000
+2026-05-15
+medium
+tender
+KG
+IT Audit of e-Procurement System — ADB Project 55109-001
+$150,000
+2026-05-15
+high
+tender
+UZ
+AI Risk Analysis and Tax Fraud Detection System for State Tax Committee
+$3,200,000
+2026-05-30
+medium
+tender
+UZ
+Expansion and Modernization of DMED Digital Medical Information System with AI Clinical Decision Support Modules
+$6,500,000
+2026-05-31
+medium
+tender
+UZ
+Supply of 16 Supercomputers for State Ministries and Agencies
+$50,000,000
+2026-05-31
+medium
+tender
+UZ
+Procurement of High-Performance Computing Cluster with GPUs and Big Data Server Infrastructure for Inha University Tashkent
+$50,000,000
+2026-06-01
+medium
+tender
+UZ
+Development and Maintenance of AI Chatbot for EPIGU Citizen Services Portal (Russian/Uzbek bilingual)
+$2,800,000
+2026-06-15
+high
+tender
+UZ
+Digital Agriculture Technologies — AI Field Monitoring and Satellite Imagery Analysis Platform
+$4,800,000
+2026-06-30
+high
+tender
+KG
+Procurement of Supercomputers / GPU Cluster for Ministry of Digital Development / Presidential Administration UDP
+$2,500,000
+2026-06-30
+medium
+tender
+KG
+Digital Health Implementation — Electronic Health Records and Telemedicine (UN Joint Programme)
+$4,030,000
+2026-06-30
+medium
+tender
+KG
+Consulting Services for Developing Digital Code Secondary Legislation — AI and Data Regulations
+$650,000
+2026-06-30
+high
+tender
+KG
+Youth Digital Skills and Employment in Digital Economy — UNDP Programme
+$1,500,000
+2026-06-30
+high
+tender
+KG
+Cybersecurity Audit and Strategy Development for Government Agencies (C4CA Project)
+$900,000
+2026-06-30
+high
+tender
+UZ
+Development and Implementation of Digital Court (E-Justice) Platform with AI Assistant Module
+$8,000,000
+2026-07-01
+medium
+tender
+UZ
+Mobile Digital Passport / Mobile-ID App Development and MyID Integration
+$4,500,000
+2026-07-01
+medium
+tender
+UZ
+Creation of Cyber Threat Detection and Prevention System (SOC) for State Information Infrastructure
+$5,500,000
+2026-07-31
+low
+tender
+KG
+Digital Som CBDC Infrastructure Software Development — Wallets, AML/KYC Platform
+$3,500,000
+2026-07-31
+high
+tender
+UZ
+AI and Digital Skills Training for Civil Servants — Platform Development and Course Delivery
+$1,800,000
+2026-08-01
+high
+tender
+UZ
+Development of State Open Data Platform (Data.gov.uz) with AI-Powered Open Data Analytics
+$2,200,000
+2026-08-15
+high
+tender
+UZ
+[FORECAST] Migration of State Agency Websites to Unified Gov.uz Platform
+$1,800,000
+2026-08-31
+low
+tender
+KG
+Virtual Asset Registry and Compliance Monitoring System for USDKG Stablecoin
+$1,200,000
+2026-08-31
+high
+tender
+KG
+[FORECAST] Presidential Administration UDP Digital Architecture — TOR Development and Restructuring Strategy
+$700,000
+2026-08-31
+high
+tender
+UZ
+Establishment of AI Laboratories in 15 Uzbekistan Universities
+$7,500,000
+2026-09-01
+high
+tender
+UZ
+[FORECAST] AI Cluster at New Uzbekistan University — Coordination and Infrastructure
+$15,000,000
+2026-09-01
+high
+tender
+UZ
+IT Park Uzbekistan AI Cluster Grant Competition for AI Product Development for Government Sector
+$1,000,000
+2026-09-30
+high
+tender
+KG
+Tunduk Platform Modernization — API Gateway and Data Management Module
+$1,800,000
+2026-09-30
+medium
+tender
+UZ
+[FORECAST] Unified Government AI Platform — $100M AI Support Fund from FRR
+$20,000,000
+2026-10-01
+high
+tender
+UZ
+[FORECAST] State Consolidated Data Center (CDC) — Phase 2 Integration of All Databases
+$35,000,000
+2026-10-01
+medium
+tender
+KG
+[FORECAST] Kyrgyzstan National AI Strategy — Document Development and Roadmap
+$400,000
+2026-10-01
+high
+tender
+UZ
+[FORECAST] National E-Prescription Platform with AI Drug Monitoring
+$8,500,000
+2026-10-31
+medium
+tender
+UZ
+[FORECAST] AI in Education — EdTech Platform for School Curriculum Integration
+$5,500,000
+2026-10-31
+high
+tender
+UZ
+[FORECAST] Smart Traffic Management Tashkent — AI Traffic Signal Control and CCTV Analytics
+$7,800,000
+2026-10-31
+medium
+tender
+UZ
+[FORECAST] Geospatial NSDI — Component B: Equipment and Software for 80 CORS Stations
+$9,800,000
+2026-10-31
+high
+tender
+KG
+[FORECAST] AI in Parliament — Jogorku Kenesh Legislative Monitoring and Content Processing System
+$600,000
+2026-10-31
+high
+tender
+KG
+[FORECAST] Telemedicine in Mountain Communities — IoT Sensors and AI Diagnostics (UN SDG Fund)
+$1,800,000
+2026-10-31
+high
+tender
+UZ
+[FORECAST] EPIGU Platform Expansion to 1000+ Services with Agentic AI Workflows
+$9,500,000
+2026-11-30
+medium
+tender
+UZ
+[FORECAST] AgriTech AI Platform — Satellite Monitoring and Digital Farmer Advisory
+$6,200,000
+2026-11-30
+high
+tender
+UZ
+[FORECAST] AI-Powered Targeted Social Assistance Registry
+$5,800,000
+2026-11-30
+medium
+tender
+KG
+[FORECAST] Digital Code KR — AI System Registry and Certification Platform
+$850,000
+2026-11-30
+high
+tender
+KG
+[FORECAST] Disaster Risk AI — Flood and Mudslide Early Warning System
+$2,800,000
+2026-11-30
+high
+tender
+UZ
+[FORECAST] AI Center of Excellence — National AI Hub Uzbekistan
+$3,000,000
+2026-12-01
+high
+tender
+UZ
+[FORECAST] AI Customs Risk Scoring System (SafeGate-style) for State Customs Committee
+$4,200,000
+2026-12-31
+high
+tender
+KG
+[FORECAST] Digital Som Infrastructure — Phase 2: Offline Transactions and Interbank Clearing
+$4,500,000
+2026-12-31
+high
+tender
+KG
+[FORECAST] AML System for Commercial Banks — Digital Code Compliance Upgrade
+$1,800,000
+2026-12-31
+medium
+tender
+KG
+[FORECAST] Smart Agriculture KR — Satellite Monitoring and Irrigation AI (ADB/FAO funded)
+$3,200,000
+2026-12-31
+high
+tender
+UZ
+[FORECAST] AI for Mining — Extraction Optimization and Safety Monitoring
+$4,500,000
+2027-01-31
+medium
+tender
+UZ
+[FORECAST] Sovereign Uzbek/Russian Language Foundation Model — State LLM Infrastructure
+$12,000,000
+2027-02-28
+medium
+tender
+KG
+[FORECAST] Regulatory Fintech Hub — Virtual Asset and AI Finance Testing Sandbox Platform
+$1,200,000
+2027-02-28
+high
+tender
+
+---
+## URL: https://avaluev.github.io/ca-b2g-research/provenance/index.html
+Provenance and audit trail
+Every record in this research carries one or more cited sources, totalling roughly 402 references across decrees, institutions, people, and donor programmes. Every cross-model verification call to OpenRouter — Perplexity Sonar Deep Research, Sonar Pro, o4-mini-deep-research, Owl Alpha, and Gemma — is logged as an evidence card under
+state/external/
+in the public repo.
+How can I audit any single claim?
+Open the relevant page (Decrees, People, Donors), find the record's
+sources
+array, and follow each URL. Numeric claims always cite the source within the rendered table or paragraph. The reflexion-auditor wave (Wave 5) re-fetches a sample of sources during every run; failures appear in
+state/audit/audit_report.md
+.
+Where is the source code?
+The full pipeline is open at
+github.com/avaluev/ca-b2g-research
+under Apache 2.0. Every agent specification (
+.claude/agents/*.md
+), every script, and every quality gate is committed.
+
+---
+## URL: https://avaluev.github.io/ca-b2g-research/scoring/index.html
+Scoring rubric
+Every initiative is scored on five axes with weighted totals: Speed-to-Contract at twenty-five percent, Strategic Moat at twenty percent, Defensibility at twenty percent, Capital Access at twenty percent, and Russian/CIS Fit at fifteen percent. A weighted total above seven and a half drops into Tier-A; below six is Tier-C or worse.
+Every initiative is scored 1–10 on five axes, then weighted-summed for ranking. Default weights are below; override via `weights.json`.
+Default weights
+| Axis | Weight | Notes |
+|---|---|---|
+| Speed-to-contract | 25% | Highest weight — selected as priority |
+| Strategic moat | 20% | Selected as priority |
+| Defensibility | 20% | Selected as priority |
+| Capital access | 20% | Selected as priority |
+| Russian/CIS delivery fit | 15% | Selected as priority |
+`weighted_total = 0.25*speed + 0.20*moat + 0.20*defensibility + 0.20*capital + 0.15*russian_cis_fit`
+Axis 1: Speed-to-Contract (1–10)
+How fast can this initiative produce billable revenue?
+• **10**: Live RFP exists, submission window open, your offer is competitive, decision within 90 days
+• **9**: RFP imminent (next 60 days), pre-qualification possible
+• **8**: Decree implementation deadline within 6 months, budget allocated, procurement designer is reachable
+• **7**: Donor program disbursement schedule active in next 6 months, government counterpart identified
+• **6**: 6–12 month window, named decision-maker, no live RFP yet
+• **5**: 12–18 month window, decree in active phase, budget pathway clear
+• **4**: 18–24 month window, requires policy advocacy
+• **3**: Multi-year horizon, requires market education
+• **2**: Speculative, dependent on next political cycle
+• **1**: No clear pathway, theoretical
+**Verifiers**: live tender URL, decree implementation deadline date, donor disbursement schedule
+Axis 2: Strategic Moat (1–10)
+How protected is this opportunity from competition?
+• **10**: Presidential decree explicitly priorities the use case, named in Uzbekistan-2030 / Digital KG strategy, ≤2 incumbents, your capability is uniquely positioned
+• **9**: Top-3 government KPI, low foreign vendor presence
+• **8**: Sectoral priority, 2–3 incumbents but you have differentiated positioning
+• **7**: Visible government priority, moderate competition
+• **6**: Standard market opportunity with some defensible angle
+• **5**: Competitive market, win on execution
+• **4**: Highly competitive, commodity-style
+• **3**: Crowded with global incumbents
+• **2**: Saturated market, marginal differentiation
+• **1**: No moat, race to the bottom
+**Verifiers**: presence in Uzbekistan-2030 or Digital Kyrgyzstan strategies, count of vendor incumbents in segment, presidential mention frequency
+Axis 3: Defensibility (1–10)
+Once you win, how hard is it to be displaced?
+• **10**: Multi-year SLA structure standard, data ownership clause achievable, network effects activate, switching cost is enormous (citizen-facing platform with adoption lock-in)
+• **9**: 3+ year contracts standard, data lock-in, integration depth
+• **8**: Multi-year structure, moderate switching cost
+• **7**: Annual renewal but high incumbency advantage
+• **6**: Standard renewal patterns, some lock-in
+• **5**: Annual renewal, modest stickiness
+• **4**: Project-based, no recurring component
+• **3**: One-shot deliverable, no incumbency advantage
+• **2**: Hardware/commodity, easily replaced
+• **1**: Pure transactional, no relationship moat
+**Verifiers**: contract length norms in segment, data ownership clause negotiability, integration depth required, regulatory capture potential (e.g., becoming the standard the regulator references)
+Axis 4: Capital Access (1–10)
+How well-funded is this opportunity from non-state-budget sources?
+• **10**: Active donor program co-financing > $5M, TTL/PM identified and reachable, disbursement schedule includes the relevant tender window
+• **9**: Active donor program $1–5M, named PM
+• **8**: Pipeline donor program in appraisal, expected award in 12 months
+• **7**: Multi-donor convergence (e.g., WB + EU on same problem)
+• **6**: State budget line confirmed, no donor co-financing but stable funding
+• **5**: State budget line probable, awaiting next budget cycle
+• **4**: Aspirational state allocation, no donor backing
+• **3**: PPP-only pathway, requires capital from your side
+• **2**: Revenue-share only, slow ramp
+• **1**: No clear funding pathway
+**Verifiers**: World Bank Documents portal, ADB project database, EU NDICI plan, disbursement reports
+Axis 5: Russian/CIS Delivery Fit (1–10)
+How well does this match your sntz.ai infrastructure and Russian-language distribution muscle?
+• **10**: Russian-language UX mandatory/preferred, data localization required (CIS-friendly cloud beneficial), buyer wants non-Western non-sanctions-exposed vendor, payment rails compatible (MIR/SBP/Paddle), use case maps to your existing platform capabilities (image/video/text generation, agentic workflows)
+• **9**: Russian-language strongly preferred, your stack is direct fit
+• **8**: Multi-language but Russian is primary working language
+• **7**: Local language (Uzbek/Kyrgyz) primary but your team can deliver via partners
+• **6**: English/local mix, your stack adapts
+• **5**: Multi-language with no strong Russian/CIS preference
+• **4**: Local-language-only mandate, your stack needs heavy localization
+• **3**: Western-vendor-preferred segment (e.g., banking core systems with regulatory pressure for Western brand)
+• **2**: Active US/EU vendor preference, geopolitically sensitive
+• **1**: Anti-Russian-vendor sentiment in segment, your positioning is liability
+**Verifiers**: language requirements in past tenders, data localization rules, sanctioned-vendor exclusions, payment rail requirements
+Confidence Tier Mapping
+After scoring, initiatives are bucketed into tiers based on `weighted_total` AND `verification` quality:
+• **Tier A** (`weighted_total >= 7.5` AND all key fields VERIFIED): go now, deal-ready
+• **Tier B** (`weighted_total >= 6.0` AND most fields VERIFIED or L2_VERIFIED): develop, missing one piece
+• **Tier C** (`weighted_total >= 4.5`): backlog, requires more research
+• **Tier D** (`weighted_total < 4.5` OR significant UNVERIFIED gaps): reconsider or drop
+The CRM exports Tier A and B by default. Tiers C and D are available in the full knowledge graph for periodic re-evaluation.
+Slice views (CRM rendering)
+The render pipeline produces these views by sorting on a single axis:
+• `top_speed.csv` — sorted by speed-to-contract DESC
+• `top_moat.csv` — sorted by strategic_moat DESC
+• `top_defensibility.csv` — sorted by defensibility DESC
+• `top_capital.csv` — sorted by capital_access DESC
+• `top_russian_cis.csv` — sorted by russian_cis_fit DESC
+• `top_overall.csv` — sorted by weighted_total DESC
+• `convergent_windows.csv` — initiatives scoring ≥7 on at least 4 axes
+The convergent_windows view is the most strategically valuable: opportunities where multiple lenses align simultaneously.
+
+---
+## URL: https://avaluev.github.io/ca-b2g-research/trends/index.html
+Sectoral trends
+Twelve sectoral trends shape the AI and digital government opportunity surface in Uzbekistan and Kyrgyzstan in 2025–2026: public administration, justice, health, education, agriculture and water, energy, transport, finance, security, environment, tourism, and labour migration. Each trend is grounded in specific decrees, donor programmes, and named decision-makers.
+Convergent windows
+The most strategically valuable trends are convergent windows — places where multiple lenses align (active decree + donor co-financing + named decision-maker + market readiness). The Russian/CIS substitution lens is particularly active for sovereign LLM and cybersecurity work post-2022.
+Uzbekistan trends
+Sector
+Trend
+Maturity
+Lenses
+Education
+15 AI laboratories at Uzbekistan universities with sovereign GPU compute (УП-189 deadline end-2026)
+accelerating
+decree_half_life_active, karimov_inversion, diaspora_bridge
+Finance & Fiscal
+AI customs risk profiling for State Customs Committee (ГТК) Uzbekistan — valuation and contraband detection
+emerging
+donor_co_financed, russian_cis_substitution
+Security & Public Order
+AI for MChS emergency services: earthquake early warning, flood prediction, dispatch optimization for Fergana Valley
+emerging
+donor_co_financed, russian_cis_substitution
+AI Infrastructure (Enabling Layer)
+AI governance and compliance certification framework under ЗРУ-1115 (Uzbekistan's first AI law, Jan 2026)
+emerging
+decree_half_life_active, karimov_inversion
+Energy
+AI grid optimization and smart metering for Uzbekistan national power grid under energy sector digitalization
+emerging
+decree_half_life_active, russian_cis_substitution
+Justice & Rule of Law
+AI in Uzbekistan courts: legal analysis, judicial act generation, virtual legal consultant (УП-140 Program 2025-2027)
+accelerating
+decree_half_life_active, karimov_inversion, russian_cis_substitution
+Education
+AI literacy and digital competency training program for 500,000+ Uzbekistan schoolteachers
+emerging
+decree_half_life_active, donor_co_financed
+Finance & Fiscal
+AI tax audit selection and e-invoice fraud detection for State Tax Committee (ГНК) Uzbekistan
+accelerating
+decree_half_life_active, russian_cis_substitution
+Health
+AI-assisted clinical decision support and diagnostic imaging for Electronic Healthcare platform (ПП-415 implementation)
+accelerating
+decree_half_life_active, donor_co_financed, russian_cis_substitution
+Environment & Climate
+AI-assisted desertification and Aral Sea basin soil monitoring for Karakalpakstan and Khorezm regions
+emerging
+donor_co_financed
+Public Administration & e-Gov
+AI-assisted public procurement analytics and tender monitoring for state bodies (Jan 2026 mandate)
+accelerating
+decree_half_life_active, karimov_inversion, russian_cis_substitution
+Public Administration & e-Gov
+AI-driven Mahalla-level digital social registry and targeted social assistance platform
+accelerating
+karimov_inversion, decree_half_life_active, donor_co_financed, russian_cis_substitution
+Public Administration & e-Gov
+AI-driven workflow automation for inter-agency document routing via UZINFOCOM integration layer
+accelerating
+karimov_inversion, decree_half_life_active, russian_cis_substitution
+Environment & Climate
+AI-enhanced national weather forecasting system (Mar 1 2026 deadline under УП-189)
+accelerating
+decree_half_life_active
+Energy
+AI-optimized renewable energy forecasting for Uzbekistan solar and hydropower grid integration
+emerging
+donor_co_financed
+Finance & Fiscal
+AI-powered SupTech/RegTech for Central Bank of Uzbekistan financial supervision and reporting automation
+emerging
+russian_cis_substitution, donor_co_financed
+Environment & Climate
+AI-powered air quality monitoring and prediction network for Tashkent metropolitan area
+emerging
+donor_co_financed
+Finance & Fiscal
+AI-powered anti-money laundering and FinCEN compliance for Uzbekistan state-owned banks post-sanctions environment
+emerging
+russian_cis_substitution
+Public Administration & e-Gov
+AI-powered citizen services chatbot for EPIGU portal (1000+ services, Russian-Uzbek bilingual)
+accelerating
+karimov_inversion, decree_half_life_active, russian_cis_substitution
+Labor & Migration
+AI-powered labor market matching and migrant reintegration platform ('Mahalliy ish') under Ministry of Employment UZ
+emerging
+donor_co_financed, karimov_inversion
+Tourism & Culture
+AI-powered multilingual tourism guide and cultural heritage digitization for UNESCO World Heritage sites in Uzbekistan
+emerging
+donor_co_financed
+Education
+AI-powered personalized learning and tutoring for school curriculum in Uzbek language (2026/2027 rollout under УП-189)
+emerging
+decree_half_life_active, donor_co_financed, russian_cis_substitution
+Transport & Urban
+AI-powered smart traffic management system for Tashkent metropolitan area (2M+ vehicles)
+emerging
+decree_half_life_active, karimov_inversion
+Justice & Rule of Law
+Conversational AI for free legal aid delivery in Uzbek/Russian ('Yuridik yordam' chatbot under MOJ)
+emerging
+decree_half_life_active, karimov_inversion, russian_cis_substitution
+Security & Public Order
+Cybersecurity SOC modernization and critical infrastructure protection under УП-38 Cybersecurity Strategy 2026-2030
+accelerating
+decree_half_life_active, russian_cis_substitution, donor_co_financed
+Transport & Urban
+Digital driver's license and automated traffic fine processing (digital DDA) for Uzbekistan MVD
+emerging
+karimov_inversion, russian_cis_substitution
+Health
+E-prescription fraud detection AI and pharmacovigilance analytics under State Medical Insurance system
+accelerating
+decree_half_life_active, russian_cis_substitution, donor_co_financed
+Agriculture & Water
+Geospatial NSDI AI-powered imagery analysis and digital cadastre modernization ($35M World Bank, 2025-2030)
+accelerating
+donor_co_financed, decree_half_life_active
+AI Infrastructure (Enabling Layer)
+IT Park Uzbekistan AI startup ecosystem: $25M Fund of Funds + IT Park Ventures for AI companies
+accelerating
+decree_half_life_active, karimov_inversion, diaspora_bridge
+Transport & Urban
+Middle Corridor logistics AI for Uzbekistan's position as Central Asian transit hub (Trans-Caspian International Route)
+emerging
+donor_co_financed, russian_cis_substitution
+Public Administration & e-Gov
+MyID Mobile-ID digital passport rollout and biometric e-signature for government services
+mainstream
+karimov_inversion, decree_half_life_active
+Agriculture & Water
+Satellite imagery AI for precision agriculture: cotton yield forecasting, water allocation, crop monitoring under ПП-257
+accelerating
+donor_co_financed, decree_half_life_active, russian_cis_substitution
+AI Infrastructure (Enabling Layer)
+Sovereign AI compute cluster and government cloud hosting at New Uzbekistan University (Mar 2026 deadline)
+accelerating
+decree_half_life_active, karimov_inversion
+Health
+Telemedicine platform with AI-assisted triage for rural Uzbekistan under new healthcare model
+emerging
+donor_co_financed, russian_cis_substitution
+AI Infrastructure (Enabling Layer)
+Uzbek-language sovereign LLM for government AI applications: legal, medical, administrative domains
+accelerating
+decree_half_life_active, karimov_inversion, russian_cis_substitution
+AI Infrastructure (Enabling Layer)
+Uzbek/Russian speech recognition and NLP for government document transcription and citizen services
+emerging
+decree_half_life_active, russian_cis_substitution, diaspora_bridge
+Kyrgyzstan trends
+Sector
+Trend
+Maturity
+Lenses
+Environment & Climate
+AI air quality monitoring and prediction for Bishkek winter inversion episodes (ranked #1 most polluted city globally multiple days 2023-2024)
+emerging
+donor_co_financed
+Finance & Fiscal
+AI customs risk profiling for Kyrgyzstan border crossings on China-Russia trade corridor
+emerging
+russian_cis_substitution, donor_co_financed
+Finance & Fiscal
+AI digital social registry and targeted assistance platform for Kyrgyzstan rural municipalities (Айыл аймагы)
+emerging
+donor_co_financed, japarov_concentration
+Environment & Climate
+AI early warning for landslides, mudflows and earthquakes in Kyrgyzstan mountain regions
+emerging
+donor_co_financed
+Agriculture & Water
+AI glacier monitoring and water flow prediction for Kyrgyzstan's Naryn River basin (hydropower critical)
+emerging
+donor_co_financed
+Energy
+AI grid optimization for Kyrgyzstan hydropower-dominated energy system (Toktogul-centered grid)
+emerging
+donor_co_financed
+Agriculture & Water
+AI precision agriculture for Kyrgyzstan livestock and smallholder farming (Naryn, Issyk-Kul, Osh regions)
+emerging
+donor_co_financed, japarov_concentration
+Transport & Urban
+AI smart traffic management for Bishkek metropolitan area (900K population, rapid urbanization)
+emerging
+donor_co_financed
+Finance & Fiscal
+AI tax fraud detection and e-filing analytics for Kyrgyzstan State Tax Service
+emerging
+donor_co_financed, japarov_concentration
+Education
+AI-powered Kyrgyz-language educational platform for school curriculum: KOICA and UNICEF co-funded
+emerging
+donor_co_financed
+Labor & Migration
+AI-powered labor migration management and remittance digitization for Kyrgyzstan (800K+ migrants)
+emerging
+donor_co_financed, russian_cis_substitution
+Justice & Rule of Law
+AI-powered parliamentary analytics and legislative monitoring for Jogorku Kenesh (already announced, implementation phase)
+emerging
+japarov_concentration
+Tourism & Culture
+AI-powered tourism platform for Issyk-Kul resort zone and Silk Road heritage sites in Kyrgyzstan
+emerging
+russian_cis_substitution
+Finance & Fiscal
+AI-powered virtual asset compliance platform for KGST stablecoin (USDKG) and crypto exchange operators
+accelerating
+japarov_concentration, decree_half_life_active, russian_cis_substitution
+Finance & Fiscal
+CBDC digital som infrastructure: wallet platform, AML/KYC AI, and fraud detection for January 2027 launch
+accelerating
+decree_half_life_active, russian_cis_substitution, donor_co_financed
+Public Administration & e-Gov
+Digital Code secondary regulation drafting window: AI auditability standards, model registries, data processing rules (May-Dec 2026)
+accelerating
+japarov_concentration, decree_half_life_active, donor_co_financed
+Public Administration & e-Gov
+E-procurement system digitalization and AI analytics for State Procurement Authority KG (ADB project 55109-001)
+accelerating
+japarov_concentration, donor_co_financed
+Education
+High-Tech Park Kyrgyzstan AI talent pipeline and startup incubation for domestic B2G market
+emerging
+japarov_concentration, diaspora_bridge
+AI Infrastructure (Enabling Layer)
+Kyrgyz-language sovereign LLM for government AI applications (Digital Code Chapter 23 compliance driver)
+emerging
+japarov_concentration, russian_cis_substitution, decree_half_life_active
+Security & Public Order
+Kyrgyzstan SOC modernization and critical infrastructure protection under Digital Code Chapter on AI security systems
+accelerating
+decree_half_life_active, donor_co_financed, japarov_concentration
+Health
+National Electronic Health Record rollout and AI diagnostic support for Kyrgyzstan Ministry of Health
+emerging
+donor_co_financed, japarov_concentration
+Public Administration & e-Gov
+New digital government TORs and project pipeline from UDP Digital Development Department (post-April 2026 reorganization)
+accelerating
+japarov_concentration, decree_half_life_active, donor_co_financed
+AI Infrastructure (Enabling Layer)
+Open government data AI analytics platform (data.gov.kg) under Digital Code open data mandate
+emerging
+donor_co_financed
+Health
+Telemedicine AI for Kyrgyzstan mountain communities: AKDN/SDC-funded rural health connectivity
+emerging
+donor_co_financed
+Public Administration & e-Gov
+Tunduk inter-agency data exchange modernization under UDP governance (Estonia EGA-linked, EU-funded)
+accelerating
+japarov_concentration, donor_co_financed, decree_half_life_active

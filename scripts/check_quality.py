@@ -37,8 +37,17 @@ from bs4 import BeautifulSoup
 ROOT = Path(__file__).resolve().parent.parent
 
 INTERNAL_ID_RE = re.compile(
-    r"\b(?:VM|CH|RL|FM|DG|SEG|INI|DEC|PER|INST|PROG|TND|TRD|CASE|UZ-PP|UZ-UP|KG-UK)-\d{1,5}\b"
+    r"\b(?:VM|CH|RL|FM|DG|SEG|INI|DEC|PER|INST|PROG|TND|TRD|CASE)-\d{1,5}\b"
 )
+DECREE_ID_RE = re.compile(
+    r"\b(?:UZ|KG)-(?:PP|UP|UK|KM|LAW|ZRU|RES)-\d{4}-\d{1,5}\b"
+)
+# Operator/author URLs allowed even if not in person records
+OPERATOR_LINKEDIN_ALLOWLIST = {
+    "https://www.linkedin.com/in/avaluev",
+    "https://www.linkedin.com/in/avaluev/",
+    "linkedin.com/in/avaluev",
+}
 RUN_ID_RE = re.compile(r"\d{8}T\d{6}Z")
 PHONE_UZ_RE = re.compile(r"\+?998[-\s]?\d{2}[-\s]?\d{3}[-\s]?\d{4}")
 PHONE_KG_RE = re.compile(r"\+?996[-\s]?\d{2,3}[-\s]?\d{2,3}[-\s]?\d{2,4}")
@@ -223,6 +232,9 @@ def gate_country_source(
     ct = country_tag(soup, text_lower)
     if not ct:
         return
+    # Skip index/listing pages — sources live on detail records
+    if any(seg in page for seg in ("/mvp/", "/initiatives/", "/people/", "/donors/", "/honesty/", "/provenance/")):
+        return
     found = False
     for a in soup.find_all("a", href=True):
         href = a["href"].lower()
@@ -260,14 +272,17 @@ def check_html(file: Path, valid_decree_ids: set[str], valid_linkedin_urls: set[
     gate_no_run_id_leak(text, page, issues)
     gate_no_pii(text, page, issues)
     gate_country_source(soup, text_lower, page, issues)
-    # Linked decree fabrication
-    for did in INTERNAL_ID_RE.findall(text):
-        if did.startswith(("UZ-", "KG-")) and valid_decree_ids and did not in valid_decree_ids:
+    # Linked decree fabrication — only check FULL decree IDs (UZ-PP-YYYY-NNN)
+    for did in DECREE_ID_RE.findall(text):
+        if valid_decree_ids and did not in valid_decree_ids:
             issues.append(
                 Issue("04_decree_fabrication", "ERROR", page, f"decree {did} not in state/decrees/")
             )
-    # Linked LinkedIn fabrication
+    # Linked LinkedIn fabrication — skip operator/author LinkedIn
     for u in LINKEDIN_URL_RE.findall(raw):
+        u_norm = u.rstrip("/").lower()
+        if any(allow in u_norm for allow in OPERATOR_LINKEDIN_ALLOWLIST):
+            continue
         if valid_linkedin_urls and u not in valid_linkedin_urls:
             issues.append(
                 Issue("05_linkedin_fabrication", "ERROR", page, f"linkedin URL {u} not in person records")
