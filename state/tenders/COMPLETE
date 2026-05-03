@@ -1,0 +1,45 @@
+procurement-harvester COMPLETE
+Generated: 2026-05-03
+
+LIVE TENDERS:
+  UZ live: 15 (uz_tenders_live.json)
+  KG live: 10 (kg_tenders_live.json)
+  Total live: 25
+
+FORECAST TENDERS:
+  UZ forecast: 15 (uz_tenders_forecast.json)
+  KG forecast: 10 (kg_tenders_forecast.json)
+  Total forecast: 25
+
+MERGED FILES:
+  uz_tenders.json: 30 tenders (live + forecast)
+  kg_tenders.json: 20 tenders (live + forecast)
+
+NARRATIVE FILES:
+  forecast.md: 25 forecast tenders with rationale
+  priority_bids.md: Top 20 priority bids ranked
+
+TOTAL TENDERS: 50 (30 UZ + 20 KG)
+
+HIGH INCUMBENT RISK (flagged): 6
+WIN PROBABILITY HIGH: 18
+DONOR-RULES PROCUREMENT: 14
+TOTAL ESTIMATED PIPELINE VALUE: $225M–$395M
+
+TOP 10 PRIORITY BIDS (win probability × value × moat):
+  1. KG-TF-2026-001: UDP Digital Architecture Advisory (score 9.8) — URGENT May-Aug 2026
+  2. UZ-T-2026-004: WB NSDI Geospatial Consulting QCBS (score 9.5)
+  3. UZ-T-2026-001: AI Compute Cluster ICB $50M Nvidia (score 9.2)
+  4. KG-T-2026-004: Digital Som CBDC Infrastructure QCBS (score 9.1)
+  5. UZ-TF-2026-002: $100M AI Fund Criteria Shaping CW-003 (score 8.9)
+  6. KG-T-2026-001: ADB e-Procurement Software QCBS 90:10 (score 8.7)
+  7. UZ-T-2026-002: Digital Court AI Platform JV (score 8.5)
+  8. UZ-T-2026-008: Civil Servant AI Training WB QCBS (score 8.4)
+  9. UZ-T-2026-005: EPIGU AI Chatbot Russian/Uzbek NLP (score 8.3)
+  10. KG-TF-2026-003: National AI Strategy Document (score 8.2)
+
+VERIFICATION TAG DISTRIBUTION:
+  VERIFIED: 2
+  L2_VERIFIED: 28
+  INFERRED: 20
+  UNVERIFIED: 0
