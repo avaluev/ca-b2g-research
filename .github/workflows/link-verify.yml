@@ -1,0 +1,36 @@
+name: Weekly link verification
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+jobs:
+  verify-links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install --upgrade pip && pip install -e .
+      - name: Verify all links
+        run: python3 scripts/verify_links.py --all --output state/audit/link_report.json
+      - name: Open issue if breakage > 5%
+        if: failure()
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const report = JSON.parse(fs.readFileSync('state/audit/link_report.json', 'utf8'));
+            const broken = report.breakage_pct || 0;
+            if (broken > 5) {
+              github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: `Link breakage at ${broken.toFixed(1)}%`,
+                body: `Weekly link check found ${broken.toFixed(1)}% broken external links.\n\nSee artifact for details.`,
+                labels: ['link-rot', 'maintenance'],
+              });
+            }

@@ -1,0 +1,62 @@
+# Secrets — NEVER commit
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# OpenRouter quota ledger (contains key indirection)
+state/external/_quota.json
+state/external/_in_flight/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.venv/
+venv/
+env/
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+*.egg-info/
+.tox/
+build/
+dist/
+
+# OS
+.DS_Store
+Thumbs.db
+.Spotlight-V100
+.Trashes
+
+# Editor
+.idea/
+.vscode/
+*.swp
+*~
+
+# Drafts and intermediate
+outputs/site/_drafts/
+outputs/site/_intermediate/
+
+# PRIVATE — outreach kits with named contact paths
+playbook/private/
+outputs/playbook/tier_a/*/outreach_kit_personal.*
+outputs/playbook/tier_a/*/warm_intro_personal.*
+outputs/obsidian/Briefs/Outreach Kits/_personal/
+outputs/obsidian/Briefs/Diaspora Bridge/_discreet/
+
+# Logs (keep audit/, exclude raw timestamped logs)
+state/audit/*_[0-9]*.log
+state/audit/*.out
+
+# Lockfiles for deps we don't need to commit
+pip-wheel-metadata/
+
+# GitHub Pages built artifacts (built in CI, deployed to gh-pages branch)
+outputs/site/_built/

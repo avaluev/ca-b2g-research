@@ -1,0 +1,40 @@
+name: Quality
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+concurrency:
+  group: quality-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+
+      - name: Install deps
+        run: |
+          pip install --upgrade pip
+          pip install -e .
+
+      - name: Validate state
+        run: python3 scripts/validate_state.py
+        continue-on-error: true
+
+      - name: Check content quality
+        if: hashFiles('outputs/site/**') != ''
+        run: python3 scripts/check_quality.py
+
+      - name: Verify internal links
+        if: hashFiles('outputs/site/**') != ''
+        run: python3 scripts/verify_links.py --internal-only
