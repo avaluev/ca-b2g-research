@@ -1,0 +1,439 @@
+[
+  {
+    "id": "uz-trend-001-epigu-ai-chatbot",
+    "name": "AI-powered citizen services chatbot for EPIGU portal (1000+ services, Russian-Uzbek bilingual)",
+    "country": "UZ",
+    "sector": "Public Administration & e-Gov",
+    "maturity": "accelerating",
+    "drivers": [
+      "УП-189 (Oct 2025) mandates 100 AI projects by end-2026 with Jan 1 2026 AI procurement start",
+      "ПП-286 (Sep 2025) sets 70% electronic government services target with mahalla-level delivery",
+      "ПП-320 (Oct 2025) allocates $50M state-body AI grants — EPIGU chatbot is top-tier priority",
+      "УП-6079 Digital Uzbekistan-2030 foundational mandate",
+      "Russian/CIS vendor retreat post-2022 creating vacuum for local-language AI deployment"
+    ],
+    "estimated_tam_2025_2026_usd": 8000000,
+    "key_decision_maker_ids": ["uz-shermatov-sherzod", "uz-uzinfocom-head"],
+    "linked_decree_ids": ["UZ-UP-2025-189", "UZ-PP-2025-320", "UZ-PP-2025-286", "UZ-UP-2020-6079"],
+    "linked_donor_program_ids": [],
+    "linked_tender_ids": [],
+    "window_months_remaining": 19,
+    "win_conditions": "Demonstrate working Uzbek-language NLP with legal domain training data; partnership with UZINFOCOM (state integrator); data localization compliance under ЗРУ-547/1125; reference deployment in a mahalla-level pilot by Q3 2026",
+    "killer_app_description": "An AI assistant embedded in the EPIGU.uz portal that handles the top 50 most common citizen service requests (certificates, permits, registrations) in conversational Uzbek and Russian, reducing average service completion time from 3 days to same-day via automated back-end routing through Tunduk-equivalent data exchange layer",
+    "lens_tags": ["karimov_inversion", "decree_half_life_active", "russian_cis_substitution"],
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://lex.uz/ru/docs/7790236",
+        "title": "УП-189-сон 22.10.2025. О дополнительных мерах по дальнейшему развитию технологий искусственного интеллекта",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "lex.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-trend-002-epigu-workflow-automation",
+    "name": "AI-driven workflow automation for inter-agency document routing via UZINFOCOM integration layer",
+    "country": "UZ",
+    "sector": "Public Administration & e-Gov",
+    "maturity": "accelerating",
+    "drivers": [
+      "ПП-162 (May 2023) target: 70% government services electronic by end-2025",
+      "ПП-286 (Sep 2025): 41 priority digital projects 2025-2026, mahalla-level service delivery",
+      "UZINFOCOM designated as single integrator for multiple state systems",
+      "Up to $50M in ПП-320 grants for AI in state bodies — automation is highest ROI use case"
+    ],
+    "estimated_tam_2025_2026_usd": 6000000,
+    "key_decision_maker_ids": ["uz-shermatov-sherzod", "uz-uzinfocom-head", "uz-public-services-agency-head"],
+    "linked_decree_ids": ["UZ-PP-2023-162", "UZ-PP-2025-286", "UZ-PP-2025-320"],
+    "linked_donor_program_ids": [],
+    "linked_tender_ids": [],
+    "window_months_remaining": 19,
+    "win_conditions": "Certified compatibility with UZINFOCOM integration APIs; Uzbek-language OCR for legacy paper documents; existing government client references in CIS region; readiness to operate under ЗРУ-764 cybersecurity framework",
+    "killer_app_description": "Intelligent document processing engine that auto-classifies incoming citizen applications, extracts required data fields, routes to responsible agency sub-system via UZINFOCOM, and generates decision drafts — cutting internal government processing time from 10+ days to 48 hours for top-30 service types",
+    "lens_tags": ["karimov_inversion", "decree_half_life_active", "russian_cis_substitution"],
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://lex.uz/ru/docs/7730359",
+        "title": "ПП-286-сон 16.09.2025. О мерах по дальнейшему ускорению внедрения цифровых технологий",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "lex.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-trend-003-ai-procurement-system",
+    "name": "AI-assisted public procurement analytics and tender monitoring for state bodies (Jan 2026 mandate)",
+    "country": "UZ",
+    "sector": "Public Administration & e-Gov",
+    "maturity": "accelerating",
+    "drivers": [
+      "УП-189: Jan 1 2026 AI procurement procedures; Jun 1 2026 public procurement AI systems",
+      "ПП-320: grant funding available for AI in government",
+      "Anti-corruption AI mandate: shadow economy reduction via procurement transparency",
+      "ПП-358 AI Strategy 2030: 10% e-government services via AI target"
+    ],
+    "estimated_tam_2025_2026_usd": 4500000,
+    "key_decision_maker_ids": ["uz-shermatov-sherzod", "uz-gnk-head"],
+    "linked_decree_ids": ["UZ-UP-2025-189", "UZ-PP-2024-358"],
+    "linked_donor_program_ids": [],
+    "linked_tender_ids": [],
+    "window_months_remaining": 19,
+    "win_conditions": "Machine-readable integration with zakupki.uz (state procurement portal); Uzbek-language NLP for procurement document analysis; UNICON cybersecurity certification; price benchmark database for CIS region procurement",
+    "killer_app_description": "AI analytics platform for state procurement oversight: flags anomalous tender specifications (written-for-incumbent patterns), detects price manipulation versus market benchmarks, predicts procurement fraud probability per tender, and generates automated audit reports for the Audit Chamber — directly supporting УП-189's anti-corruption mandate",
+    "lens_tags": ["decree_half_life_active", "karimov_inversion", "russian_cis_substitution"],
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://lex.uz/ru/docs/7790236",
+        "title": "УП-189-сон 22.10.2025",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "lex.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-trend-004-digital-id-mobile-myid",
+    "name": "MyID Mobile-ID digital passport rollout and biometric e-signature for government services",
+    "country": "UZ",
+    "sector": "Public Administration & e-Gov",
+    "maturity": "mainstream",
+    "drivers": [
+      "УП-6065 (Sep 2020): mandatory biometric ID by Jan 2023, old documents invalid from Jan 2031",
+      "ЗРУ-793 (Oct 2022): new electronic digital signature law — legally valid across government",
+      "ПП-162 (May 2023): digital services tied to MyID authentication",
+      "UZINFOCOM as MyID technical operator"
+    ],
+    "estimated_tam_2025_2026_usd": 12000000,
+    "key_decision_maker_ids": ["uz-uzinfocom-head", "uz-mvd-head", "uz-shermatov-sherzod"],
+    "linked_decree_ids": ["UZ-UP-2020-6065", "UZ-LAW-2022-793", "UZ-PP-2023-162"],
+    "linked_donor_program_ids": [],
+    "linked_tender_ids": [],
+    "window_months_remaining": 56,
+    "win_conditions": "PKCS#11 cryptographic standard compatibility; biometric liveness detection certification; integration with EPIGU and UZINFOCOM APIs; existing Central Asian or CIS government biometrics reference",
+    "killer_app_description": "Mobile-ID module extending existing ID-card infrastructure to smartphones — enabling full legal-grade digital signature from any mobile device for the 36M+ adult population, replacing notarized paper processes across 720+ government services currently on EPIGU",
+    "lens_tags": ["karimov_inversion", "decree_half_life_active"],
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://lex.uz/ru/docs/5015117",
+        "title": "УП-6065-сон 22.09.2020. О мерах по внедрению идентификационных ID-карт",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "lex.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-trend-005-mahalla-digital-social-registry",
+    "name": "AI-driven Mahalla-level digital social registry and targeted social assistance platform",
+    "country": "UZ",
+    "sector": "Public Administration & e-Gov",
+    "maturity": "accelerating",
+    "drivers": [
+      "ПП-286 (Sep 2025): 30+ government services delivered at mahalla level in 'Digital Government' program",
+      "ПП-320 AI grants: social protection is priority AI domain",
+      "UZ has 10,000+ mahallas (community units) — scale creates massive data and AI opportunity",
+      "World Bank Social Protection Digital project pipeline",
+      "Russian-language community governance tradition requiring localized UX"
+    ],
+    "estimated_tam_2025_2026_usd": 7000000,
+    "key_decision_maker_ids": ["uz-public-services-agency-head", "uz-ministry-social-head"],
+    "linked_decree_ids": ["UZ-PP-2025-286", "UZ-PP-2025-320"],
+    "linked_donor_program_ids": ["WB-UZ-SOCIAL-PROTECTION"],
+    "linked_tender_ids": [],
+    "window_months_remaining": 19,
+    "win_conditions": "Uzbek-language citizen-facing interface; offline-capable mobile app for mahalla workers with limited connectivity; integration with state social registry database; experience with community-based targeting in CIS/CA context",
+    "killer_app_description": "AI-powered platform that automatically identifies mahalla-level households eligible for targeted state assistance by cross-referencing employment, utility payment, and health data — cutting false positive/negative rates in social targeting from 35%+ to under 10% while routing applications through automated workflow to the responsible agency",
+    "lens_tags": ["karimov_inversion", "decree_half_life_active", "donor_co_financed", "russian_cis_substitution"],
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://lex.uz/ru/docs/7730359",
+        "title": "ПП-286-сон 16.09.2025",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "lex.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-trend-006-digital-court-ai-judiciary",
+    "name": "AI in Uzbekistan courts: legal analysis, judicial act generation, virtual legal consultant (УП-140 Program 2025-2027)",
+    "country": "UZ",
+    "sector": "Justice & Rule of Law",
+    "maturity": "accelerating",
+    "drivers": [
+      "УП-140 (Aug 2025): Comprehensive program — Digital Court prototype by end-2025; legal analysis platform Dec 1 2025; judicial act generation software end-2025; virtual legal consultant Jan 1 2026; nationwide rollout 2026-2027",
+      "UZINFOCOM designated single technology integrator for judiciary AI",
+      "Supreme Court Digital Technologies and AI Department newly created",
+      "ПП-320 AI grant funding available for judicial sector"
+    ],
+    "estimated_tam_2025_2026_usd": 15000000,
+    "key_decision_maker_ids": ["uz-supreme-court-head", "uz-shermatov-sherzod", "uz-uzinfocom-head"],
+    "linked_decree_ids": ["UZ-UP-2025-140", "UZ-PP-2025-320", "UZ-UP-2025-189"],
+    "linked_donor_program_ids": [],
+    "linked_tender_ids": [],
+    "window_months_remaining": 19,
+    "win_conditions": "NLP model trained on Uzbek legal corpus (civil, criminal, administrative codes); case classification system with 90%+ accuracy; integration with UZINFOCOM court management system; compliance with ЗРУ-1115 AI law (legally significant decisions cannot rely exclusively on AI conclusions); Turkish Havelsan digital judiciary reference highly relevant",
+    "killer_app_description": "AI judiciary platform with three tiers: (1) case auto-classification and assignment routing; (2) judicial act drafting assistant generating structured court decisions from case facts in Uzbek/Russian; (3) citizen-facing legal consultant chatbot answering procedural questions and document preparation — reducing court backlog by 30%+ based on Kazakhstan's e-court experience",
+    "lens_tags": ["decree_half_life_active", "karimov_inversion", "russian_cis_substitution"],
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://lex.uz/ru/docs/7696571",
+        "title": "УП-140-сон 21.08.2025. О дополнительных мерах по повышению уровня доступа к правосудию путем внедрения технологий ИИ в деятельность судов",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "lex.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-trend-007-legal-aid-conversational-ai",
+    "name": "Conversational AI for free legal aid delivery in Uzbek/Russian ('Yuridik yordam' chatbot under MOJ)",
+    "country": "UZ",
+    "sector": "Justice & Rule of Law",
+    "maturity": "emerging",
+    "drivers": [
+      "УП-140 virtual legal consultant mandate (Jan 1 2026 deadline)",
+      "ЗРУ-1115 (Jan 2026) AI law — creates regulatory clarity for AI in legal guidance",
+      "MOJ digitalization push since 2017 (Karimov Inversion)",
+      "ПП-320 grant funding for AI implementation in state bodies including MOJ"
+    ],
+    "estimated_tam_2025_2026_usd": 3000000,
+    "key_decision_maker_ids": ["uz-moj-head", "uz-supreme-court-head"],
+    "linked_decree_ids": ["UZ-UP-2025-140", "UZ-LAW-2026-1115", "UZ-PP-2025-320"],
+    "linked_donor_program_ids": ["UNDP-UZ-JUSTICE"],
+    "linked_tender_ids": [],
+    "window_months_remaining": 19,
+    "win_conditions": "Uzbek-language legal knowledge base covering family law, property, labor, consumer rights; integration with MOJ notary and legal aid registry; UNDP co-financing preferred for budget justification; outcome measurement framework",
+    "killer_app_description": "Legal aid chatbot operating under MOJ mandate, available via EPIGU and Telegram, guiding citizens through complex legal procedures (divorce, inheritance, labor disputes, housing registration) in plain Uzbek, reducing need for paid legal consultations and increasing formal justice system access in rural regions",
+    "lens_tags": ["decree_half_life_active", "karimov_inversion", "russian_cis_substitution"],
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://lex.uz/ru/docs/8011377",
+        "title": "ЗРУ-1115-сон 21.01.2026. О регулировании отношений при применении искусственного интеллекта",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "lex.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-trend-008-ehealth-ai-diagnostics",
+    "name": "AI-assisted clinical decision support and diagnostic imaging for Electronic Healthcare platform (ПП-415 implementation)",
+    "country": "UZ",
+    "sector": "Health",
+    "maturity": "accelerating",
+    "drivers": [
+      "ПП-415 (Dec 2023): Electronic Healthcare platform under UZINFOCOM, implementation deadline 2026",
+      "УП-88 (May 2025): New nationwide healthcare model pilot Jul 2025; full rollout 2026",
+      "ПП-311 (Sep 2024): State medical insurance digital claims processing — fraud detection imperative",
+      "ПП-185 (May 2025): Population registration in Electronic Healthcare by end-2025",
+      "UNICEF and World Bank co-financing confirmed in ПП-415"
+    ],
+    "estimated_tam_2025_2026_usd": 18000000,
+    "key_decision_maker_ids": ["uz-minzdrav-head", "uz-uzinfocom-head"],
+    "linked_decree_ids": ["UZ-PP-2023-415", "UZ-UP-2025-088", "UZ-PP-2024-311"],
+    "linked_donor_program_ids": ["WB-UZ-HEALTH", "UNICEF-UZ-HEALTH"],
+    "linked_tender_ids": [],
+    "window_months_remaining": 19,
+    "win_conditions": "CE-marked or WHO-endorsed AI diagnostic modules; HL7 FHIR interoperability with UZINFOCOM infrastructure; Uzbek-language clinical interface; radiology AI (chest X-ray, CT) demonstrably reduces radiologist workload; World Bank/UNICEF vendor qualification preferred",
+    "killer_app_description": "Clinical decision support system integrated with the Electronic Healthcare platform: AI triage at primary care level predicts disease severity and appropriate referral pathway; radiology AI (TB detection, cancer screening) deployed at district hospital level where specialist shortage is acute; medication interaction checker integrated with e-prescription module — collectively reducing diagnostic errors by 25%+ [Source: WHO Central Asia health tech deployment benchmarks, 2024]",
+    "lens_tags": ["decree_half_life_active", "donor_co_financed", "russian_cis_substitution"],
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://lex.uz/ru/docs/6719001",
+        "title": "ПП-415-сон 28.12.2023. О дополнительных мерах по ускорению цифровизации системы здравоохранения",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "lex.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-trend-009-eprescription-fraud",
+    "name": "E-prescription fraud detection AI and pharmacovigilance analytics under State Medical Insurance system",
+    "country": "UZ",
+    "sector": "Health",
+    "maturity": "accelerating",
+    "drivers": [
+      "ПП-311 (Sep 2024): State medical insurance digital claims — electronic queue and referral from Jan 2025",
+      "ПП-415 Electronic Healthcare: e-prescription infrastructure being built by UZINFOCOM",
+      "Insurance fraud is primary budget drain — digital insurance system creates detection opportunity",
+      "ПП-320 AI grant funding available for healthcare AI"
+    ],
+    "estimated_tam_2025_2026_usd": 5000000,
+    "key_decision_maker_ids": ["uz-minzdrav-head", "uz-uzinfocom-head", "uz-health-insurance-fund-head"],
+    "linked_decree_ids": ["UZ-PP-2024-311", "UZ-PP-2023-415", "UZ-PP-2025-320"],
+    "linked_donor_program_ids": ["WB-UZ-HEALTH"],
+    "linked_tender_ids": [],
+    "window_months_remaining": 19,
+    "win_conditions": "Proven pharmaceutical claims fraud detection accuracy (>85%); integration with UZINFOCOM e-prescription module; compliance with ЗРУ-547 personal data law; pharmacovigilance module meeting WHO/EMA reporting standards; preferably packaged with clinical decision support (trend 008)",
+    "killer_app_description": "Insurance fraud detection module processing all e-prescription and claims data from the state medical insurance system: identifies anomalous prescription patterns (over-prescribing physicians, phantom patients, duplicated claims), generates real-time alerts for insurance auditors, and produces monthly pharmacovigilance reports for MOH — reducing medical fraud losses estimated at 15-20% of insurance fund value",
+    "lens_tags": ["decree_half_life_active", "russian_cis_substitution", "donor_co_financed"],
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://lex.uz/ru/docs/7098109",
+        "title": "ПП-311-сон 05.09.2024. О мерах по внедрению механизмов государственного медицинского страхования",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "lex.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-trend-010-telemedicine-ai-triage",
+    "name": "Telemedicine platform with AI-assisted triage for rural Uzbekistan under new healthcare model",
+    "country": "UZ",
+    "sector": "Health",
+    "maturity": "emerging",
+    "drivers": [
+      "УП-88 (May 2025): New healthcare model nationwide rollout including remote areas",
+      "ПП-38 (Jan 2024): Electronic referral systems and telemedicine infrastructure",
+      "Rural Uzbekistan has specialist shortage — AI triage is cost-efficient substitution",
+      "UNICEF digital health program in Uzbekistan (donor co-financing)",
+      "COVID-era telemedicine infrastructure now available for permanent service"
+    ],
+    "estimated_tam_2025_2026_usd": 8000000,
+    "key_decision_maker_ids": ["uz-minzdrav-head", "uz-uzinfocom-head"],
+    "linked_decree_ids": ["UZ-UP-2025-088", "UZ-PP-2024-038"],
+    "linked_donor_program_ids": ["UNICEF-UZ-HEALTH", "WB-UZ-HEALTH"],
+    "linked_tender_ids": [],
+    "window_months_remaining": 19,
+    "win_conditions": "Uzbek-language patient-doctor interface; low-bandwidth video consultation capability for rural areas; AI symptom checker integrated with ICD-11 coding; WhatsApp/Telegram channel support (dominant apps in UZ); UNICEF quality standards compliance",
+    "killer_app_description": "Hybrid telemedicine system with AI triage: patient initiates consultation via mobile app or EPIGU; AI symptom checker assesses urgency and directs to appropriate care level (self-care, GP teleconsult, emergency referral); connects to specialist telemedicine session with automatic translation between Uzbek dialects and medical Russian — prioritizing oncology, obstetrics, and cardiology where rural specialist gaps are most deadly",
+    "lens_tags": ["donor_co_financed", "russian_cis_substitution"],
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://lex.uz/docs/7534278",
+        "title": "УП-88-сон 19.05.2025. О мерах по последовательному продолжению реформирования сферы здравоохранения",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "lex.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-trend-011-ai-edtech-school",
+    "name": "AI-powered personalized learning and tutoring for school curriculum in Uzbek language (2026/2027 rollout under УП-189)",
+    "country": "UZ",
+    "sector": "Education",
+    "maturity": "emerging",
+    "drivers": [
+      "УП-189 (Oct 2025): AI education in school curricula from academic year 2026/2027",
+      "15 AI laboratories in higher education institutions by end-2026",
+      "ПП-51 (Feb 2024): One Million Programmers program and digital education subsidies",
+      "ПП-320: grants available for AI in education sector",
+      "KOICA $14M IT education ecosystem program (co-financing)",
+      "Korea partnership via KOICA directly relevant to curriculum AI"
+    ],
+    "estimated_tam_2025_2026_usd": 12000000,
+    "key_decision_maker_ids": ["uz-mohesi-head", "uz-ministry-school-education-head"],
+    "linked_decree_ids": ["UZ-UP-2025-189", "UZ-PP-2024-051", "UZ-PP-2025-320"],
+    "linked_donor_program_ids": ["KOICA-UZ-IT-EDUCATION"],
+    "linked_tender_ids": [],
+    "window_months_remaining": 19,
+    "win_conditions": "Uzbek-language content covering national school curriculum (grades 5-11); offline functionality for schools with poor connectivity; teacher dashboard with analytics; KOICA or MoHESI procurement pathway; track record in CIS/post-Soviet educational context (Kazakhstan Bilim Land, Russia reference)",
+    "killer_app_description": "Adaptive AI tutoring platform for Uzbek school curriculum: tracks individual student mastery per topic, automatically adjusts difficulty and generates personalized exercises in Uzbek/Russian, flags students at dropout risk to teachers, and provides automated formative assessment — targeting the 65%+ of schools outside Tashkent where qualified STEM teacher shortage is severe [Source: UNESCO Education in Central Asia 2023 assessment]",
+    "lens_tags": ["decree_half_life_active", "donor_co_financed", "russian_cis_substitution"],
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://lex.uz/ru/docs/7790236",
+        "title": "УП-189-сон 22.10.2025",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "lex.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-trend-012-ai-university-labs",
+    "name": "15 AI laboratories at Uzbekistan universities with sovereign GPU compute (УП-189 deadline end-2026)",
+    "country": "UZ",
+    "sector": "Education",
+    "maturity": "accelerating",
+    "drivers": [
+      "УП-189: 15 AI labs in higher education by end-2026 — specific mandate with deadline",
+      "AI Cluster New Uzbekistan University (Mar 1 2026 deadline under УП-189)",
+      "Alliance for AI Development established under УП-189",
+      "ПП-320: IT Park Ventures $25M equity fund for AI companies",
+      "NVIDIA partnership discussions (referenced in open-source UZ government sources)"
+    ],
+    "estimated_tam_2025_2026_usd": 25000000,
+    "key_decision_maker_ids": ["uz-mohesi-head", "uz-it-park-head", "uz-ai-center-head"],
+    "linked_decree_ids": ["UZ-UP-2025-189", "UZ-PP-2025-320"],
+    "linked_donor_program_ids": ["KOICA-UZ-IT-EDUCATION"],
+    "linked_tender_ids": [],
+    "window_months_remaining": 7,
+    "win_conditions": "GPU server supply chain (NVIDIA A100/H100 or equivalent) with export license compliance; lab curriculum design certified by an internationally recognized university; integration plan with IT Park resident companies for applied projects; Uzbek-language technical training content",
+    "killer_app_description": "Turnkey AI laboratory package for New Uzbekistan University and 14 other institutions: GPU compute cluster + curriculum framework + practitioner-instructor training + pipeline connecting top student researchers to IT Park resident companies and $25M venture fund — creating the talent supply chain that $100M ПП-320 investment requires to deploy successfully",
+    "lens_tags": ["decree_half_life_active", "karimov_inversion", "diaspora_bridge"],
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://lex.uz/ru/docs/7790236",
+        "title": "УП-189-сон 22.10.2025",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "lex.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-trend-013-teacher-ai-literacy",
+    "name": "AI literacy and digital competency training program for 500,000+ Uzbekistan schoolteachers",
+    "country": "UZ",
+    "sector": "Education",
+    "maturity": "emerging",
+    "drivers": [
+      "УП-189: AI in school curricula from 2026/2027 — teachers must be trained first",
+      "ПП-51 (Feb 2024): qualified specialists training support including non-state organizations",
+      "ПП-320 training component under Alliance for AI Development",
+      "KOICA partnership includes teacher training component",
+      "UNESCO ICT in Education benchmarks: UZ ranks 56th — government target to reach top-30"
+    ],
+    "estimated_tam_2025_2026_usd": 9000000,
+    "key_decision_maker_ids": ["uz-ministry-school-education-head", "uz-mohesi-head"],
+    "linked_decree_ids": ["UZ-UP-2025-189", "UZ-PP-2024-051"],
+    "linked_donor_program_ids": ["KOICA-UZ-IT-EDUCATION", "UNICEF-UZ-EDUCATION"],
+    "linked_tender_ids": [],
+    "window_months_remaining": 19,
+    "win_conditions": "Curriculum meeting MoHESI accreditation requirements; blended delivery (online platform + regional training centers); Uzbek and Russian language instruction; mass-scale certification system; government procurement via ПП-320 AI grant mechanism",
+    "killer_app_description": "National AI teacher training program: online course platform with proctored certification covering AI fundamentals, classroom AI tool use (grading assist, differentiated learning), and AI ethics discussion facilitation — targeting all 500K+ teachers ahead of 2026/2027 curriculum rollout, with regional training hubs in 14 regions of Uzbekistan",
+    "lens_tags": ["decree_half_life_active", "donor_co_financed"],
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://lex.uz/ru/docs/7790236",
+        "title": "УП-189-сон 22.10.2025",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "lex.uz",
+        "source_tier": "official"
+      }
+    ]
+  }
+]

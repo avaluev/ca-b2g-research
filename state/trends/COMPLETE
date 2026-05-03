@@ -1,0 +1,109 @@
+COMPLETE
+agent: trend-triangulator
+completed_at: 2026-05-03
+schema_version: "1.0"
+
+# Summary Statistics
+
+## Trend Counts
+uz_trends_total: 36
+kg_trends_total: 25
+total_trends: 61
+
+## UZ Trends by Sector
+public_admin_egov: 5
+justice_rule_of_law: 2
+health: 3
+education: 3
+agriculture_water: 2
+energy: 2
+transport_urban: 3
+finance_fiscal: 4
+security_public_order: 2
+environment_climate: 3
+tourism_culture: 1
+labor_migration: 1
+ai_infrastructure_enabling: 5
+
+## KG Trends by Sector
+public_admin_egov: 4
+justice_rule_of_law: 1
+health: 2
+education: 2
+agriculture_water: 2
+energy: 2
+transport_urban: 1
+finance_fiscal: 4
+security_public_order: 1
+environment_climate: 2
+tourism_culture: 1
+labor_migration: 1
+ai_infrastructure_enabling: 2
+
+## Lens Tag Distribution (across all 61 trends)
+decree_half_life_active: 33 trends
+donor_co_financed: 28 trends
+russian_cis_substitution: 25 trends
+karimov_inversion: 16 trends
+japarov_concentration: 10 trends
+diaspora_bridge: 4 trends
+
+## Multi-Lens Trends (≥2 lens tags)
+uz_multi_lens_trends: 28
+kg_multi_lens_trends: 18
+
+## Maturity Distribution
+accelerating: 22 trends
+emerging: 36 trends
+mainstream: 3 trends
+declining: 0 trends
+
+## Convergent Windows
+total_convergent_windows: 15
+windows_with_3_plus_lenses: 10
+windows_with_critical_urgency_under_8_months: 7
+
+## Top 10 Convergent Windows (by combined urgency × budget × lens count)
+1. CW-001: UZ $100M AI Grant Distribution Criteria (7 months, $100M, 4 lenses)
+2. CW-003: KG UDP Digital Dept TOR Drafting (2.5 months, $25M influence, 3 lenses)
+3. CW-004: KG Digital Som CBDC Infrastructure (8 months, $18M, 3 lenses)
+4. CW-015: KG NBKR AML/KYC Bundle (8 months, $24M, 3 lenses)
+5. CW-002: UZ AI in Courts УП-140 (13 months, $15M, 3 lenses)
+6. CW-006: UZ Cybersecurity Strategy Milestones (7 months, $18M, 3 lenses)
+7. CW-007: KG Digital Code AI Secondary Regs (7 months, standards authority, 2 lenses)
+8. CW-008: UZ AI Cluster/LLM New Uzbekistan (7 months, $30M+, 3 lenses)
+9. CW-005: UZ E-Health AI Platform (19 months, $31M, 3 lenses)
+10. CW-014: UZ Labor Migration KOICA (24 months, $14M, 2 lenses)
+
+## Total Addressable Spend (2025-2026 estimate)
+uz_total_addressable_usd: 314000000
+kg_total_addressable_usd: 110000000
+combined_total_usd: 424000000
+
+## Output Files
+- state/trends/uz_trends.json (36 trend records)
+- state/trends/kg_trends.json (25 trend records)
+- state/trends/uz_trends_admin_justice_health_edu.json (13 records)
+- state/trends/uz_trends_agri_energy_transport_finance.json (12 records)
+- state/trends/uz_trends_security_env_tourism_labor_xcut.json (11 records)
+- state/trends/kg_trends_admin_justice_health_edu.json (9 records)
+- state/trends/kg_trends_agri_energy_transport_finance.json (9 records)
+- state/trends/kg_trends_security_env_tourism_labor_xcut.json (7 records)
+- state/trends/convergent_windows.md (15 cards)
+- state/trends/trend_landscape.md (~4200 words)
+- state/trends/COMPLETE (this file)
+
+## Verification Quality
+VERIFIED: 28 trends (linked to official decree sources on lex.uz or cbd.minjust.gov.kg)
+L2_VERIFIED: 3 trends (multiple non-official sources corroborate)
+INFERRED: 30 trends (derived from verified decrees with logical sector projection; TAM sources cited)
+UNVERIFIED: 0 trends
+
+## Key Issues / Data Gaps
+- Donor programs: state/donors/ directory is empty — linked_donor_program_ids are hypothetical slugs
+  pending donor-pipeline agent (Wave 2 parallel) output
+- Key decision-maker IDs: uz-shermatov-sherzod confirmed in multiple decrees; all others are
+  slug hypotheses pending people-intelligence agent (Wave 3) output
+- Linked tender IDs: all empty — procurement-harvester agent (Wave 2 parallel) has not yet output
+- KG UDP Digital Dept head: not yet publicly named (critical unknown as of 2026-05-03)
+- ПП-320 grant distribution criteria: not yet published — CW-001 window timing is estimation

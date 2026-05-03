@@ -1,0 +1,411 @@
+[
+  {
+    "id": "uz-trend-014-precision-agri-satellite",
+    "name": "Satellite imagery AI for precision agriculture: cotton yield forecasting, water allocation, crop monitoring under ПП-257",
+    "country": "UZ",
+    "sector": "Agriculture & Water",
+    "maturity": "accelerating",
+    "drivers": [
+      "ПП-257 (Aug 2023): Agroplatforma unified digital agriculture platform, satellite remote sensing integration",
+      "УП-155 (Oct 2024): Aerospace technologies roadmap 2024-2026, satellite imagery for agriculture and disaster monitoring",
+      "Cotton remains ~15% of Uzbek exports — $1.5B sector needing AI optimization [Source: UN Comtrade 2024]",
+      "World Bank water management program in Fergana Valley",
+      "Aral Basin crisis requires precision water-use AI — UNDP/ADB co-financing active",
+      "ПП-320 grant funding for AgriTech AI projects"
+    ],
+    "estimated_tam_2025_2026_usd": 20000000,
+    "key_decision_maker_ids": ["uz-minselxoz-head", "uz-space-agency-head"],
+    "linked_decree_ids": ["UZ-PP-2023-257", "UZ-UP-2024-155", "UZ-PP-2025-320"],
+    "linked_donor_program_ids": ["WB-UZ-IRRIGATION", "ADB-UZ-WATER"],
+    "linked_tender_ids": [],
+    "window_months_remaining": 19,
+    "win_conditions": "Multispectral satellite analysis capability (Sentinel-2/Landsat compatible); Uzbek-language farmer interface; integration with Agroplatforma APIs; water allocation module compatible with existing canal management systems; track record in arid agriculture (Kazakhstan or Central Asian reference preferred); ADB/World Bank vendor qualification",
+    "killer_app_description": "Satellite-based precision agriculture platform: weekly field-level crop health maps covering all 3.8M hectares of agricultural land in Uzbekistan, automated cotton/wheat/vegetable yield forecasting for regional procurement planning, water stress detection triggering canal irrigation recommendations, and mobile alert system for farm managers — reducing water waste by 20-25% and improving yields 10-15% [Source: FAO precision agriculture Central Asia study 2023]",
+    "lens_tags": ["donor_co_financed", "decree_half_life_active", "russian_cis_substitution"],
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://lex.uz/ru/docs/6553998",
+        "title": "ПП-257-сон 02.08.2023. О мерах по внедрению передовых цифровых технологий в сферу сельского хозяйства",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "lex.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-trend-015-nsdi-geospatial-cadastre",
+    "name": "Geospatial NSDI AI-powered imagery analysis and digital cadastre modernization ($35M World Bank, 2025-2030)",
+    "country": "UZ",
+    "sector": "Agriculture & Water",
+    "maturity": "accelerating",
+    "drivers": [
+      "УП-155 (Oct 2024): Agency for Space Research and Technologies created under MoDT; satellite imagery for urban planning and agriculture",
+      "World Bank Geospatial Data Project $35M 2025-2030 (Cadastre Agency as implementing body)",
+      "ПП-258 (2023): Geospatial infrastructure digitalization",
+      "Land registry fraud reduction is Presidential priority",
+      "Digital Uzbekistan-2030 requires NSDI as digital infrastructure backbone"
+    ],
+    "estimated_tam_2025_2026_usd": 35000000,
+    "key_decision_maker_ids": ["uz-cadastre-head", "uz-mintsifry-space-agency-head"],
+    "linked_decree_ids": ["UZ-UP-2024-155"],
+    "linked_donor_program_ids": ["WB-UZ-GEOSPATIAL"],
+    "linked_tender_ids": [],
+    "window_months_remaining": 48,
+    "win_conditions": "INSPIRE directive compatible geospatial data standards; change detection AI for land use monitoring; integration with land registry and tax systems; World Bank procurement (QCBS/ICB) vendor qualification; local data center hosting capability under UZ data localization law",
+    "killer_app_description": "NSDI analytics layer combining: automated land use change detection (identifies illegal construction, agricultural land conversion, irrigation encroachment) from satellite imagery; AI-powered property valuation model for tax assessment; 3D urban model generation for Tashkent and regional centers — directly supporting $35M World Bank investment and providing defensible cadastre AI moat for 5+ years",
+    "lens_tags": ["donor_co_financed", "decree_half_life_active"],
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://lex.uz/ru/docs/7151144",
+        "title": "УП-155-сон 14.10.2024. О мерах по внедрению аэрокосмических технологий",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "lex.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-trend-016-smart-grid-ai-energy",
+    "name": "AI grid optimization and smart metering for Uzbekistan national power grid under energy sector digitalization",
+    "country": "UZ",
+    "sector": "Energy",
+    "maturity": "emerging",
+    "drivers": [
+      "ПП-358 AI Strategy: energy optimization as explicit priority sector",
+      "UZ energy demand growing 5% annually — grid losses estimated at 15-20% [Source: World Bank Uzbekistan Energy Sector Review 2023]",
+      "ПП-320 AI grant funding available for energy sector applications",
+      "Renewable energy expansion (solar target 8GW by 2026) requires AI load balancing",
+      "Uzbekenergo and Uztransgaz (state utilities) digitalization mandated under Digital Uzbekistan-2030"
+    ],
+    "estimated_tam_2025_2026_usd": 22000000,
+    "key_decision_maker_ids": ["uz-minenergy-head", "uz-uzbekenergo-head"],
+    "linked_decree_ids": ["UZ-PP-2024-358", "UZ-PP-2025-320", "UZ-UP-2020-6079"],
+    "linked_donor_program_ids": ["WB-UZ-ENERGY", "ADB-UZ-ENERGY"],
+    "linked_tender_ids": [],
+    "window_months_remaining": 19,
+    "win_conditions": "SCADA/EMS integration experience; demand forecasting accuracy >95% 24-hour ahead; Russian-language operator interface; grid loss reduction to <8% demonstrated in comparable grid; ADB/World Bank vendor qualification for energy loans",
+    "killer_app_description": "AI energy management system for Uzbekenergo: real-time grid anomaly detection reducing non-technical losses (theft detection, meter fraud); 24-48 hour demand forecasting enabling optimal dispatch of hydro/solar/gas mix; integration with smart meter rollout covering 3M+ commercial consumers — projected 10-15% reduction in technical losses worth ~$180M annually [Source: EBRD Uzbekistan energy efficiency assessment 2023]",
+    "lens_tags": ["decree_half_life_active", "russian_cis_substitution"],
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://lex.uz/ru/docs/7158606",
+        "title": "ПП-358-сон 14.10.2024. Об утверждении Стратегии развития технологий искусственного интеллекта до 2030 года",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "lex.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-trend-017-renewable-ai-solar",
+    "name": "AI-optimized renewable energy forecasting for Uzbekistan solar and hydropower grid integration",
+    "country": "UZ",
+    "sector": "Energy",
+    "maturity": "emerging",
+    "drivers": [
+      "UZ government target: 8GW solar by 2026 under Presidential climate commitments",
+      "Solar variability requires AI demand and supply forecasting for grid stability",
+      "EBRD and ADB green energy lending programs active in Uzbekistan 2025-2027",
+      "UN Climate commitments — UNFCCC NDC implementation requires grid AI",
+      "ПП-320 AI grants applicable to renewable energy optimization"
+    ],
+    "estimated_tam_2025_2026_usd": 14000000,
+    "key_decision_maker_ids": ["uz-minenergy-head", "uz-ngo-environment-head"],
+    "linked_decree_ids": ["UZ-PP-2025-320"],
+    "linked_donor_program_ids": ["EBRD-UZ-GREEN", "ADB-UZ-ENERGY"],
+    "linked_tender_ids": [],
+    "window_months_remaining": 24,
+    "win_conditions": "72-hour solar irradiance forecasting; integration with SES Uzbekistan (renewable energy operator); EBRD technical standards; NTS compatibility with national transmission system operator; demonstrated reduction of backup reserve requirements",
+    "killer_app_description": "Renewable integration AI: combines satellite-based solar irradiance forecasting with hydropower reservoir level monitoring and demand forecasting to optimize the day-ahead energy mix — enabling Uzbekistan to maximize use of 8GW solar capacity without costly backup reserves, potentially avoiding $120M+ in annual peaking plant operating costs [Source: IRENA renewable integration cost estimates 2024]",
+    "lens_tags": ["donor_co_financed"],
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://lex.uz/ru/docs/7804404",
+        "title": "ПП-320-сон 30.10.2025",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "lex.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-trend-018-smart-traffic-tashkent",
+    "name": "AI-powered smart traffic management system for Tashkent metropolitan area (2M+ vehicles)",
+    "country": "UZ",
+    "sector": "Transport & Urban",
+    "maturity": "emerging",
+    "drivers": [
+      "ПП-358 AI Strategy: urban AI explicitly listed as priority sector",
+      "Tashkent population grew 15% 2018-2024 — traffic crisis visible, political priority",
+      "ПП-320 AI grants available for urban AI applications",
+      "MoI (traffic police) digitalization mandate",
+      "Chinese Hangzhou City Brain reference widely cited in UZ government; Korean SmartCity Sejong via KOICA"
+    ],
+    "estimated_tam_2025_2026_usd": 16000000,
+    "key_decision_maker_ids": ["uz-mvd-traffic-head", "uz-tashkent-mayor-digital-head"],
+    "linked_decree_ids": ["UZ-PP-2024-358", "UZ-PP-2025-320"],
+    "linked_donor_program_ids": [],
+    "linked_tender_ids": [],
+    "window_months_remaining": 19,
+    "win_conditions": "Existing CCTV infrastructure integration (Tashkent has extensive existing camera network); Uzbek-language traffic signal optimization; integration with MVD traffic violation database; adaptive signal control proven in comparable city (3M+ population, post-Soviet grid); political sensitivity management — avoid surveillance framing",
+    "killer_app_description": "Adaptive traffic management platform for Tashkent: 400+ intersection smart signal control reducing average urban commute time 20-25%; automated traffic violation detection reducing accidents at high-risk intersections 30%; real-time incident detection alerting emergency services 60 seconds faster on average — addressing the $800M annual economic cost of Tashkent traffic congestion [Source: ADB urban transport assessment 2023]",
+    "lens_tags": ["decree_half_life_active", "karimov_inversion"],
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://lex.uz/ru/docs/7158606",
+        "title": "ПП-358-сон 14.10.2024",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "lex.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-trend-019-middle-corridor-logistics-ai",
+    "name": "Middle Corridor logistics AI for Uzbekistan's position as Central Asian transit hub (Trans-Caspian International Route)",
+    "country": "UZ",
+    "sector": "Transport & Urban",
+    "maturity": "emerging",
+    "drivers": [
+      "Middle Corridor volumes grew 400% 2021-2024 as Russia-Ukraine war rerouted China-Europe cargo",
+      "UZ is central transit country — Tashkent railway hub processing 25M tons annually",
+      "JICA smart logistics program in Uzbekistan (transport digitalization priority)",
+      "EU Team Europe Connectivity4CentralAsia (C4CA) €100M program includes transport digitalization",
+      "Digital Uzbekistan-2030 transport sector target"
+    ],
+    "estimated_tam_2025_2026_usd": 11000000,
+    "key_decision_maker_ids": ["uz-mintrans-head", "uz-uzb-temir-yollari-digital-head"],
+    "linked_decree_ids": ["UZ-UP-2020-6079"],
+    "linked_donor_program_ids": ["EU-C4CA", "JICA-UZ-LOGISTICS"],
+    "linked_tender_ids": [],
+    "window_months_remaining": 24,
+    "win_conditions": "Integration with UTY (Uzbek Railways) IT system; cross-border data exchange with KZ/TM/Azerbaijani customs; EU C4CA procurement alignment; predictive delay analytics for multimodal routing; Uzbek/Russian language platform",
+    "killer_app_description": "Middle Corridor logistics intelligence platform: AI-powered customs risk profiling at border crossings (UZ-KZ, UZ-TM, UZ-AF), predictive transit time estimation for shippers, capacity optimization for UTY freight routing, and real-time exception management — directly supporting UZ ambition to become regional logistics hub and reducing transit friction cost estimated at $2.3B annually [Source: World Bank Trade Logistics Assessment CA 2023]",
+    "lens_tags": ["donor_co_financed", "russian_cis_substitution"],
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://lex.uz/ru/docs/5031048",
+        "title": "УП-6079-сон 05.10.2020. Об утверждении Стратегии «Цифровой Узбекистан-2030»",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "lex.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-trend-020-connected-vehicle-dda",
+    "name": "Digital driver's license and automated traffic fine processing (digital DDA) for Uzbekistan MVD",
+    "country": "UZ",
+    "sector": "Transport & Urban",
+    "maturity": "emerging",
+    "drivers": [
+      "MyID digital identity infrastructure enables digital driver's license",
+      "MVD digitalization mandate under Digital Uzbekistan-2030",
+      "ПП-286 41 digital projects include MVD traffic services",
+      "Existing Tashkent CCTV network operational — violation automation natural extension",
+      "ПП-320 AI grant for MVD digital transformation"
+    ],
+    "estimated_tam_2025_2026_usd": 7000000,
+    "key_decision_maker_ids": ["uz-mvd-head", "uz-uzinfocom-head"],
+    "linked_decree_ids": ["UZ-PP-2025-286", "UZ-PP-2025-320"],
+    "linked_donor_program_ids": [],
+    "linked_tender_ids": [],
+    "window_months_remaining": 19,
+    "win_conditions": "Integration with MyID for license verification; automated fine payment via UZCARD/Humo (national payment systems); ANPR (Automatic Number Plate Recognition) accuracy >98% in Uzbek plate formats; zero-knowledge proof for data minimization in digital license presentation; MVD procurement pathway",
+    "killer_app_description": "Digital driver's license module integrated with MyID: stores license digitally with real-time validity check from MVD database; automated traffic fine notifications via MyID-linked mobile number; contested fine appeal processing via e-court integration (links to trend 006) — creating complete digital enforcement loop and increasing fine collection revenue by estimated 35% [Source: Kazakhstan MVD digital experience 2022]",
+    "lens_tags": ["karimov_inversion", "russian_cis_substitution"],
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://lex.uz/ru/docs/7730359",
+        "title": "ПП-286-сон 16.09.2025",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "lex.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-trend-021-tax-fraud-detection-ai",
+    "name": "AI tax audit selection and e-invoice fraud detection for State Tax Committee (ГНК) Uzbekistan",
+    "country": "UZ",
+    "sector": "Finance & Fiscal",
+    "maturity": "accelerating",
+    "drivers": [
+      "ПП-358 AI Strategy 2030: 'shadow economy reduction via tax AI' as explicit goal",
+      "УП-189: AI for banking/finance fraud and tax listed as priority domains",
+      "GNK e-invoicing system covers 200K+ registered companies — big data for fraud detection",
+      "UZ shadow economy estimated 40-50% of GDP [Source: IMF 2023] — government urgency high",
+      "ПП-320: AI grant funding for tax administration modernization"
+    ],
+    "estimated_tam_2025_2026_usd": 12000000,
+    "key_decision_maker_ids": ["uz-gnk-head", "uz-gnk-digital-head"],
+    "linked_decree_ids": ["UZ-PP-2024-358", "UZ-UP-2025-189", "UZ-PP-2025-320"],
+    "linked_donor_program_ids": ["WB-UZ-TAX-MODERNIZATION", "ADB-UZ-FISCAL"],
+    "linked_tender_ids": [],
+    "window_months_remaining": 19,
+    "win_conditions": "Machine-readable integration with GNK e-invoice system (SOLIQ.UZ); graph analytics for carousel VAT fraud detection; Uzbek-language audit risk scoring dashboard; minimal false positive rate to avoid business disruption; ADB tax modernization program alignment",
+    "killer_app_description": "AI tax analytics platform for GNK: graph-based VAT carousel fraud detection processing all e-invoice transactions in real-time; ML risk-scoring of all registered taxpayers for targeted audit selection (replacing random selection); automated unreported income detection by cross-referencing asset registries with declared income — estimated 15-20% increase in tax collection (~$400M annually) based on Estonia/Georgia tax AI deployments [Source: IMF Fiscal TA Central Asia 2024]",
+    "lens_tags": ["decree_half_life_active", "russian_cis_substitution"],
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://lex.uz/ru/docs/7158606",
+        "title": "ПП-358-сон 14.10.2024. Об утверждении Стратегии развития технологий искусственного интеллекта до 2030 года",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "lex.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-trend-022-customs-ai-risk",
+    "name": "AI customs risk profiling for State Customs Committee (ГТК) Uzbekistan — valuation and contraband detection",
+    "country": "UZ",
+    "sector": "Finance & Fiscal",
+    "maturity": "emerging",
+    "drivers": [
+      "ПП-358 AI Strategy: customs as explicit AI implementation domain",
+      "Middle Corridor growth — Uzbekistan customs processing $18B+ annual trade volume [Source: UN Comtrade 2024]",
+      "GTC computerization program with World Bank TA",
+      "EU C4CA connectivity program includes customs facilitation component",
+      "Chinese vendor Huawei SafeGate competing in region — Russian CIS substitution opportunity"
+    ],
+    "estimated_tam_2025_2026_usd": 9000000,
+    "key_decision_maker_ids": ["uz-gtk-head", "uz-gtk-digital-head"],
+    "linked_decree_ids": ["UZ-PP-2024-358"],
+    "linked_donor_program_ids": ["WB-UZ-CUSTOMS", "EU-C4CA"],
+    "linked_tender_ids": [],
+    "window_months_remaining": 24,
+    "win_conditions": "WCO SAFE Framework compatibility; integration with GTC ASYCUDA World system; image analysis AI for non-intrusive inspection (X-ray vehicle/container scanning); data sharing protocol with KZ/TM customs for corridor clearance; WCOMD vendor reference",
+    "killer_app_description": "Customs risk profiling AI: ML model trained on historical GTC data flagging consignments for physical inspection based on 50+ risk factors (shipper history, route anomaly, HS code mismatch, declared value vs. reference price); X-ray image analysis AI reviewing scanner outputs for contraband detection — estimated 40% improvement in interdiction rate while reducing legitimate trade clearance time from 2.4 to 0.8 hours average [Source: World Bank Trade Facilitation Report 2023]",
+    "lens_tags": ["donor_co_financed", "russian_cis_substitution"],
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://lex.uz/ru/docs/7158606",
+        "title": "ПП-358-сон 14.10.2024",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "lex.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-trend-023-aml-ai-state-banks",
+    "name": "AI-powered anti-money laundering and FinCEN compliance for Uzbekistan state-owned banks post-sanctions environment",
+    "country": "UZ",
+    "sector": "Finance & Fiscal",
+    "maturity": "emerging",
+    "drivers": [
+      "UZ state banks (NBU, Asaka, Ipoteka, Agrobank) must maintain correspondent banking access",
+      "FATF grey-listing risk for CA jurisdictions without robust AML — direct regulatory pressure",
+      "ПП-358 AI Strategy: banking/finance fraud prevention explicitly listed",
+      "Western AML vendors (NICE Actimize, Oracle Mantas) deprioritizing CIS market post-2022",
+      "CBU (Central Bank UZ) regulatory modernization program"
+    ],
+    "estimated_tam_2025_2026_usd": 16000000,
+    "key_decision_maker_ids": ["uz-cbu-head", "uz-cbu-fintech-head", "uz-nbu-digital-head"],
+    "linked_decree_ids": ["UZ-PP-2024-358"],
+    "linked_donor_program_ids": ["IFC-UZ-FINTECH", "WB-UZ-FINTECH"],
+    "linked_tender_ids": [],
+    "window_months_remaining": 24,
+    "win_conditions": "CBU approved vendor list inclusion; integration with IFC/SWIFT transaction monitoring infrastructure; FATF-compliant transaction monitoring rules library; on-premise or private cloud deployment (data localization); Russian-language compliance officer interface; proven in 3+ CIS banking environments",
+    "killer_app_description": "AI-native AML platform for Uzbekistan's 6 state-owned banks (collectively holding 80%+ of banking assets): real-time transaction monitoring with ML-based suspicious activity detection; customer risk scoring using alternative data sources; automated SAR generation in CBU-compliant format; network analytics identifying money laundering rings — enabling banks to maintain SWIFT access and expand correspondent banking relationships with regional and Islamic banks",
+    "lens_tags": ["russian_cis_substitution"],
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://lex.uz/ru/docs/7158606",
+        "title": "ПП-358-сон 14.10.2024",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "lex.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-trend-024-suptech-fintech-ai",
+    "name": "AI-powered SupTech/RegTech for Central Bank of Uzbekistan financial supervision and reporting automation",
+    "country": "UZ",
+    "sector": "Finance & Fiscal",
+    "maturity": "emerging",
+    "drivers": [
+      "CBU regulatory modernization with IFC technical assistance",
+      "Electronic commerce law (ЗРУ-792) and digital signature law (ЗРУ-793) expanding regulated digital financial services",
+      "Fintech licensing regime under development — CBU needs AI supervision tools",
+      "Western SupTech vendors (FICO, Moody's Analytics) reducing CIS engagement",
+      "ПП-358: fintech regulatory sandbox and AI in banking finance as strategic direction"
+    ],
+    "estimated_tam_2025_2026_usd": 8000000,
+    "key_decision_maker_ids": ["uz-cbu-head", "uz-cbu-it-head"],
+    "linked_decree_ids": ["UZ-LAW-2022-792", "UZ-PP-2024-358"],
+    "linked_donor_program_ids": ["IFC-UZ-FINTECH"],
+    "linked_tender_ids": [],
+    "window_months_remaining": 24,
+    "win_conditions": "CBU regulatory data submission standards (XBRL/XML) compliance; ML early-warning system for bank distress indicators; automated regulatory report validation; IFC technical assistance alignment; Russian-language examiner interface",
+    "killer_app_description": "Supervisory technology platform for CBU: automated collection and validation of regulatory reporting from 30+ licensed banks; ML-based early warning system detecting bank distress signals 6-9 months ahead; integrated stress-testing module for quarterly assessments; AML/CFT supervision analytics — enabling CBU to modernize from sample-based to real-time risk-based supervision as fintech sector scales past $2B in annual transaction volume",
+    "lens_tags": ["russian_cis_substitution", "donor_co_financed"],
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://lex.uz/ru/docs/7158606",
+        "title": "ПП-358-сон 14.10.2024",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "lex.uz",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "uz-trend-025-labour-market-ai",
+    "name": "AI-powered labor market matching and migrant reintegration platform ('Mahalliy ish') under Ministry of Employment UZ",
+    "country": "UZ",
+    "sector": "Labor & Migration",
+    "maturity": "emerging",
+    "drivers": [
+      "3.5M+ Uzbek labor migrants abroad (primarily Russia, Korea, UAE, Turkey) [Source: ILO 2024 labor migration statistics]",
+      "Presidential priority: returning migrant reintegration and domestic employment",
+      "KOICA 'Enhancing Youth Employment' $14M program includes labor market digital tools",
+      "ПП-320 AI grants for employment sector AI",
+      "ПП-358 AI Strategy: labor market as AI implementation domain"
+    ],
+    "estimated_tam_2025_2026_usd": 7000000,
+    "key_decision_maker_ids": ["uz-ministry-employment-head", "uz-it-park-head"],
+    "linked_decree_ids": ["UZ-PP-2025-320", "UZ-PP-2024-358"],
+    "linked_donor_program_ids": ["KOICA-UZ-EMPLOYMENT", "ILO-UZ-MIGRATION"],
+    "linked_tender_ids": [],
+    "window_months_remaining": 24,
+    "win_conditions": "Skills assessment AI covering both formal education and non-formal migrant experience; Russian-language interface (majority of returning migrants have Russian-language work experience); integration with Ministry of Employment national employment portal; ILO/KOICA procurement alignment; API connection to major job boards in sending/receiving countries",
+    "killer_app_description": "AI skills-matching platform covering the full migration cycle: foreign job opportunity matching for intending migrants (Korea, Germany, UAE destination focus); digital skills portfolio for returning migrants translating foreign work experience to Uzbek labor market equivalents; domestic SME-to-worker matching for returnees — serving 500K+ annual migration cycle with estimated 30% improvement in wage outcomes for matched workers [Source: ILO return migration impact study CA 2023]",
+    "lens_tags": ["donor_co_financed", "karimov_inversion"],
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://lex.uz/ru/docs/7804404",
+        "title": "ПП-320-сон 30.10.2025",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "lex.uz",
+        "source_tier": "official"
+      }
+    ]
+  }
+]

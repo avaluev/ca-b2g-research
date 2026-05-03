@@ -1,0 +1,241 @@
+[
+  {
+    "id": "kg-trend-019-cybersecurity-soc",
+    "name": "Kyrgyzstan SOC modernization and critical infrastructure protection under Digital Code Chapter on AI security systems",
+    "country": "KG",
+    "sector": "Security & Public Order",
+    "maturity": "accelerating",
+    "drivers": [
+      "KG-LAW-2024-121 cybersecurity law: mandatory SOC for critical infrastructure operators",
+      "KG-CABINET-2024-746: specific technical requirements for cybersecurity systems — active compliance demand",
+      "Digital Code 2025 Chapter 23: AI systems in security context require danger assessment",
+      "EU C4CA: €100M includes cybersecurity training for KG (Estonia EGA-led)",
+      "UDP Digital Dept takes over cybersecurity mandate — new TORs being drafted"
+    ],
+    "estimated_tam_2025_2026_usd": 6000000,
+    "key_decision_maker_ids": ["kg-udp-digital-dept-head", "kg-state-security-cyber-head"],
+    "linked_decree_ids": ["KG-LAW-2024-121-CYBERSEC", "KG-CABINET-2024-746-CYBERSEC", "KG-LAW-2025-178-DIGITAL-CODE"],
+    "linked_donor_program_ids": ["EU-C4CA"],
+    "linked_tender_ids": [],
+    "window_months_remaining": 12,
+    "win_conditions": "EU C4CA cybersecurity training component alignment; on-premise SOC capability; Digital Code compliance certification; integration with KG CERT; Russian-language analyst interface; no Western-controlled stack (geopolitical sensitivity); Estonian EGA technical partnership preferred for EU funding access",
+    "killer_app_description": "Sovereign AI-SOC for KG critical infrastructure: threat detection covering government networks, Tunduk inter-agency exchange, NBKR financial systems, and energy grid; automated incident response playbooks in Russian/Kyrgyz; Digital Code Chapter 23 compliance certification service; integration with EAEU cybersecurity cooperation mechanisms — serving the compliance demand created by Cabinet Resolution 746 for all 40+ critical infrastructure operators in KG",
+    "lens_tags": ["decree_half_life_active", "donor_co_financed", "japarov_concentration"],
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://cbd.minjust.gov.kg/4-5371/edition/13381/ru",
+        "title": "Закон КР от 17 июля 2024 года № 121 «О кибербезопасности Кыргызской Республики»",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "cbd.minjust.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "kg-trend-020-air-quality-bishkek",
+    "name": "AI air quality monitoring and prediction for Bishkek winter inversion episodes (ranked #1 most polluted city globally multiple days 2023-2024)",
+    "country": "KG",
+    "sector": "Environment & Climate",
+    "maturity": "emerging",
+    "drivers": [
+      "Bishkek ranked #1 most polluted city globally multiple days (IQAir data 2023-2024) [Source: IQAir World Air Quality Report 2024]",
+      "Winter heating season: coal burning causes PM2.5 levels 50-100x WHO safe limits",
+      "SDC (Switzerland) active environmental program in Bishkek",
+      "UNDP climate adaptation in KG includes urban environment component",
+      "Bishkek mayor facing severe public pressure on air quality — political motivation high",
+      "OSF (Open Society) civic tech programs — public air quality data as civic infrastructure"
+    ],
+    "estimated_tam_2025_2026_usd": 3000000,
+    "key_decision_maker_ids": ["kg-bishkek-mayor-office", "kg-ministry-ecology-head"],
+    "linked_decree_ids": ["KG-UP-2024-090-CONCEPT"],
+    "linked_donor_program_ids": ["SDC-KG-ENVIRONMENT", "UNDP-KG-CLIMATE"],
+    "linked_tender_ids": [],
+    "window_months_remaining": 24,
+    "win_conditions": "Low-cost IoT sensor network (100+ monitors covering 1M+ population city); ML winter inversion prediction model (48-hour warning); Kyrgyz-language public alert app; WHO AQI standards; SDC procurement alignment; open data publication requirement (civic transparency demand)",
+    "killer_app_description": "Bishkek air quality intelligence network: dense IoT sensor grid (PM2.5/PM10/NOx/CO) with ML prediction of winter inversion events 48 hours ahead; public mobile app with health advisory in Kyrgyz/Russian; automated alerts to schools and hospitals; source attribution model identifying highest-impact heating stations for regulatory action — directly addressing Bishkek's public health crisis with documented 1,500+ annual excess deaths from air pollution [Source: WHO Global Health Observatory 2024]",
+    "lens_tags": ["donor_co_financed"],
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://cbd.minjust.gov.kg/5-10577/edition/6413/ru",
+        "title": "Указ Президента КР от 5 апреля 2024 года УП № 90",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "cbd.minjust.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "kg-trend-021-disaster-landslide-ai",
+    "name": "AI early warning for landslides, mudflows and earthquakes in Kyrgyzstan mountain regions",
+    "country": "KG",
+    "sector": "Environment & Climate",
+    "maturity": "emerging",
+    "drivers": [
+      "KG: 2,000+ registered landslide hazard zones; $100M+ annual damage [Source: UNDP Kyrgyzstan DRR report 2023]",
+      "UNDP disaster risk reduction program in KG",
+      "SDC sustainable mountain development includes disaster risk component",
+      "ADB climate and disaster risk reduction lending program in KG",
+      "Climate change accelerating glacial lake outburst flood (GLOF) frequency — AI early warning critical"
+    ],
+    "estimated_tam_2025_2026_usd": 4000000,
+    "key_decision_maker_ids": ["kg-mchs-head", "kg-ministry-ecology-head"],
+    "linked_decree_ids": ["KG-UP-2024-090-CONCEPT"],
+    "linked_donor_program_ids": ["UNDP-KG-DRR", "SDC-KG-MOUNTAIN", "ADB-KG-CLIMATE"],
+    "linked_tender_ids": [],
+    "window_months_remaining": 24,
+    "win_conditions": "Landslide susceptibility mapping AI (Sentinel-1 SAR compatible); GLOF early warning sensor network for top-priority lakes; USSD mass alert system; integration with KG Emergency Situations Ministry dispatch system; UNDP DRR standards; Central Asian Mountain Research Centre partnership",
+    "killer_app_description": "Mountain hazard early warning platform: satellite SAR-based landslide precursor detection with 72-hour warning for 500+ priority hazard zones; glacial lake outburst flood sensor network covering 20 highest-risk GLOF lakes; automated community alert via USSD/SMS reaching 200K+ people in hazard zones without internet; real-time damage assessment AI from satellite imagery post-event — protecting the 1.2M people living in KG high-hazard zones from increasingly frequent climate-amplified disasters",
+    "lens_tags": ["donor_co_financed"],
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://cbd.minjust.gov.kg/5-10577/edition/6413/ru",
+        "title": "Указ Президента КР от 5 апреля 2024 года УП № 90",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "cbd.minjust.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "kg-trend-022-tourism-issykkul",
+    "name": "AI-powered tourism platform for Issyk-Kul resort zone and Silk Road heritage sites in Kyrgyzstan",
+    "country": "KG",
+    "sector": "Tourism & Culture",
+    "maturity": "emerging",
+    "drivers": [
+      "KG tourism growing 25% annually — 3.5M visitors in 2024 targeting 5M by 2027 [Source: Kyrgyz Tourism Agency 2024]",
+      "Issyk-Kul is top Central Asian resort destination for Russian/CIS tourists",
+      "UNESCO potential for Tian-Shan 'Mountains of Heaven' (already nominated)",
+      "KG Digital Transformation Concept 2024-2028: tourism digitalization",
+      "Post-2022: Russian tourist flows to KG replaced Turkish/European flows to Russia — tourism boom"
+    ],
+    "estimated_tam_2025_2026_usd": 3500000,
+    "key_decision_maker_ids": ["kg-ministry-culture-tourism-head", "kg-issykkul-oblast-governor"],
+    "linked_decree_ids": ["KG-UP-2024-090-CONCEPT"],
+    "linked_donor_program_ids": ["UNDP-KG-TOURISM", "EBRD-KG-SME"],
+    "linked_tender_ids": [],
+    "window_months_remaining": 24,
+    "win_conditions": "Russian-language primary interface (dominant tourist origin); AI guide covering Issyk-Kul, Ala-Archa, Osh/Arslanbob; integration with Tunduk for visa/registration data; payment integration with digital som infrastructure (trend 014); EBRD SME hospitality acceleration alignment",
+    "killer_app_description": "Kyrgyzstan tourism intelligence platform: AI trip planner for Issyk-Kul covering 300+ resorts and adventure sports providers; multilingual audio guide for Osh bazaar, Burana Tower, and Silk Road sites (Russian/English/Chinese/Arabic); visitor flow analytics for resort operators; real-time weather and trail condition alerts for trekking routes — serving 3.5M annual visitors and supporting KG's fastest-growing industry with estimated $1.5B annual tourism revenue [Source: World Travel and Tourism Council CA 2024]",
+    "lens_tags": ["russian_cis_substitution"],
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://cbd.minjust.gov.kg/5-10577/edition/6413/ru",
+        "title": "Указ Президента КР от 5 апреля 2024 года УП № 90",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "cbd.minjust.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "kg-trend-023-labour-migration-ai",
+    "name": "AI-powered labor migration management and remittance digitization for Kyrgyzstan (800K+ migrants)",
+    "country": "KG",
+    "sector": "Labor & Migration",
+    "maturity": "emerging",
+    "drivers": [
+      "KG labor migration: 800K+ workers abroad primarily in Russia — remittances = 30% of GDP [Source: World Bank Remittances Data 2024]",
+      "Post-2022: Russia-KG migration corridor disrupted, diversification to Turkey/UAE/Korea accelerating",
+      "ILO migration management program in KG",
+      "Digital som CBDC can reduce 7-10% remittance cost to 1-2% via digital rails",
+      "KG Ministry of Labor migration digitalization program"
+    ],
+    "estimated_tam_2025_2026_usd": 5000000,
+    "key_decision_maker_ids": ["kg-ministry-labor-head", "kg-nbkr-fintech-head"],
+    "linked_decree_ids": ["KG-LAW-2025-074-NBKR-CBDC"],
+    "linked_donor_program_ids": ["ILO-KG-MIGRATION", "WB-KG-REMITTANCES"],
+    "linked_tender_ids": [],
+    "window_months_remaining": 18,
+    "win_conditions": "Integration with digital som CBDC infrastructure for low-cost remittance corridor; bilateral labor agreement digital compliance tools (Russia, Korea, UAE focus); Kyrgyz-language migrant worker mobile app; NBKR payment system certification; ILO labor standards compliance monitoring",
+    "killer_app_description": "Kyrgyz labor migration digital platform: AI skills portfolio builder for migrant workers (translates Russian-language work experience to international equivalents); digital labor contract compliance monitoring for KG workers abroad; remittance routing via digital som rails reducing cost from 7%+ to <2% on the $3B annual KG remittance corridor; returning migrant reintegration job matching — potentially adding $140M+ annually to KG families through reduced remittance costs alone [Source: World Bank Remittance Cost Database 2024]",
+    "lens_tags": ["donor_co_financed", "russian_cis_substitution"],
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://www.nbkr.kg/contout.jsp?item=56&lang=RUS&material=120851",
+        "title": "Национальный банк Кыргызской Республики — Цифровой сом",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "nbkr.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "kg-trend-024-sovereign-llm-kyrgyz",
+    "name": "Kyrgyz-language sovereign LLM for government AI applications (Digital Code Chapter 23 compliance driver)",
+    "country": "KG",
+    "sector": "AI Infrastructure (Enabling Layer)",
+    "maturity": "emerging",
+    "drivers": [
+      "Digital Code 2025 Chapter 23: high-risk AI requires danger assessment — Kyrgyz-language explainability requires Kyrgyz models",
+      "National AI Council (УП-91 2025) mandate includes AI capability development",
+      "Post-2022: no Western vendor prioritizes Kyrgyz language — substitution window open",
+      "UDP Digital Department needs AI tools deployable without foreign data dependency",
+      "Kyrgyz is Turkic language closely related to Kazakh — transfer learning from larger Kazakh/Turkish models feasible"
+    ],
+    "estimated_tam_2025_2026_usd": 5000000,
+    "key_decision_maker_ids": ["kg-national-ai-council-head", "kg-udp-digital-dept-head"],
+    "linked_decree_ids": ["KG-LAW-2025-178-DIGITAL-CODE", "KG-UP-2025-091"],
+    "linked_donor_program_ids": [],
+    "linked_tender_ids": [],
+    "window_months_remaining": 18,
+    "win_conditions": "Kyrgyz language model (Cyrillic script; both Northern and Southern dialects); transfer learning pipeline from existing Kazakh/Turkish model bases; Digital Code compliance certification; HTP Kyrgyzstan resident company deployment; National AI Council partnership",
+    "killer_app_description": "KyrgyzLLM: Kyrgyz-Russian bilingual foundation model built on transfer learning from Kazakh (LLaMA-based) and Turkish language models with KG-specific fine-tuning on parliamentary records, legal documents, and educational materials — enabling Kyrgyz-language AI applications across Digital Code-mandated domains (government services, education, healthcare) without routing citizen data through foreign cloud providers",
+    "lens_tags": ["japarov_concentration", "russian_cis_substitution", "decree_half_life_active"],
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://cbd.minjust.gov.kg/3-48/edition/35412/ru",
+        "title": "Цифровой Кодекс Кыргызской Республики 2025",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "cbd.minjust.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "kg-trend-025-open-data-ai",
+    "name": "Open government data AI analytics platform (data.gov.kg) under Digital Code open data mandate",
+    "country": "KG",
+    "sector": "AI Infrastructure (Enabling Layer)",
+    "maturity": "emerging",
+    "drivers": [
+      "Digital Code 2025: Section IV on digital registries mandates open government data infrastructure",
+      "UNDP open data/e-participation program in KG",
+      "OSF (Open Society Foundation) civic tech programs — data.gov.kg needs analytics layer",
+      "World Bank GovTech TA program includes open data component",
+      "Digital Transformation Concept 2024-2028: open data as transparency pillar"
+    ],
+    "estimated_tam_2025_2026_usd": 2000000,
+    "key_decision_maker_ids": ["kg-udp-digital-dept-head", "kg-stat-committee-head"],
+    "linked_decree_ids": ["KG-LAW-2025-178-DIGITAL-CODE"],
+    "linked_donor_program_ids": ["UNDP-KG-GOVERNANCE", "WB-KG-DIGITAL-GOVTECH"],
+    "linked_tender_ids": [],
+    "window_months_remaining": 18,
+    "win_conditions": "CKAN-compatible open data platform; AI-powered dataset search and discovery; automated data quality scoring; Kyrgyz/Russian bilingual metadata; OSF civic tech standards; API enabling private sector reuse; World Bank Open Data Standards compliance",
+    "killer_app_description": "KG Open Data Intelligence Platform: AI-powered national data catalog unifying 200+ government datasets via Tunduk; automated data quality and freshness scoring; natural language search in Kyrgyz/Russian; API marketplace enabling private sector startups to build civic apps on government data — creating the open data foundation that transforms Kyrgyzstan from data silo to AI-ready government data ecosystem",
+    "lens_tags": ["donor_co_financed"],
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://cbd.minjust.gov.kg/3-48/edition/35412/ru",
+        "title": "Цифровой Кодекс Кыргызской Республики 2025",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "cbd.minjust.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  }
+]

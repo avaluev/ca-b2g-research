@@ -1,0 +1,308 @@
+[
+  {
+    "id": "kg-trend-001-udp-digital-dept-tos",
+    "name": "New digital government TORs and project pipeline from UDP Digital Development Department (post-April 2026 reorganization)",
+    "country": "KG",
+    "sector": "Public Administration & e-Gov",
+    "maturity": "accelerating",
+    "drivers": [
+      "КГ-УП-2026-MINCIFRY-ABOLITION (Apr 2026): Ministry of Digital Development liquidated; all digital functions transferred to UDP (Presidential Administration)",
+      "UDP creates: (1) Department of Digitalization and Innovative Technologies; (2) Dept of Telecom Regulation; (3) Digital Infrastructure Development Fund",
+      "Every existing Mintsifry project now needs new TORs under UDP governance",
+      "Japarov concentration: digital policy now directly under Presidential Administration — faster decisions but higher political sensitivity",
+      "Implementation deadline: July 31 2026 for full asset transfer and new structural regulations"
+    ],
+    "estimated_tam_2025_2026_usd": 25000000,
+    "key_decision_maker_ids": ["kg-udp-digital-dept-head", "kg-akylov-adylbek"],
+    "linked_decree_ids": ["KG-UP-2026-MINCIFRY-ABOLITION"],
+    "linked_donor_program_ids": ["WB-KG-DIGITAL-GOVTECH", "ADB-KG-EPROCUREMENT", "EU-KG-DIGITAL"],
+    "linked_tender_ids": [],
+    "window_months_remaining": 18,
+    "win_conditions": "Established relationship with incoming UDP Digital Dept leadership (not legacy Mintsifry contacts); ability to quickly draft TOR-aligned proposals meeting Presidential Administration procurement standards; track record with at least one donor program active in KG (World Bank, ADB, EU preferred for credibility); Russian-language proposal capabilities",
+    "killer_app_description": "First-mover positioning in UDP Digital Department: provide technical advisory for new TOR drafting covering at least 3 legacy Mintsifry programs (Tunduk modernization, e-procurement upgrade, digital health) — creating specification influence before RFPs are formally published. The 90-day window between liquidation and first new procurement is the highest-leverage window in KG digital market history since Tunduk was created in 2018",
+    "lens_tags": ["japarov_concentration", "decree_half_life_active", "donor_co_financed"],
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://reporter.kg/ru/sadyr-zhaparov-uprazdnil-ministerstvo-tsifrovogo-razvitiya-ego-funktsii-peredayut-upravleniyu-delami-prezidenta/",
+        "title": "Садыр Жапаров упразднил Министерство цифрового развития",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "reporter.kg",
+        "source_tier": "media_primary"
+      }
+    ]
+  },
+  {
+    "id": "kg-trend-002-tunduk-modernization",
+    "name": "Tunduk inter-agency data exchange modernization under UDP governance (Estonia EGA-linked, EU-funded)",
+    "country": "KG",
+    "sector": "Public Administration & e-Gov",
+    "maturity": "accelerating",
+    "drivers": [
+      "KG-UP-2026: Tunduk transferred from Mintsifry to GP Infocom under UDP",
+      "Tunduk is KG equivalent of Estonia's X-Road (technically forked from Cybernetica UXP)",
+      "Digital Code 2025 (KG-LAW-2025-178) mandates Tunduk as the national ecosystem backbone",
+      "EU Team Europe and EGA (Estonian Government Advisory) fund modernization — €12B Global Gateway for Central Asia includes KG component",
+      "World Bank Digital CASA and KG Digital GovTech TA programs co-finance Tunduk"
+    ],
+    "estimated_tam_2025_2026_usd": 8000000,
+    "key_decision_maker_ids": ["kg-udp-digital-dept-head", "kg-gp-infocom-head"],
+    "linked_decree_ids": ["KG-UP-2026-MINCIFRY-ABOLITION", "KG-LAW-2025-178-DIGITAL-CODE"],
+    "linked_donor_program_ids": ["WB-KG-DIGITAL-CASA", "EU-KG-EGOV"],
+    "linked_tender_ids": [],
+    "window_months_remaining": 18,
+    "win_conditions": "X-Road/UXP technical compatibility (Cybernetica ecosystem preferred); EU Digital Gateway standards compliance; experience integrating 30+ government information systems; Russian-Kyrgyz bilingual developer documentation; Estonian EGA partnership or certification preferred",
+    "killer_app_description": "Tunduk next-generation data exchange platform: upgrade from current batch-based API to real-time event-driven architecture; add AI-powered data quality scoring for incoming government datasets; create unified government API marketplace enabling private sector access to anonymized public datasets — transforming Tunduk from a compliance system into a data economy enabler for KG's 50+ active information systems",
+    "lens_tags": ["japarov_concentration", "donor_co_financed", "decree_half_life_active"],
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "http://cbd.minjust.gov.kg/act/view/ru-ru/159155",
+        "title": "Положение Кабмина КР от 30 апреля 2022 года № 245 о ГУ «Тундук»",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "cbd.minjust.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "kg-trend-003-digital-code-secondary-regs",
+    "name": "Digital Code secondary regulation drafting window: AI auditability standards, model registries, data processing rules (May-Dec 2026)",
+    "country": "KG",
+    "sector": "Public Administration & e-Gov",
+    "maturity": "accelerating",
+    "drivers": [
+      "KG-LAW-2025-178 Digital Code in force Feb 6 2026: Chapter 23 on AI systems, high-risk AI danger assessment, personal data processing",
+      "Cabinet required to bring all legislation into conformity by year-end 2026",
+      "Every bylaw implementing the Digital Code is being drafted NOW — specification-shaping window",
+      "EU GIZ active in KG regulatory reform — has direct influence on bylaw drafting",
+      "National Council on AI (УП-91 2025) advisory role in Digital Code implementation"
+    ],
+    "estimated_tam_2025_2026_usd": 3000000,
+    "key_decision_maker_ids": ["kg-udp-digital-dept-head", "kg-moj-head", "kg-national-ai-council-head"],
+    "linked_decree_ids": ["KG-LAW-2025-178-DIGITAL-CODE", "KG-UP-2025-091"],
+    "linked_donor_program_ids": ["EU-GIZ-KG-DIGITAL-GOVERNANCE", "WB-KG-DIGITAL-GOVTECH"],
+    "linked_tender_ids": [],
+    "window_months_remaining": 7,
+    "win_conditions": "EU GIZ regulatory advisory partner OR access to incoming UDP Digital Dept leadership; ability to draft secondary regulation proposals in Russian (official KG government language); prior regulatory advisory experience in digital/AI governance; National Council on AI membership or observer status preferred",
+    "killer_app_description": "Advisory position on Digital Code bylaw drafting: develop draft secondary regulations for AI model registration, high-risk AI conformity assessment methodology, and data processing requirements — establishing your organization as the technical authority on KG AI governance. This is the CW-010 window: vendor-neutral advisory that shapes the compliance market for all future AI deployments in Kyrgyzstan",
+    "lens_tags": ["japarov_concentration", "decree_half_life_active", "donor_co_financed"],
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://cbd.minjust.gov.kg/3-48/edition/35412/ru",
+        "title": "Цифровой Кодекс Кыргызской Республики от 31 июля 2025 года",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "cbd.minjust.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "kg-trend-004-eprocurement-adb",
+    "name": "E-procurement system digitalization and AI analytics for State Procurement Authority KG (ADB project 55109-001)",
+    "country": "KG",
+    "sector": "Public Administration & e-Gov",
+    "maturity": "accelerating",
+    "drivers": [
+      "ADB Project 55109-001: e-Procurement System Digitalization Phase 1 — active program",
+      "KG-LAW-2022-027: New procurement law mandates electronic format as standard",
+      "Procurement reform is Cabinet of Ministers priority under Japarov government",
+      "AI fraud detection: KG government procurement fraud estimated at 10-15% of state budget [Source: ADB Kyrgyzstan governance assessment 2023]",
+      "UDP Digital Department takes over procurement system from Mintsifry"
+    ],
+    "estimated_tam_2025_2026_usd": 5000000,
+    "key_decision_maker_ids": ["kg-procurement-dept-head", "kg-udp-digital-dept-head"],
+    "linked_decree_ids": ["KG-LAW-2022-027"],
+    "linked_donor_program_ids": ["ADB-KG-EPROCUREMENT"],
+    "linked_tender_ids": [],
+    "window_months_remaining": 18,
+    "win_conditions": "ADB procurement rules compliance (QCBS/CQS); integration with zakupki.gov.kg portal; ML anomaly detection for tender specifications; Kyrgyz and Russian language interface; vendor experience with other ADB e-procurement implementations",
+    "killer_app_description": "AI-enhanced e-procurement platform: ML-based tender specification analysis detecting written-for-incumbent patterns; real-time price benchmarking against regional procurement databases; supplier risk scoring incorporating tax compliance and court judgment history; automated procurement plan monitoring for agencies — directly addressing ADB's anti-corruption mandate and creating a sustainable procurement integrity infrastructure for KG's $1.2B annual state procurement [Source: Ministry of Finance KG 2023]",
+    "lens_tags": ["japarov_concentration", "donor_co_financed"],
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.adb.org/projects/55109-001/main",
+        "title": "ADB Project 55109-001: Kyrgyz Republic: E-Procurement System Digitalization",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "adb.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "kg-trend-005-jogorku-kenesh-ai",
+    "name": "AI-powered parliamentary analytics and legislative monitoring for Jogorku Kenesh (already announced, implementation phase)",
+    "country": "KG",
+    "sector": "Justice & Rule of Law",
+    "maturity": "emerging",
+    "drivers": [
+      "Jogorku Kenesh AI coverage already announced by parliamentary leadership 2025",
+      "Digital Code mandates parliamentary digital services upgrade",
+      "Japarov concentration — oversight functions important for legitimacy optics",
+      "UNDP civic technology programs in KG",
+      "Parliamentary monitoring is politically low-risk AI application with high visibility"
+    ],
+    "estimated_tam_2025_2026_usd": 2000000,
+    "key_decision_maker_ids": ["kg-jogorku-kenesh-speaker", "kg-jogorku-kenesh-digital-head"],
+    "linked_decree_ids": ["KG-LAW-2025-178-DIGITAL-CODE"],
+    "linked_donor_program_ids": ["UNDP-KG-GOVERNANCE"],
+    "linked_tender_ids": [],
+    "window_months_remaining": 18,
+    "win_conditions": "Kyrgyz-language legislative text NLP; parliamentary session transcription AI; citizen petition tracking; UNDP civic tech standards compliance; open-source preference to demonstrate transparency",
+    "killer_app_description": "AI-powered parliamentary intelligence platform: automated transcription and translation of parliamentary sessions (Kyrgyz/Russian); AI semantic search across all legislative acts and parliamentary decisions; public bill tracking portal enabling citizen-facing monitoring of legislation status; committee workload analytics — demonstrating Jogorku Kenesh modernization while building parliamentary transparency that donors reward with continued program funding",
+    "lens_tags": ["japarov_concentration"],
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://cbd.minjust.gov.kg/3-48/edition/35412/ru",
+        "title": "Цифровой Кодекс Кыргызской Республики 2025",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "cbd.minjust.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "kg-trend-006-ehealth-kg",
+    "name": "National Electronic Health Record rollout and AI diagnostic support for Kyrgyzstan Ministry of Health",
+    "country": "KG",
+    "sector": "Health",
+    "maturity": "emerging",
+    "drivers": [
+      "KG Digital Transformation Concept 2024-2028 (УП-90): digital healthcare as priority sector",
+      "World Bank, UNICEF, and BMGF active health digitalization programs in KG",
+      "KG health system: 6M population, 60% rural — EHR and telemedicine both essential",
+      "AKDN (Aga Khan Development Network) active in mountain healthcare digitalization",
+      "Tunduk integration mandated for all health facility information systems under Digital Code"
+    ],
+    "estimated_tam_2025_2026_usd": 9000000,
+    "key_decision_maker_ids": ["kg-minzdrav-head", "kg-gp-tunduk-head"],
+    "linked_decree_ids": ["KG-UP-2024-090-CONCEPT"],
+    "linked_donor_program_ids": ["WB-KG-HEALTH", "UNICEF-KG-HEALTH", "AKDN-KG-HEALTH"],
+    "linked_tender_ids": [],
+    "window_months_remaining": 30,
+    "win_conditions": "Tunduk API integration for EHR cross-provider access; Kyrgyz-language patient interface; offline capability for mountain regions with intermittent connectivity; BMGF maternal health metrics; AKDN partnership potential for northern and Naryn mountain regions",
+    "killer_app_description": "EHR platform with AI clinical decision support: unified patient record accessible across 800+ health facilities via Tunduk; AI triage for primary care prioritizing TB, maternal health, and cardiovascular disease (KG's top mortality causes); telemedicine module connecting rural family physicians with Bishkek specialists; medication interaction checker integrated with KG national drug formulary — addressing the 15%+ mortality premium of KG rural vs. urban populations [Source: BMGF Global Burden of Disease CA 2023]",
+    "lens_tags": ["donor_co_financed", "japarov_concentration"],
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://cbd.minjust.gov.kg/5-10577/edition/6413/ru",
+        "title": "Указ Президента КР от 5 апреля 2024 года УП № 90 «Об утверждении Концепции Цифровой трансформации КР на 2024-2028 годы»",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "cbd.minjust.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "kg-trend-007-telemedicine-mountain",
+    "name": "Telemedicine AI for Kyrgyzstan mountain communities: AKDN/SDC-funded rural health connectivity",
+    "country": "KG",
+    "sector": "Health",
+    "maturity": "emerging",
+    "drivers": [
+      "70%+ of KG population in rural/mountain areas with <1 specialist per 10,000 population",
+      "AKDN (Aga Khan Foundation) active in mountain health since 1990s — direct procurement pathway",
+      "SDC (Swiss Cooperation) KG sustainable mountain development program includes health digital",
+      "Starlink satellite connectivity expanding in mountain regions — enables telemedicine where fiber impossible",
+      "KG Digital Transformation Concept 2024-2028: rural digital inclusion as priority"
+    ],
+    "estimated_tam_2025_2026_usd": 4000000,
+    "key_decision_maker_ids": ["kg-minzdrav-head", "kg-akdn-country-rep"],
+    "linked_decree_ids": ["KG-UP-2024-090-CONCEPT"],
+    "linked_donor_program_ids": ["AKDN-KG-HEALTH", "SDC-KG-MOUNTAIN"],
+    "linked_tender_ids": [],
+    "window_months_remaining": 30,
+    "win_conditions": "Satellite/low-bandwidth video consultation capability (operates on 100kbps+); Kyrgyz language patient interface; AKDN procurement qualification; solar-powered medical device integration for remote clinics; community health worker mobile app for village-level data collection",
+    "killer_app_description": "Mountain telemedicine network: AI triage app for community health workers in 1,500+ remote Kyrgyz villages; satellite-enabled video consultation connecting village workers to district hospital specialists; maternal health monitoring for high-altitude pregnancies; integrated supply chain alert for medicine stockouts in mountain pharmacies — addressing the 2x higher maternal mortality rate in mountain vs. urban KG [Source: WHO Kyrgyzstan health assessment 2023]",
+    "lens_tags": ["donor_co_financed"],
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://cbd.minjust.gov.kg/5-10577/edition/6413/ru",
+        "title": "Указ Президента КР от 5 апреля 2024 года УП № 90",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "cbd.minjust.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "kg-trend-008-edtech-kyrgyz",
+    "name": "AI-powered Kyrgyz-language educational platform for school curriculum: KOICA and UNICEF co-funded",
+    "country": "KG",
+    "sector": "Education",
+    "maturity": "emerging",
+    "drivers": [
+      "KG Digital Transformation Concept 2024-2028: digital education as priority",
+      "KOICA KG digital governance multi-phase program includes education component",
+      "UNICEF 'Adolescent Skills Digital' program in KG",
+      "KG has 2,200+ schools; rural schools have 1 teacher covering multiple grades — AI tutoring fills gap",
+      "Kyrgyz language instruction is mandatory — Kyrgyz-language AI models rare globally"
+    ],
+    "estimated_tam_2025_2026_usd": 6000000,
+    "key_decision_maker_ids": ["kg-minobr-head", "kg-koica-country-rep"],
+    "linked_decree_ids": ["KG-UP-2024-090-CONCEPT"],
+    "linked_donor_program_ids": ["KOICA-KG-EDUCATION", "UNICEF-KG-EDUCATION"],
+    "linked_tender_ids": [],
+    "window_months_remaining": 24,
+    "win_conditions": "Kyrgyz-language content (Latin and Cyrillic scripts both); offline functionality; KOICA procurement qualification; Kazakh or Mongolian language AI reference (structural similarity); teacher professional development component; MOE accreditation pathway",
+    "killer_app_description": "Kyrgyz-language adaptive learning platform: personalized curriculum alignment with KG national standards; AI tutor for math and Kyrgyz language (most critical learning gaps per PISA data); offline tablet app for 800+ rural schools without reliable internet; teacher analytics dashboard — addressing KG PISA scores 22% below OECD average, particularly in rural areas where teacher shortage is severe [Source: OECD PISA 2022 central Asia supplemental data]",
+    "lens_tags": ["donor_co_financed"],
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://cbd.minjust.gov.kg/5-10577/edition/6413/ru",
+        "title": "Указ Президента КР от 5 апреля 2024 года УП № 90",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "cbd.minjust.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "kg-trend-009-htp-ai-talent",
+    "name": "High-Tech Park Kyrgyzstan AI talent pipeline and startup incubation for domestic B2G market",
+    "country": "KG",
+    "sector": "Education",
+    "maturity": "emerging",
+    "drivers": [
+      "HTP KG operational with tax regime for IT companies (0% income/corporate tax)",
+      "Digital Code 2025: AI company registration and compliance creates HTP anchor demand",
+      "Digital Infrastructure Development Fund (created Apr 2026) provides capital",
+      "KG diaspora in Russia, Turkey, UAE: post-2022 returnees enriching domestic talent pool",
+      "National AI Council (КГ-УП-2025-091) supports HTP expansion"
+    ],
+    "estimated_tam_2025_2026_usd": 5000000,
+    "key_decision_maker_ids": ["kg-htp-head", "kg-national-ai-council-head"],
+    "linked_decree_ids": ["KG-UP-2025-091", "KG-UP-2026-MINCIFRY-ABOLITION"],
+    "linked_donor_program_ids": ["EBRD-KG-SME-DIGITAL"],
+    "linked_tender_ids": [],
+    "window_months_remaining": 18,
+    "win_conditions": "HTP resident company status or partnership agreement; access to Digital Infrastructure Development Fund as LP; Kyrgyz/Russian technical staff; co-development pathway with UDP Digital Dept for government AI pilots",
+    "killer_app_description": "HTP-anchored B2G AI factory: incubation program for 10-15 AI startups building specifically for KG government procurement (Digital Code compliance tools, Tunduk integration modules, municipal analytics) — operating under HTP tax regime, with Digital Infrastructure Development Fund as anchor investor, and UDP Digital Dept as first customer pipeline. Replicates the IT Park Uzbekistan model in a smaller-scale KG context",
+    "lens_tags": ["japarov_concentration", "diaspora_bridge"],
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://cbd.minjust.gov.kg/5-10855/edition/28965/ru",
+        "title": "Указ Президента КР от 17 марта 2025 года УП № 91",
+        "language": "ru",
+        "fetched_at": "2026-05-03",
+        "publisher": "cbd.minjust.gov.kg",
+        "source_tier": "official"
+      }
+    ]
+  }
+]
