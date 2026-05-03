@@ -49,6 +49,10 @@ MERGE_MAP = {
     "initiatives": [
         "state/initiatives/initiatives.json",
     ],
+    "solopreneur_mvps": [
+        "state/solopreneur_mvps/uz_mvps.json",
+        "state/solopreneur_mvps/kg_mvps.json",
+    ],
 }
 
 

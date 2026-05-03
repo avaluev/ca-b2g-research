@@ -47,10 +47,14 @@ REQUIRED_DIRS=(
     "state/trends"
     "state/cases"
     "state/initiatives"
+    "state/solopreneur_mvps"
+    "state/external"
     "state/audit"
     "outputs/crm"
     "outputs/memo"
     "outputs/playbook"
+    "outputs/obsidian"
+    "outputs/site"
     "docs"
     "prompts"
 )
@@ -86,6 +90,7 @@ REQUIRED_AGENTS=(
     "trend-triangulator"
     "people-intelligence"
     "initiative-synthesizer"
+    "solopreneur-mvp-synthesizer"
     "reflexion-auditor"
     "pitch-artificer"
 )

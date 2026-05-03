@@ -23,7 +23,8 @@ A multi-agent deep-research harness that turns recent legal, institutional, and 
 - **`/procurement/`** — Live tenders + win-probability annotations.
 - **`/trends/`** — Sector trends with linked decrees + donor programs.
 - **`/people/`** — Decision-makers and diaspora bridges (public profiles only).
-- **`/initiatives/`** — Top 100+ deployable initiatives, scored on 5 axes, tier-bucketed.
+- **`/initiatives/`** — Top 100+ deployable B2G initiatives, scored on 5 axes, tier-bucketed.
+- **`/mvp/`** — Top 100 solopreneur MVP ideas per country (HubSpot $1M Solopreneur MVR framework), bootstrappable in week 1 for $0-$500.
 - **`/honesty/`** — Explicit list of what this research did *not* find.
 - **`/provenance/`** — Per-record source trail and methodology audit.
 
@@ -37,7 +38,8 @@ The harness ships as a 7-wave parallel agent pipeline:
 | 1 | `legal-cartographer`, `case-tournament` | Decree corpus + 100+ global precedents ranked by transferability |
 | 2 | `institution-mapper`, `donor-pipeline`, `procurement-harvester`, `trend-triangulator` | Org taxonomies, donor programs, tenders, sectoral trends |
 | 3 | `people-intelligence` | 100+ decision-makers + diaspora bridges |
-| 4 | `initiative-synthesizer` | 100+ initiatives, 5-axis scoring |
+| 4 | `initiative-synthesizer` | 100+ initiatives, 5-axis scoring (B2G institutional plays, $500K-$10M) |
+| 4b | `solopreneur-mvp-synthesizer` | 100+ MVP ideas per country, HubSpot $1M Solopreneur framework ($0-$1M ARR, week-1 launch) |
 | 5 | `reflexion-auditor` | Adversarial re-verification, ≥3 HIGH-issue minimum |
 | 6 | `pitch-artificer` | Tier-A/B outreach bundles |
 

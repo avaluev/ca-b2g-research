@@ -50,6 +50,11 @@ echo ""
 echo "▶▶▶  WAVE 4: Initiative Synthesizer (Opus xhigh)"
 bash scripts/run-parallel.sh wave-4
 
+# Wave 4b: Solopreneur MVPs (sequential, Opus, parallel track to enterprise initiatives)
+echo ""
+echo "▶▶▶  WAVE 4b: Solopreneur MVP Synthesizer (Opus)"
+bash scripts/run-parallel.sh wave-4b
+
 # Wave 5: Audit (sequential, Opus xhigh, max-compute verification)
 echo ""
 echo "▶▶▶  WAVE 5: Reflexion Auditor (Opus xhigh)"

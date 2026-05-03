@@ -36,7 +36,7 @@ TASK_PROMPT="You are running as the '${AGENT}' subagent. Read your full specific
 # Execute via Claude Code CLI in non-interactive mode
 # Adjust model based on agent requirements
 case "$AGENT" in
-    "blueprint-architect"|"initiative-synthesizer"|"reflexion-auditor")
+    "blueprint-architect"|"initiative-synthesizer"|"reflexion-auditor"|"solopreneur-mvp-synthesizer")
         MODEL_FLAG="--model opus"
         ;;
     *)
@@ -64,6 +64,7 @@ case "$AGENT" in
     "trend-triangulator") COMPLETE_MARKER="state/trends/COMPLETE" ;;
     "people-intelligence") COMPLETE_MARKER="state/people/COMPLETE" ;;
     "initiative-synthesizer") COMPLETE_MARKER="state/initiatives/COMPLETE" ;;
+    "solopreneur-mvp-synthesizer") COMPLETE_MARKER="state/solopreneur_mvps/COMPLETE" ;;
     "reflexion-auditor") COMPLETE_MARKER="state/audit/COMPLETE" ;;
     "pitch-artificer") COMPLETE_MARKER="outputs/playbook/COMPLETE" ;;
 esac

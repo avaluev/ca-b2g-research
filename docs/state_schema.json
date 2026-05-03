@@ -223,6 +223,89 @@
         "sources": {"type": "array", "items": {"$ref": "#/definitions/Source"}}
       }
     },
+    "SolopreneurMVP": {
+      "type": "object",
+      "description": "A solopreneur-bootstrappable MVP idea grounded in the knowledge graph + HubSpot $1M Solopreneur MVR framework.",
+      "required": ["id", "country", "short_name", "tagline", "category", "underlying_demand", "target_customer", "monetization", "mvr_plan", "validation", "scoring", "verification"],
+      "properties": {
+        "id": {"type": "string", "description": "slug like uz-mvp-001"},
+        "country": {"$ref": "#/definitions/Country"},
+        "short_name": {"type": "string", "maxLength": 60},
+        "tagline": {"type": "string", "maxLength": 200},
+        "category": {"type": "string", "enum": ["managed_service", "saas", "content", "free_tool", "marketplace", "ai_tool", "demo_video", "ad_validated"]},
+        "sector": {"type": "string"},
+        "underlying_demand": {
+          "type": "object",
+          "required": ["pain_point", "evidence"],
+          "properties": {
+            "trend_id": {"type": ["string", "null"]},
+            "decree_id": {"type": ["string", "null"]},
+            "donor_program_id": {"type": ["string", "null"]},
+            "pain_point": {"type": "string", "maxLength": 1000},
+            "evidence": {"type": "string", "description": "URL or short citation"}
+          }
+        },
+        "target_customer": {"type": "string", "maxLength": 400},
+        "monetization": {
+          "type": "object",
+          "required": ["model", "price_point_usd", "year_1_revenue_target_usd"],
+          "properties": {
+            "model": {"type": "string", "enum": ["subscription", "one_time", "services", "listing_fee", "ad", "freemium", "donation"]},
+            "price_point_usd": {"type": "number", "minimum": 0},
+            "year_1_revenue_target_usd": {"type": "number", "minimum": 0},
+            "year_3_revenue_target_usd": {"type": "number", "minimum": 0}
+          }
+        },
+        "mvr_plan": {
+          "type": "object",
+          "required": ["vehicle", "build_steps", "build_time_days", "build_cost_usd"],
+          "properties": {
+            "vehicle": {"type": "string", "enum": ["landing_page", "squeeze_page", "demo_video", "free_tool", "directory", "wizard_of_oz", "ad_booking", "manifesto"]},
+            "build_steps": {"type": "array", "items": {"type": "string"}, "minItems": 3, "maxItems": 12},
+            "build_time_days": {"type": "integer", "minimum": 1, "maximum": 14},
+            "build_cost_usd": {"type": "number", "minimum": 0, "maximum": 1000}
+          }
+        },
+        "validation": {
+          "type": "object",
+          "required": ["signal_target", "validation_window_days", "channels"],
+          "properties": {
+            "signal_target": {"type": "string", "description": "quantified, e.g. 100 waitlist signups in 30 days"},
+            "validation_window_days": {"type": "integer", "minimum": 7, "maximum": 90},
+            "channels": {"type": "array", "items": {"type": "string"}, "minItems": 1}
+          }
+        },
+        "tech_stack": {"type": "array", "items": {"type": "string"}},
+        "founder_capability_required": {"type": "array", "items": {"type": "string"}},
+        "moat_potential": {"type": "string"},
+        "risk_register": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "risk": {"type": "string"},
+              "mitigation": {"type": "string"}
+            }
+          }
+        },
+        "scoring": {
+          "type": "object",
+          "required": ["demand_clarity", "speed_to_mvr", "monetization_path", "founder_solo_feasibility", "local_market_fit", "weighted_total"],
+          "properties": {
+            "demand_clarity": {"type": "integer", "minimum": 1, "maximum": 10},
+            "speed_to_mvr": {"type": "integer", "minimum": 1, "maximum": 10},
+            "monetization_path": {"type": "integer", "minimum": 1, "maximum": 10},
+            "founder_solo_feasibility": {"type": "integer", "minimum": 1, "maximum": 10},
+            "local_market_fit": {"type": "integer", "minimum": 1, "maximum": 10},
+            "weighted_total": {"type": "number"},
+            "scoring_rationale": {"type": "string"}
+          }
+        },
+        "confidence_tier": {"type": "string", "enum": ["A", "B", "C", "D"]},
+        "linked_initiative_id": {"type": ["string", "null"]},
+        "verification": {"$ref": "#/definitions/VerificationTag"}
+      }
+    },
     "Initiative": {
       "type": "object",
       "required": ["id", "short_name", "country", "sector", "one_liner", "problem_statement", "solution_concept", "target_buyer_person_id", "scoring", "verification"],
@@ -293,6 +376,7 @@
     "tenders": {"type": "array", "items": {"$ref": "#/definitions/Tender"}},
     "trends": {"type": "array", "items": {"$ref": "#/definitions/Trend"}},
     "global_cases": {"type": "array", "items": {"$ref": "#/definitions/GlobalCase"}},
-    "initiatives": {"type": "array", "items": {"$ref": "#/definitions/Initiative"}}
+    "initiatives": {"type": "array", "items": {"$ref": "#/definitions/Initiative"}},
+    "solopreneur_mvps": {"type": "array", "items": {"$ref": "#/definitions/SolopreneurMVP"}}
   }
 }

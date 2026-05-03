@@ -44,6 +44,12 @@ case "$WAVE" in
         python3 scripts/merge_state.py
         AGENTS=("initiative-synthesizer")
         ;;
+    "wave-4b")
+        # Solopreneur MVP synthesis — runs after Wave 4, before Wave 5 audit
+        echo "🔄 Re-merging state for wave-4b (solopreneur MVPs)..."
+        python3 scripts/merge_state.py
+        AGENTS=("solopreneur-mvp-synthesizer")
+        ;;
     "wave-5")
         AGENTS=("reflexion-auditor")
         ;;
