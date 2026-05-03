@@ -1,0 +1,404 @@
+[
+  {
+    "id": "WB-UZ-P179108",
+    "donor": "WorldBank",
+    "program_name": "Uzbekistan Digital Inclusion Project",
+    "program_id_external": "P179108",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-IT-PARK",
+    "piu_institution_id": "UZ-IT-PARK-PIU",
+    "total_budget_usd": 50000000,
+    "disbursed_usd": 2300000,
+    "period_start": "2024-07-26",
+    "period_end": "2029-12-31",
+    "procurement_modality": "mixed",
+    "ai_digital_relevance": "Establishes up to 11 regional IT-enabled services (ITES) centers; trains ~6,200 youths in AI, programming, digital skills; attracts ~240 new ITES companies; funds employment incentives for ~9,000 youth in digital economy. Direct AI/digital workforce pipeline. Supports IT Park under Ministry of Digital Technologies.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] Press release names Mirzo Ibragimov (Tashkent contact) and Sona Panajyan (Washington DC contact) as Bank contacts; dedicated TTL not publicly identified in available documents. Search path: documents.worldbank.org P179108 ISR sequence reports.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-ibragimov-mirzo",
+    "pipeline_tenders": [
+      {
+        "title": "ICT equipment and software for regional ITES centers (11 centers)",
+        "expected_date": "2025-Q3",
+        "estimated_value_usd": 8000000
+      },
+      {
+        "title": "Training curriculum development and delivery (AI, programming)",
+        "expected_date": "2025-Q2",
+        "estimated_value_usd": 5000000
+      }
+    ],
+    "vendor_entry_pathway": "Register on World Bank STEP procurement portal; monitor OP00350807 procurement notices; contact IT Park PIU directly in Tashkent. ITES company attraction grants may create consulting sub-contracts.",
+    "status": "active",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.worldbank.org/en/news/press-release/2023/11/30/world-bank-to-support-uzbekistan-in-developing-the-digital-economy-and-creating-new-jobs-in-the-it-sector",
+        "title": "World Bank to Support Uzbekistan in Developing the Digital Economy and Creating New Jobs in the Information Technology Sector",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "worldbank.org",
+        "source_tier": "international_org"
+      },
+      {
+        "url": "https://ewsdata.rightsindevelopment.org/projects/p179108-uzbekistan-digital-inclusion-project/",
+        "title": "Uzbekistan Digital Inclusion Project (WB-P179108) — disbursement data: $2.3M of $50M disbursed as of Aug 2025",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "rightsindevelopment.org",
+        "source_tier": "expert_commentary"
+      }
+    ]
+  },
+  {
+    "id": "WB-UZ-P506803",
+    "donor": "WorldBank",
+    "program_name": "Geospatial Infrastructure for Sustainable Territorial Development",
+    "program_id_external": "P506803",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-CADASTRE-AGENCY",
+    "piu_institution_id": "UZ-CADASTRE-PIU",
+    "total_budget_usd": 40700000,
+    "disbursed_usd": 0,
+    "period_start": "2025-02-27",
+    "period_end": "2030-12-31",
+    "procurement_modality": "mixed",
+    "ai_digital_relevance": "National Spatial Data Infrastructure (NSDI) digital architecture; 3 new data centers; national geoportal; 80 CORS GPS stations; modernization of UZKAD land information system; national address registry; 3D city model pilot in Samarkand; utility cadastre (infrastructure mapping). High AI/GIS vendor opportunity for imagery analysis, ML-based land classification, urban planning analytics.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] Project approved Feb 2025; Practice Area: Urban, Resilience and Land. Implementing agencies: MoEF and Cadastre Agency. Specific TTL not identified in available press releases or PAD summary. Search path: documents.worldbank.org P506803 project appraisal document.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-cadastre-director",
+    "pipeline_tenders": [
+      {
+        "title": "NSDI digital architecture design and data center construction",
+        "expected_date": "2025-Q4",
+        "estimated_value_usd": 12000000
+      },
+      {
+        "title": "80 CORS GPS stations installation",
+        "expected_date": "2026-Q1",
+        "estimated_value_usd": 6000000
+      },
+      {
+        "title": "UZKAD system modernization (national land information system)",
+        "expected_date": "2026-Q2",
+        "estimated_value_usd": 8000000
+      },
+      {
+        "title": "National geoportal development",
+        "expected_date": "2026-Q1",
+        "estimated_value_usd": 3000000
+      },
+      {
+        "title": "3D city model pilot Samarkand",
+        "expected_date": "2026-Q3",
+        "estimated_value_usd": 2000000
+      }
+    ],
+    "vendor_entry_pathway": "Monitor kadastr.uz/en/tenders and World Bank STEP portal. Pre-procurement window open: approach Cadastre Agency PIU and World Bank practice team directly. ICB procurement for large systems. GIS/geospatial vendors and satellite imagery firms directly relevant.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.worldbank.org/en/news/press-release/2025/05/19/world-bank-to-support-uzbekistan-in-improving-geospatial-data-availability-and-use",
+        "title": "World Bank to Support Uzbekistan in Improving Geospatial Data Availability and Use",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "worldbank.org",
+        "source_tier": "international_org"
+      },
+      {
+        "url": "https://projects.worldbank.org/en/projects-operations/project-detail/P506803",
+        "title": "Development Projects: Geospatial Infrastructure for Sustainable Territorial Development — P506803",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "projects.worldbank.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "WB-KG-P160230",
+    "donor": "WorldBank",
+    "program_name": "Digital CASA — Kyrgyz Republic (incl. Additional Financing)",
+    "program_id_external": "P160230",
+    "country": "KG",
+    "implementing_ministry_id": "KG-MINCIFRY",
+    "piu_institution_id": "KG-MINCIFRY-PIU",
+    "total_budget_usd": 57000000,
+    "disbursed_usd": 51300000,
+    "period_start": "2018-03-20",
+    "period_end": "2025-03-31",
+    "procurement_modality": "mixed",
+    "ai_digital_relevance": "2,500 km fiber-optic network deployment; 2 cross-border fiber links; Government Cloud (G-Cloud) infrastructure for e-government services. 1,237 of 1,432 state social institutions connected by Nov 2024. G-Cloud contract signed, implementation by March 2025. Connectivity backbone for all digital services in KG.",
+    "ttl_pm_name": "Sandra Sargent (World Bank Senior Digital Development Specialist and Project TTL)",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-mincifry-head",
+    "pipeline_tenders": [
+      {
+        "title": "G-Cloud data infrastructure completion (final phase)",
+        "expected_date": "2025-Q1",
+        "estimated_value_usd": 3000000
+      }
+    ],
+    "vendor_entry_pathway": "Project closing March 2025. G-Cloud infrastructure in final deployment. Follow-on project likely. Contact Sandra Sargent / World Bank KG country office (Naveed Hassan Naqvi, Country Manager). Monitor World Bank KG pipeline for next phase.",
+    "status": "closing",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.worldbank.org/en/news/press-release/2024/01/12/world-bank-provides-additional-support-for-the-kyrgyz-republic-s-digital-transformation",
+        "title": "World Bank Provides Additional Support for the Kyrgyz Republic's Digital Transformation (Jan 2024 — $7M AF approved)",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "worldbank.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "WB-KG-TRUST-KWPF-DIGITAL",
+    "donor": "WorldBank",
+    "program_name": "Korea-World Bank Partnership Facility: Supporting a More Resilient Digital Economy in the Kyrgyz Republic",
+    "program_id_external": "KWPF-KG-DIGITAL",
+    "country": "KG",
+    "implementing_ministry_id": "KG-MINCIFRY",
+    "piu_institution_id": null,
+    "total_budget_usd": null,
+    "disbursed_usd": null,
+    "period_start": "2022-01-01",
+    "period_end": "2025-12-31",
+    "procurement_modality": "QCBS",
+    "ai_digital_relevance": "Trust Fund grant (Korea-WB Partnership Facility) for digital economy resilience in KG. Targets cybersecurity, digital financial services, digital skills. Complements Digital CASA. Trust Fund vehicles allow flexible advisory/TA procurement outside standard IPF rules.",
+    "ttl_pm_name": "Sandra Sargent (Digital Development, World Bank — also TTL for Digital CASA KG)",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-mincifry-head",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "Trust Fund grants channeled through World Bank. Engage Sandra Sargent and World Bank KG Digital Development team directly. Consultancy assignments possible via direct selection or CQS for smaller packages.",
+    "status": "active",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.worldbank.org/en/programs/korea-world-bank-group-partnership-facility",
+        "title": "Korea-World Bank Group Partnership Facility (KWPF) — main page",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "worldbank.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "WB-UZ-HEALTH-P178562",
+    "donor": "WorldBank",
+    "program_name": "Uzbekistan Health System Modernization Project",
+    "program_id_external": "P178562",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-MINZDRAV",
+    "piu_institution_id": "UZ-MINZDRAV-PIU",
+    "total_budget_usd": 200000000,
+    "disbursed_usd": null,
+    "period_start": "2022-01-01",
+    "period_end": "2027-12-31",
+    "procurement_modality": "mixed",
+    "ai_digital_relevance": "Digitalization of healthcare services including electronic medical records (EMR), e-prescription rollout, health information management systems (HMIS), telemedicine infrastructure. Directly implements ПП-415 digital health decree. E-prescription anti-fraud and clinical decision support AI components expected in later phases.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] P178562 PAD document located at documents1.worldbank.org. Implementing via Ministry of Health PIU. Search path: documents.worldbank.org P178562 project appraisal document title page.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-minzdrav-minister",
+    "pipeline_tenders": [
+      {
+        "title": "National e-prescription system development and deployment",
+        "expected_date": "2025-Q3",
+        "estimated_value_usd": 15000000
+      },
+      {
+        "title": "Interoperable EMR platform for hospitals (ICB)",
+        "expected_date": "2025-Q4",
+        "estimated_value_usd": 25000000
+      }
+    ],
+    "vendor_entry_pathway": "Monitor World Bank STEP portal for health sector tenders. Contact MoH PIU Tashkent. Linked to UZ decree ПП-415. E-health vendors, EMR providers, and digital health analytics firms are target categories.",
+    "status": "active",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://documents1.worldbank.org/curated/en/099042525031049395/pdf/P178562-d782d4a3-a9a5-4b34-b47e-af93cf77ea32.pdf",
+        "title": "Uzbekistan Health System Modernization Project — PAD document P178562",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "documents.worldbank.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "WB-KG-IDENTITY-P155198",
+    "donor": "WorldBank",
+    "program_name": "Kyrgyz Republic: Identity and Targeting for Social Protection Project",
+    "program_id_external": "P155198",
+    "country": "KG",
+    "implementing_ministry_id": "KG-MINSOC",
+    "piu_institution_id": "KG-MINSOC-PIU",
+    "total_budget_usd": 20000000,
+    "disbursed_usd": null,
+    "period_start": "2016-01-01",
+    "period_end": "2025-12-31",
+    "procurement_modality": "mixed",
+    "ai_digital_relevance": "Digital social registry for targeted social assistance; biometric enrollment; single national register of social beneficiaries. Builds on GRS biometric ID database. Digital eligibility verification system. Linked to KG digital identity ecosystem and Tunduk integration.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] Search path: projects.worldbank.org P155198 ISR reports.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-minsoc-head",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "Project in late stages. Monitor for follow-on social registry digitalization under UDP/post-Mintsifry restructuring. Contact World Bank KG office.",
+    "status": "closing",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://projects.worldbank.org/P155198?lang=en",
+        "title": "Development Projects: Identity and Targeting for Social Protection Project — P155198",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "projects.worldbank.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "WB-BOTH-DIGITAL-GOVTECH-TA",
+    "donor": "WorldBank",
+    "program_name": "GovTech / Digital Development Technical Assistance — Central Asia Regional",
+    "program_id_external": "REGIONAL-CA-GOVTECH",
+    "country": "BOTH",
+    "implementing_ministry_id": null,
+    "piu_institution_id": null,
+    "total_budget_usd": 5000000,
+    "disbursed_usd": null,
+    "period_start": "2024-01-01",
+    "period_end": "2026-12-31",
+    "procurement_modality": "QCBS",
+    "ai_digital_relevance": "Advisory and TA support for digital government strategy, GovTech Maturity Index improvement, interoperability frameworks, open data, and AI governance policy. Covers both UZ and KG. Often funds short-term consultancies and workshops open to international firms.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] Managed through World Bank Digital Development practice ECA unit. Search path: Search 'World Bank Central Asia GovTech 2024' on documents.worldbank.org.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-mintsifry-head",
+    "pipeline_tenders": [
+      {
+        "title": "GovTech strategy advisory — individual consultancies",
+        "expected_date": "2025-Q2",
+        "estimated_value_usd": 200000
+      }
+    ],
+    "vendor_entry_pathway": "Register on World Bank consultant database. Monitor ECA regional digital assignments. CQS and individual consultant selection common for TA packages.",
+    "status": "active",
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099121725193511608",
+        "title": "GovTech Maturity Index 2025: Tracking Public Sector Digital Transformation Worldwide",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "documents.worldbank.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "WB-KG-OPEN-DATA-P160933",
+    "donor": "WorldBank",
+    "program_name": "Implementing Open Data Action Plan in the Kyrgyz Republic",
+    "program_id_external": "P160933",
+    "country": "KG",
+    "implementing_ministry_id": "KG-MINCIFRY",
+    "piu_institution_id": null,
+    "total_budget_usd": 1500000,
+    "disbursed_usd": null,
+    "period_start": "2017-01-01",
+    "period_end": "2024-12-31",
+    "procurement_modality": "CQS",
+    "ai_digital_relevance": "Open data portal (data.gov.kg) implementation; data standards; machine-readable government datasets. Foundation for AI/analytics applications on government data. Small TA grant with advisory focus.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] Small TA project. Search path: projects.worldbank.org P160933.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-mincifry-head",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "Closed or closing. Monitor for open data platform successor under UDP digital department post-2026 restructuring.",
+    "status": "closing",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://projects.worldbank.org/P160933?lang=en",
+        "title": "Development Projects: Implementing Open Data Action Plan in the Kyrgyz Republic — P160933",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "projects.worldbank.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "WB-UZ-AGRI-DIGITAL",
+    "donor": "WorldBank",
+    "program_name": "Uzbekistan Agriculture Modernization Project (digital components)",
+    "program_id_external": "P168566",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-MINSELHHOZ",
+    "piu_institution_id": "UZ-MINSELHHOZ-PIU",
+    "total_budget_usd": 500000000,
+    "disbursed_usd": null,
+    "period_start": "2020-01-01",
+    "period_end": "2026-12-31",
+    "procurement_modality": "mixed",
+    "ai_digital_relevance": "Agricultural MIS modernization; precision agriculture digital components; satellite imagery for crop monitoring; water use efficiency monitoring systems; e-extension services. Digital agriculture AI applications: crop disease detection, yield prediction, water optimization models.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] Large IDA-financed project. Implementing via MoA PIU. Search path: documents.worldbank.org search 'P168566 Uzbekistan agriculture'.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-minselhhoz-minister",
+    "pipeline_tenders": [
+      {
+        "title": "Agricultural MIS upgrade and satellite integration",
+        "expected_date": "2025-Q3",
+        "estimated_value_usd": 10000000
+      }
+    ],
+    "vendor_entry_pathway": "Monitor World Bank STEP portal for MoA-related tenders. AgriTech vendors with remote sensing capabilities relevant. Contact MoA PIU Tashkent.",
+    "status": "active",
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/434601585015259716/uzbekistan-agriculture-modernization-project",
+        "title": "Uzbekistan Agriculture Modernization Project — World Bank documents",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "documents.worldbank.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "WB-UZ-FINREFORM-P176353",
+    "donor": "WorldBank",
+    "program_name": "Accelerating Uzbekistan's Transition Development Policy Operation",
+    "program_id_external": "P176353",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-MINFIN",
+    "piu_institution_id": null,
+    "total_budget_usd": 500000000,
+    "disbursed_usd": null,
+    "period_start": "2023-01-01",
+    "period_end": "2026-12-31",
+    "procurement_modality": "direct",
+    "ai_digital_relevance": "DPO (Development Policy Operation) — budget support conditional on digital reform prior actions: e-invoicing rollout, digital banking regulation, fintech licensing framework, open banking APIs. Drives digital financial sector reforms including CBDC preparation. Policy-level digital reforms unlock procurement opportunities.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] DPO managed by Macroeconomics practice. Country Director/Manager: Marco Mantovanelli. Search path: projects.worldbank.org P176353.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-minfin-minister",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "DPO is budget support — no direct tenders. However, reform prior actions generate downstream procurement: e-invoicing platform, digital bank supervision systems. Monitor GNK (tax committee) and CBU tenders.",
+    "status": "active",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://projects.worldbank.org/en/projects-operations/project-detail/P176353",
+        "title": "Development Projects: Accelerating Uzbekistan's Transition Development Policy Operation — P176353",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "projects.worldbank.org",
+        "source_tier": "international_org"
+      }
+    ]
+  }
+]

@@ -1,0 +1,1865 @@
+[
+  {
+    "id": "WB-UZ-P179108",
+    "donor": "WorldBank",
+    "program_name": "Uzbekistan Digital Inclusion Project",
+    "program_id_external": "P179108",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-IT-PARK",
+    "piu_institution_id": "UZ-IT-PARK-PIU",
+    "total_budget_usd": 50000000,
+    "disbursed_usd": 2300000,
+    "period_start": "2024-07-26",
+    "period_end": "2029-12-31",
+    "procurement_modality": "mixed",
+    "ai_digital_relevance": "Establishes up to 11 regional IT-enabled services (ITES) centers; trains ~6,200 youths in AI, programming, digital skills; attracts ~240 new ITES companies; funds employment incentives for ~9,000 youth in digital economy. Direct AI/digital workforce pipeline. Supports IT Park under Ministry of Digital Technologies.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] Press release names Mirzo Ibragimov (Tashkent contact) and Sona Panajyan (Washington DC contact) as Bank contacts; dedicated TTL not publicly identified in available documents. Search path: documents.worldbank.org P179108 ISR sequence reports.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-ibragimov-mirzo",
+    "pipeline_tenders": [
+      {
+        "title": "ICT equipment and software for regional ITES centers (11 centers)",
+        "expected_date": "2025-Q3",
+        "estimated_value_usd": 8000000
+      },
+      {
+        "title": "Training curriculum development and delivery (AI, programming)",
+        "expected_date": "2025-Q2",
+        "estimated_value_usd": 5000000
+      }
+    ],
+    "vendor_entry_pathway": "Register on World Bank STEP procurement portal; monitor OP00350807 procurement notices; contact IT Park PIU directly in Tashkent. ITES company attraction grants may create consulting sub-contracts.",
+    "status": "active",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.worldbank.org/en/news/press-release/2023/11/30/world-bank-to-support-uzbekistan-in-developing-the-digital-economy-and-creating-new-jobs-in-the-it-sector",
+        "title": "World Bank to Support Uzbekistan in Developing the Digital Economy and Creating New Jobs in the Information Technology Sector",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "worldbank.org",
+        "source_tier": "international_org"
+      },
+      {
+        "url": "https://ewsdata.rightsindevelopment.org/projects/p179108-uzbekistan-digital-inclusion-project/",
+        "title": "Uzbekistan Digital Inclusion Project (WB-P179108) — disbursement data: $2.3M of $50M disbursed as of Aug 2025",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "rightsindevelopment.org",
+        "source_tier": "expert_commentary"
+      }
+    ]
+  },
+  {
+    "id": "WB-UZ-P506803",
+    "donor": "WorldBank",
+    "program_name": "Geospatial Infrastructure for Sustainable Territorial Development",
+    "program_id_external": "P506803",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-CADASTRE-AGENCY",
+    "piu_institution_id": "UZ-CADASTRE-PIU",
+    "total_budget_usd": 40700000,
+    "disbursed_usd": 0,
+    "period_start": "2025-02-27",
+    "period_end": "2030-12-31",
+    "procurement_modality": "mixed",
+    "ai_digital_relevance": "National Spatial Data Infrastructure (NSDI) digital architecture; 3 new data centers; national geoportal; 80 CORS GPS stations; modernization of UZKAD land information system; national address registry; 3D city model pilot in Samarkand; utility cadastre (infrastructure mapping). High AI/GIS vendor opportunity for imagery analysis, ML-based land classification, urban planning analytics.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] Project approved Feb 2025; Practice Area: Urban, Resilience and Land. Implementing agencies: MoEF and Cadastre Agency. Specific TTL not identified in available press releases or PAD summary. Search path: documents.worldbank.org P506803 project appraisal document.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-cadastre-director",
+    "pipeline_tenders": [
+      {
+        "title": "NSDI digital architecture design and data center construction",
+        "expected_date": "2025-Q4",
+        "estimated_value_usd": 12000000
+      },
+      {
+        "title": "80 CORS GPS stations installation",
+        "expected_date": "2026-Q1",
+        "estimated_value_usd": 6000000
+      },
+      {
+        "title": "UZKAD system modernization (national land information system)",
+        "expected_date": "2026-Q2",
+        "estimated_value_usd": 8000000
+      },
+      {
+        "title": "National geoportal development",
+        "expected_date": "2026-Q1",
+        "estimated_value_usd": 3000000
+      },
+      {
+        "title": "3D city model pilot Samarkand",
+        "expected_date": "2026-Q3",
+        "estimated_value_usd": 2000000
+      }
+    ],
+    "vendor_entry_pathway": "Monitor kadastr.uz/en/tenders and World Bank STEP portal. Pre-procurement window open: approach Cadastre Agency PIU and World Bank practice team directly. ICB procurement for large systems. GIS/geospatial vendors and satellite imagery firms directly relevant.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.worldbank.org/en/news/press-release/2025/05/19/world-bank-to-support-uzbekistan-in-improving-geospatial-data-availability-and-use",
+        "title": "World Bank to Support Uzbekistan in Improving Geospatial Data Availability and Use",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "worldbank.org",
+        "source_tier": "international_org"
+      },
+      {
+        "url": "https://projects.worldbank.org/en/projects-operations/project-detail/P506803",
+        "title": "Development Projects: Geospatial Infrastructure for Sustainable Territorial Development — P506803",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "projects.worldbank.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "WB-KG-P160230",
+    "donor": "WorldBank",
+    "program_name": "Digital CASA — Kyrgyz Republic (incl. Additional Financing)",
+    "program_id_external": "P160230",
+    "country": "KG",
+    "implementing_ministry_id": "KG-MINCIFRY",
+    "piu_institution_id": "KG-MINCIFRY-PIU",
+    "total_budget_usd": 57000000,
+    "disbursed_usd": 51300000,
+    "period_start": "2018-03-20",
+    "period_end": "2025-03-31",
+    "procurement_modality": "mixed",
+    "ai_digital_relevance": "2,500 km fiber-optic network deployment; 2 cross-border fiber links; Government Cloud (G-Cloud) infrastructure for e-government services. 1,237 of 1,432 state social institutions connected by Nov 2024. G-Cloud contract signed, implementation by March 2025. Connectivity backbone for all digital services in KG.",
+    "ttl_pm_name": "Sandra Sargent (World Bank Senior Digital Development Specialist and Project TTL)",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-mincifry-head",
+    "pipeline_tenders": [
+      {
+        "title": "G-Cloud data infrastructure completion (final phase)",
+        "expected_date": "2025-Q1",
+        "estimated_value_usd": 3000000
+      }
+    ],
+    "vendor_entry_pathway": "Project closing March 2025. G-Cloud infrastructure in final deployment. Follow-on project likely. Contact Sandra Sargent / World Bank KG country office (Naveed Hassan Naqvi, Country Manager). Monitor World Bank KG pipeline for next phase.",
+    "status": "closing",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.worldbank.org/en/news/press-release/2024/01/12/world-bank-provides-additional-support-for-the-kyrgyz-republic-s-digital-transformation",
+        "title": "World Bank Provides Additional Support for the Kyrgyz Republic's Digital Transformation (Jan 2024 — $7M AF approved)",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "worldbank.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "WB-KG-TRUST-KWPF-DIGITAL",
+    "donor": "WorldBank",
+    "program_name": "Korea-World Bank Partnership Facility: Supporting a More Resilient Digital Economy in the Kyrgyz Republic",
+    "program_id_external": "KWPF-KG-DIGITAL",
+    "country": "KG",
+    "implementing_ministry_id": "KG-MINCIFRY",
+    "piu_institution_id": null,
+    "total_budget_usd": null,
+    "disbursed_usd": null,
+    "period_start": "2022-01-01",
+    "period_end": "2025-12-31",
+    "procurement_modality": "QCBS",
+    "ai_digital_relevance": "Trust Fund grant (Korea-WB Partnership Facility) for digital economy resilience in KG. Targets cybersecurity, digital financial services, digital skills. Complements Digital CASA. Trust Fund vehicles allow flexible advisory/TA procurement outside standard IPF rules.",
+    "ttl_pm_name": "Sandra Sargent (Digital Development, World Bank — also TTL for Digital CASA KG)",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-mincifry-head",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "Trust Fund grants channeled through World Bank. Engage Sandra Sargent and World Bank KG Digital Development team directly. Consultancy assignments possible via direct selection or CQS for smaller packages.",
+    "status": "active",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.worldbank.org/en/programs/korea-world-bank-group-partnership-facility",
+        "title": "Korea-World Bank Group Partnership Facility (KWPF) — main page",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "worldbank.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "WB-UZ-HEALTH-P178562",
+    "donor": "WorldBank",
+    "program_name": "Uzbekistan Health System Modernization Project",
+    "program_id_external": "P178562",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-MINZDRAV",
+    "piu_institution_id": "UZ-MINZDRAV-PIU",
+    "total_budget_usd": 200000000,
+    "disbursed_usd": null,
+    "period_start": "2022-01-01",
+    "period_end": "2027-12-31",
+    "procurement_modality": "mixed",
+    "ai_digital_relevance": "Digitalization of healthcare services including electronic medical records (EMR), e-prescription rollout, health information management systems (HMIS), telemedicine infrastructure. Directly implements ПП-415 digital health decree. E-prescription anti-fraud and clinical decision support AI components expected in later phases.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] P178562 PAD document located at documents1.worldbank.org. Implementing via Ministry of Health PIU. Search path: documents.worldbank.org P178562 project appraisal document title page.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-minzdrav-minister",
+    "pipeline_tenders": [
+      {
+        "title": "National e-prescription system development and deployment",
+        "expected_date": "2025-Q3",
+        "estimated_value_usd": 15000000
+      },
+      {
+        "title": "Interoperable EMR platform for hospitals (ICB)",
+        "expected_date": "2025-Q4",
+        "estimated_value_usd": 25000000
+      }
+    ],
+    "vendor_entry_pathway": "Monitor World Bank STEP portal for health sector tenders. Contact MoH PIU Tashkent. Linked to UZ decree ПП-415. E-health vendors, EMR providers, and digital health analytics firms are target categories.",
+    "status": "active",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://documents1.worldbank.org/curated/en/099042525031049395/pdf/P178562-d782d4a3-a9a5-4b34-b47e-af93cf77ea32.pdf",
+        "title": "Uzbekistan Health System Modernization Project — PAD document P178562",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "documents.worldbank.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "WB-KG-IDENTITY-P155198",
+    "donor": "WorldBank",
+    "program_name": "Kyrgyz Republic: Identity and Targeting for Social Protection Project",
+    "program_id_external": "P155198",
+    "country": "KG",
+    "implementing_ministry_id": "KG-MINSOC",
+    "piu_institution_id": "KG-MINSOC-PIU",
+    "total_budget_usd": 20000000,
+    "disbursed_usd": null,
+    "period_start": "2016-01-01",
+    "period_end": "2025-12-31",
+    "procurement_modality": "mixed",
+    "ai_digital_relevance": "Digital social registry for targeted social assistance; biometric enrollment; single national register of social beneficiaries. Builds on GRS biometric ID database. Digital eligibility verification system. Linked to KG digital identity ecosystem and Tunduk integration.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] Search path: projects.worldbank.org P155198 ISR reports.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-minsoc-head",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "Project in late stages. Monitor for follow-on social registry digitalization under UDP/post-Mintsifry restructuring. Contact World Bank KG office.",
+    "status": "closing",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://projects.worldbank.org/P155198?lang=en",
+        "title": "Development Projects: Identity and Targeting for Social Protection Project — P155198",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "projects.worldbank.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "WB-BOTH-DIGITAL-GOVTECH-TA",
+    "donor": "WorldBank",
+    "program_name": "GovTech / Digital Development Technical Assistance — Central Asia Regional",
+    "program_id_external": "REGIONAL-CA-GOVTECH",
+    "country": "BOTH",
+    "implementing_ministry_id": null,
+    "piu_institution_id": null,
+    "total_budget_usd": 5000000,
+    "disbursed_usd": null,
+    "period_start": "2024-01-01",
+    "period_end": "2026-12-31",
+    "procurement_modality": "QCBS",
+    "ai_digital_relevance": "Advisory and TA support for digital government strategy, GovTech Maturity Index improvement, interoperability frameworks, open data, and AI governance policy. Covers both UZ and KG. Often funds short-term consultancies and workshops open to international firms.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] Managed through World Bank Digital Development practice ECA unit. Search path: Search 'World Bank Central Asia GovTech 2024' on documents.worldbank.org.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-mintsifry-head",
+    "pipeline_tenders": [
+      {
+        "title": "GovTech strategy advisory — individual consultancies",
+        "expected_date": "2025-Q2",
+        "estimated_value_usd": 200000
+      }
+    ],
+    "vendor_entry_pathway": "Register on World Bank consultant database. Monitor ECA regional digital assignments. CQS and individual consultant selection common for TA packages.",
+    "status": "active",
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/099121725193511608",
+        "title": "GovTech Maturity Index 2025: Tracking Public Sector Digital Transformation Worldwide",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "documents.worldbank.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "WB-KG-OPEN-DATA-P160933",
+    "donor": "WorldBank",
+    "program_name": "Implementing Open Data Action Plan in the Kyrgyz Republic",
+    "program_id_external": "P160933",
+    "country": "KG",
+    "implementing_ministry_id": "KG-MINCIFRY",
+    "piu_institution_id": null,
+    "total_budget_usd": 1500000,
+    "disbursed_usd": null,
+    "period_start": "2017-01-01",
+    "period_end": "2024-12-31",
+    "procurement_modality": "CQS",
+    "ai_digital_relevance": "Open data portal (data.gov.kg) implementation; data standards; machine-readable government datasets. Foundation for AI/analytics applications on government data. Small TA grant with advisory focus.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] Small TA project. Search path: projects.worldbank.org P160933.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-mincifry-head",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "Closed or closing. Monitor for open data platform successor under UDP digital department post-2026 restructuring.",
+    "status": "closing",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://projects.worldbank.org/P160933?lang=en",
+        "title": "Development Projects: Implementing Open Data Action Plan in the Kyrgyz Republic — P160933",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "projects.worldbank.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "WB-UZ-AGRI-DIGITAL",
+    "donor": "WorldBank",
+    "program_name": "Uzbekistan Agriculture Modernization Project (digital components)",
+    "program_id_external": "P168566",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-MINSELHHOZ",
+    "piu_institution_id": "UZ-MINSELHHOZ-PIU",
+    "total_budget_usd": 500000000,
+    "disbursed_usd": null,
+    "period_start": "2020-01-01",
+    "period_end": "2026-12-31",
+    "procurement_modality": "mixed",
+    "ai_digital_relevance": "Agricultural MIS modernization; precision agriculture digital components; satellite imagery for crop monitoring; water use efficiency monitoring systems; e-extension services. Digital agriculture AI applications: crop disease detection, yield prediction, water optimization models.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] Large IDA-financed project. Implementing via MoA PIU. Search path: documents.worldbank.org search 'P168566 Uzbekistan agriculture'.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-minselhhoz-minister",
+    "pipeline_tenders": [
+      {
+        "title": "Agricultural MIS upgrade and satellite integration",
+        "expected_date": "2025-Q3",
+        "estimated_value_usd": 10000000
+      }
+    ],
+    "vendor_entry_pathway": "Monitor World Bank STEP portal for MoA-related tenders. AgriTech vendors with remote sensing capabilities relevant. Contact MoA PIU Tashkent.",
+    "status": "active",
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/434601585015259716/uzbekistan-agriculture-modernization-project",
+        "title": "Uzbekistan Agriculture Modernization Project — World Bank documents",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "documents.worldbank.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "WB-UZ-FINREFORM-P176353",
+    "donor": "WorldBank",
+    "program_name": "Accelerating Uzbekistan's Transition Development Policy Operation",
+    "program_id_external": "P176353",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-MINFIN",
+    "piu_institution_id": null,
+    "total_budget_usd": 500000000,
+    "disbursed_usd": null,
+    "period_start": "2023-01-01",
+    "period_end": "2026-12-31",
+    "procurement_modality": "direct",
+    "ai_digital_relevance": "DPO (Development Policy Operation) — budget support conditional on digital reform prior actions: e-invoicing rollout, digital banking regulation, fintech licensing framework, open banking APIs. Drives digital financial sector reforms including CBDC preparation. Policy-level digital reforms unlock procurement opportunities.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] DPO managed by Macroeconomics practice. Country Director/Manager: Marco Mantovanelli. Search path: projects.worldbank.org P176353.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-minfin-minister",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "DPO is budget support — no direct tenders. However, reform prior actions generate downstream procurement: e-invoicing platform, digital bank supervision systems. Monitor GNK (tax committee) and CBU tenders.",
+    "status": "active",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://projects.worldbank.org/en/projects-operations/project-detail/P176353",
+        "title": "Development Projects: Accelerating Uzbekistan's Transition Development Policy Operation — P176353",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "projects.worldbank.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "ADB-KG-55109-001",
+    "donor": "ADB",
+    "program_name": "Supporting the Completion of e-Procurement System Digitalization (Phase 1)",
+    "program_id_external": "55109-001",
+    "country": "KG",
+    "implementing_ministry_id": "KG-GOSZAKUPKI",
+    "piu_institution_id": null,
+    "total_budget_usd": 650000,
+    "disbursed_usd": null,
+    "period_start": "2022-01-01",
+    "period_end": "2025-12-31",
+    "procurement_modality": "shopping",
+    "ai_digital_relevance": "Full digitalization of government e-procurement (e-GP) system in KG: bid evaluation, contract award, contract management, payments — all currently on paper. Aims to shift all government procurement online. Supports KG Tunduk integration. Phase 1 TA; Phase 2 investment operation anticipated.",
+    "ttl_pm_name": "Aibek Abdybakirov (ADB Central and West Asia Department, Project Officer — 54383-001 related; same team likely covers 55109-001)",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-goszakupki-head",
+    "pipeline_tenders": [
+      {
+        "title": "e-GP system phase 2 software development and server infrastructure",
+        "expected_date": "2025-Q3",
+        "estimated_value_usd": 500000
+      }
+    ],
+    "vendor_entry_pathway": "Small TA project; shopping procurement for hardware. Software development via simplified procurement. Contact ADB KG resident mission. Linked to 54383-001 procurement knowledge/capacity project.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.adb.org/projects/55109-001/main",
+        "title": "55109-001: Supporting the Completion of e-Procurement System Digitalization (Phase 1) | ADB",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "adb.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "ADB-KG-54383-001",
+    "donor": "ADB",
+    "program_name": "Enhancing Knowledge and Capacity for Public Procurement System in the Kyrgyz Republic",
+    "program_id_external": "54383-001",
+    "country": "KG",
+    "implementing_ministry_id": "KG-GOSZAKUPKI",
+    "piu_institution_id": null,
+    "total_budget_usd": 65000,
+    "disbursed_usd": null,
+    "period_start": "2021-01-01",
+    "period_end": "2025-06-30",
+    "procurement_modality": "shopping",
+    "ai_digital_relevance": "Data asymmetric encryption and digital signature for e-procurement system; SAN disks and servers for data management. Small TA focused on cybersecurity layer for public procurement platform.",
+    "ttl_pm_name": "Aibek Abdybakirov (ADB Central and West Asia Department)",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-goszakupki-head",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "Small infrastructure procurement. Limited entry for vendors beyond hardware supply. Value lies in relationship with Abdybakirov for follow-on Phase 2 e-procurement digitalization investment.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.adb.org/projects/54383-001/main",
+        "title": "54383-001: Enhancing Knowledge and Capacity for Public Procurement System in the Kyrgyz Republic | ADB",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "adb.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "ADB-UZ-52322-004",
+    "donor": "ADB",
+    "program_name": "Digitize to Decarbonize — Power Transmission Grid Enhancement Project",
+    "program_id_external": "52322-004",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-MINENERGO",
+    "piu_institution_id": "UZ-NEGU-PIU",
+    "total_budget_usd": 125000000,
+    "disbursed_usd": null,
+    "period_start": "2022-01-01",
+    "period_end": "2028-12-31",
+    "procurement_modality": "ICB",
+    "ai_digital_relevance": "Digital modernization of power transmission grid: SCADA/EMS systems, digital monitoring and control, telecom infrastructure for 12 transmission lines across 7 regions. AI-relevant for predictive maintenance, grid optimization, real-time monitoring analytics. 359 km of modernized transmission infrastructure.",
+    "ttl_pm_name": "Yun Ji Suh (ADB Sectors Department 1, Project Officer)",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-negu-ceo",
+    "pipeline_tenders": [
+      {
+        "title": "SCADA/EMS system for 12 transmission substations (ICB)",
+        "expected_date": "2024-Q4",
+        "estimated_value_usd": 40000000
+      },
+      {
+        "title": "Telecom and digital monitoring infrastructure",
+        "expected_date": "2025-Q1",
+        "estimated_value_usd": 15000000
+      }
+    ],
+    "vendor_entry_pathway": "ICB procurement via ADB CSRN portal. Contact Yun Ji Suh at ADB. National Electricity Grid of Uzbekistan (NEGU) is implementing agency. Large ICB packages open to international suppliers. SCADA vendors, grid monitoring AI companies relevant.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.adb.org/projects/52322-004/main",
+        "title": "52322-004: Digitize to Decarbonize — Power Transmission Grid Enhancement Project | ADB",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "adb.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "ADB-UZ-58435-001",
+    "donor": "ADB",
+    "program_name": "Supporting Climate Change Action, Economic Globalization and Digital Transformation through Advanced Statistics",
+    "program_id_external": "58435-001",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-GOSKOMSTAT",
+    "piu_institution_id": null,
+    "total_budget_usd": 1500000,
+    "disbursed_usd": null,
+    "period_start": "2024-01-01",
+    "period_end": "2026-12-31",
+    "procurement_modality": "QCBS",
+    "ai_digital_relevance": "Advanced statistical systems for digital economy measurement; climate data systems; trade statistics digitalization. Supports Digital Uzbekistan Strategy. Enhances capacity of national statistics agency (GosKomStat) in digital economy data collection and analysis.",
+    "ttl_pm_name": "Mahinthan Joseph Mariasingham (ADB Economic Research and Development Impact Department)",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-goskomstat-head",
+    "pipeline_tenders": [
+      {
+        "title": "Statistical software and digital economy data systems advisory",
+        "expected_date": "2025-Q2",
+        "estimated_value_usd": 800000
+      }
+    ],
+    "vendor_entry_pathway": "TA project — consulting firm via QCBS. Contact Mariasingham at ADB HQ. Data analytics and statistics software firms are target vendors.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.adb.org/projects/58435-001/main",
+        "title": "58435-001: Supporting Climate Change Action, Economic Globalization and Digital Transformation through Advanced Statistics | ADB",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "adb.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "ADB-UZ-WATER-DIGITAL",
+    "donor": "ADB",
+    "program_name": "Uzbekistan Water Supply and Sanitation Services Improvement Project (digital components)",
+    "program_id_external": "55009-001",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-MINVODA",
+    "piu_institution_id": "UZ-SUVTAMINOT-PIU",
+    "total_budget_usd": 125000000,
+    "disbursed_usd": null,
+    "period_start": "2023-01-01",
+    "period_end": "2028-12-31",
+    "procurement_modality": "mixed",
+    "ai_digital_relevance": "Digital transformation of water management: IoT sensors for water network monitoring, GIS-based asset management, customer billing digitalization, smart meters. AI-relevant: leak detection algorithms, predictive maintenance, water quality monitoring systems.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] ADB Water and Urban Development sector. Search path: adb.org projects search Uzbekistan water digital 2023.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-minvoda-minister",
+    "pipeline_tenders": [
+      {
+        "title": "Water network SCADA and IoT monitoring system",
+        "expected_date": "2025-Q3",
+        "estimated_value_usd": 8000000
+      }
+    ],
+    "vendor_entry_pathway": "ICB and NCB tenders via ADB CSRN. Water sector digital vendors, IoT companies relevant.",
+    "status": "active",
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://www.adb.org/news/adb-supports-digital-transformation-uzbekistan-s-water-sector",
+        "title": "ADB Supports Digital Transformation of Uzbekistan's Water Sector",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "adb.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "ADB-KG-CUSTOMS-38177",
+    "donor": "ADB",
+    "program_name": "Regional Customs Modernization and Infrastructure Development Project (Kyrgyz component)",
+    "program_id_external": "38177-013",
+    "country": "KG",
+    "implementing_ministry_id": "KG-GTS",
+    "piu_institution_id": "KG-GTS-PIU",
+    "total_budget_usd": 18000000,
+    "disbursed_usd": null,
+    "period_start": "2018-01-01",
+    "period_end": "2025-12-31",
+    "procurement_modality": "ICB",
+    "ai_digital_relevance": "Customs risk scoring systems, electronic customs declaration processing, single window for trade. Digital customs infrastructure enabling AI-based risk analysis and fraud detection. Integrates with KG Tunduk inter-agency system.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] ADB CWRD (Central and West Asia Department). Search path: adb.org/projects/38177-013/main.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-gts-head",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "Project in closing stage. Follow-on digital customs investment anticipated post-ADB Country Operations Business Plan 2025-2027. Monitor ADB KG pipeline.",
+    "status": "closing",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.adb.org/projects/38177-013/main",
+        "title": "38177-013: Regional Customs Modernization and Infrastructure Development Project (KGZ) | ADB",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "adb.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "ADB-UZ-EGOVT-PIPELINE",
+    "donor": "ADB",
+    "program_name": "Uzbekistan E-Government and Digital Transformation Investment Pipeline (Country Partnership Strategy 2024-2028)",
+    "program_id_external": "UZ-CPS-2024-DIGITAL",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-MINTSIFRY",
+    "piu_institution_id": null,
+    "total_budget_usd": null,
+    "disbursed_usd": null,
+    "period_start": "2024-01-01",
+    "period_end": "2028-12-31",
+    "procurement_modality": "mixed",
+    "ai_digital_relevance": "ADB's Country Partnership Strategy for Uzbekistan 2024-2028 prioritizes digital governance, e-government services expansion, and digital economy enablement. Pipeline operations include potential investment loans for GovTech platforms, open government data, and public finance management digitalization.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] ADB Country Director for Uzbekistan leads CPS. Search path: adb.org/where-we-work/uzbekistan Country Director contact.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-mintsifry-head",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "Pre-investment stage. Engage ADB Tashkent resident mission. Concept papers and due diligence firms first entry point. Monitor ADB Business Opportunities for Uzbekistan.",
+    "status": "pipeline",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.adb.org/where-we-work/uzbekistan",
+        "title": "Uzbekistan and ADB — Country Overview and Partnership",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "adb.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "EU-BOTH-C4CA",
+    "donor": "EU",
+    "program_name": "Connectivity for Central Asia (C4CA)",
+    "program_id_external": "C4CA-2025-2028",
+    "country": "BOTH",
+    "implementing_ministry_id": null,
+    "piu_institution_id": null,
+    "total_budget_usd": 21600000,
+    "disbursed_usd": 0,
+    "period_start": "2025-01-01",
+    "period_end": "2028-12-31",
+    "procurement_modality": "mixed",
+    "ai_digital_relevance": "Regional digital connectivity initiative covering KZ, KG, TJ, TM, UZ. Four components: (1) high-capacity internet network development, (2) satellite constellation enabling environment, (3) ground infrastructure deployment, (4) capacity building for cybersecurity. Implementing partners: Expertise France, e-Governance Academy (Estonia), Finnish Institute of Public Management (HAUS), Lithuanian CPMA, Latvian CFCA. EGA involvement means X-Road/GovStack expertise available to KG Tunduk modernization.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] EU DG INTPA manages overall. Expertise France leads consortium. Contact: expertise-france.gestmax.fr for project vacancies. EU Delegation officers in Tashkent and Bishkek are political counterparts. Search path: Expertise France website C4CA project page.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-udp-digital-head",
+    "pipeline_tenders": [
+      {
+        "title": "Cybersecurity capacity building consultancy — regional",
+        "expected_date": "2025-Q3",
+        "estimated_value_usd": 3000000
+      },
+      {
+        "title": "Digital connectivity enabling environment advisory",
+        "expected_date": "2025-Q4",
+        "estimated_value_usd": 4000000
+      }
+    ],
+    "vendor_entry_pathway": "Sub-grants and sub-contracts through Expertise France consortium. EGA/HAUS often procure sub-consultants. Monitor EU-funded vacancies and sub-contracting notices. Cybersecurity capacity building is direct entry point for security vendors.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.eucybernet.eu/project/connectivity-for-central-asia-c4ca/",
+        "title": "Connectivity for Central Asia (C4CA) — EU CyberNet project page",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "eucybernet.eu",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "EU-BOTH-GLOBAL-GATEWAY-CA",
+    "donor": "EU",
+    "program_name": "Global Gateway Central Asia — Digital and Connectivity Package",
+    "program_id_external": "GG-CA-2025",
+    "country": "BOTH",
+    "implementing_ministry_id": null,
+    "piu_institution_id": null,
+    "total_budget_usd": 65000000,
+    "disbursed_usd": 0,
+    "period_start": "2025-01-01",
+    "period_end": "2027-12-31",
+    "procurement_modality": "mixed",
+    "ai_digital_relevance": "EU's Global Gateway digital connectivity package for Central Asia announced at April 2025 Samarkand summit. Includes: €60M EIB-EU package for SES satellite connectivity (rural CA populations in UZ, KG, KZ, TJ); digital trade facilitation; cybersecurity norms alignment. Broader package stated at €12B but majority is private mobilization. Digital components estimated €60-65M public funds. Covers connectivity infrastructure underpinning all digital services.",
+    "ttl_pm_name": "Jozef Síkela (EU Commissioner for International Partnerships — political owner). Operational managers at EU Delegation Tashkent and Bishkek. [Specific program officer TTL_NOT_FOUND]",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-mintsifry-head",
+    "pipeline_tenders": [
+      {
+        "title": "SES satellite connectivity rural Central Asia — EIB co-financed",
+        "expected_date": "2025-Q2",
+        "estimated_value_usd": 60000000
+      }
+    ],
+    "vendor_entry_pathway": "EIB-financed components procured by SES and partners. EU-financed TA components through implementing agencies. Engage EU Delegation Tashkent (eeas.europa.eu/delegations/uzbekistan) and Bishkek directly.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.eeas.europa.eu/delegations/uzbekistan/eu-strengthens-digital-and-economic-ties-uzbekistan-under-global-gateway_en",
+        "title": "EU strengthens digital and economic ties with Uzbekistan under Global Gateway | EEAS",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "eeas.europa.eu",
+        "source_tier": "international_org"
+      },
+      {
+        "url": "https://www.eib.org/en/press/all/2025-148-team-europe-provides-nearly-eur60-million-for-digital-connectivity-in-rural-central-asia",
+        "title": "Team Europe provides nearly €60 million for digital connectivity in rural Central Asia — EIB",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "eib.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "EU-UZ-UNDP-PUBLICSERVICE",
+    "donor": "EU",
+    "program_name": "Further Improvement of Public Service Delivery in Uzbekistan (EU-UNDP)",
+    "program_id_external": "EU-UZ-PUBSERV-2024",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-MINUST",
+    "piu_institution_id": "UZ-UNDP-PUBSERV-PIU",
+    "total_budget_usd": 5390000,
+    "disbursed_usd": 0,
+    "period_start": "2024-04-24",
+    "period_end": "2029-12-31",
+    "procurement_modality": "QCBS",
+    "ai_digital_relevance": "Digitize at least 35 public services; upskill 1,000 civil servants including AI/data science training for ICT specialists; establish 34 new public service delivery zones; digital user-centric transformation of back-office functions across 11 institutions. AI and data science training specifically for government ICT staff (5-day seminars, Tashkent region Oct 2025). Implementing: UNDP + Ministry of Justice + Agency for Strategic Reforms + Agency for Development of Public Service + MoDT.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] UNDP Uzbekistan implements. EU Delegation Tashkent finances. Search path: undp.org/uzbekistan/projects/further-improvement-public-service-delivery-uzbekistan for project manager contact.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-minust-minister",
+    "pipeline_tenders": [
+      {
+        "title": "Digital public services design and development — 35 services",
+        "expected_date": "2025-Q4",
+        "estimated_value_usd": 2000000
+      },
+      {
+        "title": "AI/data science training curriculum development for civil servants",
+        "expected_date": "2026-Q1",
+        "estimated_value_usd": 500000
+      }
+    ],
+    "vendor_entry_pathway": "UNDP-managed procurement (UNDP standard rules, RFP). Register as UNDP vendor. Sub-contracts through UNDP procurement. Digital service design firms, GovTech platforms, AI training providers are target categories.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.undp.org/uzbekistan/projects/further-improvement-public-service-delivery-uzbekistan",
+        "title": "Further Improvement of Public Service Delivery in Uzbekistan — UNDP project page",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "undp.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "EU-GIZ-UZ-GOVGOV",
+    "donor": "EU_GIZ",
+    "program_name": "Good Governance Program Uzbekistan (GIZ + EU co-financing)",
+    "program_id_external": "GIZ-UZ-GOVPROG-2022",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-MINUST",
+    "piu_institution_id": "UZ-GIZ-OFFICE",
+    "total_budget_usd": 12420000,
+    "disbursed_usd": null,
+    "period_start": "2022-04-01",
+    "period_end": "2027-03-31",
+    "procurement_modality": "QCBS",
+    "ai_digital_relevance": "Public administration reform including digital governance components; administrative law reform; corruption prevention. Less direct AI relevance but establishes institutional reform frameworks that precede digital procurement. Includes anti-corruption digital tools component. EU co-financing of €3.5M means dual accountability (BMZ + EU).",
+    "ttl_pm_name": "Dr. Viktor Kessler (GIZ Project Director, Uzbekistan)",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-minust-minister",
+    "pipeline_tenders": [
+      {
+        "title": "Anti-corruption digital transparency tools advisory",
+        "expected_date": "2025-Q3",
+        "estimated_value_usd": 500000
+      }
+    ],
+    "vendor_entry_pathway": "GIZ procurement via GIZ standard rules. Sub-contractors and embedded advisors engaged via GIZ. Contact Dr. Viktor Kessler at GIZ Tashkent. Anti-corruption analytics and transparency platforms relevant.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.giz.de/en/worldwide/129655.html",
+        "title": "Promoting Good Governance in Uzbekistan — GIZ project page",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "giz.de",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "EU-KG-SDC-GOVERNANCE",
+    "donor": "SDC",
+    "program_name": "Switzerland Cooperation Programme Central Asia 2022-2025 — Governance and Public Finance Component (Kyrgyzstan)",
+    "program_id_external": "SDC-KG-2022-2025",
+    "country": "KG",
+    "implementing_ministry_id": "KG-MINFIN",
+    "piu_institution_id": null,
+    "total_budget_usd": 16200000,
+    "disbursed_usd": null,
+    "period_start": "2022-01-01",
+    "period_end": "2026-12-31",
+    "procurement_modality": "QCBS",
+    "ai_digital_relevance": "Good governance, budget transparency, public finance management in KG. Limited direct AI relevance but includes civic budget monitoring tools, e-procurement for local governments, budget data visualization. SECO (State Secretariat for Economics) component covers economic development including digital financial services.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] SDC Kyrgyzstan resident coordinator. CHF 85.3M total programme 2022-2025 for KG, TJ, UZ combined; approximately CHF 40M SECO. Search path: deza.eda.admin.ch KG projects.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-minfin-minister",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "SDC procurement via Swiss agency rules. Monitor Swiss Cooperation Kyrgyzstan office (seco-cooperation.admin.ch) for consulting opportunities. Budget transparency and local governance digital tools are entry points.",
+    "status": "active",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.seco-cooperation.admin.ch/en/kyrgyzstan",
+        "title": "Switzerland SECO Cooperation — Kyrgyzstan",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "seco-cooperation.admin.ch",
+        "source_tier": "international_org"
+      },
+      {
+        "url": "https://www.deza.eda.admin.ch/en/country-central-asia-kyrgyzstan-tajikistan-uzbekistan",
+        "title": "Central Asia: Kyrgyzstan, Tajikistan, Uzbekistan — SDC country page",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "deza.eda.admin.ch",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "EU-FCDO-CA-GOVERNANCE",
+    "donor": "FCDO",
+    "program_name": "Effective Governance for Economic Development in Central Asia (EGED) + New Governance Programme",
+    "program_id_external": "GB-GOV-1-300961",
+    "country": "BOTH",
+    "implementing_ministry_id": null,
+    "piu_institution_id": null,
+    "total_budget_usd": 33000000,
+    "disbursed_usd": null,
+    "period_start": "2021-01-01",
+    "period_end": "2027-12-31",
+    "procurement_modality": "QCBS",
+    "ai_digital_relevance": "EGED (£25M) improving effectiveness of economic policies in KG, TJ, UZ through data/evidence-based policymaking, digital governance tools. New £30M governance programme in design (2026+). Supports digital solutions for local self-government. Data analytics and evidence tools relevant. UK has strategic interest in positioning post-USAID withdrawal.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] FCDO Central Asia Team (London HQ) + FCDO offices in Tashkent and Bishkek. Search path: devtracker.fcdo.gov.uk programme GB-GOV-1-300961.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-asr-head",
+    "pipeline_tenders": [
+      {
+        "title": "Economic data systems and digital governance advisory — CA regional",
+        "expected_date": "2026-Q1",
+        "estimated_value_usd": 5000000
+      }
+    ],
+    "vendor_entry_pathway": "FCDO procurement via Crown Commercial Service and direct contracts. Monitor devtracker.fcdo.gov.uk. UK-headquartered consulting firms have advantage but international subs welcome. Data analytics, policy AI tools entry points.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://devtracker.fcdo.gov.uk/programme/GB-GOV-1-300961/summary",
+        "title": "Effective Governance for Economic Development in Central Asia — FCDO DevTracker",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "devtracker.fcdo.gov.uk",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "EBRD-UZ-DIGITAL-STRATEGY",
+    "donor": "EBRD",
+    "program_name": "EBRD Uzbekistan Country Strategy 2024-2028 — Digital Economy and SME Digitalization Component",
+    "program_id_external": "EBRD-UZ-CS-2024",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-MINFIN",
+    "piu_institution_id": null,
+    "total_budget_usd": 200000000,
+    "disbursed_usd": null,
+    "period_start": "2024-01-01",
+    "period_end": "2028-12-31",
+    "procurement_modality": "direct",
+    "ai_digital_relevance": "EBRD strategy 2024-2028 explicitly prioritizes digitalization of private sector, e-commerce expansion, local capital markets development. Instruments: direct loans to digital companies, credit lines via partner banks for MSME digitalization, Star Venture programme for tech startups, Business Advisory Services for digital transformation. €5.6B invested in UZ to date across 174 projects.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] EBRD Uzbekistan Principal Banker (head of resident mission). Search path: ebrd.com/where-we-are/uzbekistan.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-minfin-minister",
+    "pipeline_tenders": [
+      {
+        "title": "Star Venture digital startup programme — Central Asia cohort",
+        "expected_date": "2025-Q3",
+        "estimated_value_usd": 5000000
+      }
+    ],
+    "vendor_entry_pathway": "EBRD direct financing (equity/loans) for tech companies; sub-advisory via EBRD BAS (Business Advisory Services). Engage EBRD Tashkent resident mission. Advisory assignments open to international consultants.",
+    "status": "active",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.ebrd.com/news/2024/ebrd-approves-new-country-strategy-for-uzbekistan.html",
+        "title": "EBRD approves new country strategy for Uzbekistan (2024)",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "ebrd.com",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "EBRD-KG-SME-DIGITAL",
+    "donor": "EBRD",
+    "program_name": "EBRD Kyrgyz Republic Country Strategy 2024-2029 — MSME and Digital Economy",
+    "program_id_external": "EBRD-KG-CS-2024",
+    "country": "KG",
+    "implementing_ministry_id": null,
+    "piu_institution_id": null,
+    "total_budget_usd": 50000000,
+    "disbursed_usd": null,
+    "period_start": "2024-01-01",
+    "period_end": "2029-12-31",
+    "procurement_modality": "direct",
+    "ai_digital_relevance": "KG Country Strategy 2024-2029 focuses on green, resilient, and digital economy. MSME digital capacity, fintech development, e-commerce enablement. US$5M SME support via KICB. Star Venture programme extends to KG startups. Business Advisory Services for SME digitalization.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] EBRD Kyrgyzstan Principal Banker. Search path: ebrd.com/where-we-are/kyrgyz-republic.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-minfin-minister",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "EBRD BAS advisory assignments; EBRD Star Venture programme. Engage EBRD Bishkek sub-office. E-commerce and fintech vendors can apply for equity/quasi-equity via EBRD MSME window.",
+    "status": "active",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.ebrd.com/content/dam/ebrd_dxp/assets/pdfs/country-strategies/kyrgyz-republic/EBRD-Latest-Kyrgyz%20Republic-Strategy.pdf",
+        "title": "EBRD Kyrgyz Republic Country Strategy 2024-2029",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "ebrd.com",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "EU-KG-TEAM-EUROPE-DIGITAL",
+    "donor": "EU",
+    "program_name": "Team Europe Initiative on Digital Connectivity for Kyrgyzstan",
+    "program_id_external": "TEI-KG-DIGITAL-2025",
+    "country": "KG",
+    "implementing_ministry_id": "KG-MINCIFRY",
+    "piu_institution_id": null,
+    "total_budget_usd": 10000000,
+    "disbursed_usd": null,
+    "period_start": "2025-01-01",
+    "period_end": "2028-12-31",
+    "procurement_modality": "mixed",
+    "ai_digital_relevance": "Team Europe package for KG digital: rural connectivity, e-governance readiness, data protection frameworks. EGA (Estonia) as key partner — directly relevant to Tunduk modernization and GovStack adoption. Multi-donor trust fund mechanism combining EU, member state contributions. Post-Mintsifry dissolution to UDP makes this a strategic engagement window.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] EU Delegation Bishkek leads. Search path: eeas.europa.eu/delegations/kyrgyz-republic/global-gateway.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-udp-digital-head",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "Monitor EU Delegation Bishkek procurement notices. EGA sub-contracts for GovStack/X-Road expertise. Enter via Team Europe implementing partners.",
+    "status": "pipeline",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.eeas.europa.eu/delegations/kyrgyz-republic/global-gateway-0_en",
+        "title": "Global Gateway — EEAS Kyrgyz Republic Delegation",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "eeas.europa.eu",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "EU-GIZ-KG-DECENTRALISATION",
+    "donor": "EU_GIZ",
+    "program_name": "GIZ Kyrgyzstan — Economic Development and Local Governance (incl. MIS/digital components)",
+    "program_id_external": "GIZ-KG-ECDEV",
+    "country": "KG",
+    "implementing_ministry_id": "KG-MINFINANCE",
+    "piu_institution_id": null,
+    "total_budget_usd": 8000000,
+    "disbursed_usd": null,
+    "period_start": "2022-01-01",
+    "period_end": "2026-12-31",
+    "procurement_modality": "QCBS",
+    "ai_digital_relevance": "GIZ KG economic development programme with components covering agricultural value chains, rural finance, and governance — includes MIS (Management Information Systems) for agricultural sector and local government. 77 national + 5 international staff. Limited direct AI relevance but MIS components create IT sub-contracting opportunities.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] GIZ Kyrgyzstan country office head. Search path: giz.de/en/regions/asia/kyrgyzstan contact page.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-minfin-minister",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "GIZ sub-contracting; embedded advisory. Contact GIZ Bishkek (+996 312 90 90 70). MIS and digital tools sub-contracts relevant.",
+    "status": "active",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.giz.de/en/regions/asia/kyrgyzstan",
+        "title": "Kyrgyzstan | GIZ — country page (15 commissions, 82 staff)",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "giz.de",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "UNDP-UZ-DIGITAL-PUBADMIN",
+    "donor": "UNDP",
+    "program_name": "Public Administration Reforms and Digital Transformation (Uzbekistan) — completed phase; follow-on active",
+    "program_id_external": "UNDP-UZ-PUBADMIN-DIGITAL",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-ASR",
+    "piu_institution_id": "UZ-UNDP-OFFICE",
+    "total_budget_usd": 4900000,
+    "disbursed_usd": null,
+    "period_start": "2024-04-24",
+    "period_end": "2029-12-31",
+    "procurement_modality": "RFP",
+    "ai_digital_relevance": "Digitalize 35+ public services; AI and data science upskilling for 1,000+ civil servants; digital user-centric transformation of back-office at 11 agencies; 34 new public service zones (digital access points). UNDP piloted Uzbek-language AI tools for youth entrepreneurs. UNDP published Digital Economy of Uzbekistan report (May 2025) — direct research leverage. Implementing partners: Ministry of Justice, ASR, Agency for Public Service Development, MoDT.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] UNDP Uzbekistan Digital Programme Manager. Search path: jobs.undp.org UNDP-UZ digital programme manager vacancy post.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-asr-head",
+    "pipeline_tenders": [
+      {
+        "title": "Digital public services platform development (35 services)",
+        "expected_date": "2025-Q4",
+        "estimated_value_usd": 1500000
+      },
+      {
+        "title": "Civil servant AI/data science training delivery (UNDP RFP)",
+        "expected_date": "2026-Q1",
+        "estimated_value_usd": 400000
+      }
+    ],
+    "vendor_entry_pathway": "UNDP standard RFP procurement. Register at ungm.org as UNDP vendor. Contact UNDP Uzbekistan office in Tashkent. AI training providers, GovTech platform firms, UX/service design agencies are target categories.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.undp.org/uzbekistan/projects/further-improvement-public-service-delivery-uzbekistan",
+        "title": "Further Improvement of Public Service Delivery in Uzbekistan — UNDP",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "undp.org",
+        "source_tier": "international_org"
+      },
+      {
+        "url": "https://www.undp.org/uzbekistan/press-releases/driving-digital-transformation-eu-and-undp-upskill-ict-specialists-ai-and-data-science",
+        "title": "Driving Digital Transformation: EU and UNDP Upskill ICT Specialists in AI and Data Science (Oct 2025)",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "undp.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "UNDP-UZ-AI-COURTS",
+    "donor": "UNDP",
+    "program_name": "ICT Implementation in Civil Courts of Uzbekistan",
+    "program_id_external": "UNDP-UZ-COURTS-ICT",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-SUPREM-COURT",
+    "piu_institution_id": null,
+    "total_budget_usd": 2000000,
+    "disbursed_usd": null,
+    "period_start": "2023-01-01",
+    "period_end": "2026-12-31",
+    "procurement_modality": "RFP",
+    "ai_digital_relevance": "UNDP analytical note on ICT implementation in civil courts (2025). Directly linked to УП-140 'Digital Justice' decree. AI in courts analysis: document drafting tools, case management systems, e-filing, AI-assisted legal research. Convergent with CW-001 (highest priority convergent window). Pre-cursor to larger court digitalization investment.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] UNDP Uzbekistan Rule of Law / Justice cluster. Search path: undp.org/uzbekistan/publications/analytical-note-ict-implementation-civil-courts-uzbekistan.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-supreme-court-head",
+    "pipeline_tenders": [
+      {
+        "title": "Court AI document drafting system advisory and pilot",
+        "expected_date": "2026-Q1",
+        "estimated_value_usd": 800000
+      }
+    ],
+    "vendor_entry_pathway": "UNDP-managed TA. Very high strategic relevance to AI-in-courts initiative. Contact UNDP Uzbekistan justice sector team. Aligns with government's УП-140 Digital Justice decree.",
+    "status": "active",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.undp.org/uzbekistan/publications/analytical-note-ict-implementation-civil-courts-uzbekistan",
+        "title": "Analytical Note: ICT Implementation in Civil Courts of Uzbekistan — UNDP 2025",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "undp.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "UNDP-KG-DIGITAL-TRANSFORM",
+    "donor": "UNDP",
+    "program_name": "Advancing Digital Transformation in Kyrgyzstan",
+    "program_id_external": "UNDP-KG-DIGITAL-2024",
+    "country": "KG",
+    "implementing_ministry_id": "KG-MINCIFRY",
+    "piu_institution_id": "KG-UNDP-OFFICE",
+    "total_budget_usd": 3500000,
+    "disbursed_usd": null,
+    "period_start": "2024-01-01",
+    "period_end": "2026-12-31",
+    "procurement_modality": "RFP",
+    "ai_digital_relevance": "Supports implementation of KG Digital Transformation Concept 2024-2028. GovStack implementation support, digital services expansion, gender-inclusive digital access. UNDP partnership with Government of South Korea (KOICA coordination). E-commerce development support (KG hosted E-Commerce Expo 2024). Accelerator Lab active: innovation mapping, grassroots digital solution incubation.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] UNDP Kyrgyzstan Digital Programme Manager (vacancy posted jobs.undp.org post 110741 IPSA-11). UNDP Resident Representative is the country head.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-udp-digital-head",
+    "pipeline_tenders": [
+      {
+        "title": "GovStack adoption advisory for KG UDP digital department",
+        "expected_date": "2026-Q2",
+        "estimated_value_usd": 500000
+      }
+    ],
+    "vendor_entry_pathway": "UNDP Kyrgyzstan standard RFP. Register at ungm.org. Accelerator Lab pilot contracts available for innovation firms. Contact UNDP Bishkek office.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.undp.org/kyrgyzstan/press-releases/advancing-digital-transformation-kyrgyzstan-joint-effort-sustainable-development",
+        "title": "Advancing Digital Transformation in Kyrgyzstan: A Joint Effort for Sustainable Development — UNDP",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "undp.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "UNDP-KG-GENDER-DIGITAL",
+    "donor": "UNDP",
+    "program_name": "Gender Mainstreaming in Digital Transformation for Good Governance (Kyrgyzstan)",
+    "program_id_external": "UNDP-KG-GENDER-DIGITAL",
+    "country": "KG",
+    "implementing_ministry_id": "KG-MINCIFRY",
+    "piu_institution_id": null,
+    "total_budget_usd": 1200000,
+    "disbursed_usd": null,
+    "period_start": "2023-01-01",
+    "period_end": "2025-12-31",
+    "procurement_modality": "RFP",
+    "ai_digital_relevance": "Gender-inclusive digital transformation in government. Digital access for women, gender data in digital registries, women's digital skills. Links to digital social registry and identity systems. Small project with strategic positioning value.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] UNDP KG Gender and Governance team. Search path: undp.org/kyrgyzstan/projects/gender-mainstreaming-digital-transformation-good-governance.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-mincifry-head",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "Small UNDP-managed TA. Gender tech and digital inclusion NGOs/firms. UNDP Bishkek sub-contracts.",
+    "status": "active",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.undp.org/kyrgyzstan/projects/gender-mainstreaming-digital-transformation-good-governance",
+        "title": "Gender Mainstreaming in Digital Transformation for Good Governance — UNDP Kyrgyzstan",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "undp.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "UNICEF-UZ-EDTECH-LEARNING",
+    "donor": "UNICEF",
+    "program_name": "Uzbekistan Learning Innovation Hub — AI-Driven EdTech (Eduten / Learning Pioneers Programme)",
+    "program_id_external": "UNICEF-UZ-EDTECH-2024",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-MINOBR",
+    "piu_institution_id": null,
+    "total_budget_usd": 2000000,
+    "disbursed_usd": null,
+    "period_start": "2024-01-01",
+    "period_end": "2026-12-31",
+    "procurement_modality": "direct",
+    "ai_digital_relevance": "Uzbekistan selected as one of 6 global 'Learning Pioneers' (2024). Eduten platform — AI-driven math education tool with 200,000+ tasks, learning analytics, automated assessment. Finnish-government-funded. Pilot in UZ schools with UNICEF Learning Innovation Hub. Direct AI education application. MoSHE (Ministry of School and Higher Education) counterpart. AI-based adaptive learning for Uzbek curriculum.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] UNICEF Uzbekistan Education Chief. Search path: unicef.org/uzbekistan team page.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-minobr-minister",
+    "pipeline_tenders": [
+      {
+        "title": "AI-adaptive learning platform scale-up for UZ schools",
+        "expected_date": "2025-Q4",
+        "estimated_value_usd": 1500000
+      }
+    ],
+    "vendor_entry_pathway": "UNICEF direct partnership with EdTech providers. Eduten (Finnish) is current partner. Competing/complementary EdTech firms can approach UNICEF Education innovation team. Uzbek-language AI tutoring is key differentiator.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.unicef.org/innovation/media/24166/file/Uzbekistan%20Eduten%20Piloting%20Implementation%20Repor25June2025.pdf.pdf",
+        "title": "Educational Technology Use in Uzbek Schools — Eduten Piloting Implementation Report 2025",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "unicef.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "UNICEF-KG-DIGITAL-EARLY",
+    "donor": "UNICEF",
+    "program_name": "UNICEF Kyrgyzstan — Digital Innovations for Early Learning and Child Development",
+    "program_id_external": "UNICEF-KG-EARLYLEARN",
+    "country": "KG",
+    "implementing_ministry_id": "KG-MINOBR",
+    "piu_institution_id": null,
+    "total_budget_usd": 1500000,
+    "disbursed_usd": null,
+    "period_start": "2024-01-01",
+    "period_end": "2026-12-31",
+    "procurement_modality": "RFP",
+    "ai_digital_relevance": "UNICEF + MoES Kyrgyzstan launched digital innovations for early learning and child development. EMIS (Education Management Information System) strengthening in KG. Also an IsDB pipeline of $35.7M for education in KG/UZ/TJ covering EMIS and digital learning systems 2024-2025. Child development digital tracking.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] UNICEF Kyrgyzstan Education Officer. Search path: unicef.org/kyrgyzstan press releases.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-minobr-minister",
+    "pipeline_tenders": [
+      {
+        "title": "EMIS upgrade and child development digital registry",
+        "expected_date": "2025-Q3",
+        "estimated_value_usd": 800000
+      }
+    ],
+    "vendor_entry_pathway": "UNICEF procurement and RFP. Digital child registry and EMIS vendors relevant. IsDB pipeline ($35.7M) is separate larger opportunity — monitor IsDB project portal.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.unicef.org/kyrgyzstan/press-releases/ministry-education-and-science-and-unicef-launch-digital-innovations-support-early",
+        "title": "Ministry of Education and Science and UNICEF launch digital innovations to support early learning in Kyrgyzstan",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "unicef.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "ITU-BOTH-SPECTRUM-DIGITAL",
+    "donor": "ITU",
+    "program_name": "ITU Digital Transformation Centre and Spectrum Harmonization — Uzbekistan and Kyrgyzstan",
+    "program_id_external": "ITU-CA-DTC-2024",
+    "country": "BOTH",
+    "implementing_ministry_id": "UZ-MINTSIFRY",
+    "piu_institution_id": null,
+    "total_budget_usd": 3000000,
+    "disbursed_usd": null,
+    "period_start": "2024-01-01",
+    "period_end": "2026-12-31",
+    "procurement_modality": "direct",
+    "ai_digital_relevance": "ITU Digital Transformation Centre activities for CIS region including UZ and KG. Spectrum policy advisory (UZ first in region to allocate 700MHz for IMT). ITU Academy digital skills programs. Giga initiative (ITU-UNICEF): school connectivity in KG and UZ. WTDC-25 Regional Preparatory Meeting held Bishkek April 2025 — ITU regional presence confirmed.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] ITU CIS Regional Office (Geneva) + ITU Area Representative for CIS. Search path: itu.int/en/ITU-D/Regional-Presence/CIS.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-mintsifry-head",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "ITU procurement for advisory and equipment is small-scale. Strategic value is alignment — ITU advisory shapes national digital policies and procurement specs. Engage ITU CIS area office. ITU Digital Transformation Centre workshops are venue for vendor visibility.",
+    "status": "active",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.itu.int/en/ITU-D/Regional-Presence/CIS/Pages/News/11042024.aspx",
+        "title": "Towards Digital Transformation — ITU CIS Regional News",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "itu.int",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "KOICA-UZ-IT-EDU",
+    "donor": "KOICA",
+    "program_name": "Enhancing Youth Employment and Entrepreneurship through Improving IT Education Ecosystem in Uzbekistan",
+    "program_id_external": "KOICA-UZ-IT-2026",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-MINTSIFRY",
+    "piu_institution_id": "UZ-KOICA-PIU",
+    "total_budget_usd": 14000000,
+    "disbursed_usd": 0,
+    "period_start": "2026-01-01",
+    "period_end": "2032-12-31",
+    "procurement_modality": "mixed",
+    "ai_digital_relevance": "Grant funding to develop UZ IT education ecosystem: 2 new IT hubs (Nukus and Karshi), 14 IT centers across 7 regions, training in AI, prompt engineering, programming, IoT, online marketing for 500+ specialists and educators. Startup incubation with Korean experts. Directly aligns with УП-189 AI decree targets and WB P179108 digital inclusion pipeline.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] KOICA Uzbekistan Office (Tashkent) — Country Director. Search path: koica.go.kr/sites/uzb_en/index.do.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-mintsifry-head",
+    "pipeline_tenders": [
+      {
+        "title": "IT hubs construction and equipment (Nukus, Karshi) — ICB",
+        "expected_date": "2026-Q3",
+        "estimated_value_usd": 5000000
+      },
+      {
+        "title": "14 IT center fitout and equipment supply",
+        "expected_date": "2026-Q4",
+        "estimated_value_usd": 4000000
+      },
+      {
+        "title": "AI/prompt engineering curriculum development and trainers",
+        "expected_date": "2027-Q1",
+        "estimated_value_usd": 2000000
+      }
+    ],
+    "vendor_entry_pathway": "KOICA procurement via its own rules (Korean grant). Monitor KOICA Tashkent office for RFP. Construction + ICT equipment suppliers first in. AI training firms as curriculum developers. Korean-origin firms have preference but international subs possible.",
+    "status": "pipeline",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://daryo.uz/en/2026/04/27/koica-allocates-14mn-to-support-it-education-youth-employment-in-uzbekistan/",
+        "title": "KOICA allocates $14mn to support IT education, youth employment in Uzbekistan — daryo.uz April 2026",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "daryo.uz",
+        "source_tier": "media_primary"
+      },
+      {
+        "url": "https://kun.uz/en/news/2026/04/27/koica-to-fund-new-it-hubs-and-digital-training-centers-across-uzbekistan",
+        "title": "KOICA to fund new IT hubs and digital training centers across Uzbekistan — kun.uz",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "kun.uz",
+        "source_tier": "media_primary"
+      }
+    ]
+  },
+  {
+    "id": "KOICA-KG-TUNDUK",
+    "donor": "KOICA",
+    "program_name": "Modernization and Capacity Development of TUNDUK Administrative Information Sharing and Interoperability System",
+    "program_id_external": "KOICA-KG-TUNDUK-2020",
+    "country": "KG",
+    "implementing_ministry_id": "KG-GP-TUNDUK",
+    "piu_institution_id": "KG-TUNDUK-PIU",
+    "total_budget_usd": 5000000,
+    "disbursed_usd": null,
+    "period_start": "2020-01-01",
+    "period_end": "2025-12-31",
+    "procurement_modality": "mixed",
+    "ai_digital_relevance": "Modernization of KG Tunduk inter-agency data exchange (X-Road fork): optimize public functions, increase electronic interoperability across all government agencies. Post-Mintsifry dissolution, Tunduk now under UDP — new TORs expected. KOICA follow-on project Capacity Building for Digital Transformation 2024-2027 ($7M) anticipated.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] KOICA Kyrgyzstan Office (Bishkek) — Country Director. Search path: donors.kg/en/agencies/2905-koica.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-tunduk-director",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "KOICA procurement. Follow-on $7M Capacity Building project (2024-2027) is next entry point. KOICA Bishkek office for contact. Tunduk modernization — system integration firms, API development, eService platforms relevant.",
+    "status": "closing",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.donors.kg/en/agencies/2905-koica",
+        "title": "Korea International Cooperation Agency (KOICA) Kyrgyz Republic Office — donors.kg",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "donors.kg",
+        "source_tier": "expert_commentary"
+      }
+    ]
+  },
+  {
+    "id": "KOICA-KG-DIGCAP",
+    "donor": "KOICA",
+    "program_name": "Capacity Building of National Informatization for Digital Transformation in the Kyrgyz Republic",
+    "program_id_external": "KOICA-KG-DIGCAP-2024",
+    "country": "KG",
+    "implementing_ministry_id": "KG-MINCIFRY",
+    "piu_institution_id": null,
+    "total_budget_usd": 7000000,
+    "disbursed_usd": 0,
+    "period_start": "2024-01-01",
+    "period_end": "2027-12-31",
+    "procurement_modality": "mixed",
+    "ai_digital_relevance": "National informatization capacity building: training of government IT specialists, e-service development, digital governance capacity. Post-Mintsifry: working with UDP digital department. Korea digital governance model transfer (On-nara/Government 24 reference). AI component for digital government services expected.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] KOICA Bishkek. Search path: donors.kg + KOICA annual report.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-udp-digital-head",
+    "pipeline_tenders": [
+      {
+        "title": "Digital governance capacity training — government IT staff",
+        "expected_date": "2025-Q3",
+        "estimated_value_usd": 2000000
+      }
+    ],
+    "vendor_entry_pathway": "KOICA procurement. Korean-origin firms preferred but international sub-contractors viable. E-government training providers relevant.",
+    "status": "active",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.donors.kg/en/agencies/2905-koica",
+        "title": "Korea International Cooperation Agency (KOICA) Kyrgyz Republic — portfolio overview",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "donors.kg",
+        "source_tier": "expert_commentary"
+      }
+    ]
+  },
+  {
+    "id": "JICA-UZ-DIGITAL-INNOVATION",
+    "donor": "JICA",
+    "program_name": "JICA Uzbekistan Digital Technology and Innovation Cooperation (Uzbek-Japanese Youth Innovation Center + Technical Cooperation)",
+    "program_id_external": "JICA-UZ-INNOV-2025",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-MINHESAI",
+    "piu_institution_id": null,
+    "total_budget_usd": 8000000,
+    "disbursed_usd": null,
+    "period_start": "2023-01-01",
+    "period_end": "2028-12-31",
+    "procurement_modality": "QCBS",
+    "ai_digital_relevance": "Uzbek-Japanese Youth Innovation Center (JICA-supported) with digital and tech focus. Technical cooperation projects in healthcare digitalization (JICA loan $150M for Republican Center for Neurology and Stroke — includes digital hospital management systems). JICA expanding presence in UZ: over €7B cooperation announced Dec 2025. Digital components in transport, logistics, agriculture. Japan-CA digital cooperation framework.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] JICA Uzbekistan Office Representative (Tashkent). Search path: jica.go.jp/uzbekistan/english/.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-minhesai-minister",
+    "pipeline_tenders": [
+      {
+        "title": "Digital hospital management system for neurology center",
+        "expected_date": "2025-Q4",
+        "estimated_value_usd": 5000000
+      }
+    ],
+    "vendor_entry_pathway": "JICA procurement via Japan International Cooperation System (JICS). Japanese firms preferred but international competitive. Monitor JICA UZ office for RFP. Health IT, hospital MIS, digital logistics firms relevant.",
+    "status": "active",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.jica.go.jp/uzbekistan/english/index.html",
+        "title": "Uzbekistan | Countries & Regions | JICA",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "jica.go.jp",
+        "source_tier": "international_org"
+      },
+      {
+        "url": "https://www.euronews.com/2025/12/19/uzbekistan-and-japan-announce-new-cooperation-projects",
+        "title": "Uzbekistan and Japan announce new cooperation projects worth over €11 billion (Dec 2025)",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "euronews.com",
+        "source_tier": "media_primary"
+      }
+    ]
+  },
+  {
+    "id": "EGA-KG-TWINNING",
+    "donor": "EU",
+    "program_name": "e-Governance Academy (EGA) Twinning — Support to Digitalisation Agenda in Kyrgyzstan",
+    "program_id_external": "EGA-KG-TWINNING-2021",
+    "country": "KG",
+    "implementing_ministry_id": "KG-MINCIFRY",
+    "piu_institution_id": null,
+    "total_budget_usd": 2160000,
+    "disbursed_usd": 2160000,
+    "period_start": "2021-10-01",
+    "period_end": "2023-10-31",
+    "procurement_modality": "direct",
+    "ai_digital_relevance": "EGA (Estonia) + HAUS (Finland) + CSI-Piemonte (Italy) twinning for KG digital agenda: e-governance systems, e-learning, data protection (GDPR-modeled), cybersecurity strategy, Innovation Centre of Digital Competencies. Project Manager: Tõnis Mäe (EGA). Completed Oct 2023 but EGA now C4CA implementing partner — ongoing relationship. KG-Estonia digital bridge is active and strategic.",
+    "ttl_pm_name": "Tõnis Mäe (e-Governance Academy, Project Manager — completed project; EGA active in C4CA follow-on)",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-mincifry-head",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "Completed project. EGA now engaged via C4CA (2025-2028). Engage Tõnis Mäe / EGA directly for sub-contracting in C4CA. X-Road/GovStack expertise vendors seek EGA partnership.",
+    "status": "closed",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://ega.ee/project/kyrgyzstan-twinning/",
+        "title": "Twinning Project: Support to Digitalisation Agenda in Kyrgyzstan — e-Governance Academy",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "ega.ee",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "CHINA-DSR-UZ-GOVCLOUD",
+    "donor": "China_DSR",
+    "program_name": "Huawei Cloud Stack — Uzbekistan Government Cloud and AI Data Center Strategy",
+    "program_id_external": "HUAWEI-UZ-GOVCLOUD",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-MINTSIFRY",
+    "piu_institution_id": "UZ-UZINFOCOM",
+    "total_budget_usd": 50000000,
+    "disbursed_usd": null,
+    "period_start": "2020-01-01",
+    "period_end": "2030-12-31",
+    "procurement_modality": "direct",
+    "ai_digital_relevance": "Huawei Cloud Stack powers UZ national government cloud: 447 public services, 4.5M users. Huawei Digital Power AI data center roadmap presented May 2025 — supports UZ $1.5B AI Development Strategy 2030. Huawei 'Seeds for the Future' talent program (150+ students Tashkent 2024). MoU signed between UZ MoDT and Huawei. Critical incumbent position — digital sovereignty framing vs. Western SaaS.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] Huawei President for Middle East and Central Asia (met UZ MoDT). Huawei Tashkent representative. State channel: UZINFOCOM as system integrator. Note: opaque — no public procurement, state-to-state cooperation or direct MoU.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-mintsifry-head",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "Opaque — direct state cooperation, no open procurement. Competitive displacement requires positioning as complement (Russian-language AI on Huawei infrastructure) or alternative (sovereignty risk narrative). Note: Huawei incumbent for gov cloud creates lock-in risk for new entrants.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.huaweicloud.com/eu/cases/uzbekistangovernmentcloud.html",
+        "title": "Uzbekistan Government Cloud — Largest Data Center in Central Asia, Government Cloud Benchmark in Eurasia (Huawei)",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "huaweicloud.com",
+        "source_tier": "expert_commentary"
+      },
+      {
+        "url": "https://e.huawei.com/en/news/2025/solutions/data-center/ai-powered-data-centers",
+        "title": "Huawei Outlines Vision for AI-Powered Data Centers to Support Uzbekistan's Digital Transformation (May 2025)",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "e.huawei.com",
+        "source_tier": "expert_commentary"
+      }
+    ]
+  },
+  {
+    "id": "CHINA-DSR-KG-DATACENTER",
+    "donor": "China_DSR",
+    "program_name": "Huawei — Kyrgyzstan Unified Government Database and Data Center Initiative",
+    "program_id_external": "HUAWEI-KG-DATACENTER",
+    "country": "KG",
+    "implementing_ministry_id": "KG-MINCIFRY",
+    "piu_institution_id": null,
+    "total_budget_usd": null,
+    "disbursed_usd": null,
+    "period_start": "2024-01-01",
+    "period_end": "2028-12-31",
+    "procurement_modality": "direct",
+    "ai_digital_relevance": "Huawei proposal: unified database of state agencies and local governments in KG (currently fragmented separate ISs). MoDD expressed interest in cooperation with Huawei Technologies Bishkek Co., LTD. Pre-MoU stage as of 2024. Potentially competing with Tunduk/UDP digital modernization funded by WB and EU. Context: Digital Silk Road expansion.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] Huawei Technologies Bishkek Co. LTD representative. KG MoDT Minister (now UDP post-restructuring). Opaque negotiations.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-udp-digital-head",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "Opaque Chinese state-to-state track. Competitive intelligence only. Note as threat/context for other donors' digital projects in KG. Post-Mintsifry dissolution may slow Huawei deal due to new decision-makers.",
+    "status": "pipeline",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://en.kabar.kg/news/huawei-intends-to-create-data-center-in-kyrgyzstan/",
+        "title": "Huawei intends to create Data Center in Kyrgyzstan — Kabar news agency",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "kabar.kg",
+        "source_tier": "media_primary"
+      }
+    ]
+  },
+  {
+    "id": "TIKA-UZ-KG-DIGITAL",
+    "donor": "TIKA",
+    "program_name": "TIKA Turkey — Digital and Educational Cooperation (Uzbekistan and Kyrgyzstan)",
+    "program_id_external": "TIKA-CA-DIGITAL",
+    "country": "BOTH",
+    "implementing_ministry_id": null,
+    "piu_institution_id": null,
+    "total_budget_usd": 5000000,
+    "disbursed_usd": null,
+    "period_start": "2022-01-01",
+    "period_end": "2026-12-31",
+    "procurement_modality": "direct",
+    "ai_digital_relevance": "TIKA operates through Tashkent PCO (Uzbekistan, 900+ projects since 1992) and Bishkek PCO (Kyrgyzstan). Digital components: e-education, ICT training labs, vocational digital skills. Turkey's expanding digital footprint in Turkic CA countries. TIKA often channels Turkish state tech (STM, HAVELSAN, ASELSAN civilian) into government projects. Havelsan digital judiciary platform directly relevant to UZ digital courts (УП-140).",
+    "ttl_pm_name": "[TTL_NOT_FOUND] TIKA Tashkent PCO Coordinator; TIKA Bishkek PCO Coordinator. Search path: tika.gov.tr/en/office/uzbekistan-tashkent-program-coordination-office.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-mintsifry-head",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "Direct state cooperation — limited open procurement. Turkish firms preferred. Turkish-CA cultural bridge is competitive advantage. TIKA channel to position Turkish digital judiciary (Havelsan) for УП-140 courts tender.",
+    "status": "active",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://tika.gov.tr/en/office/uzbekistan-tashkent-program-coordination-office/",
+        "title": "TIKA Uzbekistan — Tashkent Program Coordination Office",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "tika.gov.tr",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "ISDB-UZ-EDUCATION-SMARTED",
+    "donor": "IsDB",
+    "program_name": "IsDB-GPE SmartEd Education Transformation Project (Uzbekistan)",
+    "program_id_external": "ISDB-UZ-SMARTED",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-MINOBR",
+    "piu_institution_id": "UZ-MINOBR-PIU",
+    "total_budget_usd": 220250000,
+    "disbursed_usd": null,
+    "period_start": "2024-01-01",
+    "period_end": "2028-12-31",
+    "procurement_modality": "ICB",
+    "ai_digital_relevance": "Part of IsDB SmartEd $350M regional program (UZ, KG, Cameroon). In UZ: constructs 80+ schools with digital infrastructure; improves EMIS (Education Management Information System) for data-driven decision-making; implements competency-based curriculum with digital learning tools; teacher professional development digital platforms. Total: IsDB $160.25M + GPE grant $40M + Government $20M. UNICEF tripartite partner. EMIS upgrade directly relevant for education AI analytics.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] IsDB Country Director for Uzbekistan. UNICEF UZ Education Chief is tripartite co-implementer. Search path: isdb.org/news/islamic-development-bank-and-uzbekistan-sign-landmark-education-project-with-gpe-grant-support.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-minobr-minister",
+    "pipeline_tenders": [
+      {
+        "title": "EMIS upgrade and digital learning infrastructure (ICB)",
+        "expected_date": "2025-Q3",
+        "estimated_value_usd": 15000000
+      },
+      {
+        "title": "80 schools ICT equipment and digital labs supply",
+        "expected_date": "2025-Q4",
+        "estimated_value_usd": 25000000
+      },
+      {
+        "title": "Digital curriculum and teacher training platform development",
+        "expected_date": "2026-Q1",
+        "estimated_value_usd": 8000000
+      }
+    ],
+    "vendor_entry_pathway": "IsDB procurement (QCBS for consulting, ICB for major contracts). Monitor IsDB procurement notices for UZ education sector. EMIS vendors, EdTech platforms, digital curriculum providers are target categories.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.isdb.org/news/islamic-development-bank-and-uzbekistan-sign-landmark-education-project-with-gpe-grant-support",
+        "title": "IsDB and Uzbekistan Sign Landmark Education Project with GPE Grant Support",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "isdb.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "AIIB-UZ-TELECOM-P000758",
+    "donor": "AIIB",
+    "program_name": "Uzbekistan Telecom Digital Connectivity Project",
+    "program_id_external": "AIIB-P000758",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-UZTELEKOM",
+    "piu_institution_id": "UZ-UZTELEKOM-PIU",
+    "total_budget_usd": 100000000,
+    "disbursed_usd": 0,
+    "period_start": "2025-08-01",
+    "period_end": "2030-12-31",
+    "procurement_modality": "ICB",
+    "ai_digital_relevance": "AIIB $100M loan to Uzbekistan (approved Aug 2025). Expands Uztelecom's high-speed wireless and fixed broadband. Metrics: % 4G/5G subscribers, fixed broadband household subscribers, 4G/5G population/urban coverage. Digital connectivity backbone enabling AI/cloud service delivery. Uztelecom is state SOE implementing entity. AIIB co-financing with other IFIs possible.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] AIIB Investment Operations (Central Asia). Search path: aiib.org/en/projects/details/2025/approved/uzbekistan-telecom.html.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-uztelekom-ceo",
+    "pipeline_tenders": [
+      {
+        "title": "4G/5G network equipment supply (ICB)",
+        "expected_date": "2026-Q1",
+        "estimated_value_usd": 40000000
+      },
+      {
+        "title": "Fixed broadband infrastructure expansion",
+        "expected_date": "2026-Q2",
+        "estimated_value_usd": 30000000
+      }
+    ],
+    "vendor_entry_pathway": "AIIB procurement via AIIB Procurement Policy. ICB for major equipment. Monitor AIIB procurement portal for Uzbekistan Telecom project. Telecom equipment vendors, network infrastructure firms relevant.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.aiib.org/en/projects/details/2025/approved/uzbekistan-telecom.html",
+        "title": "Uzbekistan: Uzbekistan Telecom — AIIB approved project page",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "aiib.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "EDB-BOTH-DIGITAL-INITIATIVES",
+    "donor": "EDB",
+    "program_name": "EDB Fund for Digital Initiatives — Uzbekistan and Kyrgyzstan Digital Integration",
+    "program_id_external": "EDB-FDI-CA",
+    "country": "BOTH",
+    "implementing_ministry_id": null,
+    "piu_institution_id": null,
+    "total_budget_usd": 20000000,
+    "disbursed_usd": null,
+    "period_start": "2024-01-01",
+    "period_end": "2027-12-31",
+    "procurement_modality": "direct",
+    "ai_digital_relevance": "EDB Fund for Digital Initiatives (FDI) presents projects at Digital Almaty 2025: (1) National Digital Investment Platform (800 investment projects, 150,000 jobs potential); (2) BEE-ONLINE light industry ecosystem connecting UZ, KG, Russia, Armenia, Belarus, KZ. Uzbekistan joined EDB 2025 (10% stake, 3rd largest shareholder). EDB FDI specifically focuses on AI and digital transformation across Eurasian Economic Union and associated states. Regional digital integration play.",
+    "ttl_pm_name": "Tigran Sargsyan (EDB Vice Chairman, Management Board — presents FDI projects publicly; not TTL per se but senior sponsor)",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-minfin-minister",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "EDB FDI is proprietary fund — invests directly in digital projects, not open procurement. Engage via EDB Tashkent or Bishkek representative offices. Digital investment platform and BEE-ONLINE sub-contracting potential.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://eabr.org/en/press/news/the-edb-fund-for-digital-initiatives-expands-cooperation-with-the-republic-of-uzbekistan-in-the-fiel/",
+        "title": "EDB Fund for Digital Initiatives expands cooperation with Uzbekistan in digital transformation",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "eabr.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "EFSD-KG-STABILIZATION",
+    "donor": "EFSD",
+    "program_name": "Eurasian Fund for Stabilization and Development — Kyrgyzstan Digital Infrastructure Component",
+    "program_id_external": "EFSD-KG-DIGITAL",
+    "country": "KG",
+    "implementing_ministry_id": "KG-MINFIN",
+    "piu_institution_id": null,
+    "total_budget_usd": 10000000,
+    "disbursed_usd": null,
+    "period_start": "2023-01-01",
+    "period_end": "2026-12-31",
+    "procurement_modality": "direct",
+    "ai_digital_relevance": "EFSD (Russian-led stabilization fund; KG is member) provides budget support and concessional financing. Digital infrastructure components in KG budget support programs (public finance management digitalization, customs automation). Post-2022 geopolitical positioning: EFSD represents alternative to Western IFI track. Less transparent.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] EFSD Director General. Russian-led governance means low public transparency. Search path: efsd.info for KG country programs.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-minfin-minister",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "Very limited open procurement. Russian/CIS firms preferred. Note as geopolitical context: Russian-aligned digital finance channel running parallel to WB/EU track.",
+    "status": "active",
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://eabr.org/en/about/facts-and-figures/",
+        "title": "Eurasian Development Bank — Facts and Figures (EFSD managed by EDB)",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "eabr.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "AKDN-KG-DIGITAL-SCHOOLS2030",
+    "donor": "AKDN",
+    "program_name": "Aga Khan Development Network Kyrgyzstan — Schools2030 and E-Health Digital Components",
+    "program_id_external": "AKDN-KG-S2030",
+    "country": "KG",
+    "implementing_ministry_id": "KG-MINOBR",
+    "piu_institution_id": "KG-AKDN-PIU",
+    "total_budget_usd": 15000000,
+    "disbursed_usd": null,
+    "period_start": "2021-01-01",
+    "period_end": "2028-12-31",
+    "procurement_modality": "direct",
+    "ai_digital_relevance": "AKDN Schools2030 hosted Global Forum in Bishkek June 2024. Digital learning, early childhood education digitalization, e-health in 7 provinces of KG. University of Central Asia (UCA, AKDN) is growing digital capacity hub — hosted inaugural Digital Forum Nov 2024. AKDN footprint across all KG provinces — rural connectivity use case. Prince Rahim Aga Khan met President Japarov March 2024 for expanded cooperation.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] AKDN Kyrgyzstan Country Representative. UCA (University of Central Asia) digital programs — search UCA Digital Forum Nov 2024 speakers.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-minobr-minister",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "AKDN sub-contracting via AKF (Aga Khan Foundation) procurement. EdTech partners, rural connectivity providers relevant. UCA is entry point for academic/research partnerships.",
+    "status": "active",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://the.akdn/en/where-we-work/central-asia/kyrgyz-republic",
+        "title": "AKDN in the Kyrgyz Republic — country overview",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "the.akdn",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "OSF-KG-CIVIC-DIGITAL",
+    "donor": "OSF",
+    "program_name": "Open Society Foundations Kyrgyzstan — Media Development and Civic Tech (historical active, reduced 2024)",
+    "program_id_external": "OSF-KG-CIVIC",
+    "country": "KG",
+    "implementing_ministry_id": null,
+    "piu_institution_id": null,
+    "total_budget_usd": 2000000,
+    "disbursed_usd": null,
+    "period_start": "2020-01-01",
+    "period_end": "2024-12-31",
+    "procurement_modality": "direct",
+    "ai_digital_relevance": "OSF KG historically active in data journalism, data protection legislation, civic digital tools, press freedom digital media. Data journalism: data analysis tools, access-to-information legislation. OSF has reduced/ceased KG operations as of 2024 — flag as suspended/closed. Historical OSF grantees remain active in civic tech space as alumni network.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] Soros Foundation-Kyrgyzstan Director (operations reduced 2024). OSF ceased operations in KG. Check Devex.com for Soros Foundation-Kyrgyzstan last known contacts.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": null,
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "Suspended/closed channel. Historical OSF grantees (civic tech NGOs in Bishkek) remain relevant as sub-contractors or implementation partners for other donors.",
+    "status": "suspended",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.opensocietyfoundations.org/newsroom/open-society-foundations-to-cease-operations-in-kyrgyzstan",
+        "title": "Open Society Foundations to Cease Operations in Kyrgyzstan",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "opensocietyfoundations.org",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "USAID-SUCCESSOR-KG-RESIDUAL",
+    "donor": "USAID_successor",
+    "program_name": "USAID Residual Humanitarian Assistance — Kyrgyzstan (post-2025 reorganization)",
+    "program_id_external": "USAID-KG-BHA-2024",
+    "country": "KG",
+    "implementing_ministry_id": null,
+    "piu_institution_id": null,
+    "total_budget_usd": 5000000,
+    "disbursed_usd": null,
+    "period_start": "2023-09-01",
+    "period_end": "2025-09-30",
+    "procurement_modality": "direct",
+    "ai_digital_relevance": "Post-March 2025 USAID reorganization: 78% of KG programmes terminated. Only residual BHA (Bureau for Humanitarian Assistance) food assistance grants remain. No digital governance programming survives. USAID's Power Central Asia Activity (Tetra Tech, $45M) cancelled. Digital governance, democracy support, civic tech — all terminated. USAID effectively exited CA digital sector.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] USAID Central Asia programs managed from Washington after mission closures. No active digital TTL.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": null,
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "Effectively closed for digital governance. The vacuum left by USAID creates space for EU, WB, UK FCDO to expand. Note: power sector digital residual may persist via State Dept channels.",
+    "status": "closing",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://thediplomat.com/2025/03/usaid-cuts-devastating-to-central-asia-programs/",
+        "title": "USAID Cuts Devastating to Central Asia Programs — The Diplomat (March 2025)",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "thediplomat.com",
+        "source_tier": "media_primary"
+      }
+    ]
+  }
+]

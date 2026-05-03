@@ -1,0 +1,310 @@
+[
+  {
+    "id": "KOICA-UZ-IT-EDU",
+    "donor": "KOICA",
+    "program_name": "Enhancing Youth Employment and Entrepreneurship through Improving IT Education Ecosystem in Uzbekistan",
+    "program_id_external": "KOICA-UZ-IT-2026",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-MINTSIFRY",
+    "piu_institution_id": "UZ-KOICA-PIU",
+    "total_budget_usd": 14000000,
+    "disbursed_usd": 0,
+    "period_start": "2026-01-01",
+    "period_end": "2032-12-31",
+    "procurement_modality": "mixed",
+    "ai_digital_relevance": "Grant funding to develop UZ IT education ecosystem: 2 new IT hubs (Nukus and Karshi), 14 IT centers across 7 regions, training in AI, prompt engineering, programming, IoT, online marketing for 500+ specialists and educators. Startup incubation with Korean experts. Directly aligns with УП-189 AI decree targets and WB P179108 digital inclusion pipeline.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] KOICA Uzbekistan Office (Tashkent) — Country Director. Search path: koica.go.kr/sites/uzb_en/index.do.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-mintsifry-head",
+    "pipeline_tenders": [
+      {
+        "title": "IT hubs construction and equipment (Nukus, Karshi) — ICB",
+        "expected_date": "2026-Q3",
+        "estimated_value_usd": 5000000
+      },
+      {
+        "title": "14 IT center fitout and equipment supply",
+        "expected_date": "2026-Q4",
+        "estimated_value_usd": 4000000
+      },
+      {
+        "title": "AI/prompt engineering curriculum development and trainers",
+        "expected_date": "2027-Q1",
+        "estimated_value_usd": 2000000
+      }
+    ],
+    "vendor_entry_pathway": "KOICA procurement via its own rules (Korean grant). Monitor KOICA Tashkent office for RFP. Construction + ICT equipment suppliers first in. AI training firms as curriculum developers. Korean-origin firms have preference but international subs possible.",
+    "status": "pipeline",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://daryo.uz/en/2026/04/27/koica-allocates-14mn-to-support-it-education-youth-employment-in-uzbekistan/",
+        "title": "KOICA allocates $14mn to support IT education, youth employment in Uzbekistan — daryo.uz April 2026",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "daryo.uz",
+        "source_tier": "media_primary"
+      },
+      {
+        "url": "https://kun.uz/en/news/2026/04/27/koica-to-fund-new-it-hubs-and-digital-training-centers-across-uzbekistan",
+        "title": "KOICA to fund new IT hubs and digital training centers across Uzbekistan — kun.uz",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "kun.uz",
+        "source_tier": "media_primary"
+      }
+    ]
+  },
+  {
+    "id": "KOICA-KG-TUNDUK",
+    "donor": "KOICA",
+    "program_name": "Modernization and Capacity Development of TUNDUK Administrative Information Sharing and Interoperability System",
+    "program_id_external": "KOICA-KG-TUNDUK-2020",
+    "country": "KG",
+    "implementing_ministry_id": "KG-GP-TUNDUK",
+    "piu_institution_id": "KG-TUNDUK-PIU",
+    "total_budget_usd": 5000000,
+    "disbursed_usd": null,
+    "period_start": "2020-01-01",
+    "period_end": "2025-12-31",
+    "procurement_modality": "mixed",
+    "ai_digital_relevance": "Modernization of KG Tunduk inter-agency data exchange (X-Road fork): optimize public functions, increase electronic interoperability across all government agencies. Post-Mintsifry dissolution, Tunduk now under UDP — new TORs expected. KOICA follow-on project Capacity Building for Digital Transformation 2024-2027 ($7M) anticipated.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] KOICA Kyrgyzstan Office (Bishkek) — Country Director. Search path: donors.kg/en/agencies/2905-koica.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-tunduk-director",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "KOICA procurement. Follow-on $7M Capacity Building project (2024-2027) is next entry point. KOICA Bishkek office for contact. Tunduk modernization — system integration firms, API development, eService platforms relevant.",
+    "status": "closing",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.donors.kg/en/agencies/2905-koica",
+        "title": "Korea International Cooperation Agency (KOICA) Kyrgyz Republic Office — donors.kg",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "donors.kg",
+        "source_tier": "expert_commentary"
+      }
+    ]
+  },
+  {
+    "id": "KOICA-KG-DIGCAP",
+    "donor": "KOICA",
+    "program_name": "Capacity Building of National Informatization for Digital Transformation in the Kyrgyz Republic",
+    "program_id_external": "KOICA-KG-DIGCAP-2024",
+    "country": "KG",
+    "implementing_ministry_id": "KG-MINCIFRY",
+    "piu_institution_id": null,
+    "total_budget_usd": 7000000,
+    "disbursed_usd": 0,
+    "period_start": "2024-01-01",
+    "period_end": "2027-12-31",
+    "procurement_modality": "mixed",
+    "ai_digital_relevance": "National informatization capacity building: training of government IT specialists, e-service development, digital governance capacity. Post-Mintsifry: working with UDP digital department. Korea digital governance model transfer (On-nara/Government 24 reference). AI component for digital government services expected.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] KOICA Bishkek. Search path: donors.kg + KOICA annual report.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-udp-digital-head",
+    "pipeline_tenders": [
+      {
+        "title": "Digital governance capacity training — government IT staff",
+        "expected_date": "2025-Q3",
+        "estimated_value_usd": 2000000
+      }
+    ],
+    "vendor_entry_pathway": "KOICA procurement. Korean-origin firms preferred but international sub-contractors viable. E-government training providers relevant.",
+    "status": "active",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.donors.kg/en/agencies/2905-koica",
+        "title": "Korea International Cooperation Agency (KOICA) Kyrgyz Republic — portfolio overview",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "donors.kg",
+        "source_tier": "expert_commentary"
+      }
+    ]
+  },
+  {
+    "id": "JICA-UZ-DIGITAL-INNOVATION",
+    "donor": "JICA",
+    "program_name": "JICA Uzbekistan Digital Technology and Innovation Cooperation (Uzbek-Japanese Youth Innovation Center + Technical Cooperation)",
+    "program_id_external": "JICA-UZ-INNOV-2025",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-MINHESAI",
+    "piu_institution_id": null,
+    "total_budget_usd": 8000000,
+    "disbursed_usd": null,
+    "period_start": "2023-01-01",
+    "period_end": "2028-12-31",
+    "procurement_modality": "QCBS",
+    "ai_digital_relevance": "Uzbek-Japanese Youth Innovation Center (JICA-supported) with digital and tech focus. Technical cooperation projects in healthcare digitalization (JICA loan $150M for Republican Center for Neurology and Stroke — includes digital hospital management systems). JICA expanding presence in UZ: over €7B cooperation announced Dec 2025. Digital components in transport, logistics, agriculture. Japan-CA digital cooperation framework.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] JICA Uzbekistan Office Representative (Tashkent). Search path: jica.go.jp/uzbekistan/english/.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-minhesai-minister",
+    "pipeline_tenders": [
+      {
+        "title": "Digital hospital management system for neurology center",
+        "expected_date": "2025-Q4",
+        "estimated_value_usd": 5000000
+      }
+    ],
+    "vendor_entry_pathway": "JICA procurement via Japan International Cooperation System (JICS). Japanese firms preferred but international competitive. Monitor JICA UZ office for RFP. Health IT, hospital MIS, digital logistics firms relevant.",
+    "status": "active",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.jica.go.jp/uzbekistan/english/index.html",
+        "title": "Uzbekistan | Countries & Regions | JICA",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "jica.go.jp",
+        "source_tier": "international_org"
+      },
+      {
+        "url": "https://www.euronews.com/2025/12/19/uzbekistan-and-japan-announce-new-cooperation-projects",
+        "title": "Uzbekistan and Japan announce new cooperation projects worth over €11 billion (Dec 2025)",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "euronews.com",
+        "source_tier": "media_primary"
+      }
+    ]
+  },
+  {
+    "id": "EGA-KG-TWINNING",
+    "donor": "EU",
+    "program_name": "e-Governance Academy (EGA) Twinning — Support to Digitalisation Agenda in Kyrgyzstan",
+    "program_id_external": "EGA-KG-TWINNING-2021",
+    "country": "KG",
+    "implementing_ministry_id": "KG-MINCIFRY",
+    "piu_institution_id": null,
+    "total_budget_usd": 2160000,
+    "disbursed_usd": 2160000,
+    "period_start": "2021-10-01",
+    "period_end": "2023-10-31",
+    "procurement_modality": "direct",
+    "ai_digital_relevance": "EGA (Estonia) + HAUS (Finland) + CSI-Piemonte (Italy) twinning for KG digital agenda: e-governance systems, e-learning, data protection (GDPR-modeled), cybersecurity strategy, Innovation Centre of Digital Competencies. Project Manager: Tõnis Mäe (EGA). Completed Oct 2023 but EGA now C4CA implementing partner — ongoing relationship. KG-Estonia digital bridge is active and strategic.",
+    "ttl_pm_name": "Tõnis Mäe (e-Governance Academy, Project Manager — completed project; EGA active in C4CA follow-on)",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-mincifry-head",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "Completed project. EGA now engaged via C4CA (2025-2028). Engage Tõnis Mäe / EGA directly for sub-contracting in C4CA. X-Road/GovStack expertise vendors seek EGA partnership.",
+    "status": "closed",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://ega.ee/project/kyrgyzstan-twinning/",
+        "title": "Twinning Project: Support to Digitalisation Agenda in Kyrgyzstan — e-Governance Academy",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "ega.ee",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "CHINA-DSR-UZ-GOVCLOUD",
+    "donor": "China_DSR",
+    "program_name": "Huawei Cloud Stack — Uzbekistan Government Cloud and AI Data Center Strategy",
+    "program_id_external": "HUAWEI-UZ-GOVCLOUD",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-MINTSIFRY",
+    "piu_institution_id": "UZ-UZINFOCOM",
+    "total_budget_usd": 50000000,
+    "disbursed_usd": null,
+    "period_start": "2020-01-01",
+    "period_end": "2030-12-31",
+    "procurement_modality": "direct",
+    "ai_digital_relevance": "Huawei Cloud Stack powers UZ national government cloud: 447 public services, 4.5M users. Huawei Digital Power AI data center roadmap presented May 2025 — supports UZ $1.5B AI Development Strategy 2030. Huawei 'Seeds for the Future' talent program (150+ students Tashkent 2024). MoU signed between UZ MoDT and Huawei. Critical incumbent position — digital sovereignty framing vs. Western SaaS.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] Huawei President for Middle East and Central Asia (met UZ MoDT). Huawei Tashkent representative. State channel: UZINFOCOM as system integrator. Note: opaque — no public procurement, state-to-state cooperation or direct MoU.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-mintsifry-head",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "Opaque — direct state cooperation, no open procurement. Competitive displacement requires positioning as complement (Russian-language AI on Huawei infrastructure) or alternative (sovereignty risk narrative). Note: Huawei incumbent for gov cloud creates lock-in risk for new entrants.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.huaweicloud.com/eu/cases/uzbekistangovernmentcloud.html",
+        "title": "Uzbekistan Government Cloud — Largest Data Center in Central Asia, Government Cloud Benchmark in Eurasia (Huawei)",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "huaweicloud.com",
+        "source_tier": "expert_commentary"
+      },
+      {
+        "url": "https://e.huawei.com/en/news/2025/solutions/data-center/ai-powered-data-centers",
+        "title": "Huawei Outlines Vision for AI-Powered Data Centers to Support Uzbekistan's Digital Transformation (May 2025)",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "e.huawei.com",
+        "source_tier": "expert_commentary"
+      }
+    ]
+  },
+  {
+    "id": "CHINA-DSR-KG-DATACENTER",
+    "donor": "China_DSR",
+    "program_name": "Huawei — Kyrgyzstan Unified Government Database and Data Center Initiative",
+    "program_id_external": "HUAWEI-KG-DATACENTER",
+    "country": "KG",
+    "implementing_ministry_id": "KG-MINCIFRY",
+    "piu_institution_id": null,
+    "total_budget_usd": null,
+    "disbursed_usd": null,
+    "period_start": "2024-01-01",
+    "period_end": "2028-12-31",
+    "procurement_modality": "direct",
+    "ai_digital_relevance": "Huawei proposal: unified database of state agencies and local governments in KG (currently fragmented separate ISs). MoDD expressed interest in cooperation with Huawei Technologies Bishkek Co., LTD. Pre-MoU stage as of 2024. Potentially competing with Tunduk/UDP digital modernization funded by WB and EU. Context: Digital Silk Road expansion.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] Huawei Technologies Bishkek Co. LTD representative. KG MoDT Minister (now UDP post-restructuring). Opaque negotiations.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-udp-digital-head",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "Opaque Chinese state-to-state track. Competitive intelligence only. Note as threat/context for other donors' digital projects in KG. Post-Mintsifry dissolution may slow Huawei deal due to new decision-makers.",
+    "status": "pipeline",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://en.kabar.kg/news/huawei-intends-to-create-data-center-in-kyrgyzstan/",
+        "title": "Huawei intends to create Data Center in Kyrgyzstan — Kabar news agency",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "kabar.kg",
+        "source_tier": "media_primary"
+      }
+    ]
+  },
+  {
+    "id": "TIKA-UZ-KG-DIGITAL",
+    "donor": "TIKA",
+    "program_name": "TIKA Turkey — Digital and Educational Cooperation (Uzbekistan and Kyrgyzstan)",
+    "program_id_external": "TIKA-CA-DIGITAL",
+    "country": "BOTH",
+    "implementing_ministry_id": null,
+    "piu_institution_id": null,
+    "total_budget_usd": 5000000,
+    "disbursed_usd": null,
+    "period_start": "2022-01-01",
+    "period_end": "2026-12-31",
+    "procurement_modality": "direct",
+    "ai_digital_relevance": "TIKA operates through Tashkent PCO (Uzbekistan, 900+ projects since 1992) and Bishkek PCO (Kyrgyzstan). Digital components: e-education, ICT training labs, vocational digital skills. Turkey's expanding digital footprint in Turkic CA countries. TIKA often channels Turkish state tech (STM, HAVELSAN, ASELSAN civilian) into government projects. Havelsan digital judiciary platform directly relevant to UZ digital courts (УП-140).",
+    "ttl_pm_name": "[TTL_NOT_FOUND] TIKA Tashkent PCO Coordinator; TIKA Bishkek PCO Coordinator. Search path: tika.gov.tr/en/office/uzbekistan-tashkent-program-coordination-office.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-mintsifry-head",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "Direct state cooperation — limited open procurement. Turkish firms preferred. Turkish-CA cultural bridge is competitive advantage. TIKA channel to position Turkish digital judiciary (Havelsan) for УП-140 courts tender.",
+    "status": "active",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://tika.gov.tr/en/office/uzbekistan-tashkent-program-coordination-office/",
+        "title": "TIKA Uzbekistan — Tashkent Program Coordination Office",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "tika.gov.tr",
+        "source_tier": "official"
+      }
+    ]
+  }
+]

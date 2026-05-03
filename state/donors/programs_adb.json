@@ -1,0 +1,255 @@
+[
+  {
+    "id": "ADB-KG-55109-001",
+    "donor": "ADB",
+    "program_name": "Supporting the Completion of e-Procurement System Digitalization (Phase 1)",
+    "program_id_external": "55109-001",
+    "country": "KG",
+    "implementing_ministry_id": "KG-GOSZAKUPKI",
+    "piu_institution_id": null,
+    "total_budget_usd": 650000,
+    "disbursed_usd": null,
+    "period_start": "2022-01-01",
+    "period_end": "2025-12-31",
+    "procurement_modality": "shopping",
+    "ai_digital_relevance": "Full digitalization of government e-procurement (e-GP) system in KG: bid evaluation, contract award, contract management, payments — all currently on paper. Aims to shift all government procurement online. Supports KG Tunduk integration. Phase 1 TA; Phase 2 investment operation anticipated.",
+    "ttl_pm_name": "Aibek Abdybakirov (ADB Central and West Asia Department, Project Officer — 54383-001 related; same team likely covers 55109-001)",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-goszakupki-head",
+    "pipeline_tenders": [
+      {
+        "title": "e-GP system phase 2 software development and server infrastructure",
+        "expected_date": "2025-Q3",
+        "estimated_value_usd": 500000
+      }
+    ],
+    "vendor_entry_pathway": "Small TA project; shopping procurement for hardware. Software development via simplified procurement. Contact ADB KG resident mission. Linked to 54383-001 procurement knowledge/capacity project.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.adb.org/projects/55109-001/main",
+        "title": "55109-001: Supporting the Completion of e-Procurement System Digitalization (Phase 1) | ADB",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "adb.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "ADB-KG-54383-001",
+    "donor": "ADB",
+    "program_name": "Enhancing Knowledge and Capacity for Public Procurement System in the Kyrgyz Republic",
+    "program_id_external": "54383-001",
+    "country": "KG",
+    "implementing_ministry_id": "KG-GOSZAKUPKI",
+    "piu_institution_id": null,
+    "total_budget_usd": 65000,
+    "disbursed_usd": null,
+    "period_start": "2021-01-01",
+    "period_end": "2025-06-30",
+    "procurement_modality": "shopping",
+    "ai_digital_relevance": "Data asymmetric encryption and digital signature for e-procurement system; SAN disks and servers for data management. Small TA focused on cybersecurity layer for public procurement platform.",
+    "ttl_pm_name": "Aibek Abdybakirov (ADB Central and West Asia Department)",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-goszakupki-head",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "Small infrastructure procurement. Limited entry for vendors beyond hardware supply. Value lies in relationship with Abdybakirov for follow-on Phase 2 e-procurement digitalization investment.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.adb.org/projects/54383-001/main",
+        "title": "54383-001: Enhancing Knowledge and Capacity for Public Procurement System in the Kyrgyz Republic | ADB",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "adb.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "ADB-UZ-52322-004",
+    "donor": "ADB",
+    "program_name": "Digitize to Decarbonize — Power Transmission Grid Enhancement Project",
+    "program_id_external": "52322-004",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-MINENERGO",
+    "piu_institution_id": "UZ-NEGU-PIU",
+    "total_budget_usd": 125000000,
+    "disbursed_usd": null,
+    "period_start": "2022-01-01",
+    "period_end": "2028-12-31",
+    "procurement_modality": "ICB",
+    "ai_digital_relevance": "Digital modernization of power transmission grid: SCADA/EMS systems, digital monitoring and control, telecom infrastructure for 12 transmission lines across 7 regions. AI-relevant for predictive maintenance, grid optimization, real-time monitoring analytics. 359 km of modernized transmission infrastructure.",
+    "ttl_pm_name": "Yun Ji Suh (ADB Sectors Department 1, Project Officer)",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-negu-ceo",
+    "pipeline_tenders": [
+      {
+        "title": "SCADA/EMS system for 12 transmission substations (ICB)",
+        "expected_date": "2024-Q4",
+        "estimated_value_usd": 40000000
+      },
+      {
+        "title": "Telecom and digital monitoring infrastructure",
+        "expected_date": "2025-Q1",
+        "estimated_value_usd": 15000000
+      }
+    ],
+    "vendor_entry_pathway": "ICB procurement via ADB CSRN portal. Contact Yun Ji Suh at ADB. National Electricity Grid of Uzbekistan (NEGU) is implementing agency. Large ICB packages open to international suppliers. SCADA vendors, grid monitoring AI companies relevant.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.adb.org/projects/52322-004/main",
+        "title": "52322-004: Digitize to Decarbonize — Power Transmission Grid Enhancement Project | ADB",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "adb.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "ADB-UZ-58435-001",
+    "donor": "ADB",
+    "program_name": "Supporting Climate Change Action, Economic Globalization and Digital Transformation through Advanced Statistics",
+    "program_id_external": "58435-001",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-GOSKOMSTAT",
+    "piu_institution_id": null,
+    "total_budget_usd": 1500000,
+    "disbursed_usd": null,
+    "period_start": "2024-01-01",
+    "period_end": "2026-12-31",
+    "procurement_modality": "QCBS",
+    "ai_digital_relevance": "Advanced statistical systems for digital economy measurement; climate data systems; trade statistics digitalization. Supports Digital Uzbekistan Strategy. Enhances capacity of national statistics agency (GosKomStat) in digital economy data collection and analysis.",
+    "ttl_pm_name": "Mahinthan Joseph Mariasingham (ADB Economic Research and Development Impact Department)",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-goskomstat-head",
+    "pipeline_tenders": [
+      {
+        "title": "Statistical software and digital economy data systems advisory",
+        "expected_date": "2025-Q2",
+        "estimated_value_usd": 800000
+      }
+    ],
+    "vendor_entry_pathway": "TA project — consulting firm via QCBS. Contact Mariasingham at ADB HQ. Data analytics and statistics software firms are target vendors.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.adb.org/projects/58435-001/main",
+        "title": "58435-001: Supporting Climate Change Action, Economic Globalization and Digital Transformation through Advanced Statistics | ADB",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "adb.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "ADB-UZ-WATER-DIGITAL",
+    "donor": "ADB",
+    "program_name": "Uzbekistan Water Supply and Sanitation Services Improvement Project (digital components)",
+    "program_id_external": "55009-001",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-MINVODA",
+    "piu_institution_id": "UZ-SUVTAMINOT-PIU",
+    "total_budget_usd": 125000000,
+    "disbursed_usd": null,
+    "period_start": "2023-01-01",
+    "period_end": "2028-12-31",
+    "procurement_modality": "mixed",
+    "ai_digital_relevance": "Digital transformation of water management: IoT sensors for water network monitoring, GIS-based asset management, customer billing digitalization, smart meters. AI-relevant: leak detection algorithms, predictive maintenance, water quality monitoring systems.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] ADB Water and Urban Development sector. Search path: adb.org projects search Uzbekistan water digital 2023.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-minvoda-minister",
+    "pipeline_tenders": [
+      {
+        "title": "Water network SCADA and IoT monitoring system",
+        "expected_date": "2025-Q3",
+        "estimated_value_usd": 8000000
+      }
+    ],
+    "vendor_entry_pathway": "ICB and NCB tenders via ADB CSRN. Water sector digital vendors, IoT companies relevant.",
+    "status": "active",
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://www.adb.org/news/adb-supports-digital-transformation-uzbekistan-s-water-sector",
+        "title": "ADB Supports Digital Transformation of Uzbekistan's Water Sector",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "adb.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "ADB-KG-CUSTOMS-38177",
+    "donor": "ADB",
+    "program_name": "Regional Customs Modernization and Infrastructure Development Project (Kyrgyz component)",
+    "program_id_external": "38177-013",
+    "country": "KG",
+    "implementing_ministry_id": "KG-GTS",
+    "piu_institution_id": "KG-GTS-PIU",
+    "total_budget_usd": 18000000,
+    "disbursed_usd": null,
+    "period_start": "2018-01-01",
+    "period_end": "2025-12-31",
+    "procurement_modality": "ICB",
+    "ai_digital_relevance": "Customs risk scoring systems, electronic customs declaration processing, single window for trade. Digital customs infrastructure enabling AI-based risk analysis and fraud detection. Integrates with KG Tunduk inter-agency system.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] ADB CWRD (Central and West Asia Department). Search path: adb.org/projects/38177-013/main.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-gts-head",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "Project in closing stage. Follow-on digital customs investment anticipated post-ADB Country Operations Business Plan 2025-2027. Monitor ADB KG pipeline.",
+    "status": "closing",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.adb.org/projects/38177-013/main",
+        "title": "38177-013: Regional Customs Modernization and Infrastructure Development Project (KGZ) | ADB",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "adb.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "ADB-UZ-EGOVT-PIPELINE",
+    "donor": "ADB",
+    "program_name": "Uzbekistan E-Government and Digital Transformation Investment Pipeline (Country Partnership Strategy 2024-2028)",
+    "program_id_external": "UZ-CPS-2024-DIGITAL",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-MINTSIFRY",
+    "piu_institution_id": null,
+    "total_budget_usd": null,
+    "disbursed_usd": null,
+    "period_start": "2024-01-01",
+    "period_end": "2028-12-31",
+    "procurement_modality": "mixed",
+    "ai_digital_relevance": "ADB's Country Partnership Strategy for Uzbekistan 2024-2028 prioritizes digital governance, e-government services expansion, and digital economy enablement. Pipeline operations include potential investment loans for GovTech platforms, open government data, and public finance management digitalization.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] ADB Country Director for Uzbekistan leads CPS. Search path: adb.org/where-we-work/uzbekistan Country Director contact.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-mintsifry-head",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "Pre-investment stage. Engage ADB Tashkent resident mission. Concept papers and due diligence firms first entry point. Monitor ADB Business Opportunities for Uzbekistan.",
+    "status": "pipeline",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.adb.org/where-we-work/uzbekistan",
+        "title": "Uzbekistan and ADB — Country Overview and Partnership",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "adb.org",
+        "source_tier": "international_org"
+      }
+    ]
+  }
+]

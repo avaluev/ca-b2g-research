@@ -1,0 +1,253 @@
+[
+  {
+    "id": "ISDB-UZ-EDUCATION-SMARTED",
+    "donor": "IsDB",
+    "program_name": "IsDB-GPE SmartEd Education Transformation Project (Uzbekistan)",
+    "program_id_external": "ISDB-UZ-SMARTED",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-MINOBR",
+    "piu_institution_id": "UZ-MINOBR-PIU",
+    "total_budget_usd": 220250000,
+    "disbursed_usd": null,
+    "period_start": "2024-01-01",
+    "period_end": "2028-12-31",
+    "procurement_modality": "ICB",
+    "ai_digital_relevance": "Part of IsDB SmartEd $350M regional program (UZ, KG, Cameroon). In UZ: constructs 80+ schools with digital infrastructure; improves EMIS (Education Management Information System) for data-driven decision-making; implements competency-based curriculum with digital learning tools; teacher professional development digital platforms. Total: IsDB $160.25M + GPE grant $40M + Government $20M. UNICEF tripartite partner. EMIS upgrade directly relevant for education AI analytics.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] IsDB Country Director for Uzbekistan. UNICEF UZ Education Chief is tripartite co-implementer. Search path: isdb.org/news/islamic-development-bank-and-uzbekistan-sign-landmark-education-project-with-gpe-grant-support.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-minobr-minister",
+    "pipeline_tenders": [
+      {
+        "title": "EMIS upgrade and digital learning infrastructure (ICB)",
+        "expected_date": "2025-Q3",
+        "estimated_value_usd": 15000000
+      },
+      {
+        "title": "80 schools ICT equipment and digital labs supply",
+        "expected_date": "2025-Q4",
+        "estimated_value_usd": 25000000
+      },
+      {
+        "title": "Digital curriculum and teacher training platform development",
+        "expected_date": "2026-Q1",
+        "estimated_value_usd": 8000000
+      }
+    ],
+    "vendor_entry_pathway": "IsDB procurement (QCBS for consulting, ICB for major contracts). Monitor IsDB procurement notices for UZ education sector. EMIS vendors, EdTech platforms, digital curriculum providers are target categories.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.isdb.org/news/islamic-development-bank-and-uzbekistan-sign-landmark-education-project-with-gpe-grant-support",
+        "title": "IsDB and Uzbekistan Sign Landmark Education Project with GPE Grant Support",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "isdb.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "AIIB-UZ-TELECOM-P000758",
+    "donor": "AIIB",
+    "program_name": "Uzbekistan Telecom Digital Connectivity Project",
+    "program_id_external": "AIIB-P000758",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-UZTELEKOM",
+    "piu_institution_id": "UZ-UZTELEKOM-PIU",
+    "total_budget_usd": 100000000,
+    "disbursed_usd": 0,
+    "period_start": "2025-08-01",
+    "period_end": "2030-12-31",
+    "procurement_modality": "ICB",
+    "ai_digital_relevance": "AIIB $100M loan to Uzbekistan (approved Aug 2025). Expands Uztelecom's high-speed wireless and fixed broadband. Metrics: % 4G/5G subscribers, fixed broadband household subscribers, 4G/5G population/urban coverage. Digital connectivity backbone enabling AI/cloud service delivery. Uztelecom is state SOE implementing entity. AIIB co-financing with other IFIs possible.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] AIIB Investment Operations (Central Asia). Search path: aiib.org/en/projects/details/2025/approved/uzbekistan-telecom.html.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-uztelekom-ceo",
+    "pipeline_tenders": [
+      {
+        "title": "4G/5G network equipment supply (ICB)",
+        "expected_date": "2026-Q1",
+        "estimated_value_usd": 40000000
+      },
+      {
+        "title": "Fixed broadband infrastructure expansion",
+        "expected_date": "2026-Q2",
+        "estimated_value_usd": 30000000
+      }
+    ],
+    "vendor_entry_pathway": "AIIB procurement via AIIB Procurement Policy. ICB for major equipment. Monitor AIIB procurement portal for Uzbekistan Telecom project. Telecom equipment vendors, network infrastructure firms relevant.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.aiib.org/en/projects/details/2025/approved/uzbekistan-telecom.html",
+        "title": "Uzbekistan: Uzbekistan Telecom — AIIB approved project page",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "aiib.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "EDB-BOTH-DIGITAL-INITIATIVES",
+    "donor": "EDB",
+    "program_name": "EDB Fund for Digital Initiatives — Uzbekistan and Kyrgyzstan Digital Integration",
+    "program_id_external": "EDB-FDI-CA",
+    "country": "BOTH",
+    "implementing_ministry_id": null,
+    "piu_institution_id": null,
+    "total_budget_usd": 20000000,
+    "disbursed_usd": null,
+    "period_start": "2024-01-01",
+    "period_end": "2027-12-31",
+    "procurement_modality": "direct",
+    "ai_digital_relevance": "EDB Fund for Digital Initiatives (FDI) presents projects at Digital Almaty 2025: (1) National Digital Investment Platform (800 investment projects, 150,000 jobs potential); (2) BEE-ONLINE light industry ecosystem connecting UZ, KG, Russia, Armenia, Belarus, KZ. Uzbekistan joined EDB 2025 (10% stake, 3rd largest shareholder). EDB FDI specifically focuses on AI and digital transformation across Eurasian Economic Union and associated states. Regional digital integration play.",
+    "ttl_pm_name": "Tigran Sargsyan (EDB Vice Chairman, Management Board — presents FDI projects publicly; not TTL per se but senior sponsor)",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-minfin-minister",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "EDB FDI is proprietary fund — invests directly in digital projects, not open procurement. Engage via EDB Tashkent or Bishkek representative offices. Digital investment platform and BEE-ONLINE sub-contracting potential.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://eabr.org/en/press/news/the-edb-fund-for-digital-initiatives-expands-cooperation-with-the-republic-of-uzbekistan-in-the-fiel/",
+        "title": "EDB Fund for Digital Initiatives expands cooperation with Uzbekistan in digital transformation",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "eabr.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "EFSD-KG-STABILIZATION",
+    "donor": "EFSD",
+    "program_name": "Eurasian Fund for Stabilization and Development — Kyrgyzstan Digital Infrastructure Component",
+    "program_id_external": "EFSD-KG-DIGITAL",
+    "country": "KG",
+    "implementing_ministry_id": "KG-MINFIN",
+    "piu_institution_id": null,
+    "total_budget_usd": 10000000,
+    "disbursed_usd": null,
+    "period_start": "2023-01-01",
+    "period_end": "2026-12-31",
+    "procurement_modality": "direct",
+    "ai_digital_relevance": "EFSD (Russian-led stabilization fund; KG is member) provides budget support and concessional financing. Digital infrastructure components in KG budget support programs (public finance management digitalization, customs automation). Post-2022 geopolitical positioning: EFSD represents alternative to Western IFI track. Less transparent.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] EFSD Director General. Russian-led governance means low public transparency. Search path: efsd.info for KG country programs.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-minfin-minister",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "Very limited open procurement. Russian/CIS firms preferred. Note as geopolitical context: Russian-aligned digital finance channel running parallel to WB/EU track.",
+    "status": "active",
+    "verification": "INFERRED",
+    "sources": [
+      {
+        "url": "https://eabr.org/en/about/facts-and-figures/",
+        "title": "Eurasian Development Bank — Facts and Figures (EFSD managed by EDB)",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "eabr.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "AKDN-KG-DIGITAL-SCHOOLS2030",
+    "donor": "AKDN",
+    "program_name": "Aga Khan Development Network Kyrgyzstan — Schools2030 and E-Health Digital Components",
+    "program_id_external": "AKDN-KG-S2030",
+    "country": "KG",
+    "implementing_ministry_id": "KG-MINOBR",
+    "piu_institution_id": "KG-AKDN-PIU",
+    "total_budget_usd": 15000000,
+    "disbursed_usd": null,
+    "period_start": "2021-01-01",
+    "period_end": "2028-12-31",
+    "procurement_modality": "direct",
+    "ai_digital_relevance": "AKDN Schools2030 hosted Global Forum in Bishkek June 2024. Digital learning, early childhood education digitalization, e-health in 7 provinces of KG. University of Central Asia (UCA, AKDN) is growing digital capacity hub — hosted inaugural Digital Forum Nov 2024. AKDN footprint across all KG provinces — rural connectivity use case. Prince Rahim Aga Khan met President Japarov March 2024 for expanded cooperation.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] AKDN Kyrgyzstan Country Representative. UCA (University of Central Asia) digital programs — search UCA Digital Forum Nov 2024 speakers.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-minobr-minister",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "AKDN sub-contracting via AKF (Aga Khan Foundation) procurement. EdTech partners, rural connectivity providers relevant. UCA is entry point for academic/research partnerships.",
+    "status": "active",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://the.akdn/en/where-we-work/central-asia/kyrgyz-republic",
+        "title": "AKDN in the Kyrgyz Republic — country overview",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "the.akdn",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "OSF-KG-CIVIC-DIGITAL",
+    "donor": "OSF",
+    "program_name": "Open Society Foundations Kyrgyzstan — Media Development and Civic Tech (historical active, reduced 2024)",
+    "program_id_external": "OSF-KG-CIVIC",
+    "country": "KG",
+    "implementing_ministry_id": null,
+    "piu_institution_id": null,
+    "total_budget_usd": 2000000,
+    "disbursed_usd": null,
+    "period_start": "2020-01-01",
+    "period_end": "2024-12-31",
+    "procurement_modality": "direct",
+    "ai_digital_relevance": "OSF KG historically active in data journalism, data protection legislation, civic digital tools, press freedom digital media. Data journalism: data analysis tools, access-to-information legislation. OSF has reduced/ceased KG operations as of 2024 — flag as suspended/closed. Historical OSF grantees remain active in civic tech space as alumni network.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] Soros Foundation-Kyrgyzstan Director (operations reduced 2024). OSF ceased operations in KG. Check Devex.com for Soros Foundation-Kyrgyzstan last known contacts.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": null,
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "Suspended/closed channel. Historical OSF grantees (civic tech NGOs in Bishkek) remain relevant as sub-contractors or implementation partners for other donors.",
+    "status": "suspended",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.opensocietyfoundations.org/newsroom/open-society-foundations-to-cease-operations-in-kyrgyzstan",
+        "title": "Open Society Foundations to Cease Operations in Kyrgyzstan",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "opensocietyfoundations.org",
+        "source_tier": "official"
+      }
+    ]
+  },
+  {
+    "id": "USAID-SUCCESSOR-KG-RESIDUAL",
+    "donor": "USAID_successor",
+    "program_name": "USAID Residual Humanitarian Assistance — Kyrgyzstan (post-2025 reorganization)",
+    "program_id_external": "USAID-KG-BHA-2024",
+    "country": "KG",
+    "implementing_ministry_id": null,
+    "piu_institution_id": null,
+    "total_budget_usd": 5000000,
+    "disbursed_usd": null,
+    "period_start": "2023-09-01",
+    "period_end": "2025-09-30",
+    "procurement_modality": "direct",
+    "ai_digital_relevance": "Post-March 2025 USAID reorganization: 78% of KG programmes terminated. Only residual BHA (Bureau for Humanitarian Assistance) food assistance grants remain. No digital governance programming survives. USAID's Power Central Asia Activity (Tetra Tech, $45M) cancelled. Digital governance, democracy support, civic tech — all terminated. USAID effectively exited CA digital sector.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] USAID Central Asia programs managed from Washington after mission closures. No active digital TTL.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": null,
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "Effectively closed for digital governance. The vacuum left by USAID creates space for EU, WB, UK FCDO to expand. Note: power sector digital residual may persist via State Dept channels.",
+    "status": "closing",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://thediplomat.com/2025/03/usaid-cuts-devastating-to-central-asia-programs/",
+        "title": "USAID Cuts Devastating to Central Asia Programs — The Diplomat (March 2025)",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "thediplomat.com",
+        "source_tier": "media_primary"
+      }
+    ]
+  }
+]

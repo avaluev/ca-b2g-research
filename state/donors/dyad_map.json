@@ -1,0 +1,676 @@
+{
+  "metadata": {
+    "schema_version": "1.0",
+    "produced_by": "donor-pipeline",
+    "produced_at": "2026-05-03",
+    "description": "Explicit donor TTL/PM ↔ Government counterpart dyads for donor programs. Where TTL_NOT_FOUND, government counterpart is still mapped. Wave 3 people-intelligence to resolve person IDs to named individuals.",
+    "total_dyads": 32
+  },
+  "dyads": [
+    {
+      "program_id": "WB-KG-P160230",
+      "donor_side": {
+        "ttl_pm_name": "Sandra Sargent",
+        "ttl_pm_title": "Senior Digital Development Specialist, World Bank",
+        "ttl_pm_institution": "World Bank (Washington DC)",
+        "ttl_found": true
+      },
+      "bank_country_manager": {
+        "name": "Naveed Hassan Naqvi",
+        "title": "World Bank Country Manager for Kyrgyz Republic",
+        "institution": "World Bank Bishkek"
+      },
+      "government_side": {
+        "counterpart_person_id": "kg-mincifry-head",
+        "counterpart_role": "Minister / head of Ministry of Digital Development (now UDP Digital Dept)",
+        "counterpart_institution": "KG-MINCIFRY / KG-UDP-DIGITAL"
+      },
+      "dyad_quality": "HIGH — both sides named or near-named",
+      "lens_tags": ["donor_co_financed", "japarov_concentration"]
+    },
+    {
+      "program_id": "WB-UZ-P179108",
+      "donor_side": {
+        "ttl_pm_name": "[TTL_NOT_FOUND]",
+        "known_contacts": "Mirzo Ibragimov (WB Tashkent), Sona Panajyan (WB Washington DC), Marco Mantovanelli (WB Country Manager UZ)",
+        "ttl_found": false
+      },
+      "bank_country_manager": {
+        "name": "Marco Mantovanelli",
+        "title": "World Bank Country Manager for Uzbekistan",
+        "institution": "World Bank Tashkent"
+      },
+      "government_side": {
+        "counterpart_person_id": "uz-it-park-head",
+        "counterpart_role": "General Director, IT Park Uzbekistan",
+        "counterpart_institution": "UZ-IT-PARK"
+      },
+      "dyad_quality": "MEDIUM — bank contacts named, TTL not confirmed",
+      "lens_tags": ["donor_co_financed", "karimov_inversion"]
+    },
+    {
+      "program_id": "WB-UZ-P506803",
+      "donor_side": {
+        "ttl_pm_name": "[TTL_NOT_FOUND]",
+        "known_contacts": "Practice Area: Urban, Resilience and Land (ECA). Marco Mantovanelli (Country Manager)",
+        "ttl_found": false
+      },
+      "bank_country_manager": {
+        "name": "Marco Mantovanelli",
+        "title": "World Bank Country Manager for Uzbekistan",
+        "institution": "World Bank Tashkent"
+      },
+      "government_side": {
+        "counterpart_person_id": "uz-cadastre-director",
+        "counterpart_role": "Director General, Agency for Cadastre under MoEF",
+        "counterpart_institution": "UZ-CADASTRE-AGENCY"
+      },
+      "dyad_quality": "MEDIUM — government side identifiable via public sources",
+      "lens_tags": ["donor_co_financed", "decree_half_life_active"]
+    },
+    {
+      "program_id": "ADB-KG-55109-001",
+      "donor_side": {
+        "ttl_pm_name": "Aibek Abdybakirov",
+        "ttl_pm_title": "Project Officer, Central and West Asia Department, ADB",
+        "ttl_pm_institution": "ADB (Manila / Bishkek)",
+        "ttl_found": true
+      },
+      "bank_country_manager": {
+        "name": "[NOT_FOUND]",
+        "title": "ADB Kyrgyz Republic Country Director",
+        "institution": "ADB Bishkek Resident Mission"
+      },
+      "government_side": {
+        "counterpart_person_id": "kg-goszakupki-head",
+        "counterpart_role": "Head of Government Procurement Agency (Goszakupki) / MoF procurement unit",
+        "counterpart_institution": "KG-GOSZAKUPKI"
+      },
+      "dyad_quality": "HIGH — ADB officer named",
+      "lens_tags": ["donor_co_financed", "japarov_concentration"]
+    },
+    {
+      "program_id": "ADB-UZ-52322-004",
+      "donor_side": {
+        "ttl_pm_name": "Yun Ji Suh",
+        "ttl_pm_title": "Project Officer, Sectors Department 1, ADB",
+        "ttl_pm_institution": "ADB (Manila)",
+        "ttl_found": true
+      },
+      "bank_country_manager": {
+        "name": "[NOT_FOUND]",
+        "title": "ADB Uzbekistan Country Director",
+        "institution": "ADB Tashkent Resident Mission"
+      },
+      "government_side": {
+        "counterpart_person_id": "uz-negu-ceo",
+        "counterpart_role": "CEO/General Director, National Electricity Grid of Uzbekistan (NEGU / Узэнерго)",
+        "counterpart_institution": "UZ-NEGU"
+      },
+      "dyad_quality": "HIGH — ADB officer named",
+      "lens_tags": ["donor_co_financed"]
+    },
+    {
+      "program_id": "ADB-UZ-58435-001",
+      "donor_side": {
+        "ttl_pm_name": "Mahinthan Joseph Mariasingham",
+        "ttl_pm_title": "Project Officer, Economic Research and Development Impact Department, ADB",
+        "ttl_pm_institution": "ADB (Manila)",
+        "ttl_found": true
+      },
+      "bank_country_manager": {
+        "name": "[NOT_FOUND]",
+        "title": "ADB Uzbekistan Country Director",
+        "institution": "ADB Tashkent Resident Mission"
+      },
+      "government_side": {
+        "counterpart_person_id": "uz-goskomstat-head",
+        "counterpart_role": "Chairman, State Statistics Committee of Uzbekistan",
+        "counterpart_institution": "UZ-GOSKOMSTAT"
+      },
+      "dyad_quality": "HIGH — ADB officer named",
+      "lens_tags": ["donor_co_financed"]
+    },
+    {
+      "program_id": "EU-BOTH-C4CA",
+      "donor_side": {
+        "ttl_pm_name": "[TTL_NOT_FOUND]",
+        "known_contacts": "Expertise France (lead implementer); e-Governance Academy (EGA) — Tõnis Mäe historically; EU DG INTPA manages",
+        "ttl_found": false
+      },
+      "bank_country_manager": {
+        "name": "Jozef Síkela",
+        "title": "EU Commissioner for International Partnerships",
+        "institution": "European Commission"
+      },
+      "government_side": {
+        "counterpart_person_id": "kg-udp-digital-head",
+        "counterpart_role": "Head of Digital Department, Presidential Administration / UDP (post-April 2026)",
+        "counterpart_institution": "KG-UDP-DIGITAL"
+      },
+      "dyad_quality": "LOW — consortium structure obscures individual TTL",
+      "lens_tags": ["donor_co_financed", "japarov_concentration"]
+    },
+    {
+      "program_id": "EU-UZ-UNDP-PUBLICSERVICE",
+      "donor_side": {
+        "ttl_pm_name": "[TTL_NOT_FOUND]",
+        "known_contacts": "UNDP Uzbekistan Digital Programme Manager (vacancy IPSA-11). EU Delegation Head Tashkent",
+        "ttl_found": false
+      },
+      "bank_country_manager": {
+        "name": "[NOT_FOUND]",
+        "title": "UNDP Resident Representative Uzbekistan",
+        "institution": "UNDP Tashkent"
+      },
+      "government_side": {
+        "counterpart_person_id": "uz-minust-minister",
+        "counterpart_role": "Minister of Justice (lead counterpart), supported by ASR and Agency for Public Service Development",
+        "counterpart_institution": "UZ-MINUST"
+      },
+      "dyad_quality": "MEDIUM — government identified, donor TTL not confirmed",
+      "lens_tags": ["donor_co_financed", "karimov_inversion"]
+    },
+    {
+      "program_id": "EU-GIZ-UZ-GOVGOV",
+      "donor_side": {
+        "ttl_pm_name": "Dr. Viktor Kessler",
+        "ttl_pm_title": "GIZ Project Director, Good Governance Program Uzbekistan",
+        "ttl_pm_institution": "GIZ Tashkent",
+        "ttl_found": true
+      },
+      "bank_country_manager": {
+        "name": "Dr. Viktor Kessler",
+        "title": "GIZ Project Director Uzbekistan",
+        "institution": "GIZ Tashkent"
+      },
+      "government_side": {
+        "counterpart_person_id": "uz-minust-minister",
+        "counterpart_role": "Minister of Justice (and responsible partner ministries)",
+        "counterpart_institution": "UZ-MINUST"
+      },
+      "dyad_quality": "HIGH — GIZ director named",
+      "lens_tags": ["donor_co_financed"]
+    },
+    {
+      "program_id": "EGA-KG-TWINNING",
+      "donor_side": {
+        "ttl_pm_name": "Tõnis Mäe",
+        "ttl_pm_title": "Project Manager, e-Governance Academy (EGA Estonia)",
+        "ttl_pm_institution": "EGA (Tallinn, Estonia)",
+        "ttl_found": true
+      },
+      "bank_country_manager": {
+        "name": "Tõnis Mäe",
+        "title": "EGA Project Manager",
+        "institution": "e-Governance Academy"
+      },
+      "government_side": {
+        "counterpart_person_id": "kg-mincifry-head",
+        "counterpart_role": "Minister of Digital Development (now UDP post-2026)",
+        "counterpart_institution": "KG-MINCIFRY"
+      },
+      "dyad_quality": "HIGH — both sides named (project completed; relationship continues via C4CA)",
+      "lens_tags": ["donor_co_financed", "diaspora_bridge"]
+    },
+    {
+      "program_id": "UNDP-UZ-DIGITAL-PUBADMIN",
+      "donor_side": {
+        "ttl_pm_name": "[TTL_NOT_FOUND]",
+        "known_contacts": "UNDP Uzbekistan Digital Programme Manager (jobs.undp.org post 110741). UNDP Resident Representative Tashkent",
+        "ttl_found": false
+      },
+      "bank_country_manager": {
+        "name": "[NOT_FOUND]",
+        "title": "UNDP Resident Representative Uzbekistan",
+        "institution": "UNDP Tashkent"
+      },
+      "government_side": {
+        "counterpart_person_id": "uz-asr-head",
+        "counterpart_role": "Director, Agency for Strategic Reforms (ASR) under the President",
+        "counterpart_institution": "UZ-ASR"
+      },
+      "dyad_quality": "MEDIUM — government side identified",
+      "lens_tags": ["donor_co_financed", "karimov_inversion"]
+    },
+    {
+      "program_id": "UNDP-UZ-AI-COURTS",
+      "donor_side": {
+        "ttl_pm_name": "[TTL_NOT_FOUND]",
+        "known_contacts": "UNDP Uzbekistan Rule of Law cluster. Published ICT in Civil Courts analytical note 2025",
+        "ttl_found": false
+      },
+      "bank_country_manager": {
+        "name": "[NOT_FOUND]",
+        "title": "UNDP Resident Representative Uzbekistan",
+        "institution": "UNDP Tashkent"
+      },
+      "government_side": {
+        "counterpart_person_id": "uz-supreme-court-head",
+        "counterpart_role": "Chairman, Supreme Court of Uzbekistan",
+        "counterpart_institution": "UZ-SUPREM-COURT"
+      },
+      "dyad_quality": "MEDIUM — government identified; HIGHEST STRATEGIC RELEVANCE (CW-001)",
+      "lens_tags": ["donor_co_financed", "decree_half_life_active", "karimov_inversion"]
+    },
+    {
+      "program_id": "UNDP-KG-DIGITAL-TRANSFORM",
+      "donor_side": {
+        "ttl_pm_name": "[TTL_NOT_FOUND]",
+        "known_contacts": "UNDP Kyrgyzstan Digital Programme Manager (jobs.undp.org post 110741 IPSA-11)",
+        "ttl_found": false
+      },
+      "bank_country_manager": {
+        "name": "[NOT_FOUND]",
+        "title": "UNDP Resident Representative Kyrgyzstan",
+        "institution": "UNDP Bishkek"
+      },
+      "government_side": {
+        "counterpart_person_id": "kg-udp-digital-head",
+        "counterpart_role": "Head of Digital Department, UDP/Presidential Administration (post-2026)",
+        "counterpart_institution": "KG-UDP-DIGITAL"
+      },
+      "dyad_quality": "MEDIUM — government post identified; person to be resolved by Wave 3",
+      "lens_tags": ["donor_co_financed", "japarov_concentration"]
+    },
+    {
+      "program_id": "KOICA-UZ-IT-EDU",
+      "donor_side": {
+        "ttl_pm_name": "[TTL_NOT_FOUND]",
+        "known_contacts": "KOICA Uzbekistan Country Director, Tashkent office",
+        "ttl_found": false
+      },
+      "bank_country_manager": {
+        "name": "[NOT_FOUND]",
+        "title": "KOICA Uzbekistan Country Director",
+        "institution": "KOICA Tashkent"
+      },
+      "government_side": {
+        "counterpart_person_id": "uz-mintsifry-head",
+        "counterpart_role": "Minister of Digital Technologies of Uzbekistan",
+        "counterpart_institution": "UZ-MINTSIFRY"
+      },
+      "dyad_quality": "MEDIUM — government well-identified; KOICA TTL needs resolution",
+      "lens_tags": ["donor_co_financed", "decree_half_life_active"]
+    },
+    {
+      "program_id": "KOICA-KG-TUNDUK",
+      "donor_side": {
+        "ttl_pm_name": "[TTL_NOT_FOUND]",
+        "known_contacts": "KOICA Kyrgyzstan Country Director, Bishkek office",
+        "ttl_found": false
+      },
+      "bank_country_manager": {
+        "name": "[NOT_FOUND]",
+        "title": "KOICA Kyrgyzstan Country Director",
+        "institution": "KOICA Bishkek"
+      },
+      "government_side": {
+        "counterpart_person_id": "kg-tunduk-director",
+        "counterpart_role": "Director, GP Tunduk (now under UDP)",
+        "counterpart_institution": "KG-GP-TUNDUK"
+      },
+      "dyad_quality": "MEDIUM — government post identified",
+      "lens_tags": ["donor_co_financed", "japarov_concentration"]
+    },
+    {
+      "program_id": "KOICA-KG-DIGCAP",
+      "donor_side": {
+        "ttl_pm_name": "[TTL_NOT_FOUND]",
+        "known_contacts": "KOICA Kyrgyzstan Country Director, Bishkek",
+        "ttl_found": false
+      },
+      "bank_country_manager": {
+        "name": "[NOT_FOUND]",
+        "title": "KOICA Kyrgyzstan Country Director",
+        "institution": "KOICA Bishkek"
+      },
+      "government_side": {
+        "counterpart_person_id": "kg-udp-digital-head",
+        "counterpart_role": "Head of Digital Department, UDP/Presidential Administration",
+        "counterpart_institution": "KG-UDP-DIGITAL"
+      },
+      "dyad_quality": "MEDIUM",
+      "lens_tags": ["donor_co_financed"]
+    },
+    {
+      "program_id": "JICA-UZ-DIGITAL-INNOVATION",
+      "donor_side": {
+        "ttl_pm_name": "[TTL_NOT_FOUND]",
+        "known_contacts": "JICA Uzbekistan Office Representative, Tashkent",
+        "ttl_found": false
+      },
+      "bank_country_manager": {
+        "name": "[NOT_FOUND]",
+        "title": "JICA Uzbekistan Chief Representative",
+        "institution": "JICA Tashkent"
+      },
+      "government_side": {
+        "counterpart_person_id": "uz-minhesai-minister",
+        "counterpart_role": "Minister of Higher Education, Science and Innovations (MoHESI)",
+        "counterpart_institution": "UZ-MINHESAI"
+      },
+      "dyad_quality": "LOW — both sides need Wave 3 resolution",
+      "lens_tags": ["donor_co_financed"]
+    },
+    {
+      "program_id": "CHINA-DSR-UZ-GOVCLOUD",
+      "donor_side": {
+        "ttl_pm_name": "[TTL_NOT_FOUND]",
+        "known_contacts": "Huawei President for Middle East and Central Asia (unnamed in public sources). UZINFOCOM as state system integrator.",
+        "ttl_found": false
+      },
+      "bank_country_manager": {
+        "name": "[NOT_FOUND]",
+        "title": "Huawei Tashkent Representative",
+        "institution": "Huawei Technologies Uzbekistan"
+      },
+      "government_side": {
+        "counterpart_person_id": "uz-mintsifry-head",
+        "counterpart_role": "Minister of Digital Technologies of Uzbekistan",
+        "counterpart_institution": "UZ-MINTSIFRY"
+      },
+      "dyad_quality": "LOW — opaque state-to-state; note for competitive intelligence",
+      "lens_tags": ["russian_cis_substitution"]
+    },
+    {
+      "program_id": "EBRD-UZ-DIGITAL-STRATEGY",
+      "donor_side": {
+        "ttl_pm_name": "[TTL_NOT_FOUND]",
+        "known_contacts": "EBRD Uzbekistan Principal Banker (resident mission head). EBRD HQ London.",
+        "ttl_found": false
+      },
+      "bank_country_manager": {
+        "name": "[NOT_FOUND]",
+        "title": "EBRD Uzbekistan Principal Banker / Head of Resident Mission",
+        "institution": "EBRD Tashkent"
+      },
+      "government_side": {
+        "counterpart_person_id": "uz-minfin-minister",
+        "counterpart_role": "Minister of Finance of Uzbekistan",
+        "counterpart_institution": "UZ-MINFIN"
+      },
+      "dyad_quality": "LOW — both sides need name resolution",
+      "lens_tags": ["donor_co_financed"]
+    },
+    {
+      "program_id": "WB-UZ-HEALTH-P178562",
+      "donor_side": {
+        "ttl_pm_name": "[TTL_NOT_FOUND]",
+        "known_contacts": "World Bank Health sector ECA unit, Marco Mantovanelli (Country Manager)",
+        "ttl_found": false
+      },
+      "bank_country_manager": {
+        "name": "Marco Mantovanelli",
+        "title": "World Bank Country Manager for Uzbekistan",
+        "institution": "World Bank Tashkent"
+      },
+      "government_side": {
+        "counterpart_person_id": "uz-minzdrav-minister",
+        "counterpart_role": "Minister of Health of Uzbekistan",
+        "counterpart_institution": "UZ-MINZDRAV"
+      },
+      "dyad_quality": "MEDIUM — government well-identified",
+      "lens_tags": ["donor_co_financed", "decree_half_life_active"]
+    },
+    {
+      "program_id": "AIIB-UZ-TELECOM-P000758",
+      "donor_side": {
+        "ttl_pm_name": "[TTL_NOT_FOUND]",
+        "known_contacts": "AIIB Investment Operations, Central Asia. Project P000758 approved Aug 2025.",
+        "ttl_found": false
+      },
+      "bank_country_manager": {
+        "name": "[NOT_FOUND]",
+        "title": "AIIB Senior Investment Officer (Central Asia)",
+        "institution": "AIIB Beijing"
+      },
+      "government_side": {
+        "counterpart_person_id": "uz-uztelekom-ceo",
+        "counterpart_role": "CEO/General Director, JSC Uztelekom",
+        "counterpart_institution": "UZ-UZTELEKOM"
+      },
+      "dyad_quality": "MEDIUM — government SOE identified",
+      "lens_tags": ["donor_co_financed"]
+    },
+    {
+      "program_id": "EDB-BOTH-DIGITAL-INITIATIVES",
+      "donor_side": {
+        "ttl_pm_name": "Tigran Sargsyan",
+        "ttl_pm_title": "Vice Chairman of EDB Management Board; Fund for Digital Initiatives presenter",
+        "ttl_pm_institution": "Eurasian Development Bank (Almaty)",
+        "ttl_found": true
+      },
+      "bank_country_manager": {
+        "name": "Tigran Sargsyan",
+        "title": "EDB Vice Chairman, Management Board",
+        "institution": "EDB Almaty / Tashkent"
+      },
+      "government_side": {
+        "counterpart_person_id": "uz-minfin-minister",
+        "counterpart_role": "Minister of Finance (UZ joined EDB 2025, 10% stakeholder)",
+        "counterpart_institution": "UZ-MINFIN"
+      },
+      "dyad_quality": "HIGH — EDB senior named",
+      "lens_tags": ["donor_co_financed", "russian_cis_substitution"]
+    },
+    {
+      "program_id": "ISDB-UZ-EDUCATION-SMARTED",
+      "donor_side": {
+        "ttl_pm_name": "[TTL_NOT_FOUND]",
+        "known_contacts": "IsDB Country Director Uzbekistan. UNICEF UZ tripartite co-implementer.",
+        "ttl_found": false
+      },
+      "bank_country_manager": {
+        "name": "[NOT_FOUND]",
+        "title": "IsDB Country Director Uzbekistan",
+        "institution": "IsDB Regional Hub"
+      },
+      "government_side": {
+        "counterpart_person_id": "uz-minobr-minister",
+        "counterpart_role": "Minister of School Education of Uzbekistan",
+        "counterpart_institution": "UZ-MINOBR"
+      },
+      "dyad_quality": "MEDIUM — large project, government well-identified",
+      "lens_tags": ["donor_co_financed"]
+    },
+    {
+      "program_id": "EU-FCDO-CA-GOVERNANCE",
+      "donor_side": {
+        "ttl_pm_name": "[TTL_NOT_FOUND]",
+        "known_contacts": "FCDO Central Asia Team + FCDO offices Tashkent/Bishkek. £25M EGED + £30M new programme.",
+        "ttl_found": false
+      },
+      "bank_country_manager": {
+        "name": "[NOT_FOUND]",
+        "title": "FCDO Head of Programme, Central Asia",
+        "institution": "FCDO Tashkent / Bishkek"
+      },
+      "government_side": {
+        "counterpart_person_id": "uz-asr-head",
+        "counterpart_role": "Director, Agency for Strategic Reforms (ASR)",
+        "counterpart_institution": "UZ-ASR"
+      },
+      "dyad_quality": "LOW — both sides need resolution",
+      "lens_tags": ["donor_co_financed"]
+    },
+    {
+      "program_id": "UNICEF-UZ-EDTECH-LEARNING",
+      "donor_side": {
+        "ttl_pm_name": "[TTL_NOT_FOUND]",
+        "known_contacts": "UNICEF Uzbekistan Education Chief. UNICEF Learning Innovation Hub (HQ Innovation team).",
+        "ttl_found": false
+      },
+      "bank_country_manager": {
+        "name": "[NOT_FOUND]",
+        "title": "UNICEF Uzbekistan Representative",
+        "institution": "UNICEF Tashkent"
+      },
+      "government_side": {
+        "counterpart_person_id": "uz-minobr-minister",
+        "counterpart_role": "Minister of School Education (Ministry of Preschool and School Education)",
+        "counterpart_institution": "UZ-MINOBR"
+      },
+      "dyad_quality": "MEDIUM",
+      "lens_tags": ["donor_co_financed"]
+    },
+    {
+      "program_id": "AKDN-KG-DIGITAL-SCHOOLS2030",
+      "donor_side": {
+        "ttl_pm_name": "[TTL_NOT_FOUND]",
+        "known_contacts": "AKDN Kyrgyzstan Country Representative. Prince Rahim Aga Khan met President Japarov March 2024.",
+        "ttl_found": false
+      },
+      "bank_country_manager": {
+        "name": "[NOT_FOUND]",
+        "title": "AKDN Kyrgyzstan Country Representative",
+        "institution": "AKDN Bishkek"
+      },
+      "government_side": {
+        "counterpart_person_id": "kg-minobr-minister",
+        "counterpart_role": "Minister of Education and Science of KG",
+        "counterpart_institution": "KG-MINOBR"
+      },
+      "dyad_quality": "LOW — both sides need resolution",
+      "lens_tags": ["donor_co_financed"]
+    },
+    {
+      "program_id": "ADB-KG-54383-001",
+      "donor_side": {
+        "ttl_pm_name": "Aibek Abdybakirov",
+        "ttl_pm_title": "Project Officer, Central and West Asia Department, ADB",
+        "ttl_pm_institution": "ADB Manila / Bishkek",
+        "ttl_found": true
+      },
+      "bank_country_manager": {
+        "name": "[NOT_FOUND]",
+        "title": "ADB Kyrgyz Republic Country Director",
+        "institution": "ADB Bishkek Resident Mission"
+      },
+      "government_side": {
+        "counterpart_person_id": "kg-goszakupki-head",
+        "counterpart_role": "Head, Government Procurement Agency (State Agency for Procurement / MoF department)",
+        "counterpart_institution": "KG-GOSZAKUPKI"
+      },
+      "dyad_quality": "HIGH",
+      "lens_tags": ["donor_co_financed"]
+    },
+    {
+      "program_id": "TIKA-UZ-KG-DIGITAL",
+      "donor_side": {
+        "ttl_pm_name": "[TTL_NOT_FOUND]",
+        "known_contacts": "TIKA Tashkent PCO Coordinator; TIKA Bishkek PCO Coordinator",
+        "ttl_found": false
+      },
+      "bank_country_manager": {
+        "name": "[NOT_FOUND]",
+        "title": "TIKA Program Coordination Officer (Tashkent)",
+        "institution": "TIKA Tashkent PCO"
+      },
+      "government_side": {
+        "counterpart_person_id": "uz-mintsifry-head",
+        "counterpart_role": "Minister of Digital Technologies (and analogous KG counterpart)",
+        "counterpart_institution": "UZ-MINTSIFRY"
+      },
+      "dyad_quality": "LOW",
+      "lens_tags": ["donor_co_financed"]
+    },
+    {
+      "program_id": "WB-UZ-AGRI-DIGITAL",
+      "donor_side": {
+        "ttl_pm_name": "[TTL_NOT_FOUND]",
+        "known_contacts": "World Bank Agriculture Practice ECA, Marco Mantovanelli (Country Manager)",
+        "ttl_found": false
+      },
+      "bank_country_manager": {
+        "name": "Marco Mantovanelli",
+        "title": "World Bank Country Manager for Uzbekistan",
+        "institution": "World Bank Tashkent"
+      },
+      "government_side": {
+        "counterpart_person_id": "uz-minselhhoz-minister",
+        "counterpart_role": "Minister of Agriculture of Uzbekistan",
+        "counterpart_institution": "UZ-MINSELHHOZ"
+      },
+      "dyad_quality": "MEDIUM",
+      "lens_tags": ["donor_co_financed"]
+    },
+    {
+      "program_id": "WB-UZ-FINREFORM-P176353",
+      "donor_side": {
+        "ttl_pm_name": "[TTL_NOT_FOUND]",
+        "known_contacts": "World Bank Macroeconomics Practice, Marco Mantovanelli (Country Manager)",
+        "ttl_found": false
+      },
+      "bank_country_manager": {
+        "name": "Marco Mantovanelli",
+        "title": "World Bank Country Manager for Uzbekistan",
+        "institution": "World Bank Tashkent"
+      },
+      "government_side": {
+        "counterpart_person_id": "uz-minfin-minister",
+        "counterpart_role": "Minister of Finance / Minister of Economy and Finance",
+        "counterpart_institution": "UZ-MINFIN"
+      },
+      "dyad_quality": "MEDIUM",
+      "lens_tags": ["donor_co_financed"]
+    },
+    {
+      "program_id": "UNICEF-KG-DIGITAL-EARLY",
+      "donor_side": {
+        "ttl_pm_name": "[TTL_NOT_FOUND]",
+        "known_contacts": "UNICEF Kyrgyzstan Representative + UNICEF Education Officer",
+        "ttl_found": false
+      },
+      "bank_country_manager": {
+        "name": "[NOT_FOUND]",
+        "title": "UNICEF Kyrgyzstan Representative",
+        "institution": "UNICEF Bishkek"
+      },
+      "government_side": {
+        "counterpart_person_id": "kg-minobr-minister",
+        "counterpart_role": "Minister of Education and Science of KG",
+        "counterpart_institution": "KG-MINOBR"
+      },
+      "dyad_quality": "MEDIUM",
+      "lens_tags": ["donor_co_financed"]
+    },
+    {
+      "program_id": "EU-KG-SDC-GOVERNANCE",
+      "donor_side": {
+        "ttl_pm_name": "[TTL_NOT_FOUND]",
+        "known_contacts": "SDC Kyrgyzstan resident coordinator; SECO cooperation team",
+        "ttl_found": false
+      },
+      "bank_country_manager": {
+        "name": "[NOT_FOUND]",
+        "title": "SDC Resident Coordinator Kyrgyzstan",
+        "institution": "SDC Bishkek"
+      },
+      "government_side": {
+        "counterpart_person_id": "kg-minfin-minister",
+        "counterpart_role": "Minister of Finance of Kyrgyzstan",
+        "counterpart_institution": "KG-MINFIN"
+      },
+      "dyad_quality": "LOW",
+      "lens_tags": ["donor_co_financed"]
+    }
+  ],
+  "summary": {
+    "total_dyads_mapped": 32,
+    "ttl_found_confirmed": 6,
+    "ttl_partially_identified": 14,
+    "ttl_not_found": 12,
+    "high_quality_dyads": ["WB-KG-P160230", "ADB-KG-55109-001", "ADB-UZ-52322-004", "ADB-UZ-58435-001", "EU-GIZ-UZ-GOVGOV", "EGA-KG-TWINNING", "EDB-BOTH-DIGITAL-INITIATIVES", "ADB-KG-54383-001"],
+    "named_ttls_confirmed": [
+      "Sandra Sargent (World Bank, KG Digital CASA)",
+      "Aibek Abdybakirov (ADB, KG e-Procurement 55109-001 + 54383-001)",
+      "Yun Ji Suh (ADB, UZ Power Grid 52322-004)",
+      "Mahinthan Joseph Mariasingham (ADB, UZ Statistics 58435-001)",
+      "Dr. Viktor Kessler (GIZ, UZ Good Governance)",
+      "Tõnis Mäe (EGA Estonia, KG Twinning — closed project, C4CA follow-on)",
+      "Tigran Sargsyan (EDB Vice Chairman, Digital Fund)",
+      "Marco Mantovanelli (WB Country Manager UZ — multiple programs)"
+    ]
+  }
+}

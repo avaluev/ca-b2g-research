@@ -1,0 +1,48 @@
+donor-pipeline COMPLETE
+produced_at: 2026-05-03
+
+STATS:
+  total_programs: 49
+  wb_programs: 10
+  adb_programs: 7
+  eu_programs: 10
+  un_programs: 7
+  bilateral_programs: 8
+  other_programs: 7
+  dyads_mapped: 32
+  ttl_confirmed: 8
+  named_world_bank_contacts: 4 (Marco Mantovanelli UZ, Naveed Hassan Naqvi KG, Sandra Sargent KG Digital, Mirzo Ibragimov UZ contact)
+  named_adb_officers: 3 (Aibek Abdybakirov KG, Yun Ji Suh UZ, Mahinthan Mariasingham UZ)
+  named_other_donors: 4 (Dr. Viktor Kessler GIZ UZ, Tonis Mae EGA KG, Tigran Sargsyan EDB, Jozef Sikela EU Commissioner)
+
+OUTPUT_FILES:
+  state/donors/programs_wb.json (10 records)
+  state/donors/programs_adb.json (7 records)
+  state/donors/programs_eu.json (10 records)
+  state/donors/programs_un.json (7 records)
+  state/donors/programs_bilateral.json (8 records)
+  state/donors/programs_other.json (7 records)
+  state/donors/programs.json (49 records merged)
+  state/donors/donor_summary.md (full portfolio analysis)
+  state/donors/dyad_map.json (32 dyads)
+  state/donors/COMPLETE
+
+TOP_3_URGENT_WINDOWS:
+  1. WB-UZ-P506803: Geospatial NSDI ($40.7M) — just started Feb 2025, ALL ICB tenders upcoming. Contact: WB Tashkent, Cadastre Agency PIU.
+  2. UNDP-UZ-AI-COURTS: AI in civil courts (aligned with UP-140 decree, CW-001) — spec-shaping window now. Contact: UNDP Tashkent rule of law cluster.
+  3. WB-KG-P160230: Digital CASA closing Mar 2025, Sandra Sargent is TTL — engage NOW before follow-on project TORs are set in post-Mincifry UDP context.
+
+TRUST_FUNDS:
+  - Korea-WB Partnership Facility (KWPF): active for KG digital
+  - Japan PHRD: available for WB project TA in UZ/KG
+  - EDB Fund for Digital Initiatives: active, UZ joined 2025
+  - GPE grant: deployed via IsDB SmartEd UZ
+
+VERIFICATION_NOTES:
+  - VERIFIED: 8 programs (direct official source)
+  - L2_VERIFIED: 29 programs (secondary corroboration)
+  - INFERRED: 9 programs (from strategic context, no direct source)
+  - All disbursement figures: use with caution; snap-dated to available reporting
+  - USAID: effectively exited CA digital — treat all USAID programs as closed/suspended
+  - OSF/Soros KG: ceased operations 2024
+  - Huawei UZ Gov Cloud: direct state-to-state, not open procurement — note as competitive context only

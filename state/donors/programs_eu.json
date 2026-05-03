@@ -1,0 +1,384 @@
+[
+  {
+    "id": "EU-BOTH-C4CA",
+    "donor": "EU",
+    "program_name": "Connectivity for Central Asia (C4CA)",
+    "program_id_external": "C4CA-2025-2028",
+    "country": "BOTH",
+    "implementing_ministry_id": null,
+    "piu_institution_id": null,
+    "total_budget_usd": 21600000,
+    "disbursed_usd": 0,
+    "period_start": "2025-01-01",
+    "period_end": "2028-12-31",
+    "procurement_modality": "mixed",
+    "ai_digital_relevance": "Regional digital connectivity initiative covering KZ, KG, TJ, TM, UZ. Four components: (1) high-capacity internet network development, (2) satellite constellation enabling environment, (3) ground infrastructure deployment, (4) capacity building for cybersecurity. Implementing partners: Expertise France, e-Governance Academy (Estonia), Finnish Institute of Public Management (HAUS), Lithuanian CPMA, Latvian CFCA. EGA involvement means X-Road/GovStack expertise available to KG Tunduk modernization.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] EU DG INTPA manages overall. Expertise France leads consortium. Contact: expertise-france.gestmax.fr for project vacancies. EU Delegation officers in Tashkent and Bishkek are political counterparts. Search path: Expertise France website C4CA project page.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-udp-digital-head",
+    "pipeline_tenders": [
+      {
+        "title": "Cybersecurity capacity building consultancy — regional",
+        "expected_date": "2025-Q3",
+        "estimated_value_usd": 3000000
+      },
+      {
+        "title": "Digital connectivity enabling environment advisory",
+        "expected_date": "2025-Q4",
+        "estimated_value_usd": 4000000
+      }
+    ],
+    "vendor_entry_pathway": "Sub-grants and sub-contracts through Expertise France consortium. EGA/HAUS often procure sub-consultants. Monitor EU-funded vacancies and sub-contracting notices. Cybersecurity capacity building is direct entry point for security vendors.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.eucybernet.eu/project/connectivity-for-central-asia-c4ca/",
+        "title": "Connectivity for Central Asia (C4CA) — EU CyberNet project page",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "eucybernet.eu",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "EU-BOTH-GLOBAL-GATEWAY-CA",
+    "donor": "EU",
+    "program_name": "Global Gateway Central Asia — Digital and Connectivity Package",
+    "program_id_external": "GG-CA-2025",
+    "country": "BOTH",
+    "implementing_ministry_id": null,
+    "piu_institution_id": null,
+    "total_budget_usd": 65000000,
+    "disbursed_usd": 0,
+    "period_start": "2025-01-01",
+    "period_end": "2027-12-31",
+    "procurement_modality": "mixed",
+    "ai_digital_relevance": "EU's Global Gateway digital connectivity package for Central Asia announced at April 2025 Samarkand summit. Includes: €60M EIB-EU package for SES satellite connectivity (rural CA populations in UZ, KG, KZ, TJ); digital trade facilitation; cybersecurity norms alignment. Broader package stated at €12B but majority is private mobilization. Digital components estimated €60-65M public funds. Covers connectivity infrastructure underpinning all digital services.",
+    "ttl_pm_name": "Jozef Síkela (EU Commissioner for International Partnerships — political owner). Operational managers at EU Delegation Tashkent and Bishkek. [Specific program officer TTL_NOT_FOUND]",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-mintsifry-head",
+    "pipeline_tenders": [
+      {
+        "title": "SES satellite connectivity rural Central Asia — EIB co-financed",
+        "expected_date": "2025-Q2",
+        "estimated_value_usd": 60000000
+      }
+    ],
+    "vendor_entry_pathway": "EIB-financed components procured by SES and partners. EU-financed TA components through implementing agencies. Engage EU Delegation Tashkent (eeas.europa.eu/delegations/uzbekistan) and Bishkek directly.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.eeas.europa.eu/delegations/uzbekistan/eu-strengthens-digital-and-economic-ties-uzbekistan-under-global-gateway_en",
+        "title": "EU strengthens digital and economic ties with Uzbekistan under Global Gateway | EEAS",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "eeas.europa.eu",
+        "source_tier": "international_org"
+      },
+      {
+        "url": "https://www.eib.org/en/press/all/2025-148-team-europe-provides-nearly-eur60-million-for-digital-connectivity-in-rural-central-asia",
+        "title": "Team Europe provides nearly €60 million for digital connectivity in rural Central Asia — EIB",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "eib.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "EU-UZ-UNDP-PUBLICSERVICE",
+    "donor": "EU",
+    "program_name": "Further Improvement of Public Service Delivery in Uzbekistan (EU-UNDP)",
+    "program_id_external": "EU-UZ-PUBSERV-2024",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-MINUST",
+    "piu_institution_id": "UZ-UNDP-PUBSERV-PIU",
+    "total_budget_usd": 5390000,
+    "disbursed_usd": 0,
+    "period_start": "2024-04-24",
+    "period_end": "2029-12-31",
+    "procurement_modality": "QCBS",
+    "ai_digital_relevance": "Digitize at least 35 public services; upskill 1,000 civil servants including AI/data science training for ICT specialists; establish 34 new public service delivery zones; digital user-centric transformation of back-office functions across 11 institutions. AI and data science training specifically for government ICT staff (5-day seminars, Tashkent region Oct 2025). Implementing: UNDP + Ministry of Justice + Agency for Strategic Reforms + Agency for Development of Public Service + MoDT.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] UNDP Uzbekistan implements. EU Delegation Tashkent finances. Search path: undp.org/uzbekistan/projects/further-improvement-public-service-delivery-uzbekistan for project manager contact.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-minust-minister",
+    "pipeline_tenders": [
+      {
+        "title": "Digital public services design and development — 35 services",
+        "expected_date": "2025-Q4",
+        "estimated_value_usd": 2000000
+      },
+      {
+        "title": "AI/data science training curriculum development for civil servants",
+        "expected_date": "2026-Q1",
+        "estimated_value_usd": 500000
+      }
+    ],
+    "vendor_entry_pathway": "UNDP-managed procurement (UNDP standard rules, RFP). Register as UNDP vendor. Sub-contracts through UNDP procurement. Digital service design firms, GovTech platforms, AI training providers are target categories.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.undp.org/uzbekistan/projects/further-improvement-public-service-delivery-uzbekistan",
+        "title": "Further Improvement of Public Service Delivery in Uzbekistan — UNDP project page",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "undp.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "EU-GIZ-UZ-GOVGOV",
+    "donor": "EU_GIZ",
+    "program_name": "Good Governance Program Uzbekistan (GIZ + EU co-financing)",
+    "program_id_external": "GIZ-UZ-GOVPROG-2022",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-MINUST",
+    "piu_institution_id": "UZ-GIZ-OFFICE",
+    "total_budget_usd": 12420000,
+    "disbursed_usd": null,
+    "period_start": "2022-04-01",
+    "period_end": "2027-03-31",
+    "procurement_modality": "QCBS",
+    "ai_digital_relevance": "Public administration reform including digital governance components; administrative law reform; corruption prevention. Less direct AI relevance but establishes institutional reform frameworks that precede digital procurement. Includes anti-corruption digital tools component. EU co-financing of €3.5M means dual accountability (BMZ + EU).",
+    "ttl_pm_name": "Dr. Viktor Kessler (GIZ Project Director, Uzbekistan)",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-minust-minister",
+    "pipeline_tenders": [
+      {
+        "title": "Anti-corruption digital transparency tools advisory",
+        "expected_date": "2025-Q3",
+        "estimated_value_usd": 500000
+      }
+    ],
+    "vendor_entry_pathway": "GIZ procurement via GIZ standard rules. Sub-contractors and embedded advisors engaged via GIZ. Contact Dr. Viktor Kessler at GIZ Tashkent. Anti-corruption analytics and transparency platforms relevant.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.giz.de/en/worldwide/129655.html",
+        "title": "Promoting Good Governance in Uzbekistan — GIZ project page",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "giz.de",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "EU-KG-SDC-GOVERNANCE",
+    "donor": "SDC",
+    "program_name": "Switzerland Cooperation Programme Central Asia 2022-2025 — Governance and Public Finance Component (Kyrgyzstan)",
+    "program_id_external": "SDC-KG-2022-2025",
+    "country": "KG",
+    "implementing_ministry_id": "KG-MINFIN",
+    "piu_institution_id": null,
+    "total_budget_usd": 16200000,
+    "disbursed_usd": null,
+    "period_start": "2022-01-01",
+    "period_end": "2026-12-31",
+    "procurement_modality": "QCBS",
+    "ai_digital_relevance": "Good governance, budget transparency, public finance management in KG. Limited direct AI relevance but includes civic budget monitoring tools, e-procurement for local governments, budget data visualization. SECO (State Secretariat for Economics) component covers economic development including digital financial services.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] SDC Kyrgyzstan resident coordinator. CHF 85.3M total programme 2022-2025 for KG, TJ, UZ combined; approximately CHF 40M SECO. Search path: deza.eda.admin.ch KG projects.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-minfin-minister",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "SDC procurement via Swiss agency rules. Monitor Swiss Cooperation Kyrgyzstan office (seco-cooperation.admin.ch) for consulting opportunities. Budget transparency and local governance digital tools are entry points.",
+    "status": "active",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.seco-cooperation.admin.ch/en/kyrgyzstan",
+        "title": "Switzerland SECO Cooperation — Kyrgyzstan",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "seco-cooperation.admin.ch",
+        "source_tier": "international_org"
+      },
+      {
+        "url": "https://www.deza.eda.admin.ch/en/country-central-asia-kyrgyzstan-tajikistan-uzbekistan",
+        "title": "Central Asia: Kyrgyzstan, Tajikistan, Uzbekistan — SDC country page",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "deza.eda.admin.ch",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "EU-FCDO-CA-GOVERNANCE",
+    "donor": "FCDO",
+    "program_name": "Effective Governance for Economic Development in Central Asia (EGED) + New Governance Programme",
+    "program_id_external": "GB-GOV-1-300961",
+    "country": "BOTH",
+    "implementing_ministry_id": null,
+    "piu_institution_id": null,
+    "total_budget_usd": 33000000,
+    "disbursed_usd": null,
+    "period_start": "2021-01-01",
+    "period_end": "2027-12-31",
+    "procurement_modality": "QCBS",
+    "ai_digital_relevance": "EGED (£25M) improving effectiveness of economic policies in KG, TJ, UZ through data/evidence-based policymaking, digital governance tools. New £30M governance programme in design (2026+). Supports digital solutions for local self-government. Data analytics and evidence tools relevant. UK has strategic interest in positioning post-USAID withdrawal.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] FCDO Central Asia Team (London HQ) + FCDO offices in Tashkent and Bishkek. Search path: devtracker.fcdo.gov.uk programme GB-GOV-1-300961.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-asr-head",
+    "pipeline_tenders": [
+      {
+        "title": "Economic data systems and digital governance advisory — CA regional",
+        "expected_date": "2026-Q1",
+        "estimated_value_usd": 5000000
+      }
+    ],
+    "vendor_entry_pathway": "FCDO procurement via Crown Commercial Service and direct contracts. Monitor devtracker.fcdo.gov.uk. UK-headquartered consulting firms have advantage but international subs welcome. Data analytics, policy AI tools entry points.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://devtracker.fcdo.gov.uk/programme/GB-GOV-1-300961/summary",
+        "title": "Effective Governance for Economic Development in Central Asia — FCDO DevTracker",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "devtracker.fcdo.gov.uk",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "EBRD-UZ-DIGITAL-STRATEGY",
+    "donor": "EBRD",
+    "program_name": "EBRD Uzbekistan Country Strategy 2024-2028 — Digital Economy and SME Digitalization Component",
+    "program_id_external": "EBRD-UZ-CS-2024",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-MINFIN",
+    "piu_institution_id": null,
+    "total_budget_usd": 200000000,
+    "disbursed_usd": null,
+    "period_start": "2024-01-01",
+    "period_end": "2028-12-31",
+    "procurement_modality": "direct",
+    "ai_digital_relevance": "EBRD strategy 2024-2028 explicitly prioritizes digitalization of private sector, e-commerce expansion, local capital markets development. Instruments: direct loans to digital companies, credit lines via partner banks for MSME digitalization, Star Venture programme for tech startups, Business Advisory Services for digital transformation. €5.6B invested in UZ to date across 174 projects.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] EBRD Uzbekistan Principal Banker (head of resident mission). Search path: ebrd.com/where-we-are/uzbekistan.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-minfin-minister",
+    "pipeline_tenders": [
+      {
+        "title": "Star Venture digital startup programme — Central Asia cohort",
+        "expected_date": "2025-Q3",
+        "estimated_value_usd": 5000000
+      }
+    ],
+    "vendor_entry_pathway": "EBRD direct financing (equity/loans) for tech companies; sub-advisory via EBRD BAS (Business Advisory Services). Engage EBRD Tashkent resident mission. Advisory assignments open to international consultants.",
+    "status": "active",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.ebrd.com/news/2024/ebrd-approves-new-country-strategy-for-uzbekistan.html",
+        "title": "EBRD approves new country strategy for Uzbekistan (2024)",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "ebrd.com",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "EBRD-KG-SME-DIGITAL",
+    "donor": "EBRD",
+    "program_name": "EBRD Kyrgyz Republic Country Strategy 2024-2029 — MSME and Digital Economy",
+    "program_id_external": "EBRD-KG-CS-2024",
+    "country": "KG",
+    "implementing_ministry_id": null,
+    "piu_institution_id": null,
+    "total_budget_usd": 50000000,
+    "disbursed_usd": null,
+    "period_start": "2024-01-01",
+    "period_end": "2029-12-31",
+    "procurement_modality": "direct",
+    "ai_digital_relevance": "KG Country Strategy 2024-2029 focuses on green, resilient, and digital economy. MSME digital capacity, fintech development, e-commerce enablement. US$5M SME support via KICB. Star Venture programme extends to KG startups. Business Advisory Services for SME digitalization.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] EBRD Kyrgyzstan Principal Banker. Search path: ebrd.com/where-we-are/kyrgyz-republic.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-minfin-minister",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "EBRD BAS advisory assignments; EBRD Star Venture programme. Engage EBRD Bishkek sub-office. E-commerce and fintech vendors can apply for equity/quasi-equity via EBRD MSME window.",
+    "status": "active",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.ebrd.com/content/dam/ebrd_dxp/assets/pdfs/country-strategies/kyrgyz-republic/EBRD-Latest-Kyrgyz%20Republic-Strategy.pdf",
+        "title": "EBRD Kyrgyz Republic Country Strategy 2024-2029",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "ebrd.com",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "EU-KG-TEAM-EUROPE-DIGITAL",
+    "donor": "EU",
+    "program_name": "Team Europe Initiative on Digital Connectivity for Kyrgyzstan",
+    "program_id_external": "TEI-KG-DIGITAL-2025",
+    "country": "KG",
+    "implementing_ministry_id": "KG-MINCIFRY",
+    "piu_institution_id": null,
+    "total_budget_usd": 10000000,
+    "disbursed_usd": null,
+    "period_start": "2025-01-01",
+    "period_end": "2028-12-31",
+    "procurement_modality": "mixed",
+    "ai_digital_relevance": "Team Europe package for KG digital: rural connectivity, e-governance readiness, data protection frameworks. EGA (Estonia) as key partner — directly relevant to Tunduk modernization and GovStack adoption. Multi-donor trust fund mechanism combining EU, member state contributions. Post-Mintsifry dissolution to UDP makes this a strategic engagement window.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] EU Delegation Bishkek leads. Search path: eeas.europa.eu/delegations/kyrgyz-republic/global-gateway.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-udp-digital-head",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "Monitor EU Delegation Bishkek procurement notices. EGA sub-contracts for GovStack/X-Road expertise. Enter via Team Europe implementing partners.",
+    "status": "pipeline",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.eeas.europa.eu/delegations/kyrgyz-republic/global-gateway-0_en",
+        "title": "Global Gateway — EEAS Kyrgyz Republic Delegation",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "eeas.europa.eu",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "EU-GIZ-KG-DECENTRALISATION",
+    "donor": "EU_GIZ",
+    "program_name": "GIZ Kyrgyzstan — Economic Development and Local Governance (incl. MIS/digital components)",
+    "program_id_external": "GIZ-KG-ECDEV",
+    "country": "KG",
+    "implementing_ministry_id": "KG-MINFINANCE",
+    "piu_institution_id": null,
+    "total_budget_usd": 8000000,
+    "disbursed_usd": null,
+    "period_start": "2022-01-01",
+    "period_end": "2026-12-31",
+    "procurement_modality": "QCBS",
+    "ai_digital_relevance": "GIZ KG economic development programme with components covering agricultural value chains, rural finance, and governance — includes MIS (Management Information Systems) for agricultural sector and local government. 77 national + 5 international staff. Limited direct AI relevance but MIS components create IT sub-contracting opportunities.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] GIZ Kyrgyzstan country office head. Search path: giz.de/en/regions/asia/kyrgyzstan contact page.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-minfin-minister",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "GIZ sub-contracting; embedded advisory. Contact GIZ Bishkek (+996 312 90 90 70). MIS and digital tools sub-contracts relevant.",
+    "status": "active",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.giz.de/en/regions/asia/kyrgyzstan",
+        "title": "Kyrgyzstan | GIZ — country page (15 commissions, 82 staff)",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "giz.de",
+        "source_tier": "international_org"
+      }
+    ]
+  }
+]

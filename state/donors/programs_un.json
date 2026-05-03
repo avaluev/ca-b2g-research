@@ -1,0 +1,269 @@
+[
+  {
+    "id": "UNDP-UZ-DIGITAL-PUBADMIN",
+    "donor": "UNDP",
+    "program_name": "Public Administration Reforms and Digital Transformation (Uzbekistan) — completed phase; follow-on active",
+    "program_id_external": "UNDP-UZ-PUBADMIN-DIGITAL",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-ASR",
+    "piu_institution_id": "UZ-UNDP-OFFICE",
+    "total_budget_usd": 4900000,
+    "disbursed_usd": null,
+    "period_start": "2024-04-24",
+    "period_end": "2029-12-31",
+    "procurement_modality": "RFP",
+    "ai_digital_relevance": "Digitalize 35+ public services; AI and data science upskilling for 1,000+ civil servants; digital user-centric transformation of back-office at 11 agencies; 34 new public service zones (digital access points). UNDP piloted Uzbek-language AI tools for youth entrepreneurs. UNDP published Digital Economy of Uzbekistan report (May 2025) — direct research leverage. Implementing partners: Ministry of Justice, ASR, Agency for Public Service Development, MoDT.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] UNDP Uzbekistan Digital Programme Manager. Search path: jobs.undp.org UNDP-UZ digital programme manager vacancy post.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-asr-head",
+    "pipeline_tenders": [
+      {
+        "title": "Digital public services platform development (35 services)",
+        "expected_date": "2025-Q4",
+        "estimated_value_usd": 1500000
+      },
+      {
+        "title": "Civil servant AI/data science training delivery (UNDP RFP)",
+        "expected_date": "2026-Q1",
+        "estimated_value_usd": 400000
+      }
+    ],
+    "vendor_entry_pathway": "UNDP standard RFP procurement. Register at ungm.org as UNDP vendor. Contact UNDP Uzbekistan office in Tashkent. AI training providers, GovTech platform firms, UX/service design agencies are target categories.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.undp.org/uzbekistan/projects/further-improvement-public-service-delivery-uzbekistan",
+        "title": "Further Improvement of Public Service Delivery in Uzbekistan — UNDP",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "undp.org",
+        "source_tier": "international_org"
+      },
+      {
+        "url": "https://www.undp.org/uzbekistan/press-releases/driving-digital-transformation-eu-and-undp-upskill-ict-specialists-ai-and-data-science",
+        "title": "Driving Digital Transformation: EU and UNDP Upskill ICT Specialists in AI and Data Science (Oct 2025)",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "undp.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "UNDP-UZ-AI-COURTS",
+    "donor": "UNDP",
+    "program_name": "ICT Implementation in Civil Courts of Uzbekistan",
+    "program_id_external": "UNDP-UZ-COURTS-ICT",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-SUPREM-COURT",
+    "piu_institution_id": null,
+    "total_budget_usd": 2000000,
+    "disbursed_usd": null,
+    "period_start": "2023-01-01",
+    "period_end": "2026-12-31",
+    "procurement_modality": "RFP",
+    "ai_digital_relevance": "UNDP analytical note on ICT implementation in civil courts (2025). Directly linked to УП-140 'Digital Justice' decree. AI in courts analysis: document drafting tools, case management systems, e-filing, AI-assisted legal research. Convergent with CW-001 (highest priority convergent window). Pre-cursor to larger court digitalization investment.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] UNDP Uzbekistan Rule of Law / Justice cluster. Search path: undp.org/uzbekistan/publications/analytical-note-ict-implementation-civil-courts-uzbekistan.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-supreme-court-head",
+    "pipeline_tenders": [
+      {
+        "title": "Court AI document drafting system advisory and pilot",
+        "expected_date": "2026-Q1",
+        "estimated_value_usd": 800000
+      }
+    ],
+    "vendor_entry_pathway": "UNDP-managed TA. Very high strategic relevance to AI-in-courts initiative. Contact UNDP Uzbekistan justice sector team. Aligns with government's УП-140 Digital Justice decree.",
+    "status": "active",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.undp.org/uzbekistan/publications/analytical-note-ict-implementation-civil-courts-uzbekistan",
+        "title": "Analytical Note: ICT Implementation in Civil Courts of Uzbekistan — UNDP 2025",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "undp.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "UNDP-KG-DIGITAL-TRANSFORM",
+    "donor": "UNDP",
+    "program_name": "Advancing Digital Transformation in Kyrgyzstan",
+    "program_id_external": "UNDP-KG-DIGITAL-2024",
+    "country": "KG",
+    "implementing_ministry_id": "KG-MINCIFRY",
+    "piu_institution_id": "KG-UNDP-OFFICE",
+    "total_budget_usd": 3500000,
+    "disbursed_usd": null,
+    "period_start": "2024-01-01",
+    "period_end": "2026-12-31",
+    "procurement_modality": "RFP",
+    "ai_digital_relevance": "Supports implementation of KG Digital Transformation Concept 2024-2028. GovStack implementation support, digital services expansion, gender-inclusive digital access. UNDP partnership with Government of South Korea (KOICA coordination). E-commerce development support (KG hosted E-Commerce Expo 2024). Accelerator Lab active: innovation mapping, grassroots digital solution incubation.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] UNDP Kyrgyzstan Digital Programme Manager (vacancy posted jobs.undp.org post 110741 IPSA-11). UNDP Resident Representative is the country head.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-udp-digital-head",
+    "pipeline_tenders": [
+      {
+        "title": "GovStack adoption advisory for KG UDP digital department",
+        "expected_date": "2026-Q2",
+        "estimated_value_usd": 500000
+      }
+    ],
+    "vendor_entry_pathway": "UNDP Kyrgyzstan standard RFP. Register at ungm.org. Accelerator Lab pilot contracts available for innovation firms. Contact UNDP Bishkek office.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.undp.org/kyrgyzstan/press-releases/advancing-digital-transformation-kyrgyzstan-joint-effort-sustainable-development",
+        "title": "Advancing Digital Transformation in Kyrgyzstan: A Joint Effort for Sustainable Development — UNDP",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "undp.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "UNDP-KG-GENDER-DIGITAL",
+    "donor": "UNDP",
+    "program_name": "Gender Mainstreaming in Digital Transformation for Good Governance (Kyrgyzstan)",
+    "program_id_external": "UNDP-KG-GENDER-DIGITAL",
+    "country": "KG",
+    "implementing_ministry_id": "KG-MINCIFRY",
+    "piu_institution_id": null,
+    "total_budget_usd": 1200000,
+    "disbursed_usd": null,
+    "period_start": "2023-01-01",
+    "period_end": "2025-12-31",
+    "procurement_modality": "RFP",
+    "ai_digital_relevance": "Gender-inclusive digital transformation in government. Digital access for women, gender data in digital registries, women's digital skills. Links to digital social registry and identity systems. Small project with strategic positioning value.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] UNDP KG Gender and Governance team. Search path: undp.org/kyrgyzstan/projects/gender-mainstreaming-digital-transformation-good-governance.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-mincifry-head",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "Small UNDP-managed TA. Gender tech and digital inclusion NGOs/firms. UNDP Bishkek sub-contracts.",
+    "status": "active",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.undp.org/kyrgyzstan/projects/gender-mainstreaming-digital-transformation-good-governance",
+        "title": "Gender Mainstreaming in Digital Transformation for Good Governance — UNDP Kyrgyzstan",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "undp.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "UNICEF-UZ-EDTECH-LEARNING",
+    "donor": "UNICEF",
+    "program_name": "Uzbekistan Learning Innovation Hub — AI-Driven EdTech (Eduten / Learning Pioneers Programme)",
+    "program_id_external": "UNICEF-UZ-EDTECH-2024",
+    "country": "UZ",
+    "implementing_ministry_id": "UZ-MINOBR",
+    "piu_institution_id": null,
+    "total_budget_usd": 2000000,
+    "disbursed_usd": null,
+    "period_start": "2024-01-01",
+    "period_end": "2026-12-31",
+    "procurement_modality": "direct",
+    "ai_digital_relevance": "Uzbekistan selected as one of 6 global 'Learning Pioneers' (2024). Eduten platform — AI-driven math education tool with 200,000+ tasks, learning analytics, automated assessment. Finnish-government-funded. Pilot in UZ schools with UNICEF Learning Innovation Hub. Direct AI education application. MoSHE (Ministry of School and Higher Education) counterpart. AI-based adaptive learning for Uzbek curriculum.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] UNICEF Uzbekistan Education Chief. Search path: unicef.org/uzbekistan team page.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-minobr-minister",
+    "pipeline_tenders": [
+      {
+        "title": "AI-adaptive learning platform scale-up for UZ schools",
+        "expected_date": "2025-Q4",
+        "estimated_value_usd": 1500000
+      }
+    ],
+    "vendor_entry_pathway": "UNICEF direct partnership with EdTech providers. Eduten (Finnish) is current partner. Competing/complementary EdTech firms can approach UNICEF Education innovation team. Uzbek-language AI tutoring is key differentiator.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.unicef.org/innovation/media/24166/file/Uzbekistan%20Eduten%20Piloting%20Implementation%20Repor25June2025.pdf.pdf",
+        "title": "Educational Technology Use in Uzbek Schools — Eduten Piloting Implementation Report 2025",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "unicef.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "UNICEF-KG-DIGITAL-EARLY",
+    "donor": "UNICEF",
+    "program_name": "UNICEF Kyrgyzstan — Digital Innovations for Early Learning and Child Development",
+    "program_id_external": "UNICEF-KG-EARLYLEARN",
+    "country": "KG",
+    "implementing_ministry_id": "KG-MINOBR",
+    "piu_institution_id": null,
+    "total_budget_usd": 1500000,
+    "disbursed_usd": null,
+    "period_start": "2024-01-01",
+    "period_end": "2026-12-31",
+    "procurement_modality": "RFP",
+    "ai_digital_relevance": "UNICEF + MoES Kyrgyzstan launched digital innovations for early learning and child development. EMIS (Education Management Information System) strengthening in KG. Also an IsDB pipeline of $35.7M for education in KG/UZ/TJ covering EMIS and digital learning systems 2024-2025. Child development digital tracking.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] UNICEF Kyrgyzstan Education Officer. Search path: unicef.org/kyrgyzstan press releases.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "kg-minobr-minister",
+    "pipeline_tenders": [
+      {
+        "title": "EMIS upgrade and child development digital registry",
+        "expected_date": "2025-Q3",
+        "estimated_value_usd": 800000
+      }
+    ],
+    "vendor_entry_pathway": "UNICEF procurement and RFP. Digital child registry and EMIS vendors relevant. IsDB pipeline ($35.7M) is separate larger opportunity — monitor IsDB project portal.",
+    "status": "active",
+    "verification": "VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.unicef.org/kyrgyzstan/press-releases/ministry-education-and-science-and-unicef-launch-digital-innovations-support-early",
+        "title": "Ministry of Education and Science and UNICEF launch digital innovations to support early learning in Kyrgyzstan",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "unicef.org",
+        "source_tier": "international_org"
+      }
+    ]
+  },
+  {
+    "id": "ITU-BOTH-SPECTRUM-DIGITAL",
+    "donor": "ITU",
+    "program_name": "ITU Digital Transformation Centre and Spectrum Harmonization — Uzbekistan and Kyrgyzstan",
+    "program_id_external": "ITU-CA-DTC-2024",
+    "country": "BOTH",
+    "implementing_ministry_id": "UZ-MINTSIFRY",
+    "piu_institution_id": null,
+    "total_budget_usd": 3000000,
+    "disbursed_usd": null,
+    "period_start": "2024-01-01",
+    "period_end": "2026-12-31",
+    "procurement_modality": "direct",
+    "ai_digital_relevance": "ITU Digital Transformation Centre activities for CIS region including UZ and KG. Spectrum policy advisory (UZ first in region to allocate 700MHz for IMT). ITU Academy digital skills programs. Giga initiative (ITU-UNICEF): school connectivity in KG and UZ. WTDC-25 Regional Preparatory Meeting held Bishkek April 2025 — ITU regional presence confirmed.",
+    "ttl_pm_name": "[TTL_NOT_FOUND] ITU CIS Regional Office (Geneva) + ITU Area Representative for CIS. Search path: itu.int/en/ITU-D/Regional-Presence/CIS.",
+    "ttl_pm_email": null,
+    "government_counterpart_person_id": "uz-mintsifry-head",
+    "pipeline_tenders": [],
+    "vendor_entry_pathway": "ITU procurement for advisory and equipment is small-scale. Strategic value is alignment — ITU advisory shapes national digital policies and procurement specs. Engage ITU CIS area office. ITU Digital Transformation Centre workshops are venue for vendor visibility.",
+    "status": "active",
+    "verification": "L2_VERIFIED",
+    "sources": [
+      {
+        "url": "https://www.itu.int/en/ITU-D/Regional-Presence/CIS/Pages/News/11042024.aspx",
+        "title": "Towards Digital Transformation — ITU CIS Regional News",
+        "language": "en",
+        "fetched_at": "2026-05-03",
+        "publisher": "itu.int",
+        "source_tier": "international_org"
+      }
+    ]
+  }
+]
