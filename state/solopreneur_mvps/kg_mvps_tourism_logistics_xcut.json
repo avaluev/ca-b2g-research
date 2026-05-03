@@ -1,0 +1,2000 @@
+{
+  "country": "KG",
+  "batch": "tourism_logistics_xcut",
+  "count": 25,
+  "mvps": [
+    {
+      "id": "kg-mvp-076",
+      "country": "KG",
+      "short_name": "IssykKulGuide",
+      "tagline": "AI-powered Telegram bot delivering Issyk-Kul + Bishkek tour itineraries in 6 languages with audio narration",
+      "category": "ai_tool",
+      "sector": "Tourism & Culture",
+      "underlying_demand": {
+        "trend_id": "kg-trend-022-tourism-issykkul",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "KG tourist arrivals 1.5M+ in 2024. Multilingual audio guides for Issyk-Kul + Bishkek limited. Tour guides charge $50-150/day.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Independent tourists 25-65 from EU, Korea, China, Russia visiting KG for 5-14 days; backpackers + digital nomads",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 8,
+        "year_1_revenue_target_usd": 14000,
+        "year_3_revenue_target_usd": 110000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Compile 30 sites for Issyk-Kul + Bishkek",
+          "GPT-4o + ElevenLabs TTS 6 languages",
+          "Telegram mini-app + offline audio",
+          "Free 1 region, $8 country pass",
+          "Soft-launch via Lonely Planet KG + Bishkek expat WhatsApp"
+        ],
+        "build_time_days": 12,
+        "build_cost_usd": 200
+      },
+      "validation": {
+        "signal_target": "400 free + 40 paid in 60 days during shoulder season",
+        "validation_window_days": 60,
+        "channels": [
+          "Lonely Planet KG",
+          "TripAdvisor Issyk-Kul",
+          "Bishkek expat WhatsApp"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Mini App",
+        "GPT-4o",
+        "ElevenLabs TTS",
+        "Supabase",
+        "Stripe Atlas + Mbank"
+      ],
+      "founder_capability_required": [
+        "English + Russian + Kyrgyz",
+        "tourism content awareness",
+        "TTS"
+      ],
+      "moat_potential": "Multi-language content; partnership with state tourism agency; can extend UZ + TJ.",
+      "risk_register": [
+        {
+          "risk": "Cultural detail accuracy",
+          "mitigation": "Historian advisor + UNESCO sources"
+        },
+        {
+          "risk": "Free competitors",
+          "mitigation": "Offline + 6 languages"
+        },
+        {
+          "risk": "Seasonality",
+          "mitigation": "B2B partnership with hotels"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 7,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 7.15,
+        "scoring_rationale": "Tourist boom, multilingual moat."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-077",
+      "country": "KG",
+      "short_name": "BishkekDayPlanner",
+      "tagline": "Free Telegram tool: tells you 6 best things to do today in Bishkek based on weather and your interests",
+      "category": "free_tool",
+      "sector": "Tourism & Culture",
+      "underlying_demand": {
+        "trend_id": "kg-trend-022-tourism-issykkul",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Bishkek visitors + locals struggle to plan. TripAdvisor English-only. kaktus.media weekly 'what to do' static.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Bishkek visitors + locals 25-50 looking for spontaneous weekend plans",
+      "monetization": {
+        "model": "ad",
+        "price_point_usd": 50,
+        "year_1_revenue_target_usd": 6000,
+        "year_3_revenue_target_usd": 50000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Compile 150 Bishkek activities with metadata",
+          "Telegram bot intake budget + interests",
+          "Daily curated 6-item list",
+          "Sponsored slot $50/mo",
+          "Soft-launch in Bishkek expat + kaktus.media lifestyle"
+        ],
+        "build_time_days": 6,
+        "build_cost_usd": 50
+      },
+      "validation": {
+        "signal_target": "800 weekly users + 1 sponsor in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Bishkek expat WhatsApp",
+          "kaktus.media lifestyle",
+          "24.kg lifestyle"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Notion CMS",
+        "Plausible"
+      ],
+      "founder_capability_required": [
+        "Russian + English + Kyrgyz",
+        "Bishkek local knowledge"
+      ],
+      "moat_potential": "Local content + sponsor relationships.",
+      "risk_register": [
+        {
+          "risk": "Stale content",
+          "mitigation": "Crowdsourced updates"
+        },
+        {
+          "risk": "Low ad demand",
+          "mitigation": "Featured listings"
+        },
+        {
+          "risk": "Competition",
+          "mitigation": "Personalized + Telegram-native"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 5,
+        "speed_to_mvr": 9,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 7,
+        "weighted_total": 6.45,
+        "scoring_rationale": "Useful, modest revenue."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-078",
+      "country": "KG",
+      "short_name": "HomestayAdminKG",
+      "tagline": "Wizard-of-Oz: helps Kyrgyz B&B/yurt-camp owners list on Booking.com + Airbnb, handle guest comms in English",
+      "category": "managed_service",
+      "sector": "Tourism & Culture",
+      "underlying_demand": {
+        "trend_id": "kg-trend-022-tourism-issykkul",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Issyk-Kul + Naryn yurt-camp + B&B owners (500+) Russian/Kyrgyz speakers; Booking.com requires English. Many lose bookings.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Yurt camp + B&B owners 35-60 in Issyk-Kul, Naryn, Bishkek — Russian fluent but English limited",
+      "monetization": {
+        "model": "services",
+        "price_point_usd": 25,
+        "year_1_revenue_target_usd": 12000,
+        "year_3_revenue_target_usd": 80000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Templates for Booking.com + Airbnb",
+          "Telegram bot intake photos + features + price",
+          "Founder + 1 part-time English coach handles",
+          "$25/listing + 10% bookings commission",
+          "Soft-launch via Issyk-Kul homestay WhatsApp + AKDN"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 100
+      },
+      "validation": {
+        "signal_target": "10 paid listings + 2 commission deals in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Issyk-Kul homestay WhatsApp",
+          "Naryn yurt-camp Telegram",
+          "AKDN partner"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Notion",
+        "Mbank + Stripe"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz + English",
+        "Booking.com host experience",
+        "ops"
+      ],
+      "moat_potential": "Host + booking-channel network; can scale UZ + TJ.",
+      "risk_register": [
+        {
+          "risk": "Channel rule changes",
+          "mitigation": "Multi-channel"
+        },
+        {
+          "risk": "Operational burden",
+          "mitigation": "Cap 30 hosts then productize"
+        },
+        {
+          "risk": "Trust",
+          "mitigation": "Reference customers"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 9,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 6,
+        "local_market_fit": 8,
+        "weighted_total": 7.3,
+        "scoring_rationale": "Real demand, fulfillment-bottlenecked."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-079",
+      "country": "KG",
+      "short_name": "BishkekRestoFinder",
+      "tagline": "Carrd directory of vetted Bishkek restaurants with English menus, halal/vegetarian filters, direct WhatsApp",
+      "category": "content",
+      "sector": "Tourism & Culture",
+      "underlying_demand": {
+        "trend_id": "kg-trend-022-tourism-issykkul",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Bishkek has 200+ restaurants but few English menus. Tourists rely on hotel concierge. No vetted directory.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Tourists 25-60 in Bishkek for 1-3 nights wanting authentic + reliable",
+      "monetization": {
+        "model": "listing_fee",
+        "price_point_usd": 25,
+        "year_1_revenue_target_usd": 7000,
+        "year_3_revenue_target_usd": 50000
+      },
+      "mvr_plan": {
+        "vehicle": "directory",
+        "build_steps": [
+          "Visit + photograph 30 Bishkek restaurants",
+          "Carrd directory English menus + price + halal/veg",
+          "$25/mo featured + reservations link",
+          "Mbank + Stripe",
+          "Soft-launch via Lonely Planet + TripAdvisor Bishkek"
+        ],
+        "build_time_days": 9,
+        "build_cost_usd": 100
+      },
+      "validation": {
+        "signal_target": "2,500 visits + 4 paid restaurants in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Lonely Planet KG",
+          "TripAdvisor Bishkek",
+          "Bishkek expat WhatsApp"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Notion CMS",
+        "Plausible",
+        "Mbank + Stripe"
+      ],
+      "founder_capability_required": [
+        "English + Russian + Kyrgyz",
+        "field visits",
+        "B2B sales"
+      ],
+      "moat_potential": "Quality curation + sponsor network.",
+      "risk_register": [
+        {
+          "risk": "Field-time intensive",
+          "mitigation": "1 week allocated"
+        },
+        {
+          "risk": "Low payment",
+          "mitigation": "Volume pricing"
+        },
+        {
+          "risk": "Outdated menus",
+          "mitigation": "Quarterly photo refresh"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 7,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 7,
+        "weighted_total": 6.4,
+        "scoring_rationale": "Niche, field-time intensive."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-080",
+      "country": "KG",
+      "short_name": "BishkekTaxiRateCheck",
+      "tagline": "Free tool: get fair Yandex Go and local taxi rates for Bishkek routes",
+      "category": "free_tool",
+      "sector": "Transport & Urban",
+      "underlying_demand": {
+        "trend_id": "kg-trend-013-smart-traffic-bishkek",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Yandex Go uses surge pricing — locals + tourists overpay. No transparent rate.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Bishkek commuters 25-50 + tourists making 10+ taxi trips/month",
+      "monetization": {
+        "model": "ad",
+        "price_point_usd": 40,
+        "year_1_revenue_target_usd": 4000,
+        "year_3_revenue_target_usd": 30000
+      },
+      "mvr_plan": {
+        "vehicle": "ad_booking",
+        "build_steps": [
+          "Reverse-engineer Yandex Go API or scrape",
+          "Web app + Telegram bot price quote",
+          "Sponsored slot for Tap KG / Pulsar at $40/mo",
+          "Tip jar via Mbank",
+          "Soft-launch in kaktus.media transport"
+        ],
+        "build_time_days": 6,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "1,500 visits + 1 sponsor in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "kaktus.media transport",
+          "Bishkek expat WhatsApp",
+          "24.kg"
+        ]
+      },
+      "tech_stack": [
+        "Python scraper",
+        "Telegram Bot",
+        "Carrd",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian",
+        "scraping"
+      ],
+      "moat_potential": "Rate-history dataset.",
+      "risk_register": [
+        {
+          "risk": "Yandex blocks",
+          "mitigation": "User-side extension"
+        },
+        {
+          "risk": "Niche",
+          "mitigation": "Bundle with BishkekDayPlanner"
+        },
+        {
+          "risk": "Low ad",
+          "mitigation": "Tip jar baseline"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 9,
+        "monetization_path": 4,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 7,
+        "weighted_total": 6.45,
+        "scoring_rationale": "Niche utility."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-081",
+      "country": "KG",
+      "short_name": "BishkekParkingMap",
+      "tagline": "Free Telegram bot showing real-time legal parking + violation-fine alerts in Bishkek",
+      "category": "free_tool",
+      "sector": "Transport & Urban",
+      "underlying_demand": {
+        "trend_id": "kg-trend-013-smart-traffic-bishkek",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Bishkek has 300K+ vehicles, parking enforcement uneven. Drivers fined for unclear violations.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Bishkek drivers 25-55",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 3,
+        "year_1_revenue_target_usd": 4000,
+        "year_3_revenue_target_usd": 35000
+      },
+      "mvr_plan": {
+        "vehicle": "ad_booking",
+        "build_steps": [
+          "Scrape DDA + parking signage rules",
+          "Telegram bot intake pin destination",
+          "Output closest legal parking + fine estimate",
+          "$3/mo unlimited",
+          "Soft-launch in kaktus.media transport + Bishkek drivers"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 50
+      },
+      "validation": {
+        "signal_target": "200 free + 25 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "kaktus.media transport",
+          "Bishkek drivers Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Python",
+        "Mapbox",
+        "Telegram Bot",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian",
+        "GIS basics"
+      ],
+      "moat_potential": "Parking dataset; OEM to navigation.",
+      "risk_register": [
+        {
+          "risk": "Data limited",
+          "mitigation": "Crowdsource"
+        },
+        {
+          "risk": "Govt smart-traffic",
+          "mitigation": "UX speed"
+        },
+        {
+          "risk": "Conversion",
+          "mitigation": "Bundle BishkekTaxiRateCheck"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 5,
+        "speed_to_mvr": 8,
+        "monetization_path": 4,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 7,
+        "weighted_total": 6.05,
+        "scoring_rationale": "Useful, weak demand."
+      },
+      "confidence_tier": "C",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-082",
+      "country": "KG",
+      "short_name": "BorderWaitKG",
+      "tagline": "Live Telegram bot showing wait times at KG-KZ, KG-UZ, KG-CN border crossings, crowd-sourced",
+      "category": "free_tool",
+      "sector": "Transport & Urban",
+      "underlying_demand": {
+        "trend_id": "kg-trend-017-customs-corridor",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "ADB-KG-CUSTOMS-38177",
+        "pain_point": "Border-crossing waits unpredictable. Truck drivers + migrants lose 6-12h. ADB customs project supports.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Truck drivers + freight forwarders 30-60; cross-border migrants",
+      "monetization": {
+        "model": "donation",
+        "price_point_usd": 0,
+        "year_1_revenue_target_usd": 4000,
+        "year_3_revenue_target_usd": 30000
+      },
+      "mvr_plan": {
+        "vehicle": "ad_booking",
+        "build_steps": [
+          "Telegram bot: report wait time + photo",
+          "Aggregate per-crossing live",
+          "Donation tip jar via Mbank",
+          "Soft-launch in KG trucker WhatsApp + kaktus.media",
+          "Sponsor logistics SaaS at $60/mo"
+        ],
+        "build_time_days": 5,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "200 active reporters + 1 sponsor in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "KG trucker WhatsApp",
+          "kaktus.media",
+          "Customs forum"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Supabase",
+        "Mapbox"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "trucker outreach"
+      ],
+      "moat_potential": "Crowdsourced data; ADB OEM possible.",
+      "risk_register": [
+        {
+          "risk": "Reporter quality",
+          "mitigation": "Multi-reporter cross-check"
+        },
+        {
+          "risk": "Low ad",
+          "mitigation": "Tip baseline"
+        },
+        {
+          "risk": "Coverage",
+          "mitigation": "Top 3 crossings first"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 9,
+        "monetization_path": 4,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 6.85,
+        "scoring_rationale": "Civic value, modest."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-083",
+      "country": "KG",
+      "short_name": "FreightTrackerKG",
+      "tagline": "SaaS for small Kyrgyz logistics firms: GPS tracking + driver mobile app for $25/mo, no hardware",
+      "category": "saas",
+      "sector": "Transport & Urban",
+      "underlying_demand": {
+        "trend_id": "kg-trend-017-customs-corridor",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "ADB-KG-CUSTOMS-38177",
+        "pain_point": "Small KG logistics firms (1,000+) lack GPS tracking. Wialon $50+/truck. Telegram-based check-ins common.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Small KG logistics firms 5-50 trucks doing China-Russia corridor; owner-operators",
+      "monetization": {
+        "model": "subscription",
+        "price_point_usd": 25,
+        "year_1_revenue_target_usd": 12000,
+        "year_3_revenue_target_usd": 100000
+      },
+      "mvr_plan": {
+        "vehicle": "landing_page",
+        "build_steps": [
+          "Android-only driver app GPS + Telegram",
+          "Web dashboard fleet owner",
+          "$25/mo per truck",
+          "Mbank subscription",
+          "Soft-launch via High Tech Park + 24.kg logistics"
+        ],
+        "build_time_days": 12,
+        "build_cost_usd": 200
+      },
+      "validation": {
+        "signal_target": "3 firms + 25 trucks paying in 90 days",
+        "validation_window_days": 90,
+        "channels": [
+          "High Tech Park",
+          "24.kg logistics",
+          "KG trucker WhatsApp"
+        ]
+      },
+      "tech_stack": [
+        "Flutter Android",
+        "Supabase",
+        "Mapbox",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian",
+        "Flutter",
+        "B2B logistics sales"
+      ],
+      "moat_potential": "Recurring SaaS; ADB customs OEM possible.",
+      "risk_register": [
+        {
+          "risk": "Wialon undercut",
+          "mitigation": "Simple UX + Russian support"
+        },
+        {
+          "risk": "Phone-GPS reliability",
+          "mitigation": "Driver compliance"
+        },
+        {
+          "risk": "Slow adoption",
+          "mitigation": "Free trial + bank financing"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 6,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 6,
+        "local_market_fit": 7,
+        "weighted_total": 6.35,
+        "scoring_rationale": "Recurring SaaS, build-time intensive."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-084",
+      "country": "KG",
+      "short_name": "LastMileBishkek",
+      "tagline": "Wizard-of-Oz: Bishkek SMEs send 5-50 packages/day to last-mile riders via Telegram, manual dispatch",
+      "category": "managed_service",
+      "sector": "Transport & Urban",
+      "underlying_demand": {
+        "trend_id": "kg-trend-017-customs-corridor",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Bishkek SMEs deliver via Yandex/Maxim ad-hoc. CDEK + KG Post target enterprise. SMEs want simpler.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Bishkek online retailers 5-30 employees doing 5-50 deliveries/day",
+      "monetization": {
+        "model": "services",
+        "price_point_usd": 3,
+        "year_1_revenue_target_usd": 16000,
+        "year_3_revenue_target_usd": 120000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Recruit 3-5 reliable Telegram-active riders",
+          "Telegram bot intake from SMEs",
+          "Founder dispatches via Notion",
+          "$3 per delivery",
+          "Soft-launch via High Tech Park + 24.kg business"
+        ],
+        "build_time_days": 5,
+        "build_cost_usd": 100
+      },
+      "validation": {
+        "signal_target": "5 SME clients + 200 deliveries in 30 days",
+        "validation_window_days": 30,
+        "channels": [
+          "High Tech Park",
+          "24.kg business",
+          "Bishkek retail Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Notion",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian",
+        "logistics ops",
+        "rider network"
+      ],
+      "moat_potential": "Rider + SME book; possible scale.",
+      "risk_register": [
+        {
+          "risk": "Operational burden",
+          "mitigation": "Productize after 200/wk"
+        },
+        {
+          "risk": "Rider quality",
+          "mitigation": "Performance bonuses"
+        },
+        {
+          "risk": "Yandex moves down market",
+          "mitigation": "SME relationships"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 9,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 6,
+        "local_market_fit": 8,
+        "weighted_total": 7.3,
+        "scoring_rationale": "Real cash, operationally heavy."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-085",
+      "country": "KG",
+      "short_name": "BusScheduleKG",
+      "tagline": "Free tool aggregating real-time Bishkek bus schedules + GPS tracking, in Russian and Kyrgyz",
+      "category": "free_tool",
+      "sector": "Transport & Urban",
+      "underlying_demand": {
+        "trend_id": "kg-trend-013-smart-traffic-bishkek",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Bishkek bus schedules not real-time. Yandex Maps coverage partial. Commuters wait 10-15 min.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Bishkek commuters 18-55 using public transit; tourists",
+      "monetization": {
+        "model": "ad",
+        "price_point_usd": 80,
+        "year_1_revenue_target_usd": 5000,
+        "year_3_revenue_target_usd": 40000
+      },
+      "mvr_plan": {
+        "vehicle": "ad_booking",
+        "build_steps": [
+          "Telegram bot + web app fed by Bishkek Transit data",
+          "User-reported delays",
+          "Sponsored slot for ride-hailing alternatives",
+          "Tip jar",
+          "Soft-launch via kaktus.media + Bishkek commuter Telegram"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 60
+      },
+      "validation": {
+        "signal_target": "2,500 unique users + 1 sponsor in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "kaktus.media transport",
+          "Bishkek commuter Telegram",
+          "Bishkek expat"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Carrd",
+        "Notion (data)"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "data integration"
+      ],
+      "moat_potential": "Bishkek commuter audience.",
+      "risk_register": [
+        {
+          "risk": "Open data limited",
+          "mitigation": "Crowdsource"
+        },
+        {
+          "risk": "Govt absorbs",
+          "mitigation": "UX speed"
+        },
+        {
+          "risk": "Ad demand",
+          "mitigation": "Tip baseline"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 5,
+        "speed_to_mvr": 8,
+        "monetization_path": 4,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 7,
+        "weighted_total": 6.05,
+        "scoring_rationale": "Mass utility, weak revenue."
+      },
+      "confidence_tier": "C",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-086",
+      "country": "KG",
+      "short_name": "AirQualityKG",
+      "tagline": "Free public dashboard + Telegram alert for Bishkek air quality (PM2.5/PM10) with health-impact recommendations",
+      "category": "free_tool",
+      "sector": "Agriculture & Water",
+      "underlying_demand": {
+        "trend_id": "kg-trend-020-air-quality-bishkek",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Bishkek air pollution worst in Central Asia winter (ranked #1 globally periodically). UNDP and WB support air-quality.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Bishkek parents 30-50 with kids; chronic-respiratory patients; tourists",
+      "monetization": {
+        "model": "donation",
+        "price_point_usd": 0,
+        "year_1_revenue_target_usd": 8000,
+        "year_3_revenue_target_usd": 60000
+      },
+      "mvr_plan": {
+        "vehicle": "ad_booking",
+        "build_steps": [
+          "Aggregate IQAir + state monitoring + 1-2 own sensors",
+          "Vercel + Next.js dashboard + Telegram bot",
+          "UNDP/UNICEF grant pitch ($25K)",
+          "Soft-launch in Bishkek parent + kaktus.media lifestyle",
+          "Sensor partnership $200/mo"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 100
+      },
+      "validation": {
+        "signal_target": "1,500 users + 1 sponsor / grant in 60 days",
+        "validation_window_days": 90,
+        "channels": [
+          "Bishkek parent Telegram",
+          "kaktus.media",
+          "UNDP partner"
+        ]
+      },
+      "tech_stack": [
+        "Next.js + Vercel",
+        "Telegram Bot",
+        "Sensor.community",
+        "Mapbox"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "dashboard dev",
+        "civic-tech outreach"
+      ],
+      "moat_potential": "Air-quality continuity; donor-grant; possible school licensing.",
+      "risk_register": [
+        {
+          "risk": "Sensor cost",
+          "mitigation": "IQAir + state initially"
+        },
+        {
+          "risk": "Politically sensitive",
+          "mitigation": "UNDP partner"
+        },
+        {
+          "risk": "Low monetization",
+          "mitigation": "Grant + sponsor"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 8,
+        "speed_to_mvr": 9,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 7.4,
+        "scoring_rationale": "Civic value, donor-aligned, KG-#1 winter problem."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-087",
+      "country": "KG",
+      "short_name": "EcoTourKG",
+      "tagline": "Wizard-of-Oz curator: hand-picked eco-tours of Issyk-Kul, Naryn, Tien-Shan with 1:1 trip planning in English/Russian",
+      "category": "managed_service",
+      "sector": "Tourism & Culture",
+      "underlying_demand": {
+        "trend_id": "kg-trend-022-tourism-issykkul",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Foreign tourists 30-55 want eco-experiences (Issyk-Kul, Tien-Shan trekking) but can't find vetted operators.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Eco-conscious tourists 30-55 from EU/Korea/Japan/Russia spending $1K-3K for 5-10 days in KG",
+      "monetization": {
+        "model": "services",
+        "price_point_usd": 180,
+        "year_1_revenue_target_usd": 14000,
+        "year_3_revenue_target_usd": 90000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Partner with 3 local eco-guides (Issyk-Kul, Tien-Shan, Naryn)",
+          "Carrd + Telegram intake",
+          "$180 trip-planning + 10% commission",
+          "Mbank + Stripe Atlas + Wise",
+          "Soft-launch via Lonely Planet + Bishkek expat WhatsApp"
+        ],
+        "build_time_days": 8,
+        "build_cost_usd": 100
+      },
+      "validation": {
+        "signal_target": "5 paid trips in 90 days",
+        "validation_window_days": 90,
+        "channels": [
+          "Lonely Planet KG",
+          "TripAdvisor Bishkek",
+          "Bishkek expat WhatsApp"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Notion",
+        "Mbank + Stripe Atlas + Wise"
+      ],
+      "founder_capability_required": [
+        "English + Russian + Kyrgyz",
+        "guide network"
+      ],
+      "moat_potential": "Eco-guide network; can scale UZ + TJ.",
+      "risk_register": [
+        {
+          "risk": "Seasonality",
+          "mitigation": "Diversify with IssykKulGuide"
+        },
+        {
+          "risk": "Guide reliability",
+          "mitigation": "Test trips + reviews"
+        },
+        {
+          "risk": "Foreign payment",
+          "mitigation": "Stripe Atlas"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 8,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 6,
+        "local_market_fit": 7,
+        "weighted_total": 6.8,
+        "scoring_rationale": "Premium niche, fulfillment-driven."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-088",
+      "country": "KG",
+      "short_name": "KyrgyzLLMPlayground",
+      "tagline": "Free demo: try Kyrgyz-language Llama or Yandex GPT for content writing, summarization, translation",
+      "category": "demo_video",
+      "sector": "AI Infrastructure",
+      "underlying_demand": {
+        "trend_id": "kg-trend-024-sovereign-llm-kyrgyz",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Digital Code Chapter 23 + AI strategy mandates Kyrgyz LLM. Developers + content creators want to evaluate without infra.",
+        "evidence": "https://cbd.minjust.gov.kg/"
+      },
+      "target_customer": "Kyrgyz developers 22-40 in HTP, content creators, marketers; gov innovation officers",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 10,
+        "year_1_revenue_target_usd": 6000,
+        "year_3_revenue_target_usd": 50000
+      },
+      "mvr_plan": {
+        "vehicle": "landing_page",
+        "build_steps": [
+          "Host Llama-3 8B + Yandex GPT API on HuggingFace + Replicate",
+          "Carrd page + Telegram bot + web playground",
+          "Free 100/mo, $10/mo unlimited + API",
+          "Mbank + Stripe",
+          "Soft-launch in High Tech Park + Habr KG"
+        ],
+        "build_time_days": 8,
+        "build_cost_usd": 150
+      },
+      "validation": {
+        "signal_target": "150 free + 25 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "High Tech Park Telegram",
+          "Habr KG"
+        ]
+      },
+      "tech_stack": [
+        "HuggingFace + Replicate",
+        "Telegram Bot",
+        "Next.js",
+        "Mbank + Stripe"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz + English",
+        "ML basics"
+      ],
+      "moat_potential": "Authority on Kyrgyz AI; possible OEM to government.",
+      "risk_register": [
+        {
+          "risk": "API cost",
+          "mitigation": "Cache + rate limit"
+        },
+        {
+          "risk": "Model quality",
+          "mitigation": "Multi-model selector"
+        },
+        {
+          "risk": "Govt competitor",
+          "mitigation": "UX speed"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 5,
+        "speed_to_mvr": 8,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 7,
+        "weighted_total": 6.45,
+        "scoring_rationale": "Decree-driven, niche."
+      },
+      "confidence_tier": "C",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-089",
+      "country": "KG",
+      "short_name": "PaymentRoutingKG",
+      "tagline": "Free tool: best Mbank vs Optima vs ABank QR route for SME accepting Kyrgyz consumer payments",
+      "category": "free_tool",
+      "sector": "Cross-cutting",
+      "underlying_demand": {
+        "trend_id": "kg-trend-014-cbdc-digital-som",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Mbank, Optima, ABank charge 1-3% with different fees. SMEs guess. No comparison tool.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Bishkek SMEs accepting consumer payments — restaurants, retailers, online",
+      "monetization": {
+        "model": "ad",
+        "price_point_usd": 60,
+        "year_1_revenue_target_usd": 5000,
+        "year_3_revenue_target_usd": 40000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Compile fee tables + integration",
+          "Carrd calculator + Telegram bot",
+          "Sponsored $60/mo for one provider",
+          "Affiliate to Mbank acquiring",
+          "Soft-launch in High Tech Park + 24.kg business"
+        ],
+        "build_time_days": 4,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "1,200 visits + 1 sponsor in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "High Tech Park",
+          "24.kg business",
+          "kaktus.media business"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Notion CMS"
+      ],
+      "founder_capability_required": [
+        "Russian",
+        "fintech-domain familiarity"
+      ],
+      "moat_potential": "Sponsorship + affiliate.",
+      "risk_register": [
+        {
+          "risk": "Fee changes",
+          "mitigation": "Monthly review"
+        },
+        {
+          "risk": "Low ad",
+          "mitigation": "Affiliate-driven"
+        },
+        {
+          "risk": "Niche",
+          "mitigation": "Bundle FreelancerInvoiceKG"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 10,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 9,
+        "local_market_fit": 8,
+        "weighted_total": 7.0,
+        "scoring_rationale": "Cheap utility."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-090",
+      "country": "KG",
+      "short_name": "OZONForKG",
+      "tagline": "Wizard-of-Oz: helps Kyrgyz SMEs list on Russia OZON marketplace, handling fulfillment + tax setup",
+      "category": "managed_service",
+      "sector": "Cross-cutting",
+      "underlying_demand": {
+        "trend_id": "kg-trend-023-labour-migration-ai",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "OZON, Wildberries top revenue channels for KG exporters. Small SMEs lack Russian-tax + fulfillment.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Kyrgyz SMEs 5-30 employees in textile, food, electronics looking to enter Russian e-commerce",
+      "monetization": {
+        "model": "services",
+        "price_point_usd": 200,
+        "year_1_revenue_target_usd": 16000,
+        "year_3_revenue_target_usd": 100000
+      },
+      "mvr_plan": {
+        "vehicle": "demo_video",
+        "build_steps": [
+          "Partner with one Moscow fulfillment broker",
+          "Telegram intake + Notion onboarding",
+          "$200 setup + 5% commission first $10K",
+          "Mbank + bank wire",
+          "Soft-launch in High Tech Park + 24.kg business"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 150
+      },
+      "validation": {
+        "signal_target": "5 paid setups in 60 days",
+        "validation_window_days": 90,
+        "channels": [
+          "High Tech Park",
+          "24.kg business",
+          "Bishkek SME exporter"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Notion",
+        "Mbank + Stripe"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "OZON/WB seller domain"
+      ],
+      "moat_potential": "OZON + WB seller library; scale CIS.",
+      "risk_register": [
+        {
+          "risk": "Russian sanctions",
+          "mitigation": "Multi-marketplace"
+        },
+        {
+          "risk": "Logistics friction",
+          "mitigation": "Moscow broker"
+        },
+        {
+          "risk": "Margins",
+          "mitigation": "Premium with content marketing"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 8,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 6,
+        "local_market_fit": 8,
+        "weighted_total": 7.2,
+        "scoring_rationale": "Russian-CIS substitution play."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-091",
+      "country": "KG",
+      "short_name": "DigitalCodeAssistKG",
+      "tagline": "Free tool: are you ready for Digital Code Chapter 23 AI compliance? 5-min assessment for KG businesses",
+      "category": "free_tool",
+      "sector": "Cross-cutting",
+      "underlying_demand": {
+        "trend_id": "kg-trend-003-digital-code-secondary-regs",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "EBRD-KG-SME-DIGITAL",
+        "pain_point": "Digital Code Chapter 23 creates AI compliance. SMEs unsure if affected.",
+        "evidence": "https://cbd.minjust.gov.kg/"
+      },
+      "target_customer": "KG SMEs + tech firms 5-100 employees deploying AI features",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 89,
+        "year_1_revenue_target_usd": 8000,
+        "year_3_revenue_target_usd": 70000
+      },
+      "mvr_plan": {
+        "vehicle": "squeeze_page",
+        "build_steps": [
+          "Compile compliance checklist with partner law firm",
+          "Carrd 10-question assessment",
+          "Free, $89 for compliance plan PDF",
+          "Mbank",
+          "Soft-launch in High Tech Park + Habr KG"
+        ],
+        "build_time_days": 5,
+        "build_cost_usd": 50
+      },
+      "validation": {
+        "signal_target": "150 assessments + 12 paid plans in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "High Tech Park Telegram",
+          "Habr KG"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Mailerlite",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian + English",
+        "AI law domain",
+        "advisory"
+      ],
+      "moat_potential": "Compliance brand; spin into compliance-as-a-service.",
+      "risk_register": [
+        {
+          "risk": "Regulatory clarity",
+          "mitigation": "Wait for secondary regs"
+        },
+        {
+          "risk": "Liability",
+          "mitigation": "Disclaimer + law firm"
+        },
+        {
+          "risk": "Conversion",
+          "mitigation": "Cohort live Q&A"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 9,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 7,
+        "weighted_total": 6.95,
+        "scoring_rationale": "Compliance niche, premium price."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-092",
+      "country": "KG",
+      "short_name": "BishkekGymRater",
+      "tagline": "Directory of Bishkek gyms with verified reviews, equipment, hours — first independent rating",
+      "category": "content",
+      "sector": "Cross-cutting",
+      "underlying_demand": {
+        "trend_id": "kg-trend-013-smart-traffic-bishkek",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Bishkek gym + fitness market growing. Reviews scattered. No independent guide.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Bishkek professionals 22-45 evaluating gyms; tourists wanting day-pass",
+      "monetization": {
+        "model": "listing_fee",
+        "price_point_usd": 20,
+        "year_1_revenue_target_usd": 4000,
+        "year_3_revenue_target_usd": 30000
+      },
+      "mvr_plan": {
+        "vehicle": "directory",
+        "build_steps": [
+          "Visit + photograph 25 Bishkek gyms",
+          "Carrd directory + Telegram bot",
+          "$20/mo featured",
+          "Mbank",
+          "Soft-launch in kaktus.media lifestyle + Bishkek fitness"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 80
+      },
+      "validation": {
+        "signal_target": "1,500 visits + 3 paid gyms in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "kaktus.media lifestyle",
+          "Bishkek fitness Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Notion CMS",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian",
+        "field visits",
+        "B2B sales"
+      ],
+      "moat_potential": "Trust + sponsor network.",
+      "risk_register": [
+        {
+          "risk": "Niche",
+          "mitigation": "Bundle BishkekDayPlanner"
+        },
+        {
+          "risk": "Field-time",
+          "mitigation": "1 week"
+        },
+        {
+          "risk": "Low payment",
+          "mitigation": "Annual prepay"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 4,
+        "speed_to_mvr": 8,
+        "monetization_path": 4,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 6,
+        "weighted_total": 5.5,
+        "scoring_rationale": "Niche, weak."
+      },
+      "confidence_tier": "C",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-093",
+      "country": "KG",
+      "short_name": "EventCalendarKG",
+      "tagline": "Free Telegram channel listing every Bishkek professional event — meetups, conferences, donor events",
+      "category": "content",
+      "sector": "Cross-cutting",
+      "underlying_demand": {
+        "trend_id": "kg-trend-009-htp-ai-talent",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Bishkek IT/business event scene grows. No aggregator. kaktus.media reactive.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Bishkek professionals 22-50 in IT, business, NGO, donor",
+      "monetization": {
+        "model": "ad",
+        "price_point_usd": 80,
+        "year_1_revenue_target_usd": 5000,
+        "year_3_revenue_target_usd": 40000
+      },
+      "mvr_plan": {
+        "vehicle": "ad_booking",
+        "build_steps": [
+          "Aggregate from HTP, ICT Week, donor calendars",
+          "Telegram channel + email digest",
+          "$80/event for sponsored boost",
+          "Soft-launch via High Tech Park + ICT Week 2026"
+        ],
+        "build_time_days": 5,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "800 subscribers + 1 sponsor in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "High Tech Park",
+          "ICT Week 2026",
+          "kaktus.media business"
+        ]
+      },
+      "tech_stack": [
+        "Telegram",
+        "Buttondown"
+      ],
+      "founder_capability_required": [
+        "Russian + English",
+        "event-curation"
+      ],
+      "moat_potential": "Event-curator brand; sponsorship.",
+      "risk_register": [
+        {
+          "risk": "Reactive content",
+          "mitigation": "Maintain organizer relationships"
+        },
+        {
+          "risk": "Low ad",
+          "mitigation": "Charge organizers"
+        },
+        {
+          "risk": "Eventbrite competition",
+          "mitigation": "Local-language curation"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 10,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 9,
+        "local_market_fit": 8,
+        "weighted_total": 7.05,
+        "scoring_rationale": "Cheap, useful."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-094",
+      "country": "KG",
+      "short_name": "OutsourceToKG",
+      "tagline": "Manifesto + paid services directory: 'why hire Kyrgyz IT talent' for foreign tech companies, with vetted candidate sourcing",
+      "category": "content",
+      "sector": "Cross-cutting",
+      "underlying_demand": {
+        "trend_id": "kg-trend-009-htp-ai-talent",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "HTP has 5K+ residents seeking foreign clients. Foreign companies lack visibility into KG talent.",
+        "evidence": "https://htp.kg/"
+      },
+      "target_customer": "US/EU tech founders + hiring managers exploring nearshore",
+      "monetization": {
+        "model": "listing_fee",
+        "price_point_usd": 200,
+        "year_1_revenue_target_usd": 14000,
+        "year_3_revenue_target_usd": 100000
+      },
+      "mvr_plan": {
+        "vehicle": "manifesto",
+        "build_steps": [
+          "Write 4,500-word manifesto on KG IT talent",
+          "Cross-post on Hacker News, IndieHackers, LinkedIn",
+          "Carrd directory of 30 vetted KG devs",
+          "$200/mo featured or 10% placement fee",
+          "Soft-launch via High Tech Park + Habr KG + LinkedIn"
+        ],
+        "build_time_days": 12,
+        "build_cost_usd": 100
+      },
+      "validation": {
+        "signal_target": "200 reads + 4 paid placements in 90 days",
+        "validation_window_days": 90,
+        "channels": [
+          "Hacker News",
+          "IndieHackers",
+          "LinkedIn",
+          "High Tech Park"
+        ]
+      },
+      "tech_stack": [
+        "Substack",
+        "Carrd",
+        "Notion",
+        "Mbank + Stripe"
+      ],
+      "founder_capability_required": [
+        "English + Russian",
+        "long-form",
+        "B2B sales",
+        "hiring domain"
+      ],
+      "moat_potential": "Diaspora-bridge brand; commission compounds.",
+      "risk_register": [
+        {
+          "risk": "Slow audience",
+          "mitigation": "Cross-promo FreelancerInvoiceKG"
+        },
+        {
+          "risk": "Quality variance",
+          "mitigation": "Vetted-only"
+        },
+        {
+          "risk": "Foreign payment",
+          "mitigation": "Stripe Atlas + Wise"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 7,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 6,
+        "weighted_total": 6.55,
+        "scoring_rationale": "Premium niche, brand-driven."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-095",
+      "country": "KG",
+      "short_name": "DiasporaInvestorKG",
+      "tagline": "Manifesto + paid email digest: weekly investment opportunities in Kyrgyzstan for KG diaspora 30-50 with $50K+",
+      "category": "content",
+      "sector": "Cross-cutting",
+      "underlying_demand": {
+        "trend_id": "kg-trend-009-htp-ai-talent",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Kyrgyz diaspora in Almaty/Moscow/NYC wants to invest at home but no curated channel.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Kyrgyz diaspora 30-55 with $50K-1M, in finance/tech/medicine",
+      "monetization": {
+        "model": "subscription",
+        "price_point_usd": 89,
+        "year_1_revenue_target_usd": 14000,
+        "year_3_revenue_target_usd": 110000
+      },
+      "mvr_plan": {
+        "vehicle": "manifesto",
+        "build_steps": [
+          "Write 4,000-word manifesto on KG investment",
+          "LinkedIn 'Kyrgyz Abroad' + Habr cross-post",
+          "Substack paid tier $89/mo",
+          "Cross-promo PolicyDigestKG",
+          "Soft-launch via 'Kyrgyz Abroad' LinkedIn"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "150 free + 18 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "LinkedIn 'Kyrgyz Abroad'",
+          "Eurasianet KG",
+          "Twitter X policy"
+        ]
+      },
+      "tech_stack": [
+        "Substack",
+        "Notion",
+        "Stripe via Substack"
+      ],
+      "founder_capability_required": [
+        "Russian + English",
+        "investment-thesis writing",
+        "diaspora network"
+      ],
+      "moat_potential": "Diaspora-bridge premium; possible angel-investment syndicate.",
+      "risk_register": [
+        {
+          "risk": "Investment-advice liability",
+          "mitigation": "Disclaimer + reg counsel"
+        },
+        {
+          "risk": "Slow audience",
+          "mitigation": "Cross-promo PolicyDigestKG"
+        },
+        {
+          "risk": "Currency/capital control",
+          "mitigation": "Cover only non-resident accessible"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 9,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 7,
+        "weighted_total": 7.2,
+        "scoring_rationale": "Diaspora premium, brand-driven."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-096",
+      "country": "KG",
+      "short_name": "AdvisorMatchKG",
+      "tagline": "Wizard-of-Oz: matches Kyrgyz SMEs with sector-expert advisors (legal, finance, tech) for 1h paid calls",
+      "category": "marketplace",
+      "sector": "Cross-cutting",
+      "underlying_demand": {
+        "trend_id": "kg-trend-009-htp-ai-talent",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Kyrgyz SME owners face strategic decisions without trusted advisors. KPMG focuses enterprise.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Kyrgyz SME owners 30-50 in IT, retail, manufacturing seeking 1h advisor calls",
+      "monetization": {
+        "model": "marketplace",
+        "price_point_usd": 70,
+        "year_1_revenue_target_usd": 11000,
+        "year_3_revenue_target_usd": 80000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Recruit 25 verified advisors across legal, finance, tech",
+          "Carrd + Telegram intake",
+          "$70/call + 20% platform fee",
+          "Mbank + Stripe",
+          "Soft-launch in High Tech Park + 24.kg business"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 80
+      },
+      "validation": {
+        "signal_target": "25 paid calls in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "High Tech Park",
+          "24.kg business",
+          "ICT Week 2026"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Calendly",
+        "Notion (advisor roster)",
+        "Mbank + Stripe"
+      ],
+      "founder_capability_required": [
+        "Russian + English",
+        "advisor outreach",
+        "B2B sales"
+      ],
+      "moat_potential": "Advisor + SME network.",
+      "risk_register": [
+        {
+          "risk": "Advisor recruitment",
+          "mitigation": "Diaspora outreach"
+        },
+        {
+          "risk": "WhatsApp bypass",
+          "mitigation": "Charge SME; reviews"
+        },
+        {
+          "risk": "Quality",
+          "mitigation": "Tier system"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 5,
+        "speed_to_mvr": 8,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 6,
+        "weighted_total": 6.2,
+        "scoring_rationale": "Marketplace, network-driven."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-097",
+      "country": "KG",
+      "short_name": "WhyKyrgyzstan",
+      "tagline": "Manifesto + content brand: weekly long-form essays on Kyrgyzstan's reform, AI, diaspora — for global audiences",
+      "category": "content",
+      "sector": "Cross-cutting",
+      "underlying_demand": {
+        "trend_id": "kg-trend-024-sovereign-llm-kyrgyz",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Global audiences interested in Kyrgyzstan post-Japarov lack high-quality English analysis.",
+        "evidence": "https://eurasianet.org/region/kyrgyzstan"
+      },
+      "target_customer": "Global investors, policy analysts, journalists, diaspora intellectuals 30-60",
+      "monetization": {
+        "model": "subscription",
+        "price_point_usd": 12,
+        "year_1_revenue_target_usd": 12000,
+        "year_3_revenue_target_usd": 100000
+      },
+      "mvr_plan": {
+        "vehicle": "manifesto",
+        "build_steps": [
+          "Write founder manifesto: 'Why Kyrgyzstan in 2026'",
+          "Substack paid tier $12/mo",
+          "Cross-post on LinkedIn + Twitter X",
+          "Cross-promo PolicyDigestKG + DiasporaInvestorKG",
+          "Soft-launch via 'Kyrgyz Abroad' + Eurasianet"
+        ],
+        "build_time_days": 6,
+        "build_cost_usd": 0
+      },
+      "validation": {
+        "signal_target": "800 free + 80 paid in 90 days",
+        "validation_window_days": 90,
+        "channels": [
+          "LinkedIn 'Kyrgyz Abroad'",
+          "Twitter X policy",
+          "Eurasianet KG",
+          "ICT Week 2026"
+        ]
+      },
+      "tech_stack": [
+        "Substack",
+        "Notion",
+        "Stripe"
+      ],
+      "founder_capability_required": [
+        "Russian + English",
+        "investment-grade long-form writing"
+      ],
+      "moat_potential": "Authority brand; spin into Insights Service.",
+      "risk_register": [
+        {
+          "risk": "Slow audience",
+          "mitigation": "Cross-promo PolicyDigestKG"
+        },
+        {
+          "risk": "Politically sensitive",
+          "mitigation": "Stay descriptive"
+        },
+        {
+          "risk": "Eurasianet competition",
+          "mitigation": "Long-form + diaspora perspective"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 5,
+        "speed_to_mvr": 10,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 5,
+        "weighted_total": 6.65,
+        "scoring_rationale": "Brand-driven, slow but recurring."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-098",
+      "country": "KG",
+      "short_name": "MountainEcoBlog",
+      "tagline": "Manifesto + paid community: monthly Telegram circle for Kyrgyz eco-conscious 25-40, with grant + project support",
+      "category": "content",
+      "sector": "Agriculture & Water",
+      "underlying_demand": {
+        "trend_id": "kg-trend-020-air-quality-bishkek",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "UNDP-KG-DIGITAL-TRANSFORM",
+        "pain_point": "Kyrgyz environmental NGOs scattered. Eco-conscious lack community + project funding pathway.",
+        "evidence": "https://www.undp.org/kyrgyzstan"
+      },
+      "target_customer": "Educated Kyrgyz 25-40 in Bishkek, Naryn interested in environment, climate",
+      "monetization": {
+        "model": "subscription",
+        "price_point_usd": 6,
+        "year_1_revenue_target_usd": 5000,
+        "year_3_revenue_target_usd": 35000
+      },
+      "mvr_plan": {
+        "vehicle": "manifesto",
+        "build_steps": [
+          "Write 4,000-word manifesto",
+          "Cross-post on Habr KG + 24.kg",
+          "Substack + paid tier",
+          "Monthly Zoom circle for paid",
+          "UNDP grant pitch ($20K)"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 50
+      },
+      "validation": {
+        "signal_target": "300 free + 30 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Habr KG",
+          "24.kg lifestyle",
+          "UNDP partner network"
+        ]
+      },
+      "tech_stack": [
+        "Substack",
+        "Zoom",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz + English",
+        "long-form",
+        "community-building"
+      ],
+      "moat_potential": "Brand + community; donor-grant.",
+      "risk_register": [
+        {
+          "risk": "Niche",
+          "mitigation": "Cross-promo IssykKulGuide"
+        },
+        {
+          "risk": "Content fatigue",
+          "mitigation": "Member-driven"
+        },
+        {
+          "risk": "Politically sensitive",
+          "mitigation": "Stay descriptive"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 4,
+        "speed_to_mvr": 9,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 6,
+        "weighted_total": 5.95,
+        "scoring_rationale": "Niche, brand-driven."
+      },
+      "confidence_tier": "C",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-099",
+      "country": "KG",
+      "short_name": "SilkRoadFreelancersKG",
+      "tagline": "Free tool + community: connecting Kyrgyz freelancers with Russian-speaking digital nomads in Bishkek for partnerships",
+      "category": "content",
+      "sector": "Cross-cutting",
+      "underlying_demand": {
+        "trend_id": "kg-trend-009-htp-ai-talent",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Bishkek + Issyk-Kul host 5K+ Russian digital nomads post-2022. KG freelancers lack networking. Mutually beneficial.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Kyrgyz freelancers 22-40 + Russian digital nomads 25-45 in Bishkek",
+      "monetization": {
+        "model": "subscription",
+        "price_point_usd": 8,
+        "year_1_revenue_target_usd": 6000,
+        "year_3_revenue_target_usd": 50000
+      },
+      "mvr_plan": {
+        "vehicle": "squeeze_page",
+        "build_steps": [
+          "Telegram community + monthly meetup",
+          "Free join, $8/mo for premium events",
+          "Mbank subscription",
+          "Soft-launch in High Tech Park + Bishkek expat",
+          "Affiliate to coworking spaces"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 50
+      },
+      "validation": {
+        "signal_target": "500 community + 30 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "High Tech Park",
+          "Bishkek expat WhatsApp",
+          "Russian DN Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Telegram",
+        "Notion",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian + English",
+        "community-building"
+      ],
+      "moat_potential": "Community + coworking affiliate.",
+      "risk_register": [
+        {
+          "risk": "Niche",
+          "mitigation": "Cross-promo OutsourceToKG"
+        },
+        {
+          "risk": "Geopolitical sensitivity",
+          "mitigation": "Stay neutral"
+        },
+        {
+          "risk": "Conversion",
+          "mitigation": "Premium event tier"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 5,
+        "speed_to_mvr": 8,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 7,
+        "weighted_total": 6.2,
+        "scoring_rationale": "Russian-CIS substitution; niche."
+      },
+      "confidence_tier": "C",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-100",
+      "country": "KG",
+      "short_name": "KGCrossBorderHelp",
+      "tagline": "Wizard-of-Oz: helps Kyrgyz visitors + migrants navigate KG-KZ-RU-CN border crossings (visa, customs, document) via Telegram",
+      "category": "managed_service",
+      "sector": "Cross-cutting",
+      "underlying_demand": {
+        "trend_id": "kg-trend-017-customs-corridor",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "ADB-KG-CUSTOMS-38177",
+        "pain_point": "KG citizens travel to KZ, RU, CN frequently for trade, work, family. Visa/customs/document rules vary, change often.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "KG traders 30-55 + migrants + students crossing borders 4-12 times/year",
+      "monetization": {
+        "model": "services",
+        "price_point_usd": 15,
+        "year_1_revenue_target_usd": 14000,
+        "year_3_revenue_target_usd": 90000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Compile per-border current rules + document checklist",
+          "Telegram bot intake destination + purpose",
+          "Founder + 1 part-time student handles",
+          "Mbank 1300 KGS per consult",
+          "Soft-launch via 'Kyrgyz Trader' Telegram + kaktus.media"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 100
+      },
+      "validation": {
+        "signal_target": "20 paid consults in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "'Kyrgyz Trader' Telegram",
+          "kaktus.media",
+          "KG trucker WhatsApp"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Notion",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz + Kazakh basics",
+        "cross-border domain"
+      ],
+      "moat_potential": "Border-rule library; possible OEM to ADB customs project.",
+      "risk_register": [
+        {
+          "risk": "Rules change frequently",
+          "mitigation": "Weekly review + customs partner"
+        },
+        {
+          "risk": "Liability",
+          "mitigation": "Disclaimer + 'preliminary guidance'"
+        },
+        {
+          "risk": "Seasonal",
+          "mitigation": "Multiple corridors"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 9,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 7.5,
+        "scoring_rationale": "Real demand, cross-border, ADB-aligned."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    }
+  ]
+}

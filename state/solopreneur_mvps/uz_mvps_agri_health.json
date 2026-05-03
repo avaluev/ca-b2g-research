@@ -1,0 +1,2018 @@
+{
+  "country": "UZ",
+  "batch": "agri_health",
+  "count": 25,
+  "mvps": [
+    {
+      "id": "uz-mvp-026",
+      "country": "UZ",
+      "short_name": "CottonYieldBot",
+      "tagline": "Telegram bot delivering 7-day cotton yield + weather forecast for Uzbek farmers using free Sentinel-2 satellite data",
+      "category": "free_tool",
+      "sector": "Agriculture & Water",
+      "underlying_demand": {
+        "trend_id": "uz-trend-014-precision-agri-satellite",
+        "decree_id": "UZ-PP-2025-099",
+        "donor_program_id": "WB-UZ-AGRI-DIGITAL",
+        "pain_point": "Cotton (1.1M ha) is Uzbekistan's most managed crop yet smallholders lack micro-localized yield forecasts. Existing services target large clusters. Local agronomists publish in Russian on agro.uz forums. PP-099 mandates digital agriculture tools but state platforms target large farms.",
+        "evidence": "https://www.gazeta.uz/ru/list/economy/agriculture/"
+      },
+      "target_customer": "Mid-size cotton farmers 35-60 in Fergana, Bukhara, Khorezm with 50-200 ha and a smartphone, who currently rely on word-of-mouth and weather radio",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 5,
+        "year_1_revenue_target_usd": 14000,
+        "year_3_revenue_target_usd": 110000
+      },
+      "mvr_plan": {
+        "vehicle": "landing_page",
+        "build_steps": [
+          "Pull Sentinel-2 NDVI imagery via Sentinel Hub free tier",
+          "Telegram bot intake: pin location of farm",
+          "Daily NDVI delta + ECMWF weather + simple yield model",
+          "Free 1 farm, $5/mo for 5 farms + irrigation alerts",
+          "Soft-launch with one regional farmers' union in Fergana"
+        ],
+        "build_time_days": 9,
+        "build_cost_usd": 60
+      },
+      "validation": {
+        "signal_target": "300 free users + 30 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Fergana farmers Telegram groups",
+          "agro.uz forum cross-post",
+          "uzdjm.uz cooperative bulletin"
+        ]
+      },
+      "tech_stack": [
+        "Sentinel Hub API",
+        "ECMWF Open Data",
+        "Python",
+        "Supabase",
+        "Telegram Bot API"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek",
+        "basic GIS / Sentinel Hub",
+        "Python"
+      ],
+      "moat_potential": "Per-field yield history + farmer-segment behavior data is monetizable to insurance, Uzpaxtasanoat, WB project; possible OEM to a state agtech platform.",
+      "risk_register": [
+        {
+          "risk": "Cloud cover seasonality",
+          "mitigation": "Combine optical with Sentinel-1 SAR fallback"
+        },
+        {
+          "risk": "Low willingness to pay",
+          "mitigation": "Cooperative-level subscription via Uzdjm.uz"
+        },
+        {
+          "risk": "Government bundles a free competitor",
+          "mitigation": "Lean on Uzbek-Latin UX + Telegram-native delivery"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 8,
+        "speed_to_mvr": 8,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 9,
+        "weighted_total": 7.75,
+        "scoring_rationale": "Decree-anchored, clear use case, cooperative monetization wedge."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-027",
+      "country": "UZ",
+      "short_name": "WaterScheduleUZ",
+      "tagline": "SMS + Telegram alerts for irrigation-water release schedules from regional water associations, in Uzbek and Russian",
+      "category": "free_tool",
+      "sector": "Agriculture & Water",
+      "underlying_demand": {
+        "trend_id": "uz-trend-014-precision-agri-satellite",
+        "decree_id": "UZ-PP-2025-099",
+        "donor_program_id": "ADB-UZ-WATER-DIGITAL",
+        "pain_point": "Water-user associations announce releases verbally or in WhatsApp groups. Farmers miss windows, fields suffer. ADB-UZ-WATER-DIGITAL is digitizing schedules but rollout is slow. Forum chatter on agro.uz shows persistent demand.",
+        "evidence": "https://www.adb.org/projects/country/uzb"
+      },
+      "target_customer": "Smallholder farmers 30-65 in Bukhara, Khorezm, Karakalpakstan dependent on canal water, especially women-run plots with limited mobility",
+      "monetization": {
+        "model": "donation",
+        "price_point_usd": 0,
+        "year_1_revenue_target_usd": 6000,
+        "year_3_revenue_target_usd": 50000
+      },
+      "mvr_plan": {
+        "vehicle": "squeeze_page",
+        "build_steps": [
+          "Onboard 5 water-user associations as schedule sources via local researcher contacts",
+          "Build Telegram + SMS bot using Twilio + UZ Mobiuz aggregator",
+          "Per-canal pin and alert rule",
+          "ADB grant pitch ($25K) for scaling to 50 WUAs",
+          "Soft-launch in Khorezm farmer Telegram groups"
+        ],
+        "build_time_days": 8,
+        "build_cost_usd": 100
+      },
+      "validation": {
+        "signal_target": "500 farmer registrations across 3 oblasts in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Khorezm farmer Telegram",
+          "Karakalpakstan local activists",
+          "agro.uz forum"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Twilio SMS",
+        "Supabase",
+        "Notion (WUA database)"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek-Latin",
+        "field outreach to WUAs",
+        "SMS aggregator setup"
+      ],
+      "moat_potential": "Direct relationships with WUAs; donor scaling pathway; possible commercial tier for input dealers wanting to reach scheduled farmers.",
+      "risk_register": [
+        {
+          "risk": "WUA cooperation inconsistent",
+          "mitigation": "Volunteer mahalla aksakals + small honorarium for accurate input"
+        },
+        {
+          "risk": "Connectivity gaps in remote villages",
+          "mitigation": "SMS fallback for non-Telegram users"
+        },
+        {
+          "risk": "Donor-grant timing",
+          "mitigation": "Self-fund with input-dealer ads if grant delayed"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 8,
+        "speed_to_mvr": 7,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 6,
+        "local_market_fit": 9,
+        "weighted_total": 7.05,
+        "scoring_rationale": "Real impact, donor-grant viable, fulfillment requires field network."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-028",
+      "country": "UZ",
+      "short_name": "PestSpotterUZ",
+      "tagline": "Free tool: photo your crop leaf, get an Uzbek-language pest/disease ID and treatment plan",
+      "category": "ai_tool",
+      "sector": "Agriculture & Water",
+      "underlying_demand": {
+        "trend_id": "uz-trend-014-precision-agri-satellite",
+        "decree_id": "UZ-PP-2025-099",
+        "donor_program_id": "WB-UZ-AGRI-DIGITAL",
+        "pain_point": "Farmers misdiagnose pests, leading to wrong pesticide and crop loss. Extension agents are spread thin. agro.uz publishes weekly pest advisories but farmers want instant answers. Existing global apps (Plantix) lack Uzbek and have weak coverage of regional cotton/wheat pests.",
+        "evidence": "https://agro.uz/"
+      },
+      "target_customer": "Smallholder farmers 30-55 with smartphones in Andijan, Bukhara, Samarkand growing cotton, wheat, vegetables, fruit",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 4,
+        "year_1_revenue_target_usd": 10000,
+        "year_3_revenue_target_usd": 75000
+      },
+      "mvr_plan": {
+        "vehicle": "squeeze_page",
+        "build_steps": [
+          "Fine-tune CLIP/DINOv2 on a small Uzbek pest dataset (~500 photos)",
+          "Telegram bot intake + treatment recommendation in Uzbek + Russian",
+          "Free 3 IDs/week, $4/mo unlimited + fertilizer schedule",
+          "Affiliate to local agro-input dealers ($5/lead)",
+          "Soft-launch in agro.uz forum and 3 farmer Telegram groups"
+        ],
+        "build_time_days": 10,
+        "build_cost_usd": 80
+      },
+      "validation": {
+        "signal_target": "400 IDs done + 20 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "agro.uz",
+          "Fergana farmer Telegram",
+          "agro-input dealer Telegram"
+        ]
+      },
+      "tech_stack": [
+        "CLIP/DINOv2 on HuggingFace",
+        "Supabase",
+        "Telegram Bot",
+        "Click micro-payment"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek-Latin",
+        "ML basics",
+        "agronomy partner for treatment validation"
+      ],
+      "moat_potential": "Uzbek-specific pest dataset becomes a moat; possible licensing to Uzpaxtasanoat or WB digital agri program.",
+      "risk_register": [
+        {
+          "risk": "Misdiagnosis liability",
+          "mitigation": "Include 'consult agronomist' disclaimer; partner with one extension officer for review"
+        },
+        {
+          "risk": "Low data quality early on",
+          "mitigation": "User feedback loop + bounty for correct labels"
+        },
+        {
+          "risk": "Affiliate revenue uncertain",
+          "mitigation": "Sponsorship from one agro-input dealer (Uzkimyosanoat partner)"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 7,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 7.0,
+        "scoring_rationale": "Painful problem, ML risk, affiliate-driven monetization."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-029",
+      "country": "UZ",
+      "short_name": "DairyMarketUZ",
+      "tagline": "Telegram-based directory of regional dairy buyers and prices for smallholder dairy farmers",
+      "category": "content",
+      "sector": "Agriculture & Water",
+      "underlying_demand": {
+        "trend_id": "uz-trend-014-precision-agri-satellite",
+        "decree_id": "UZ-PP-2025-099",
+        "donor_program_id": null,
+        "pain_point": "Smallholder dairy farmers (5-30 cows) often sell at below-market prices because they don't know regional buyer prices. Local creameries vary 20-30% in price. No transparent marketplace exists.",
+        "evidence": "https://www.spot.uz/ru/category/biznes/agriculture/"
+      },
+      "target_customer": "Dairy farmers 35-55 in Tashkent oblast, Samarkand, Fergana valley with 5-30 cows producing 50-300L/day",
+      "monetization": {
+        "model": "listing_fee",
+        "price_point_usd": 8,
+        "year_1_revenue_target_usd": 9000,
+        "year_3_revenue_target_usd": 60000
+      },
+      "mvr_plan": {
+        "vehicle": "directory",
+        "build_steps": [
+          "Compile 50 dairy buyers with weekly price quotes",
+          "Telegram channel + Carrd directory page in Uzbek + Russian",
+          "Free for farmers, $8/week for buyers wanting featured listing",
+          "Click micro-payment",
+          "Soft-launch in 5 oblast farmer Telegram groups"
+        ],
+        "build_time_days": 6,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "300 farmer subscribers + 5 paid buyers in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "agro.uz",
+          "regional farmer Telegram",
+          "Uzdjm cooperative network"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Telegram",
+        "Notion CMS"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek-Latin",
+        "field outreach to creameries"
+      ],
+      "moat_potential": "Trust + buyer list compounds; can extend to other livestock products.",
+      "risk_register": [
+        {
+          "risk": "Buyer pushback on transparency",
+          "mitigation": "Offer first month free + data anonymization"
+        },
+        {
+          "risk": "Low payments collected",
+          "mitigation": "Bundle with input-dealer ads"
+        },
+        {
+          "risk": "Regional fragmentation",
+          "mitigation": "Start with one oblast, prove model"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 9,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 7.2,
+        "scoring_rationale": "Niche but real demand, slow but viable monetization."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-030",
+      "country": "UZ",
+      "short_name": "FertilizerCalc",
+      "tagline": "Free Telegram calculator giving precise fertilizer dosages by crop and field area, in Uzbek and Russian",
+      "category": "free_tool",
+      "sector": "Agriculture & Water",
+      "underlying_demand": {
+        "trend_id": "uz-trend-014-precision-agri-satellite",
+        "decree_id": "UZ-PP-2025-099",
+        "donor_program_id": null,
+        "pain_point": "Smallholder farmers under- or over-apply fertilizer due to lack of crop-specific calculators in Uzbek. Result: yield loss + soil degradation. Existing online calculators are Russian-only and weight-based.",
+        "evidence": "https://agro.uz/"
+      },
+      "target_customer": "Smallholder farmers 30-55 across Uzbekistan growing cotton, wheat, vegetables; secondary: agronomy students",
+      "monetization": {
+        "model": "ad",
+        "price_point_usd": 30,
+        "year_1_revenue_target_usd": 6000,
+        "year_3_revenue_target_usd": 40000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Compile fertilizer formula tables for top 12 crops",
+          "Telegram bot intake: crop + area + soil type",
+          "Output: NPK in kg + cost + nearest dealer (sponsor)",
+          "Sell sponsored slot to one fertilizer dealer ($30/mo)",
+          "Soft-launch in agro.uz forum"
+        ],
+        "build_time_days": 5,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "1,500 calculations + 1 sponsor in 45 days",
+        "validation_window_days": 45,
+        "channels": [
+          "agro.uz",
+          "Fergana farmer Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Supabase",
+        "Notion (data)"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek",
+        "agronomy basics or partner agronomist"
+      ],
+      "moat_potential": "Sponsor relationship + per-region database compounds.",
+      "risk_register": [
+        {
+          "risk": "Low ad demand",
+          "mitigation": "Run 3 dealers as sponsors split"
+        },
+        {
+          "risk": "Region-specific accuracy",
+          "mitigation": "User feedback + agronomist review"
+        },
+        {
+          "risk": "Free clone",
+          "mitigation": "Lean on bilingual UX + sponsor exclusivity"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 10,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 9,
+        "local_market_fit": 8,
+        "weighted_total": 7.05,
+        "scoring_rationale": "Cheap to build, modest revenue, real utility."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-031",
+      "country": "UZ",
+      "short_name": "BeeKeeperUZ",
+      "tagline": "Wizard-of-Oz subscription delivering monthly hive-management plans + weather alerts to Uzbek beekeepers",
+      "category": "managed_service",
+      "sector": "Agriculture & Water",
+      "underlying_demand": {
+        "trend_id": "uz-trend-014-precision-agri-satellite",
+        "decree_id": "UZ-PP-2025-099",
+        "donor_program_id": null,
+        "pain_point": "Uzbekistan has 15K+ registered beekeepers with average 30 hives. They suffer from CCD-like losses due to poor disease management. Forum threads on agro.uz show persistent questions on Varroa mite control. No localized advisory exists.",
+        "evidence": "https://agro.uz/"
+      },
+      "target_customer": "Beekeepers 35-65 in Tashkent oblast, Samarkand, Bukhara managing 30-200 hives, especially organic-honey exporters",
+      "monetization": {
+        "model": "subscription",
+        "price_point_usd": 6,
+        "year_1_revenue_target_usd": 9000,
+        "year_3_revenue_target_usd": 60000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Partner with one professional beekeeper-mentor in Tashkent ($200/mo retainer)",
+          "Telegram newsletter: monthly plan + weather + disease alerts",
+          "Free first month, $6/mo after",
+          "Cross-post on agro.uz and beekeeper Telegram groups",
+          "Add affiliate links to equipment dealers"
+        ],
+        "build_time_days": 6,
+        "build_cost_usd": 100
+      },
+      "validation": {
+        "signal_target": "100 subscribers + 30 paying in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "agro.uz beekeeping",
+          "Tashkent beekeeper Telegram",
+          "honey-export Telegram channel"
+        ]
+      },
+      "tech_stack": [
+        "Telegram",
+        "Buttondown",
+        "Notion CMS",
+        "Click subscription"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek-Latin",
+        "managed-service operations",
+        "expert-network outreach"
+      ],
+      "moat_potential": "Mentor + farmer relationships compound; possible spin-out into a beekeeping app.",
+      "risk_register": [
+        {
+          "risk": "Mentor unavailability",
+          "mitigation": "Pre-record monthly plan video + hire 2 mentors"
+        },
+        {
+          "risk": "Niche too small",
+          "mitigation": "Expand to general livestock advisory"
+        },
+        {
+          "risk": "Seasonal revenue",
+          "mitigation": "Annual prepay 20% discount"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 9,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 6.85,
+        "scoring_rationale": "Niche, recurring, fulfillment-bottlenecked."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-032",
+      "country": "UZ",
+      "short_name": "GrainPriceUZ",
+      "tagline": "Daily Telegram digest of wheat and grain prices across 10 Uzbek bazaars and the state purchasing fund",
+      "category": "content",
+      "sector": "Agriculture & Water",
+      "underlying_demand": {
+        "trend_id": "uz-trend-014-precision-agri-satellite",
+        "decree_id": "UZ-PP-2025-099",
+        "donor_program_id": null,
+        "pain_point": "Wheat prices vary 15-25% across regions. Farmers and small mills sell or buy without market visibility. UzAgroMarket is a paid B2B service, not accessible to smallholders.",
+        "evidence": "https://uztrade.uz/"
+      },
+      "target_customer": "Wheat farmers 35-60 in Jizzakh, Syrdarya, Fergana with 50-300 ha; small mill operators in oblast capitals",
+      "monetization": {
+        "model": "subscription",
+        "price_point_usd": 7,
+        "year_1_revenue_target_usd": 8000,
+        "year_3_revenue_target_usd": 60000
+      },
+      "mvr_plan": {
+        "vehicle": "manifesto",
+        "build_steps": [
+          "Onboard 10 bazaar field reporters at $30/mo each via researcher contacts",
+          "Telegram channel + email digest",
+          "Free 7-day trial, $7/mo subscription",
+          "Click subscription billing",
+          "Soft-launch in 5 wheat-belt Telegram groups"
+        ],
+        "build_time_days": 9,
+        "build_cost_usd": 200
+      },
+      "validation": {
+        "signal_target": "200 free + 20 paid subscribers in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Jizzakh wheat-farmer Telegram",
+          "agro.uz forum",
+          "Uzdjm cooperative bulletins (Tashkent)",
+          "spot.uz business"
+        ]
+      },
+      "tech_stack": [
+        "Telegram",
+        "Notion (reporter network)",
+        "Buttondown",
+        "Click"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek-Latin",
+        "field reporter management",
+        "data hygiene"
+      ],
+      "moat_potential": "Reporter network is the moat; can extend to fruit, vegetable bazaars; partner with WB Agri.",
+      "risk_register": [
+        {
+          "risk": "Reporter accuracy",
+          "mitigation": "Cross-check via 2 reporters per bazaar"
+        },
+        {
+          "risk": "Low willingness to pay",
+          "mitigation": "Cooperative-level subscription"
+        },
+        {
+          "risk": "State competitor",
+          "mitigation": "Lean on speed and bilingual delivery"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 7,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 6,
+        "local_market_fit": 8,
+        "weighted_total": 6.55,
+        "scoring_rationale": "Real demand, fulfillment costs."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-033",
+      "country": "UZ",
+      "short_name": "FarmRecordsUZ",
+      "tagline": "Voice-to-text Telegram bot turning Uzbek-language voice notes into structured farm records (planting, spraying, harvest)",
+      "category": "ai_tool",
+      "sector": "Agriculture & Water",
+      "underlying_demand": {
+        "trend_id": "uz-trend-033-speech-uzbek-asr",
+        "decree_id": "UZ-PP-2025-099",
+        "donor_program_id": "WB-UZ-AGRI-DIGITAL",
+        "pain_point": "Smallholder farmers don't keep records — limits credit access (banks require 2 years of records) and traceability for export buyers. They have phones but don't type. WB-UZ-AGRI-DIGITAL pushes for record-keeping. Speech-to-Uzbek ASR is now feasible per UP-189 sovereign LLM trend.",
+        "evidence": "https://www.worldbank.org/en/country/uzbekistan/projects"
+      },
+      "target_customer": "Smallholder farmers 30-55 across Uzbekistan (cotton, wheat, vegetables) wanting bank credit or export contracts",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 3,
+        "year_1_revenue_target_usd": 8000,
+        "year_3_revenue_target_usd": 60000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Use Whisper or Yandex SpeechKit for Uzbek STT",
+          "Telegram bot intake voice → structured table",
+          "Auto-export PDF for bank/credit applications",
+          "Free up to 20 records/mo, $3/mo unlimited",
+          "Soft-launch via TBC Bank SME farm-credit Telegram"
+        ],
+        "build_time_days": 9,
+        "build_cost_usd": 80
+      },
+      "validation": {
+        "signal_target": "200 free + 30 paid users in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "TBC Agri Telegram",
+          "agro.uz",
+          "Anorbank farmer Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Whisper or Yandex SpeechKit",
+        "Telegram Bot",
+        "Supabase",
+        "PDF generator"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek-Latin + Cyrillic",
+        "STT API integration"
+      ],
+      "moat_potential": "Bank-partnership integration (TBC, Anorbank, Hayot) for credit decisioning data; possible exit to one of them.",
+      "risk_register": [
+        {
+          "risk": "Uzbek STT accuracy",
+          "mitigation": "Use Yandex SpeechKit primary + Whisper fallback; correction loop"
+        },
+        {
+          "risk": "Low farmer adoption",
+          "mitigation": "Bank-channel cross-promo with credit-line discount for users"
+        },
+        {
+          "risk": "Data privacy",
+          "mitigation": "Customer-owned data, on-device option"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 7,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 7.15,
+        "scoring_rationale": "Bank-credit unlock is the wedge; STT risk modest."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-034",
+      "country": "UZ",
+      "short_name": "VetCallUZ",
+      "tagline": "Wizard-of-Oz: photo + voice description of sick livestock → 24h vet response in Russian/Uzbek for $5",
+      "category": "managed_service",
+      "sector": "Agriculture & Water",
+      "underlying_demand": {
+        "trend_id": "uz-trend-014-precision-agri-satellite",
+        "decree_id": "UZ-PP-2025-099",
+        "donor_program_id": null,
+        "pain_point": "Rural Uzbekistan has 1 vet per 5,000 livestock units. Farmers wait 2-5 days; livestock loss is common. Local vet WhatsApp groups exist but charge ad-hoc.",
+        "evidence": "https://agro.uz/"
+      },
+      "target_customer": "Smallholder livestock farmers 35-60 in Khorezm, Karakalpakstan, Surxondaryo with 5-50 cattle / sheep",
+      "monetization": {
+        "model": "services",
+        "price_point_usd": 5,
+        "year_1_revenue_target_usd": 12000,
+        "year_3_revenue_target_usd": 80000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Recruit 3 part-time vets (vet college graduates) at $200/mo retainer",
+          "Telegram bot intake: photo + voice + species",
+          "Vets respond within 24h",
+          "Click payment, 60,000 UZS per consult",
+          "Soft-launch in livestock farmer Telegram groups"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 150
+      },
+      "validation": {
+        "signal_target": "30 paid consults + 5-star rating in 30 days",
+        "validation_window_days": 45,
+        "channels": [
+          "livestock farmer Telegram",
+          "agro.uz",
+          "Surxondaryo cattle association"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Notion",
+        "Click",
+        "Google Drive (vet handbook)"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek-Latin",
+        "vet network management"
+      ],
+      "moat_potential": "Vet network is the moat; can extend to medication delivery via local pharmacy partner.",
+      "risk_register": [
+        {
+          "risk": "Vet liability",
+          "mitigation": "Disclaimer + emergency-call routing for severe cases"
+        },
+        {
+          "risk": "Vet retention",
+          "mitigation": "Performance bonuses + reputation tiers"
+        },
+        {
+          "risk": "Regulatory",
+          "mitigation": "Position as 'preliminary advice' + refer to in-person vet"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 8,
+        "speed_to_mvr": 8,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 6,
+        "local_market_fit": 9,
+        "weighted_total": 7.55,
+        "scoring_rationale": "Real demand, paying customers, vet network operational."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-035",
+      "country": "UZ",
+      "short_name": "AralWaterPulse",
+      "tagline": "Free public dashboard tracking real-time water-quality and salinity monitoring stations across the Aral Sea basin",
+      "category": "free_tool",
+      "sector": "Agriculture & Water",
+      "underlying_demand": {
+        "trend_id": "uz-trend-029-aral-desertification-ai",
+        "decree_id": "UZ-PP-2025-099",
+        "donor_program_id": "ADB-UZ-WATER-DIGITAL",
+        "pain_point": "Aral Sea basin water quality data is collected but rarely public. Karakalpakstan farmers, environmental researchers, donor-program TTLs lack a real-time view. ADB and WB programs need monitoring tools.",
+        "evidence": "https://www.adb.org/projects/country/uzb"
+      },
+      "target_customer": "Karakalpakstan environmental researchers, donor program officers, Karakalpak agronomists, environmental NGOs",
+      "monetization": {
+        "model": "donation",
+        "price_point_usd": 0,
+        "year_1_revenue_target_usd": 8000,
+        "year_3_revenue_target_usd": 50000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Aggregate open data from MERIDIAN, NSDI, regional water agencies",
+          "Build Vercel + Next.js dashboard with map and time series",
+          "Cross-post in environmental NGO networks",
+          "ADB/WB/UNDP grant pitch ($30K)",
+          "Soft-launch via Karakalpak environmental Telegram"
+        ],
+        "build_time_days": 10,
+        "build_cost_usd": 100
+      },
+      "validation": {
+        "signal_target": "300 unique users + 1 donor-program citation in 60 days",
+        "validation_window_days": 90,
+        "channels": [
+          "Karakalpak environmental Telegram",
+          "EU Delegation Tashkent",
+          "UNDP Uzbekistan"
+        ]
+      },
+      "tech_stack": [
+        "Next.js",
+        "Vercel",
+        "Mapbox",
+        "Supabase"
+      ],
+      "founder_capability_required": [
+        "Russian + Karakalpak basics",
+        "data wrangling",
+        "dashboard dev"
+      ],
+      "moat_potential": "Donor-grant continuity; possible OEM to Karakalpakstan government via UNDP partner.",
+      "risk_register": [
+        {
+          "risk": "Open data limited",
+          "mitigation": "Partner with one university for additional sensors"
+        },
+        {
+          "risk": "Sensitive politically",
+          "mitigation": "Stay descriptive; partner with established NGOs"
+        },
+        {
+          "risk": "Low monetization",
+          "mitigation": "Donor-grant only"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 7,
+        "monetization_path": 4,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 7,
+        "weighted_total": 6.1,
+        "scoring_rationale": "Donor-grant focused; weak commercial path."
+      },
+      "confidence_tier": "C",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-036",
+      "country": "UZ",
+      "short_name": "PharmacyShelfUZ",
+      "tagline": "SaaS for independent Uzbek pharmacies: photograph your shelf, get OCR-based stock list and reorder alerts",
+      "category": "saas",
+      "sector": "Health",
+      "underlying_demand": {
+        "trend_id": "uz-trend-009-eprescription-fraud",
+        "decree_id": "UZ-PP-2023-415",
+        "donor_program_id": "WB-UZ-HEALTH-P178562",
+        "pain_point": "12,000+ independent pharmacies in Uzbekistan track stock manually. State Medical Insurance (PP-415, UP-088) requires e-prescription compliance starting 2026 — pharmacies need stock-tracking software but enterprise solutions cost $500+/mo.",
+        "evidence": "https://www.gazeta.uz/ru/list/health/"
+      },
+      "target_customer": "Independent pharmacy owners 35-55 in Tashkent, Samarkand, Andijan with 1-3 outlets, currently using paper or Excel",
+      "monetization": {
+        "model": "subscription",
+        "price_point_usd": 25,
+        "year_1_revenue_target_usd": 25000,
+        "year_3_revenue_target_usd": 250000
+      },
+      "mvr_plan": {
+        "vehicle": "landing_page",
+        "build_steps": [
+          "Build OCR pipeline (Tesseract + EasyOCR) for Russian + Uzbek-Latin labels",
+          "Mobile-friendly web app for stock tracking + reorder",
+          "Carrd landing page + 14-day free trial",
+          "Click subscription billing 300,000 UZS/mo",
+          "Soft-launch via Apteka Plus distributor partner Telegram"
+        ],
+        "build_time_days": 10,
+        "build_cost_usd": 150
+      },
+      "validation": {
+        "signal_target": "20 pharmacies on free trial, 5 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "pharmacy distributor Telegram",
+          "TBC SME health-vertical Telegram",
+          "ICT Week 2026 health track"
+        ]
+      },
+      "tech_stack": [
+        "Python OCR",
+        "Next.js + Vercel",
+        "Supabase",
+        "Click subscription"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek-Latin",
+        "OCR engineering",
+        "B2B sales"
+      ],
+      "moat_potential": "Stock + sales data is monetizable to pharma distributors and State Medical Insurance Fund; possible white-label to large distributor.",
+      "risk_register": [
+        {
+          "risk": "OCR accuracy on local labels",
+          "mitigation": "Manual correction layer; user feedback loop"
+        },
+        {
+          "risk": "Pharmacy chains pull customers",
+          "mitigation": "Focus on independents + small groups"
+        },
+        {
+          "risk": "Compliance shifts",
+          "mitigation": "Stay close to State Medical Insurance Fund updates"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 8,
+        "speed_to_mvr": 7,
+        "monetization_path": 8,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 7.65,
+        "scoring_rationale": "Decree + insurance tailwind, B2B SaaS path, OCR is solvable."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-037",
+      "country": "UZ",
+      "short_name": "MedReminderUZ",
+      "tagline": "Free Telegram bot reminding patients to take meds, with Russian/Uzbek voice prompts and family caregiver loop",
+      "category": "free_tool",
+      "sector": "Health",
+      "underlying_demand": {
+        "trend_id": "uz-trend-010-telemedicine-ai-triage",
+        "decree_id": "UZ-PP-2023-415",
+        "donor_program_id": null,
+        "pain_point": "Chronic-disease patients (hypertension, diabetes) miss doses. Adult children manage parents' meds remotely. Existing reminder apps lack Uzbek and don't loop in family.",
+        "evidence": "https://kun.uz/ru/news/2024/06/12/zdorovie-uzbekistan"
+      },
+      "target_customer": "Adult children 30-50 caring for elderly parents (60-85) with chronic conditions; patients themselves",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 2,
+        "year_1_revenue_target_usd": 7000,
+        "year_3_revenue_target_usd": 60000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Telegram bot intake: meds + schedule + caregiver phone",
+          "Voice reminder via OpenAI TTS in Uzbek + Russian",
+          "Family-loop SMS via Twilio when missed",
+          "Free up to 2 patients, $2/mo unlimited",
+          "Soft-launch via TBC family banking Telegram"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 60
+      },
+      "validation": {
+        "signal_target": "300 reminders + 30 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "TBC family Telegram",
+          "Andijan parent groups",
+          "Tashkent caregiver communities"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "OpenAI TTS",
+        "Twilio SMS",
+        "Supabase"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek-Latin",
+        "TTS integration"
+      ],
+      "moat_potential": "Adherence data becomes valuable to State Medical Insurance Fund + pharmaceutical companies (anonymized).",
+      "risk_register": [
+        {
+          "risk": "HIPAA-equivalent compliance",
+          "mitigation": "ЗРУ-547 review; minimal data retention"
+        },
+        {
+          "risk": "Adoption friction with elderly",
+          "mitigation": "Caregiver-driven onboarding; voice-only mode"
+        },
+        {
+          "risk": "Low willingness to pay",
+          "mitigation": "B2B pivot to clinics"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 9,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 8,
+        "weighted_total": 7.4,
+        "scoring_rationale": "Caregiver-driven adoption is the wedge; bilingual voice is differentiator."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-038",
+      "country": "UZ",
+      "short_name": "ClinicAppointmentUZ",
+      "tagline": "Wizard-of-Oz service that books appointments at top Tashkent private clinics in Russian/Uzbek via Telegram",
+      "category": "managed_service",
+      "sector": "Health",
+      "underlying_demand": {
+        "trend_id": "uz-trend-010-telemedicine-ai-triage",
+        "decree_id": "UZ-UP-2025-088",
+        "donor_program_id": null,
+        "pain_point": "Top Tashkent clinics (Akfa, Centrum) have phone-only or web booking with limited slots visibility. Working professionals can't call during business hours. No aggregator exists.",
+        "evidence": "https://www.spot.uz/ru/category/biznes/health/"
+      },
+      "target_customer": "Tashkent professionals 28-50 booking specialist appointments for themselves or aging parents",
+      "monetization": {
+        "model": "services",
+        "price_point_usd": 5,
+        "year_1_revenue_target_usd": 14000,
+        "year_3_revenue_target_usd": 90000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Map 10 top Tashkent clinics + their booking processes",
+          "Telegram bot intake: specialty + preferred date + insurance",
+          "Founder books on customer's behalf within 4h",
+          "Click payment 60,000 UZS",
+          "Soft-launch in TBC Bank corporate-health Telegram"
+        ],
+        "build_time_days": 5,
+        "build_cost_usd": 50
+      },
+      "validation": {
+        "signal_target": "30 paid bookings in 30 days",
+        "validation_window_days": 45,
+        "channels": [
+          "TBC corporate Telegram",
+          "spot.uz health chat",
+          "Tashkent expat WhatsApp"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Notion",
+        "Click"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek-Latin",
+        "phone fluency",
+        "clinic relationships"
+      ],
+      "moat_potential": "Clinic relationships compound; affiliate revenue from clinics.",
+      "risk_register": [
+        {
+          "risk": "Clinics resist intermediary",
+          "mitigation": "Position as 'concierge' driving net-new patients"
+        },
+        {
+          "risk": "Low margins given operational time",
+          "mitigation": "Premium tier $20 for VIP clinics"
+        },
+        {
+          "risk": "Refund disputes",
+          "mitigation": "Refund if booking fails"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 10,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 8,
+        "weighted_total": 7.6,
+        "scoring_rationale": "Cash from day 1; concierge moat."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-039",
+      "country": "UZ",
+      "short_name": "DocLookupUZ",
+      "tagline": "Searchable directory of Tashkent specialist doctors with verified credentials, English ratings, and direct WhatsApp",
+      "category": "content",
+      "sector": "Health",
+      "underlying_demand": {
+        "trend_id": "uz-trend-010-telemedicine-ai-triage",
+        "decree_id": "UZ-UP-2025-088",
+        "donor_program_id": null,
+        "pain_point": "Tashkent expats and middle-class Uzbeks struggle to find verified specialists. Booking.com-style sites don't exist for healthcare. WhatsApp word-of-mouth dominates. Listing fee model is untapped.",
+        "evidence": "https://www.spot.uz/ru/category/biznes/health/"
+      },
+      "target_customer": "Tashkent middle/upper-middle class 30-55 seeking specialists; expats; medical tourists from rural Uzbekistan",
+      "monetization": {
+        "model": "listing_fee",
+        "price_point_usd": 40,
+        "year_1_revenue_target_usd": 12000,
+        "year_3_revenue_target_usd": 100000
+      },
+      "mvr_plan": {
+        "vehicle": "directory",
+        "build_steps": [
+          "Compile 200 specialists from clinic websites + verify credentials with Ministry of Health",
+          "Carrd directory + sector filter + reviews integration",
+          "Free for patients, $40/mo for featured listing",
+          "Click micro-payment for paid listing",
+          "Soft-launch via Tashkent expat WhatsApp + spot.uz"
+        ],
+        "build_time_days": 8,
+        "build_cost_usd": 60
+      },
+      "validation": {
+        "signal_target": "5,000 visits + 5 paid listings in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "spot.uz",
+          "Tashkent expat groups",
+          "Anorbank health-insurance partner Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Notion CMS",
+        "Plausible",
+        "Click"
+      ],
+      "founder_capability_required": [
+        "Russian + English",
+        "credential verification process",
+        "B2B sales"
+      ],
+      "moat_potential": "Trusted directory + reviews; possible OEM to insurance companies; doctor listings compound.",
+      "risk_register": [
+        {
+          "risk": "Liability for misinformation",
+          "mitigation": "Verify credentials; ToU disclaimer"
+        },
+        {
+          "risk": "Doctors slow to pay",
+          "mitigation": "First 30 days free + commission on first patient"
+        },
+        {
+          "risk": "Government compete with official directory",
+          "mitigation": "Lean on UX and English-language coverage"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 8,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 7,
+        "weighted_total": 7.1,
+        "scoring_rationale": "Niche but valuable; doctor onboarding is the gating step."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-040",
+      "country": "UZ",
+      "short_name": "SymptomCheckerUZ",
+      "tagline": "Free Uzbek-language symptom checker delivering triage levels (self-care / GP / ER) and nearest clinic",
+      "category": "ai_tool",
+      "sector": "Health",
+      "underlying_demand": {
+        "trend_id": "uz-trend-008-ehealth-ai-diagnostics",
+        "decree_id": "UZ-PP-2023-415",
+        "donor_program_id": "WB-UZ-HEALTH-P178562",
+        "pain_point": "Lack of Uzbek-language symptom-checker forces patients to either over-use ERs or under-treat. WB-UZ-HEALTH-P178562 supports digital health; PP-415 mandates digital diagnostic tools. ChatGPT use is rising but unsafe without clinical guardrails.",
+        "evidence": "https://kun.uz/ru/news/2024/06/12/zdorovie-uzbekistan"
+      },
+      "target_customer": "Adult Uzbeks 25-55 with symptoms but no immediate access to GP, especially urban working parents",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 2,
+        "year_1_revenue_target_usd": 9000,
+        "year_3_revenue_target_usd": 80000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Use Infermedica or open MedQA dataset + Uzbek translation layer",
+          "Telegram bot + voice input via Whisper",
+          "Free 3 checks/week, $2/mo unlimited + clinic referral",
+          "Affiliate to ClinicAppointmentUZ",
+          "Soft-launch in TBC family Telegram + spot.uz health chat"
+        ],
+        "build_time_days": 12,
+        "build_cost_usd": 200
+      },
+      "validation": {
+        "signal_target": "500 checks + 30 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "TBC family Telegram",
+          "spot.uz health",
+          "Andijan parent groups"
+        ]
+      },
+      "tech_stack": [
+        "Infermedica API or Med-Llama",
+        "Whisper",
+        "Telegram Bot",
+        "Click"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek-Latin",
+        "medical-content review (partner doctor)",
+        "API integration"
+      ],
+      "moat_potential": "Symptom data + outcome feedback compounds; clinic-referral network; partner with State Medical Insurance.",
+      "risk_register": [
+        {
+          "risk": "Medical liability",
+          "mitigation": "ЗРУ-1115 AI Law compliance; disclaimer; partner doctor review"
+        },
+        {
+          "risk": "Inaccurate triage",
+          "mitigation": "Conservative defaults; always-recommend ER for red flags"
+        },
+        {
+          "risk": "Trust gap",
+          "mitigation": "Position with clinic partner; verified-doctor endorsements"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 6,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 6,
+        "local_market_fit": 7,
+        "weighted_total": 6.7,
+        "scoring_rationale": "Big upside, regulatory + medical risk requires careful build."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-041",
+      "country": "UZ",
+      "short_name": "InsuranceClaimHelper",
+      "tagline": "Wizard-of-Oz service: photo your medical bills, get a State Medical Insurance Fund reimbursement claim filed within 48h",
+      "category": "managed_service",
+      "sector": "Health",
+      "underlying_demand": {
+        "trend_id": "uz-trend-009-eprescription-fraud",
+        "decree_id": "UZ-PP-2024-311",
+        "donor_program_id": "WB-UZ-HEALTH-P178562",
+        "pain_point": "State Medical Insurance launching from PP-311. Citizens unfamiliar with claim formats; rejection rates expected high. No private claim-helpers exist yet.",
+        "evidence": "https://lex.uz/ru/docs/7203456"
+      },
+      "target_customer": "Tashkent professionals 35-55 with private + state coverage, especially after major treatments (surgery, hospitalization)",
+      "monetization": {
+        "model": "services",
+        "price_point_usd": 10,
+        "year_1_revenue_target_usd": 18000,
+        "year_3_revenue_target_usd": 120000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Map State Medical Insurance Fund claim process (will publish 2026 details)",
+          "Telegram bot intake: bills + diagnosis + member ID",
+          "Founder + 1 paralegal file claim within 48h",
+          "Click 120,000 UZS per claim",
+          "Soft-launch with TBC Bank private-insurance customers"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 80
+      },
+      "validation": {
+        "signal_target": "20 paid claims + 80% acceptance rate in 60 days",
+        "validation_window_days": 90,
+        "channels": [
+          "TBC Bank private insurance Telegram",
+          "Anorbank health Telegram",
+          "Akfa Clinic patient WhatsApp"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Notion",
+        "Click"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek",
+        "insurance claim domain expertise"
+      ],
+      "moat_potential": "Claim-template library + insurance relationships; possible OEM to State Medical Insurance Fund.",
+      "risk_register": [
+        {
+          "risk": "Insurance Fund rules unclear",
+          "mitigation": "Wait for PP-311 implementing regs Q3 2026; soft-launch as advisory until then"
+        },
+        {
+          "risk": "Liability on rejected claims",
+          "mitigation": "Refund if rejected for service-side error; T&Cs"
+        },
+        {
+          "risk": "Volume seasonal",
+          "mitigation": "Bundle with InsuranceClaimHelper to family-care advisory"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 8,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 7.3,
+        "scoring_rationale": "Tied to insurance rollout; cash flow real."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-042",
+      "country": "UZ",
+      "short_name": "VaccineRecordUZ",
+      "tagline": "Free Telegram tool: upload child vaccine card, get next-due alerts and digital backup; family-friendly Russian/Uzbek",
+      "category": "free_tool",
+      "sector": "Health",
+      "underlying_demand": {
+        "trend_id": "uz-trend-008-ehealth-ai-diagnostics",
+        "decree_id": "UZ-PP-2023-415",
+        "donor_program_id": "UNICEF-UZ-EDTECH-LEARNING",
+        "pain_point": "Paper vaccination cards get lost. Parents miss boosters. Polikliniki schedules vary by region. UNICEF Uzbekistan supports immunization tracking.",
+        "evidence": "https://www.unicef.org/uzbekistan/"
+      },
+      "target_customer": "Tashkent and Fergana parents 25-40 with under-5 children, especially first-time mothers and migrant returnees",
+      "monetization": {
+        "model": "donation",
+        "price_point_usd": 0,
+        "year_1_revenue_target_usd": 5000,
+        "year_3_revenue_target_usd": 40000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Use Tesseract OCR for vaccine card capture",
+          "Telegram bot intake: photo + child DOB",
+          "Push notification 7 days before next vaccine",
+          "UNICEF grant pitch ($25K) for nationwide rollout",
+          "Soft-launch in Tashkent parent Telegram groups"
+        ],
+        "build_time_days": 8,
+        "build_cost_usd": 60
+      },
+      "validation": {
+        "signal_target": "500 children registered in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Tashkent parent Telegram",
+          "Andijan parent groups",
+          "UNICEF Uzbekistan partners"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Tesseract OCR",
+        "Supabase"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek-Latin",
+        "OCR engineering",
+        "child-health domain familiarity"
+      ],
+      "moat_potential": "Donor-grant continuity (UNICEF, WHO); possible OEM to State Medical Insurance Fund + Ministry of Health.",
+      "risk_register": [
+        {
+          "risk": "OCR accuracy varies",
+          "mitigation": "Manual review for edge cases"
+        },
+        {
+          "risk": "Privacy concerns",
+          "mitigation": "ЗРУ-547 review; minimal data retention"
+        },
+        {
+          "risk": "Government competitor",
+          "mitigation": "Lean on UX speed and partner with one polikliniki for branding"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 8,
+        "monetization_path": 4,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 6.7,
+        "scoring_rationale": "Civic value, donor-grant viable, weak commercial."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-043",
+      "country": "UZ",
+      "short_name": "MentalHealthHotlineUZ",
+      "tagline": "Anonymous, paid Telegram support service connecting Uzbeks with Russian/Uzbek-speaking mental health professionals",
+      "category": "managed_service",
+      "sector": "Health",
+      "underlying_demand": {
+        "trend_id": "uz-trend-010-telemedicine-ai-triage",
+        "decree_id": "UZ-UP-2025-088",
+        "donor_program_id": null,
+        "pain_point": "Mental health is taboo + underserved. State counselors cluster in Tashkent. Rural Uzbeks have no anonymous channel. Spot.uz publishes annual mental-health features showing demand.",
+        "evidence": "https://www.spot.uz/ru/2024/10/10/mental-health/"
+      },
+      "target_customer": "Urban professionals 22-40 dealing with anxiety/depression/burnout; secondary: returning migrants with PTSD",
+      "monetization": {
+        "model": "services",
+        "price_point_usd": 18,
+        "year_1_revenue_target_usd": 14000,
+        "year_3_revenue_target_usd": 120000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Recruit 5 Russian/Uzbek-speaking psychologists at $300/mo retainer",
+          "Telegram bot intake: anonymous, picks language and gender",
+          "30-min session at 220,000 UZS",
+          "Click payment, anonymous escrow",
+          "Soft-launch via TBC corporate-wellness partnership"
+        ],
+        "build_time_days": 8,
+        "build_cost_usd": 200
+      },
+      "validation": {
+        "signal_target": "30 sessions + NPS 8+ in 30 days",
+        "validation_window_days": 60,
+        "channels": [
+          "TBC corporate Telegram",
+          "Tashkent women community",
+          "kun.uz wellness chat"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Calendly",
+        "Click",
+        "Notion (psychologist roster)"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek-Latin",
+        "psychologist network",
+        "anonymous-protocol design"
+      ],
+      "moat_potential": "Psychologist + customer trust compounds; possible spin-out as a localized BetterHelp.",
+      "risk_register": [
+        {
+          "risk": "Liability on crisis cases",
+          "mitigation": "Crisis escalation protocol; partner with one hospital"
+        },
+        {
+          "risk": "Stigma",
+          "mitigation": "Anonymous + safe-space messaging"
+        },
+        {
+          "risk": "Psychologist burnout",
+          "mitigation": "Roster of 5+ + rotation"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 8,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 7,
+        "weighted_total": 7.1,
+        "scoring_rationale": "Real demand, careful operations, defensible niche."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-044",
+      "country": "UZ",
+      "short_name": "PrescriptionScannerUZ",
+      "tagline": "Free Telegram tool that turns photo of doctor's handwritten prescription into structured pharmacy-ready text in Russian/Uzbek",
+      "category": "ai_tool",
+      "sector": "Health",
+      "underlying_demand": {
+        "trend_id": "uz-trend-009-eprescription-fraud",
+        "decree_id": "UZ-PP-2023-415",
+        "donor_program_id": "WB-UZ-HEALTH-P178562",
+        "pain_point": "Hand-written prescriptions are illegible. Patients arrive at pharmacy unsure of dose. PP-415 pushes e-prescriptions but rollout is uneven; transitional confusion creates demand for OCR helpers.",
+        "evidence": "https://kun.uz/ru/news/2024/06/12/zdorovie-uzbekistan"
+      },
+      "target_customer": "Tashkent and Samarkand patients 30-55, especially elderly and visually-impaired who need read-aloud",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 1,
+        "year_1_revenue_target_usd": 6000,
+        "year_3_revenue_target_usd": 50000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Train CRNN OCR on 200 sample handwritten prescriptions",
+          "Telegram bot intake + GPT-4o for clarification",
+          "Output: drug, dose, frequency in Russian + Uzbek",
+          "Free 5 prescriptions/mo, $1/mo unlimited",
+          "Soft-launch via spot.uz health + Tashkent senior Telegram"
+        ],
+        "build_time_days": 9,
+        "build_cost_usd": 100
+      },
+      "validation": {
+        "signal_target": "300 scans + 30 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "spot.uz health",
+          "Tashkent senior Telegram",
+          "TBC family Telegram"
+        ]
+      },
+      "tech_stack": [
+        "CRNN + GPT-4o",
+        "Telegram Bot",
+        "Click"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek-Latin",
+        "ML basics",
+        "medical-content review partner"
+      ],
+      "moat_potential": "Prescription dataset + medication intent compounds; partner with PharmacyShelfUZ.",
+      "risk_register": [
+        {
+          "risk": "Misreading liability",
+          "mitigation": "Always-show original photo + 'verify with pharmacist' disclaimer"
+        },
+        {
+          "risk": "OCR fragility on handwriting",
+          "mitigation": "Hybrid OCR + GPT vision"
+        },
+        {
+          "risk": "E-prescription replaces need",
+          "mitigation": "Position transitional; pivot to e-prescription explainer"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 7,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 6.45,
+        "scoring_rationale": "Real pain, transitional opportunity."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-045",
+      "country": "UZ",
+      "short_name": "DiabetesCoachUZ",
+      "tagline": "Subscription Telegram coach for diabetic patients with Russian/Uzbek meal plans, glucose tracking, and dietitian Q&A",
+      "category": "managed_service",
+      "sector": "Health",
+      "underlying_demand": {
+        "trend_id": "uz-trend-010-telemedicine-ai-triage",
+        "decree_id": "UZ-UP-2025-088",
+        "donor_program_id": "WB-UZ-HEALTH-P178562",
+        "pain_point": "Uzbekistan diabetes prevalence is rising (8%+ adults). Specialists are scarce; medication adherence is low. Patients need ongoing coaching; existing global apps lack Uzbek and Uzbek diet.",
+        "evidence": "https://kun.uz/ru/news/2024/06/12/zdorovie-uzbekistan"
+      },
+      "target_customer": "Newly-diagnosed type-2 diabetics 40-65 in Tashkent, Samarkand, Bukhara wanting affordable structured support",
+      "monetization": {
+        "model": "subscription",
+        "price_point_usd": 8,
+        "year_1_revenue_target_usd": 12000,
+        "year_3_revenue_target_usd": 90000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Partner with one Tashkent endocrinologist + dietitian ($400/mo retainer)",
+          "Telegram channel + 1:1 weekly Q&A in Russian/Uzbek",
+          "Meal plans + Uzbek-cuisine carb counts",
+          "$8/mo subscription via Click",
+          "Soft-launch via TBC SME health insurance partner"
+        ],
+        "build_time_days": 9,
+        "build_cost_usd": 200
+      },
+      "validation": {
+        "signal_target": "100 subscribers + 30 paying in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "TBC corporate-wellness Telegram",
+          "kun.uz health",
+          "Tashkent women's club"
+        ]
+      },
+      "tech_stack": [
+        "Telegram",
+        "Buttondown",
+        "Click",
+        "Notion (meal plan CMS)"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek-Latin",
+        "endocrinologist network",
+        "content production"
+      ],
+      "moat_potential": "Diabetic adherence + outcome data is gold; possible white-label to SMI Fund.",
+      "risk_register": [
+        {
+          "risk": "Medical liability",
+          "mitigation": "Educational positioning; doctor in the loop"
+        },
+        {
+          "risk": "Patient churn",
+          "mitigation": "Annual prepay + outcome celebration"
+        },
+        {
+          "risk": "Content fatigue",
+          "mitigation": "Cohort-style 12-week programs with graduations"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 7,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 6,
+        "local_market_fit": 8,
+        "weighted_total": 6.95,
+        "scoring_rationale": "Real demand, fulfillment-bottlenecked, recurring."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-046",
+      "country": "UZ",
+      "short_name": "FertilityTrackerUZ",
+      "tagline": "Privacy-first Telegram cycle tracker with Uzbek/Russian content for women's health in conservative regions",
+      "category": "free_tool",
+      "sector": "Health",
+      "underlying_demand": {
+        "trend_id": "uz-trend-008-ehealth-ai-diagnostics",
+        "decree_id": "UZ-UP-2025-088",
+        "donor_program_id": "UNDP-UZ-DIGITAL-PUBADMIN",
+        "pain_point": "Women's health apps (Flo, Clue) lack Uzbek and respect for Uzbek conservative norms. Women want private tracking, especially in religious households where US-led apps feel inappropriate.",
+        "evidence": "https://www.gazeta.uz/ru/list/health/"
+      },
+      "target_customer": "Women 18-45 in Tashkent, Andijan, Bukhara wanting Uzbek-language private cycle and pregnancy tracking",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 3,
+        "year_1_revenue_target_usd": 9000,
+        "year_3_revenue_target_usd": 70000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Build private Telegram bot with E2E option (libsodium)",
+          "Add Russian + Uzbek-Latin cycle log + 7-day prediction",
+          "$3/mo for fertility coaching layer",
+          "Click subscription",
+          "Soft-launch via Tashkent women Telegram and 'Mamamylar' parenting group"
+        ],
+        "build_time_days": 8,
+        "build_cost_usd": 100
+      },
+      "validation": {
+        "signal_target": "300 users + 30 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Tashkent women Telegram",
+          "Mamamylar Uzbek parenting",
+          "TBC family"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Supabase E2E",
+        "OpenAI for content"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek-Latin",
+        "respectful health content",
+        "privacy-first dev"
+      ],
+      "moat_potential": "Trust + content compounds; can extend to maternal-health subscription with UNICEF partner.",
+      "risk_register": [
+        {
+          "risk": "Cultural sensitivity",
+          "mitigation": "Female founder or co-founder; advisory board of women health pros"
+        },
+        {
+          "risk": "Privacy concerns",
+          "mitigation": "E2E + open-source encryption"
+        },
+        {
+          "risk": "Low pay rates",
+          "mitigation": "B2B integrate with maternal-care clinics"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 8,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 7,
+        "weighted_total": 6.75,
+        "scoring_rationale": "Niche, sensitive, requires female-led trust."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-047",
+      "country": "UZ",
+      "short_name": "PharmacyDirectoryUZ",
+      "tagline": "Searchable directory of 12,000+ Uzbek pharmacies with stock-availability search for hard-to-find drugs",
+      "category": "content",
+      "sector": "Health",
+      "underlying_demand": {
+        "trend_id": "uz-trend-009-eprescription-fraud",
+        "decree_id": "UZ-PP-2023-415",
+        "donor_program_id": null,
+        "pain_point": "Patients call 5-10 pharmacies hunting rare drugs. No central availability tool. Forum threads on spot.uz routinely ask 'who has X drug?'",
+        "evidence": "https://www.spot.uz/ru/category/biznes/health/"
+      },
+      "target_customer": "Tashkent patients 30-65 hunting rare meds, especially imported drugs and chronic-disease specialty meds",
+      "monetization": {
+        "model": "listing_fee",
+        "price_point_usd": 15,
+        "year_1_revenue_target_usd": 8000,
+        "year_3_revenue_target_usd": 70000
+      },
+      "mvr_plan": {
+        "vehicle": "directory",
+        "build_steps": [
+          "Compile 500 Tashkent pharmacies (Apteka Plus, Med Plus, etc.) with daily-stock submission",
+          "Carrd searchable directory + Telegram bot",
+          "Free for patients, $15/mo for pharmacies wanting featured + bulk listings",
+          "Soft-launch via spot.uz + pharmacy distributor Telegram"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 50
+      },
+      "validation": {
+        "signal_target": "3,000 visits + 5 paid pharmacies in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "spot.uz health",
+          "pharmacy distributor Telegram",
+          "Tashkent senior Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Notion CMS + Airtable",
+        "Telegram Bot"
+      ],
+      "founder_capability_required": [
+        "Russian",
+        "field outreach to pharmacies"
+      ],
+      "moat_potential": "Becomes the 'Yandex Maps of pharmacies'; sponsorship from PharmacyShelfUZ user base.",
+      "risk_register": [
+        {
+          "risk": "Stock data goes stale",
+          "mitigation": "Daily check-in mechanism; commission for accurate updates"
+        },
+        {
+          "risk": "Pharmacies don't pay",
+          "mitigation": "Lean on volume/free tier; B2B distributor sponsorship"
+        },
+        {
+          "risk": "Coverage gaps in oblasts",
+          "mitigation": "Regional rollout, prove model first in Tashkent"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 9,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 7.3,
+        "scoring_rationale": "Useful, speedy build, monetization slow but viable."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-048",
+      "country": "UZ",
+      "short_name": "OxygenPriceWatch",
+      "tagline": "Telegram alerts when oxygen, insulin, or chronic-care drug prices rise across Tashkent — for patients on long-term meds",
+      "category": "free_tool",
+      "sector": "Health",
+      "underlying_demand": {
+        "trend_id": "uz-trend-009-eprescription-fraud",
+        "decree_id": "UZ-PP-2024-311",
+        "donor_program_id": null,
+        "pain_point": "Drug prices fluctuate; patients on diabetes/asthma meds buy at peak. PP-311 will reimburse via SMI Fund but list price still matters for non-covered drugs.",
+        "evidence": "https://www.spot.uz/ru/category/biznes/health/"
+      },
+      "target_customer": "Chronic-disease patients 35-70 in Tashkent on insulin, asthma inhalers, hypertension meds",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 2,
+        "year_1_revenue_target_usd": 5000,
+        "year_3_revenue_target_usd": 40000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Scrape 5 major pharmacy chain price lists daily",
+          "Telegram bot intake: drugs to watch",
+          "Push price-drop alerts",
+          "$2/mo for unlimited drugs + SMS alerts",
+          "Soft-launch in spot.uz health + Tashkent senior Telegram"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 40
+      },
+      "validation": {
+        "signal_target": "200 users + 20 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "spot.uz health",
+          "Tashkent senior Telegram",
+          "TBC family"
+        ]
+      },
+      "tech_stack": [
+        "Python + scraping",
+        "Telegram Bot",
+        "Twilio SMS",
+        "Click"
+      ],
+      "founder_capability_required": [
+        "Russian",
+        "scraping",
+        "domain familiarity"
+      ],
+      "moat_potential": "Price-history dataset becomes a benchmark; possible licensing to SMI Fund.",
+      "risk_register": [
+        {
+          "risk": "Pharmacies block scrapers",
+          "mitigation": "Rotate user agents; partner with PharmacyShelfUZ"
+        },
+        {
+          "risk": "Low willingness to pay",
+          "mitigation": "Bundle with PharmacyDirectoryUZ"
+        },
+        {
+          "risk": "Government competitor",
+          "mitigation": "Lean on Telegram-native UX"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 8,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 8,
+        "weighted_total": 6.7,
+        "scoring_rationale": "Niche but useful, low cost build."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-049",
+      "country": "UZ",
+      "short_name": "EHRBackupHelper",
+      "tagline": "Wizard-of-Oz: helps small Tashkent clinics back up patient records before mandatory EHR migration in 2026",
+      "category": "managed_service",
+      "sector": "Health",
+      "underlying_demand": {
+        "trend_id": "uz-trend-008-ehealth-ai-diagnostics",
+        "decree_id": "UZ-PP-2023-415",
+        "donor_program_id": "WB-UZ-HEALTH-P178562",
+        "pain_point": "PP-415 mandates Electronic Healthcare integration; small clinics on legacy paper or Excel face migration risk. No private migration helpers exist.",
+        "evidence": "https://kun.uz/ru/news/2024/06/12/zdorovie-uzbekistan"
+      },
+      "target_customer": "Independent Tashkent clinics (5-20 staff) with paper records, especially specialty clinics (dental, OB-GYN) facing 2026 migration deadline",
+      "monetization": {
+        "model": "one_time",
+        "price_point_usd": 250,
+        "year_1_revenue_target_usd": 18000,
+        "year_3_revenue_target_usd": 150000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Build OCR + manual-correction pipeline",
+          "Carrd landing page targeting clinic owners",
+          "$250 per clinic for full migration of 1K records",
+          "Click + invoice payment",
+          "Soft-launch in TBC SME healthcare Telegram"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 100
+      },
+      "validation": {
+        "signal_target": "5 clinics paid migration in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "TBC SME health Telegram",
+          "ICT Week 2026 health track",
+          "Tashkent clinic owner WhatsApp"
+        ]
+      },
+      "tech_stack": [
+        "Tesseract OCR",
+        "Notion",
+        "Click",
+        "Excel/CSV"
+      ],
+      "founder_capability_required": [
+        "Russian",
+        "OCR engineering",
+        "B2B sales to clinics"
+      ],
+      "moat_potential": "Migration-tools library; possible spin-out as PharmacyShelfUZ-equivalent for clinics.",
+      "risk_register": [
+        {
+          "risk": "Clinic procrastination",
+          "mitigation": "Lean on regulatory urgency; offer payment plans"
+        },
+        {
+          "risk": "Privacy compliance",
+          "mitigation": "ЗРУ-547; signed BAA equivalents"
+        },
+        {
+          "risk": "Low margins",
+          "mitigation": "Premium tier with EHR integration ($600)"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 8,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 7,
+        "weighted_total": 7.2,
+        "scoring_rationale": "Time-bounded by decree, clear B2B path."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-050",
+      "country": "UZ",
+      "short_name": "ParentingExpertUZ",
+      "tagline": "Manifesto + paid course: research-backed Uzbek-language parenting content for first-time parents 25-35",
+      "category": "content",
+      "sector": "Health",
+      "underlying_demand": {
+        "trend_id": "uz-trend-010-telemedicine-ai-triage",
+        "decree_id": "UZ-UP-2025-088",
+        "donor_program_id": "UNICEF-UZ-EDTECH-LEARNING",
+        "pain_point": "First-time Uzbek parents 25-35 access conflicting WhatsApp advice + outdated polikliniki guidance. UNICEF supports early-childhood development. Existing Russian-language content (Komarovskiy) doesn't address Uzbek context.",
+        "evidence": "https://www.unicef.org/uzbekistan/"
+      },
+      "target_customer": "First-time Uzbek parents 25-35 in Tashkent, Samarkand, Andijan with smartphones and aspirational parenting culture",
+      "monetization": {
+        "model": "one_time",
+        "price_point_usd": 39,
+        "year_1_revenue_target_usd": 14000,
+        "year_3_revenue_target_usd": 100000
+      },
+      "mvr_plan": {
+        "vehicle": "manifesto",
+        "build_steps": [
+          "Write 3,000-word manifesto on 'Uzbek parenting in the digital age'",
+          "Cross-post on Buyuk Kelajak, gazeta.uz, kun.uz",
+          "$39 video course (10 modules) on Uzbek child development 0-3",
+          "Substack + Click",
+          "Soft-launch via Mamamylar Uzbek parenting Telegram"
+        ],
+        "build_time_days": 12,
+        "build_cost_usd": 150
+      },
+      "validation": {
+        "signal_target": "1,000 manifesto reads + 30 paid courses in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Mamamylar parenting Telegram",
+          "kun.uz",
+          "Tashkent women WhatsApp",
+          "UNICEF partner network"
+        ]
+      },
+      "tech_stack": [
+        "Substack",
+        "Loom",
+        "Click",
+        "Notion"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek-Latin",
+        "child-development expertise (or partner pediatrician)",
+        "long-form writing"
+      ],
+      "moat_potential": "Authority brand for Uzbek parenting; spin-out into a paid community + app.",
+      "risk_register": [
+        {
+          "risk": "Content credibility",
+          "mitigation": "Pediatrician advisory board; cite WHO + UNICEF"
+        },
+        {
+          "risk": "Refund disputes",
+          "mitigation": "30-day money-back"
+        },
+        {
+          "risk": "Low conversion",
+          "mitigation": "Cohort-based course with live Q&A"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 8,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 7.35,
+        "scoring_rationale": "Real audience need, brand-driven, scalable."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    }
+  ]
+}

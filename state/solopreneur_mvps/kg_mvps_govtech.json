@@ -1,0 +1,2021 @@
+{
+  "country": "KG",
+  "batch": "govtech",
+  "count": 25,
+  "mvps": [
+    {
+      "id": "kg-mvp-001",
+      "country": "KG",
+      "short_name": "TundukExplainer",
+      "tagline": "Free Telegram bot explaining Tunduk e-services in Russian + Kyrgyz with deep links to forms",
+      "category": "free_tool",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "kg-trend-002-tunduk-modernization",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "WB-KG-P160230",
+        "pain_point": "Tunduk hosts 200+ e-services but UX is poor — citizens spend 30-60 min hunting. Digital Code mandates broader citizen-portal use. Kaktus.media and 24.kg routinely cover citizen frustration.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Bishkek and Osh citizens 25-55 navigating Tunduk for first time — passport renewals, marriage certificates, business registration",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 2,
+        "year_1_revenue_target_usd": 12000,
+        "year_3_revenue_target_usd": 100000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Crawl Tunduk service catalog and tag 50 most-used services",
+          "Telegram bot intake in Russian + Kyrgyz",
+          "Top-50 walkthrough with deep links",
+          "Free, $2 voluntary tip via Optima/Mbank QR",
+          "Soft-launch via kaktus.media community + High Tech Park Telegram"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 50
+      },
+      "validation": {
+        "signal_target": "1,500 unique users + 20% repeat in 30 days",
+        "validation_window_days": 30,
+        "channels": [
+          "kaktus.media community",
+          "24.kg Telegram",
+          "High Tech Park Telegram",
+          "Bishkek parents Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot API",
+        "n8n",
+        "Supabase",
+        "OpenAI GPT-4o-mini",
+        "Optima QR / Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "Telegram bot setup",
+        "civic-tech outreach"
+      ],
+      "moat_potential": "Q&A logging produces a Kyrgyz-language service-intent dataset; possible OEM to UDP Digital Department or licensing for Tunduk official chatbot.",
+      "risk_register": [
+        {
+          "risk": "UDP launches official chatbot post-MinCifry abolition",
+          "mitigation": "Position as 'unofficial concierge' aggregating multiple portals"
+        },
+        {
+          "risk": "Tunduk URL changes after Infocom transfer",
+          "mitigation": "Sitemap-detection fallback"
+        },
+        {
+          "risk": "Low monetization",
+          "mitigation": "Donor-grant via WB Digital CASA"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 9,
+        "speed_to_mvr": 9,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 9,
+        "local_market_fit": 9,
+        "weighted_total": 8.25,
+        "scoring_rationale": "Digital Code drives demand; Japarov-concentration favors single point of entry."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-002",
+      "country": "KG",
+      "short_name": "FormFillerKG",
+      "tagline": "Wizard-of-Oz: send photo of Kyrgyz government form via Telegram, get it back filled and ready for Tunduk submission in 4h",
+      "category": "managed_service",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "kg-trend-002-tunduk-modernization",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Rural Kyrgyz citizens (Osh, Naryn, Issyk-Kul) struggle with Russian-language government forms. They pay neighborhood notaries 200-500 KGS per form. No online alternative exists.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Rural adults 35-65 in Osh, Naryn, Issyk-Kul applying for pensions, land cadastre, marriage certificates",
+      "monetization": {
+        "model": "services",
+        "price_point_usd": 3,
+        "year_1_revenue_target_usd": 18000,
+        "year_3_revenue_target_usd": 100000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Telegram bot intake: photo of form + voice description",
+          "Notion-based fulfillment, hire 1 part-time AUCA student at $250/mo",
+          "$3/form, $5/full submission",
+          "Optima/Mbank acquiring",
+          "Run $80 Instagram ad targeting Osh women 30-55"
+        ],
+        "build_time_days": 5,
+        "build_cost_usd": 200
+      },
+      "validation": {
+        "signal_target": "30 paid orders in 21 days at $3-5 ACV",
+        "validation_window_days": 30,
+        "channels": [
+          "Osh Telegram parent groups",
+          "Naryn community Telegram",
+          "Bishkek expat WhatsApp",
+          "kaktus.media"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Notion",
+        "Optima Bank acquiring",
+        "Google Drive for templates"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "manage 1-2 part-time fulfillment",
+        "Optima/Mbank acquiring setup"
+      ],
+      "moat_potential": "Library of 200+ pre-filled form templates becomes productized SaaS; brand recognition with rural customers; donor partner via WB Identity project.",
+      "risk_register": [
+        {
+          "risk": "Notary lobby pushback",
+          "mitigation": "Position as 'digital assistant' not legal service"
+        },
+        {
+          "risk": "Tunduk API closes off",
+          "mitigation": "Pivot to form-only + customer self-upload"
+        },
+        {
+          "risk": "Personal data handling",
+          "mitigation": "Auto-delete forms after 7 days"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 9,
+        "speed_to_mvr": 10,
+        "monetization_path": 8,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 10,
+        "weighted_total": 8.85,
+        "scoring_rationale": "Cash from day 1, 5-day build, rural decree-pushed demand."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-003",
+      "country": "KG",
+      "short_name": "TenderRadarKG",
+      "tagline": "Daily Telegram digest of new zakupki.gov.kg tenders relevant to your business sector",
+      "category": "saas",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "kg-trend-004-eprocurement-adb",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "ADB-KG-55109-001",
+        "pain_point": "Zakupki.gov.kg publishes 50+ tenders/day. KG SMEs lack alerts; ADB e-procurement project will add complexity. Most SMEs hear of tender 1-2 days before deadline.",
+        "evidence": "https://zakupki.gov.kg/"
+      },
+      "target_customer": "Bishkek and Osh IT consultancies, equipment suppliers (5-30 employees) with revenue $100K-1M/year",
+      "monetization": {
+        "model": "subscription",
+        "price_point_usd": 15,
+        "year_1_revenue_target_usd": 22000,
+        "year_3_revenue_target_usd": 150000
+      },
+      "mvr_plan": {
+        "vehicle": "landing_page",
+        "build_steps": [
+          "Scrape zakupki.gov.kg daily, classify with GPT-4o-mini",
+          "Carrd landing + email + sector picker",
+          "Daily Telegram + email digest",
+          "Mbank subscription billing 1300 KGS/mo ($15)",
+          "Soft-launch in High Tech Park Telegram + 24.kg business community"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 80
+      },
+      "validation": {
+        "signal_target": "150 free + 20 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "High Tech Park Telegram",
+          "24.kg business",
+          "Bishkek IT founders Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Python + BeautifulSoup",
+        "Supabase",
+        "OpenAI",
+        "Buttondown",
+        "Mbank billing"
+      ],
+      "founder_capability_required": [
+        "Python",
+        "Russian fluency",
+        "B2B sales"
+      ],
+      "moat_potential": "Tender + outcome data is monetizable to State Procurement Agency, white-label to Chamber of Commerce.",
+      "risk_register": [
+        {
+          "risk": "Zakupki blocks scraping",
+          "mitigation": "Partner with one Chamber of Commerce"
+        },
+        {
+          "risk": "State competitor",
+          "mitigation": "Lean on faster delivery + better UX"
+        },
+        {
+          "risk": "Misclassification",
+          "mitigation": "Human review for first 30 days"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 9,
+        "speed_to_mvr": 8,
+        "monetization_path": 8,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 9,
+        "weighted_total": 8.45,
+        "scoring_rationale": "Strong revenue path, ADB-aligned, defensible data moat."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-004",
+      "country": "KG",
+      "short_name": "AyilCommunityFeed",
+      "tagline": "Free Telegram channel + bot listing every public hearing and ayil okmotu meeting in your district",
+      "category": "free_tool",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "kg-trend-018-social-registry-ayil",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "EU-GIZ-KG-DECENTRALISATION",
+        "pain_point": "Ayil okmotu (rural municipality) meetings + hokimiyat receptions invisible to citizens. EU-GIZ supports local governance + decentralization. Existing notice boards underused.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Civic-active rural Kyrgyz residents 25-55 in Naryn, Issyk-Kul, Talas; secondary: ayil okmotu staff",
+      "monetization": {
+        "model": "donation",
+        "price_point_usd": 0,
+        "year_1_revenue_target_usd": 6000,
+        "year_3_revenue_target_usd": 40000
+      },
+      "mvr_plan": {
+        "vehicle": "demo_video",
+        "build_steps": [
+          "Map ayil okmotu in 3 oblasts via volunteer aksakals",
+          "Telegram channels per district",
+          "Notion-driven publishing pipeline",
+          "EU-GIZ grant pitch ($25K)",
+          "Soft-launch via kaktus.media + 24.kg community"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 50
+      },
+      "validation": {
+        "signal_target": "1,000 subscribers across 3 districts in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "kaktus.media community",
+          "24.kg",
+          "ayil okmotu WhatsApp via researcher contacts"
+        ]
+      },
+      "tech_stack": [
+        "Telegram",
+        "Notion",
+        "Buttondown"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "civic outreach",
+        "content cadence"
+      ],
+      "moat_potential": "Hyperlocal subscriber loyalty; donor-grant continuity.",
+      "risk_register": [
+        {
+          "risk": "Information drying up",
+          "mitigation": "Build network of 30+ aksakals"
+        },
+        {
+          "risk": "Low ad demand",
+          "mitigation": "Lean on EU-GIZ grant"
+        },
+        {
+          "risk": "Politically sensitive in some regions",
+          "mitigation": "Stay neutral; partner with established NGOs"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 9,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 8,
+        "weighted_total": 6.95,
+        "scoring_rationale": "Civic value, donor-grant viable, modest demand."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-005",
+      "country": "KG",
+      "short_name": "KyrgyzDecreeSummary",
+      "tagline": "Daily KG decree summary in EN + Kyrgyz + RU for foreign investors and diaspora",
+      "category": "free_tool",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "kg-trend-024-sovereign-llm-kyrgyz",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "cbd.minjust.gov.kg publishes decrees in Russian. Diaspora and foreign investors want EN + Kyrgyz summaries. Existing ECON+24.kg summaries are slow.",
+        "evidence": "https://cbd.minjust.gov.kg/"
+      },
+      "target_customer": "Foreign investors and consultants in Bishkek, Kyrgyz diaspora in Almaty/Moscow/Istanbul, vendor sales teams",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 39,
+        "year_1_revenue_target_usd": 22000,
+        "year_3_revenue_target_usd": 150000
+      },
+      "mvr_plan": {
+        "vehicle": "landing_page",
+        "build_steps": [
+          "Crawl cbd.minjust.gov.kg daily, GPT-4o multi-pass translation",
+          "Carrd landing + email signup, first 5 free",
+          "Daily digest in EN + Kyrgyz + RU summary",
+          "Stripe subscription $39/mo",
+          "Soft-launch via LinkedIn 'Kyrgyz Abroad' + economist.kg"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 70
+      },
+      "validation": {
+        "signal_target": "100 free + 12 paying subs in 45 days",
+        "validation_window_days": 45,
+        "channels": [
+          "LinkedIn 'Kyrgyz Abroad'",
+          "Bishkek expat WhatsApp",
+          "economist.kg",
+          "kaktus.media"
+        ]
+      },
+      "tech_stack": [
+        "Python",
+        "OpenAI GPT-4o",
+        "Carrd",
+        "Buttondown",
+        "Stripe Atlas"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz + English",
+        "decree-analysis basics",
+        "B2B email sales"
+      ],
+      "moat_potential": "First-mover Kyrgyz-decree feed; can OEM to global law firms.",
+      "risk_register": [
+        {
+          "risk": "Translation accuracy liability",
+          "mitigation": "AI-summary disclaimer + partner law firm"
+        },
+        {
+          "risk": "Diaspora niche too small",
+          "mitigation": "Expand to local SMEs"
+        },
+        {
+          "risk": "Government adds EN feed",
+          "mitigation": "Lean on multi-language + Kyrgyz tagging"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 9,
+        "monetization_path": 8,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 7,
+        "weighted_total": 7.7,
+        "scoring_rationale": "Premium diaspora audience, daily build feasible."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-006",
+      "country": "KG",
+      "short_name": "DocSignerKG",
+      "tagline": "Demo videos + Wizard-of-Oz: helps Kyrgyz citizens obtain electronic signature (ES) for Tunduk and tax filing",
+      "category": "managed_service",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "kg-trend-002-tunduk-modernization",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Digital Code mandates ES for many services. Setup spans 3 portals. Self-employed and SMEs lose hours. No private helpers exist yet.",
+        "evidence": "https://salyk.kg/"
+      },
+      "target_customer": "Bishkek SMEs + self-employed (designers, lawyers, IT freelancers); secondary: returning migrants needing ES for resettlement",
+      "monetization": {
+        "model": "services",
+        "price_point_usd": 12,
+        "year_1_revenue_target_usd": 14000,
+        "year_3_revenue_target_usd": 80000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Record Loom demo videos",
+          "Telegram bot intake",
+          "Founder + 1 student helps over Zoom for 30 min",
+          "1100 KGS ($12) per setup",
+          "Soft-launch in High Tech Park + 24.kg business"
+        ],
+        "build_time_days": 4,
+        "build_cost_usd": 50
+      },
+      "validation": {
+        "signal_target": "30 paid setups in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "High Tech Park Telegram",
+          "24.kg business",
+          "Bishkek freelancer Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Loom",
+        "WhatsApp/Telegram",
+        "Notion",
+        "Optima/Mbank acquiring"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "ES setup expertise",
+        "patient support"
+      ],
+      "moat_potential": "ES-setup library + trust; productize into self-serve.",
+      "risk_register": [
+        {
+          "risk": "ES flow changes",
+          "mitigation": "Quarterly re-record"
+        },
+        {
+          "risk": "Refund disputes",
+          "mitigation": "30-min money-back"
+        },
+        {
+          "risk": "Govt-side competitor",
+          "mitigation": "Lean on speed + bilingual"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 8,
+        "speed_to_mvr": 10,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 9,
+        "local_market_fit": 9,
+        "weighted_total": 8.4,
+        "scoring_rationale": "Decree-driven, fast cash, recurring."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-007",
+      "country": "KG",
+      "short_name": "PermitFinderKG",
+      "tagline": "Squeeze page: 3 questions and email back the exact list of permits you need to open a small business in Bishkek",
+      "category": "free_tool",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "kg-trend-002-tunduk-modernization",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "EBRD-KG-SME-DIGITAL",
+        "pain_point": "First-time entrepreneurs face 5-10 permits in KG. EBRD SME digital initiative supports this gap. Kaktus.media publishes annual guides.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Aspiring Bishkek and Osh small-business owners 22-40, especially women returning to workforce + migrants opening shops",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 9,
+        "year_1_revenue_target_usd": 10000,
+        "year_3_revenue_target_usd": 70000
+      },
+      "mvr_plan": {
+        "vehicle": "squeeze_page",
+        "build_steps": [
+          "Compile permit checklist from State Tax Service + SAII",
+          "Carrd squeeze page",
+          "Auto-email Russian + Kyrgyz PDF",
+          "$9 paid 30-min call upsell",
+          "$50 Instagram ad targeting Bishkek 25-40 'biznes ochuu'"
+        ],
+        "build_time_days": 5,
+        "build_cost_usd": 80
+      },
+      "validation": {
+        "signal_target": "100 conversions + 10 paid calls in 30 days",
+        "validation_window_days": 45,
+        "channels": [
+          "High Tech Park Telegram",
+          "kaktus.media business",
+          "Bishkek women business community",
+          "Instagram"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Mailerlite",
+        "Notion + Zapier",
+        "Optima/Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "permit research",
+        "email funnel"
+      ],
+      "moat_potential": "Email list + bank affiliate referrals.",
+      "risk_register": [
+        {
+          "risk": "Permit changes",
+          "mitigation": "Monthly review + law firm partner"
+        },
+        {
+          "risk": "Govt competitor via SAII",
+          "mitigation": "Lean on personalization"
+        },
+        {
+          "risk": "Low ad conversion",
+          "mitigation": "Pivot to organic Telegram"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 9,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 9,
+        "local_market_fit": 8,
+        "weighted_total": 7.5,
+        "scoring_rationale": "Squeeze page archetype, low cost."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-008",
+      "country": "KG",
+      "short_name": "KGProcurementCoach",
+      "tagline": "Manifesto + paid masterclass: 'How to win your first zakupki.gov.kg tender in 90 days'",
+      "category": "content",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "kg-trend-004-eprocurement-adb",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "ADB-KG-55109-001",
+        "pain_point": "First-time KG SME bidders fail at 80%+ rates. ADB e-procurement project + Digital Code creating procurement reform — newcomers unprepared.",
+        "evidence": "https://zakupki.gov.kg/"
+      },
+      "target_customer": "Bishkek and Osh IT, equipment, construction firms (5-20 employees) who never won state tenders",
+      "monetization": {
+        "model": "one_time",
+        "price_point_usd": 89,
+        "year_1_revenue_target_usd": 14000,
+        "year_3_revenue_target_usd": 90000
+      },
+      "mvr_plan": {
+        "vehicle": "manifesto",
+        "build_steps": [
+          "Write 3,500-word manifesto",
+          "Cross-post on LinkedIn + 24.kg + Habr",
+          "$89 video masterclass (4 modules)",
+          "Substack + Mbank billing",
+          "Soft-launch via High Tech Park + 24.kg business"
+        ],
+        "build_time_days": 10,
+        "build_cost_usd": 50
+      },
+      "validation": {
+        "signal_target": "200 reads + 20 paid courses in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "LinkedIn KG business",
+          "High Tech Park Telegram",
+          "24.kg business"
+        ]
+      },
+      "tech_stack": [
+        "Substack",
+        "Loom",
+        "Mbank + Stripe",
+        "Notion CMS"
+      ],
+      "founder_capability_required": [
+        "Russian",
+        "tender domain",
+        "long-form writing"
+      ],
+      "moat_potential": "Authority brand; cross-promo with TenderRadarKG.",
+      "risk_register": [
+        {
+          "risk": "Specialized topic, slow audience build",
+          "mitigation": "Cross-promo with TenderRadarKG"
+        },
+        {
+          "risk": "Refund risk",
+          "mitigation": "30-day money-back"
+        },
+        {
+          "risk": "Outdated content",
+          "mitigation": "Quarterly update commitment"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 8,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 8,
+        "weighted_total": 7.45,
+        "scoring_rationale": "Brand-authority + course bundle."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-009",
+      "country": "KG",
+      "short_name": "BishkekMonitor",
+      "tagline": "Anonymous Telegram channel + bot for Bishkek residents to flag broken streetlights, garbage, water issues",
+      "category": "free_tool",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "kg-trend-018-social-registry-ayil",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "UNDP-KG-DIGITAL-TRANSFORM",
+        "pain_point": "Bishkek Mayor's office runs 1108 hotline (phone). Citizens want anonymous + visual reporting. UNDP supports civic tech.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Bishkek apartment-block residents 25-55; secondary: Osh residents",
+      "monetization": {
+        "model": "donation",
+        "price_point_usd": 0,
+        "year_1_revenue_target_usd": 6000,
+        "year_3_revenue_target_usd": 40000
+      },
+      "mvr_plan": {
+        "vehicle": "demo_video",
+        "build_steps": [
+          "Telegram bot: photo + geo-tag + category",
+          "Auto-publish to district-level channel + Vercel dashboard",
+          "Pre-brief 1 progressive Bishkek city council member",
+          "UNDP grant pitch ($25K)",
+          "Soft-launch in kaktus.media community + 24.kg"
+        ],
+        "build_time_days": 8,
+        "build_cost_usd": 50
+      },
+      "validation": {
+        "signal_target": "300 reports + 1 mayor's-office reference in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "kaktus.media",
+          "24.kg",
+          "Bishkek district WhatsApp"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Supabase",
+        "Vercel + Next.js",
+        "Mapbox"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "civic tech network"
+      ],
+      "moat_potential": "Citizen issue dataset to mayor + UNDP; possible licensing.",
+      "risk_register": [
+        {
+          "risk": "Considered subversive",
+          "mitigation": "Pre-brief one council member; partner with UNDP"
+        },
+        {
+          "risk": "Trolling",
+          "mitigation": "Manual moderation"
+        },
+        {
+          "risk": "Privacy",
+          "mitigation": "Auto-blur faces"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 8,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 7.05,
+        "scoring_rationale": "Civic value, donor-grant viable."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-010",
+      "country": "KG",
+      "short_name": "OpenBudgetKG",
+      "tagline": "Free Telegram bot answering 'how much did my district receive?' from open data of Ministry of Finance KG",
+      "category": "free_tool",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "kg-trend-025-open-data-ai",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "WB-KG-OPEN-DATA-P160933",
+        "pain_point": "Ministry of Finance KG publishes budget Excel files. Plain-language access missing. WB Open Data project supports.",
+        "evidence": "https://www.minfin.kg/"
+      },
+      "target_customer": "Civic-active KG citizens 25-50; secondary: investigative journalists, ayil okmotu staff",
+      "monetization": {
+        "model": "donation",
+        "price_point_usd": 0,
+        "year_1_revenue_target_usd": 5000,
+        "year_3_revenue_target_usd": 35000
+      },
+      "mvr_plan": {
+        "vehicle": "squeeze_page",
+        "build_steps": [
+          "Aggregate Ministry of Finance + Treasury 2023-2025",
+          "Build pgvector retrieval + GPT-4o for Russian/Kyrgyz queries",
+          "Telegram bot",
+          "WB grant pitch ($20K)",
+          "Soft-launch via kaktus.media journalists + 24.kg"
+        ],
+        "build_time_days": 9,
+        "build_cost_usd": 40
+      },
+      "validation": {
+        "signal_target": "300 users + 1 journalist mention in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "kaktus.media community",
+          "24.kg",
+          "WB Open Data partners"
+        ]
+      },
+      "tech_stack": [
+        "Python + pgvector",
+        "Supabase",
+        "OpenAI",
+        "Telegram Bot"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "data wrangling",
+        "grant writing"
+      ],
+      "moat_potential": "Donor-grant continuity.",
+      "risk_register": [
+        {
+          "risk": "Data structure changes",
+          "mitigation": "Schema-detection + re-parse"
+        },
+        {
+          "risk": "Politically sensitive",
+          "mitigation": "Stay descriptive"
+        },
+        {
+          "risk": "Low traction",
+          "mitigation": "Donor partner co-marketing"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 8,
+        "monetization_path": 4,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 7,
+        "weighted_total": 6.3,
+        "scoring_rationale": "Donor-driven, modest commercial."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-011",
+      "country": "KG",
+      "short_name": "PassportSlotKG",
+      "tagline": "Telegram alert when a Bishkek passport-issuance appointment slot opens within 7 days at your nearest office",
+      "category": "ai_tool",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "kg-trend-002-tunduk-modernization",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Bishkek passport offices (GRS) have 3-5 week wait. Cancellations invisible. 24.kg readers request cancellation alerts.",
+        "evidence": "https://grs.gov.kg/"
+      },
+      "target_customer": "Bishkek and Osh professionals 25-45 needing urgent passport for work travel; returning migrants",
+      "monetization": {
+        "model": "one_time",
+        "price_point_usd": 4,
+        "year_1_revenue_target_usd": 9000,
+        "year_3_revenue_target_usd": 60000
+      },
+      "mvr_plan": {
+        "vehicle": "ad_booking",
+        "build_steps": [
+          "Reverse-engineer GRS booking page",
+          "Cron-poll every 5 min, push delta",
+          "Free 1 office, $4 multi-office",
+          "Mbank micro-payment",
+          "Soft-launch in kaktus.media + 24.kg"
+        ],
+        "build_time_days": 6,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "400 subs + 25 premium in 30 days",
+        "validation_window_days": 30,
+        "channels": [
+          "kaktus.media",
+          "24.kg",
+          "Bishkek commuter Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Python + Playwright",
+        "Supabase",
+        "Telegram Bot",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian",
+        "scraping"
+      ],
+      "moat_potential": "Network effect via referrals; extend to driver-license, marriage-registration.",
+      "risk_register": [
+        {
+          "risk": "Anti-bot",
+          "mitigation": "User-driven model"
+        },
+        {
+          "risk": "Govt bans third-party",
+          "mitigation": "Browser-extension model"
+        },
+        {
+          "risk": "Low monetization",
+          "mitigation": "Premium multi-office tier"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 8,
+        "speed_to_mvr": 9,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 8,
+        "weighted_total": 7.65,
+        "scoring_rationale": "Painful problem, fast build."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-012",
+      "country": "KG",
+      "short_name": "GovHotlineRouterKG",
+      "tagline": "Free tool: given your problem in Russian/Kyrgyz, tells you which of the 30+ KG hotlines to call",
+      "category": "free_tool",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "kg-trend-002-tunduk-modernization",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "KG has 30+ thematic hotlines (1108 mayor, 112 emergency, 1304 anti-corruption). Citizens don't know which. Kaktus.media publishes annual cheat sheets.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Adult KG citizens 25-65 facing service problems",
+      "monetization": {
+        "model": "donation",
+        "price_point_usd": 0,
+        "year_1_revenue_target_usd": 3000,
+        "year_3_revenue_target_usd": 25000
+      },
+      "mvr_plan": {
+        "vehicle": "squeeze_page",
+        "build_steps": [
+          "Compile master directory from gov.kg, kaktus.media, 24.kg",
+          "Carrd page + Telegram bot",
+          "Voluntary tip via Mbank QR",
+          "Soft-launch via kaktus.media + 24.kg"
+        ],
+        "build_time_days": 5,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "3,000 visits + 200 Telegram users in 30 days",
+        "validation_window_days": 30,
+        "channels": [
+          "kaktus.media",
+          "24.kg",
+          "Bishkek civic Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Telegram Bot",
+        "Notion data"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "civic tech network"
+      ],
+      "moat_potential": "De facto directory; sponsorship from partner SaaS.",
+      "risk_register": [
+        {
+          "risk": "Hotline changes",
+          "mitigation": "Crowdsourced corrections"
+        },
+        {
+          "risk": "Govt official directory",
+          "mitigation": "Lean on Telegram-native"
+        },
+        {
+          "risk": "No revenue",
+          "mitigation": "Donor-grant funding"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 10,
+        "monetization_path": 3,
+        "founder_solo_feasibility": 9,
+        "local_market_fit": 8,
+        "weighted_total": 6.6,
+        "scoring_rationale": "Civic, weak monetization."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-013",
+      "country": "KG",
+      "short_name": "KGGovDocVault",
+      "tagline": "Encrypted Telegram vault for Kyrgyz citizens to store digital copies of all government documents, with AI search",
+      "category": "ai_tool",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "kg-trend-002-tunduk-modernization",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Kyrgyz citizens lose documents when phones break. Tunduk doesn't aggregate. Banks demand fresh copies.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Bishkek and Osh professionals 30-50 with kids, property, small business",
+      "monetization": {
+        "model": "subscription",
+        "price_point_usd": 4,
+        "year_1_revenue_target_usd": 12000,
+        "year_3_revenue_target_usd": 90000
+      },
+      "mvr_plan": {
+        "vehicle": "landing_page",
+        "build_steps": [
+          "Telegram mini-app with E2E encryption",
+          "OCR for Cyrillic + Kyrgyz",
+          "AI search 'when does my passport expire?'",
+          "Carrd privacy-first messaging",
+          "Soft-launch via High Tech Park + Mbank family Telegram"
+        ],
+        "build_time_days": 10,
+        "build_cost_usd": 100
+      },
+      "validation": {
+        "signal_target": "200 free + 25 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "High Tech Park",
+          "Mbank family",
+          "kaktus.media"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Mini App",
+        "Supabase E2E",
+        "Tesseract OCR",
+        "OpenAI"
+      ],
+      "founder_capability_required": [
+        "Telegram mini-app dev",
+        "encryption",
+        "Russian + Kyrgyz"
+      ],
+      "moat_potential": "Document-vault network effect; partner integration with banks.",
+      "risk_register": [
+        {
+          "risk": "Privacy law compliance",
+          "mitigation": "E2E encryption; pre-clear with privacy lawyer"
+        },
+        {
+          "risk": "User mistrust",
+          "mitigation": "Open-source encryption layer"
+        },
+        {
+          "risk": "Telegram limits",
+          "mitigation": "Web fallback"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 7,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 7,
+        "weighted_total": 6.7,
+        "scoring_rationale": "Privacy build heavy, real demand."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-014",
+      "country": "KG",
+      "short_name": "OneStopComplaintKG",
+      "tagline": "Wizard-of-Oz: turns phone-photo complaint into properly-formatted petition to right Kyrgyz authority",
+      "category": "managed_service",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "kg-trend-018-social-registry-ayil",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "UNDP-KG-DIGITAL-TRANSFORM",
+        "pain_point": "Citizen complaints rejected for wrong format/authority. Legal-aid centers slow. Kaktus.media publishes 'how to write жалоба' annually.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Working-class KG adults 30-60 with grievances (broken elevator, refused refund, unpaid wages)",
+      "monetization": {
+        "model": "services",
+        "price_point_usd": 8,
+        "year_1_revenue_target_usd": 14000,
+        "year_3_revenue_target_usd": 80000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Telegram bot intake",
+          "Founder + 1 paralegal student fulfillment",
+          "$8 per complaint via Optima/Mbank",
+          "Soft-launch in kaktus.media + 24.kg",
+          "UNDP $25K grant pitch"
+        ],
+        "build_time_days": 6,
+        "build_cost_usd": 100
+      },
+      "validation": {
+        "signal_target": "20 paid complaints + 60% resolution in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "kaktus.media",
+          "24.kg",
+          "Bishkek civic Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Notion",
+        "Optima/Mbank",
+        "Russian + Kyrgyz templates"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "legal writing",
+        "fulfillment ops"
+      ],
+      "moat_potential": "Complaint-template library; productize.",
+      "risk_register": [
+        {
+          "risk": "Liability",
+          "mitigation": "Disclaimer + partner law firm"
+        },
+        {
+          "risk": "Notary lobby",
+          "mitigation": "Position as 'document-prep' service"
+        },
+        {
+          "risk": "Low margins",
+          "mitigation": "Premium tier with follow-up"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 8,
+        "speed_to_mvr": 9,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 9,
+        "weighted_total": 7.85,
+        "scoring_rationale": "Real pain, paying customers."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-015",
+      "country": "KG",
+      "short_name": "AskKGMinistry",
+      "tagline": "AI tool that drafts a perfectly-formatted Russian inquiry to any Kyrgyz ministry, ready to submit via virtual reception",
+      "category": "ai_tool",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "kg-trend-002-tunduk-modernization",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "President's virtual reception (president.kg) and ministry virtual receptions key channels but require formal jargon. Citizens write informally and get rejected.",
+        "evidence": "https://president.kg/"
+      },
+      "target_customer": "Educated Kyrgyz citizens 30-55 with grievances",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 3,
+        "year_1_revenue_target_usd": 9000,
+        "year_3_revenue_target_usd": 70000
+      },
+      "mvr_plan": {
+        "vehicle": "squeeze_page",
+        "build_steps": [
+          "Carrd page with input + ministry picker",
+          "GPT-4o generates formal Russian draft",
+          "Free 1/wk, $3 unlimited",
+          "Mbank micro-payment",
+          "Soft-launch in kaktus.media civic chat"
+        ],
+        "build_time_days": 5,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "200 drafts + 20 paid upgrades in 30 days",
+        "validation_window_days": 45,
+        "channels": [
+          "kaktus.media",
+          "24.kg",
+          "Bishkek civic Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "OpenAI",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian",
+        "prompt engineering"
+      ],
+      "moat_potential": "Prompt library by ministry; partner with one ombudsman.",
+      "risk_register": [
+        {
+          "risk": "AI weak",
+          "mitigation": "Disclaimer + paralegal review"
+        },
+        {
+          "risk": "Govt official tool",
+          "mitigation": "Lean on speed"
+        },
+        {
+          "risk": "Low pay",
+          "mitigation": "Bundle with OneStopComplaintKG"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 9,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 9,
+        "local_market_fit": 8,
+        "weighted_total": 7.55,
+        "scoring_rationale": "Real demand, fast build."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-016",
+      "country": "KG",
+      "short_name": "OneTouchPensionKG",
+      "tagline": "Wizard-of-Oz helping retired Kyrgyz check, transfer, and dispute pension entitlements via Pension Fund e-services",
+      "category": "managed_service",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "kg-trend-018-social-registry-ayil",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "WB-KG-IDENTITY-P155198",
+        "pain_point": "Pension Fund KG digital but elderly struggle. Adult children call. WB Identity project supports.",
+        "evidence": "https://socfond.kg/"
+      },
+      "target_customer": "Adult children 35-55 in Bishkek/Osh supporting parents 60-80 with pension matters",
+      "monetization": {
+        "model": "services",
+        "price_point_usd": 12,
+        "year_1_revenue_target_usd": 14000,
+        "year_3_revenue_target_usd": 90000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Compile top 10 pension tasks",
+          "Telegram bot + power-of-attorney template",
+          "Founder + 1 student handles 24h",
+          "$12 per task via Mbank",
+          "Soft-launch in 24.kg seniors + Mbank family Telegram"
+        ],
+        "build_time_days": 6,
+        "build_cost_usd": 80
+      },
+      "validation": {
+        "signal_target": "15 paid tasks in 30 days",
+        "validation_window_days": 45,
+        "channels": [
+          "24.kg seniors",
+          "Mbank family",
+          "Bishkek parent Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Notion",
+        "Mbank",
+        "Google Drive PoA templates"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "pension domain",
+        "patience"
+      ],
+      "moat_potential": "Productize into subscription; align with WB Identity project.",
+      "risk_register": [
+        {
+          "risk": "PoA legal complexity",
+          "mitigation": "Partner with one Bishkek notary"
+        },
+        {
+          "risk": "Low margins",
+          "mitigation": "Bundle with FormFiller KG"
+        },
+        {
+          "risk": "Fraud risk",
+          "mitigation": "Verified family-relation only"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 8,
+        "speed_to_mvr": 9,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 9,
+        "weighted_total": 7.95,
+        "scoring_rationale": "Real pain, paying customers, WB-aligned."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-017",
+      "country": "KG",
+      "short_name": "VotingDayKG",
+      "tagline": "Squeeze page + Telegram bot reminding citizens of upcoming local elections with candidate list and polling station map",
+      "category": "free_tool",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "kg-trend-005-jogorku-kenesh-ai",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "UNDP-KG-DIGITAL-TRANSFORM",
+        "pain_point": "Local council elections happen on staggered schedules. Citizens miss. UNDP supports civic engagement.",
+        "evidence": "https://shailoo.gov.kg/"
+      },
+      "target_customer": "Civic-active Kyrgyz residents 25-50 across regions wanting to vote informedly in local elections",
+      "monetization": {
+        "model": "donation",
+        "price_point_usd": 0,
+        "year_1_revenue_target_usd": 4000,
+        "year_3_revenue_target_usd": 25000
+      },
+      "mvr_plan": {
+        "vehicle": "squeeze_page",
+        "build_steps": [
+          "Aggregate polling-station data from CEC KG",
+          "Carrd page + Telegram bot",
+          "Add candidate list",
+          "UNDP grant pitch ($15K)",
+          "Soft-launch in kaktus.media community + 24.kg"
+        ],
+        "build_time_days": 6,
+        "build_cost_usd": 20
+      },
+      "validation": {
+        "signal_target": "1,000 reminder signups by next election cycle",
+        "validation_window_days": 60,
+        "channels": [
+          "kaktus.media",
+          "24.kg",
+          "Bishkek civic Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Telegram Bot",
+        "Notion data"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "civic tech"
+      ],
+      "moat_potential": "Civic-tech grant continuity.",
+      "risk_register": [
+        {
+          "risk": "Sensitive topic",
+          "mitigation": "Stay neutral; no endorsements"
+        },
+        {
+          "risk": "Low engagement",
+          "mitigation": "NGO partner distribution"
+        },
+        {
+          "risk": "Data limits",
+          "mitigation": "Published sources only"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 5,
+        "speed_to_mvr": 9,
+        "monetization_path": 4,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 7,
+        "weighted_total": 6.1,
+        "scoring_rationale": "Civic value, weak monetization."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-018",
+      "country": "KG",
+      "short_name": "PolicyDigestKG",
+      "tagline": "Manifesto-style weekly newsletter analyzing one new Kyrgyz decree per week — for diaspora investors and consultants",
+      "category": "content",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "kg-trend-024-sovereign-llm-kyrgyz",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Diaspora and foreign investors lack a curated lens on Kyrgyz decrees. Eurasianet and 24.kg are general. Specialized analysis missing.",
+        "evidence": "https://eurasianet.org/region/kyrgyzstan"
+      },
+      "target_customer": "Kyrgyz diaspora 30-55 in Almaty/Moscow/Istanbul/NYC, foreign consultants, EBRD/ADB officers",
+      "monetization": {
+        "model": "subscription",
+        "price_point_usd": 39,
+        "year_1_revenue_target_usd": 14000,
+        "year_3_revenue_target_usd": 130000
+      },
+      "mvr_plan": {
+        "vehicle": "manifesto",
+        "build_steps": [
+          "Write founder's-thesis: 'why one decree per week beats macro analysis'",
+          "Substack with paid tier $39/mo",
+          "Cross-post LinkedIn + Twitter X",
+          "Soft-launch via 'Kyrgyz Abroad' LinkedIn"
+        ],
+        "build_time_days": 4,
+        "build_cost_usd": 0
+      },
+      "validation": {
+        "signal_target": "300 free + 25 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "LinkedIn 'Kyrgyz Abroad'",
+          "Twitter X policy",
+          "Eurasianet readers"
+        ]
+      },
+      "tech_stack": [
+        "Substack",
+        "Notion",
+        "Stripe via Substack"
+      ],
+      "founder_capability_required": [
+        "Russian + English",
+        "decree analysis",
+        "investment-grade writing"
+      ],
+      "moat_potential": "Authority brand on KG policy.",
+      "risk_register": [
+        {
+          "risk": "Tone too critical, retaliation",
+          "mitigation": "Stay descriptive"
+        },
+        {
+          "risk": "Low conversion",
+          "mitigation": "Add 1:1 quarterly briefing call"
+        },
+        {
+          "risk": "Competition",
+          "mitigation": "Lean on speed + primary-source rigor"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 10,
+        "monetization_path": 8,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 7,
+        "weighted_total": 7.65,
+        "scoring_rationale": "Diaspora premium, low cost."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-019",
+      "country": "KG",
+      "short_name": "GovHireKG",
+      "tagline": "Job board listing all civil-service open positions across Kyrgyz ministries — first dedicated GovTech career site",
+      "category": "content",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "kg-trend-001-udp-digital-dept-tos",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Civil service openings scattered. UDP Digital Department + Tunduk-Infocom transfer create new IT roles. High Tech Park developers want roles but can't find.",
+        "evidence": "https://htp.kg/"
+      },
+      "target_customer": "Junior-mid IT 24-35 in Bishkek wanting stability + impact in civil service or donor PIUs",
+      "monetization": {
+        "model": "listing_fee",
+        "price_point_usd": 60,
+        "year_1_revenue_target_usd": 8000,
+        "year_3_revenue_target_usd": 60000
+      },
+      "mvr_plan": {
+        "vehicle": "directory",
+        "build_steps": [
+          "Scrape ministry sites + UDP + state agencies",
+          "Carrd directory + Telegram alert bot",
+          "Free for individuals, $60/post for ministries",
+          "Soft-launch in High Tech Park + 24.kg HR",
+          "Pitch UDP Digital Dept for sponsored boost"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 50
+      },
+      "validation": {
+        "signal_target": "1,000 monthly visits + 1 paid posting in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "High Tech Park Telegram",
+          "24.kg HR",
+          "Bishkek IT founders Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Python scraper",
+        "Supabase",
+        "Telegram Bot"
+      ],
+      "founder_capability_required": [
+        "Russian",
+        "scraping",
+        "B2G sales"
+      ],
+      "moat_potential": "First-mover GovTech career brand; donor sponsorship.",
+      "risk_register": [
+        {
+          "risk": "Govt site changes",
+          "mitigation": "Multi-source"
+        },
+        {
+          "risk": "Ministries don't pay",
+          "mitigation": "Charge donor PIUs + consultancies"
+        },
+        {
+          "risk": "Low inventory",
+          "mitigation": "Aggregate UNDP, WB jobs"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 8,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 7,
+        "weighted_total": 6.9,
+        "scoring_rationale": "Niche, donor-sponsorship driven."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-020",
+      "country": "KG",
+      "short_name": "ParliamentTrackerKG",
+      "tagline": "Free Telegram bot tracking Jogorku Kenesh bills in committee, with citizen-comment timing alerts",
+      "category": "free_tool",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "kg-trend-005-jogorku-kenesh-ai",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Jogorku Kenesh has AI-powered legislative monitoring but citizen-side access poor. Civil society organizations + journalists want tracking.",
+        "evidence": "https://kenesh.kg/"
+      },
+      "target_customer": "Bishkek civil society staff 25-50, investigative journalists, business lobbyists",
+      "monetization": {
+        "model": "donation",
+        "price_point_usd": 0,
+        "year_1_revenue_target_usd": 5000,
+        "year_3_revenue_target_usd": 35000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Scrape Jogorku Kenesh committee schedule + bill text",
+          "Telegram bot intake: keyword filter",
+          "Push alerts on bill movement",
+          "OSF KG grant pitch ($20K)",
+          "Soft-launch in kaktus.media + 24.kg journalists"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "200 users + 1 NGO grant in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "kaktus.media",
+          "24.kg",
+          "OSF KG partner network"
+        ]
+      },
+      "tech_stack": [
+        "Python scraper",
+        "Telegram Bot",
+        "Notion"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "scraping",
+        "civic tech"
+      ],
+      "moat_potential": "Donor-grant continuity; possible OEM to Jogorku Kenesh.",
+      "risk_register": [
+        {
+          "risk": "Politically sensitive",
+          "mitigation": "Stay descriptive"
+        },
+        {
+          "risk": "Low traction",
+          "mitigation": "NGO partner co-marketing"
+        },
+        {
+          "risk": "Data structure changes",
+          "mitigation": "Multi-source"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 5,
+        "speed_to_mvr": 8,
+        "monetization_path": 4,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 7,
+        "weighted_total": 6.0,
+        "scoring_rationale": "Civic value, donor-driven."
+      },
+      "confidence_tier": "C",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-021",
+      "country": "KG",
+      "short_name": "DigitalCodeAssistant",
+      "tagline": "Wizard-of-Oz: helps Kyrgyz businesses comply with Digital Code Chapter 23 AI provisions in 30 days",
+      "category": "managed_service",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "kg-trend-003-digital-code-secondary-regs",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "EBRD-KG-SME-DIGITAL",
+        "pain_point": "Digital Code Chapter 23 creates AI compliance obligations. Secondary regulations under drafting. SMEs lack guidance. EBRD SME digital initiative supports.",
+        "evidence": "https://cbd.minjust.gov.kg/"
+      },
+      "target_customer": "Bishkek + Osh SMEs 5-100 employees deploying AI features (chatbots, recommender)",
+      "monetization": {
+        "model": "services",
+        "price_point_usd": 250,
+        "year_1_revenue_target_usd": 18000,
+        "year_3_revenue_target_usd": 130000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Compile Digital Code Chapter 23 checklist with partner law firm",
+          "Carrd page with intake + diagnostic",
+          "$250 30-day compliance plan",
+          "EBRD partnership pitch",
+          "Soft-launch in High Tech Park + 24.kg business"
+        ],
+        "build_time_days": 8,
+        "build_cost_usd": 80
+      },
+      "validation": {
+        "signal_target": "5 paid plans in 60 days",
+        "validation_window_days": 90,
+        "channels": [
+          "High Tech Park",
+          "24.kg business",
+          "EBRD partner network"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Notion",
+        "Optima/Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian + English",
+        "AI law domain",
+        "law firm partner"
+      ],
+      "moat_potential": "Compliance-as-a-service brand; OEM to law firms.",
+      "risk_register": [
+        {
+          "risk": "Regulatory clarity",
+          "mitigation": "Wait for secondary regs"
+        },
+        {
+          "risk": "Liability",
+          "mitigation": "Advisory disclaimer + partner law firm"
+        },
+        {
+          "risk": "Slow adoption",
+          "mitigation": "Free assessment to drive plan sales"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 8,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 6,
+        "local_market_fit": 7,
+        "weighted_total": 6.65,
+        "scoring_rationale": "Niche, premium price."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-022",
+      "country": "KG",
+      "short_name": "CitizenServiceUZK",
+      "tagline": "TikTok-native series: 60-second explainers of every Kyrgyz government service, from kindergarten enrollment to inheritance",
+      "category": "content",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "kg-trend-002-tunduk-modernization",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Kyrgyz Gen Z (18-30) consume TikTok over text. No bilingual TikTok creator covers public services.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Kyrgyz Gen Z (18-30) urban + small-city encountering bureaucracy first time",
+      "monetization": {
+        "model": "ad",
+        "price_point_usd": 0,
+        "year_1_revenue_target_usd": 6000,
+        "year_3_revenue_target_usd": 50000
+      },
+      "mvr_plan": {
+        "vehicle": "demo_video",
+        "build_steps": [
+          "Record 30 60-second explainers in 2 weeks",
+          "Post 1/day TikTok + Instagram + YouTube",
+          "Monetize via TikTok Creator Fund + brand deals (Mbank, Optima, KICB)",
+          "Affiliate links to bank account opening",
+          "Cross-promo with 3 KG creators"
+        ],
+        "build_time_days": 14,
+        "build_cost_usd": 100
+      },
+      "validation": {
+        "signal_target": "8K TikTok followers + 1 brand deal in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "TikTok KG",
+          "Instagram Reels KG",
+          "kaktus.media cross-promo"
+        ]
+      },
+      "tech_stack": [
+        "TikTok",
+        "Instagram",
+        "CapCut",
+        "Notion"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz on-camera",
+        "TikTok algo",
+        "video editing"
+      ],
+      "moat_potential": "Audience + brand becomes launchpad.",
+      "risk_register": [
+        {
+          "risk": "Algo shift",
+          "mitigation": "Multi-platform"
+        },
+        {
+          "risk": "Time-intensive",
+          "mitigation": "Batch 30 videos per session"
+        },
+        {
+          "risk": "Low ad revenue",
+          "mitigation": "Direct sponsor deals"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 8,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 6.8,
+        "scoring_rationale": "Brand play, slower monetization."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-023",
+      "country": "KG",
+      "short_name": "GosUslugiKG",
+      "tagline": "Carrd directory of top 30 KG citizen e-services with one-click direct deep links to Tunduk",
+      "category": "content",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "kg-trend-002-tunduk-modernization",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Tunduk has citizen-centric layout but specific services buried. No bookmarkable directory.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Bishkek and Osh citizens 25-55 using Tunduk monthly",
+      "monetization": {
+        "model": "ad",
+        "price_point_usd": 30,
+        "year_1_revenue_target_usd": 5000,
+        "year_3_revenue_target_usd": 40000
+      },
+      "mvr_plan": {
+        "vehicle": "directory",
+        "build_steps": [
+          "Manually map 30 highest-value services on Tunduk",
+          "Carrd directory + deep links + Russian/Kyrgyz",
+          "Sponsored slots for fintech apps at $30/mo",
+          "SEO with kaktus.media business keywords",
+          "Cross-post in Mbank family Telegram"
+        ],
+        "build_time_days": 4,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "1,500 visits + 1 sponsor in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Mbank family Telegram",
+          "kaktus.media",
+          "High Tech Park"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Notion CMS",
+        "Plausible"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "basic SEO"
+      ],
+      "moat_potential": "Sponsorship + affiliate compounds.",
+      "risk_register": [
+        {
+          "risk": "Tunduk URL changes",
+          "mitigation": "Weekly monitor"
+        },
+        {
+          "risk": "Low ad demand",
+          "mitigation": "Affiliate model with banks"
+        },
+        {
+          "risk": "Out-competed",
+          "mitigation": "Partner with banks"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 10,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 9,
+        "local_market_fit": 8,
+        "weighted_total": 7.0,
+        "scoring_rationale": "Cheap, fast, modest."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-024",
+      "country": "KG",
+      "short_name": "BiometricCheckKG",
+      "tagline": "Demo video + Wizard-of-Oz service helping citizens verify their KG biometric ID is correctly registered before international travel",
+      "category": "managed_service",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "kg-trend-002-tunduk-modernization",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "WB-KG-IDENTITY-P155198",
+        "pain_point": "KG biometric ID has known data-entry errors. Citizens find out at airport. WB Identity project supports modernization.",
+        "evidence": "https://grs.gov.kg/"
+      },
+      "target_customer": "Bishkek professionals planning international travel within 60 days; returning migrants",
+      "monetization": {
+        "model": "services",
+        "price_point_usd": 6,
+        "year_1_revenue_target_usd": 8000,
+        "year_3_revenue_target_usd": 50000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Record demo video",
+          "Telegram bot intake",
+          "Founder reviews 2h",
+          "$6 per check via Mbank",
+          "Soft-launch in Bishkek travel agencies + 24.kg"
+        ],
+        "build_time_days": 4,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "20 paid checks in 21 days",
+        "validation_window_days": 30,
+        "channels": [
+          "Bishkek travel agencies",
+          "24.kg business",
+          "Mbank family"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Notion",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "biometric ID familiarity"
+      ],
+      "moat_potential": "Productize into self-serve.",
+      "risk_register": [
+        {
+          "risk": "Govt API tightens",
+          "mitigation": "Customer-driven model"
+        },
+        {
+          "risk": "Volume seasonal",
+          "mitigation": "Bundle with PassportSlotKG"
+        },
+        {
+          "risk": "Refund disputes",
+          "mitigation": "Refund if no error"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 10,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 9,
+        "local_market_fit": 8,
+        "weighted_total": 7.55,
+        "scoring_rationale": "Niche but real cash."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-025",
+      "country": "KG",
+      "short_name": "AyilDigitalKG",
+      "tagline": "Subscription Telegram newsletter: monthly civic-tech case studies for ayil okmotu staff and rural Kyrgyz local govt",
+      "category": "content",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "kg-trend-018-social-registry-ayil",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "EU-GIZ-KG-DECENTRALISATION",
+        "pain_point": "Ayil okmotu staff lack peer-to-peer sharing. EU-GIZ decentralization program supports. Rural-staff Telegram groups exist but uncurated.",
+        "evidence": "https://www.giz.de/en/worldwide/30404.html"
+      },
+      "target_customer": "Ayil okmotu staff + heads 30-55 in Naryn, Issyk-Kul, Talas, Jalal-Abad",
+      "monetization": {
+        "model": "subscription",
+        "price_point_usd": 4,
+        "year_1_revenue_target_usd": 5000,
+        "year_3_revenue_target_usd": 40000
+      },
+      "mvr_plan": {
+        "vehicle": "manifesto",
+        "build_steps": [
+          "Curate 12 monthly case studies",
+          "Telegram channel + Buttondown",
+          "$4/mo (or institutional via ayil okmotu)",
+          "EU-GIZ grant pitch ($25K)",
+          "Soft-launch via UNDP + EU-GIZ partner network"
+        ],
+        "build_time_days": 8,
+        "build_cost_usd": 50
+      },
+      "validation": {
+        "signal_target": "300 free + 30 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "UNDP partner network",
+          "ayil okmotu Telegram",
+          "kaktus.media community"
+        ]
+      },
+      "tech_stack": [
+        "Telegram",
+        "Buttondown",
+        "Mbank",
+        "Notion CMS"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "civic-tech research",
+        "content cadence"
+      ],
+      "moat_potential": "Donor-grant; possible white-label to Ministry of Digital Development.",
+      "risk_register": [
+        {
+          "risk": "Niche",
+          "mitigation": "Bundle with AyilCommunityFeed"
+        },
+        {
+          "risk": "Slow audience",
+          "mitigation": "Donor partner co-marketing"
+        },
+        {
+          "risk": "Content fatigue",
+          "mitigation": "Cohort-based"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 5,
+        "speed_to_mvr": 8,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 7,
+        "weighted_total": 6.1,
+        "scoring_rationale": "Donor-driven, slow."
+      },
+      "confidence_tier": "C",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    }
+  ]
+}

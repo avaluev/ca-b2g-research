@@ -1,0 +1,2040 @@
+{
+  "country": "UZ",
+  "batch": "govtech",
+  "count": 25,
+  "mvps": [
+    {
+      "id": "uz-mvp-001",
+      "country": "UZ",
+      "short_name": "EPIGU Companion",
+      "tagline": "Telegram bot that explains 1000+ EPIGU services in plain Uzbek and Russian; routes users to the right form on epigu.uz",
+      "category": "free_tool",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "uz-trend-001-epigu-ai-chatbot",
+        "decree_id": "UZ-PP-2025-286",
+        "donor_program_id": null,
+        "pain_point": "EPIGU.uz hosts 1000+ services but the menu structure is opaque. Citizens spend 30-60 minutes hunting for the right service or call the agency directly. Mahalla-level rollout (PP-286) is forcing rural users into the portal who have never used it. Local Telegram groups (e.g. spot.uz news threads) routinely get 10-30 questions a day on which form to use for marriage certificates, driver-license renewal, child allowance applications. The state chatbot pilot is delayed.",
+        "evidence": "https://www.spot.uz/ru/2025/10/22/epigu/"
+      },
+      "target_customer": "Tashkent and Andijan working-class adults 25-50 navigating EPIGU for the first time, especially women applying for child allowance and rural users now mandated by mahalla decree to use the portal",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 2,
+        "year_1_revenue_target_usd": 18000,
+        "year_3_revenue_target_usd": 180000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Crawl epigu.uz public service catalog and tag each service with 5-10 Uzbek/Russian intent phrases",
+          "Build Telegram bot in n8n + Supabase using OpenAI GPT-4o-mini as the routing brain",
+          "Seed 50 most-asked services with hand-written walkthroughs in Russian and Uzbek (Latin)",
+          "Add 'submit a question' button — log unanswered queries to Airtable for daily improvement",
+          "Cross-post bot link in 5 Tashkent and 3 Fergana Telegram parent/community groups",
+          "Add Click/Payme micro-tip jar (50,000 UZS = $4 voluntary tip)"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 60
+      },
+      "validation": {
+        "signal_target": "1,500 unique bot users in 30 days, 20% repeat usage week 2",
+        "validation_window_days": 30,
+        "channels": [
+          "spot.uz Telegram chat",
+          "@toshkent_oilalari Tashkent parents Telegram group",
+          "IT Park UZ Telegram",
+          "Mahalla WhatsApp groups via researcher contacts",
+          "kun.uz Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot API",
+        "n8n",
+        "Supabase Postgres",
+        "OpenAI GPT-4o-mini",
+        "Click micro-payments"
+      ],
+      "founder_capability_required": [
+        "Uzbek + Russian fluency",
+        "basic prompt engineering",
+        "Telegram bot setup",
+        "Airtable / Supabase admin"
+      ],
+      "moat_potential": "Continuous Q&A logging produces a proprietary Uzbek-language service-intent dataset; first 100K logs can be sold to UZINFOCOM as fine-tune data when official EPIGU chatbot procurement publishes (window: 2026-2027 per UP-189).",
+      "risk_register": [
+        {
+          "risk": "Government launches official chatbot and outcompetes free alternative",
+          "mitigation": "Position as 'unofficial concierge' that aggregates EPIGU + 5 sector portals (justice, tax, customs); maintain Telegram-native UX state app cannot match"
+        },
+        {
+          "risk": "EPIGU URL structure changes break crawler",
+          "mitigation": "Build crawler with sitemap-detection fallback; weekly diff alerts"
+        },
+        {
+          "risk": "OpenAI API blocked or expensive at scale",
+          "mitigation": "Migrate routing to local Yandex GPT or Llama-3 8B on Vast.ai; cache common queries at 80%+ rate"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 9,
+        "speed_to_mvr": 9,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 9,
+        "local_market_fit": 9,
+        "weighted_total": 8.25,
+        "scoring_rationale": "Demand verified by mahalla decree + EPIGU traffic; 7-day build; freemium tipping limited but data-moat to enterprise sale is real."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-002",
+      "country": "UZ",
+      "short_name": "FormFiller UZ",
+      "tagline": "Wizard-of-Oz service: send a photo of a Russian/Uzbek government form, get it back filled and ready for EPIGU upload in 4 hours",
+      "category": "managed_service",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "uz-trend-001-epigu-ai-chatbot",
+        "decree_id": "UZ-PP-2025-286",
+        "donor_program_id": null,
+        "pain_point": "Mahalla-level digitization (PP-286) is forcing 7M+ rural Uzbeks into EPIGU forms, but most cannot fill PDF forms in Russian-language administrative jargon. Currently they pay neighborhood notaries 50-100K UZS ($4-8) to retype data. There is no online equivalent.",
+        "evidence": "https://kun.uz/ru/news/2025/09/15/elektronnoe-pravitelstvo-mahalla"
+      },
+      "target_customer": "Rural Fergana Valley adults aged 35-65 with smartphones but limited form-filling literacy, applying for pensions, land registration, and child allowances; secondary persona: Tashkent migrant workers returning from Russia who lost paper documents",
+      "monetization": {
+        "model": "services",
+        "price_point_usd": 3,
+        "year_1_revenue_target_usd": 24000,
+        "year_3_revenue_target_usd": 150000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Build Telegram bot intake: photo of form + photo of passport + voice description of need",
+          "Set up Notion-based fulfillment dashboard, hire 1 part-time university student in Tashkent at $300/mo",
+          "Stripe-style price card: 30,000 UZS for form-fill, 60,000 UZS for full submission to EPIGU",
+          "Accept Click and Payme via Octobank acquiring",
+          "Run $80 Instagram ad targeting Andijan/Namangan women 30-55 'oilamning hujjatlari'"
+        ],
+        "build_time_days": 5,
+        "build_cost_usd": 200
+      },
+      "validation": {
+        "signal_target": "30 paid orders in 21 days at $3-5 ACV; CAC < $1 via Telegram word-of-mouth",
+        "validation_window_days": 30,
+        "channels": [
+          "Andijan Telegram parent groups",
+          "Instagram Andijan women community",
+          "Mahalla WhatsApp networks via researcher contacts",
+          "spot.uz reader Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot API",
+        "Notion",
+        "Click acquiring (octobank.uz)",
+        "Google Drive for form library"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek-Latin",
+        "manage 1-2 part-time fulfillment ops",
+        "Click/Payme acquiring setup"
+      ],
+      "moat_potential": "Library of 200+ pre-filled form templates becomes a productized SaaS in year 2; brand recognition with mahalla-level customers becomes referral moat.",
+      "risk_register": [
+        {
+          "risk": "Notary lobby pushback or local police harassment",
+          "mitigation": "Position as 'digital assistant' not legal service; partner with one mahalla aksakal as advisor"
+        },
+        {
+          "risk": "EPIGU API closes off third-party submission",
+          "mitigation": "Pivot to form-filling-only and customer self-uploads"
+        },
+        {
+          "risk": "Personal data handling under ЗРУ-547",
+          "mitigation": "Auto-delete forms 7 days after delivery; publish privacy policy in Russian"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 9,
+        "speed_to_mvr": 10,
+        "monetization_path": 8,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 10,
+        "weighted_total": 8.85,
+        "scoring_rationale": "Cash-paying customers from day 1; 5-day Wizard-of-Oz build; mahalla decree creates urgency; price aligned with notary substitute."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-003",
+      "country": "UZ",
+      "short_name": "MyID Onboarding Coach",
+      "tagline": "5-minute video walkthrough of MyID Mobile-ID activation, with WhatsApp support, for non-technical Uzbek adults",
+      "category": "demo_video",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "uz-trend-004-digital-id-mobile-myid",
+        "decree_id": "UZ-PP-2025-286",
+        "donor_program_id": null,
+        "pain_point": "MyID Mobile ID is rolling out as the universal authentication for EPIGU + bank apps + courts. Activation requires 8 steps including biometric capture and SMS verification. Adoption is uneven outside Tashkent — Telegram help threads see 50+ daily 'MyID не работает' posts. Banks force MyID for new accounts, creating cliff demand.",
+        "evidence": "https://www.spot.uz/ru/2024/12/05/myid/"
+      },
+      "target_customer": "Non-tech-savvy Uzbeks 40-65 forced to onboard MyID for new bank accounts, especially returning migrant workers and rural residents whose SMS gateways struggle",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 0,
+        "year_1_revenue_target_usd": 12000,
+        "year_3_revenue_target_usd": 80000
+      },
+      "mvr_plan": {
+        "vehicle": "demo_video",
+        "build_steps": [
+          "Record 90-second YouTube/TikTok activation walkthrough (Russian + Uzbek voiceover)",
+          "Set up WhatsApp Business funnel: viewers DM for 1:1 help",
+          "Charge 25,000 UZS ($2) for guided activation via screen-share over WhatsApp",
+          "Cross-post in spot.uz Telegram comments and IT Park UZ Telegram",
+          "Add affiliate link to TBC Bank or Anorbank account opening (referral fee $5-10/lead)"
+        ],
+        "build_time_days": 4,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "10,000 video views in 30 days, 2% conversion to WhatsApp guided session",
+        "validation_window_days": 45,
+        "channels": [
+          "TikTok Uzbekistan organic",
+          "YouTube Shorts",
+          "spot.uz Telegram comments",
+          "kun.uz Telegram",
+          "Anorbank referral program"
+        ]
+      },
+      "tech_stack": [
+        "YouTube + TikTok",
+        "WhatsApp Business",
+        "Notion CRM",
+        "Stripe Atlas + Click for tipping"
+      ],
+      "founder_capability_required": [
+        "video editing (CapCut)",
+        "Uzbek + Russian voiceover",
+        "WhatsApp customer support"
+      ],
+      "moat_potential": "Viewer email list + behavioral profiles become a remarketing audience for the next bank product launch (Octobank, TBC, Hayot). Affiliate revenue compounds.",
+      "risk_register": [
+        {
+          "risk": "MyID flow changes invalidate video",
+          "mitigation": "Keep edit source files, publish update within 48h of any change"
+        },
+        {
+          "risk": "Affiliate links banned by banks",
+          "mitigation": "Direct user to closest branch with referral code; switch to TBC if Anorbank pulls"
+        },
+        {
+          "risk": "Platform demonetization",
+          "mitigation": "Build owned email list from day 1"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 9,
+        "speed_to_mvr": 10,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 9,
+        "local_market_fit": 9,
+        "weighted_total": 8.25,
+        "scoring_rationale": "Trivial build; high-traffic problem; affiliate is the real revenue driver."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-004",
+      "country": "UZ",
+      "short_name": "TenderRadar UZ",
+      "tagline": "Daily Telegram digest of new xt-xarid.uz tenders relevant to your business sector — first daily AI procurement filter for SMEs",
+      "category": "saas",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "uz-trend-003-ai-procurement-system",
+        "decree_id": "UZ-UP-2025-189",
+        "donor_program_id": null,
+        "pain_point": "xt-xarid.uz publishes 200+ tenders per day. SMEs have no time to filter, no English/local-language alerts. UP-189 mandates AI procurement starting Jan 1 2026 — a flood of new IT tenders is incoming. Most SMEs hear about a tender 2 days before deadline.",
+        "evidence": "https://xt-xarid.uz/"
+      },
+      "target_customer": "Tashkent and Samarkand IT consultancies and equipment suppliers (5-50 employees) with revenue $200K-2M/year who currently win 1-3 government tenders/year and want to double",
+      "monetization": {
+        "model": "subscription",
+        "price_point_usd": 19,
+        "year_1_revenue_target_usd": 28000,
+        "year_3_revenue_target_usd": 200000
+      },
+      "mvr_plan": {
+        "vehicle": "landing_page",
+        "build_steps": [
+          "Scrape xt-xarid.uz daily, classify tenders by GPT-4o-mini into 12 sector tags",
+          "Carrd landing page with email + sector picker + first-week-free CTA",
+          "Daily Telegram + email digest using Buttondown",
+          "Click/Stripe subscription billing at 240,000 UZS/month ($19)",
+          "Soft-launch in IT Park UZ Telegram and uzcloud.uz partner Slack"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 80
+      },
+      "validation": {
+        "signal_target": "200 free signups in 30 days, 25 paying subs by day 60",
+        "validation_window_days": 60,
+        "channels": [
+          "IT Park UZ Telegram",
+          "spot.uz business reader Telegram",
+          "ICT Week 2026 booth swap with vendor friends",
+          "LinkedIn UZ IT founders group"
+        ]
+      },
+      "tech_stack": [
+        "Python + BeautifulSoup",
+        "Supabase",
+        "OpenAI",
+        "Buttondown email",
+        "Telegram Bot API",
+        "Click subscription"
+      ],
+      "founder_capability_required": [
+        "Python scraping",
+        "Russian fluency",
+        "B2B sales via Telegram"
+      ],
+      "moat_potential": "Tender + outcome database (winner names + bid prices for closed tenders) becomes a benchmark dataset; sell anonymized 'win price' analytics to bidders at premium tier; possible white-label to chambers of commerce.",
+      "risk_register": [
+        {
+          "risk": "xt-xarid.uz blocks scraping",
+          "mitigation": "Switch to RSS feed if available, or partner with one chamber for paid feed access"
+        },
+        {
+          "risk": "State competitor offers AI alerts free",
+          "mitigation": "Add bid-writing AI assistant as paid layer; lean into faster delivery + better UX"
+        },
+        {
+          "risk": "Misclassification frustrates customers",
+          "mitigation": "Human-in-loop review for first 30 days; user feedback loop to retrain"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 9,
+        "speed_to_mvr": 8,
+        "monetization_path": 8,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 9,
+        "weighted_total": 8.45,
+        "scoring_rationale": "Strong revenue path, clear ICP, defensible data moat in year 2."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-005",
+      "country": "UZ",
+      "short_name": "MahallaMonitor",
+      "tagline": "Anonymous Telegram channel where mahalla residents flag broken streetlights, garbage, water issues — feeds a city dashboard",
+      "category": "free_tool",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "uz-trend-005-mahalla-digital-social-registry",
+        "decree_id": "UZ-PP-2025-286",
+        "donor_program_id": null,
+        "pain_point": "Mahalla-level service delivery is opaque to higher tiers of government. Citizens have no anonymous channel to report neighborhood issues; existing 1198 hotline is phone-only and Russian-biased. Spot.uz comments and Telegram threads are full of 'мой подъезд' complaints with no resolution path.",
+        "evidence": "https://kun.uz/ru/news/2025/03/10/mahalla-shikoyatlar"
+      },
+      "target_customer": "Tashkent apartment-block residents 25-55 frustrated with utility outages and street infrastructure; secondary: mahalla raisi staff who get pre-aggregated reports without doing fieldwork",
+      "monetization": {
+        "model": "donation",
+        "price_point_usd": 0,
+        "year_1_revenue_target_usd": 8000,
+        "year_3_revenue_target_usd": 60000
+      },
+      "mvr_plan": {
+        "vehicle": "demo_video",
+        "build_steps": [
+          "Build Telegram bot: photo + geo-tag + category, posts to district-level public channel",
+          "Standardize 8 issue categories (water, light, garbage, road, park, pet, noise, other)",
+          "Auto-publish to public dashboard at mahalla-monitor.uz (Vercel + Supabase)",
+          "Reach out to 3 progressive mahalla raisi via researcher contacts for pilot",
+          "Add donate button (Click/Payme) and weekly impact report"
+        ],
+        "build_time_days": 8,
+        "build_cost_usd": 50
+      },
+      "validation": {
+        "signal_target": "500 reports submitted in 60 days from 3 pilot districts; 1 hokimiyat references the tool publicly",
+        "validation_window_days": 60,
+        "channels": [
+          "spot.uz Telegram readership",
+          "Tashkent district WhatsApp groups",
+          "Mahalla raisi pilot referrals",
+          "ICT Week 2026 civic tech panel"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot API",
+        "Supabase + Postgres",
+        "Vercel + Next.js",
+        "Mapbox for geo display"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek written communication",
+        "Telegram bot",
+        "basic Next.js",
+        "civic tech network in Tashkent"
+      ],
+      "moat_potential": "Geo-tagged citizen issue dataset becomes a paid product to hokimiyats and donor SDC governance program; possible licensing to State Targeted Social Assistance pilot under WB-UZ-P179108.",
+      "risk_register": [
+        {
+          "risk": "Government considers tool subversive",
+          "mitigation": "Pre-brief 1 mahalla raisi and partner with UNDP-UZ-DIGITAL-PUBADMIN team for cover"
+        },
+        {
+          "risk": "Trolling and false reports",
+          "mitigation": "Manual moderation queue first 90 days; require Telegram phone-verified accounts"
+        },
+        {
+          "risk": "Personal data leakage in photos",
+          "mitigation": "Auto-blur faces and license plates via cloud vision API"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 8,
+        "speed_to_mvr": 8,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 9,
+        "weighted_total": 7.35,
+        "scoring_rationale": "Clear citizen demand; donor monetization realistic by year 2; political risk modest if pre-briefed."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-006",
+      "country": "UZ",
+      "short_name": "UZBudgetView",
+      "tagline": "Plain-language explainer of openbudget.uz datasets — a Telegram bot answering 'how much did my mahalla get?' in Uzbek and Russian",
+      "category": "free_tool",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "uz-trend-005-mahalla-digital-social-registry",
+        "decree_id": "UZ-UP-2025-189",
+        "donor_program_id": "EU-GIZ-UZ-GOVGOV",
+        "pain_point": "Openbudget.uz is one of the most progressive open data portals in CIS but its UI is Excel-heavy and Russian-only. Citizens have no answer to 'how much did my district receive this year for roads?' Local journalists in spot.uz repeatedly ask the question.",
+        "evidence": "https://openbudget.uz/"
+      },
+      "target_customer": "Civic-active Uzbeks 25-45 who use Telegram and read spot.uz/gazeta.uz; secondary: investigative journalists, mahalla raisi who want to benchmark their allocation",
+      "monetization": {
+        "model": "donation",
+        "price_point_usd": 0,
+        "year_1_revenue_target_usd": 6000,
+        "year_3_revenue_target_usd": 50000
+      },
+      "mvr_plan": {
+        "vehicle": "demo_video",
+        "build_steps": [
+          "Download openbudget.uz CSV dumps for 2023-2025 budgets",
+          "Build retrieval index in Supabase + pgvector for natural-language queries",
+          "Telegram bot answers in Uzbek and Russian with chart screenshot generated by Quickchart.io",
+          "Soft-launch with 3 spot.uz journalists for case studies",
+          "Add EU-GIZ governance grant pitch deck for $20-30K civic-tech grant"
+        ],
+        "build_time_days": 9,
+        "build_cost_usd": 40
+      },
+      "validation": {
+        "signal_target": "300 unique users + 1 journalist mention in 45 days",
+        "validation_window_days": 45,
+        "channels": [
+          "spot.uz Telegram",
+          "gazeta.uz reader chat",
+          "Buyuk Kelajak Telegram (civic activism)",
+          "EU Delegation Tashkent civic tech mailing list"
+        ]
+      },
+      "tech_stack": [
+        "Python + pgvector",
+        "Supabase",
+        "OpenAI",
+        "Quickchart.io",
+        "Telegram Bot API"
+      ],
+      "founder_capability_required": [
+        "Uzbek + Russian",
+        "data wrangling",
+        "civic-tech grant writing"
+      ],
+      "moat_potential": "First-mover position with the openbudget.uz dataset; possible spin-out as the 'OpenSpending of UZ'; donor grant continuity.",
+      "risk_register": [
+        {
+          "risk": "Dataset structure changes break parser",
+          "mitigation": "Schema-detection layer; alert on parse failure"
+        },
+        {
+          "risk": "Government opposes 'critical' framing",
+          "mitigation": "Position as celebratory transparency tool; partner with UNDP open-data work"
+        },
+        {
+          "risk": "Low organic traction without ads",
+          "mitigation": "Lean on civic-tech grant rather than user revenue"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 8,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 8,
+        "weighted_total": 7.05,
+        "scoring_rationale": "Niche but underserved; donor grant pathway viable."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-007",
+      "country": "UZ",
+      "short_name": "PermitPathfinder",
+      "tagline": "Squeeze page that asks 3 business questions and emails back the exact list of permits you need to open a bakery, salon or shop in Tashkent",
+      "category": "free_tool",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "uz-trend-002-epigu-workflow-automation",
+        "decree_id": "UZ-PP-2025-286",
+        "donor_program_id": null,
+        "pain_point": "Aspiring entrepreneurs face 8-15 permits to start a small business in Tashkent. The official 'business desk' (бизнес-маслахат) is overloaded. Spot.uz business section runs weekly explainers because demand is constant.",
+        "evidence": "https://www.spot.uz/ru/2025/02/11/biznes-permits/"
+      },
+      "target_customer": "Aspiring small business owners 22-40 in Tashkent, Samarkand, Bukhara — including women returning to workforce and migrant workers using savings to open shops",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 9,
+        "year_1_revenue_target_usd": 14000,
+        "year_3_revenue_target_usd": 90000
+      },
+      "mvr_plan": {
+        "vehicle": "squeeze_page",
+        "build_steps": [
+          "Compile permit checklist for top 12 small business types from soliq.uz, hokimiyat.uz, EPIGU",
+          "Carrd squeeze page with 3-question intake (business type / city / ownership form)",
+          "Auto-email PDF checklist using Zapier + Notion + Mailerlite",
+          "Upsell: paid 30-min call ($9) for live walkthrough",
+          "Run $50 Instagram ad targeting Tashkent women 25-40 'biznes ochish'"
+        ],
+        "build_time_days": 5,
+        "build_cost_usd": 80
+      },
+      "validation": {
+        "signal_target": "150 squeeze-page conversions in 30 days, 10 paid calls by day 45",
+        "validation_window_days": 45,
+        "channels": [
+          "spot.uz Telegram",
+          "Instagram Tashkent women business community",
+          "TBC Bank entrepreneur Telegram",
+          "ICT Week 2026 startup track"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Notion + Zapier",
+        "Mailerlite",
+        "Click for paid call upsell"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek written content",
+        "permit research",
+        "Mailerlite operations"
+      ],
+      "moat_potential": "Email list of intent-verified entrepreneurs becomes lead source for partner banks (acquiring referral $30-50/customer) and accounting service partners.",
+      "risk_register": [
+        {
+          "risk": "Permit rules change frequently",
+          "mitigation": "Monthly review, partner with one Tashkent law firm for accuracy"
+        },
+        {
+          "risk": "Officially-backed competitor launches",
+          "mitigation": "Lean on personalization and bilingual delivery; integrate Octobank acquiring referrals to differentiate"
+        },
+        {
+          "risk": "Low ad-budget conversion",
+          "mitigation": "Pivot to organic Telegram channel + content marketing"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 8,
+        "speed_to_mvr": 9,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 9,
+        "local_market_fit": 9,
+        "weighted_total": 8.1,
+        "scoring_rationale": "Squeeze page archetype, low cost, clear upsell."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-008",
+      "country": "UZ",
+      "short_name": "EPIGUStatusBot",
+      "tagline": "Telegram bot that pings you when your EPIGU application moves status; auto-detects delays beyond legal SLA",
+      "category": "free_tool",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "uz-trend-002-epigu-workflow-automation",
+        "decree_id": "UZ-PP-2025-286",
+        "donor_program_id": null,
+        "pain_point": "EPIGU does not push status notifications. Citizens log in repeatedly to check. Service-level SLAs (per Public Services Agency standards) are ignored without enforcement. Forum threads on spot.uz show 50+ daily 'статус не меняется' complaints.",
+        "evidence": "https://my.gov.uz/ru"
+      },
+      "target_customer": "EPIGU power users — university applicants checking diploma certifications, real-estate agents tracking land registration, returning migrants applying for documents",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 1,
+        "year_1_revenue_target_usd": 10000,
+        "year_3_revenue_target_usd": 70000
+      },
+      "mvr_plan": {
+        "vehicle": "squeeze_page",
+        "build_steps": [
+          "Reverse-engineer EPIGU public-status URL pattern",
+          "Telegram bot intake: paste application reference + phone",
+          "Poll status every 4 hours, push delta to user in Russian/Uzbek",
+          "Add 'SLA exceeded' alert with Public Services Agency complaint form link",
+          "Soft-launch in spot.uz comments and IT Park UZ"
+        ],
+        "build_time_days": 6,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "800 active applications tracked in 30 days",
+        "validation_window_days": 30,
+        "channels": [
+          "spot.uz Telegram",
+          "kun.uz Telegram",
+          "uzCloud Slack",
+          "IT Park UZ Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Python + Playwright",
+        "Supabase",
+        "Telegram Bot API"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek",
+        "scraping with Playwright",
+        "Telegram bot"
+      ],
+      "moat_potential": "Aggregated SLA data becomes leverage with Public Services Agency for paid integration; likely acquisition target by EPIGU itself.",
+      "risk_register": [
+        {
+          "risk": "EPIGU adds anti-bot protection",
+          "mitigation": "Pivot to user-pasted screenshots with OCR"
+        },
+        {
+          "risk": "TOS-violation accusation",
+          "mitigation": "Use the citizen's own credentials only, request explicit authorization, publish T&Cs"
+        },
+        {
+          "risk": "Low monetization",
+          "mitigation": "Premium SLA-complaint auto-filer at $5/case"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 8,
+        "speed_to_mvr": 9,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 9,
+        "weighted_total": 7.65,
+        "scoring_rationale": "Real pain, modest monetization, valuable data."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-009",
+      "country": "UZ",
+      "short_name": "GovDocTranslator",
+      "tagline": "Free tool that translates Uzbek-Cyrillic government decrees into Uzbek-Latin and plain-language English summaries",
+      "category": "free_tool",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "uz-trend-031-sovereign-llm-uzbek",
+        "decree_id": "UZ-UP-2025-189",
+        "donor_program_id": null,
+        "pain_point": "Foreign investors and diaspora monitor lex.uz decrees but most are Cyrillic-only or in legal Russian. Translation services charge $0.10/word. The official EN site is 1-2 weeks behind. ICT Week vendors lose contract opportunities because they read decrees too late.",
+        "evidence": "https://lex.uz/"
+      },
+      "target_customer": "Foreign investors and consultants in Tashkent, Uzbek diaspora lawyers in Dubai/London, vendor sales teams who need decree summaries within 24h of publication",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 39,
+        "year_1_revenue_target_usd": 25000,
+        "year_3_revenue_target_usd": 180000
+      },
+      "mvr_plan": {
+        "vehicle": "landing_page",
+        "build_steps": [
+          "Crawl lex.uz daily for new decrees, push GPT-4o-mini multi-pass translation",
+          "Carrd landing page with email signup and 'first 5 decrees free'",
+          "Daily email digest in EN + Uzbek-Latin + RU summary",
+          "Stripe billing for premium ($39/mo, unlimited + sector filter)",
+          "Soft-launch via diaspora LinkedIn community 'Uzbeks Abroad'"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 70
+      },
+      "validation": {
+        "signal_target": "120 free signups, 12 paying subs in 45 days",
+        "validation_window_days": 45,
+        "channels": [
+          "LinkedIn 'Uzbeks Abroad' group",
+          "Tashkent foreign investor WhatsApp",
+          "ICT Week 2026 booth",
+          "spot.uz English newsletter"
+        ]
+      },
+      "tech_stack": [
+        "Python",
+        "OpenAI GPT-4o",
+        "Carrd",
+        "Buttondown",
+        "Stripe"
+      ],
+      "founder_capability_required": [
+        "Russian fluency",
+        "Uzbek-Cyrillic-to-Latin transliteration awareness",
+        "B2B email sales"
+      ],
+      "moat_potential": "First-mover for Uzbek-Latin official decree feed; possible OEM deal with global law firms entering UZ market.",
+      "risk_register": [
+        {
+          "risk": "Lex.uz introduces own EN feed",
+          "mitigation": "Add value via sector tagging + sentiment + decree-half-life flag"
+        },
+        {
+          "risk": "Translation accuracy issues legal liability",
+          "mitigation": "Add 'AI summary, not legal advice' disclaimer; partner with one local law firm for premium review"
+        },
+        {
+          "risk": "Diaspora niche too small",
+          "mitigation": "Expand to local SMEs needing rapid decree alerts"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 8,
+        "speed_to_mvr": 9,
+        "monetization_path": 8,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 8,
+        "weighted_total": 8.05,
+        "scoring_rationale": "Diaspora-bridge premium audience; daily build cadence is solo-feasible."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-010",
+      "country": "UZ",
+      "short_name": "DigitalSignWalker",
+      "tagline": "Loom-style demo videos showing exactly how to obtain and install an Uzbek e-imzo digital signature for tax filing",
+      "category": "demo_video",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "uz-trend-021-tax-fraud-detection-ai",
+        "decree_id": "UZ-PP-2025-286",
+        "donor_program_id": null,
+        "pain_point": "All Uzbek SMEs must file taxes electronically using e-imzo digital signature. The setup process spans 3 government portals, requires browser plugins, and breaks on macOS. Accountants charge $50-100 to set up. Demand is constant per soliq.uz forum threads.",
+        "evidence": "https://soliq.uz/main"
+      },
+      "target_customer": "Tashkent SME owners and self-employed professionals (designers, lawyers, IT freelancers) doing their own tax filing",
+      "monetization": {
+        "model": "services",
+        "price_point_usd": 15,
+        "year_1_revenue_target_usd": 18000,
+        "year_3_revenue_target_usd": 120000
+      },
+      "mvr_plan": {
+        "vehicle": "demo_video",
+        "build_steps": [
+          "Record 3 Loom videos: e-imzo on Windows / Mac / mobile",
+          "Build YouTube playlist + landing page with WhatsApp 'help me' button",
+          "Charge 180,000 UZS ($15) for 30-min screen-share setup",
+          "Add referral fee from accounting software partners (Buxgalter Plus, Kassa.uz)",
+          "Cross-post in IT Park UZ Telegram"
+        ],
+        "build_time_days": 4,
+        "build_cost_usd": 50
+      },
+      "validation": {
+        "signal_target": "5,000 video views + 30 paid setup calls in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "IT Park UZ Telegram",
+          "spot.uz freelancer chat",
+          "Buxgalter Plus partner referrals",
+          "TBC Bank SME Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Loom",
+        "YouTube",
+        "WhatsApp Business",
+        "Click acquiring"
+      ],
+      "founder_capability_required": [
+        "Russian and Uzbek-Latin",
+        "screen-share video creation",
+        "patient customer support"
+      ],
+      "moat_potential": "Reputation as 'the e-imzo guy'; affiliate revenue from Octobank acquiring + accounting SaaS; productize into a $50 self-serve setup wizard.",
+      "risk_register": [
+        {
+          "risk": "e-imzo flow changes invalidate videos",
+          "mitigation": "Quarterly re-record; subscribe to Soliq.uz mailing list"
+        },
+        {
+          "risk": "Accountants undercut on price",
+          "mitigation": "Differentiate on speed (30 min vs 1-day callbacks) and English-language support"
+        },
+        {
+          "risk": "Refund disputes",
+          "mitigation": "30-min money-back guarantee; record all sessions"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 9,
+        "speed_to_mvr": 10,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 9,
+        "local_market_fit": 9,
+        "weighted_total": 8.55,
+        "scoring_rationale": "Constant demand, fast build, immediate cash."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-011",
+      "country": "UZ",
+      "short_name": "GovHotlineRouter",
+      "tagline": "Free tool that, given your problem in Uzbek/Russian, tells you exactly which of the 50+ Uzbek government hotlines to call",
+      "category": "free_tool",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "uz-trend-007-legal-aid-conversational-ai",
+        "decree_id": "UZ-PP-2025-286",
+        "donor_program_id": null,
+        "pain_point": "Uzbekistan has 50+ thematic hotlines (1198 mahalla, 1142 Anti-corruption, 1105 Tax, 1006 Health, etc.). Citizens don't know which to call; many wrong-number complaints. Spot.uz publishes annual 'hotline cheat sheet' that goes viral every January.",
+        "evidence": "https://www.spot.uz/ru/2024/01/15/uzbekistan-hotlines/"
+      },
+      "target_customer": "Adult Uzbek citizens 25-65 facing a service problem (utility, social, legal, tax) and unsure which authority to call",
+      "monetization": {
+        "model": "donation",
+        "price_point_usd": 0,
+        "year_1_revenue_target_usd": 4000,
+        "year_3_revenue_target_usd": 30000
+      },
+      "mvr_plan": {
+        "vehicle": "squeeze_page",
+        "build_steps": [
+          "Compile master directory of all hotlines from gov.uz, spot.uz, kun.uz",
+          "Build a Carrd page with a 1-line problem input -> top 3 hotlines",
+          "Telegram bot for mobile-first usage",
+          "Voluntary donation via Click",
+          "Soft-launch with spot.uz cross-post"
+        ],
+        "build_time_days": 5,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "5,000 page visits + 200 Telegram users in 30 days",
+        "validation_window_days": 30,
+        "channels": [
+          "spot.uz",
+          "kun.uz Telegram",
+          "Tashkent civic Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Telegram Bot",
+        "Notion (data source)",
+        "Click donation"
+      ],
+      "founder_capability_required": [
+        "Uzbek + Russian",
+        "civic-tech network"
+      ],
+      "moat_potential": "Becomes the de facto hotline directory; partnership with Public Services Agency for affiliated badge; ad slots for partner SaaS.",
+      "risk_register": [
+        {
+          "risk": "Hotline changes break tool",
+          "mitigation": "Crowdsourced corrections + quarterly audit"
+        },
+        {
+          "risk": "Government launches official directory",
+          "mitigation": "Lean into UX speed and Telegram-native delivery"
+        },
+        {
+          "risk": "No revenue",
+          "mitigation": "Pivot to grant-funded civic tool"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 10,
+        "monetization_path": 4,
+        "founder_solo_feasibility": 9,
+        "local_market_fit": 8,
+        "weighted_total": 7.1,
+        "scoring_rationale": "Civic value high, monetization weak."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-012",
+      "country": "UZ",
+      "short_name": "EPIGUForBusiness",
+      "tagline": "Carrd landing page that lists the top 30 EPIGU services for SMEs with one-click direct deep links",
+      "category": "content",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "uz-trend-001-epigu-ai-chatbot",
+        "decree_id": "UZ-PP-2025-286",
+        "donor_program_id": null,
+        "pain_point": "EPIGU has a citizen-centric layout and SME services are buried 4-5 clicks deep. SME owners (per spot.uz business reader survey) waste 20-30 min per service. No bookmarkable directory exists.",
+        "evidence": "https://www.spot.uz/ru/category/biznes/"
+      },
+      "target_customer": "Tashkent and Samarkand SME owners and accountants (10-50 employee firms) who use EPIGU monthly for VAT, social-tax, payroll filings",
+      "monetization": {
+        "model": "ad",
+        "price_point_usd": 25,
+        "year_1_revenue_target_usd": 8000,
+        "year_3_revenue_target_usd": 60000
+      },
+      "mvr_plan": {
+        "vehicle": "directory",
+        "build_steps": [
+          "Manually map 30 highest-value SME services on EPIGU",
+          "Carrd directory page with deep links and Russian/Uzbek descriptions",
+          "Add 3 sponsored slots for accounting SaaS / banks at $25/month",
+          "SEO with kun.uz/spot.uz business keywords",
+          "Cross-post in TBC SME Telegram"
+        ],
+        "build_time_days": 4,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "2,000 visits in 30 days, 1 sponsor in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "TBC SME Telegram",
+          "Buxgalter Plus community",
+          "ICT Week 2026"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Notion CMS",
+        "Plausible analytics"
+      ],
+      "founder_capability_required": [
+        "Russian and Uzbek-Latin",
+        "basic SEO",
+        "B2B sponsor outreach"
+      ],
+      "moat_potential": "First-mover SME directory; sponsorship list compounds; can spin into a 'EPIGU power-user newsletter' premium product.",
+      "risk_register": [
+        {
+          "risk": "EPIGU URL changes",
+          "mitigation": "Monitor changes weekly"
+        },
+        {
+          "risk": "Low ad demand",
+          "mitigation": "Pivot to affiliate model with banks"
+        },
+        {
+          "risk": "Out-competed by accounting SaaS",
+          "mitigation": "Partner with one as co-publisher"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 10,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 9,
+        "local_market_fit": 8,
+        "weighted_total": 7.3,
+        "scoring_rationale": "Cheap and fast; modest revenue but real value."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-013",
+      "country": "UZ",
+      "short_name": "PassportAppointmentBuddy",
+      "tagline": "Telegram alert when a Tashkent passport-issuance appointment slot opens within 7 days at your nearest office",
+      "category": "ai_tool",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "uz-trend-004-digital-id-mobile-myid",
+        "decree_id": "UZ-PP-2025-286",
+        "donor_program_id": null,
+        "pain_point": "Internal-passport and biometric-passport appointments often have 3-6 week wait. Cancellations are constant but invisible. Citizens manually refresh the booking page. Forum threads on spot.uz request a 'cancellation alert' often.",
+        "evidence": "https://www.spot.uz/ru/2024/06/12/biometric-passport/"
+      },
+      "target_customer": "Tashkent professionals 25-45 needing urgent passport for work travel, returning migrants, and university students applying for foreign exchange",
+      "monetization": {
+        "model": "one_time",
+        "price_point_usd": 5,
+        "year_1_revenue_target_usd": 12000,
+        "year_3_revenue_target_usd": 80000
+      },
+      "mvr_plan": {
+        "vehicle": "ad_booking",
+        "build_steps": [
+          "Reverse-engineer the booking-page slot endpoint via DevTools",
+          "Cron-poll every 5 min, push delta via Telegram bot",
+          "Offer free tier (1 office, 7-day window) and $5 premium (multi-office, 30-day window)",
+          "Click micro-payment integration",
+          "Soft-launch in spot.uz comments and Tashkent commuter Telegram"
+        ],
+        "build_time_days": 6,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "500 Telegram subscribers + 30 premium upgrades in 30 days",
+        "validation_window_days": 30,
+        "channels": [
+          "spot.uz",
+          "TBC SME Telegram",
+          "Tashkent commuter Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Python + Playwright",
+        "Supabase",
+        "Telegram Bot API",
+        "Click acquiring"
+      ],
+      "founder_capability_required": [
+        "scraping",
+        "Russian fluency"
+      ],
+      "moat_potential": "Network effect via Telegram referrals; can extend to driver-license, marriage-registration appointments.",
+      "risk_register": [
+        {
+          "risk": "Booking system anti-bot",
+          "mitigation": "Switch to 'submit your booking page URL' user-driven model"
+        },
+        {
+          "risk": "Government bans third-party scrapers",
+          "mitigation": "Re-position as 'browser extension' user owns"
+        },
+        {
+          "risk": "Low monetization",
+          "mitigation": "Premium tier with multi-office support"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 9,
+        "speed_to_mvr": 9,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 8,
+        "weighted_total": 8.05,
+        "scoring_rationale": "Painful problem, fast build, decent monetization."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-014",
+      "country": "UZ",
+      "short_name": "VATcheckUZ",
+      "tagline": "Free tool that scans an Uzbek SME's last 30 e-invoices and flags VAT errors before submission",
+      "category": "saas",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "uz-trend-021-tax-fraud-detection-ai",
+        "decree_id": "UZ-UP-2025-189",
+        "donor_program_id": null,
+        "pain_point": "Soliq.uz's e-faktura system rejects ~5% of submissions for technical issues. SMEs find out days later when penalties accrue. UP-189 mandates AI tax fraud detection — SMEs face increased audit risk if errors are not caught pre-submission.",
+        "evidence": "https://soliq.uz/main"
+      },
+      "target_customer": "Tashkent SMEs (15-50 employees) doing 50-300 e-invoices/month, especially trading and construction companies who file for monthly VAT cycles",
+      "monetization": {
+        "model": "subscription",
+        "price_point_usd": 29,
+        "year_1_revenue_target_usd": 22000,
+        "year_3_revenue_target_usd": 180000
+      },
+      "mvr_plan": {
+        "vehicle": "landing_page",
+        "build_steps": [
+          "Document e-faktura JSON schema and top 10 rejection patterns",
+          "Build Streamlit app: upload XML, get error report",
+          "Carrd landing page + 7-day free trial",
+          "Click subscription billing at 360,000 UZS/mo",
+          "Soft-launch in Buxgalter Plus and TBC SME Telegram"
+        ],
+        "build_time_days": 8,
+        "build_cost_usd": 60
+      },
+      "validation": {
+        "signal_target": "100 free signups, 15 paying subs in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Buxgalter Plus community",
+          "TBC SME Telegram",
+          "ICT Week 2026 SME track"
+        ]
+      },
+      "tech_stack": [
+        "Python + Streamlit",
+        "Supabase",
+        "Click subscription"
+      ],
+      "founder_capability_required": [
+        "Russian",
+        "tax-domain familiarity",
+        "Python"
+      ],
+      "moat_potential": "Library of common error patterns becomes proprietary; possible white-label to accounting SaaS.",
+      "risk_register": [
+        {
+          "risk": "Soliq adds own validator",
+          "mitigation": "Differentiate via AI-driven anomaly detection beyond schema check"
+        },
+        {
+          "risk": "Customer churn after onboarding",
+          "mitigation": "Annual prepay discount + audit-protection bundle"
+        },
+        {
+          "risk": "Data privacy concerns",
+          "mitigation": "Local processing only, no server storage"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 8,
+        "speed_to_mvr": 8,
+        "monetization_path": 8,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 8,
+        "weighted_total": 8.0,
+        "scoring_rationale": "Clear pain, recurring revenue path, accountant ICP."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-015",
+      "country": "UZ",
+      "short_name": "MyGovDocsUZ",
+      "tagline": "Encrypted Telegram vault where citizens store digital copies of all government documents, with AI search in Uzbek and Russian",
+      "category": "ai_tool",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "uz-trend-004-digital-id-mobile-myid",
+        "decree_id": "UZ-PP-2025-286",
+        "donor_program_id": null,
+        "pain_point": "Uzbeks accumulate 20-50 documents (passport, tax certificates, child certificates, real estate) and lose them when phones break. EPIGU does not aggregate. Banks demand fresh copies routinely.",
+        "evidence": "https://www.spot.uz/ru/2024/03/22/digital-documents/"
+      },
+      "target_customer": "Tashkent professionals 30-50 with 2+ kids, a property, and a small business — they handle multiple documents weekly",
+      "monetization": {
+        "model": "subscription",
+        "price_point_usd": 4,
+        "year_1_revenue_target_usd": 18000,
+        "year_3_revenue_target_usd": 140000
+      },
+      "mvr_plan": {
+        "vehicle": "landing_page",
+        "build_steps": [
+          "Build Telegram mini-app with E2E encryption (libsodium)",
+          "OCR via Tesseract for Cyrillic + Uzbek-Latin",
+          "AI search 'when does my passport expire?'",
+          "Carrd page with privacy-first messaging",
+          "Soft-launch via TBC families and IT Park UZ Telegram"
+        ],
+        "build_time_days": 10,
+        "build_cost_usd": 100
+      },
+      "validation": {
+        "signal_target": "300 signups + 25 paying in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "TBC SME Telegram",
+          "Anorbank parents Telegram",
+          "spot.uz tech reader chat"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Mini App",
+        "Supabase storage with E2E encryption",
+        "Tesseract OCR",
+        "OpenAI"
+      ],
+      "founder_capability_required": [
+        "Telegram mini-app dev",
+        "encryption basics",
+        "Russian + Uzbek-Latin"
+      ],
+      "moat_potential": "Document-vault network effect; partner integration with banks and notaries (instant fetch).",
+      "risk_register": [
+        {
+          "risk": "Privacy law (ЗРУ-547) compliance complexity",
+          "mitigation": "E2E encryption + no server-side decryption; pre-clear with privacy lawyer"
+        },
+        {
+          "risk": "User mistrust",
+          "mitigation": "Open-source the encryption layer"
+        },
+        {
+          "risk": "Telegram-native limits",
+          "mitigation": "Web fallback at mygovdocs.uz"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 7,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 7.2,
+        "scoring_rationale": "Privacy is a heavy lift but real demand."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-016",
+      "country": "UZ",
+      "short_name": "MahallaCalendar",
+      "tagline": "Hyperlocal Telegram channel listing every public hearing, mahalla meeting, and government open day in your district",
+      "category": "content",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "uz-trend-005-mahalla-digital-social-registry",
+        "decree_id": "UZ-PP-2025-286",
+        "donor_program_id": "EU-GIZ-UZ-GOVGOV",
+        "pain_point": "Mahalla meetings, hokimiyat reception hours, public hearings are announced via paper bulletins or rarely-updated websites. Citizens miss participation windows. EU-GIZ governance program looks for citizen-engagement amplifiers.",
+        "evidence": "https://www.gazeta.uz/ru/list/society/"
+      },
+      "target_customer": "Civic-engaged Tashkent residents 25-55, parents of school-age children, small business owners attending hokimiyat receptions for permit follow-ups",
+      "monetization": {
+        "model": "ad",
+        "price_point_usd": 50,
+        "year_1_revenue_target_usd": 6000,
+        "year_3_revenue_target_usd": 50000
+      },
+      "mvr_plan": {
+        "vehicle": "manifesto",
+        "build_steps": [
+          "Map 12 Tashkent districts and create Telegram channel for each",
+          "Aggregate weekly events from hokimiyat.uz + mahalla raisi WhatsApp groups",
+          "Add Notion-driven publishing pipeline",
+          "Sell sponsored slot to one civic NGO ($50/mo)",
+          "Pitch EU-GIZ for $20K civic-engagement micro-grant"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "1,000 subscribers across 3 districts in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Tashkent district WhatsApp groups",
+          "spot.uz civic chat",
+          "Buyuk Kelajak community"
+        ]
+      },
+      "tech_stack": [
+        "Telegram",
+        "Notion",
+        "Buttondown for email mirror"
+      ],
+      "founder_capability_required": [
+        "Russian and Uzbek-Latin",
+        "civic outreach",
+        "content cadence"
+      ],
+      "moat_potential": "Hyperlocal subscriber loyalty; donor-grant continuity; can extend to remote-Fergana-Valley districts.",
+      "risk_register": [
+        {
+          "risk": "Information drying up if mahalla raisi deprioritize",
+          "mitigation": "Build network of 30+ raisi via volunteer outreach"
+        },
+        {
+          "risk": "Low ad demand",
+          "mitigation": "Lean on grant funding"
+        },
+        {
+          "risk": "Competition from official channels",
+          "mitigation": "Aggregate across districts faster than any single one can"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 9,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 8,
+        "weighted_total": 6.95,
+        "scoring_rationale": "Modest demand, low cost, civic-tech grant viable."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-017",
+      "country": "UZ",
+      "short_name": "OneStopComplaint",
+      "tagline": "Wizard-of-Oz human-in-loop service that turns your phone-photo complaint (utility, road, mahalla) into a properly-formatted petition to the right authority",
+      "category": "managed_service",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "uz-trend-007-legal-aid-conversational-ai",
+        "decree_id": "UZ-PP-2025-286",
+        "donor_program_id": "UNDP-UZ-DIGITAL-PUBADMIN",
+        "pain_point": "Citizen complaints are routinely rejected for wrong format or wrong authority. Legal-aid centers exist but require visit + 2-week wait. Spot.uz publishes annual 'how to write a жалоба' guide because demand is constant.",
+        "evidence": "https://www.spot.uz/ru/2025/05/14/zhaloba-guide/"
+      },
+      "target_customer": "Working-class Tashkent and Andijan adults aged 30-60 with a specific grievance (broken elevator, refused refund, unpaid wages)",
+      "monetization": {
+        "model": "services",
+        "price_point_usd": 8,
+        "year_1_revenue_target_usd": 16000,
+        "year_3_revenue_target_usd": 100000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Telegram bot intake: photo + voice description + recipient",
+          "Notion-based fulfillment by founder + 1 paralegal student",
+          "Click payment, 100,000 UZS per complaint",
+          "Soft-launch with Tashkent district groups and Telegram civic chat",
+          "Pitch UNDP for $30K legal-aid grant alignment"
+        ],
+        "build_time_days": 6,
+        "build_cost_usd": 100
+      },
+      "validation": {
+        "signal_target": "20 paid complaints in 30 days, 60% resolution rate",
+        "validation_window_days": 45,
+        "channels": [
+          "spot.uz civic Telegram",
+          "Tashkent district groups",
+          "Andijan Telegram parents"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Notion",
+        "Click acquiring",
+        "Uzbek-Latin and Russian templates"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek-Latin",
+        "legal writing basics",
+        "managing 1-2 part-time paralegals"
+      ],
+      "moat_potential": "Library of complaint templates by issue type; can productize into self-serve later.",
+      "risk_register": [
+        {
+          "risk": "Legal liability on wrongly-filed petitions",
+          "mitigation": "Disclaimer + review by partner law firm"
+        },
+        {
+          "risk": "Notary lobby pushback",
+          "mitigation": "Position as 'document-prep service' not legal advice"
+        },
+        {
+          "risk": "Low margins",
+          "mitigation": "Premium tier with follow-up phone calls"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 8,
+        "speed_to_mvr": 9,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 9,
+        "weighted_total": 7.85,
+        "scoring_rationale": "Real pain, paying customers, fulfillment-bottleneck risk."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-018",
+      "country": "UZ",
+      "short_name": "PolicyDigestUZ",
+      "tagline": "Manifesto-style weekly newsletter analyzing one new Uzbek decree per week — for diaspora investors and consultants",
+      "category": "content",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "uz-trend-031-sovereign-llm-uzbek",
+        "decree_id": "UZ-UP-2025-189",
+        "donor_program_id": null,
+        "pain_point": "Diaspora and foreign investors lack a curated lens on Uzbek decrees. Generic news feeds don't analyze implementation odds, budget realism, vendor opportunities. Existing English-language newsletters (Eurasianet, etc.) cover too broad.",
+        "evidence": "https://eurasianet.org/region/uzbekistan"
+      },
+      "target_customer": "Uzbek diaspora professionals in Dubai, London, Almaty, Moscow + foreign consultants + EBRD/ADB program officers + LP/VC scouts",
+      "monetization": {
+        "model": "subscription",
+        "price_point_usd": 49,
+        "year_1_revenue_target_usd": 22000,
+        "year_3_revenue_target_usd": 220000
+      },
+      "mvr_plan": {
+        "vehicle": "manifesto",
+        "build_steps": [
+          "Write founder's-thesis post: 'why one decree per week beats macro analysis'",
+          "Substack page + paid tier",
+          "Free first 5 issues, then $49/mo paywall",
+          "Cross-post on LinkedIn + Twitter X",
+          "Soft-launch in 'Uzbeks Abroad' LinkedIn group"
+        ],
+        "build_time_days": 4,
+        "build_cost_usd": 0
+      },
+      "validation": {
+        "signal_target": "500 free signups + 30 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "LinkedIn 'Uzbeks Abroad'",
+          "Twitter X policy people",
+          "ICT Week 2026 panel",
+          "Eurasianet readers"
+        ]
+      },
+      "tech_stack": [
+        "Substack",
+        "Notion (research)",
+        "Stripe via Substack"
+      ],
+      "founder_capability_required": [
+        "Russian + English",
+        "decree analysis",
+        "investment-grade writing"
+      ],
+      "moat_potential": "Authority brand on Uzbek policy; spin-out into a paid research subscription service for funds.",
+      "risk_register": [
+        {
+          "risk": "Tone too critical, gov retaliation",
+          "mitigation": "Stay descriptive not normative; cultivate official sources"
+        },
+        {
+          "risk": "Low conversion",
+          "mitigation": "Add 1:1 quarterly briefing call to premium tier"
+        },
+        {
+          "risk": "Competition from KPMG / Avloni",
+          "mitigation": "Lean on speed (weekly) and primary-source rigor"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 10,
+        "monetization_path": 8,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 7,
+        "weighted_total": 7.65,
+        "scoring_rationale": "Diaspora premium tier, low build cost, strong brand moat."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-019",
+      "country": "UZ",
+      "short_name": "GovHireUZ",
+      "tagline": "Job board listing all civil-service open positions across Uzbek ministries — first dedicated GovTech career site",
+      "category": "content",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "uz-trend-031-sovereign-llm-uzbek",
+        "decree_id": "UZ-UP-2025-189",
+        "donor_program_id": null,
+        "pain_point": "Civil service openings are scattered across ministry sites, vacancy.uz, gov.uz. UP-189 forces ministries to hire AI/digital specialists rapidly — most postings are buried. IT Park developers report 'I would work GovTech but can't find roles' on Telegram.",
+        "evidence": "https://vacancy.uz/"
+      },
+      "target_customer": "Junior-mid IT professionals (24-35) in Tashkent, Samarkand, Bukhara who want stability + impact in civil service or donor PIUs",
+      "monetization": {
+        "model": "listing_fee",
+        "price_point_usd": 80,
+        "year_1_revenue_target_usd": 12000,
+        "year_3_revenue_target_usd": 90000
+      },
+      "mvr_plan": {
+        "vehicle": "directory",
+        "build_steps": [
+          "Scrape ministry sites + vacancy.uz daily, classify with GPT-4o-mini",
+          "Carrd directory + Telegram alert bot",
+          "Free for individuals, $80/post for ministries (reverse listing)",
+          "Soft-launch in IT Park Tashkent and HR community Telegram",
+          "Pitch 3 ministries (Digital Tech, Justice, Health) for sponsored job-boost"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 50
+      },
+      "validation": {
+        "signal_target": "1,500 monthly visits + 1 paid posting by day 60",
+        "validation_window_days": 60,
+        "channels": [
+          "IT Park UZ Telegram",
+          "spot.uz HR chat",
+          "ICT Week 2026 careers track"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Python scraper",
+        "Supabase",
+        "Telegram Bot"
+      ],
+      "founder_capability_required": [
+        "Russian",
+        "Python scraping",
+        "B2G sales"
+      ],
+      "moat_potential": "First-mover GovTech career brand; sponsorship from donor programs (e.g., Sida, AKDN) for fellowship placements.",
+      "risk_register": [
+        {
+          "risk": "Vacancy.uz competes natively",
+          "mitigation": "Differentiate on Telegram alerts and IT/AI specialty filter"
+        },
+        {
+          "risk": "Ministries don't pay",
+          "mitigation": "Charge donor programs and consultancies instead"
+        },
+        {
+          "risk": "Low job inventory",
+          "mitigation": "Aggregate donor PIU jobs (UNDP, WB) too"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 8,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 7,
+        "weighted_total": 7.1,
+        "scoring_rationale": "Niche but underserved; donor sponsorship is the wedge."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-020",
+      "country": "UZ",
+      "short_name": "BiometricCheckUZ",
+      "tagline": "Demo video and Wizard-of-Oz service: helps citizens verify their MyID biometric data is correctly registered before they need it",
+      "category": "managed_service",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "uz-trend-004-digital-id-mobile-myid",
+        "decree_id": "UZ-PP-2025-286",
+        "donor_program_id": null,
+        "pain_point": "MyID biometric records have known data-entry errors (mistyped DOBs, swapped photos). Citizens find out at the airport or notary. There is no preventive verification service. Spot.uz reports rising complaints.",
+        "evidence": "https://www.spot.uz/ru/2024/12/05/myid/"
+      },
+      "target_customer": "Tashkent professionals planning international travel within 60 days; returning migrants whose records were re-entered from old paper passports",
+      "monetization": {
+        "model": "services",
+        "price_point_usd": 6,
+        "year_1_revenue_target_usd": 10000,
+        "year_3_revenue_target_usd": 60000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Record demo video showing the verification process",
+          "Telegram bot intake (photo of MyID screen + passport)",
+          "Founder reviews and reports errors in 2h",
+          "Click payment, 75,000 UZS per check",
+          "Soft-launch in TBC SME and travel agency Telegram"
+        ],
+        "build_time_days": 4,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "20 paid checks in 21 days",
+        "validation_window_days": 30,
+        "channels": [
+          "TBC SME Telegram",
+          "Tashkent travel agencies",
+          "spot.uz Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Notion",
+        "Click"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek-Latin",
+        "MyID familiarity"
+      ],
+      "moat_potential": "Productize into a self-serve $4 wizard once volume crosses 200/mo.",
+      "risk_register": [
+        {
+          "risk": "Government tightens MyID API access",
+          "mitigation": "Customer-driven model — they show their own screen"
+        },
+        {
+          "risk": "Low volume outside travel season",
+          "mitigation": "Bundle with passport-issuance prep service"
+        },
+        {
+          "risk": "Refund disputes",
+          "mitigation": "Refund if no error found"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 10,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 9,
+        "local_market_fit": 8,
+        "weighted_total": 7.55,
+        "scoring_rationale": "Niche but real cash flow."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-021",
+      "country": "UZ",
+      "short_name": "AskMyMinistry",
+      "tagline": "AI tool that drafts a perfectly-formatted Russian-language inquiry to any Uzbek ministry, ready to submit via virtual reception",
+      "category": "ai_tool",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "uz-trend-007-legal-aid-conversational-ai",
+        "decree_id": "UZ-UP-2025-189",
+        "donor_program_id": null,
+        "pain_point": "President's virtual reception (pm.gov.uz) and ministry virtual receptions are major channels but require formal jargon. Citizens write informally and get rejected. Spot.uz forum threads regularly ask 'how do I write to the ministry?'",
+        "evidence": "https://pm.gov.uz/"
+      },
+      "target_customer": "Educated Uzbek citizens 30-55 with a specific grievance, preferring written channels over phone hotlines",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 3,
+        "year_1_revenue_target_usd": 12000,
+        "year_3_revenue_target_usd": 90000
+      },
+      "mvr_plan": {
+        "vehicle": "squeeze_page",
+        "build_steps": [
+          "Build a Carrd page with input box for grievance + ministry picker",
+          "GPT-4o generates formal Russian draft",
+          "Free 1 draft per week, $3 unlimited per week",
+          "Click micro-payment integration",
+          "Soft-launch in spot.uz civic chat"
+        ],
+        "build_time_days": 5,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "300 drafts generated in 30 days, 30 paid upgrades",
+        "validation_window_days": 45,
+        "channels": [
+          "spot.uz civic",
+          "kun.uz Telegram",
+          "Tashkent district groups"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "OpenAI GPT-4o",
+        "Click"
+      ],
+      "founder_capability_required": [
+        "Russian",
+        "prompt engineering"
+      ],
+      "moat_potential": "Generate prompts library by ministry; partner with one ombudsman office for branding.",
+      "risk_register": [
+        {
+          "risk": "AI output legally weak",
+          "mitigation": "Add disclaimer + optional paralegal review"
+        },
+        {
+          "risk": "Govt launches official tool",
+          "mitigation": "Lean on speed and Telegram-native UX"
+        },
+        {
+          "risk": "Low willingness to pay",
+          "mitigation": "Bundle with complaint-fulfillment service"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 9,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 9,
+        "local_market_fit": 8,
+        "weighted_total": 7.55,
+        "scoring_rationale": "Cheap, fast, real demand niche."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-022",
+      "country": "UZ",
+      "short_name": "AzbukaGosUslug",
+      "tagline": "TikTok-native series: 60-second explainers of every government service Uzbeks need to know, from kindergarten enrollment to inheritance",
+      "category": "content",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "uz-trend-001-epigu-ai-chatbot",
+        "decree_id": "UZ-PP-2025-286",
+        "donor_program_id": null,
+        "pain_point": "Younger Uzbek adults (Gen Z, 18-30) consume TikTok over text. Existing government communications are PDFs or static articles. No bilingual TikTok creator covers public services.",
+        "evidence": "https://www.spot.uz/ru/2024/08/15/tiktok-uzbekistan/"
+      },
+      "target_customer": "Uzbek Gen Z (18-30), urban and small-city, encountering adult bureaucracy for the first time (apartment leases, marriages, first jobs)",
+      "monetization": {
+        "model": "ad",
+        "price_point_usd": 0,
+        "year_1_revenue_target_usd": 8000,
+        "year_3_revenue_target_usd": 80000
+      },
+      "mvr_plan": {
+        "vehicle": "demo_video",
+        "build_steps": [
+          "Record 30 60-second explainers in 2 weeks (founder + cousin/friend on camera)",
+          "Post 1 video/day across TikTok + Instagram Reels + YouTube Shorts",
+          "Monetize via TikTok Creator Fund + brand deals (TBC, Anorbank, Uzcard)",
+          "Affiliate links to bank account opening + insurance",
+          "Soft-launch via cross-promo with 3 mid-size UZ creators"
+        ],
+        "build_time_days": 14,
+        "build_cost_usd": 100
+      },
+      "validation": {
+        "signal_target": "10K TikTok followers + 2 brand deal inquiries in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "TikTok UZ",
+          "Instagram Reels UZ",
+          "kun.uz cross-promo"
+        ]
+      },
+      "tech_stack": [
+        "TikTok",
+        "Instagram",
+        "CapCut",
+        "Notion content calendar"
+      ],
+      "founder_capability_required": [
+        "Uzbek + Russian on-camera",
+        "TikTok algo basics",
+        "video editing"
+      ],
+      "moat_potential": "Audience + brand becomes a launchpad for paid course or app; brand deals compound.",
+      "risk_register": [
+        {
+          "risk": "Algorithm shift",
+          "mitigation": "Multi-platform from day 1"
+        },
+        {
+          "risk": "Time-intensive content",
+          "mitigation": "Batch 30 videos per session, post on schedule"
+        },
+        {
+          "risk": "Low ad revenue",
+          "mitigation": "Lean on direct sponsor deals"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 8,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 6.8,
+        "scoring_rationale": "Brand play, slower monetization."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-023",
+      "country": "UZ",
+      "short_name": "VotingDayUZ",
+      "tagline": "Squeeze page + Telegram bot reminding citizens of upcoming local mahalla elections, with candidate list and polling station map",
+      "category": "free_tool",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "uz-trend-005-mahalla-digital-social-registry",
+        "decree_id": "UZ-PP-2025-286",
+        "donor_program_id": "UNDP-UZ-DIGITAL-PUBADMIN",
+        "pain_point": "Mahalla raisi and local council elections happen on staggered schedules. Citizens often miss polling. There is no aggregated voter-info tool. UNDP-supported transparency initiatives create grant alignment.",
+        "evidence": "https://uza.uz/ru/posts/mahallinskie-vybory"
+      },
+      "target_customer": "Civic-active mahalla residents 25-50 across Tashkent districts who want to vote informedly in mahalla elections",
+      "monetization": {
+        "model": "donation",
+        "price_point_usd": 0,
+        "year_1_revenue_target_usd": 5000,
+        "year_3_revenue_target_usd": 35000
+      },
+      "mvr_plan": {
+        "vehicle": "squeeze_page",
+        "build_steps": [
+          "Aggregate polling-station data from district hokimiyat sites",
+          "Carrd page + Telegram bot for reminders",
+          "Add candidate list scraped from official channels",
+          "UNDP-aligned grant pitch ($15-30K)",
+          "Soft-launch in spot.uz civic chat"
+        ],
+        "build_time_days": 6,
+        "build_cost_usd": 20
+      },
+      "validation": {
+        "signal_target": "1,000 reminder signups by next election cycle",
+        "validation_window_days": 60,
+        "channels": [
+          "spot.uz civic Telegram",
+          "Tashkent district groups"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Telegram Bot",
+        "Notion data"
+      ],
+      "founder_capability_required": [
+        "Russian and Uzbek-Latin",
+        "civic-tech network"
+      ],
+      "moat_potential": "Civic-tech grant continuity; can extend to national elections cycle.",
+      "risk_register": [
+        {
+          "risk": "Sensitive political topic",
+          "mitigation": "Stay neutral, no candidate endorsement"
+        },
+        {
+          "risk": "Data collection limits",
+          "mitigation": "Use only published sources"
+        },
+        {
+          "risk": "Low engagement",
+          "mitigation": "Lean on partner NGOs for distribution"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 5,
+        "speed_to_mvr": 9,
+        "monetization_path": 4,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 7,
+        "weighted_total": 6.1,
+        "scoring_rationale": "Civic value, weak monetization, political risk."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-024",
+      "country": "UZ",
+      "short_name": "ProcurementCoach",
+      "tagline": "Manifesto + paid masterclass: how to win your first xt-xarid.uz tender as an SME in 90 days",
+      "category": "content",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "uz-trend-003-ai-procurement-system",
+        "decree_id": "UZ-UP-2025-189",
+        "donor_program_id": null,
+        "pain_point": "First-time tender bidders fail at 80%+ rates due to format errors, missing documentation, mispricing. xt-xarid.uz publishes 200/day. UP-189 is creating a wave of new IT tenders that newcomers are unprepared for.",
+        "evidence": "https://xt-xarid.uz/"
+      },
+      "target_customer": "Tashkent and Samarkand IT consultancies, equipment dealers, and construction firms (5-30 employees) who have never won a state tender",
+      "monetization": {
+        "model": "one_time",
+        "price_point_usd": 99,
+        "year_1_revenue_target_usd": 25000,
+        "year_3_revenue_target_usd": 150000
+      },
+      "mvr_plan": {
+        "vehicle": "manifesto",
+        "build_steps": [
+          "Write 4,000-word manifesto: 'Why most Uzbek SMEs lose tenders and how to fix it'",
+          "Cross-post on LinkedIn, Habr, Spot.uz business blog",
+          "Convert into a $99 video masterclass (4 modules)",
+          "Substack-style email funnel",
+          "Soft-launch via TBC SME Telegram and IT Park UZ Telegram"
+        ],
+        "build_time_days": 10,
+        "build_cost_usd": 50
+      },
+      "validation": {
+        "signal_target": "200 manifesto reads + 25 paid masterclass purchases in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "LinkedIn UZ business",
+          "TBC SME Telegram",
+          "IT Park UZ Telegram",
+          "ICT Week 2026"
+        ]
+      },
+      "tech_stack": [
+        "Substack",
+        "Loom for video",
+        "Stripe + Click",
+        "Notion for course CMS"
+      ],
+      "founder_capability_required": [
+        "Russian",
+        "tender-bidding domain expertise (or interview 3 winners)",
+        "long-form writing"
+      ],
+      "moat_potential": "Authority brand on UZ procurement; alumni community becomes an SaaS upsell audience for TenderRadar UZ.",
+      "risk_register": [
+        {
+          "risk": "Specialized topic, slow audience build",
+          "mitigation": "Cross-promo with TenderRadar UZ MVP"
+        },
+        {
+          "risk": "Refund risk if course quality lacking",
+          "mitigation": "30-day money-back, transparent rubric"
+        },
+        {
+          "risk": "Outdated content as procurement law evolves",
+          "mitigation": "Quarterly update commitment"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 8,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 8,
+        "weighted_total": 7.45,
+        "scoring_rationale": "Brand-authority + course bundle, complementary to TenderRadar UZ."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-025",
+      "country": "UZ",
+      "short_name": "OneTouchPensionUZ",
+      "tagline": "Wizard-of-Oz service helping retired Uzbeks check, transfer, and dispute pension entitlements via Pension Fund e-services",
+      "category": "managed_service",
+      "sector": "Public Administration & e-Gov",
+      "underlying_demand": {
+        "trend_id": "uz-trend-005-mahalla-digital-social-registry",
+        "decree_id": "UZ-PP-2025-286",
+        "donor_program_id": "WB-UZ-P179108",
+        "pain_point": "Pension Fund Uzbekistan moved to e-services but most retirees (3M+ in active receipt) struggle with the portal. Their adult children call the call center on their behalf, often during work hours. Spot.uz forum 'pension digital' threads run constantly.",
+        "evidence": "https://pf.uz/ru"
+      },
+      "target_customer": "Adult children (35-55) in Tashkent and Andijan supporting parents (60-80) with pension matters, especially after a parent's residency move or spouse death",
+      "monetization": {
+        "model": "services",
+        "price_point_usd": 12,
+        "year_1_revenue_target_usd": 18000,
+        "year_3_revenue_target_usd": 110000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Compile top 10 pension-related tasks (transfer, dispute, certificate)",
+          "Telegram bot intake + power-of-attorney template",
+          "Founder + 1 student handle backend within 24h",
+          "Click payment, 150,000 UZS per task",
+          "Cross-post in Andijan parent groups + spot.uz seniors community"
+        ],
+        "build_time_days": 6,
+        "build_cost_usd": 80
+      },
+      "validation": {
+        "signal_target": "15 paid tasks in 30 days",
+        "validation_window_days": 45,
+        "channels": [
+          "Andijan parent Telegram groups",
+          "spot.uz seniors",
+          "Mahalla raisi referrals"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Notion",
+        "Click",
+        "Google Drive for PoA templates"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek-Latin",
+        "pension domain familiarity",
+        "patience with elderly callers"
+      ],
+      "moat_potential": "Productize into a $30/year pension-management subscription service for adult children of retirees; align with WB social protection program.",
+      "risk_register": [
+        {
+          "risk": "Power-of-attorney legal complexity",
+          "mitigation": "Partner with one Tashkent notary for template review"
+        },
+        {
+          "risk": "Low margins given operational time",
+          "mitigation": "Bundle with FormFiller UZ to share fulfillment ops"
+        },
+        {
+          "risk": "Sensitive customer base — fraud risk",
+          "mitigation": "Limit to verified family-relation submissions"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 8,
+        "speed_to_mvr": 9,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 9,
+        "weighted_total": 7.95,
+        "scoring_rationale": "Real pain, paying customers via adult children, partnership upside with WB."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    }
+  ]
+}

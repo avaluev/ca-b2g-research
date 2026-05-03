@@ -1,0 +1,2014 @@
+{
+  "country": "UZ",
+  "batch": "tourism_logistics_xcut",
+  "count": 25,
+  "mvps": [
+    {
+      "id": "uz-mvp-076",
+      "country": "UZ",
+      "short_name": "SilkRoadGuideUZ",
+      "tagline": "AI-powered Telegram bot delivering UNESCO Samarkand/Bukhara/Khiva tour itineraries in 6 languages with audio narration",
+      "category": "ai_tool",
+      "sector": "Tourism & Culture",
+      "underlying_demand": {
+        "trend_id": "uz-trend-030-tourism-ai-samarkand",
+        "decree_id": "UZ-UP-2025-189",
+        "donor_program_id": null,
+        "pain_point": "Tourist arrivals 8M+ in 2024. Multilingual audio guides exist for top 5 sites but not for broader Silk Road. Tour guides charge $50-200/day. AI tools fill the gap.",
+        "evidence": "https://uzbektourism.uz/"
+      },
+      "target_customer": "Independent tourists 25-65 from EU, Korea, China, Russia visiting UZ for 5-14 days; secondary: backpackers and digital nomads",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 9,
+        "year_1_revenue_target_usd": 18000,
+        "year_3_revenue_target_usd": 150000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Compile UNESCO + cultural-heritage content for top 30 sites",
+          "GPT-4o + ElevenLabs TTS for 6 languages (EN, RU, KO, ZH, FR, DE)",
+          "Telegram mini-app + audio download offline",
+          "Free 1 city, $9 for full country",
+          "Soft-launch via Bookmundi UZ + Lonely Planet UZ FB groups"
+        ],
+        "build_time_days": 12,
+        "build_cost_usd": 200
+      },
+      "validation": {
+        "signal_target": "500 free + 50 paid in 60 days during shoulder season",
+        "validation_window_days": 60,
+        "channels": [
+          "Lonely Planet UZ",
+          "TripAdvisor Tashkent forum",
+          "Tashkent expat WhatsApp",
+          "ICT Week 2026 tourism track"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Mini App",
+        "GPT-4o",
+        "ElevenLabs TTS",
+        "Supabase",
+        "Stripe"
+      ],
+      "founder_capability_required": [
+        "English + Russian",
+        "tourism content awareness",
+        "TTS engineering"
+      ],
+      "moat_potential": "Multilingual content library compounds; partnership with state tourism agency Uzbektourism for branding; can extend to Kyrgyzstan and Tajikistan.",
+      "risk_register": [
+        {
+          "risk": "Misinformation on cultural details",
+          "mitigation": "Historian advisor + UNESCO source review"
+        },
+        {
+          "risk": "Free competitors (Google Maps audio)",
+          "mitigation": "Lean on offline + 6 languages"
+        },
+        {
+          "risk": "Seasonality",
+          "mitigation": "B2B partnership with hotels for in-room subscription"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 8,
+        "speed_to_mvr": 7,
+        "monetization_path": 8,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 7.65,
+        "scoring_rationale": "Tourist boom, multilingual moat, partnership opportunity."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-077",
+      "country": "UZ",
+      "short_name": "TashkentDayPlanner",
+      "tagline": "Free Telegram tool: tells you 6 best things to do today in Tashkent based on weather, day of week, and your interests",
+      "category": "free_tool",
+      "sector": "Tourism & Culture",
+      "underlying_demand": {
+        "trend_id": "uz-trend-030-tourism-ai-samarkand",
+        "decree_id": "UZ-UP-2025-189",
+        "donor_program_id": null,
+        "pain_point": "Tashkent visitors and weekend Uzbeks struggle to plan. TripAdvisor is generic, English-only. Spot.uz publishes weekly 'what to do' but static.",
+        "evidence": "https://www.spot.uz/ru/category/biznes/lifestyle/"
+      },
+      "target_customer": "Tashkent visitors 25-65 + locals 25-45 looking for spontaneous weekend plans",
+      "monetization": {
+        "model": "ad",
+        "price_point_usd": 60,
+        "year_1_revenue_target_usd": 8000,
+        "year_3_revenue_target_usd": 60000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Compile 200 Tashkent activities with metadata",
+          "Telegram bot intake: budget + interests",
+          "Daily curated 6-item list",
+          "Sponsored slot for restaurants/venues at $60/mo",
+          "Soft-launch in spot.uz + Tashkent expat WhatsApp"
+        ],
+        "build_time_days": 6,
+        "build_cost_usd": 50
+      },
+      "validation": {
+        "signal_target": "1,000 weekly users + 1 sponsor in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "spot.uz lifestyle",
+          "Tashkent expat WhatsApp",
+          "Anorbank lifestyle Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Notion CMS",
+        "Plausible"
+      ],
+      "founder_capability_required": [
+        "Russian + English",
+        "Tashkent local knowledge"
+      ],
+      "moat_potential": "Local content + sponsor relationships compound.",
+      "risk_register": [
+        {
+          "risk": "Content stale",
+          "mitigation": "Crowdsourced updates"
+        },
+        {
+          "risk": "Low ad demand",
+          "mitigation": "Charge venues for featured listings"
+        },
+        {
+          "risk": "Competition from spot.uz",
+          "mitigation": "Lean on personalized + Telegram-native"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 9,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 7,
+        "weighted_total": 6.85,
+        "scoring_rationale": "Useful, modest revenue."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-078",
+      "country": "UZ",
+      "short_name": "HomestayAdminUZ",
+      "tagline": "Wizard-of-Oz: helps Uzbek B&B/homestay owners list on Booking.com + Airbnb, handle guest comms in English",
+      "category": "managed_service",
+      "sector": "Tourism & Culture",
+      "underlying_demand": {
+        "trend_id": "uz-trend-030-tourism-ai-samarkand",
+        "decree_id": "UZ-UP-2025-189",
+        "donor_program_id": null,
+        "pain_point": "Samarkand/Bukhara/Khiva homestay owners (1,000+) are local Uzbek-speakers; Booking.com listing requires English + photos. Many lose bookings due to communication barrier.",
+        "evidence": "https://uzbektourism.uz/"
+      },
+      "target_customer": "Homestay/B&B owners 35-60 in Samarkand, Bukhara, Khiva, Tashkent old city — Russian fluent but English limited",
+      "monetization": {
+        "model": "services",
+        "price_point_usd": 30,
+        "year_1_revenue_target_usd": 16000,
+        "year_3_revenue_target_usd": 100000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Templates for Booking.com + Airbnb optimized listings",
+          "Telegram bot intake: photos + features + price",
+          "Founder + 1 part-time English coach handle listing + guest comms",
+          "$30/listing + 10% bookings commission",
+          "Soft-launch via Samarkand homestay WhatsApp via researcher contacts"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 100
+      },
+      "validation": {
+        "signal_target": "10 paid listings + 2 commission deals in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Samarkand homestay WhatsApp",
+          "Bukhara hospitality Telegram",
+          "Khiva guesthouse network"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Notion",
+        "Click + Stripe"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek-Latin + English",
+        "Booking.com/Airbnb host experience",
+        "operations"
+      ],
+      "moat_potential": "Host + booking-channel network compounds; can scale to Kyrgyzstan and Tajikistan.",
+      "risk_register": [
+        {
+          "risk": "Channel rule changes",
+          "mitigation": "Multi-channel strategy"
+        },
+        {
+          "risk": "Operational burden",
+          "mitigation": "Cap at 30 hosts, then productize"
+        },
+        {
+          "risk": "Trust",
+          "mitigation": "Reference customers from researcher contacts"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 9,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 6,
+        "local_market_fit": 8,
+        "weighted_total": 7.3,
+        "scoring_rationale": "Real demand, fulfillment-bottlenecked, recurring."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-079",
+      "country": "UZ",
+      "short_name": "SamarkandRestoFinder",
+      "tagline": "Carrd directory of vetted Samarkand and Bukhara restaurants with English menus, halal/vegetarian filters, and direct WhatsApp",
+      "category": "content",
+      "sector": "Tourism & Culture",
+      "underlying_demand": {
+        "trend_id": "uz-trend-030-tourism-ai-samarkand",
+        "decree_id": "UZ-UP-2025-189",
+        "donor_program_id": null,
+        "pain_point": "Samarkand has 200+ restaurants but only 20-30 have Google Maps presence with English menus. Tourists rely on hotel concierge or random walk-ins. No vetted directory exists.",
+        "evidence": "https://www.tripadvisor.com/Restaurants-g293964-Samarkand_Samarkand_Province.html"
+      },
+      "target_customer": "Tourists 25-60 in Samarkand and Bukhara for 1-3 nights wanting authentic + reliable dining",
+      "monetization": {
+        "model": "listing_fee",
+        "price_point_usd": 25,
+        "year_1_revenue_target_usd": 9000,
+        "year_3_revenue_target_usd": 70000
+      },
+      "mvr_plan": {
+        "vehicle": "directory",
+        "build_steps": [
+          "Visit + photograph 30 Samarkand and 20 Bukhara restaurants",
+          "Carrd directory with English menus + price tier + halal/veg",
+          "$25/mo for featured listing + reservations link",
+          "Click + Stripe",
+          "Soft-launch via Lonely Planet + TripAdvisor forum"
+        ],
+        "build_time_days": 10,
+        "build_cost_usd": 150
+      },
+      "validation": {
+        "signal_target": "3,000 visits + 5 paid restaurants in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Lonely Planet UZ",
+          "TripAdvisor Samarkand",
+          "Bookmundi",
+          "Tashkent expat WhatsApp"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Notion CMS",
+        "Plausible",
+        "Click"
+      ],
+      "founder_capability_required": [
+        "English + Russian + Uzbek-Latin",
+        "field visits",
+        "B2B sales to restaurant owners"
+      ],
+      "moat_potential": "Quality curation + sponsor network; can extend to other Silk Road cities.",
+      "risk_register": [
+        {
+          "risk": "Initial outreach time",
+          "mitigation": "Allocate 10 days field visit"
+        },
+        {
+          "risk": "Low restaurant payment",
+          "mitigation": "Volume pricing, 6-month deals"
+        },
+        {
+          "risk": "Outdated menus",
+          "mitigation": "Quarterly photo refresh"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 7,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 6.95,
+        "scoring_rationale": "Solid niche, field-time intensive, slow build."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-080",
+      "country": "UZ",
+      "short_name": "TashkentTaxiRateCheck",
+      "tagline": "Free tool: get fair Yandex Go and local taxi rates for Tashkent routes, exposing surge pricing rip-offs",
+      "category": "free_tool",
+      "sector": "Transport & Urban",
+      "underlying_demand": {
+        "trend_id": "uz-trend-018-smart-traffic-tashkent",
+        "decree_id": "UZ-UP-2025-189",
+        "donor_program_id": null,
+        "pain_point": "Yandex Go and Maxim use surge pricing — locals + tourists overpay. Spot.uz has covered driver overcharging. No transparent rate calculator.",
+        "evidence": "https://www.spot.uz/ru/category/biznes/transport/"
+      },
+      "target_customer": "Tashkent commuters 25-50 + tourists making 10+ taxi trips/month",
+      "monetization": {
+        "model": "ad",
+        "price_point_usd": 50,
+        "year_1_revenue_target_usd": 5000,
+        "year_3_revenue_target_usd": 40000
+      },
+      "mvr_plan": {
+        "vehicle": "ad_booking",
+        "build_steps": [
+          "Reverse-engineer Yandex Go API or use scraping",
+          "Web app + Telegram bot: enter origin + destination, get price quote",
+          "Sponsored slot for one taxi alternative (Tap, Pulsar)",
+          "Soft-launch in spot.uz transport chat + Tashkent commuter Telegram",
+          "Add tip jar"
+        ],
+        "build_time_days": 6,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "2,000 visits + 1 sponsor in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "spot.uz transport",
+          "Tashkent commuter Telegram",
+          "Tashkent expat WhatsApp"
+        ]
+      },
+      "tech_stack": [
+        "Python scraper",
+        "Telegram Bot",
+        "Carrd",
+        "Click for tip"
+      ],
+      "founder_capability_required": [
+        "Russian",
+        "scraping",
+        "B2B sales"
+      ],
+      "moat_potential": "Rate-history dataset + alternative-taxi sponsorship.",
+      "risk_register": [
+        {
+          "risk": "Yandex blocks scraping",
+          "mitigation": "User-side browser extension"
+        },
+        {
+          "risk": "Niche",
+          "mitigation": "Bundle with TashkentDayPlanner"
+        },
+        {
+          "risk": "Low ad demand",
+          "mitigation": "Tip jar baseline"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 9,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 7,
+        "weighted_total": 6.65,
+        "scoring_rationale": "Niche utility, modest revenue."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-081",
+      "country": "UZ",
+      "short_name": "TashkentParkingMap",
+      "tagline": "Free Telegram bot showing real-time legal parking availability across Tashkent, with violation-fine alerts",
+      "category": "free_tool",
+      "sector": "Transport & Urban",
+      "underlying_demand": {
+        "trend_id": "uz-trend-018-smart-traffic-tashkent",
+        "decree_id": "UZ-UP-2025-189",
+        "donor_program_id": null,
+        "pain_point": "Tashkent has 2M+ vehicles, parking enforcement uneven. Drivers fined 200K-500K UZS for unclear violations. Spot.uz transport publishes parking guide reactively.",
+        "evidence": "https://www.spot.uz/ru/category/biznes/transport/"
+      },
+      "target_customer": "Tashkent drivers 25-55 — daily commuters + weekend shoppers; secondary: out-of-town visitors",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 3,
+        "year_1_revenue_target_usd": 6000,
+        "year_3_revenue_target_usd": 50000
+      },
+      "mvr_plan": {
+        "vehicle": "ad_booking",
+        "build_steps": [
+          "Scrape DDA traffic-violation data + parking signage rules",
+          "Telegram bot intake: pin destination",
+          "Output: closest legal parking + estimated fine if illegal",
+          "$3/mo for unlimited + history",
+          "Soft-launch in spot.uz + Tashkent drivers Telegram"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 50
+      },
+      "validation": {
+        "signal_target": "300 free + 30 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "spot.uz transport",
+          "Tashkent drivers Telegram",
+          "TBC SME mobility"
+        ]
+      },
+      "tech_stack": [
+        "Python",
+        "Mapbox",
+        "Telegram Bot",
+        "Click"
+      ],
+      "founder_capability_required": [
+        "Russian",
+        "GIS basics",
+        "scraping"
+      ],
+      "moat_potential": "Parking + violation dataset; possible OEM to navigation apps.",
+      "risk_register": [
+        {
+          "risk": "Data limited",
+          "mitigation": "Crowdsource from users"
+        },
+        {
+          "risk": "Govt smart-traffic absorbs",
+          "mitigation": "Lean on UX speed"
+        },
+        {
+          "risk": "Low conversion",
+          "mitigation": "Bundle with TashkentTaxiRateCheck"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 8,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 7,
+        "weighted_total": 6.55,
+        "scoring_rationale": "Useful, modest demand."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-082",
+      "country": "UZ",
+      "short_name": "BorderWaitUZ",
+      "tagline": "Live Telegram bot showing wait times at UZ-KZ, UZ-KG, UZ-TJ, UZ-TM, UZ-AF border crossings, crowd-sourced",
+      "category": "free_tool",
+      "sector": "Transport & Urban",
+      "underlying_demand": {
+        "trend_id": "uz-trend-019-middle-corridor-logistics-ai",
+        "decree_id": "UZ-UP-2025-189",
+        "donor_program_id": null,
+        "pain_point": "Border-crossing wait times unpredictable, especially Uzbekistan-Kazakhstan. Truck drivers and migrants lose 6-12h. No live feed exists; informal Telegram channels do crude job.",
+        "evidence": "https://www.spot.uz/ru/category/biznes/logistics/"
+      },
+      "target_customer": "Truck drivers + freight forwarders 30-60; secondary: cross-border migrants returning",
+      "monetization": {
+        "model": "donation",
+        "price_point_usd": 0,
+        "year_1_revenue_target_usd": 4000,
+        "year_3_revenue_target_usd": 30000
+      },
+      "mvr_plan": {
+        "vehicle": "ad_booking",
+        "build_steps": [
+          "Build Telegram bot: report wait time + photo",
+          "Aggregate + display per-crossing live",
+          "Donation tip jar (Click)",
+          "Soft-launch in trucker WhatsApp + customs forum",
+          "Sponsor logistics SaaS at $80/mo"
+        ],
+        "build_time_days": 5,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "300 active reporters + 1 sponsor in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "UZ trucker WhatsApp",
+          "Andijan migrant Telegram",
+          "logistics forum Habr"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Supabase",
+        "Mapbox"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek-Latin",
+        "trucker network outreach"
+      ],
+      "moat_potential": "Crowdsourced data + B2B logistics sponsorship; possible OEM to State Customs Committee.",
+      "risk_register": [
+        {
+          "risk": "Reporter quality",
+          "mitigation": "Multi-reporter cross-check"
+        },
+        {
+          "risk": "Low ad demand",
+          "mitigation": "Tip jar baseline"
+        },
+        {
+          "risk": "Coverage gaps",
+          "mitigation": "Focus on top 3 crossings first"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 9,
+        "monetization_path": 4,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 6.85,
+        "scoring_rationale": "Useful, civic value, modest revenue."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-083",
+      "country": "UZ",
+      "short_name": "FreightTrackerUZ",
+      "tagline": "SaaS for small Uzbek logistics firms: GPS tracking + driver mobile app for $30/mo, no hardware",
+      "category": "saas",
+      "sector": "Transport & Urban",
+      "underlying_demand": {
+        "trend_id": "uz-trend-019-middle-corridor-logistics-ai",
+        "decree_id": "UZ-UP-2025-189",
+        "donor_program_id": null,
+        "pain_point": "5,000+ small Uzbek logistics firms (5-50 trucks) lack GPS tracking. Wialon and Galileo charge $50-100/truck/month + hardware. Telegram-based check-ins are common.",
+        "evidence": "https://www.spot.uz/ru/category/biznes/logistics/"
+      },
+      "target_customer": "Small Uzbek logistics firms 25-200 trucks doing UZ + Middle Corridor routes; owner-operators",
+      "monetization": {
+        "model": "subscription",
+        "price_point_usd": 30,
+        "year_1_revenue_target_usd": 18000,
+        "year_3_revenue_target_usd": 150000
+      },
+      "mvr_plan": {
+        "vehicle": "landing_page",
+        "build_steps": [
+          "Build Android-only driver app with GPS + Telegram",
+          "Web dashboard for fleet owner",
+          "$30/mo per truck flat",
+          "Click subscription",
+          "Soft-launch via TBC SME logistics + ICT Week 2026"
+        ],
+        "build_time_days": 12,
+        "build_cost_usd": 200
+      },
+      "validation": {
+        "signal_target": "3 firms + 30 trucks paying in 90 days",
+        "validation_window_days": 90,
+        "channels": [
+          "TBC SME logistics",
+          "ICT Week 2026 logistics",
+          "UZ trucker WhatsApp"
+        ]
+      },
+      "tech_stack": [
+        "Flutter Android",
+        "Supabase",
+        "Mapbox",
+        "Click subscription"
+      ],
+      "founder_capability_required": [
+        "Russian",
+        "Flutter dev",
+        "B2B logistics sales"
+      ],
+      "moat_potential": "Recurring SaaS, can extend to compliance + driver behavior; possible OEM to State Customs Committee for Middle Corridor pilot.",
+      "risk_register": [
+        {
+          "risk": "Wialon undercut",
+          "mitigation": "Lean on simple UX + Russian-language support"
+        },
+        {
+          "risk": "Hardware-free reliability",
+          "mitigation": "Phone-based GPS + driver compliance"
+        },
+        {
+          "risk": "Slow adoption",
+          "mitigation": "Free 30-day trial; partner with TBC fleet financing"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 6,
+        "monetization_path": 8,
+        "founder_solo_feasibility": 6,
+        "local_market_fit": 7,
+        "weighted_total": 6.95,
+        "scoring_rationale": "Recurring SaaS, build-time intensive but viable."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-084",
+      "country": "UZ",
+      "short_name": "LastMileTashkent",
+      "tagline": "Wizard-of-Oz: Tashkent SMEs send 5-50 packages/day to last-mile riders via Telegram, manual dispatch",
+      "category": "managed_service",
+      "sector": "Transport & Urban",
+      "underlying_demand": {
+        "trend_id": "uz-trend-019-middle-corridor-logistics-ai",
+        "decree_id": "UZ-UP-2025-189",
+        "donor_program_id": null,
+        "pain_point": "Tashkent SMEs (online retailers, small wholesalers) deliver via Yandex/Maxim drivers ad-hoc — expensive and unreliable. Express24 + UzPost target enterprise. SMEs want simpler.",
+        "evidence": "https://www.spot.uz/ru/category/biznes/logistics/"
+      },
+      "target_customer": "Tashkent online retailers 5-30 employees doing 5-50 deliveries/day (clothing, F&B, electronics)",
+      "monetization": {
+        "model": "services",
+        "price_point_usd": 3,
+        "year_1_revenue_target_usd": 18000,
+        "year_3_revenue_target_usd": 150000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Recruit 3-5 reliable Telegram-active riders",
+          "Telegram bot intake from SMEs",
+          "Founder dispatches via Notion",
+          "$3 per delivery in Tashkent",
+          "Soft-launch via TBC SME + Tashkent retail Telegram"
+        ],
+        "build_time_days": 5,
+        "build_cost_usd": 100
+      },
+      "validation": {
+        "signal_target": "5 SME clients + 200 deliveries in 30 days",
+        "validation_window_days": 30,
+        "channels": [
+          "TBC SME",
+          "Tashkent retail Telegram",
+          "spot.uz commerce"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Notion",
+        "Click"
+      ],
+      "founder_capability_required": [
+        "Russian",
+        "logistics ops",
+        "rider network"
+      ],
+      "moat_potential": "Rider network + SME book is the moat; possible scale to Yandex equivalent.",
+      "risk_register": [
+        {
+          "risk": "Operational burden",
+          "mitigation": "Productize after 200 deliveries/wk"
+        },
+        {
+          "risk": "Rider quality",
+          "mitigation": "Performance bonuses + ratings"
+        },
+        {
+          "risk": "Yandex moves down market",
+          "mitigation": "Lean on personal SME relationships"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 9,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 6,
+        "local_market_fit": 8,
+        "weighted_total": 7.3,
+        "scoring_rationale": "Real cash, operationally heavy."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-085",
+      "country": "UZ",
+      "short_name": "BusScheduleUZ",
+      "tagline": "Free tool aggregating real-time Tashkent bus + metro schedules + GPS tracking, in Russian and Uzbek",
+      "category": "free_tool",
+      "sector": "Transport & Urban",
+      "underlying_demand": {
+        "trend_id": "uz-trend-018-smart-traffic-tashkent",
+        "decree_id": "UZ-UP-2025-189",
+        "donor_program_id": null,
+        "pain_point": "Tashkent metro + bus schedules are official-but-buried. Yandex Maps coverage is partial. Commuters wait 10-15 min in summer heat.",
+        "evidence": "https://www.spot.uz/ru/category/biznes/transport/"
+      },
+      "target_customer": "Tashkent commuters 18-55 using public transit daily; secondary: tourists using public transit",
+      "monetization": {
+        "model": "ad",
+        "price_point_usd": 100,
+        "year_1_revenue_target_usd": 6000,
+        "year_3_revenue_target_usd": 50000
+      },
+      "mvr_plan": {
+        "vehicle": "ad_booking",
+        "build_steps": [
+          "Build Telegram bot + web app fed by Tashkent Transit open data",
+          "Add user-reported delays",
+          "Sponsored slot for ride-hailing alternatives",
+          "Soft-launch via spot.uz + TashkentMetro Telegram",
+          "Add tip jar"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 60
+      },
+      "validation": {
+        "signal_target": "3,000 unique users + 1 sponsor in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "spot.uz transport",
+          "Tashkent commuter Telegram",
+          "Tashkent expat WhatsApp"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Carrd",
+        "Notion (data)"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek-Latin",
+        "data integration"
+      ],
+      "moat_potential": "Tashkent commuter audience compounds; can extend to other oblasts.",
+      "risk_register": [
+        {
+          "risk": "Open data limited",
+          "mitigation": "Crowdsource from users"
+        },
+        {
+          "risk": "Govt absorbs",
+          "mitigation": "Lean on UX speed"
+        },
+        {
+          "risk": "Low ad demand",
+          "mitigation": "Tip jar baseline"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 8,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 8,
+        "weighted_total": 6.85,
+        "scoring_rationale": "Mass utility, modest revenue."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-086",
+      "country": "UZ",
+      "short_name": "AirQualityUZ",
+      "tagline": "Free public dashboard + Telegram alert for Tashkent air quality (PM2.5/PM10) with health-impact recommendations",
+      "category": "free_tool",
+      "sector": "Agriculture & Water",
+      "underlying_demand": {
+        "trend_id": "uz-trend-028-air-quality-ai",
+        "decree_id": "UZ-UP-2025-189",
+        "donor_program_id": null,
+        "pain_point": "Tashkent air pollution worst in Central Asia winter; school closures debate active. UNDP and WB support air-quality. AirVisual is paid, English-only.",
+        "evidence": "https://www.spot.uz/ru/category/biznes/lifestyle/"
+      },
+      "target_customer": "Tashkent parents 30-50 with kids; secondary: chronic-respiratory patients; tourists",
+      "monetization": {
+        "model": "donation",
+        "price_point_usd": 0,
+        "year_1_revenue_target_usd": 8000,
+        "year_3_revenue_target_usd": 60000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Aggregate IQAir + state monitoring + 1-2 own sensors",
+          "Build Vercel + Next.js dashboard + Telegram bot",
+          "UNDP/UNICEF grant pitch ($25K)",
+          "Soft-launch in Tashkent parent + spot.uz lifestyle",
+          "Sell sensor partnership at $200/mo"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 100
+      },
+      "validation": {
+        "signal_target": "1,500 users + 1 sponsor / grant in 60 days",
+        "validation_window_days": 90,
+        "channels": [
+          "Tashkent parent Telegram",
+          "spot.uz",
+          "UNDP partner network"
+        ]
+      },
+      "tech_stack": [
+        "Next.js + Vercel",
+        "Telegram Bot",
+        "Sensor.community",
+        "Mapbox"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek-Latin",
+        "dashboard dev",
+        "civic-tech outreach"
+      ],
+      "moat_potential": "Air-quality data continuity; donor-grant viable; possible licensing to schools.",
+      "risk_register": [
+        {
+          "risk": "Sensor cost",
+          "mitigation": "Use IQAir + state data initially"
+        },
+        {
+          "risk": "Politically sensitive",
+          "mitigation": "Stay descriptive, partner with UNDP"
+        },
+        {
+          "risk": "Low monetization",
+          "mitigation": "Grant + sensor sponsorship"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 9,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 7.1,
+        "scoring_rationale": "Civic value, donor-aligned."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-087",
+      "country": "UZ",
+      "short_name": "WeatherFarmAlertUZ",
+      "tagline": "Free SMS+Telegram weather alerts for Uzbek farmers — frost, heatwaves, hail — using ECMWF open data",
+      "category": "free_tool",
+      "sector": "Agriculture & Water",
+      "underlying_demand": {
+        "trend_id": "uz-trend-036-ai-weather-forecasting",
+        "decree_id": "UZ-UP-2025-189",
+        "donor_program_id": "WB-UZ-AGRI-DIGITAL",
+        "pain_point": "UP-189 mandates AI weather forecasting (Mar 2026 deadline). Farmers lose crops to frost/hail with no warning. State Met Service is generic. Smallholders need pin-coded alerts.",
+        "evidence": "https://lex.uz/ru/docs/7790236"
+      },
+      "target_customer": "Smallholder farmers 30-65 in Fergana, Bukhara, Samarkand growing fruit, vegetables, cotton",
+      "monetization": {
+        "model": "donation",
+        "price_point_usd": 0,
+        "year_1_revenue_target_usd": 5000,
+        "year_3_revenue_target_usd": 50000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Pull ECMWF Open Data via Open-Meteo API",
+          "Telegram bot + SMS via Twilio",
+          "Per-pin alert rule",
+          "WB grant pitch ($30K)",
+          "Soft-launch in Fergana farmer Telegram + agro.uz"
+        ],
+        "build_time_days": 6,
+        "build_cost_usd": 50
+      },
+      "validation": {
+        "signal_target": "1,000 farmer signups in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Fergana farmer Telegram",
+          "agro.uz",
+          "Uzdjm cooperative"
+        ]
+      },
+      "tech_stack": [
+        "Open-Meteo",
+        "Telegram Bot",
+        "Twilio SMS"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek-Latin",
+        "weather data API"
+      ],
+      "moat_potential": "Farmer audience + alert dataset; donor-grant; cross-promo with CottonYieldBot.",
+      "risk_register": [
+        {
+          "risk": "False alarms",
+          "mitigation": "Multi-source forecast + threshold tuning"
+        },
+        {
+          "risk": "SMS cost",
+          "mitigation": "Telegram primary, SMS premium"
+        },
+        {
+          "risk": "State competitor",
+          "mitigation": "Lean on Telegram-native + per-pin"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 8,
+        "speed_to_mvr": 9,
+        "monetization_path": 4,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 9,
+        "weighted_total": 7.45,
+        "scoring_rationale": "Civic + farmer impact, donor-aligned, cross-promo potential."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-088",
+      "country": "UZ",
+      "short_name": "EcoClubUZ",
+      "tagline": "Manifesto + paid community: monthly Telegram circle for Uzbek eco-conscious 25-40, with grant + project support",
+      "category": "content",
+      "sector": "Environment & Climate",
+      "underlying_demand": {
+        "trend_id": "uz-trend-028-air-quality-ai",
+        "decree_id": "UZ-UP-2025-189",
+        "donor_program_id": "UNDP-UZ-DIGITAL-PUBADMIN",
+        "pain_point": "Uzbek environmental NGOs are scattered. Eco-conscious 25-40 lack a community + project funding pathway. UNDP supports eco-civil society.",
+        "evidence": "https://www.undp.org/uzbekistan"
+      },
+      "target_customer": "Educated Uzbek 25-40 in Tashkent, Samarkand, Bukhara interested in environment, climate, sustainability",
+      "monetization": {
+        "model": "subscription",
+        "price_point_usd": 8,
+        "year_1_revenue_target_usd": 7000,
+        "year_3_revenue_target_usd": 50000
+      },
+      "mvr_plan": {
+        "vehicle": "demo_video",
+        "build_steps": [
+          "Write 4,000-word manifesto on 'Uzbek environmentalism in 2030'",
+          "Cross-post on Habr UZ + spot.uz",
+          "Substack + paid tier",
+          "Monthly Zoom circle for paid members",
+          "UNDP grant pitch ($20K)"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 50
+      },
+      "validation": {
+        "signal_target": "500 free + 50 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Habr UZ",
+          "spot.uz lifestyle",
+          "UNDP partner network",
+          "Tashkent eco-NGOs"
+        ]
+      },
+      "tech_stack": [
+        "Substack",
+        "Zoom",
+        "Click"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek-Latin + English",
+        "long-form writing",
+        "community-building"
+      ],
+      "moat_potential": "Brand + community compounds; donor-grant continuity.",
+      "risk_register": [
+        {
+          "risk": "Niche audience",
+          "mitigation": "Cross-promo with EcoTours UZ + AirQualityUZ"
+        },
+        {
+          "risk": "Content fatigue",
+          "mitigation": "Member-driven topics"
+        },
+        {
+          "risk": "Politically sensitive",
+          "mitigation": "Stay descriptive"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 5,
+        "speed_to_mvr": 9,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 6,
+        "weighted_total": 6.4,
+        "scoring_rationale": "Niche, brand-driven, slow."
+      },
+      "confidence_tier": "C",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-089",
+      "country": "UZ",
+      "short_name": "EcoTourUZ",
+      "tagline": "Wizard-of-Oz curator: hand-picked eco-tours of Aral, Chimgan, Zaamin, with 1:1 trip planning in English/Russian",
+      "category": "managed_service",
+      "sector": "Tourism & Culture",
+      "underlying_demand": {
+        "trend_id": "uz-trend-030-tourism-ai-samarkand",
+        "decree_id": "UZ-UP-2025-189",
+        "donor_program_id": null,
+        "pain_point": "Foreign tourists 30-55 want eco-experiences (Aral basin, Chimgan, Zaamin) but can't find vetted operators. Big tour ops focus on Samarkand. Lonely Planet UZ has minimal eco-tour content.",
+        "evidence": "https://uzbektourism.uz/"
+      },
+      "target_customer": "Eco-conscious tourists 30-55 from EU/Korea/Japan/Russia spending $1K-3K for 5-10 days in Uzbekistan",
+      "monetization": {
+        "model": "services",
+        "price_point_usd": 200,
+        "year_1_revenue_target_usd": 16000,
+        "year_3_revenue_target_usd": 100000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Partner with 3 local eco-guides (Aral, Chimgan, Zaamin) on revenue split",
+          "Carrd page + Telegram intake",
+          "$200 trip-planning fee + 10% commission on trip cost",
+          "Click + bank wire for foreign payment",
+          "Soft-launch via Lonely Planet + Tashkent expat WhatsApp"
+        ],
+        "build_time_days": 8,
+        "build_cost_usd": 100
+      },
+      "validation": {
+        "signal_target": "5 paid trips in 90 days",
+        "validation_window_days": 90,
+        "channels": [
+          "Lonely Planet UZ",
+          "TripAdvisor Tashkent",
+          "Tashkent expat WhatsApp",
+          "ICT Week 2026 tourism track"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Notion",
+        "Click + Stripe Atlas + Wise"
+      ],
+      "founder_capability_required": [
+        "English + Russian + Uzbek-Latin",
+        "guide network",
+        "trip planning"
+      ],
+      "moat_potential": "Eco-guide network + foreign-tourist book; can scale to Kyrgyzstan + Tajikistan.",
+      "risk_register": [
+        {
+          "risk": "Seasonality",
+          "mitigation": "Diversify with SilkRoadGuideUZ"
+        },
+        {
+          "risk": "Guide reliability",
+          "mitigation": "Test trips + reviews"
+        },
+        {
+          "risk": "Foreign payment friction",
+          "mitigation": "Stripe Atlas or Wise"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 8,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 6,
+        "local_market_fit": 7,
+        "weighted_total": 6.8,
+        "scoring_rationale": "Premium niche, fulfillment-driven."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-090",
+      "country": "UZ",
+      "short_name": "EmergencyAlertUZ",
+      "tagline": "Free Telegram tool aggregating MChS earthquake/flood alerts in Uzbek + Russian + English, with safety checklists",
+      "category": "free_tool",
+      "sector": "Cross-cutting",
+      "underlying_demand": {
+        "trend_id": "uz-trend-027-emergency-ai-mchs",
+        "decree_id": "UZ-UP-2025-189",
+        "donor_program_id": null,
+        "pain_point": "Tashkent earthquake risk (Tien Shan zone). MChS alerts are SMS-only and Russian. Foreign expats and Uzbek-Latin readers underserved.",
+        "evidence": "https://fvv.uz/"
+      },
+      "target_customer": "Tashkent residents + expats + tourists; secondary: parents wanting school-safety alerts",
+      "monetization": {
+        "model": "donation",
+        "price_point_usd": 0,
+        "year_1_revenue_target_usd": 4000,
+        "year_3_revenue_target_usd": 30000
+      },
+      "mvr_plan": {
+        "vehicle": "ad_booking",
+        "build_steps": [
+          "Aggregate USGS + MChS official feeds",
+          "Telegram bot in Uzbek-Latin + Russian + English",
+          "Push safety checklists",
+          "Donation tip jar via Click",
+          "Soft-launch via spot.uz + Tashkent expat WhatsApp"
+        ],
+        "build_time_days": 5,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "2,000 subscribers in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "spot.uz",
+          "Tashkent expat WhatsApp",
+          "kun.uz Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Python",
+        "USGS API"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek-Latin + English",
+        "API integration"
+      ],
+      "moat_potential": "Civic value + donor-grant viable.",
+      "risk_register": [
+        {
+          "risk": "False alarms",
+          "mitigation": "Multi-source threshold"
+        },
+        {
+          "risk": "Govt competitor",
+          "mitigation": "Lean on multilingual"
+        },
+        {
+          "risk": "Low monetization",
+          "mitigation": "Tip jar + grant"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 10,
+        "monetization_path": 4,
+        "founder_solo_feasibility": 9,
+        "local_market_fit": 8,
+        "weighted_total": 6.9,
+        "scoring_rationale": "Civic, low cost, donor-aligned."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-091",
+      "country": "UZ",
+      "short_name": "UzbekLLMPlayground",
+      "tagline": "Free demo: try Uzbek-language Llama or Yandex GPT for content writing, summarization, translation",
+      "category": "demo_video",
+      "sector": "AI Infrastructure",
+      "underlying_demand": {
+        "trend_id": "uz-trend-031-sovereign-llm-uzbek",
+        "decree_id": "UZ-UP-2025-189",
+        "donor_program_id": null,
+        "pain_point": "UP-189 mandates sovereign Uzbek LLM. Developers and content creators want to evaluate Uzbek-language models without infra setup. No public Uzbek LLM playground exists.",
+        "evidence": "https://lex.uz/ru/docs/7790236"
+      },
+      "target_customer": "Uzbek developers 22-40 in IT Park, content creators, marketers; secondary: government innovation officers exploring AI",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 12,
+        "year_1_revenue_target_usd": 8000,
+        "year_3_revenue_target_usd": 70000
+      },
+      "mvr_plan": {
+        "vehicle": "landing_page",
+        "build_steps": [
+          "Host Llama-3 8B + Yandex GPT API on HuggingFace + Replicate",
+          "Carrd page + Telegram bot + web playground",
+          "Free 100 prompts/mo, $12/mo unlimited + API access",
+          "Click + Stripe",
+          "Soft-launch in IT Park UZ + Habr UZ"
+        ],
+        "build_time_days": 8,
+        "build_cost_usd": 150
+      },
+      "validation": {
+        "signal_target": "200 free + 30 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "IT Park UZ Telegram",
+          "Habr UZ",
+          "uzcloud Slack"
+        ]
+      },
+      "tech_stack": [
+        "HuggingFace + Replicate",
+        "Telegram Bot",
+        "Next.js",
+        "Click + Stripe"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek-Latin + English",
+        "ML basics",
+        "API integration"
+      ],
+      "moat_potential": "Authority brand on Uzbek AI; possible OEM to government innovation labs; aligns with UP-189 sovereign LLM trend.",
+      "risk_register": [
+        {
+          "risk": "Cost of API calls",
+          "mitigation": "Cache + rate limit"
+        },
+        {
+          "risk": "Model quality",
+          "mitigation": "Multi-model selector"
+        },
+        {
+          "risk": "Government competitor",
+          "mitigation": "Lean on UX speed"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 8,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 7,
+        "weighted_total": 6.75,
+        "scoring_rationale": "Decree-driven, AI-leveraged, niche."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-092",
+      "country": "UZ",
+      "short_name": "PaymentRoutingUZ",
+      "tagline": "Free tool: best Click vs Payme vs Apelsin route for SME accepting Uzbek consumer payments",
+      "category": "free_tool",
+      "sector": "Cross-cutting",
+      "underlying_demand": {
+        "trend_id": "uz-trend-024-suptech-fintech-ai",
+        "decree_id": "UZ-UP-2025-189",
+        "donor_program_id": null,
+        "pain_point": "Click, Payme, Apelsin charge 1.2-3% with different fee tables. SMEs guess. No transparent comparison tool.",
+        "evidence": "https://www.spot.uz/ru/category/biznes/finance/"
+      },
+      "target_customer": "Tashkent SMEs accepting consumer payments — restaurants, retailers, online businesses",
+      "monetization": {
+        "model": "ad",
+        "price_point_usd": 80,
+        "year_1_revenue_target_usd": 6000,
+        "year_3_revenue_target_usd": 50000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Compile fee tables + integration cost",
+          "Carrd calculator + Telegram bot",
+          "Sponsored slot for one provider ($80/mo)",
+          "Affiliate to Octobank acquiring",
+          "Soft-launch in TBC SME + IT Park UZ"
+        ],
+        "build_time_days": 4,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "1,500 visits + 1 sponsor in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "TBC SME",
+          "IT Park UZ",
+          "spot.uz business"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Notion CMS"
+      ],
+      "founder_capability_required": [
+        "Russian",
+        "fintech-domain familiarity"
+      ],
+      "moat_potential": "Sponsorship + affiliate compounds.",
+      "risk_register": [
+        {
+          "risk": "Fee table changes",
+          "mitigation": "Monthly review"
+        },
+        {
+          "risk": "Low ad demand",
+          "mitigation": "Affiliate-driven"
+        },
+        {
+          "risk": "Niche audience",
+          "mitigation": "Bundle with FreelancerInvoiceUZ"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 10,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 9,
+        "local_market_fit": 8,
+        "weighted_total": 7.0,
+        "scoring_rationale": "Cheap utility, affiliate-driven."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-093",
+      "country": "UZ",
+      "short_name": "OZONForUZ",
+      "tagline": "Wizard-of-Oz: helps Uzbek SMEs list on Russia OZON marketplace, handling fulfillment + tax setup",
+      "category": "managed_service",
+      "sector": "Cross-cutting",
+      "underlying_demand": {
+        "trend_id": "uz-trend-025-labour-market-ai",
+        "decree_id": "UZ-UP-2025-189",
+        "donor_program_id": null,
+        "pain_point": "OZON, Wildberries, Yandex Market are top revenue channels for UZ exporters. Small UZ SMEs lack Russian-tax + fulfillment know-how. Spot.uz business covers OZON entry topic.",
+        "evidence": "https://www.spot.uz/ru/category/biznes/marketplace/"
+      },
+      "target_customer": "Uzbek SMEs 5-30 employees in textile, food, electronics looking to enter Russian e-commerce",
+      "monetization": {
+        "model": "services",
+        "price_point_usd": 200,
+        "year_1_revenue_target_usd": 18000,
+        "year_3_revenue_target_usd": 120000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Partner with one Moscow fulfillment broker",
+          "Telegram intake + Notion onboarding",
+          "$200 setup + 5% commission on first $10K sales",
+          "Click + bank wire",
+          "Soft-launch in TBC SME exporter Telegram + Spot.uz business"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 150
+      },
+      "validation": {
+        "signal_target": "5 paid setups in 60 days",
+        "validation_window_days": 90,
+        "channels": [
+          "TBC SME exporter",
+          "Spot.uz business",
+          "ICT Week 2026 e-commerce track"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Notion",
+        "Click + Stripe"
+      ],
+      "founder_capability_required": [
+        "Russian + Uzbek-Latin",
+        "OZON/WB seller domain",
+        "Russian tax basics"
+      ],
+      "moat_potential": "OZON + WB seller library; possible scale to other CIS marketplaces.",
+      "risk_register": [
+        {
+          "risk": "Russian sanctions impact",
+          "mitigation": "Multi-marketplace strategy"
+        },
+        {
+          "risk": "Logistics friction",
+          "mitigation": "Partner Moscow broker"
+        },
+        {
+          "risk": "Low margins",
+          "mitigation": "Premium tier with content marketing"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 8,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 6,
+        "local_market_fit": 8,
+        "weighted_total": 7.2,
+        "scoring_rationale": "Russian-CIS substitution play, real cash."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-094",
+      "country": "UZ",
+      "short_name": "DigitalLicenseGuideUZ",
+      "tagline": "Free tool: are you ready for Digital Code Chapter 23 AI compliance? 5-min assessment for UZ businesses",
+      "category": "free_tool",
+      "sector": "Cross-cutting",
+      "underlying_demand": {
+        "trend_id": "uz-trend-034-ai-governance-compliance",
+        "decree_id": "UZ-UP-2025-189",
+        "donor_program_id": null,
+        "pain_point": "ЗРУ-1115 (Uzbek AI Law) creates compliance obligations for AI-using businesses. SMEs unsure if they're affected. No assessment tool exists.",
+        "evidence": "https://lex.uz/ru/docs/7790236"
+      },
+      "target_customer": "Uzbek SMEs + tech firms 5-100 employees deploying AI features (chatbots, recommendation engines)",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 99,
+        "year_1_revenue_target_usd": 9000,
+        "year_3_revenue_target_usd": 80000
+      },
+      "mvr_plan": {
+        "vehicle": "ad_booking",
+        "build_steps": [
+          "Compile compliance checklist from ЗРУ-1115",
+          "Carrd page with 10-question assessment",
+          "Free assessment, $99 for compliance plan PDF",
+          "Click payment",
+          "Soft-launch in IT Park UZ + Habr UZ"
+        ],
+        "build_time_days": 5,
+        "build_cost_usd": 50
+      },
+      "validation": {
+        "signal_target": "200 assessments + 15 paid plans in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "IT Park UZ Telegram",
+          "Habr UZ",
+          "ICT Week 2026 AI law"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Mailerlite",
+        "Click"
+      ],
+      "founder_capability_required": [
+        "Russian + English",
+        "AI law domain familiarity",
+        "advisory services"
+      ],
+      "moat_potential": "Compliance brand authority; possible spin into compliance-as-a-service.",
+      "risk_register": [
+        {
+          "risk": "Regulatory clarity",
+          "mitigation": "Wait for implementing regs Q3 2026"
+        },
+        {
+          "risk": "Liability on advice",
+          "mitigation": "Advisory disclaimer + partner law firm"
+        },
+        {
+          "risk": "Low conversion",
+          "mitigation": "Cohort with live Q&A"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 9,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 7,
+        "weighted_total": 6.95,
+        "scoring_rationale": "Compliance niche, premium price."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-095",
+      "country": "UZ",
+      "short_name": "TashkentGymRater",
+      "tagline": "Directory of Tashkent gyms with verified reviews, equipment, hours — first independent rating site",
+      "category": "content",
+      "sector": "Cross-cutting",
+      "underlying_demand": {
+        "trend_id": "uz-trend-018-smart-traffic-tashkent",
+        "decree_id": "UZ-UP-2025-189",
+        "donor_program_id": null,
+        "pain_point": "Tashkent gym + fitness market growing. Reviews scattered on Google Maps, 2GIS. No independent guide. Spot.uz lifestyle covers seasonally.",
+        "evidence": "https://www.spot.uz/ru/category/biznes/lifestyle/"
+      },
+      "target_customer": "Tashkent professionals 22-45 evaluating gyms; secondary: tourists wanting day-pass options",
+      "monetization": {
+        "model": "listing_fee",
+        "price_point_usd": 25,
+        "year_1_revenue_target_usd": 5000,
+        "year_3_revenue_target_usd": 40000
+      },
+      "mvr_plan": {
+        "vehicle": "directory",
+        "build_steps": [
+          "Visit + photograph 30 Tashkent gyms",
+          "Carrd directory + Telegram bot",
+          "$25/mo featured listing",
+          "Click",
+          "Soft-launch via spot.uz lifestyle + Tashkent fitness Telegram"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 80
+      },
+      "validation": {
+        "signal_target": "2,000 visits + 3 paid gyms in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "spot.uz lifestyle",
+          "Tashkent fitness Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Notion CMS",
+        "Click"
+      ],
+      "founder_capability_required": [
+        "Russian",
+        "field visits",
+        "B2B sales"
+      ],
+      "moat_potential": "Trust + sponsor network; can scale to other lifestyle categories.",
+      "risk_register": [
+        {
+          "risk": "Niche",
+          "mitigation": "Bundle with TashkentDayPlanner"
+        },
+        {
+          "risk": "Field-time intensive",
+          "mitigation": "Allocate 1 week"
+        },
+        {
+          "risk": "Low payment",
+          "mitigation": "Annual prepay discount"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 5,
+        "speed_to_mvr": 8,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 7,
+        "weighted_total": 6.2,
+        "scoring_rationale": "Niche, weak monetization."
+      },
+      "confidence_tier": "C",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-096",
+      "country": "UZ",
+      "short_name": "EventCalendarUZ",
+      "tagline": "Free Telegram channel listing every Tashkent professional event — meetups, conferences, donor events — with RSVP",
+      "category": "content",
+      "sector": "Cross-cutting",
+      "underlying_demand": {
+        "trend_id": "uz-trend-035-itpark-ai-ecosystem",
+        "decree_id": "UZ-UP-2025-189",
+        "donor_program_id": null,
+        "pain_point": "Tashkent has growing IT/business event scene (ICT Week, IT Park meetups, donor launches) but no aggregator. Founders/employees miss key networking. Spot.uz publishes events but reactively.",
+        "evidence": "https://it-park.uz/"
+      },
+      "target_customer": "Tashkent professionals 22-50 in IT, business, NGO, donor — networking-active",
+      "monetization": {
+        "model": "ad",
+        "price_point_usd": 100,
+        "year_1_revenue_target_usd": 7000,
+        "year_3_revenue_target_usd": 60000
+      },
+      "mvr_plan": {
+        "vehicle": "manifesto",
+        "build_steps": [
+          "Aggregate events from IT Park, ICT Week, Buyuk Kelajak, donor calendars",
+          "Telegram channel + email digest",
+          "$100/event for sponsored event boost",
+          "Soft-launch via IT Park UZ + ICT Week 2026"
+        ],
+        "build_time_days": 5,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "1,000 subscribers + 1 sponsor in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "IT Park UZ",
+          "ICT Week 2026",
+          "spot.uz business"
+        ]
+      },
+      "tech_stack": [
+        "Telegram",
+        "Buttondown"
+      ],
+      "founder_capability_required": [
+        "Russian + English",
+        "event-curation"
+      ],
+      "moat_potential": "Event-curator brand; sponsorship from event organizers.",
+      "risk_register": [
+        {
+          "risk": "Reactive content",
+          "mitigation": "Maintain organizer relationships"
+        },
+        {
+          "risk": "Low ad demand",
+          "mitigation": "Charge organizers for promo"
+        },
+        {
+          "risk": "Competition from Eventbrite",
+          "mitigation": "Lean on local-language curation"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 10,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 9,
+        "local_market_fit": 8,
+        "weighted_total": 7.05,
+        "scoring_rationale": "Cheap, useful, modest revenue."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-097",
+      "country": "UZ",
+      "short_name": "OutsourceToUZ",
+      "tagline": "Manifesto + paid services directory: 'why hire Uzbek IT talent' for foreign tech companies, with vetted candidate sourcing",
+      "category": "content",
+      "sector": "Cross-cutting",
+      "underlying_demand": {
+        "trend_id": "uz-trend-035-itpark-ai-ecosystem",
+        "decree_id": "UZ-UP-2025-189",
+        "donor_program_id": null,
+        "pain_point": "IT Park UZ has 30K+ residents seeking foreign clients. Foreign companies (US, EU) lack visibility into UZ talent. LinkedIn search is noisy. No curated 'hire Uzbek talent' resource.",
+        "evidence": "https://it-park.uz/"
+      },
+      "target_customer": "US/EU tech founders + hiring managers exploring nearshore + Eastern outsourcing options",
+      "monetization": {
+        "model": "listing_fee",
+        "price_point_usd": 200,
+        "year_1_revenue_target_usd": 18000,
+        "year_3_revenue_target_usd": 130000
+      },
+      "mvr_plan": {
+        "vehicle": "manifesto",
+        "build_steps": [
+          "Write 5,000-word manifesto on UZ IT talent",
+          "Cross-post on Hacker News, IndieHackers, LinkedIn",
+          "Carrd directory of 50 vetted UZ devs",
+          "$200/mo for featured profile, or 10% placement fee",
+          "Soft-launch via IT Park UZ + Habr UZ + LinkedIn"
+        ],
+        "build_time_days": 12,
+        "build_cost_usd": 100
+      },
+      "validation": {
+        "signal_target": "300 manifesto reads + 5 paid placements in 90 days",
+        "validation_window_days": 90,
+        "channels": [
+          "Hacker News",
+          "IndieHackers",
+          "LinkedIn",
+          "IT Park UZ"
+        ]
+      },
+      "tech_stack": [
+        "Substack",
+        "Carrd",
+        "Notion",
+        "Click + Stripe"
+      ],
+      "founder_capability_required": [
+        "English + Russian",
+        "long-form content",
+        "B2B sales",
+        "hiring-domain familiarity"
+      ],
+      "moat_potential": "Diaspora-bridge brand; direct foreign-tech relationship; commission revenue compounds.",
+      "risk_register": [
+        {
+          "risk": "Slow audience build",
+          "mitigation": "Cross-promo with FreelancerInvoiceUZ"
+        },
+        {
+          "risk": "Quality variance",
+          "mitigation": "Vetted-only listings"
+        },
+        {
+          "risk": "Foreign-payment friction",
+          "mitigation": "Stripe Atlas + Wise"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 7,
+        "monetization_path": 8,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 6,
+        "weighted_total": 7.05,
+        "scoring_rationale": "Premium niche, brand-driven."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-098",
+      "country": "UZ",
+      "short_name": "DiasporaInvestorUZ",
+      "tagline": "Manifesto + paid email digest: weekly investment opportunities in Uzbekistan for Uzbek diaspora 30-50 with $50K+ savings",
+      "category": "content",
+      "sector": "Cross-cutting",
+      "underlying_demand": {
+        "trend_id": "uz-trend-035-itpark-ai-ecosystem",
+        "decree_id": "UZ-UP-2025-189",
+        "donor_program_id": null,
+        "pain_point": "Uzbek diaspora in Dubai, London, NYC, Almaty wants to invest at home but has no curated channel. Existing options (Telegram chats, family) are noisy.",
+        "evidence": "https://www.spot.uz/ru/category/biznes/finance/"
+      },
+      "target_customer": "Uzbek diaspora 30-55 with $50K-1M savings, in finance/tech/medicine, wanting passive UZ investment options",
+      "monetization": {
+        "model": "subscription",
+        "price_point_usd": 99,
+        "year_1_revenue_target_usd": 18000,
+        "year_3_revenue_target_usd": 150000
+      },
+      "mvr_plan": {
+        "vehicle": "manifesto",
+        "build_steps": [
+          "Write 4,000-word manifesto on UZ investment opportunities",
+          "LinkedIn 'Uzbeks Abroad' + Habr cross-post",
+          "Substack paid tier $99/mo",
+          "Cross-promo with PolicyDigestUZ",
+          "Soft-launch via 'Uzbeks Abroad' LinkedIn + Tashkent VC events"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "200 free + 20 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "LinkedIn 'Uzbeks Abroad'",
+          "Eurasianet",
+          "Twitter X policy"
+        ]
+      },
+      "tech_stack": [
+        "Substack",
+        "Notion",
+        "Stripe via Substack"
+      ],
+      "founder_capability_required": [
+        "Russian + English",
+        "investment-thesis writing",
+        "diaspora network"
+      ],
+      "moat_potential": "Diaspora-bridge premium audience; possible spin into a UZ angel-investment syndicate.",
+      "risk_register": [
+        {
+          "risk": "Investment-advice liability",
+          "mitigation": "Educational disclaimer + reg counsel"
+        },
+        {
+          "risk": "Slow audience build",
+          "mitigation": "Cross-promo with PolicyDigestUZ"
+        },
+        {
+          "risk": "Currency / capital control friction",
+          "mitigation": "Cover only opportunities accessible to non-resident UZ citizens"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 9,
+        "monetization_path": 8,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 7,
+        "weighted_total": 7.5,
+        "scoring_rationale": "Diaspora premium, brand-driven, complementary to PolicyDigestUZ."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "uz-mvp-099",
+      "country": "UZ",
+      "short_name": "AdvisorMatchUZ",
+      "tagline": "Wizard-of-Oz: matches Uzbek SMEs with sector-expert advisors (legal, finance, tech) for 1h paid calls",
+      "category": "marketplace",
+      "sector": "Cross-cutting",
+      "underlying_demand": {
+        "trend_id": "uz-trend-035-itpark-ai-ecosystem",
+        "decree_id": "UZ-UP-2025-189",
+        "donor_program_id": null,
+        "pain_point": "Uzbek SME owners 30-50 face strategic decisions (raise capital, expand to RU, hire CTO) without trusted advisors. Avloni and KPMG focus on enterprise. Clarity-style advisor marketplace doesn't exist for UZ.",
+        "evidence": "https://www.spot.uz/ru/category/biznes/"
+      },
+      "target_customer": "Uzbek SME owners 30-50 in IT, retail, manufacturing seeking 1h advisor calls; secondary: aspiring founders",
+      "monetization": {
+        "model": "marketplace",
+        "price_point_usd": 80,
+        "year_1_revenue_target_usd": 14000,
+        "year_3_revenue_target_usd": 100000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Recruit 30 verified advisors across legal, finance, tech",
+          "Carrd + Telegram intake",
+          "$80/call + 20% platform fee",
+          "Click + Stripe",
+          "Soft-launch in TBC SME + IT Park UZ + ICT Week 2026"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 80
+      },
+      "validation": {
+        "signal_target": "30 paid calls in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "TBC SME",
+          "IT Park UZ",
+          "ICT Week 2026",
+          "Spot.uz business"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Calendly",
+        "Notion (advisor roster)",
+        "Click + Stripe"
+      ],
+      "founder_capability_required": [
+        "Russian + English",
+        "advisor outreach",
+        "B2B sales"
+      ],
+      "moat_potential": "Advisor + SME network compounds; possible foundry for UZ angel investing.",
+      "risk_register": [
+        {
+          "risk": "Advisor recruitment slow",
+          "mitigation": "Diaspora outreach via 'Uzbeks Abroad'"
+        },
+        {
+          "risk": "Direct WhatsApp bypass",
+          "mitigation": "Charge SME, not advisor; ongoing value via reviews"
+        },
+        {
+          "risk": "Quality variance",
+          "mitigation": "Reviews + tier system"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 8,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 7,
+        "weighted_total": 6.95,
+        "scoring_rationale": "Marketplace, brand + network-driven."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "uz-mvp-100",
+      "country": "UZ",
+      "short_name": "WhyUzbekistan",
+      "tagline": "Manifesto + content brand: weekly long-form essays on Uzbekistan's economic reform, AI, diaspora — for global audiences",
+      "category": "content",
+      "sector": "Cross-cutting",
+      "underlying_demand": {
+        "trend_id": "uz-trend-031-sovereign-llm-uzbek",
+        "decree_id": "UZ-UP-2025-189",
+        "donor_program_id": null,
+        "pain_point": "Global audiences interested in Uzbekistan post-2017 lack high-quality English-language analysis. Eurasianet is regional; specialized newsletters are paywalled enterprise. Diaspora and policy people want long-form.",
+        "evidence": "https://eurasianet.org/region/uzbekistan"
+      },
+      "target_customer": "Global investors, policy analysts, journalists, diaspora intellectuals 30-60 with interest in CIS/Central Asia",
+      "monetization": {
+        "model": "subscription",
+        "price_point_usd": 12,
+        "year_1_revenue_target_usd": 14000,
+        "year_3_revenue_target_usd": 120000
+      },
+      "mvr_plan": {
+        "vehicle": "manifesto",
+        "build_steps": [
+          "Write founder manifesto: 'Why Uzbekistan in 2026'",
+          "Substack with paid tier $12/mo",
+          "Cross-post on LinkedIn + Twitter X",
+          "Cross-promo with PolicyDigestUZ + DiasporaInvestorUZ",
+          "Soft-launch via 'Uzbeks Abroad' + Eurasianet readers"
+        ],
+        "build_time_days": 6,
+        "build_cost_usd": 0
+      },
+      "validation": {
+        "signal_target": "1,000 free + 100 paid in 90 days",
+        "validation_window_days": 90,
+        "channels": [
+          "LinkedIn 'Uzbeks Abroad'",
+          "Twitter X policy",
+          "Eurasianet",
+          "ICT Week 2026"
+        ]
+      },
+      "tech_stack": [
+        "Substack",
+        "Notion (research)",
+        "Stripe via Substack"
+      ],
+      "founder_capability_required": [
+        "Russian + English",
+        "investment-grade long-form writing",
+        "research"
+      ],
+      "moat_potential": "Authority brand; can spin into Insights Service for funds.",
+      "risk_register": [
+        {
+          "risk": "Slow audience build",
+          "mitigation": "Cross-promo with PolicyDigestUZ"
+        },
+        {
+          "risk": "Politically sensitive",
+          "mitigation": "Stay descriptive"
+        },
+        {
+          "risk": "Free competitors (Eurasianet)",
+          "mitigation": "Lean on long-form depth + diaspora-grounded perspective"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 10,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 6,
+        "weighted_total": 7.1,
+        "scoring_rationale": "Brand-driven, premium audience, slow but recurring."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    }
+  ]
+}

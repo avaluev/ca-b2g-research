@@ -1,0 +1,2006 @@
+{
+  "country": "KG",
+  "batch": "agri_health",
+  "count": 25,
+  "mvps": [
+    {
+      "id": "kg-mvp-026",
+      "country": "KG",
+      "short_name": "LivestockTrackKG",
+      "tagline": "Telegram-based livestock head + vaccination tracker for Kyrgyz smallholders, with bank-credit export",
+      "category": "ai_tool",
+      "sector": "Agriculture & Water",
+      "underlying_demand": {
+        "trend_id": "kg-trend-010-agri-ai-naryn",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "WB-KG-P160230",
+        "pain_point": "Naryn, Issyk-Kul, Talas livestock farmers (200K+ households) track stock manually. Banks require records for credit. Veterinary services request vaccination history.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Smallholder livestock farmers 35-60 in Naryn, Issyk-Kul, Talas with 20-200 sheep/cattle",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 4,
+        "year_1_revenue_target_usd": 10000,
+        "year_3_revenue_target_usd": 80000
+      },
+      "mvr_plan": {
+        "vehicle": "landing_page",
+        "build_steps": [
+          "Telegram bot intake: voice for animal entries (Whisper Kyrgyz)",
+          "Auto-export PDF for bank/vet",
+          "Free up to 50 head, $4/mo unlimited",
+          "Mbank/Optima subscription",
+          "Soft-launch via Mbank rural agriculture Telegram + ayil okmotu"
+        ],
+        "build_time_days": 9,
+        "build_cost_usd": 100
+      },
+      "validation": {
+        "signal_target": "150 free + 30 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Mbank agri Telegram",
+          "Naryn farmer Telegram",
+          "EU-GIZ ayil okmotu network"
+        ]
+      },
+      "tech_stack": [
+        "Whisper",
+        "Telegram Bot",
+        "Supabase",
+        "PDF generator",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "STT integration"
+      ],
+      "moat_potential": "Bank credit unlock; possible exit to Mbank or Optima.",
+      "risk_register": [
+        {
+          "risk": "Whisper Kyrgyz quality",
+          "mitigation": "Yandex SpeechKit fallback + correction loop"
+        },
+        {
+          "risk": "Low adoption",
+          "mitigation": "Bank-channel cross-promo"
+        },
+        {
+          "risk": "Privacy",
+          "mitigation": "On-device option"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 8,
+        "speed_to_mvr": 7,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 9,
+        "weighted_total": 7.65,
+        "scoring_rationale": "Bank-credit wedge, KG-specific livestock focus."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-027",
+      "country": "KG",
+      "short_name": "VetCallKG",
+      "tagline": "Wizard-of-Oz: photo + voice description of sick livestock, get 24h Russian/Kyrgyz vet response for $5",
+      "category": "managed_service",
+      "sector": "Agriculture & Water",
+      "underlying_demand": {
+        "trend_id": "kg-trend-010-agri-ai-naryn",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "AKDN-KG-DIGITAL-SCHOOLS2030",
+        "pain_point": "Naryn and Issyk-Kul have 1 vet per 8K livestock. Farmers wait 2-5 days. Local WhatsApp vet groups charge ad-hoc.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Smallholder livestock farmers 35-60 in Naryn, Issyk-Kul, Talas",
+      "monetization": {
+        "model": "services",
+        "price_point_usd": 5,
+        "year_1_revenue_target_usd": 12000,
+        "year_3_revenue_target_usd": 80000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Recruit 3 vet college graduates at $200/mo retainer",
+          "Telegram bot intake",
+          "Vets respond 24h",
+          "Mbank 450 KGS per consult",
+          "Soft-launch via Naryn farmer Telegram + AKDN partner network"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 150
+      },
+      "validation": {
+        "signal_target": "30 paid consults + 5-star rating in 30 days",
+        "validation_window_days": 45,
+        "channels": [
+          "Naryn farmer Telegram",
+          "AKDN rural network",
+          "kaktus.media"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Notion",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "vet network management"
+      ],
+      "moat_potential": "Vet network; medication delivery via local pharmacy partner.",
+      "risk_register": [
+        {
+          "risk": "Vet liability",
+          "mitigation": "Disclaimer + emergency-call routing"
+        },
+        {
+          "risk": "Vet retention",
+          "mitigation": "Performance bonuses"
+        },
+        {
+          "risk": "Regulatory",
+          "mitigation": "Position as 'preliminary advice'"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 8,
+        "speed_to_mvr": 8,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 6,
+        "local_market_fit": 9,
+        "weighted_total": 7.55,
+        "scoring_rationale": "Real demand, paying customers."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-028",
+      "country": "KG",
+      "short_name": "GlacierWaterKG",
+      "tagline": "Free public dashboard tracking Naryn River glacier melt + downstream water flow for hydropower + agriculture",
+      "category": "free_tool",
+      "sector": "Agriculture & Water",
+      "underlying_demand": {
+        "trend_id": "kg-trend-011-glacier-monitoring-ai",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "EU-KG-TEAM-EUROPE-DIGITAL",
+        "pain_point": "Toktogul reservoir management depends on glacier melt. Climate-change effects rising. EU Team Europe + WB support water-monitoring digital tools.",
+        "evidence": "https://www.adb.org/projects/country/kgz"
+      },
+      "target_customer": "Hydropower engineers, environmental NGOs, donor-program officers, journalists at kaktus.media + 24.kg",
+      "monetization": {
+        "model": "donation",
+        "price_point_usd": 0,
+        "year_1_revenue_target_usd": 8000,
+        "year_3_revenue_target_usd": 60000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Aggregate Sentinel-1/2 + USGS gauge + KGM data",
+          "Vercel + Next.js dashboard with map and time series",
+          "EU-Team-Europe grant pitch ($30K)",
+          "Soft-launch via kaktus.media + 24.kg",
+          "Sponsorship from one hydropower co"
+        ],
+        "build_time_days": 10,
+        "build_cost_usd": 100
+      },
+      "validation": {
+        "signal_target": "300 unique users + 1 grant in 90 days",
+        "validation_window_days": 90,
+        "channels": [
+          "kaktus.media",
+          "24.kg environment",
+          "EU Delegation Bishkek"
+        ]
+      },
+      "tech_stack": [
+        "Next.js + Vercel",
+        "Sentinel Hub",
+        "Mapbox",
+        "Supabase"
+      ],
+      "founder_capability_required": [
+        "Russian + English",
+        "GIS basics",
+        "dashboard dev"
+      ],
+      "moat_potential": "Donor + utility-co relationships; possible OEM to Toktogul KGE.",
+      "risk_register": [
+        {
+          "risk": "Data limited",
+          "mitigation": "Partner with Tien Shan University"
+        },
+        {
+          "risk": "Politically sensitive",
+          "mitigation": "Stay scientific"
+        },
+        {
+          "risk": "Low monetization",
+          "mitigation": "Donor-grant"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 7,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 6.45,
+        "scoring_rationale": "Civic, donor-driven."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-029",
+      "country": "KG",
+      "short_name": "PastureBookerKG",
+      "tagline": "Wizard-of-Oz: helps Kyrgyz herders book seasonal pasture (jailoo) slots via local jailoo committees, in Russian/Kyrgyz",
+      "category": "managed_service",
+      "sector": "Agriculture & Water",
+      "underlying_demand": {
+        "trend_id": "kg-trend-010-agri-ai-naryn",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "EU-GIZ-KG-DECENTRALISATION",
+        "pain_point": "Pasture (jailoo) allocation runs through ayil okmotu committees. Bookings are paper-based, prone to favoritism. Herders lose access. EU-GIZ supports.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Smallholder herders 35-60 in Naryn, Issyk-Kul wanting transparent jailoo bookings",
+      "monetization": {
+        "model": "services",
+        "price_point_usd": 8,
+        "year_1_revenue_target_usd": 9000,
+        "year_3_revenue_target_usd": 60000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Partner with 3 ayil okmotu committees in Naryn",
+          "Telegram bot intake: jailoo + herd size + dates",
+          "Founder coordinates booking",
+          "$8 per booking via Mbank",
+          "EU-GIZ grant pitch"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 100
+      },
+      "validation": {
+        "signal_target": "15 paid bookings in 30 days during season",
+        "validation_window_days": 60,
+        "channels": [
+          "Naryn farmer Telegram",
+          "EU-GIZ partner network",
+          "kaktus.media"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Notion",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "ayil okmotu network",
+        "fulfillment ops"
+      ],
+      "moat_potential": "Committee + herder network compounds; donor-grant.",
+      "risk_register": [
+        {
+          "risk": "Committee resistance",
+          "mitigation": "Pre-brief; small honorarium"
+        },
+        {
+          "risk": "Seasonality",
+          "mitigation": "Bundle with LivestockTrackKG"
+        },
+        {
+          "risk": "Politically sensitive",
+          "mitigation": "Partner with EU-GIZ for cover"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 8,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 6,
+        "local_market_fit": 9,
+        "weighted_total": 7.2,
+        "scoring_rationale": "Real pain, KG-specific, fulfillment-driven."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-030",
+      "country": "KG",
+      "short_name": "DairyMarketKG",
+      "tagline": "Telegram-based directory of regional dairy buyers and prices for smallholder Kyrgyz dairy farmers",
+      "category": "content",
+      "sector": "Agriculture & Water",
+      "underlying_demand": {
+        "trend_id": "kg-trend-010-agri-ai-naryn",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Smallholder dairy farmers (5-30 cows) in Issyk-Kul, Chui sell at below-market. No transparent marketplace.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Dairy farmers 35-55 in Issyk-Kul, Chui with 5-30 cows producing 50-300L/day",
+      "monetization": {
+        "model": "listing_fee",
+        "price_point_usd": 6,
+        "year_1_revenue_target_usd": 6000,
+        "year_3_revenue_target_usd": 50000
+      },
+      "mvr_plan": {
+        "vehicle": "directory",
+        "build_steps": [
+          "Compile 30 dairy buyers with weekly prices",
+          "Telegram channel + Carrd directory",
+          "Free for farmers, $6/wk for buyer featured listing",
+          "Mbank micro-payment",
+          "Soft-launch in Issyk-Kul farmer Telegram"
+        ],
+        "build_time_days": 6,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "200 farmer subs + 5 paid buyers in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Issyk-Kul farmer Telegram",
+          "Chui farmer Telegram",
+          "kaktus.media agri"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Telegram",
+        "Notion CMS"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "field outreach"
+      ],
+      "moat_potential": "Trust + buyer list compounds.",
+      "risk_register": [
+        {
+          "risk": "Buyer pushback",
+          "mitigation": "First month free + anonymization"
+        },
+        {
+          "risk": "Low payments",
+          "mitigation": "Bundle input-dealer ads"
+        },
+        {
+          "risk": "Regional fragmentation",
+          "mitigation": "Start with one region"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 9,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 6.95,
+        "scoring_rationale": "Niche, slow build."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-031",
+      "country": "KG",
+      "short_name": "FertilizerCalcKG",
+      "tagline": "Free Telegram calculator giving precise fertilizer dosages by crop and field area, in Russian and Kyrgyz",
+      "category": "free_tool",
+      "sector": "Agriculture & Water",
+      "underlying_demand": {
+        "trend_id": "kg-trend-010-agri-ai-naryn",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Smallholder farmers in Chui, Talas under/over-apply fertilizer due to lack of crop-specific calculators in Kyrgyz.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Smallholder farmers 30-55 in Chui, Talas, Issyk-Kul growing wheat, vegetables",
+      "monetization": {
+        "model": "ad",
+        "price_point_usd": 30,
+        "year_1_revenue_target_usd": 5000,
+        "year_3_revenue_target_usd": 35000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Compile fertilizer formula tables for top 10 crops",
+          "Telegram bot intake: crop + area + soil",
+          "Sponsored slot fertilizer dealer $30/mo",
+          "Soft-launch via Chui farmer Telegram"
+        ],
+        "build_time_days": 5,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "1,000 calculations + 1 sponsor in 45 days",
+        "validation_window_days": 45,
+        "channels": [
+          "Chui farmer Telegram",
+          "Talas agri",
+          "kaktus.media"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Supabase"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "agronomy basics"
+      ],
+      "moat_potential": "Sponsor + per-region database.",
+      "risk_register": [
+        {
+          "risk": "Low ad demand",
+          "mitigation": "Multi-dealer split"
+        },
+        {
+          "risk": "Region accuracy",
+          "mitigation": "Agronomist review"
+        },
+        {
+          "risk": "Free clone",
+          "mitigation": "Bilingual UX"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 10,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 9,
+        "local_market_fit": 8,
+        "weighted_total": 7.05,
+        "scoring_rationale": "Cheap, modest revenue."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-032",
+      "country": "KG",
+      "short_name": "WeatherFarmAlertKG",
+      "tagline": "Free SMS+Telegram weather alerts for Kyrgyz farmers — frost, hail, mudflow — using ECMWF open data",
+      "category": "free_tool",
+      "sector": "Agriculture & Water",
+      "underlying_demand": {
+        "trend_id": "kg-trend-021-disaster-landslide-ai",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "AKDN-KG-DIGITAL-SCHOOLS2030",
+        "pain_point": "Farmers lose crops to frost/hail/mudflow with no warning. State Met Service generic. Mountain regions unique disaster risk.",
+        "evidence": "https://meteo.kg/"
+      },
+      "target_customer": "Smallholder farmers 30-65 in Issyk-Kul, Naryn, Talas",
+      "monetization": {
+        "model": "donation",
+        "price_point_usd": 0,
+        "year_1_revenue_target_usd": 4000,
+        "year_3_revenue_target_usd": 40000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Pull ECMWF Open Data via Open-Meteo",
+          "Telegram bot + SMS via Twilio",
+          "Per-pin alert rule",
+          "AKDN/WB grant pitch ($25K)",
+          "Soft-launch in Naryn + Issyk-Kul farmer Telegram"
+        ],
+        "build_time_days": 6,
+        "build_cost_usd": 50
+      },
+      "validation": {
+        "signal_target": "800 farmer signups in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Naryn farmer Telegram",
+          "Issyk-Kul farmer Telegram",
+          "AKDN partner network"
+        ]
+      },
+      "tech_stack": [
+        "Open-Meteo",
+        "Telegram Bot",
+        "Twilio"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "weather API"
+      ],
+      "moat_potential": "Farmer audience; donor-grant; cross-promo.",
+      "risk_register": [
+        {
+          "risk": "False alarms",
+          "mitigation": "Multi-source threshold"
+        },
+        {
+          "risk": "SMS cost",
+          "mitigation": "Telegram primary"
+        },
+        {
+          "risk": "State competitor",
+          "mitigation": "Lean on per-pin"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 8,
+        "speed_to_mvr": 9,
+        "monetization_path": 4,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 9,
+        "weighted_total": 7.45,
+        "scoring_rationale": "Civic + farmer impact, donor-aligned."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-033",
+      "country": "KG",
+      "short_name": "BeeKeeperKG",
+      "tagline": "Wizard-of-Oz subscription delivering monthly hive-management plans + weather alerts to Kyrgyz beekeepers",
+      "category": "managed_service",
+      "sector": "Agriculture & Water",
+      "underlying_demand": {
+        "trend_id": "kg-trend-010-agri-ai-naryn",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "KG has 5K+ registered beekeepers. CCD-like losses common. Forum threads show demand. No localized advisory.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Beekeepers 35-65 in Issyk-Kul, Chui, Naryn managing 30-200 hives",
+      "monetization": {
+        "model": "subscription",
+        "price_point_usd": 5,
+        "year_1_revenue_target_usd": 6000,
+        "year_3_revenue_target_usd": 40000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Partner with one Bishkek beekeeper-mentor at $200/mo",
+          "Telegram newsletter monthly",
+          "$5/mo subscription",
+          "Affiliate to equipment dealers",
+          "Soft-launch via Issyk-Kul beekeeper Telegram"
+        ],
+        "build_time_days": 6,
+        "build_cost_usd": 100
+      },
+      "validation": {
+        "signal_target": "60 free + 20 paying in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Issyk-Kul beekeeper Telegram",
+          "Naryn farmer Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Telegram",
+        "Buttondown",
+        "Notion",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "expert-network"
+      ],
+      "moat_potential": "Mentor + farmer relationships.",
+      "risk_register": [
+        {
+          "risk": "Mentor unavailability",
+          "mitigation": "Pre-record content + 2 mentors"
+        },
+        {
+          "risk": "Niche",
+          "mitigation": "Expand to general livestock"
+        },
+        {
+          "risk": "Seasonal revenue",
+          "mitigation": "Annual prepay discount"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 5,
+        "speed_to_mvr": 9,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 6.55,
+        "scoring_rationale": "Niche, recurring."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-034",
+      "country": "KG",
+      "short_name": "PestSpotterKG",
+      "tagline": "Free tool: photo your crop leaf, get a Kyrgyz-language pest/disease ID and treatment plan",
+      "category": "ai_tool",
+      "sector": "Agriculture & Water",
+      "underlying_demand": {
+        "trend_id": "kg-trend-010-agri-ai-naryn",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Farmers misdiagnose pests. Extension agents spread thin. Plantix lacks Kyrgyz + regional pest coverage.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Smallholder farmers 30-55 in Chui, Issyk-Kul, Naryn growing wheat, vegetables, fruit",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 4,
+        "year_1_revenue_target_usd": 7000,
+        "year_3_revenue_target_usd": 50000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Fine-tune CLIP/DINOv2 on small KG pest dataset",
+          "Telegram bot intake + Russian/Kyrgyz treatment",
+          "Free 3 IDs/wk, $4/mo unlimited",
+          "Affiliate to local agro-input dealers",
+          "Soft-launch in Chui + Issyk-Kul farmer Telegram"
+        ],
+        "build_time_days": 10,
+        "build_cost_usd": 80
+      },
+      "validation": {
+        "signal_target": "300 IDs + 15 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Chui farmer Telegram",
+          "Issyk-Kul farmer",
+          "kaktus.media agri"
+        ]
+      },
+      "tech_stack": [
+        "CLIP/DINOv2",
+        "Supabase",
+        "Telegram Bot",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "ML basics",
+        "agronomy partner"
+      ],
+      "moat_potential": "Kyrgyz-pest dataset moat.",
+      "risk_register": [
+        {
+          "risk": "Misdiagnosis liability",
+          "mitigation": "Disclaimer + agronomist review"
+        },
+        {
+          "risk": "Low data quality",
+          "mitigation": "User feedback bounties"
+        },
+        {
+          "risk": "Affiliate uncertain",
+          "mitigation": "Sponsorship from one dealer"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 7,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 6.55,
+        "scoring_rationale": "Painful problem, ML risk."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-035",
+      "country": "KG",
+      "short_name": "FarmRecordsKG",
+      "tagline": "Voice-to-text Telegram bot turning Kyrgyz voice notes into structured farm records (planting, spraying, harvest)",
+      "category": "ai_tool",
+      "sector": "Agriculture & Water",
+      "underlying_demand": {
+        "trend_id": "kg-trend-024-sovereign-llm-kyrgyz",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "WB-KG-P160230",
+        "pain_point": "Smallholder farmers don't keep records — limits credit + traceability for export. WB Digital CASA pushes record-keeping. Kyrgyz STT now feasible.",
+        "evidence": "https://www.worldbank.org/en/country/kyrgyzrepublic"
+      },
+      "target_customer": "Smallholder farmers 30-55 across KG (livestock, wheat, vegetables) wanting bank credit or export contracts",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 3,
+        "year_1_revenue_target_usd": 7000,
+        "year_3_revenue_target_usd": 55000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Whisper or Yandex SpeechKit for Kyrgyz STT",
+          "Telegram bot voice → structured table",
+          "Auto-export PDF for bank/credit",
+          "Free up to 20 records/mo, $3/mo unlimited",
+          "Soft-launch via Mbank rural agriculture Telegram"
+        ],
+        "build_time_days": 9,
+        "build_cost_usd": 80
+      },
+      "validation": {
+        "signal_target": "200 free + 30 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Mbank agri Telegram",
+          "Naryn farmer Telegram",
+          "kaktus.media"
+        ]
+      },
+      "tech_stack": [
+        "Whisper / Yandex SpeechKit",
+        "Telegram Bot",
+        "Supabase",
+        "PDF generator"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "STT integration"
+      ],
+      "moat_potential": "Bank-credit data; possible exit to Mbank, Optima.",
+      "risk_register": [
+        {
+          "risk": "Kyrgyz STT accuracy",
+          "mitigation": "Yandex primary + Whisper fallback"
+        },
+        {
+          "risk": "Low adoption",
+          "mitigation": "Bank-channel cross-promo"
+        },
+        {
+          "risk": "Privacy",
+          "mitigation": "On-device option"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 7,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 7.15,
+        "scoring_rationale": "Bank-credit unlock; STT risk modest."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-036",
+      "country": "KG",
+      "short_name": "DisasterAlertKG",
+      "tagline": "Free Telegram tool aggregating MoES landslide/earthquake/mudflow alerts in Kyrgyz/Russian/English with safety checklists",
+      "category": "free_tool",
+      "sector": "Cross-cutting",
+      "underlying_demand": {
+        "trend_id": "kg-trend-021-disaster-landslide-ai",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "AKDN-KG-DIGITAL-SCHOOLS2030",
+        "pain_point": "KG mountain regions face landslide, earthquake, mudflow risk. MoES alerts SMS-only Russian. Tourists + expats + Kyrgyz-Latin readers underserved.",
+        "evidence": "https://mes.gov.kg/"
+      },
+      "target_customer": "Bishkek residents + expats + tourists; secondary: parents",
+      "monetization": {
+        "model": "donation",
+        "price_point_usd": 0,
+        "year_1_revenue_target_usd": 4000,
+        "year_3_revenue_target_usd": 30000
+      },
+      "mvr_plan": {
+        "vehicle": "ad_booking",
+        "build_steps": [
+          "Aggregate USGS + MoES feeds",
+          "Telegram bot trilingual",
+          "Push safety checklists",
+          "Donation tip jar via Mbank",
+          "Soft-launch via kaktus.media + Bishkek expat WhatsApp"
+        ],
+        "build_time_days": 5,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "1,500 subs in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "kaktus.media",
+          "Bishkek expat WhatsApp",
+          "24.kg"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Python",
+        "USGS API"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz + English",
+        "API integration"
+      ],
+      "moat_potential": "Civic value + donor-grant.",
+      "risk_register": [
+        {
+          "risk": "False alarms",
+          "mitigation": "Multi-source threshold"
+        },
+        {
+          "risk": "Govt competitor",
+          "mitigation": "Lean on multilingual"
+        },
+        {
+          "risk": "Low monetization",
+          "mitigation": "Tip + grant"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 10,
+        "monetization_path": 4,
+        "founder_solo_feasibility": 9,
+        "local_market_fit": 8,
+        "weighted_total": 7.2,
+        "scoring_rationale": "Civic, low cost, donor-aligned."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-037",
+      "country": "KG",
+      "short_name": "EHRBackupKG",
+      "tagline": "Wizard-of-Oz: helps small Bishkek clinics back up patient records before mandatory EHR migration",
+      "category": "managed_service",
+      "sector": "Health",
+      "underlying_demand": {
+        "trend_id": "kg-trend-006-ehealth-kg",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "WB-KG-P160230",
+        "pain_point": "MoH KG mandates EHR transition; small clinics on paper or Excel face migration risk.",
+        "evidence": "https://med.kg/"
+      },
+      "target_customer": "Independent Bishkek clinics (5-20 staff) with paper records, especially specialty (dental, OB-GYN)",
+      "monetization": {
+        "model": "one_time",
+        "price_point_usd": 200,
+        "year_1_revenue_target_usd": 14000,
+        "year_3_revenue_target_usd": 100000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "OCR + manual-correction pipeline",
+          "Carrd landing targeting clinic owners",
+          "$200/clinic for full migration of 1K records",
+          "Mbank invoice",
+          "Soft-launch in Bishkek SME health Telegram"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 100
+      },
+      "validation": {
+        "signal_target": "5 clinics paid migration in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "High Tech Park",
+          "Bishkek SME health",
+          "24.kg health"
+        ]
+      },
+      "tech_stack": [
+        "Tesseract",
+        "Notion",
+        "Mbank",
+        "Excel/CSV"
+      ],
+      "founder_capability_required": [
+        "Russian",
+        "OCR engineering",
+        "B2B sales"
+      ],
+      "moat_potential": "Migration-tools library.",
+      "risk_register": [
+        {
+          "risk": "Procrastination",
+          "mitigation": "Regulatory urgency framing"
+        },
+        {
+          "risk": "Privacy",
+          "mitigation": "BAA equivalent"
+        },
+        {
+          "risk": "Low margins",
+          "mitigation": "Premium with EHR integration"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 8,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 7,
+        "weighted_total": 7.2,
+        "scoring_rationale": "Time-bound, B2B."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-038",
+      "country": "KG",
+      "short_name": "MountainTelemed",
+      "tagline": "Wizard-of-Oz: connects Naryn/Issyk-Kul villagers with Bishkek doctors via Telegram for $5 consults",
+      "category": "managed_service",
+      "sector": "Health",
+      "underlying_demand": {
+        "trend_id": "kg-trend-007-telemedicine-mountain",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "AKDN-KG-DIGITAL-SCHOOLS2030",
+        "pain_point": "Naryn, Issyk-Kul villages have 1 doctor per 5K people. Patients travel 4-8h to Bishkek. AKDN supports rural connectivity.",
+        "evidence": "https://www.akdn.org/"
+      },
+      "target_customer": "Naryn, Issyk-Kul villagers 25-65 with chronic conditions or non-acute symptoms",
+      "monetization": {
+        "model": "services",
+        "price_point_usd": 5,
+        "year_1_revenue_target_usd": 12000,
+        "year_3_revenue_target_usd": 80000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Recruit 3 Bishkek GPs at $300/mo retainer",
+          "Telegram bot intake symptoms + photo",
+          "Doctors respond 24h",
+          "Mbank 450 KGS per consult",
+          "Soft-launch via AKDN partner network + Naryn Telegram"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 150
+      },
+      "validation": {
+        "signal_target": "30 paid consults + NPS 8+ in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "AKDN partner network",
+          "Naryn community",
+          "Issyk-Kul Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Notion",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "doctor network",
+        "fulfillment ops"
+      ],
+      "moat_potential": "Doctor network + rural patient book; donor-grant.",
+      "risk_register": [
+        {
+          "risk": "Medical liability",
+          "mitigation": "Disclaimer + emergency escalation"
+        },
+        {
+          "risk": "Doctor retention",
+          "mitigation": "Performance bonuses"
+        },
+        {
+          "risk": "Connectivity",
+          "mitigation": "SMS fallback"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 8,
+        "speed_to_mvr": 8,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 6,
+        "local_market_fit": 9,
+        "weighted_total": 7.65,
+        "scoring_rationale": "Real demand, donor-aligned."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-039",
+      "country": "KG",
+      "short_name": "PharmacyShelfKG",
+      "tagline": "SaaS for independent Kyrgyz pharmacies: photograph shelf, get OCR-based stock list and reorder alerts",
+      "category": "saas",
+      "sector": "Health",
+      "underlying_demand": {
+        "trend_id": "kg-trend-006-ehealth-kg",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "5,000+ independent pharmacies in KG track manually. Digital Code drives e-prescription. Enterprise solutions cost $300+/mo.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Independent pharmacy owners 35-55 in Bishkek, Osh with 1-3 outlets",
+      "monetization": {
+        "model": "subscription",
+        "price_point_usd": 20,
+        "year_1_revenue_target_usd": 18000,
+        "year_3_revenue_target_usd": 180000
+      },
+      "mvr_plan": {
+        "vehicle": "landing_page",
+        "build_steps": [
+          "OCR pipeline for Russian + Kyrgyz labels",
+          "Mobile-friendly web app",
+          "Carrd landing + 14-day free trial",
+          "Mbank subscription 1700 KGS/mo",
+          "Soft-launch via Bishkek pharmacy distributor Telegram"
+        ],
+        "build_time_days": 10,
+        "build_cost_usd": 150
+      },
+      "validation": {
+        "signal_target": "15 pharmacies on free trial, 5 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Bishkek pharmacy distributor",
+          "High Tech Park",
+          "Bishkek SME health"
+        ]
+      },
+      "tech_stack": [
+        "Python OCR",
+        "Next.js + Vercel",
+        "Supabase",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "OCR engineering",
+        "B2B sales"
+      ],
+      "moat_potential": "Stock + sales data; distributor partnerships.",
+      "risk_register": [
+        {
+          "risk": "OCR accuracy",
+          "mitigation": "Manual correction + feedback"
+        },
+        {
+          "risk": "Pharmacy chains pull",
+          "mitigation": "Focus on independents"
+        },
+        {
+          "risk": "Compliance shifts",
+          "mitigation": "Stay close to MoH KG"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 8,
+        "speed_to_mvr": 7,
+        "monetization_path": 8,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 7.65,
+        "scoring_rationale": "Decree-driven, B2B SaaS path."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-040",
+      "country": "KG",
+      "short_name": "MedReminderKG",
+      "tagline": "Free Telegram bot reminding patients to take meds, with Kyrgyz/Russian voice prompts and family caregiver loop",
+      "category": "free_tool",
+      "sector": "Health",
+      "underlying_demand": {
+        "trend_id": "kg-trend-007-telemedicine-mountain",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "AKDN-KG-DIGITAL-SCHOOLS2030",
+        "pain_point": "Chronic-disease patients miss doses. Adult children manage parents remotely. Existing apps lack Kyrgyz.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Adult children 30-50 caring for elderly parents (60-85)",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 2,
+        "year_1_revenue_target_usd": 6000,
+        "year_3_revenue_target_usd": 50000
+      },
+      "mvr_plan": {
+        "vehicle": "demo_video",
+        "build_steps": [
+          "Telegram bot intake meds + schedule + caregiver phone",
+          "OpenAI TTS Kyrgyz + Russian",
+          "Family-loop SMS via Twilio",
+          "Free 2 patients, $2/mo unlimited",
+          "Soft-launch via Mbank family Telegram + 24.kg health"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 60
+      },
+      "validation": {
+        "signal_target": "200 reminders + 25 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Mbank family",
+          "24.kg health",
+          "Bishkek caregiver"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "OpenAI TTS",
+        "Twilio",
+        "Supabase"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "TTS"
+      ],
+      "moat_potential": "Adherence data; pharma + insurance partnerships.",
+      "risk_register": [
+        {
+          "risk": "Privacy compliance",
+          "mitigation": "Minimal retention"
+        },
+        {
+          "risk": "Adoption friction",
+          "mitigation": "Caregiver-driven"
+        },
+        {
+          "risk": "Low pay",
+          "mitigation": "B2B clinic pivot"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 9,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 8,
+        "weighted_total": 7.4,
+        "scoring_rationale": "Caregiver-driven, bilingual voice differentiator."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-041",
+      "country": "KG",
+      "short_name": "VaccineRecordKG",
+      "tagline": "Free Telegram tool: upload child vaccine card, get next-due alerts and digital backup; family-friendly Russian/Kyrgyz",
+      "category": "free_tool",
+      "sector": "Health",
+      "underlying_demand": {
+        "trend_id": "kg-trend-006-ehealth-kg",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "UNICEF-KG-DIGITAL-EARLY",
+        "pain_point": "Paper vaccination cards lost. Parents miss boosters. UNICEF KG supports immunization tracking.",
+        "evidence": "https://www.unicef.org/kyrgyzstan/"
+      },
+      "target_customer": "Bishkek and Osh parents 25-40 with under-5 children, especially first-time mothers",
+      "monetization": {
+        "model": "donation",
+        "price_point_usd": 0,
+        "year_1_revenue_target_usd": 4000,
+        "year_3_revenue_target_usd": 30000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Tesseract OCR for vaccine card",
+          "Telegram bot photo + DOB",
+          "Push notification 7 days before vaccine",
+          "UNICEF KG grant pitch ($25K)",
+          "Soft-launch in Bishkek parent Telegram"
+        ],
+        "build_time_days": 8,
+        "build_cost_usd": 60
+      },
+      "validation": {
+        "signal_target": "400 children registered in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Bishkek parent Telegram",
+          "Osh parent groups",
+          "UNICEF KG partners"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Tesseract OCR",
+        "Supabase"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "OCR",
+        "child-health"
+      ],
+      "moat_potential": "UNICEF/WHO grant continuity; possible OEM to MoH KG.",
+      "risk_register": [
+        {
+          "risk": "OCR accuracy",
+          "mitigation": "Manual review for edge"
+        },
+        {
+          "risk": "Privacy",
+          "mitigation": "Minimal retention"
+        },
+        {
+          "risk": "Govt competitor",
+          "mitigation": "Polikliniki branding partnership"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 8,
+        "monetization_path": 4,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 6.7,
+        "scoring_rationale": "Civic, donor-grant viable."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-042",
+      "country": "KG",
+      "short_name": "SymptomCheckerKG",
+      "tagline": "Free Kyrgyz-language symptom checker delivering triage levels (self-care / GP / ER) and nearest clinic",
+      "category": "ai_tool",
+      "sector": "Health",
+      "underlying_demand": {
+        "trend_id": "kg-trend-006-ehealth-kg",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "No Kyrgyz-language symptom checker. Patients over-use ERs or under-treat. ChatGPT use rising but unsafe.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Adult Kyrgyz 25-55 with symptoms but no GP access",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 2,
+        "year_1_revenue_target_usd": 7000,
+        "year_3_revenue_target_usd": 60000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Infermedica or Med-Llama + Kyrgyz translation",
+          "Telegram bot + voice via Whisper",
+          "Free 3 checks/wk, $2/mo unlimited",
+          "Affiliate to MountainTelemed",
+          "Soft-launch via Mbank family + 24.kg health"
+        ],
+        "build_time_days": 12,
+        "build_cost_usd": 200
+      },
+      "validation": {
+        "signal_target": "400 checks + 25 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Mbank family",
+          "24.kg health",
+          "Bishkek parent Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Infermedica / Med-Llama",
+        "Whisper",
+        "Telegram Bot",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "medical-content review (partner doctor)",
+        "API"
+      ],
+      "moat_potential": "Symptom + outcome data; partner with MoH KG.",
+      "risk_register": [
+        {
+          "risk": "Medical liability",
+          "mitigation": "Disclaimer + doctor review"
+        },
+        {
+          "risk": "Triage accuracy",
+          "mitigation": "Conservative defaults"
+        },
+        {
+          "risk": "Trust gap",
+          "mitigation": "Clinic partner endorsement"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 6,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 6,
+        "local_market_fit": 7,
+        "weighted_total": 6.65,
+        "scoring_rationale": "Big upside, regulatory + medical risk."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-043",
+      "country": "KG",
+      "short_name": "ClinicAppointmentKG",
+      "tagline": "Wizard-of-Oz service that books appointments at top Bishkek private clinics in Russian/Kyrgyz/English via Telegram",
+      "category": "managed_service",
+      "sector": "Health",
+      "underlying_demand": {
+        "trend_id": "kg-trend-007-telemedicine-mountain",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Bishkek private clinics (Mednet, Family Clinic) phone-only or limited online. Working professionals can't call business hours.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Bishkek professionals 28-50 booking specialists; secondary: aging parent care",
+      "monetization": {
+        "model": "services",
+        "price_point_usd": 4,
+        "year_1_revenue_target_usd": 11000,
+        "year_3_revenue_target_usd": 70000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Map 8 top Bishkek clinics + booking",
+          "Telegram bot intake",
+          "Founder books 4h",
+          "Mbank 350 KGS",
+          "Soft-launch in Mbank corporate-health Telegram"
+        ],
+        "build_time_days": 5,
+        "build_cost_usd": 50
+      },
+      "validation": {
+        "signal_target": "25 paid bookings in 30 days",
+        "validation_window_days": 45,
+        "channels": [
+          "Mbank corporate",
+          "Bishkek expat WhatsApp",
+          "24.kg health"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Notion",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz + English",
+        "phone fluency"
+      ],
+      "moat_potential": "Clinic relationships; affiliate.",
+      "risk_register": [
+        {
+          "risk": "Clinics resist intermediary",
+          "mitigation": "Position as concierge"
+        },
+        {
+          "risk": "Low margins",
+          "mitigation": "Premium VIP $20"
+        },
+        {
+          "risk": "Refunds",
+          "mitigation": "Refund if booking fails"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 10,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 8,
+        "weighted_total": 7.6,
+        "scoring_rationale": "Cash from day 1, concierge moat."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-044",
+      "country": "KG",
+      "short_name": "DocLookupKG",
+      "tagline": "Searchable directory of Bishkek specialist doctors with verified credentials, English ratings, direct WhatsApp",
+      "category": "content",
+      "sector": "Health",
+      "underlying_demand": {
+        "trend_id": "kg-trend-007-telemedicine-mountain",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Bishkek expats + middle-class struggle to find verified specialists. WhatsApp word-of-mouth dominates.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Bishkek middle/upper-middle 30-55, expats, medical tourists from rural KG",
+      "monetization": {
+        "model": "listing_fee",
+        "price_point_usd": 30,
+        "year_1_revenue_target_usd": 8000,
+        "year_3_revenue_target_usd": 70000
+      },
+      "mvr_plan": {
+        "vehicle": "directory",
+        "build_steps": [
+          "Compile 150 specialists, verify with MoH KG",
+          "Carrd directory with sector filter + reviews",
+          "Free for patients, $30/mo featured",
+          "Mbank micro-payment",
+          "Soft-launch via Bishkek expat WhatsApp + 24.kg"
+        ],
+        "build_time_days": 8,
+        "build_cost_usd": 60
+      },
+      "validation": {
+        "signal_target": "4,000 visits + 5 paid listings in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Bishkek expat WhatsApp",
+          "24.kg health",
+          "Mbank family"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Notion CMS",
+        "Plausible",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian + English",
+        "credential verification",
+        "B2B sales"
+      ],
+      "moat_potential": "Trust + reviews; possible insurance OEM.",
+      "risk_register": [
+        {
+          "risk": "Liability",
+          "mitigation": "Verify + ToU disclaimer"
+        },
+        {
+          "risk": "Doctors slow to pay",
+          "mitigation": "Free first 30 days"
+        },
+        {
+          "risk": "Govt directory",
+          "mitigation": "Lean on UX"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 8,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 7,
+        "weighted_total": 7.1,
+        "scoring_rationale": "Niche but valuable."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-045",
+      "country": "KG",
+      "short_name": "MentalHealthKG",
+      "tagline": "Anonymous Telegram support service connecting Kyrgyz with Russian/Kyrgyz-speaking mental health professionals",
+      "category": "managed_service",
+      "sector": "Health",
+      "underlying_demand": {
+        "trend_id": "kg-trend-007-telemedicine-mountain",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Mental health taboo + underserved. State counselors cluster in Bishkek. Rural Kyrgyz no anonymous channel.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Urban professionals 22-40 with anxiety/depression; secondary: returning migrants",
+      "monetization": {
+        "model": "services",
+        "price_point_usd": 15,
+        "year_1_revenue_target_usd": 12000,
+        "year_3_revenue_target_usd": 90000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Recruit 4 Russian/Kyrgyz psychologists at $300/mo",
+          "Telegram bot anonymous intake",
+          "30-min session 1300 KGS",
+          "Mbank anonymous escrow",
+          "Soft-launch via Mbank corporate-wellness + kaktus.media"
+        ],
+        "build_time_days": 8,
+        "build_cost_usd": 200
+      },
+      "validation": {
+        "signal_target": "25 sessions + NPS 8+ in 30 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Mbank corporate",
+          "Bishkek women community",
+          "kaktus.media wellness"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Calendly",
+        "Mbank",
+        "Notion"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "psychologist network",
+        "anonymous protocol"
+      ],
+      "moat_potential": "Psychologist + customer trust; localized BetterHelp.",
+      "risk_register": [
+        {
+          "risk": "Crisis liability",
+          "mitigation": "Crisis escalation protocol"
+        },
+        {
+          "risk": "Stigma",
+          "mitigation": "Anonymous + safe-space"
+        },
+        {
+          "risk": "Burnout",
+          "mitigation": "Roster of 5+"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 8,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 7,
+        "weighted_total": 7.1,
+        "scoring_rationale": "Real demand, defensible niche."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-046",
+      "country": "KG",
+      "short_name": "DiabetesCoachKG",
+      "tagline": "Subscription Telegram coach for diabetic patients with Kyrgyz/Russian meal plans, glucose tracking, dietitian Q&A",
+      "category": "managed_service",
+      "sector": "Health",
+      "underlying_demand": {
+        "trend_id": "kg-trend-007-telemedicine-mountain",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "KG diabetes prevalence rising. Specialists scarce. Adherence low. No Kyrgyz-cuisine carb counts.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Newly-diagnosed type-2 diabetics 40-65 in Bishkek, Osh wanting structured support",
+      "monetization": {
+        "model": "subscription",
+        "price_point_usd": 7,
+        "year_1_revenue_target_usd": 9000,
+        "year_3_revenue_target_usd": 70000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Partner Bishkek endocrinologist + dietitian $400/mo",
+          "Telegram channel + weekly Q&A Russian/Kyrgyz",
+          "Kyrgyz-cuisine carb counts",
+          "$7/mo via Mbank",
+          "Soft-launch via Mbank corporate-wellness"
+        ],
+        "build_time_days": 9,
+        "build_cost_usd": 200
+      },
+      "validation": {
+        "signal_target": "80 subs + 25 paying in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Mbank corporate",
+          "24.kg health",
+          "Bishkek women"
+        ]
+      },
+      "tech_stack": [
+        "Telegram",
+        "Buttondown",
+        "Mbank",
+        "Notion CMS"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "endocrinologist network"
+      ],
+      "moat_potential": "Adherence + outcome data; possible insurance white-label.",
+      "risk_register": [
+        {
+          "risk": "Liability",
+          "mitigation": "Educational + doctor in loop"
+        },
+        {
+          "risk": "Churn",
+          "mitigation": "Annual prepay + outcome celebration"
+        },
+        {
+          "risk": "Content fatigue",
+          "mitigation": "Cohort-based 12 wks"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 7,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 6,
+        "local_market_fit": 7,
+        "weighted_total": 6.45,
+        "scoring_rationale": "Niche, recurring."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-047",
+      "country": "KG",
+      "short_name": "PrescriptionScannerKG",
+      "tagline": "Free Telegram tool turning photo of doctor's handwritten prescription into structured pharmacy-ready text in Russian/Kyrgyz",
+      "category": "ai_tool",
+      "sector": "Health",
+      "underlying_demand": {
+        "trend_id": "kg-trend-006-ehealth-kg",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Hand-written prescriptions illegible. Patients arrive at pharmacy unsure of dose. KG MoH transitioning to e-prescriptions but uneven.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Bishkek patients 30-55, especially elderly + visually impaired",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 1,
+        "year_1_revenue_target_usd": 4000,
+        "year_3_revenue_target_usd": 35000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Train CRNN OCR on 200 sample handwritten",
+          "Telegram bot + GPT-4o clarification",
+          "Output drug, dose, frequency Russian + Kyrgyz",
+          "Free 5/mo, $1/mo unlimited",
+          "Soft-launch via Mbank family + 24.kg health"
+        ],
+        "build_time_days": 9,
+        "build_cost_usd": 100
+      },
+      "validation": {
+        "signal_target": "200 scans + 25 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Mbank family",
+          "24.kg health",
+          "Bishkek senior Telegram"
+        ]
+      },
+      "tech_stack": [
+        "CRNN + GPT-4o",
+        "Telegram Bot",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "ML basics",
+        "medical partner"
+      ],
+      "moat_potential": "Prescription dataset; partner with PharmacyShelfKG.",
+      "risk_register": [
+        {
+          "risk": "Misreading liability",
+          "mitigation": "Always show original + 'verify with pharmacist'"
+        },
+        {
+          "risk": "OCR fragility",
+          "mitigation": "Hybrid + GPT vision"
+        },
+        {
+          "risk": "E-prescription replaces",
+          "mitigation": "Pivot to e-prescription explainer"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 7,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 7,
+        "weighted_total": 6.3,
+        "scoring_rationale": "Real pain, transitional."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-048",
+      "country": "KG",
+      "short_name": "PharmacyDirectoryKG",
+      "tagline": "Searchable directory of 5,000+ Kyrgyz pharmacies with stock-availability search for hard-to-find drugs",
+      "category": "content",
+      "sector": "Health",
+      "underlying_demand": {
+        "trend_id": "kg-trend-006-ehealth-kg",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Patients call 5-10 pharmacies hunting rare drugs. No central availability tool. Forum threads on 24.kg ask 'who has X drug?'",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Bishkek patients 30-65 hunting rare meds, imported drugs, chronic-disease specialty",
+      "monetization": {
+        "model": "listing_fee",
+        "price_point_usd": 12,
+        "year_1_revenue_target_usd": 6000,
+        "year_3_revenue_target_usd": 50000
+      },
+      "mvr_plan": {
+        "vehicle": "directory",
+        "build_steps": [
+          "Compile 300 Bishkek pharmacies",
+          "Carrd searchable + Telegram bot",
+          "Free for patients, $12/mo featured + bulk",
+          "Mbank micro-payment",
+          "Soft-launch via 24.kg health + pharmacy distributor"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 50
+      },
+      "validation": {
+        "signal_target": "2,500 visits + 5 paid pharmacies in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "24.kg health",
+          "Bishkek pharmacy distributor",
+          "Mbank family"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Notion CMS + Airtable",
+        "Telegram Bot"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "field outreach"
+      ],
+      "moat_potential": "Yandex Maps of pharmacies; sponsorship.",
+      "risk_register": [
+        {
+          "risk": "Stock data goes stale",
+          "mitigation": "Daily check-in + commission"
+        },
+        {
+          "risk": "Pharmacies don't pay",
+          "mitigation": "Distributor sponsorship"
+        },
+        {
+          "risk": "Coverage gaps",
+          "mitigation": "Regional rollout"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 9,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 7.3,
+        "scoring_rationale": "Useful, slow but viable."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-049",
+      "country": "KG",
+      "short_name": "FertilityTrackerKG",
+      "tagline": "Privacy-first Telegram cycle tracker with Kyrgyz/Russian content for women's health in conservative regions",
+      "category": "free_tool",
+      "sector": "Health",
+      "underlying_demand": {
+        "trend_id": "kg-trend-006-ehealth-kg",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "UNDP-KG-GENDER-DIGITAL",
+        "pain_point": "Women's health apps lack Kyrgyz + respect for KG conservative norms. UNDP gender-digital program supports.",
+        "evidence": "https://www.undp.org/kyrgyzstan"
+      },
+      "target_customer": "Women 18-45 in Bishkek, Osh, Naryn wanting Kyrgyz-language private cycle tracking",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 3,
+        "year_1_revenue_target_usd": 6000,
+        "year_3_revenue_target_usd": 50000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Telegram bot E2E option (libsodium)",
+          "Russian + Kyrgyz cycle log",
+          "$3/mo fertility coaching layer",
+          "Mbank subscription",
+          "Soft-launch via Bishkek women Telegram + UNDP partner"
+        ],
+        "build_time_days": 8,
+        "build_cost_usd": 100
+      },
+      "validation": {
+        "signal_target": "200 users + 25 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Bishkek women Telegram",
+          "UNDP gender-digital network",
+          "kaktus.media wellness"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Supabase E2E",
+        "OpenAI"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "respectful health content",
+        "privacy-first dev"
+      ],
+      "moat_potential": "Trust + content; UNDP grant continuity.",
+      "risk_register": [
+        {
+          "risk": "Cultural sensitivity",
+          "mitigation": "Female founder/co-founder + advisory"
+        },
+        {
+          "risk": "Privacy",
+          "mitigation": "Open-source encryption"
+        },
+        {
+          "risk": "Low pay",
+          "mitigation": "B2B integrate maternal-care"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 8,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 7,
+        "weighted_total": 6.5,
+        "scoring_rationale": "Niche, sensitive."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-050",
+      "country": "KG",
+      "short_name": "ParentingExpertKG",
+      "tagline": "Manifesto + paid course: research-backed Kyrgyz-language parenting content for first-time parents 25-35",
+      "category": "content",
+      "sector": "Health",
+      "underlying_demand": {
+        "trend_id": "kg-trend-007-telemedicine-mountain",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "UNICEF-KG-DIGITAL-EARLY",
+        "pain_point": "First-time KG parents 25-35 lack research-backed Kyrgyz content. UNICEF + AKDN support early-childhood.",
+        "evidence": "https://www.unicef.org/kyrgyzstan/"
+      },
+      "target_customer": "First-time Kyrgyz parents 25-35 in Bishkek, Osh, Naryn",
+      "monetization": {
+        "model": "one_time",
+        "price_point_usd": 29,
+        "year_1_revenue_target_usd": 9000,
+        "year_3_revenue_target_usd": 70000
+      },
+      "mvr_plan": {
+        "vehicle": "manifesto",
+        "build_steps": [
+          "Write 3,000-word Kyrgyz parenting manifesto",
+          "Cross-post on kaktus.media + 24.kg",
+          "$29 video course (10 modules) on 0-3 development",
+          "Substack + Mbank",
+          "Soft-launch via Bishkek parent Telegram + UNICEF KG partner"
+        ],
+        "build_time_days": 12,
+        "build_cost_usd": 100
+      },
+      "validation": {
+        "signal_target": "800 reads + 25 paid courses in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Bishkek parent Telegram",
+          "kaktus.media wellness",
+          "UNICEF KG partners"
+        ]
+      },
+      "tech_stack": [
+        "Substack",
+        "Loom",
+        "Mbank",
+        "Notion"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "child-development expertise",
+        "long-form writing"
+      ],
+      "moat_potential": "Authority for KG parenting; spin into paid community.",
+      "risk_register": [
+        {
+          "risk": "Credibility",
+          "mitigation": "Pediatrician advisory"
+        },
+        {
+          "risk": "Refund disputes",
+          "mitigation": "30-day money-back"
+        },
+        {
+          "risk": "Conversion",
+          "mitigation": "Cohort-based with live Q&A"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 8,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 7.35,
+        "scoring_rationale": "Real audience need, scalable."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    }
+  ]
+}

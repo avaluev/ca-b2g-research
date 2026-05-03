@@ -1,0 +1,2007 @@
+{
+  "country": "KG",
+  "batch": "finance_edu",
+  "count": 25,
+  "mvps": [
+    {
+      "id": "kg-mvp-051",
+      "country": "KG",
+      "short_name": "TaxScannerKG",
+      "tagline": "Free Kyrgyz tax-deadline calendar + Telegram alert for SMEs and self-employed (salyk.kg)",
+      "category": "free_tool",
+      "sector": "Finance & Fiscal",
+      "underlying_demand": {
+        "trend_id": "kg-trend-016-tax-ai-gns",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "KG SMEs face 10+ tax deadlines/year. Salyk.kg doesn't push reminders. Late filing 1-3% penalty/month.",
+        "evidence": "https://salyk.kg/"
+      },
+      "target_customer": "Bishkek and Osh SMEs (5-30 employees) + self-employed; secondary: solo accountants",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 4,
+        "year_1_revenue_target_usd": 11000,
+        "year_3_revenue_target_usd": 80000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Compile salyk.kg deadlines for 10 tax types",
+          "Telegram bot intake business + tax types",
+          "7-day, 1-day reminders Russian/Kyrgyz",
+          "$4/mo for unlimited + filing checklist",
+          "Soft-launch in High Tech Park + 24.kg business"
+        ],
+        "build_time_days": 6,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "400 free + 40 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "High Tech Park Telegram",
+          "24.kg business",
+          "Bishkek accountant Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Supabase",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "tax basics"
+      ],
+      "moat_potential": "Tax-content library; OEM to accounting SaaS.",
+      "risk_register": [
+        {
+          "risk": "Tax law changes",
+          "mitigation": "Quarterly review + accountant partner"
+        },
+        {
+          "risk": "State competitor",
+          "mitigation": "Lean on Telegram-native + bilingual"
+        },
+        {
+          "risk": "Conversion",
+          "mitigation": "Premium audit-prep checklist"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 8,
+        "speed_to_mvr": 10,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 9,
+        "local_market_fit": 9,
+        "weighted_total": 8.4,
+        "scoring_rationale": "Painful problem, fast build, recurring."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-052",
+      "country": "KG",
+      "short_name": "RemittanceCalcKG",
+      "tagline": "Free tool: best USD/RUB-to-KGS rate across Money Transfer apps for Kyrgyz migrant families receiving remittances",
+      "category": "free_tool",
+      "sector": "Finance & Fiscal",
+      "underlying_demand": {
+        "trend_id": "kg-trend-023-labour-migration-ai",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "$2.5B+ annual remittances to KG, mostly from Russia. Family back home loses 1-3%. No live aggregator covers Mbank, Optima, KICB, Korona Pay.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Spouses/parents 30-55 in Naryn, Issyk-Kul, Osh receiving remittances from Russia",
+      "monetization": {
+        "model": "ad",
+        "price_point_usd": 80,
+        "year_1_revenue_target_usd": 9000,
+        "year_3_revenue_target_usd": 80000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Aggregate rates from 5 services",
+          "Carrd page + Telegram bot Russian + Kyrgyz",
+          "Sponsored slot $80/mo",
+          "Affiliate to Mbank account opening",
+          "Soft-launch in Naryn + Osh migrant family Telegram"
+        ],
+        "build_time_days": 6,
+        "build_cost_usd": 50
+      },
+      "validation": {
+        "signal_target": "4,000 visits + 1 sponsor in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Naryn migrant family",
+          "Osh family Telegram",
+          "kaktus.media finance"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Python rate scraper",
+        "Telegram Bot",
+        "Affiliate"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "scraping",
+        "B2B sales"
+      ],
+      "moat_potential": "Sponsorship + affiliate; possible bank exit.",
+      "risk_register": [
+        {
+          "risk": "Rate-data drift",
+          "mitigation": "Hourly refresh + flag"
+        },
+        {
+          "risk": "Service blocks",
+          "mitigation": "Manual update via partner"
+        },
+        {
+          "risk": "Low ad demand",
+          "mitigation": "Affiliate-driven"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 8,
+        "speed_to_mvr": 9,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 9,
+        "weighted_total": 8.1,
+        "scoring_rationale": "Diaspora-bridge play."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-053",
+      "country": "KG",
+      "short_name": "MigrantWageGuardKG",
+      "tagline": "Wizard-of-Oz: helps Kyrgyz migrants in Russia/Korea recover unpaid wages via legal demand letters in 14 days",
+      "category": "managed_service",
+      "sector": "Finance & Fiscal",
+      "underlying_demand": {
+        "trend_id": "kg-trend-023-labour-migration-ai",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Kyrgyz migrants 800K+ in Russia underpaid. Recovery requires legal Russian docs. Lawyers charge $300+.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Kyrgyz migrants 25-50 in Moscow, St. Petersburg, Almaty experiencing 1-3 months unpaid",
+      "monetization": {
+        "model": "services",
+        "price_point_usd": 50,
+        "year_1_revenue_target_usd": 22000,
+        "year_3_revenue_target_usd": 160000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Partner with one Moscow + one Almaty lawyer",
+          "Telegram bot intake employer + amount + evidence",
+          "Russian/Korean demand letter + registered mail",
+          "$50 per case via Mbank",
+          "Cross-post in 'Kyrgyz in Moscow' Telegram + kaktus.media"
+        ],
+        "build_time_days": 8,
+        "build_cost_usd": 200
+      },
+      "validation": {
+        "signal_target": "20 paid cases + 60% recovery in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "'Kyrgyz in Moscow' Telegram",
+          "kaktus.media migrant",
+          "VK groups Kyrgyz diaspora"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Notion",
+        "Mbank",
+        "Russian/Korean templates"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "legal-document drafting",
+        "diaspora outreach"
+      ],
+      "moat_potential": "Diaspora-bridge brand; lawyer network compounds.",
+      "risk_register": [
+        {
+          "risk": "Per-destination complexity",
+          "mitigation": "Russia first, expand"
+        },
+        {
+          "risk": "Recovery variance",
+          "mitigation": "Set expectations + refund"
+        },
+        {
+          "risk": "Distrust",
+          "mitigation": "WhatsApp + Telegram dual"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 8,
+        "speed_to_mvr": 8,
+        "monetization_path": 8,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 9,
+        "weighted_total": 7.9,
+        "scoring_rationale": "Diaspora bridge, real cash, mission-aligned."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-054",
+      "country": "KG",
+      "short_name": "DigitalSomGuide",
+      "tagline": "Manifesto + paid masterclass: 'How to integrate digital som payments for your Kyrgyz business' before Jan 2027",
+      "category": "content",
+      "sector": "Finance & Fiscal",
+      "underlying_demand": {
+        "trend_id": "kg-trend-014-cbdc-digital-som",
+        "decree_id": "KG-LAW-2025-074-NBKR-CBDC",
+        "donor_program_id": null,
+        "pain_point": "NBKR launching CBDC digital som Jan 2027. Merchants + payment apps need integration. NBKR cybersec requirements (UP-038) raise compliance bar.",
+        "evidence": "https://nbkr.kg/"
+      },
+      "target_customer": "Bishkek + Osh fintech founders, payment-app developers, merchant SMEs",
+      "monetization": {
+        "model": "one_time",
+        "price_point_usd": 99,
+        "year_1_revenue_target_usd": 18000,
+        "year_3_revenue_target_usd": 120000
+      },
+      "mvr_plan": {
+        "vehicle": "manifesto",
+        "build_steps": [
+          "Write 4,500-word manifesto on digital som integration",
+          "Cross-post on Habr KG, LinkedIn, Hacker News",
+          "$99 video masterclass",
+          "Substack + Mbank + Stripe Atlas",
+          "Soft-launch via High Tech Park + ICT Week 2026"
+        ],
+        "build_time_days": 10,
+        "build_cost_usd": 50
+      },
+      "validation": {
+        "signal_target": "400 reads + 25 paid courses in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "High Tech Park Telegram",
+          "Habr KG",
+          "LinkedIn KG fintech",
+          "ICT Week 2026"
+        ]
+      },
+      "tech_stack": [
+        "Substack",
+        "Loom",
+        "Mbank + Stripe",
+        "Notion"
+      ],
+      "founder_capability_required": [
+        "Russian + English",
+        "fintech + CBDC domain",
+        "long-form writing"
+      ],
+      "moat_potential": "Authority brand; consulting upsell.",
+      "risk_register": [
+        {
+          "risk": "Regulatory changes",
+          "mitigation": "Quarterly course updates"
+        },
+        {
+          "risk": "Slow audience",
+          "mitigation": "Cross-promo with TenderRadarKG + KGProcurementCoach"
+        },
+        {
+          "risk": "Refund risk",
+          "mitigation": "30-day money-back"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 8,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 7,
+        "weighted_total": 7.1,
+        "scoring_rationale": "Niche but premium; CBDC tailwind."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-055",
+      "country": "KG",
+      "short_name": "VirtualAssetCheck",
+      "tagline": "Free Telegram tool that checks if a Kyrgyz crypto exchange or USDKG-related business is on the National Council on Virtual Assets registry",
+      "category": "free_tool",
+      "sector": "Finance & Fiscal",
+      "underlying_demand": {
+        "trend_id": "kg-trend-015-crypto-va-compliance",
+        "decree_id": "KG-CABINET-2025-VIRTUAL-ASSETS-COUNCIL",
+        "donor_program_id": null,
+        "pain_point": "KG launching virtual-asset compliance and KGST USDKG stablecoin. Citizens unsure which exchanges are licensed. Crypto-fraud rising in Bishkek.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Crypto-curious Kyrgyz 25-45 in Bishkek + Osh; secondary: small businesses considering KGST",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 5,
+        "year_1_revenue_target_usd": 6000,
+        "year_3_revenue_target_usd": 50000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Scrape National Council on Virtual Assets registry",
+          "Carrd page + Telegram bot",
+          "Free check, $5/mo for daily watchlist alerts",
+          "Mbank subscription",
+          "Soft-launch in High Tech Park + 24.kg crypto chat"
+        ],
+        "build_time_days": 5,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "1,000 checks + 30 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "High Tech Park",
+          "24.kg crypto",
+          "Bishkek crypto Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Python scraper",
+        "Telegram Bot",
+        "Carrd",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian + English",
+        "crypto familiarity",
+        "scraping"
+      ],
+      "moat_potential": "Compliance-data + audience; possible OEM to KGST.",
+      "risk_register": [
+        {
+          "risk": "Registry data limited",
+          "mitigation": "Cross-reference with regulator press"
+        },
+        {
+          "risk": "Slow uptake",
+          "mitigation": "Cross-promo with VirtualAssetCheck"
+        },
+        {
+          "risk": "Liability",
+          "mitigation": "Educational disclaimer"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 9,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 7,
+        "weighted_total": 6.95,
+        "scoring_rationale": "Niche, decree-driven, fintech-aligned."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-056",
+      "country": "KG",
+      "short_name": "FreelancerInvoiceKG",
+      "tagline": "Free tool: generate compliant Russian-Kyrgyz-English invoices for Kyrgyz freelancers billing foreign clients",
+      "category": "free_tool",
+      "sector": "Finance & Fiscal",
+      "underlying_demand": {
+        "trend_id": "kg-trend-009-htp-ai-talent",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "WB-KG-TRUST-KWPF-DIGITAL",
+        "pain_point": "High Tech Park has 5K+ residents billing foreign clients. Tri-lingual invoice templates missing.",
+        "evidence": "https://htp.kg/"
+      },
+      "target_customer": "KG IT freelancers 22-40 in Bishkek, Osh billing $300-3K/mo to foreign clients",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 5,
+        "year_1_revenue_target_usd": 7000,
+        "year_3_revenue_target_usd": 60000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Compile invoice template aligned with HTP rules + USD conversion",
+          "Web app at freelancerinvoice.kg",
+          "Free 3/mo, $5/mo unlimited",
+          "Mbank + Stripe billing",
+          "Soft-launch in High Tech Park Telegram"
+        ],
+        "build_time_days": 5,
+        "build_cost_usd": 40
+      },
+      "validation": {
+        "signal_target": "120 free + 25 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "High Tech Park Telegram",
+          "Habr KG",
+          "Bishkek freelancer Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Next.js + Vercel",
+        "Supabase",
+        "Mbank + Stripe"
+      ],
+      "founder_capability_required": [
+        "Russian + English",
+        "Next.js",
+        "freelancer empathy"
+      ],
+      "moat_potential": "Freelancer network; affiliate to Wise + Stripe; HTP OEM.",
+      "risk_register": [
+        {
+          "risk": "HTP own tool",
+          "mitigation": "Lean on UX + integration"
+        },
+        {
+          "risk": "Foreign-payment regulation",
+          "mitigation": "Stay aligned with HTP rules"
+        },
+        {
+          "risk": "Conversion",
+          "mitigation": "Bundle with TaxScannerKG"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 10,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 9,
+        "local_market_fit": 8,
+        "weighted_total": 7.8,
+        "scoring_rationale": "Clear ICP, low cost, recurring."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-057",
+      "country": "KG",
+      "short_name": "InvoiceCheckerKG",
+      "tagline": "Free Telegram tool that validates a Kyrgyz e-invoice (BIN, VAT, formats) in 5 seconds before submission",
+      "category": "free_tool",
+      "sector": "Finance & Fiscal",
+      "underlying_demand": {
+        "trend_id": "kg-trend-016-tax-ai-gns",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "KG e-invoice submissions get rejected for typos. Accountants do this manually. Forum threads on 24.kg show demand.",
+        "evidence": "https://salyk.kg/"
+      },
+      "target_customer": "KG SME accountants 30-50 processing 50-300 e-invoices/month",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 4,
+        "year_1_revenue_target_usd": 6000,
+        "year_3_revenue_target_usd": 50000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Document KG e-invoice schema + top 20 rejection patterns",
+          "Telegram bot intake paste XML or upload",
+          "Output pass/fail + fix",
+          "Free 10/mo, $4/mo unlimited",
+          "Soft-launch in Bishkek accountant + High Tech Park"
+        ],
+        "build_time_days": 5,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "150 users + 25 paid in 45 days",
+        "validation_window_days": 45,
+        "channels": [
+          "Bishkek accountant Telegram",
+          "High Tech Park",
+          "24.kg business"
+        ]
+      },
+      "tech_stack": [
+        "Python",
+        "Telegram Bot",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian",
+        "Python + XML",
+        "tax-domain familiarity"
+      ],
+      "moat_potential": "Cross-promo with TaxScannerKG; complementary product.",
+      "risk_register": [
+        {
+          "risk": "Schema changes",
+          "mitigation": "Subscribe to Salyk updates"
+        },
+        {
+          "risk": "Cannibalize TaxScannerKG",
+          "mitigation": "Different ICP — accountants vs owners"
+        },
+        {
+          "risk": "Free competition",
+          "mitigation": "Bundle premium tier"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 10,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 9,
+        "local_market_fit": 8,
+        "weighted_total": 7.6,
+        "scoring_rationale": "Cheap tool, accountant ICP, complementary."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-058",
+      "country": "KG",
+      "short_name": "BankRateKG",
+      "tagline": "Daily KG Telegram digest: best deposit and consumer-loan rates across 8 Kyrgyz banks",
+      "category": "content",
+      "sector": "Finance & Fiscal",
+      "underlying_demand": {
+        "trend_id": "kg-trend-014-cbdc-digital-som",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Kyrgyz savers compare rates manually. Rates change weekly. No daily aggregator.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Middle-class Kyrgyz 30-60 with $5K-50K savings",
+      "monetization": {
+        "model": "ad",
+        "price_point_usd": 60,
+        "year_1_revenue_target_usd": 6000,
+        "year_3_revenue_target_usd": 50000
+      },
+      "mvr_plan": {
+        "vehicle": "manifesto",
+        "build_steps": [
+          "Scrape bank deposit-rate pages daily",
+          "Telegram channel + email digest",
+          "Sponsored slot $60/mo",
+          "Affiliate to Mbank/Optima account opening",
+          "Soft-launch via Mbank family + 24.kg finance"
+        ],
+        "build_time_days": 5,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "1,000 subs + 1 sponsor in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Mbank family",
+          "24.kg finance",
+          "ICT Week 2026 fintech"
+        ]
+      },
+      "tech_stack": [
+        "Python scraping",
+        "Telegram",
+        "Buttondown"
+      ],
+      "founder_capability_required": [
+        "Russian",
+        "scraping",
+        "B2B sponsor"
+      ],
+      "moat_potential": "Brand authority; affiliate compounds.",
+      "risk_register": [
+        {
+          "risk": "Banks block scraping",
+          "mitigation": "Manual sourcing + relations"
+        },
+        {
+          "risk": "Low sponsor demand",
+          "mitigation": "Affiliate"
+        },
+        {
+          "risk": "Watcher fatigue",
+          "mitigation": "Premium forecast tier"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 9,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 7,
+        "weighted_total": 6.85,
+        "scoring_rationale": "Useful niche, modest revenue."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-059",
+      "country": "KG",
+      "short_name": "MigrantBankSetupKG",
+      "tagline": "Demo video + affiliate funnel: opens Mbank or Optima account for Kyrgyz migrants returning from Russia in 24h",
+      "category": "demo_video",
+      "sector": "Finance & Fiscal",
+      "underlying_demand": {
+        "trend_id": "kg-trend-023-labour-migration-ai",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Returning migrants don't know which KG bank suits remittance. Bank branches intimidating.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Kyrgyz migrants 25-45 returning from Russia/Kazakhstan",
+      "monetization": {
+        "model": "ad",
+        "price_point_usd": 0,
+        "year_1_revenue_target_usd": 8000,
+        "year_3_revenue_target_usd": 60000
+      },
+      "mvr_plan": {
+        "vehicle": "demo_video",
+        "build_steps": [
+          "Record 3 demo videos comparing top banks",
+          "WhatsApp/Telegram funnel: 'send your need, we'll match'",
+          "Affiliate $10-15/successful account",
+          "Soft-launch via 'Kyrgyz in Moscow' Telegram + kaktus.media",
+          "Cross-post on TikTok"
+        ],
+        "build_time_days": 5,
+        "build_cost_usd": 50
+      },
+      "validation": {
+        "signal_target": "30 affiliate accounts in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "'Kyrgyz in Moscow' Telegram",
+          "kaktus.media",
+          "TikTok migrant"
+        ]
+      },
+      "tech_stack": [
+        "TikTok + YouTube",
+        "WhatsApp",
+        "Notion CRM"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "video",
+        "affiliate"
+      ],
+      "moat_potential": "Diaspora trust + affiliate.",
+      "risk_register": [
+        {
+          "risk": "Affiliate uncertain",
+          "mitigation": "Multi-bank"
+        },
+        {
+          "risk": "Liability",
+          "mitigation": "Educational disclaimer"
+        },
+        {
+          "risk": "Low organic",
+          "mitigation": "Paid TikTok ads"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 10,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 9,
+        "local_market_fit": 8,
+        "weighted_total": 7.65,
+        "scoring_rationale": "Diaspora-bridge, low cost."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-060",
+      "country": "KG",
+      "short_name": "PayrollBuddyKG",
+      "tagline": "SaaS for SMEs: import employee list, get monthly payroll calc with all KG taxes/social contributions",
+      "category": "saas",
+      "sector": "Finance & Fiscal",
+      "underlying_demand": {
+        "trend_id": "kg-trend-016-tax-ai-gns",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "KG SMEs use Excel for payroll. Errors cause penalty. Enterprise solutions cost $30-50/mo per company.",
+        "evidence": "https://salyk.kg/"
+      },
+      "target_customer": "Bishkek SMEs 5-30 employees + solo accountants serving 5-10 SMEs",
+      "monetization": {
+        "model": "subscription",
+        "price_point_usd": 15,
+        "year_1_revenue_target_usd": 14000,
+        "year_3_revenue_target_usd": 110000
+      },
+      "mvr_plan": {
+        "vehicle": "landing_page",
+        "build_steps": [
+          "Build payroll calc with all KG tax + social",
+          "Streamlit/Next.js web app",
+          "14-day free trial, $15/mo",
+          "Mbank subscription",
+          "Soft-launch in High Tech Park + 24.kg business"
+        ],
+        "build_time_days": 9,
+        "build_cost_usd": 80
+      },
+      "validation": {
+        "signal_target": "25 free trials + 10 paying in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "High Tech Park",
+          "24.kg business",
+          "Bishkek accountant Telegram"
+        ]
+      },
+      "tech_stack": [
+        "Next.js + Vercel",
+        "Supabase",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian",
+        "Next.js",
+        "tax partner"
+      ],
+      "moat_potential": "Recurring SME subs; possible Mbank SME white-label.",
+      "risk_register": [
+        {
+          "risk": "Tax changes",
+          "mitigation": "Quarterly partner review"
+        },
+        {
+          "risk": "Trust",
+          "mitigation": "Testimonials"
+        },
+        {
+          "risk": "Adoption slow",
+          "mitigation": "Free 30-day trial"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 7,
+        "monetization_path": 8,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 7.3,
+        "scoring_rationale": "Solid SaaS, recurring."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-061",
+      "country": "KG",
+      "short_name": "TutorMatchKG",
+      "tagline": "Wizard-of-Oz: matches Bishkek students with verified university-prep tutors in Russian, Kyrgyz, English, IT",
+      "category": "marketplace",
+      "sector": "Education",
+      "underlying_demand": {
+        "trend_id": "kg-trend-008-edtech-kyrgyz",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "KOICA-KG-DIGCAP",
+        "pain_point": "ORT (Republican Test) prep critical for university entrance. Tutors found via WhatsApp word-of-mouth. No verified marketplace.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Parents 38-55 of Grade 11 students; secondary: undergrads seeking IT mentor",
+      "monetization": {
+        "model": "listing_fee",
+        "price_point_usd": 25,
+        "year_1_revenue_target_usd": 14000,
+        "year_3_revenue_target_usd": 100000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Recruit 40 verified Bishkek tutors",
+          "Carrd directory + Telegram bot",
+          "$25/mo featured or $12 commission",
+          "Mbank",
+          "Soft-launch in Bishkek parent + High Tech Park"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 60
+      },
+      "validation": {
+        "signal_target": "30 matches + 8 paid listings in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Bishkek parent Telegram",
+          "ORT-prep groups",
+          "High Tech Park"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Notion CMS",
+        "Telegram Bot",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "tutor verification",
+        "B2B sales"
+      ],
+      "moat_potential": "Tutor + family network compounds.",
+      "risk_register": [
+        {
+          "risk": "Tutor variance",
+          "mitigation": "Verified credentials + reviews"
+        },
+        {
+          "risk": "WhatsApp bypass",
+          "mitigation": "Charge tutor; ongoing reviews"
+        },
+        {
+          "risk": "ORT changes",
+          "mitigation": "Stay close to RTC"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 9,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 7.5,
+        "scoring_rationale": "Real demand, marketplace network."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-062",
+      "country": "KG",
+      "short_name": "EnglishCoachKG",
+      "tagline": "Subscription Telegram bot: AI-powered English-conversation practice for Kyrgyz preparing for IELTS or job applications",
+      "category": "ai_tool",
+      "sector": "Education",
+      "underlying_demand": {
+        "trend_id": "kg-trend-008-edtech-kyrgyz",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "KOICA-KG-DIGCAP",
+        "pain_point": "Kyrgyz 20-35 need English. IELTS prep $200-400/mo. AI conversation practice missing in KG edtech.",
+        "evidence": "https://htp.kg/"
+      },
+      "target_customer": "Bishkek + Osh professionals 22-35 wanting English fluency; secondary: students prepping IELTS",
+      "monetization": {
+        "model": "subscription",
+        "price_point_usd": 8,
+        "year_1_revenue_target_usd": 14000,
+        "year_3_revenue_target_usd": 110000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Telegram bot GPT-4o-mini conversation",
+          "IELTS topics + grading rubric",
+          "Whisper voice for speaking practice",
+          "$8/mo via Mbank",
+          "Soft-launch in High Tech Park + ORT-prep"
+        ],
+        "build_time_days": 8,
+        "build_cost_usd": 100
+      },
+      "validation": {
+        "signal_target": "80 free + 25 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "High Tech Park Telegram",
+          "ORT-prep",
+          "Habr KG"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "OpenAI GPT-4o",
+        "Whisper",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian + English",
+        "prompt engineering"
+      ],
+      "moat_potential": "Conversation data + IELTS library; HTP OEM.",
+      "risk_register": [
+        {
+          "risk": "Free competitors",
+          "mitigation": "Lean on IELTS rubric + Telegram-native"
+        },
+        {
+          "risk": "AI cost",
+          "mitigation": "Cache common + tier rate"
+        },
+        {
+          "risk": "Conversion",
+          "mitigation": "Cohort 4-week + live coach"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 8,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 8,
+        "weighted_total": 7.5,
+        "scoring_rationale": "Recurring, AI moat."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-063",
+      "country": "KG",
+      "short_name": "MathTutorKG",
+      "tagline": "Free Kyrgyz Telegram bot solving Grade 8-11 math step-by-step in Kyrgyz and Russian",
+      "category": "free_tool",
+      "sector": "Education",
+      "underlying_demand": {
+        "trend_id": "kg-trend-008-edtech-kyrgyz",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "AKDN-KG-DIGITAL-SCHOOLS2030",
+        "pain_point": "KG schools have weak math instruction in rural areas. Parents can't help. Photomath English. AKDN supports edutainment.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Grade 8-11 students 14-18 in Naryn, Issyk-Kul, Talas preparing for ORT",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 3,
+        "year_1_revenue_target_usd": 7000,
+        "year_3_revenue_target_usd": 60000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "GPT-4o vision for math photo + Russian/Kyrgyz step-by-step",
+          "Telegram bot intake photo",
+          "Free 5/day, $3/mo unlimited + ORT-prep mode",
+          "Mbank subscription",
+          "Soft-launch in ORT-prep + parent Telegram"
+        ],
+        "build_time_days": 6,
+        "build_cost_usd": 60
+      },
+      "validation": {
+        "signal_target": "400 free + 25 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "ORT-prep Telegram",
+          "Naryn parent groups",
+          "AKDN partners"
+        ]
+      },
+      "tech_stack": [
+        "GPT-4o vision",
+        "Telegram Bot",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "math basics"
+      ],
+      "moat_potential": "Kyrgyz step-by-step library; AKDN grant.",
+      "risk_register": [
+        {
+          "risk": "AI accuracy",
+          "mitigation": "Math validator + feedback"
+        },
+        {
+          "risk": "Conversion",
+          "mitigation": "Bundle with TutorMatchKG"
+        },
+        {
+          "risk": "English competition",
+          "mitigation": "Kyrgyz first-class"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 9,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 9,
+        "local_market_fit": 8,
+        "weighted_total": 7.55,
+        "scoring_rationale": "Mass market, donor-grant."
+      },
+      "confidence_tier": "A",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-064",
+      "country": "KG",
+      "short_name": "ScholarshipFinderKG",
+      "tagline": "Carrd directory + Telegram bot listing every active scholarship for Kyrgyz students applying abroad",
+      "category": "content",
+      "sector": "Education",
+      "underlying_demand": {
+        "trend_id": "kg-trend-008-edtech-kyrgyz",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "KOICA-KG-DIGCAP",
+        "pain_point": "Kyrgyz students hunt scholarships across multiple sites. No aggregator.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Kyrgyz students 17-25 planning study in Korea, EU, UK, Russia",
+      "monetization": {
+        "model": "listing_fee",
+        "price_point_usd": 0,
+        "year_1_revenue_target_usd": 4000,
+        "year_3_revenue_target_usd": 35000
+      },
+      "mvr_plan": {
+        "vehicle": "directory",
+        "build_steps": [
+          "Compile 40 active scholarships",
+          "Carrd page + Telegram alert bot",
+          "Sponsor IELTS coaches + prep services",
+          "Soft-launch via ORT-prep + AUCA student",
+          "Affiliate to language schools"
+        ],
+        "build_time_days": 5,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "1,200 visits + 1 sponsor in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "ORT-prep Telegram",
+          "AUCA student community",
+          "kaktus.media education"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Notion CMS",
+        "Telegram Bot"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz + English",
+        "research"
+      ],
+      "moat_potential": "Authority + sponsor.",
+      "risk_register": [
+        {
+          "risk": "Deadlines change",
+          "mitigation": "Monthly review"
+        },
+        {
+          "risk": "Low ad demand",
+          "mitigation": "Affiliate"
+        },
+        {
+          "risk": "Competition",
+          "mitigation": "Bilingual UX"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 10,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 9,
+        "local_market_fit": 7,
+        "weighted_total": 7.1,
+        "scoring_rationale": "Cheap, useful, modest revenue."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-065",
+      "country": "KG",
+      "short_name": "ITPathfinderKG",
+      "tagline": "Career-coaching squeeze page + 1:1 paid call: best KG IT bootcamp / HTP track for your background",
+      "category": "managed_service",
+      "sector": "Education",
+      "underlying_demand": {
+        "trend_id": "kg-trend-009-htp-ai-talent",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "KOICA-KG-DIGCAP",
+        "pain_point": "Kyrgyz students + career-changers face 30+ IT bootcamp options. No independent coaching.",
+        "evidence": "https://htp.kg/"
+      },
+      "target_customer": "Career-changers 25-40 entering IT; secondary: Grade 11 students choosing IT",
+      "monetization": {
+        "model": "services",
+        "price_point_usd": 25,
+        "year_1_revenue_target_usd": 9000,
+        "year_3_revenue_target_usd": 65000
+      },
+      "mvr_plan": {
+        "vehicle": "squeeze_page",
+        "build_steps": [
+          "Carrd 5-question intake",
+          "Auto-email Russian + Kyrgyz recommendation",
+          "Upsell $25 30-min Zoom",
+          "Mbank",
+          "Soft-launch via High Tech Park + Bishkek career-changer"
+        ],
+        "build_time_days": 5,
+        "build_cost_usd": 30
+      },
+      "validation": {
+        "signal_target": "150 conversions + 10 paid calls in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "High Tech Park Telegram",
+          "Bishkek career",
+          "ORT-prep"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Mailerlite",
+        "Calendly",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz + English",
+        "IT industry awareness",
+        "career coaching"
+      ],
+      "moat_potential": "Authority + bootcamp affiliate.",
+      "risk_register": [
+        {
+          "risk": "Bootcamp landscape",
+          "mitigation": "Quarterly remap"
+        },
+        {
+          "risk": "HTP own",
+          "mitigation": "Position independent"
+        },
+        {
+          "risk": "Low calls",
+          "mitigation": "Bundle with EnglishCoachKG"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 10,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 7,
+        "weighted_total": 7.05,
+        "scoring_rationale": "Niche, willingness to pay."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-066",
+      "country": "KG",
+      "short_name": "SchoolEnrollerKG",
+      "tagline": "Wizard-of-Oz: helps Bishkek parents enroll their child in a desired public school via mektep.kg",
+      "category": "managed_service",
+      "sector": "Education",
+      "underlying_demand": {
+        "trend_id": "kg-trend-008-edtech-kyrgyz",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "School enrollment moves online (mektep.kg) but slot system opaque. Popular Bishkek schools fill in hours.",
+        "evidence": "https://mektep.kg/"
+      },
+      "target_customer": "Bishkek parents 28-45 enrolling Grade 1 or transferring",
+      "monetization": {
+        "model": "services",
+        "price_point_usd": 10,
+        "year_1_revenue_target_usd": 11000,
+        "year_3_revenue_target_usd": 70000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Map mektep.kg process for Bishkek districts",
+          "Telegram bot intake child + schools + docs",
+          "Founder + 1 part-time monitors",
+          "Mbank 880 KGS per enrollment",
+          "Soft-launch in Bishkek parent groups before April"
+        ],
+        "build_time_days": 6,
+        "build_cost_usd": 80
+      },
+      "validation": {
+        "signal_target": "20 paid enrollments in 60 days during peak",
+        "validation_window_days": 60,
+        "channels": [
+          "Bishkek parent Telegram",
+          "kaktus.media education"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Notion",
+        "Mbank",
+        "Playwright"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "mektep.kg awareness"
+      ],
+      "moat_potential": "Seasonal cash; extend to kindergarten + university.",
+      "risk_register": [
+        {
+          "risk": "System changes",
+          "mitigation": "Monthly check"
+        },
+        {
+          "risk": "Seasonality",
+          "mitigation": "Diversify with PassportSlotKG"
+        },
+        {
+          "risk": "Liability",
+          "mitigation": "Refund if no slot"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 8,
+        "speed_to_mvr": 9,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 7.55,
+        "scoring_rationale": "Seasonal, high-margin."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-067",
+      "country": "KG",
+      "short_name": "AcademicTranslatorKG",
+      "tagline": "Free Telegram tool that translates academic Kyrgyz/Russian texts to research-quality English",
+      "category": "ai_tool",
+      "sector": "Education",
+      "underlying_demand": {
+        "trend_id": "kg-trend-024-sovereign-llm-kyrgyz",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "KOICA-KG-DIGCAP",
+        "pain_point": "Kyrgyz grad students publishing in English struggle. DeepL doesn't cover Kyrgyz.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Kyrgyz grad students 25-35 at AUCA, KSU, KNAU applying for international PhD",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 10,
+        "year_1_revenue_target_usd": 7000,
+        "year_3_revenue_target_usd": 60000
+      },
+      "mvr_plan": {
+        "vehicle": "demo_video",
+        "build_steps": [
+          "GPT-4o + custom Kyrgyz prompt for academic register",
+          "Telegram bot + web app",
+          "Free 1K words/mo, $10/mo unlimited",
+          "Mbank subscription",
+          "Soft-launch in AUCA + KSU student"
+        ],
+        "build_time_days": 6,
+        "build_cost_usd": 60
+      },
+      "validation": {
+        "signal_target": "150 users + 20 paying in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "AUCA Telegram",
+          "KSU student",
+          "American University CA"
+        ]
+      },
+      "tech_stack": [
+        "GPT-4o",
+        "Telegram Bot",
+        "Next.js",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian + English + Kyrgyz",
+        "academic translation"
+      ],
+      "moat_potential": "Academic-corpus library; OEM to AUCA, KSU.",
+      "risk_register": [
+        {
+          "risk": "Free competitors",
+          "mitigation": "Kyrgyz-Latin quality + citations"
+        },
+        {
+          "risk": "Niche",
+          "mitigation": "Add CV/SOP"
+        },
+        {
+          "risk": "Quality",
+          "mitigation": "Human review for premium"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 9,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 7,
+        "weighted_total": 6.85,
+        "scoring_rationale": "Niche, AI-feasible."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-068",
+      "country": "KG",
+      "short_name": "TeacherAILabKG",
+      "tagline": "Subscription Telegram coach training Kyrgyz schoolteachers to use ChatGPT/Yandex GPT for lesson prep",
+      "category": "content",
+      "sector": "Education",
+      "underlying_demand": {
+        "trend_id": "kg-trend-008-edtech-kyrgyz",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "AKDN-KG-DIGITAL-SCHOOLS2030",
+        "pain_point": "KG teachers want practical 'how do I use AI for lesson plans?' AKDN + UNICEF aligned.",
+        "evidence": "https://www.akdn.org/"
+      },
+      "target_customer": "Public school teachers 30-55 in Bishkek, oblast capitals; secondary: principals",
+      "monetization": {
+        "model": "subscription",
+        "price_point_usd": 4,
+        "year_1_revenue_target_usd": 8000,
+        "year_3_revenue_target_usd": 60000
+      },
+      "mvr_plan": {
+        "vehicle": "manifesto",
+        "build_steps": [
+          "12-week curriculum",
+          "Telegram channel + email digest",
+          "$4/mo subscription",
+          "AKDN/UNICEF grant pitch",
+          "Soft-launch via 'Учителя Кыргызстана' Telegram"
+        ],
+        "build_time_days": 8,
+        "build_cost_usd": 50
+      },
+      "validation": {
+        "signal_target": "300 teacher subs + 30 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "'Uchitelya Kyrgyzstana' Telegram",
+          "Bishkek district education",
+          "kaktus.media education"
+        ]
+      },
+      "tech_stack": [
+        "Telegram",
+        "Buttondown",
+        "Mbank",
+        "Notion CMS"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "pedagogy + AI tooling"
+      ],
+      "moat_potential": "Teacher network; possible MoE white-label.",
+      "risk_register": [
+        {
+          "risk": "Free state alternative",
+          "mitigation": "Lean on practical UX"
+        },
+        {
+          "risk": "Pay willingness",
+          "mitigation": "School-level subscription"
+        },
+        {
+          "risk": "Content fatigue",
+          "mitigation": "Cohort-based"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 8,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 8,
+        "weighted_total": 6.85,
+        "scoring_rationale": "Donor-aligned, recurring."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-069",
+      "country": "KG",
+      "short_name": "CodingClubKG",
+      "tagline": "Wizard-of-Oz weekend coding club for Bishkek kids 10-14, 1 instructor, Mbank-paid",
+      "category": "managed_service",
+      "sector": "Education",
+      "underlying_demand": {
+        "trend_id": "kg-trend-009-htp-ai-talent",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "KOICA-KG-DIGCAP",
+        "pain_point": "Bishkek parents want kids in coding clubs early. State Maktep clubs have waitlists. Private clubs $60-150/mo.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Bishkek middle-class parents 30-45 with kids 10-14",
+      "monetization": {
+        "model": "services",
+        "price_point_usd": 20,
+        "year_1_revenue_target_usd": 14000,
+        "year_3_revenue_target_usd": 90000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Recruit 1-2 AUCA CS students at $80/Saturday",
+          "Rent High Tech Park co-working hourly",
+          "$20/Saturday, group of 8",
+          "Mbank booking",
+          "Soft-launch in Bishkek parent Telegram"
+        ],
+        "build_time_days": 6,
+        "build_cost_usd": 200
+      },
+      "validation": {
+        "signal_target": "8 paying weekly for 4 weeks",
+        "validation_window_days": 30,
+        "channels": [
+          "Bishkek parent Telegram",
+          "High Tech Park",
+          "kaktus.media education"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Mbank",
+        "Notion"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "CS basics",
+        "ops"
+      ],
+      "moat_potential": "Community + curriculum; scale to oblasts.",
+      "risk_register": [
+        {
+          "risk": "Instructor reliability",
+          "mitigation": "Roster of 3"
+        },
+        {
+          "risk": "Venue cost",
+          "mitigation": "Partner HTP hub"
+        },
+        {
+          "risk": "Operational",
+          "mitigation": "Limit cohorts"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 9,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 6,
+        "local_market_fit": 8,
+        "weighted_total": 7.2,
+        "scoring_rationale": "Operationally heavy, recurring."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-070",
+      "country": "KG",
+      "short_name": "ORTQuestionBank",
+      "tagline": "Free Telegram bot serving daily Kyrgyz-language ORT-style practice questions with explanations",
+      "category": "free_tool",
+      "sector": "Education",
+      "underlying_demand": {
+        "trend_id": "kg-trend-008-edtech-kyrgyz",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "ORT (Republican Test) bottleneck for university entrance. Question banks paper or expensive private platforms.",
+        "evidence": "https://testing.kg/"
+      },
+      "target_customer": "Grade 11 students 17-18 across KG; secondary: Grade 10 starting prep",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 3,
+        "year_1_revenue_target_usd": 6000,
+        "year_3_revenue_target_usd": 50000
+      },
+      "mvr_plan": {
+        "vehicle": "demo_video",
+        "build_steps": [
+          "Compile 400 sample ORT questions",
+          "Telegram bot daily-question",
+          "Free 3/day, $3/mo unlimited + tracking",
+          "Mbank subscription",
+          "Soft-launch in ORT-prep + parent Telegram"
+        ],
+        "build_time_days": 6,
+        "build_cost_usd": 50
+      },
+      "validation": {
+        "signal_target": "800 users + 40 paid in 60 days during prep season",
+        "validation_window_days": 60,
+        "channels": [
+          "ORT-prep Telegram",
+          "Bishkek parent groups",
+          "MathTutorKG user base"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Supabase",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "ORT domain"
+      ],
+      "moat_potential": "Question bank moat; cross-promo TutorMatchKG, MathTutorKG.",
+      "risk_register": [
+        {
+          "risk": "Copyright",
+          "mitigation": "Generate original ORT-style"
+        },
+        {
+          "risk": "Seasonality",
+          "mitigation": "Year-round Grade 9-11"
+        },
+        {
+          "risk": "Free competitors",
+          "mitigation": "UX + tracking"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 9,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 8,
+        "weighted_total": 7.45,
+        "scoring_rationale": "Mass market, seasonal peak."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-071",
+      "country": "KG",
+      "short_name": "RussianForBusinessKG",
+      "tagline": "Subscription Telegram course: business-Russian for Kyrgyz SME owners and HR managers",
+      "category": "content",
+      "sector": "Education",
+      "underlying_demand": {
+        "trend_id": "kg-trend-024-sovereign-llm-kyrgyz",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Kyrgyz SMEs deal with Russian/Kazakh partners. Business Russian needs more than school.",
+        "evidence": "https://htp.kg/"
+      },
+      "target_customer": "Bishkek SME owners 30-50 + HR; secondary: KG juniors at Kazakh/Turkish firms",
+      "monetization": {
+        "model": "subscription",
+        "price_point_usd": 6,
+        "year_1_revenue_target_usd": 7000,
+        "year_3_revenue_target_usd": 50000
+      },
+      "mvr_plan": {
+        "vehicle": "manifesto",
+        "build_steps": [
+          "12-week business-Russian curriculum",
+          "Telegram channel + Buttondown",
+          "$6/mo subscription",
+          "Soft-launch via High Tech Park + 24.kg business",
+          "Cross-post on Habr KG"
+        ],
+        "build_time_days": 9,
+        "build_cost_usd": 50
+      },
+      "validation": {
+        "signal_target": "150 free + 25 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "High Tech Park",
+          "24.kg business",
+          "Habr KG"
+        ]
+      },
+      "tech_stack": [
+        "Telegram",
+        "Buttondown",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "business-Russian fluency"
+      ],
+      "moat_potential": "Authority + cohort.",
+      "risk_register": [
+        {
+          "risk": "Niche",
+          "mitigation": "Bundle with EnglishCoachKG"
+        },
+        {
+          "risk": "Generic content",
+          "mitigation": "Real templates"
+        },
+        {
+          "risk": "Conversion",
+          "mitigation": "Cohort live Q&A"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 5,
+        "speed_to_mvr": 8,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 7,
+        "weighted_total": 6.3,
+        "scoring_rationale": "Niche."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-072",
+      "country": "KG",
+      "short_name": "UniApplyAssistantKG",
+      "tagline": "Wizard-of-Oz: drafts foreign university application essays + recommendation letters for Kyrgyz students",
+      "category": "managed_service",
+      "sector": "Education",
+      "underlying_demand": {
+        "trend_id": "kg-trend-008-edtech-kyrgyz",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "KOICA-KG-DIGCAP",
+        "pain_point": "Kyrgyz students applying foreign unis lack English-essay coaching. Private services $300-1K.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Kyrgyz students 17-22 applying foreign universities; parents financing",
+      "monetization": {
+        "model": "services",
+        "price_point_usd": 50,
+        "year_1_revenue_target_usd": 14000,
+        "year_3_revenue_target_usd": 90000
+      },
+      "mvr_plan": {
+        "vehicle": "wizard_of_oz",
+        "build_steps": [
+          "Hire 1-2 English-fluent Kyrgyz alums at $200/essay",
+          "Telegram intake + Notion fulfillment",
+          "$50/essay revision; $180 SOP package",
+          "Mbank + escrow",
+          "Soft-launch in AUCA + KSU + Westminster KG student"
+        ],
+        "build_time_days": 6,
+        "build_cost_usd": 100
+      },
+      "validation": {
+        "signal_target": "20 paid essays in 60 days during application",
+        "validation_window_days": 60,
+        "channels": [
+          "AUCA Telegram",
+          "Westminster KG",
+          "Chevening KG"
+        ]
+      },
+      "tech_stack": [
+        "Telegram",
+        "Notion",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "English fluency",
+        "alumnus network",
+        "essay coaching"
+      ],
+      "moat_potential": "Alum + outcome data.",
+      "risk_register": [
+        {
+          "risk": "Quality variance",
+          "mitigation": "Senior alum review"
+        },
+        {
+          "risk": "Plagiarism",
+          "mitigation": "Custom essays + originality"
+        },
+        {
+          "risk": "Seasonality",
+          "mitigation": "Multiple deadlines + IELTS cross-sell"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 7,
+        "speed_to_mvr": 9,
+        "monetization_path": 7,
+        "founder_solo_feasibility": 6,
+        "local_market_fit": 7,
+        "weighted_total": 7.1,
+        "scoring_rationale": "Premium niche."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-073",
+      "country": "KG",
+      "short_name": "KyrgyzHistoryGame",
+      "tagline": "Free Telegram quiz bot teaching Kyrgyz history and culture to Grade 5-8 students with daily 10-question challenges",
+      "category": "free_tool",
+      "sector": "Education",
+      "underlying_demand": {
+        "trend_id": "kg-trend-008-edtech-kyrgyz",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "AKDN-KG-DIGITAL-SCHOOLS2030",
+        "pain_point": "Schools have weak history retention. Kids prefer mobile games. AKDN supports edutainment.",
+        "evidence": "https://www.akdn.org/"
+      },
+      "target_customer": "Grade 5-8 students 10-14 across KG; parents",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 2,
+        "year_1_revenue_target_usd": 5000,
+        "year_3_revenue_target_usd": 40000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Compile 400 KG history questions",
+          "Telegram bot daily quiz + leaderboard",
+          "Free + leaderboard, $2/mo parent dashboard + tracking",
+          "Mbank subscription",
+          "Soft-launch via Bishkek parent + AKDN partner schools"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 50
+      },
+      "validation": {
+        "signal_target": "400 daily-active + 40 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "Bishkek parent Telegram",
+          "AKDN partners",
+          "kaktus.media education"
+        ]
+      },
+      "tech_stack": [
+        "Telegram Bot",
+        "Supabase",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "history domain"
+      ],
+      "moat_potential": "Question bank + community; donor-grant.",
+      "risk_register": [
+        {
+          "risk": "Accuracy",
+          "mitigation": "Historian advisor"
+        },
+        {
+          "risk": "Retention",
+          "mitigation": "Leaderboard + parent dashboard"
+        },
+        {
+          "risk": "Govt competitor",
+          "mitigation": "Game design"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 5,
+        "speed_to_mvr": 9,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 8,
+        "local_market_fit": 7,
+        "weighted_total": 6.5,
+        "scoring_rationale": "Mass market, civic value."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    },
+    {
+      "id": "kg-mvp-074",
+      "country": "KG",
+      "short_name": "PortfolioBuilderKG",
+      "tagline": "Web app: Kyrgyz IT freelancers paste their work into a polished GitHub-style English portfolio in 10 minutes",
+      "category": "saas",
+      "sector": "Education",
+      "underlying_demand": {
+        "trend_id": "kg-trend-009-htp-ai-talent",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": "KOICA-KG-DIGCAP",
+        "pain_point": "Kyrgyz freelancers struggle to communicate work in English portfolios.",
+        "evidence": "https://htp.kg/"
+      },
+      "target_customer": "Kyrgyz developers + designers 22-35 in HTP",
+      "monetization": {
+        "model": "freemium",
+        "price_point_usd": 4,
+        "year_1_revenue_target_usd": 6000,
+        "year_3_revenue_target_usd": 50000
+      },
+      "mvr_plan": {
+        "vehicle": "free_tool",
+        "build_steps": [
+          "Templated portfolio generator Next.js + Vercel",
+          "GPT-4o paraphrasing English",
+          "Free 1, $4/mo unlimited + custom domain",
+          "Mbank + Stripe",
+          "Soft-launch in High Tech Park"
+        ],
+        "build_time_days": 7,
+        "build_cost_usd": 60
+      },
+      "validation": {
+        "signal_target": "150 free + 25 paid in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "High Tech Park Telegram",
+          "Habr KG",
+          "Bishkek freelancer"
+        ]
+      },
+      "tech_stack": [
+        "Next.js + Vercel",
+        "Supabase",
+        "GPT-4o",
+        "Mbank + Stripe"
+      ],
+      "founder_capability_required": [
+        "Russian + English",
+        "Next.js",
+        "design"
+      ],
+      "moat_potential": "Portfolio + freelancer network; affiliate.",
+      "risk_register": [
+        {
+          "risk": "Free competitors",
+          "mitigation": "Lean on Kyrgyz onboarding + HTP integration"
+        },
+        {
+          "risk": "Conversion",
+          "mitigation": "Bundle FreelancerInvoiceKG"
+        },
+        {
+          "risk": "Quality",
+          "mitigation": "Curated templates"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 6,
+        "speed_to_mvr": 9,
+        "monetization_path": 6,
+        "founder_solo_feasibility": 9,
+        "local_market_fit": 7,
+        "weighted_total": 7.1,
+        "scoring_rationale": "Cheap, recurring, complementary."
+      },
+      "confidence_tier": "B",
+      "linked_initiative_id": null,
+      "verification": "L2_VERIFIED"
+    },
+    {
+      "id": "kg-mvp-075",
+      "country": "KG",
+      "short_name": "TeacherSubBoardKG",
+      "tagline": "Directory of substitute teachers available for Bishkek schools, with daily/hourly rates and verified credentials",
+      "category": "content",
+      "sector": "Education",
+      "underlying_demand": {
+        "trend_id": "kg-trend-008-edtech-kyrgyz",
+        "decree_id": "KG-LAW-2025-178-DIGITAL-CODE",
+        "donor_program_id": null,
+        "pain_point": "Bishkek schools struggle to find substitute teachers. Phone scramble dominates.",
+        "evidence": "https://kaktus.media/"
+      },
+      "target_customer": "Bishkek school principals + HR; secondary: substitute teachers seeking gigs",
+      "monetization": {
+        "model": "listing_fee",
+        "price_point_usd": 15,
+        "year_1_revenue_target_usd": 5000,
+        "year_3_revenue_target_usd": 40000
+      },
+      "mvr_plan": {
+        "vehicle": "directory",
+        "build_steps": [
+          "Recruit 40 verified substitutes",
+          "Carrd directory + Telegram alerts",
+          "Free for principals; $15/mo for teachers featured",
+          "Mbank",
+          "Soft-launch in 'Uchitelya Kyrgyzstana' Telegram"
+        ],
+        "build_time_days": 6,
+        "build_cost_usd": 40
+      },
+      "validation": {
+        "signal_target": "40 teacher signups + 5 schools in 60 days",
+        "validation_window_days": 60,
+        "channels": [
+          "'Uchitelya Kyrgyzstana' Telegram",
+          "Bishkek district education"
+        ]
+      },
+      "tech_stack": [
+        "Carrd",
+        "Notion CMS",
+        "Telegram Bot",
+        "Mbank"
+      ],
+      "founder_capability_required": [
+        "Russian + Kyrgyz",
+        "credential verification"
+      ],
+      "moat_potential": "Trust + network.",
+      "risk_register": [
+        {
+          "risk": "Public schools resist",
+          "mitigation": "Start private + bilingual"
+        },
+        {
+          "risk": "Low ad",
+          "mitigation": "Charge teachers"
+        },
+        {
+          "risk": "Seasonality",
+          "mitigation": "Year-round demand"
+        }
+      ],
+      "scoring": {
+        "demand_clarity": 5,
+        "speed_to_mvr": 9,
+        "monetization_path": 5,
+        "founder_solo_feasibility": 7,
+        "local_market_fit": 7,
+        "weighted_total": 6.3,
+        "scoring_rationale": "Niche, fulfillment-driven."
+      },
+      "confidence_tier": "C",
+      "linked_initiative_id": null,
+      "verification": "INFERRED"
+    }
+  ]
+}
