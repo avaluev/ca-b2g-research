@@ -1,0 +1,46 @@
+{
+  "card_id": "audit__110591d25ccfd397",
+  "topic": "audit",
+  "schema_fragment": "Person",
+  "query": "Confirm Talant Sultanov current role May 2026 after Mintsifry liquidation Kyrgyzstan; is he now at the Presidential Administration UDP?",
+  "country_filter": "KG",
+  "language_preference": null,
+  "models_called": [
+    "perplexity/sonar-pro",
+    "openrouter/owl-alpha"
+  ],
+  "responses": [
+    {
+      "model": "perplexity/sonar-pro",
+      "response_id": "gen-1777848729-0LstBhBIrc4AwTqM10F5",
+      "answer": "- No confirmation found in available sources of **Talant Sultanov**'s role in May 2026 after Mintsifry liquidation in Kyrgyzstan; search results lack post-2025 government position details.[1][2][3][4][5][6][7]\n- No evidence confirms **Talant Sultanov** is currently at the Presidential Administration UDP; past role as Adviser to the Chief of the President’s Administration mentioned historically, but not current.[5]\n- Latest known roles (as of 2025): Policy Advocacy Advisor at Global Digital Inclusion Partnership, Chair/Co-Founder of Internet Society Kyrgyz Chapter (ISOC.KG), UN IGF MAG member.[2][3]",
+      "citations": [],
+      "tokens_in": 119,
+      "tokens_out": 160,
+      "cost_usd": 0.002757,
+      "latency_ms": 4039,
+      "fetched_at": "2026-05-03T22:52:08.241390+00:00",
+      "error": null
+    },
+    {
+      "model": "openrouter/owl-alpha",
+      "response_id": "gen-1777848730-CyO5Qyjj4woqJkqQhnoX",
+      "answer": "I cannot confirm Talant Sultanov's current role as of May 2026 or verify whether he is currently at the Presidential Administration of Kyrgyzstan (UDP). My information is not up to date to that date, and I do not have access to real-time databases or the latest personnel appointments in the Kyrgyz government.\n\nTo verify his current position, I recommend consulting the following sources:\n\n- The official website of the Presidential Administration of Kyrgyzstan: [https://www.president.kg/](https://www.president.kg/)\n- Recent news from Kyrgyz media outlets such as 24.kg ([https://24.kg/](https://24.kg/)) or Kaktus.media ([https://kaktus.media/](https://kaktus.media/))\n- The State Register of Legal Entities of Kyrgyzstan for updates on Mintsifry's liquidation: [https://register.minjust.gov.kg/](https://register.minjust.gov.kg/)\n\nIf you have a specific source or document you'd like me to analyze, please share it and I can help interpret the information.",
+      "citations": [],
+      "tokens_in": 210,
+      "tokens_out": 225,
+      "cost_usd": 0.0,
+      "latency_ms": 13255,
+      "fetched_at": "2026-05-03T22:52:08.241686+00:00",
+      "error": null
+    }
+  ],
+  "consensus": {
+    "high_agreement_facts": [],
+    "disagreements": []
+  },
+  "sources_normalized": [],
+  "total_cost_usd": 0.002757,
+  "downstream_verification": "L2_VERIFIED",
+  "generated_at": "2026-05-03T22:52:21.500783+00:00"
+}

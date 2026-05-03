@@ -1,0 +1,46 @@
+{
+  "card_id": "audit__a456ac8b966486c9",
+  "topic": "audit",
+  "schema_fragment": "Person",
+  "query": "Confirm Marat Isakov current Director of GP Tunduk State Enterprise Kyrgyzstan as of May 2026",
+  "country_filter": "KG",
+  "language_preference": null,
+  "models_called": [
+    "perplexity/sonar-pro",
+    "openrouter/owl-alpha"
+  ],
+  "responses": [
+    {
+      "model": "perplexity/sonar-pro",
+      "response_id": "gen-1777848856-HDvR2v2Y0uFPyd4yIJgD",
+      "answer": "- Unable to confirm Marat Isakov as current Director of GP Tunduk State Enterprise (КГП \"Тундук\") in Kyrgyzstan as of May 2026; no relevant primary sources found in search results or accessible records.  \n- Search result [1] (https://www.scribd.com/document/496495403/Lit2-Beed-2-Blk-1-Groupactivity) unrelated to query (education document on Bangladesh/Pakistan).",
+      "citations": [],
+      "tokens_in": 111,
+      "tokens_out": 99,
+      "cost_usd": 0.001818,
+      "latency_ms": 2533,
+      "fetched_at": "2026-05-03T22:54:16.372559+00:00",
+      "error": null
+    },
+    {
+      "model": "openrouter/owl-alpha",
+      "response_id": "gen-1777848856-3jll0mpGHfClJb1WQ8GO",
+      "answer": "I am unable to confirm the current directorship of Marat Isakov at the State Enterprise \"Tunduk\" (GP \"Tunduk\") as of May 2026. My training data has a knowledge cutoff, and I do not have access to real-time government appointment records or the latest decrees from the Kyrgyz Republic's government portals to verify this specific fact for that date.\n\nTo confirm this information, I recommend checking the following official sources:\n*   **Unified State Register of Legal Entities (EGRYuL):** Available via the Ministry of Justice of the Kyrgyz Republic.\n*   **Official Government Portal:** For recent decrees (Postanovleniya/Prikazy) regarding the appointment of heads of state enterprises.\n*   **Tunduk's Official Website:** If available, for their management structure.\n\nI can provide information on the functions of the Tunduk intergovernmental platform or previous leadership if that would be helpful.",
+      "citations": [],
+      "tokens_in": 202,
+      "tokens_out": 194,
+      "cost_usd": 0.0,
+      "latency_ms": 11689,
+      "fetched_at": "2026-05-03T22:54:16.372886+00:00",
+      "error": null
+    }
+  ],
+  "consensus": {
+    "high_agreement_facts": [],
+    "disagreements": []
+  },
+  "sources_normalized": [],
+  "total_cost_usd": 0.001818,
+  "downstream_verification": "L2_VERIFIED",
+  "generated_at": "2026-05-03T22:54:28.063586+00:00"
+}

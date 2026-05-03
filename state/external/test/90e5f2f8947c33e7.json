@@ -1,0 +1,46 @@
+{
+  "card_id": "test__90e5f2f8947c33e7",
+  "topic": "test",
+  "schema_fragment": "Source",
+  "query": "Name the capital of Uzbekistan in one word",
+  "country_filter": null,
+  "language_preference": null,
+  "models_called": [
+    "openrouter/owl-alpha",
+    "google/gemma-4-31b-it:free"
+  ],
+  "responses": [
+    {
+      "model": "openrouter/owl-alpha",
+      "response_id": "gen-1777832532-1hjE3e3RhEwoeThMhyQE",
+      "answer": "Tashkent [https://en.wikipedia.org/wiki/Tashkent]",
+      "citations": [],
+      "tokens_in": 181,
+      "tokens_out": 17,
+      "cost_usd": 0.0,
+      "latency_ms": 3808,
+      "fetched_at": "2026-05-03T18:22:11.765752+00:00",
+      "error": null
+    },
+    {
+      "model": "google/gemma-4-31b-it:free",
+      "response_id": "gen-1777832532-TYtamkV1lKGnh20QhQkA",
+      "answer": "Tashkent [https://www.gov.uz/en]",
+      "citations": [],
+      "tokens_in": 88,
+      "tokens_out": 14,
+      "cost_usd": 0.0,
+      "latency_ms": 1758,
+      "fetched_at": "2026-05-03T18:22:11.766060+00:00",
+      "error": null
+    }
+  ],
+  "consensus": {
+    "high_agreement_facts": [],
+    "disagreements": []
+  },
+  "sources_normalized": [],
+  "total_cost_usd": 0.0,
+  "downstream_verification": "L2_VERIFIED",
+  "generated_at": "2026-05-03T18:22:15.576077+00:00"
+}

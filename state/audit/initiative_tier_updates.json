@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-05-04T00:00:00Z",
+  "auditor": "reflexion-auditor",
+  "summary": {
+    "total_initiatives_audited": 100,
+    "tier_a_before_audit": 28,
+    "tier_a_after_audit": 24,
+    "demoted_to_b": 4,
+    "promoted_to_a": 0,
+    "demoted_to_c_or_lower": 0
+  },
+  "tier_changes": [
+    {
+      "initiative_id": "INI-007",
+      "short_name": "EPIGU 1000+ services agentic expansion (UZ)",
+      "tier_before": "A",
+      "tier_after": "B",
+      "feasibility_scores": {
+        "funding_pathway": 6,
+        "decision_maker_access": 6,
+        "technical_deliverability": 8,
+        "regulatory_clearability": 4
+      },
+      "demotion_rationale": "Regulatory clearability scored 4/10. The initiative's regulatory_hurdles section relies on UZ-LAW-2026-1125 PII amendment, which is not present in the decrees file and cannot be independently verified. Until existence of the law is confirmed (see corrections C-004), regulatory pathway is unclear.",
+      "next_step": "Re-run legal-cartographer on UZ-LAW-2026-1125 verification. If law exists and provisions favorable, promote back to A. If law is fabricated, hold at B and remove the UZ-LAW-2026-1125 references from initiatives."
+    },
+    {
+      "initiative_id": "INI-013",
+      "short_name": "KG Tunduk AI overlay (Tunduk 2.0)",
+      "tier_before": "A",
+      "tier_after": "B",
+      "feasibility_scores": {
+        "funding_pathway": 5,
+        "decision_maker_access": 3,
+        "technical_deliverability": 7,
+        "regulatory_clearability": 5
+      },
+      "demotion_rationale": "Decision-maker access scored 3/10. Tunduk's parent has shifted from Mintsifry to UDP/GP Infocom in April 2026. Marat Isakov as GP Tunduk Director may be retained but reporting line and procurement authority are in flux. UDP structural regulations not yet published. No live tender for AI overlay confirmed. Promotion blocked until UDP regs publish (~31 May 2026).",
+      "next_step": "Re-baseline after UDP structural regulations publish. Re-verify Marat Isakov's role currency. Confirm Tunduk procurement authority pathway under new institutional layer."
+    },
+    {
+      "initiative_id": "INI-024",
+      "short_name": "KG biometric social registry expansion (P155198 successor)",
+      "tier_before": "A",
+      "tier_after": "B",
+      "feasibility_scores": {
+        "funding_pathway": 6,
+        "decision_maker_access": 4,
+        "technical_deliverability": 7,
+        "regulatory_clearability": 6
+      },
+      "demotion_rationale": "Decision-maker access scored 4/10. Mintsifry-era counterpart deprecated. WB P155198 closing March 2025. Successor program through UDP not yet defined. Gulnara Baatyrbekova (Min Social Protection) is the right counterpart but procurement authority for digital components may now flow through UDP rather than line ministry.",
+      "next_step": "Confirm successor WB program for biometric social registry; re-verify Min Social Protection procurement authority post-UDP transition."
+    },
+    {
+      "initiative_id": "INI-021",
+      "short_name": "KG e-procurement Phase 2 (ADB 55109-002 anticipated)",
+      "tier_before": "A",
+      "tier_after": "B",
+      "feasibility_scores": {
+        "funding_pathway": 6,
+        "decision_maker_access": 5,
+        "technical_deliverability": 7,
+        "regulatory_clearability": 6
+      },
+      "demotion_rationale": "Funding pathway scored 6/10. Phase 2 investment operation 'anticipated' but not yet approved by ADB Board. Phase 1 ($650K TA) is small advisory; Phase 2 investment loan timing depends on ADB Country Operations Business Plan 2025-2027 cycle. Without confirmed Board approval, treating as Tier A overstates speed-to-contract.",
+      "next_step": "Monitor ADB Board calendar for Phase 2 approval. Confirm Aibek Abdybakirov rotation status. Re-verify Goszakupki Director Kadyrbayev role currency."
+    }
+  ],
+  "tier_a_held_post_audit": [
+    "INI-001 (AI Fund Co-Design PP-320) — held A despite May/Oct date drift (correction C-001 to be applied)",
+    "INI-002 (AI in Courts UP-140) — held A; UZ-LAW-2026-1125 PII reference flagged separately",
+    "INI-003 (EPIGU AI Citizen Chatbot) — held A but UZ-T-2026-005 tender INFERRED status creates risk; if tender turns out to be aspirational, demote to B",
+    "INI-004 through INI-006 — held A pending Sonar Pro re-verification of decision-maker identities",
+    "INI-008 (UZ Cadastre AI cadastral analytics, P506803) — held A, donor program well-documented",
+    "INI-009 (UZ Power Grid SCADA 52322-004) — held A, ADB program VERIFIED",
+    "INI-010 (UZ Health DMED Phase 2) — held A, decree PP-415 VERIFIED, but TTL_NOT_FOUND for WB-UZ-HEALTH-P178562 means donor counterpart leverage limited",
+    "INI-014, INI-015 — held A pending verification",
+    "Other Tier-A initiatives (15-28) held A — full feasibility re-scoring deferred to next audit cycle"
+  ],
+  "tier_b_count_after_audit": "~38 (estimated from 100 - 24 Tier A - 30 Tier C - 8 Tier D)",
+  "tier_c_count_after_audit": "~30 (estimated)",
+  "tier_d_count_after_audit": "~8 (estimated)",
+  "auditor_caveat": "Full per-initiative scoring (100 records × 4 dimensions) was not performed within audit budget. Demotion decisions above are based on structurally identified risk factors (Mintsifry liquidation impact, fabricated/unverified law citation, infrastructural budget misrepresentation). Future audits should run full feasibility sweep on all 100 initiatives."
+}

@@ -1,0 +1,46 @@
+{
+  "card_id": "audit__b856c3029980dbc0",
+  "topic": "audit",
+  "schema_fragment": "Person",
+  "query": "Who is currently the head of the National AI Center of Uzbekistan? Confirm Dostonbek Toshmatov is the director",
+  "country_filter": "UZ",
+  "language_preference": null,
+  "models_called": [
+    "perplexity/sonar-pro",
+    "openrouter/owl-alpha"
+  ],
+  "responses": [
+    {
+      "model": "perplexity/sonar-pro",
+      "response_id": "gen-1777848798-mcpZOqIFl8gfOwH23bKe",
+      "answer": "# Search Results Analysis\n\nBased on the provided search results, I **cannot confirm** who currently heads the National AI Center of Uzbekistan or verify whether Dostonbek Toshmatov is the director.\n\n## Findings:\n\n- **No relevant information in provided sources**: The search results discuss Uzbekistan's AI initiatives and President Shavkat Mirziyoyev's announcements, but contain no details about the National AI Center's leadership structure or personnel.\n\n- **Cannot fabricate**: I will not invent or assume biographical details about institutional leadership without verified sources.\n\n## Recommendation:\n\nTo verify this information, you would need:\n- Official statements from Uzbekistan's National AI Center (if publicly available)\n- Russian-language primary sources from UZ government portals (e.g., uzreport.uz, uza.uz)\n- Organizational charts from relevant ministries\n- Direct institutional announcements\n\n**Status**: Fact unconfirmed. Please provide additional sources or direct me to Uzbek-language institutional records for verification.",
+      "citations": [],
+      "tokens_in": 114,
+      "tokens_out": 220,
+      "cost_usd": 0.003642,
+      "latency_ms": 4626,
+      "fetched_at": "2026-05-03T22:53:17.801187+00:00",
+      "error": null
+    },
+    {
+      "model": "openrouter/owl-alpha",
+      "response_id": "gen-1777848798-o7sPSJ0ab4No4FX8c5w0",
+      "answer": "I'll search for information about the current head of Uzbekistan's National AI Center and confirm whether Dostonbek Toshmatov is the director.<longcat_tool_call>web_search\n<longcat_arg_key>query</longcat_arg_key>\n<longcat_arg_value>Dostonbek Toshmatov director National AI Center Uzbekistan</longcat_arg_value>\n</longcat_tool_call>\n<longcat_tool_call>web_search\n<longcat_arg_key>query</longcat_arg_key>\n<longcat_arg_value>Национальный центр искусственного интеллекта Узбекистан директор</longcat_arg_value>\n</longcat_tool_call>\n<longcat_tool_call>web_search\n<longcat_arg_key>query</longcat_arg_key>\n<longcat_arg_value>Uzbekistan National AI Center director head 2024 2025</longcat_arg_value>\n</longcat_tool_call>\n",
+      "citations": [],
+      "tokens_in": 202,
+      "tokens_out": 119,
+      "cost_usd": 0.0,
+      "latency_ms": 7007,
+      "fetched_at": "2026-05-03T22:53:17.801540+00:00",
+      "error": null
+    }
+  ],
+  "consensus": {
+    "high_agreement_facts": [],
+    "disagreements": []
+  },
+  "sources_normalized": [],
+  "total_cost_usd": 0.003642,
+  "downstream_verification": "L2_VERIFIED",
+  "generated_at": "2026-05-03T22:53:24.813292+00:00"
+}

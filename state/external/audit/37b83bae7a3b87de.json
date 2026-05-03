@@ -1,0 +1,46 @@
+{
+  "card_id": "audit__37b83bae7a3b87de",
+  "topic": "audit",
+  "schema_fragment": "Person",
+  "query": "Confirm Sherzod Shermatov current Minister of Digital Technologies of Uzbekistan as of May 2026; verify tenure since 2018",
+  "country_filter": "UZ",
+  "language_preference": null,
+  "models_called": [
+    "perplexity/sonar-pro",
+    "openrouter/owl-alpha"
+  ],
+  "responses": [
+    {
+      "model": "perplexity/sonar-pro",
+      "response_id": "gen-1777848818-AYbsL2tPq60pn6VUDT22",
+      "answer": "- **Sherzod Shermatov is the current Minister of Digital Technologies of Uzbekistan as of April 2026** [https://www.theregister.com/2026/04/07/uzbekistan-zte-partner-to-drive-digital-transformation/] [https://www.mwcbarcelona.com/agenda/speakers/17850-h-e-mr-sherzod-shermatov] [https://www.zte.com.cn/global/about/news/Uzbekistan-and-ZTE-Forge-Strategic-Partnership-to-Accelerate-Digital-Transformation.html] [https://gov.uz/en/digital/news/view/146005].\n- **Confirmed in role as of March 26, 2026** [https://gov.uz/en/digital/news/view/146005].\n- **No evidence confirms tenure since 2018; prior roles were Minister of Public Education and Deputy Minister of Innovative Development** [https://www.mwcbarcelona.com/agenda/speakers/17850-h-e-mr-sherzod-shermatov].",
+      "citations": [],
+      "tokens_in": 118,
+      "tokens_out": 228,
+      "cost_usd": 0.003774,
+      "latency_ms": 3242,
+      "fetched_at": "2026-05-03T22:53:37.874447+00:00",
+      "error": null
+    },
+    {
+      "model": "openrouter/owl-alpha",
+      "response_id": "gen-1777848819-3kTwFKZqJCh9daiUvmkP",
+      "answer": "I'll verify the current status of Sherzod Shermatov as Minister of Digital Technologies of Uzbekistan as of May 2026.<longcat_tool_call>search\n<longcat_arg_key>query</longcat_arg_key>\n<longcat_arg_value>Sherzod Shermatov Minister Digital Technologies Uzbekistan 2026</longcat_arg_value>\n</longcat_tool_call>\n<longcat_tool_call>search\n<longcat_arg_key>query</longcat_arg_key>\n<longcat_arg_value>Шерзод Шерматов министр цифровых технологий Узбекистан 2026</longcat_arg_value>\n</longcat_tool_call>\n<longcat_tool_call>search\n<longcat_arg_key>query</longcat_arg_key>\n<longcat_arg_value>Sherzod Shermatov appointed Minister Digital Technologies Uzbekistan 2018</longcat_arg_value>\n</longcat_tool_call>\n",
+      "citations": [],
+      "tokens_in": 210,
+      "tokens_out": 129,
+      "cost_usd": 0.0,
+      "latency_ms": 7838,
+      "fetched_at": "2026-05-03T22:53:37.874790+00:00",
+      "error": null
+    }
+  ],
+  "consensus": {
+    "high_agreement_facts": [],
+    "disagreements": []
+  },
+  "sources_normalized": [],
+  "total_cost_usd": 0.003774,
+  "downstream_verification": "L2_VERIFIED",
+  "generated_at": "2026-05-03T22:53:45.716791+00:00"
+}

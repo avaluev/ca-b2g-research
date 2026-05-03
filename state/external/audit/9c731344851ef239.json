@@ -1,0 +1,46 @@
+{
+  "card_id": "audit__9c731344851ef239",
+  "topic": "audit",
+  "schema_fragment": "Person",
+  "query": "Confirm who is currently the Minister of Digital Development of Kyrgyzstan as of April 2026, before liquidation of the ministry",
+  "country_filter": "KG",
+  "language_preference": null,
+  "models_called": [
+    "perplexity/sonar-pro",
+    "openrouter/owl-alpha"
+  ],
+  "responses": [
+    {
+      "model": "perplexity/sonar-pro",
+      "response_id": "gen-1777848753-dQ6ryIGEaJM9bRU6cEXZ",
+      "answer": "- **Azamat Zhamangulov (also spelled Azamat Zhamankulov or Azamat Jamangulov) was the Minister of Digital Development and Innovative Technologies of Kyrgyzstan as of late April 2026.** [2]\n- He spoke at the Fifth Meeting of Heads of SCO ICT Agencies on April 27, 2026, in Bishkek, under the chairmanship of his ministry. [2][4][6]\n- Confirmed in role on April 28, 2026, during SCO events. [4]\n- Ministry reorganization (merger with Presidential Affairs Department) signed by President Japarov around April 30, 2026, but no pre-liquidation successor named. [1][3][5]",
+      "citations": [],
+      "tokens_in": 114,
+      "tokens_out": 167,
+      "cost_usd": 0.002847,
+      "latency_ms": 3577,
+      "fetched_at": "2026-05-03T22:52:33.113759+00:00",
+      "error": null
+    },
+    {
+      "model": "openrouter/owl-alpha",
+      "response_id": "gen-1777848755-aJL9yu9SiWgn7Xx2BpUO",
+      "answer": "# Minister of Digital Development of Kyrgyzstan\n\nI cannot confirm with certainty who held the position of Minister of Digital Development of Kyrgyzstan as of April 2026. My training data has a knowledge cutoff, and I do not have the ability to browse the internet in real time to verify the most current appointments or any reshuffles that may have occurred up to that date.\n\n**What I can share based on available knowledge:**\n\n- The Ministry of Digital Development (Министерство цифрового развития) of the Kyrgyz Republic was established to oversee ICT policy, digital government transformation, and the country's digital agenda.\n- Prior to any liquidation or restructuring of the ministry, the position was held by individuals appointed by the President and confirmed by theJogorku Kenesh (parliament).\n- There were reports in 2024–2025 about potential governmental restructuring in Kyrgyzstan that could affect this ministry.\n\n**To get a confirmed, sourced answer, I recommend checking:**\n\n- The official portal of the Cabinet of Ministers of the Kyrgyz Republic: [https://www.gov.kg](https://www.gov.kg)\n- The official Jogorku Kenesh (parliament) website: [https://www.kenesh.kg](https://www.kenesh.kg)\n- Russian-language news outlets such as **24.kg** ([https://24.kg](https://24.kg)) or **AKIpress** ([https://akipress.org](https://akipress.org))\n\nI am unable to provide a specific name with a citation URL at this time. I recommend consulting the sources above for the definitive answer.",
+      "citations": [],
+      "tokens_in": 205,
+      "tokens_out": 343,
+      "cost_usd": 0.0,
+      "latency_ms": 19638,
+      "fetched_at": "2026-05-03T22:52:33.114073+00:00",
+      "error": null
+    }
+  ],
+  "consensus": {
+    "high_agreement_facts": [],
+    "disagreements": []
+  },
+  "sources_normalized": [],
+  "total_cost_usd": 0.002847,
+  "downstream_verification": "L2_VERIFIED",
+  "generated_at": "2026-05-03T22:52:52.755719+00:00"
+}

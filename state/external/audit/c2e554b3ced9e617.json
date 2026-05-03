@@ -1,0 +1,46 @@
+{
+  "card_id": "audit__c2e554b3ced9e617",
+  "topic": "audit",
+  "schema_fragment": "Person",
+  "query": "Confirm Adilbek Asanbekov is head of Digital Transformation Department in Kyrgyzstan Presidential Administration UDP; verify identity exists",
+  "country_filter": "KG",
+  "language_preference": null,
+  "models_called": [
+    "perplexity/sonar-pro",
+    "openrouter/owl-alpha"
+  ],
+  "responses": [
+    {
+      "model": "perplexity/sonar-pro",
+      "response_id": "gen-1777848827-wlr9ubrmOkcStOpXARH8",
+      "answer": "- **Adilbek Asanbekov is not confirmed as head** of any Digital Transformation Department in the Kyrgyzstan Presidential Administration; no search results mention this name or role.[1][2][3][4][5][6][7]\n- **Current head is Azamat Burzhuev**, identified as Head of the Digital Development Department of the Presidential Administration of the Kyrgyz Republic (as of UNDP event, likely post-2024 ministry merger).[2]\n- **Ministry of Digital Development merged into Presidential Administration** (abolished and functions transferred, including digital transformation roles); no specific mention of \"Digital Transformation Department\" or Adilbek Asanbekov.[1]\n- **No identity verification found** for Adilbek Asanbekov in Kyrgyzstan government contexts; name absent across results.[1][2][3][4][5][6][7]",
+      "citations": [],
+      "tokens_in": 113,
+      "tokens_out": 198,
+      "cost_usd": 0.003309,
+      "latency_ms": 3912,
+      "fetched_at": "2026-05-03T22:53:47.287246+00:00",
+      "error": null
+    },
+    {
+      "model": "openrouter/owl-alpha",
+      "response_id": "gen-1777848827-SgNT4Or5DMVU00043b2W",
+      "answer": "I am unable to confirm the identity of Adilbek Asanbekov or verify his position as head of the Digital Transformation Department in the Kyrgyzstan Presidential Administration (UDP) using the information currently available to me. My search capabilities are limited to the provided context, and no relevant data was found to support this claim.",
+      "citations": [],
+      "tokens_in": 202,
+      "tokens_out": 65,
+      "cost_usd": 0.0,
+      "latency_ms": 6245,
+      "fetched_at": "2026-05-03T22:53:47.287587+00:00",
+      "error": null
+    }
+  ],
+  "consensus": {
+    "high_agreement_facts": [],
+    "disagreements": []
+  },
+  "sources_normalized": [],
+  "total_cost_usd": 0.003309,
+  "downstream_verification": "L2_VERIFIED",
+  "generated_at": "2026-05-03T22:53:53.536110+00:00"
+}

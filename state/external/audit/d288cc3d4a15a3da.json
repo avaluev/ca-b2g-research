@@ -1,0 +1,46 @@
+{
+  "card_id": "audit__d288cc3d4a15a3da",
+  "topic": "audit",
+  "schema_fragment": "Person",
+  "query": "Who is the current Minister of Health of Kyrgyzstan as of May 2026? Is Alymkadyr Beishenaliev still in role or has he been replaced?",
+  "country_filter": "KG",
+  "language_preference": null,
+  "models_called": [
+    "perplexity/sonar-pro",
+    "openrouter/owl-alpha"
+  ],
+  "responses": [
+    {
+      "model": "perplexity/sonar-pro",
+      "response_id": "gen-1777848785-Pc9EcJN1TYzZ7WFzc26T",
+      "answer": "The **current Minister of Health of Kyrgyzstan as of May 2026 is Damirbek Osmonov**[1][2]. He was appointed to this position on February 26, 2026, following the removal of his predecessor, Kanibek Dosmambetov[2][3].\n\nOsmonov, 44 years old, is a physician who completed his medical education at Hacettepe University in Ankara and specialist training in Istanbul[1]. Prior to his ministerial appointment, he served as chief physician at a private clinic in Bishkek[1].\n\nRegarding Alymkadyr Beishenaliev: The search results provided do not contain information about this individual or confirm whether he held the position of Health Minister at any point. I cannot verify his status based on the available sources.",
+      "citations": [],
+      "tokens_in": 124,
+      "tokens_out": 180,
+      "cost_usd": 0.003072,
+      "latency_ms": 3926,
+      "fetched_at": "2026-05-03T22:53:05.084304+00:00",
+      "error": null
+    },
+    {
+      "model": "openrouter/owl-alpha",
+      "response_id": "gen-1777848785-6xZ1QnAMA1dLyDbgEb3i",
+      "answer": "As of May 2026, **Alymkadyr Beishenaliev** remains the Minister of Health of the Kyrgyz Republic. He was appointed to the position on 13 October 2021 and continues to serve in the cabinet.\n\n- Alymkadyr Beishenaliev has been Minister of Health since October 2021, overseeing public health reforms and responses to infectious disease outbreaks in Kyrgyzstan. [URL]https://www.gov.kg/ru/gov/s/374[/URL]\n- Official government portal of Kyrgyzstan lists him as the current minister as of early 2026. [URL]https://www.gov.kg/ru/page/ministry-of-health[/URL]\n\nNo credible public records or official decrees indicate his replacement as of May 2026.",
+      "citations": [],
+      "tokens_in": 216,
+      "tokens_out": 176,
+      "cost_usd": 0.0,
+      "latency_ms": 9830,
+      "fetched_at": "2026-05-03T22:53:05.084659+00:00",
+      "error": null
+    }
+  ],
+  "consensus": {
+    "high_agreement_facts": [],
+    "disagreements": []
+  },
+  "sources_normalized": [],
+  "total_cost_usd": 0.003072,
+  "downstream_verification": "L2_VERIFIED",
+  "generated_at": "2026-05-03T22:53:14.917660+00:00"
+}

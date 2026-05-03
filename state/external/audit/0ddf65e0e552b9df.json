@@ -1,0 +1,46 @@
+{
+  "card_id": "audit__0ddf65e0e552b9df",
+  "topic": "audit",
+  "schema_fragment": "Person",
+  "query": "Confirm Firdavs Abdullayev current CEO of IT Park Uzbekistan; verify LinkedIn presence",
+  "country_filter": "UZ",
+  "language_preference": null,
+  "models_called": [
+    "perplexity/sonar-pro",
+    "openrouter/owl-alpha"
+  ],
+  "responses": [
+    {
+      "model": "perplexity/sonar-pro",
+      "response_id": "gen-1777848870-J0t11HPY72wKCGSKE2j4",
+      "answer": "- **Firdavs Abdullayev is not the current CEO of IT Park Uzbekistan.** Current CEO is **Azamat Karamatov**, with Farkhod Ibragimov as Chairman of Supervisory Board.[1]\n- No evidence confirms Firdavs Abdullayev as CEO in available sources; Wikipedia lists official leadership as of latest update.[1]\n- No LinkedIn presence for Firdavs Abdullayev verifiable from results; a Behance profile exists for a Firdavs Abdullayev (graphic designer in Tashkent), but unrelated to IT Park leadership.[2]",
+      "citations": [],
+      "tokens_in": 108,
+      "tokens_out": 130,
+      "cost_usd": 0.002274,
+      "latency_ms": 3018,
+      "fetched_at": "2026-05-03T22:54:30.095272+00:00",
+      "error": null
+    },
+    {
+      "model": "openrouter/owl-alpha",
+      "response_id": "gen-1777848870-5U1wCjL8h2bfYno300rR",
+      "answer": "I'm OWL, an OSINT researcher. Here's what I can confirm:\n\n**Firdavs Abdullayev — CEO of IT Park Uzbekistan**\n\n- Firdavs Abdullayev was appointed Director (CEO) of IT Park Uzbekistan by a Presidential Decree (PF-60 dated 07.02.2020 \"О мерах по дальнейшему развитию сферы информационных технологий в Республике Узбекистан\"). [https://lex.uz/ru/docs/4720414](https://lex.uz/ru/docs/4720414)\n- IT Park Uzbekistan's official website lists him as the head/director of the organization. [https://it-park.uz](https://it-park.uz)\n- He has been referenced in Uzbek state media (e.g., UzDaily, Gazeta.uz) in the capacity of IT Park Uzbekistan Director through 2023–2024. [https://www.uzdaily.uz/en/tag/it-park/](https://www.uzdaily.uz/en/tag/it-park/)\n\n**LinkedIn presence:**\n\n- I cannot independently verify a specific LinkedIn profile for Firdavs Abdullayev with certainty. Multiple individuals with similar names exist on LinkedIn, and without corroborating details (photo, employment history matching IT Park Uzbekistan), I cannot confirm which profile (if any) is authentic. I decline to guess or fabricate a link.\n\n**Status as of my last training data (up to early 2025):** He was still serving in this role. For the most current confirmation, I recommend checking the IT Park Uzbekistan official site or recent Uzbek government decrees.",
+      "citations": [],
+      "tokens_in": 197,
+      "tokens_out": 377,
+      "cost_usd": 0.0,
+      "latency_ms": 18756,
+      "fetched_at": "2026-05-03T22:54:30.095673+00:00",
+      "error": null
+    }
+  ],
+  "consensus": {
+    "high_agreement_facts": [],
+    "disagreements": []
+  },
+  "sources_normalized": [],
+  "total_cost_usd": 0.002274,
+  "downstream_verification": "L2_VERIFIED",
+  "generated_at": "2026-05-03T22:54:48.857369+00:00"
+}

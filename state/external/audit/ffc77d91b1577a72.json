@@ -1,0 +1,46 @@
+{
+  "card_id": "audit__ffc77d91b1577a72",
+  "topic": "audit",
+  "schema_fragment": "Person",
+  "query": "Confirm Azamat Zhamangulov current LinkedIn or biographical details; was he Minister of Digital Development Kyrgyzstan before April 2026 liquidation",
+  "country_filter": "KG",
+  "language_preference": null,
+  "models_called": [
+    "perplexity/sonar-pro",
+    "openrouter/owl-alpha"
+  ],
+  "responses": [
+    {
+      "model": "perplexity/sonar-pro",
+      "response_id": "gen-1777848849-Hl32zWAsdOVHGkMwd5r3",
+      "answer": "- No confirmed current LinkedIn profile or biographical details for Azamat Zhamangulov available.\n- No evidence found confirming Azamat Zhamangulov as Minister of Digital Development of Kyrgyzstan prior to any April 2026 liquidation.",
+      "citations": [],
+      "tokens_in": 119,
+      "tokens_out": 52,
+      "cost_usd": 0.001137,
+      "latency_ms": 2225,
+      "fetched_at": "2026-05-03T22:54:08.383116+00:00",
+      "error": null
+    },
+    {
+      "model": "openrouter/owl-alpha",
+      "response_id": "gen-1777848849-ptT0bJikn2vB5rLeteFo",
+      "answer": "I'm sorry, but I cannot confirm the current LinkedIn or biographical details for Azamat Zhamangulov, nor can I verify his specific role as Minister of Digital Development in Kyrgyzstan prior to any liquidation in April 2026. My training data has a knowledge cutoff and does not include real-time information or future events. I recommend checking official government websites or professional networking platforms like LinkedIn for the most up-to-date information.",
+      "citations": [],
+      "tokens_in": 209,
+      "tokens_out": 90,
+      "cost_usd": 0.0,
+      "latency_ms": 6318,
+      "fetched_at": "2026-05-03T22:54:08.383436+00:00",
+      "error": null
+    }
+  ],
+  "consensus": {
+    "high_agreement_facts": [],
+    "disagreements": []
+  },
+  "sources_normalized": [],
+  "total_cost_usd": 0.001137,
+  "downstream_verification": "L2_VERIFIED",
+  "generated_at": "2026-05-03T22:54:14.705341+00:00"
+}

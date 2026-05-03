@@ -1,0 +1,36 @@
+{
+  "pages_checked": 22,
+  "total_issues": 4,
+  "by_severity": {
+    "WARN": 4
+  },
+  "by_gate": {
+    "11_country_source": 4
+  },
+  "issues": [
+    {
+      "gate": "11_country_source",
+      "severity": "WARN",
+      "page": "outputs/site/mvp/uz/index.html",
+      "detail": "page tagged country=UZ but no priority RU/UZ/KY-domain source linked"
+    },
+    {
+      "gate": "11_country_source",
+      "severity": "WARN",
+      "page": "outputs/site/mvp/kg/index.html",
+      "detail": "page tagged country=KG but no priority RU/UZ/KY-domain source linked"
+    },
+    {
+      "gate": "11_country_source",
+      "severity": "WARN",
+      "page": "outputs/site/decrees/uz/index.html",
+      "detail": "page tagged country=UZ but no priority RU/UZ/KY-domain source linked"
+    },
+    {
+      "gate": "11_country_source",
+      "severity": "WARN",
+      "page": "outputs/site/decrees/kg/index.html",
+      "detail": "page tagged country=KG but no priority RU/UZ/KY-domain source linked"
+    }
+  ]
+}
