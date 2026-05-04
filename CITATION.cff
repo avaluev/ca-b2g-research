@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+message: "If you use this research, please cite it."
+title: "Central Asia B2G Intelligence"
+authors:
+  - family-names: "Valuev"
+    given-names: "Alexandr"
+    email: "valuev.alexandr@gmail.com"
+    orcid: ""
+date-released: "2026-05-04"
+version: "1.0.0"
+license: "Apache-2.0"
+url: "https://avaluev.github.io/ca-b2g-research"
+repository-code: "https://github.com/avaluev/ca-b2g-research"
+abstract: >-
+  Open knowledge graph of B2G AI and digital-government opportunities in
+  Uzbekistan and Kyrgyzstan. 100 decrees, 105 institutions, 117
+  decision-makers, 49 donor programmes, 50 live tenders, 61 trends, 100
+  global cases, 100 institutional B2G initiatives, and 200 solopreneur
+  MVPs. Built with Claude (Opus + Sonnet) and Perplexity Sonar Deep
+  Research on a strict USD 20 OpenRouter budget.
+keywords:
+  - Uzbekistan
+  - Kyrgyzstan
+  - Central Asia
+  - B2G
+  - AI in government
+  - digital government
+  - public procurement
+  - donor-funded projects
+preferred-citation:
+  type: misc
+  authors:
+    - family-names: "Valuev"
+      given-names: "Alexandr"
+  title: "Central Asia B2G Intelligence"
+  year: 2026
+  url: "https://avaluev.github.io/ca-b2g-research"
+  notes: "Apache 2.0, data vintage 2026-05"

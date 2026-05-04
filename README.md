@@ -1,10 +1,38 @@
 # Central Asia B2G Intelligence
 
-> A normalized, source-cited knowledge graph of AI and digital government opportunities in Uzbekistan and Kyrgyzstan. Every claim is verifiable. Every initiative is mapped to a decree, an institution, a decision-maker, a donor, and a global precedent. Output ships as a public site, an Obsidian vault, CRM-ready CSVs, and a strategic memo.
+[![Quality](https://github.com/avaluev/ca-b2g-research/actions/workflows/quality.yml/badge.svg)](https://github.com/avaluev/ca-b2g-research/actions/workflows/quality.yml)
+[![Pages](https://github.com/avaluev/ca-b2g-research/actions/workflows/deploy.yml/badge.svg)](https://avaluev.github.io/ca-b2g-research)
+[![License: Apache-2.0](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://www.apache.org/licenses/LICENSE-2.0)
+[![Data vintage: 2026-05](https://img.shields.io/badge/data%20vintage-2026--05-success)](https://github.com/avaluev/ca-b2g-research/releases)
+
+> A typed, source-cited knowledge graph of B2G AI and digital-government opportunities in Uzbekistan and Kyrgyzstan. Every claim is verifiable. Every initiative is mapped to a decree, an institution, a decision-maker, a donor programme, and a global precedent. Output ships as a public site, an Obsidian vault, CRM-ready CSVs, and a strategic memo.
 
 **Live site**: https://avaluev.github.io/ca-b2g-research
 **License**: Apache 2.0
-**Author**: Alexandr Valuev
+**Author**: Alexandr Valuev — [valuev.alexandr@gmail.com](mailto:valuev.alexandr@gmail.com) · [LinkedIn](https://www.linkedin.com/in/avaluev/) · [GitHub](https://github.com/avaluev)
+**Cite**: see [CITATION.cff](CITATION.cff)
+
+## Architecture
+
+```mermaid
+flowchart LR
+  W0[Wave 0<br>blueprint-architect<br>Opus] --> W1
+  W1[Wave 1<br>legal-cartographer<br>case-tournament] --> W2
+  W2[Wave 2<br>institution-mapper<br>donor-pipeline<br>procurement-harvester<br>trend-triangulator] --> W3
+  W3[Wave 3<br>people-intelligence] --> W4
+  W4[Wave 4<br>initiative-synthesizer<br>Opus] --> W4b
+  W4b[Wave 4b<br>solopreneur-mvp-synthesizer<br>Opus] --> W5
+  W5[Wave 5<br>reflexion-auditor<br>Opus + paid Sonar Pro] --> W6
+  W6[Wave 6<br>pitch-artificer] --> Render
+  Render[render_site<br>render_obsidian<br>build_seo_assets] --> Site[(Public site<br>+ Obsidian vault<br>+ CRM CSVs)]
+```
+
+## Cost and time
+
+- **Wall clock**: ~10 hours per full run.
+- **Anthropic Claude**: runs on your own subscription (Opus for waves 0/4/4b/5, Sonnet for the rest).
+- **OpenRouter (paid)**: hard cap **USD 20** per run. Used for cross-model verification on Tier-1 LinkedIn URLs (Wave 3) and Tier-A claim re-checks (Wave 5). Free OpenRouter models (Owl Alpha 1M, Gemma 4-31b) handle volume.
+- **Per-record output**: 100 decrees, 105 institutions, 117 people, 49 donor programmes, 50 tenders, 61 trends, 100 global cases, 100 B2G initiatives, 200 solopreneur MVPs = **882 typed records**.
 
 ## What this is
 
