@@ -614,18 +614,43 @@ def _md_inline(text: str) -> str:
     return s
 
 
+def _split_md_row(line: str) -> list[str]:
+    """Split a GFM table row into trimmed cells; tolerate optional leading/trailing pipes."""
+    s = line.strip()
+    if s.startswith("|"):
+        s = s[1:]
+    if s.endswith("|"):
+        s = s[:-1]
+    return [c.strip() for c in s.split("|")]
+
+
+def _is_md_table_separator(line: str) -> bool:
+    """A GFM separator row: |---|:--:|---:| etc. — only dashes, colons, pipes, spaces."""
+    s = line.strip()
+    if "|" not in s or "-" not in s:
+        return False
+    cells = _split_md_row(s)
+    if not cells:
+        return False
+    for c in cells:
+        if not re.fullmatch(r":?-{1,}:?", c):
+            return False
+    return True
+
+
 def _md_to_html(md: str, *, skip_h1: bool = True) -> str:
     """Lightweight Markdown → HTML for our generated audit / lenses / rubric files.
 
     Handles: # h1 / ## h2 / ### h3, - / * bullet lists, numeric lists, paragraphs,
-    horizontal rules, fenced code blocks, blockquotes, inline emphasis/links.
+    horizontal rules, fenced code blocks, blockquotes, GFM pipe tables, inline
+    emphasis/links.
     """
     lines = md.replace("\r\n", "\n").split("\n")
     out: list[str] = []
-    in_ul = in_ol = in_code = in_bq = False
+    in_ul = in_ol = in_code = in_bq = in_table = False
 
     def close_lists() -> None:
-        nonlocal in_ul, in_ol, in_bq
+        nonlocal in_ul, in_ol, in_bq, in_table
         if in_ul:
             out.append("</ul>")
             in_ul = False
@@ -635,9 +660,16 @@ def _md_to_html(md: str, *, skip_h1: bool = True) -> str:
         if in_bq:
             out.append("</blockquote>")
             in_bq = False
+        if in_table:
+            out.append("</tbody></table></div>")
+            in_table = False
 
-    for raw in lines:
+    i = 0
+    while i < len(lines):
+        raw = lines[i]
         line = raw.rstrip()
+
+        # Fenced code blocks
         if line.startswith("```"):
             close_lists()
             if not in_code:
@@ -646,33 +678,73 @@ def _md_to_html(md: str, *, skip_h1: bool = True) -> str:
             else:
                 out.append("</code></pre>")
                 in_code = False
+            i += 1
             continue
         if in_code:
             out.append(escape(raw) + "\n")
+            i += 1
             continue
+
+        # Blank line — close all open blocks
         if not line.strip():
             close_lists()
+            i += 1
             continue
+
+        # Horizontal rule
         if re.match(r"^---+$|^\*\*\*+$", line.strip()):
             close_lists()
             out.append("<hr>")
+            i += 1
             continue
+
         if skip_h1 and line.startswith("# "):
+            i += 1
             continue
+
+        # Headings
         m = re.match(r"^(#{1,6})\s+(.+)$", line)
         if m:
             close_lists()
             level = min(len(m.group(1)), 6)
-            level = max(level, 2)  # never emit duplicate H1
+            level = max(level, 2)
             out.append(f"<h{level}>{_md_inline(m.group(2))}</h{level}>")
+            i += 1
             continue
+
+        # GFM pipe tables: a header row followed by a separator row.
+        if "|" in line and i + 1 < len(lines) and _is_md_table_separator(lines[i + 1]):
+            close_lists()
+            headers = _split_md_row(line)
+            out.append('<div class="table-scroll"><table>')
+            out.append("<thead><tr>" + "".join(f'<th scope="col">{_md_inline(h)}</th>' for h in headers) + "</tr></thead>")
+            out.append("<tbody>")
+            in_table = True
+            i += 2  # skip header + separator
+            while i < len(lines) and lines[i].strip() and "|" in lines[i]:
+                cells = _split_md_row(lines[i])
+                # Pad/truncate to header width so the table stays well-formed.
+                if len(cells) < len(headers):
+                    cells += [""] * (len(headers) - len(cells))
+                elif len(cells) > len(headers):
+                    cells = cells[: len(headers)]
+                out.append("<tr>" + "".join(f"<td>{_md_inline(c)}</td>" for c in cells) + "</tr>")
+                i += 1
+            out.append("</tbody></table></div>")
+            in_table = False
+            continue
+
+        # Blockquotes
         if line.startswith("> "):
             if not in_bq:
                 close_lists()
                 out.append("<blockquote>")
                 in_bq = True
             out.append(f"<p>{_md_inline(line[2:])}</p>")
+            i += 1
             continue
+
+        # Bullet list
         m = re.match(r"^[-*]\s+(.+)$", line)
         if m:
             if not in_ul:
@@ -680,7 +752,10 @@ def _md_to_html(md: str, *, skip_h1: bool = True) -> str:
                 out.append("<ul>")
                 in_ul = True
             out.append(f"<li>{_md_inline(m.group(1))}</li>")
+            i += 1
             continue
+
+        # Ordered list
         m = re.match(r"^(\d+)\.\s+(.+)$", line)
         if m:
             if not in_ol:
@@ -688,10 +763,13 @@ def _md_to_html(md: str, *, skip_h1: bool = True) -> str:
                 out.append("<ol>")
                 in_ol = True
             out.append(f"<li>{_md_inline(m.group(2))}</li>")
+            i += 1
             continue
+
         # Plain paragraph
         close_lists()
         out.append(f"<p>{_md_inline(line)}</p>")
+        i += 1
     close_lists()
     if in_code:
         out.append("</code></pre>")

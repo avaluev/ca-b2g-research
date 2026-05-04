@@ -7,7 +7,7 @@
 <meta name="description" content="The weighted scoring rubric for every initiative: Speed-to-Contract, Strategic Moat, Defensibility, Capital Access, Russian/CIS Fit.">
 <link rel="canonical" href="https://avaluev.github.io/ca-b2g-research/scoring/">
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
-<meta name="dateModified" content="2026-05-04T12:54:22.873363+00:00">
+<meta name="dateModified" content="2026-05-04T13:05:51.503258+00:00">
 
 <meta property="og:type" content="article">
 <meta property="og:title" content="Five-axis scoring rubric for B2G initiatives">
@@ -280,13 +280,15 @@ blockquote{border-inline-start:3px solid var(--c-accent);padding-inline-start:va
 <main id="main-content" class="container">
 <nav class="breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="/ca-b2g-research/">Home</a></li><li aria-current="page">Five-axis scoring rubric for B2G initiatives</li></ol></nav><h1>Scoring rubric</h1><p class="lead summary">Every initiative is scored on five weighted axes: Speed-to-Contract (25%), Strategic Moat (20%), Defensibility (20%), Capital Access (20%), and Russian/CIS Fit (15%). A weighted total of 7.5 or more puts an initiative in Tier-A — deal-ready with every reference field verified. Below 6.0 is Tier-C or worse.</p><h2>The five axes</h2><div class="table-scroll"><table><caption>The five scoring axes</caption><thead><tr><th scope="col">Axis</th><th scope="col">Weight</th><th scope="col">What it measures</th></tr></thead><tbody><tr><td><strong>Speed-to-Contract</strong></td><td>25%</td><td>How quickly can a vendor reach signature given decree status, procurement modality, and incumbent landscape?</td></tr><tr><td><strong>Strategic Moat</strong></td><td>20%</td><td>Does winning this contract pre-position you for a much larger downstream play?</td></tr><tr><td><strong>Defensibility</strong></td><td>20%</td><td>Once deployed, how protected from competitor displacement (data accumulation, regulatory pre-qualification, language model fine-tune)?</td></tr><tr><td><strong>Capital Access</strong></td><td>20%</td><td>Is funding identified — donor programme, ministry budget line, or PPP — and credibly close to disbursement?</td></tr><tr><td><strong>Russian / CIS Fit</strong></td><td>15%</td><td>Does the solution match local language, data localization, and post-2022 vendor preference dynamics?</td></tr></tbody></table></div><h2>Tier mapping</h2><div class="table-scroll"><table><caption>Tier mapping for B2G initiatives</caption><thead><tr><th scope="col">Tier</th><th scope="col">Weighted total</th><th scope="col">Treatment</th></tr></thead><tbody><tr><td><span class="tag tier-a">A</span></td><td>≥ 7.5</td><td>Deal-ready. All key reference fields verified. Twelve-month deal path documented.</td></tr><tr><td><span class="tag tier-b">B</span></td><td>≥ 6.0</td><td>Develop. Most fields VERIFIED or L2_VERIFIED. One or two gaps to close before pursuit.</td></tr><tr><td><span class="tag tier-c">C</span></td><td>≥ 4.5</td><td>Backlog. Significant gaps or weak verification. Revisit on next refresh.</td></tr><tr><td>D</td><td>&lt; 4.5</td><td>Reconsider — usually dropped from the list entirely.</td></tr></tbody></table></div><h2>Why these weights?</h2><p>Speed-to-Contract is weighted highest because in B2G the largest losses come from chasing slow opportunities. Russian/CIS Fit is weighted lowest because it is necessary but not sufficient — a poor fit kills a deal but a good fit alone does not win one. The other three axes are weighted equally because they trade off against one another in real bid decisions.</p><h2>Detailed axis definitions</h2><p>Every initiative is scored 1–10 on five axes, then weighted-summed for ranking. Default weights are below; override via <code>weights.json</code>.</p>
 <h2>Default weights</h2>
-<p>| Axis | Weight | Notes |</p>
-<p>|---|---|---|</p>
-<p>| Speed-to-contract | 25% | Highest weight — selected as priority |</p>
-<p>| Strategic moat | 20% | Selected as priority |</p>
-<p>| Defensibility | 20% | Selected as priority |</p>
-<p>| Capital access | 20% | Selected as priority |</p>
-<p>| Russian/CIS delivery fit | 15% | Selected as priority |</p>
+<div class="table-scroll"><table>
+<thead><tr><th scope="col">Axis</th><th scope="col">Weight</th><th scope="col">Notes</th></tr></thead>
+<tbody>
+<tr><td>Speed-to-contract</td><td>25%</td><td>Highest weight — selected as priority</td></tr>
+<tr><td>Strategic moat</td><td>20%</td><td>Selected as priority</td></tr>
+<tr><td>Defensibility</td><td>20%</td><td>Selected as priority</td></tr>
+<tr><td>Capital access</td><td>20%</td><td>Selected as priority</td></tr>
+<tr><td>Russian/CIS delivery fit</td><td>15%</td><td>Selected as priority</td></tr>
+</tbody></table></div>
 <p><code>weighted_total = 0.25*speed + 0.20*moat + 0.20*defensibility + 0.20*capital + 0.15*russian_cis_fit</code></p>
 <h2>Axis 1: Speed-to-Contract (1–10)</h2>
 <p>How fast can this initiative produce billable revenue?</p>

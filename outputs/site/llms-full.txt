@@ -1480,12 +1480,16 @@ the actual current MoH is Damirbek Osmonov
 , appointed 26 February 2026 (replacing Kanibek Dosmambetov, who replaced Beishenaliev sometime earlier). Beishenaliev's earlier 2020-2023 tenure ended amid scandal; the chain of subsequent appointments was missed.
 6.5 What this means
 Four of approximately twelve operationally-critical Tier-1 KG/UZ contact identities are wrong as of audit date. This is not a small error rate. It indicates that the people-intelligence Wave 3 agent relied substantially on prior model knowledge or stale source data and did not consistently re-verify against current government rosters. Future runs MUST require Sonar Pro / live-search verification for every Tier-1 individual at last_verified_date stamping. The knowledge graph as of 2026-05-04 should NOT be used to drive direct outreach without first cross-checking the four named replacements:
-| Replace | With |
-|---|---|
-| Firdavs Abdullayev (CEO IT Park UZ) | Azamat Karamatov (current CEO IT Park UZ) |
-| Talant Sultanov (Min Digital Dev KG → UDP) | Azamat Zhamangulov (last Mintsifry minister); Sultanov's status is uncertain |
-| Adilbek Asanbekov (UDP Digital Head) | Azamat Burzhuev (UDP Digital Development Dept Head) |
-| Alymkadyr Beishenaliev (MoH KG) | Damirbek Osmonov (MoH KG since 26 Feb 2026) |
+Replace
+With
+Firdavs Abdullayev (CEO IT Park UZ)
+Azamat Karamatov (current CEO IT Park UZ)
+Talant Sultanov (Min Digital Dev KG → UDP)
+Azamat Zhamangulov (last Mintsifry minister); Sultanov's status is uncertain
+Adilbek Asanbekov (UDP Digital Head)
+Azamat Burzhuev (UDP Digital Development Dept Head)
+Alymkadyr Beishenaliev (MoH KG)
+Damirbek Osmonov (MoH KG since 26 Feb 2026)
 These should be added as new Person records with priority before any pitch artifacts ship.
 Coda: what this means for the user
 Read this section before reading the bullishly-toned initiatives.json or the deck. The knowledge graph is structurally complete enough to support investment decisions in UZ and KG digital opportunities — but only if the user reads it as a hypothesis to be tested, not a fact base to be quoted. The HIGH and MEDIUM severity items in corrections.json are the things to fix or check before the deliverable is shipped. The known unknowns above are the things to acknowledge openly when the deliverable is shipped — every meeting with a UZ/KG official should start with "I know your institutional structure may have changed since this brief was drafted; please correct anything that's stale."
@@ -8087,13 +8091,24 @@ Every initiative is scored 1–10 on five axes, then weighted-summed for ranking
 weights.json
 .
 Default weights
-| Axis | Weight | Notes |
-|---|---|---|
-| Speed-to-contract | 25% | Highest weight — selected as priority |
-| Strategic moat | 20% | Selected as priority |
-| Defensibility | 20% | Selected as priority |
-| Capital access | 20% | Selected as priority |
-| Russian/CIS delivery fit | 15% | Selected as priority |
+Axis
+Weight
+Notes
+Speed-to-contract
+25%
+Highest weight — selected as priority
+Strategic moat
+20%
+Selected as priority
+Defensibility
+20%
+Selected as priority
+Capital access
+20%
+Selected as priority
+Russian/CIS delivery fit
+15%
+Selected as priority
 weighted_total = 0.25*speed + 0.20*moat + 0.20*defensibility + 0.20*capital + 0.15*russian_cis_fit
 Axis 1: Speed-to-Contract (1–10)
 How fast can this initiative produce billable revenue?
