@@ -108,6 +108,158 @@ MLA
 Valuev, Alexandr. "Central Asia B2G Intelligence: About Alexandr Valuev and this research." Data vintage 2026-05, https://avaluev.github.io/ca-b2g-research/about/.
 
 ---
+## URL: https://avaluev.github.io/ca-b2g-research/audit-team/index.html
+Auditor AI Team
+After every release, sixteen specialist sub-agents audit the live site in parallel. Each scores its own dimension one to ten and ships pasteable patches with priorities P0, P1, or P2. Every dispatch prompt is public. Every audit report is public. The pipeline that produces the data is reviewed by a separate pipeline that critiques the rendering.
+Why a 16-specialist team?
+A single reviewer always misses dimensions outside their lane. A research site serves vendors, donors, investors, government officials, journalists, contributors, and AI search crawlers — each judges different things. The specialists below are organised so each pair of dimensions has at least one dedicated auditor.
+What did the audit catch in v1.0.0?
+17 HIGH severity issues + 16 MEDIUM + 2 LOW.
+Four wrong Tier-1 identities (IT Park UZ CEO, KG UDP head, KG Min Health, KG last Минцифры minister) — caught by paid Sonar Pro re-verification, corrected before publication.
+WCAG contrast failure (#00aa44 at 2.89:1) before audit; replaced with #005c27 at 4.5:1 after.
+OG image referenced .png but only .svg existed — every social share card was broken until this audit caught it.
+169 Cyrillic cells without lang= attribution; auto-wrapped via the new ru() helper.
+Nav buried H1 below the fold at 320 px — fixed with a CSS-only hamburger pattern and tap targets ≥ 44 px.
+The team
+Each card links to the dispatch prompt (so you can re-run any specialist yourself) and the actual audit report it produced.
+01 · Reference Benchmarker
+Specialist mandate
+Score the audit site vs the padel-market-analysis reference dimension-by-dimension; identify copyable patterns and structural advantages.
+Dispatch prompt
+·
+Audit report
+02 · Information Architect
+Specialist mandate
+Audit nav, hierarchy, breadcrumbs, internal-link graph, and scent of information across all rendered pages.
+Dispatch prompt
+·
+Audit report
+03 · Content Voice Editor
+Specialist mandate
+Plain English, anti-jargon, third-person professional, Flesch-Kincaid grade ≤ 10. No marketing badges, no hedging fluff.
+Dispatch prompt
+·
+Audit report
+04 · Citation / Provenance
+Specialist mandate
+Every numeric claim and named entity traceable to a source. Russian / Uzbek / Kyrgyz share ≥ 30%. Dead-link health.
+Dispatch prompt
+·
+Audit report
+05 · GEO / AIO / AEO / LLMO
+Specialist mandate
+Maximise discoverability for ChatGPT Search, Claude, Perplexity, Gemini, AI Overviews. llms.txt, JSON-LD @graph, FAQPage, HowTo, Dataset schemas.
+Dispatch prompt
+·
+Audit report
+06 · Visual / Typography
+Specialist mandate
+Beautiful, calm, scannable typography. Fluid type scale, 60–80ch line length, WCAG AA contrast, whitespace rhythm.
+Dispatch prompt
+·
+Audit report
+07 · Mobile-First QA
+Specialist mandate
+Flawless on a 320 px iPhone SE. Tap targets ≥ 44 px (WCAG 2.5.5), no horizontal scroll, hamburger nav, card layout for narrow viewports.
+Dispatch prompt
+·
+Audit report
+08 · Accessibility (WCAG 2.2 AA)
+Specialist mandate
+Skip-link, focus-visible, scope=col, lang attribution, semantic HTML5. Screen-reader-friendly + keyboard-only parity.
+Dispatch prompt
+·
+Audit report
+09 · Performance Engineer
+Specialist mandate
+Core Web Vitals green: LCP < 1.5 s, FCP < 0.4 s, CLS < 0.05, INP < 100 ms. Lighthouse Performance ≥ 97.
+Dispatch prompt
+·
+Audit report
+10 · HTML Code Quality
+Specialist mandate
+Semantic HTML5, W3C-validating, proper landmark structure. thead / tbody / scope=col, abbr, time, cite, figure.
+Dispatch prompt
+·
+Audit report
+11 · CSS Architect
+Specialist mandate
+Custom properties, fluid clamp() type, logical properties, prefers-color-scheme dark mode, prefers-reduced-motion, complete print stylesheet.
+Dispatch prompt
+·
+Audit report
+12 · Data Visualization
+Specialist mandate
+Charts that justify their existence. Sortable tables ≥ 10 rows. Inline SVG. No chartjunk.
+Dispatch prompt
+·
+Audit report
+13 · Trust & Brand
+Specialist mandate
+Establish trust at first scroll. Distinguish from generic SEO content farms and Big-4 boilerplate. Author surface, license badge, methodology openness, ethics statement.
+Dispatch prompt
+·
+Audit report
+14 · Conversion / CTA
+Specialist mandate
+Every page has ONE primary action (≤ 2 secondary). Persona-specific routing. Cite-this-research widget. Privacy-respecting share row.
+Dispatch prompt
+·
+Audit report
+15 · Internationalization
+Specialist mandate
+Cyrillic content renders correctly, is searchable, and screen-reader-friendly with proper lang= attribution. Hreflang for any /ru/ mirror pages.
+Dispatch prompt
+·
+Audit report
+16 · Dev-Ex / Reproducibility
+Specialist mandate
+Anyone can clone the repo and reproduce or extend. README clarity, mermaid architecture, CI badges, CONTRIBUTING, issue templates, citation file.
+Dispatch prompt
+·
+Audit report
+How to re-run the full audit
+The audit dispatches 16 Claude sub-agents in parallel using
+subagent_type=general-purpose
+and
+run_in_background=true
+. Total wall-clock per pass: about 30 minutes. Anthropic spend on Sonnet: about USD 4–8. Zero paid OpenRouter calls — the audit team reads only the public web and local files.
+# 1. Fan out 16 specialists in parallel from a single Claude Code session:
+for spec in .claude/audit-team/*.md; do
+  echo "Dispatch: $spec"
+done
+# 2. Each writes to state/audit/team/<NN>_*.md
+# 3. Synthesise, apply patches, re-render, re-deploy
+Where do the prompts live?
+Two mirrored locations — Claude Code agent specs at
+.claude/audit-team/
+and a public flat-file index at
+prompts/audit-team/
+. The actual reports live at
+state/audit/team/
+.
+Share:
+X / Twitter
+LinkedIn
+Email
+·
+RSS feed
+GitHub repo
+Cite this research
+BibTeX
+@misc{valuev26cab2g,
+  author = {Valuev, Alexandr},
+  title  = {Central Asia B2G Intelligence: Auditor AI Team — 16 specialists},
+  year   = {2026},
+  url    = {https://avaluev.github.io/ca-b2g-research/audit-team/},
+  note   = {Data vintage 2026-05, Apache 2.0}
+}
+APA
+Valuev, A. (2026). Central Asia B2G Intelligence: Auditor AI Team — 16 specialists. Retrieved from https://avaluev.github.io/ca-b2g-research/audit-team/
+MLA
+Valuev, Alexandr. "Central Asia B2G Intelligence: Auditor AI Team — 16 specialists." Data vintage 2026-05, https://avaluev.github.io/ca-b2g-research/audit-team/.
+
+---
 ## URL: https://avaluev.github.io/ca-b2g-research/decrees/kg/index.html
 Decree atlas — Kyrgyzstan
 This atlas catalogues 44 presidential decrees, government resolutions, and sectoral laws shaping AI and digital government in Kyrgyzstan, with 7 currently in their six-to-eighteen-month active implementation window. Every decree is verified on the official government source and cross-checked in independent media.

@@ -1,0 +1,63 @@
+%%{init: {'theme':'neutral','flowchart':{'curve':'basis','htmlLabels':true}}}%%
+flowchart LR
+  classDef raw fill:#f6f8fa,stroke:#5a6066,color:#0d1117
+  classDef typed fill:#e9f6ee,stroke:#005c27,color:#0d1117
+  classDef merged fill:#fdebd3,stroke:#7a4900,color:#0d1117
+  classDef gate fill:#ffe4e1,stroke:#c92a2a,color:#0d1117
+  classDef out fill:#e6f0ff,stroke:#0057cc,stroke-width:2px,color:#0d1117
+
+  subgraph Raw[Raw Sources]
+    direction TB
+    S1[lex.uz · cbd.minjust.gov.kg]:::raw
+    S2[gov.uz · gov.kg · president.uz · president.kg]:::raw
+    S3[spot.uz · gazeta.uz · 24.kg · kaktus.media]:::raw
+    S4[documents.worldbank.org · adb.org<br/>ec.europa.eu/international-partnerships]:::raw
+    S5[OpenRouter · Sonar DR / Sonar Pro<br/>cross-model verification cards]:::raw
+  end
+
+  subgraph Typed[Typed records · state/]
+    direction TB
+    T1[Decree records<br/>state/decrees/*.json]:::typed
+    T2[Institution records<br/>state/institutions/*.json]:::typed
+    T3[Person records<br/>state/people/*.json]:::typed
+    T4[DonorProgram records<br/>state/donors/programs.json]:::typed
+    T5[Tender records<br/>state/tenders/*.json]:::typed
+    T6[Trend records<br/>state/trends/*.json]:::typed
+    T7[GlobalCase records<br/>state/cases/cases.json]:::typed
+    T8[Initiative records<br/>state/initiatives/*.json]:::typed
+    T9[SolopreneurMVP records<br/>state/solopreneur_mvps/*.json]:::typed
+    TX[EvidenceCard records<br/>state/external/*/*.json]:::typed
+  end
+
+  subgraph Gates[Quality Gates]
+    direction TB
+    Q1[validate_state.py<br/>JSON Schema Draft-7]:::gate
+    Q2[check_quality.py<br/>12 content gates]:::gate
+    Q3[verify_links.py<br/>HEAD-check + Wayback fallback]:::gate
+    Q4[reflexion-auditor<br/>≥ 3 HIGH issues required]:::gate
+  end
+
+  subgraph Merged[Merged read view]
+    M1[(state/knowledge_graph.json<br/>882 records · 9 types · FK integrity)]:::merged
+  end
+
+  subgraph Outputs[Output surfaces]
+    direction TB
+    O1[outputs/site/<br/>19 HTML pages · GEO/AIO/AEO/LLMO]:::out
+    O2[outputs/obsidian/<br/>vault · 882 wikilinked records]:::out
+    O3[outputs/crm/<br/>master.csv · slice CSVs]:::out
+    O4[outputs/memo/<br/>strategic_memo.md]:::out
+    O5[outputs/playbook/<br/>Tier-A · Tier-B outreach bundles]:::out
+    O6[llms.txt · llms-full.txt<br/>sitemap.xml · feed.xml<br/>JSON-LD @graph]:::out
+  end
+
+  Raw --> Typed
+  Typed --> Q1 --> Merged
+  Merged --> Outputs
+  Outputs --> Q2
+  Outputs --> Q3
+  Merged --> Q4
+  Q2 -.->|fail| Patches[(remediation patches)]
+  Q3 -.->|fail| Patches
+  Q4 -.->|fail| Patches
+  Patches -.-> Typed

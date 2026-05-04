@@ -33,6 +33,7 @@
 - [Provenance and audit trail](https://avaluev.github.io/ca-b2g-research/provenance/) — Every record in this research carries one or more cited sources, totalling roughly 402 references across decrees, institutions, people, and donor programmes. Every cross-model verification call to OpenRouter — Perplexity Sonar Deep Research, Sonar Pro, o4-mini-deep-research, Owl Alpha, and Gemma — is logged as an evidence card under state/external/ in the public repo.
 
 - [About this research and its author](https://avaluev.github.io/ca-b2g-research/about/) — Alexandr Valuev built this research as an open, reproducible alternative to the Big-4 frontier-market opportunity reports that cost six figures and disappear into a PDF. Every prompt, every script, every quality gate is public. Every claim is typed. Every error is named.
+- [Auditor AI Team](https://avaluev.github.io/ca-b2g-research/audit-team/) — After every release, sixteen specialist sub-agents audit the live site in parallel. Each scores its own dimension one to ten and ships pasteable patches with priorities P0, P1, or P2. Every dispatch prompt is public. Every audit report is public. The pipeline that produces the data is reviewed by a separate pipeline that critiques the rendering.
 
 ## Source code
 

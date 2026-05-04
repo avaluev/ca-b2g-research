@@ -1,0 +1,85 @@
+%%{init: {'theme':'neutral','flowchart':{'curve':'basis','htmlLabels':true}}}%%
+flowchart TB
+  classDef wave fill:#e9f6ee,stroke:#005c27,stroke-width:1px,color:#0d1117
+  classDef opus fill:#fdebd3,stroke:#7a4900,stroke-width:1px,color:#0d1117
+  classDef paid fill:#ffe4e1,stroke:#c92a2a,stroke-width:1px,color:#0d1117
+  classDef state fill:#f6f8fa,stroke:#5a6066,stroke-width:1px,color:#0d1117
+  classDef out fill:#e6f0ff,stroke:#0057cc,stroke-width:2px,color:#0d1117
+
+  Inputs[/CLAUDE.md · state_schema.json · lenses.md · scoring_rubric.md/]:::state
+
+  subgraph W0[Wave 0 · Strategic Blueprint]
+    direction TB
+    A0["blueprint-architect<br/><i>Opus xhigh</i><br/>Personas: Big-4 partner +<br/>Anthropic researcher +<br/>WB Digital TTL +<br/>Karpathy first-principles"]:::opus
+  end
+
+  subgraph W1[Wave 1 · Parallel Research · Sonnet]
+    direction LR
+    A1["legal-cartographer<br/>lex.uz / cbd.minjust.gov.kg<br/>≥ 80 UZ + ≥ 60 KG decrees"]:::wave
+    A2["case-tournament<br/>≥ 100 global B2G AI cases<br/>tournament-bracketed UZ + KG"]:::wave
+  end
+
+  subgraph W2[Wave 2 · Parallel Research · Sonnet × 4]
+    direction LR
+    B1["institution-mapper<br/>8-tier taxonomy<br/>≥ 60 UZ + ≥ 45 KG"]:::wave
+    B2["donor-pipeline<br/>WB · ADB · EU · UN · bilateral<br/>≥ 50 programmes, named TTL"]:::wave
+    B3["procurement-harvester<br/>Live + forthcoming tenders<br/>UZ xarid / KG zakupki / WB STEP"]:::wave
+    B4["trend-triangulator<br/>12 sectors × 6 lenses<br/>convergent windows ≥ 15"]:::wave
+  end
+
+  subgraph W3[Wave 3 · Decision-Maker Intelligence]
+    direction TB
+    C1["people-intelligence<br/><i>Sonnet</i> + <i>paid Sonar Pro</i> ≤ 15 calls<br/>≥ 100 named individuals<br/>+ ≥ 15 diaspora bridges"]:::wave
+    P1["paid Sonar Pro<br/>LinkedIn URL re-verification<br/>Tier-1 only"]:::paid
+    C1 -.- P1
+  end
+
+  subgraph W4[Wave 4 · Synthesis · Opus xhigh]
+    direction LR
+    D1["initiative-synthesizer<br/>≥ 100 B2G initiatives<br/>5-axis scoring · 28 Tier-A"]:::opus
+    D2["solopreneur-mvp-synthesizer<br/>200 MVPs · HubSpot $1M MVR<br/>8 vehicles · 51 Tier-A"]:::opus
+  end
+
+  subgraph W5[Wave 5 · Adversarial Audit · Opus xhigh]
+    direction TB
+    E1["reflexion-auditor<br/>Independent grounding via<br/>different OpenRouter model<br/>≥ 3 HIGH issues required"]:::opus
+    P2["paid Sonar Deep Research<br/>Tier-A claim re-verification<br/>max_search_count = 30"]:::paid
+    E1 -.- P2
+  end
+
+  subgraph W6[Wave 6 · Outreach]
+    direction TB
+    F1["pitch-artificer<br/><i>Sonnet</i><br/>Tier-A bundles ×28 + Tier-B ×20<br/>RU + EN outreach kits"]:::wave
+  end
+
+  subgraph Gates[Quality Gates between waves]
+    direction LR
+    G0["validate_state.py<br/>schema · foreign keys · RU share"]:::state
+  end
+
+  subgraph Render[Render + Publish]
+    direction LR
+    R1["render.py crm<br/>render.py memo<br/>render.py playbook"]:::out
+    R2["render_obsidian.py<br/>vault · 882 records"]:::out
+    R3["render_site.py<br/>19 GEO/AIO/AEO/LLMO pages"]:::out
+    R4["build_seo_assets.py<br/>llms.txt · sitemap · feed"]:::out
+  end
+
+  subgraph Audit[Auditor AI Team · 16 specialists · post-publication]
+    direction TB
+    AT["16 parallel Claude sub-agents<br/>scoring 16 dimensions of quality"]:::wave
+  end
+
+  Out[(Live site · Obsidian vault<br/>CRM CSVs · strategic memo<br/>per-initiative outreach bundles)]:::out
+
+  Inputs --> W0
+  W0 --> Gates --> W1
+  W1 --> Gates2[validate_state.py]:::state --> W2
+  W2 --> Gates3[validate_state.py]:::state --> W3
+  W3 --> Merge1[merge_state.py]:::state --> W4
+  W4 --> Merge2[merge_state.py]:::state --> W5
+  W5 --> Apply[merge_state.py --apply-corrections]:::state --> W6
+  W6 --> Render
+  Render --> Out
+  Out --> Audit
+  Audit -.->|P0/P1 patches| Render

@@ -1,0 +1,64 @@
+%%{init: {'theme':'neutral','flowchart':{'curve':'basis','htmlLabels':true}}}%%
+flowchart TB
+  classDef foundation fill:#e9f6ee,stroke:#005c27,stroke-width:1px,color:#0d1117
+  classDef craft fill:#fdebd3,stroke:#7a4900,stroke-width:1px,color:#0d1117
+  classDef discovery fill:#e6f0ff,stroke:#0057cc,stroke-width:1px,color:#0d1117
+  classDef trust fill:#fff0f6,stroke:#a4267a,stroke-width:1px,color:#0d1117
+  classDef ops fill:#f6f8fa,stroke:#5a6066,stroke-width:1px,color:#0d1117
+
+  Site[("Live site · v1.0.0<br/>https://avaluev.github.io/ca-b2g-research")]
+
+  subgraph Strategic[Strategic Layer]
+    direction LR
+    A01["01 · Reference Benchmarker<br/>Score vs padel reference"]:::foundation
+    A02["02 · Information Architect<br/>Nav · hierarchy · breadcrumbs<br/>internal-link graph"]:::foundation
+    A14["14 · Conversion / CTA<br/>One primary action per page<br/>persona routing"]:::foundation
+  end
+
+  subgraph Craft[Craft Layer]
+    direction LR
+    A03["03 · Content Voice Editor<br/>Plain English · FK ≤ 10<br/>anti-jargon"]:::craft
+    A06["06 · Visual / Typography<br/>Type scale · contrast<br/>whitespace rhythm"]:::craft
+    A11["11 · CSS Architect<br/>Custom props · clamp() · dark mode<br/>print stylesheet"]:::craft
+    A12["12 · Data Visualization<br/>Charts · sortable tables<br/>inline SVG"]:::craft
+  end
+
+  subgraph Reach[Reach + Discovery Layer]
+    direction LR
+    A05["05 · GEO / AIO / AEO / LLMO<br/>llms.txt · JSON-LD<br/>FAQPage · HowTo · Dataset"]:::discovery
+    A15["15 · Internationalization<br/>Cyrillic lang attribution<br/>hreflang"]:::discovery
+  end
+
+  subgraph QA[Quality Assurance Layer]
+    direction LR
+    A07["07 · Mobile-First QA<br/>320–1440 px · ≥ 44 px tap<br/>no horizontal scroll"]:::ops
+    A08["08 · Accessibility WCAG 2.2 AA<br/>Skip-link · focus-visible<br/>scope=col"]:::ops
+    A09["09 · Performance Engineer<br/>Core Web Vitals<br/>Lighthouse ≥ 97"]:::ops
+    A10["10 · HTML Code Quality<br/>Semantic HTML5 · W3C-valid<br/>landmarks"]:::ops
+  end
+
+  subgraph Trust[Trust + DevEx Layer]
+    direction LR
+    A04["04 · Citation / Provenance<br/>Numeric-claim traceability<br/>RU/UZ/KY ≥ 30%"]:::trust
+    A13["13 · Trust & Brand<br/>Author surface · license<br/>methodology openness"]:::trust
+    A16["16 · Dev-Ex / Reproducibility<br/>README · CI badges<br/>CONTRIBUTING · citation"]:::trust
+  end
+
+  Synthesis[(Synthesis<br/>16 reports · P0/P1/P2 patches)]
+  Patches[(Renderer · CSS · content edits<br/>schema · gates · docs)]
+  Redeploy[(Re-render · re-deploy · re-verify)]
+
+  Site --> Strategic
+  Site --> Craft
+  Site --> Reach
+  Site --> QA
+  Site --> Trust
+
+  Strategic --> Synthesis
+  Craft --> Synthesis
+  Reach --> Synthesis
+  QA --> Synthesis
+  Trust --> Synthesis
+
+  Synthesis --> Patches --> Redeploy
+  Redeploy -.->|next release| Site

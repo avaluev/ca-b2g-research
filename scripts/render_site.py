@@ -219,6 +219,7 @@ NAV_LINKS = [
     ("/people/", "People"),
     ("/initiatives/", "B2G Initiatives"),
     ("/mvp/", "Solo MVPs"),
+    ("/audit-team/", "Audit Team"),
     ("/honesty/", "Honesty"),
     ("/provenance/", "Provenance"),
 ]
@@ -980,6 +981,81 @@ def about_page() -> str:
     )
 
 
+def audit_team_page() -> str:
+    specialists = [
+        ("01", "Reference Benchmarker", "Score the audit site vs the padel-market-analysis reference dimension-by-dimension; identify copyable patterns and structural advantages.", "01_reference_benchmark"),
+        ("02", "Information Architect", "Audit nav, hierarchy, breadcrumbs, internal-link graph, and scent of information across all rendered pages.", "02_information_architecture"),
+        ("03", "Content Voice Editor", "Plain English, anti-jargon, third-person professional, Flesch-Kincaid grade ≤ 10. No marketing badges, no hedging fluff.", "03_voice_edit"),
+        ("04", "Citation / Provenance", "Every numeric claim and named entity traceable to a source. Russian / Uzbek / Kyrgyz share ≥ 30%. Dead-link health.", "04_citations"),
+        ("05", "GEO / AIO / AEO / LLMO", "Maximise discoverability for ChatGPT Search, Claude, Perplexity, Gemini, AI Overviews. llms.txt, JSON-LD @graph, FAQPage, HowTo, Dataset schemas.", "05_geo_aio_aeo_llmo"),
+        ("06", "Visual / Typography", "Beautiful, calm, scannable typography. Fluid type scale, 60–80ch line length, WCAG AA contrast, whitespace rhythm.", "06_visual_typography"),
+        ("07", "Mobile-First QA", "Flawless on a 320 px iPhone SE. Tap targets ≥ 44 px (WCAG 2.5.5), no horizontal scroll, hamburger nav, card layout for narrow viewports.", "07_mobile"),
+        ("08", "Accessibility (WCAG 2.2 AA)", "Skip-link, focus-visible, scope=col, lang attribution, semantic HTML5. Screen-reader-friendly + keyboard-only parity.", "08_accessibility"),
+        ("09", "Performance Engineer", "Core Web Vitals green: LCP < 1.5 s, FCP < 0.4 s, CLS < 0.05, INP < 100 ms. Lighthouse Performance ≥ 97.", "09_performance"),
+        ("10", "HTML Code Quality", "Semantic HTML5, W3C-validating, proper landmark structure. thead / tbody / scope=col, abbr, time, cite, figure.", "10_html_quality"),
+        ("11", "CSS Architect", "Custom properties, fluid clamp() type, logical properties, prefers-color-scheme dark mode, prefers-reduced-motion, complete print stylesheet.", "11_css"),
+        ("12", "Data Visualization", "Charts that justify their existence. Sortable tables ≥ 10 rows. Inline SVG. No chartjunk.", "12_dataviz"),
+        ("13", "Trust & Brand", "Establish trust at first scroll. Distinguish from generic SEO content farms and Big-4 boilerplate. Author surface, license badge, methodology openness, ethics statement.", "13_trust_brand"),
+        ("14", "Conversion / CTA", "Every page has ONE primary action (≤ 2 secondary). Persona-specific routing. Cite-this-research widget. Privacy-respecting share row.", "14_conversion"),
+        ("15", "Internationalization", "Cyrillic content renders correctly, is searchable, and screen-reader-friendly with proper lang= attribution. Hreflang for any /ru/ mirror pages.", "15_i18n"),
+        ("16", "Dev-Ex / Reproducibility", "Anyone can clone the repo and reproduce or extend. README clarity, mermaid architecture, CI badges, CONTRIBUTING, issue templates, citation file.", "16_devex"),
+    ]
+    cards_html = "\n".join(
+        f'''<div class="persona" role="listitem">
+            <h3>{escape(num)} · {escape(name)}</h3>
+            <p class="meta">Specialist mandate</p>
+            <p>{escape(desc)}</p>
+            <p>
+              <a href="https://github.com/avaluev/ca-b2g-research/blob/main/.claude/audit-team/{escape(num)}_{slugify(name).replace("-", "_")}.md">Dispatch prompt</a>
+              · <a href="https://github.com/avaluev/ca-b2g-research/blob/main/state/audit/team/{escape(slug)}.md">Audit report</a>
+            </p>
+          </div>'''
+        for num, name, desc, slug in specialists
+    )
+
+    body = f"""<h1>Auditor AI Team</h1>
+<p class="lead summary">After every release, sixteen specialist sub-agents audit the live site in parallel. Each scores its own dimension one to ten and ships pasteable patches with priorities P0, P1, or P2. Every dispatch prompt is public. Every audit report is public. The pipeline that produces the data is reviewed by a separate pipeline that critiques the rendering.</p>
+
+<h2>Why a 16-specialist team?</h2>
+<p>A single reviewer always misses dimensions outside their lane. A research site serves vendors, donors, investors, government officials, journalists, contributors, and AI search crawlers — each judges different things. The specialists below are organised so each pair of dimensions has at least one dedicated auditor.</p>
+
+<h2>What did the audit catch in v1.0.0?</h2>
+<ul>
+  <li>17 HIGH severity issues + 16 MEDIUM + 2 LOW.</li>
+  <li>Four wrong Tier-1 identities (IT Park UZ CEO, KG UDP head, KG Min Health, KG last Минцифры minister) — caught by paid Sonar Pro re-verification, corrected before publication.</li>
+  <li>WCAG contrast failure (#00aa44 at 2.89:1) before audit; replaced with #005c27 at 4.5:1 after.</li>
+  <li>OG image referenced .png but only .svg existed — every social share card was broken until this audit caught it.</li>
+  <li>169 Cyrillic cells without lang= attribution; auto-wrapped via the new ru() helper.</li>
+  <li>Nav buried H1 below the fold at 320 px — fixed with a CSS-only hamburger pattern and tap targets ≥ 44 px.</li>
+</ul>
+
+<h2>The team</h2>
+<p>Each card links to the dispatch prompt (so you can re-run any specialist yourself) and the actual audit report it produced.</p>
+<div class="persona-grid" role="list" aria-label="The 16 audit specialists">
+{cards_html}
+</div>
+
+<h2>How to re-run the full audit</h2>
+<p>The audit dispatches 16 Claude sub-agents in parallel using <code>subagent_type=general-purpose</code> and <code>run_in_background=true</code>. Total wall-clock per pass: about 30 minutes. Anthropic spend on Sonnet: about USD 4–8. Zero paid OpenRouter calls — the audit team reads only the public web and local files.</p>
+<pre><code># 1. Fan out 16 specialists in parallel from a single Claude Code session:
+for spec in .claude/audit-team/*.md; do
+  echo "Dispatch: $spec"
+done
+# 2. Each writes to state/audit/team/&lt;NN&gt;_*.md
+# 3. Synthesise, apply patches, re-render, re-deploy</code></pre>
+
+<h2>Where do the prompts live?</h2>
+<p>Two mirrored locations — Claude Code agent specs at <a href="https://github.com/avaluev/ca-b2g-research/tree/main/.claude/audit-team"><code>.claude/audit-team/</code></a> and a public flat-file index at <a href="https://github.com/avaluev/ca-b2g-research/tree/main/prompts/audit-team"><code>prompts/audit-team/</code></a>. The actual reports live at <a href="https://github.com/avaluev/ca-b2g-research/tree/main/state/audit/team"><code>state/audit/team/</code></a>.</p>
+"""
+    return render_page(
+        path="/audit-team/",
+        title="Auditor AI Team — 16 specialists",
+        description="Sixteen specialist Claude sub-agents audit the live site in parallel after every release. Every dispatch prompt and every audit report is public.",
+        body_html=body,
+        page_type="CollectionPage",
+    )
+
+
 def not_found_page() -> str:
     body = """<h1>Page not found</h1>
 <p class="lead summary">The link you followed does not match any page in the Central Asia B2G Intelligence research site. The site is organised around six pillar pages plus the methodology, lenses, scoring rubric, and an honesty page that names what we did not find.</p>
@@ -1420,6 +1496,7 @@ def main() -> int:
     write_page("/people/", people_page(graph))
     write_page("/initiatives/", initiatives_page(graph))
     write_page("/about/", about_page())
+    write_page("/audit-team/", audit_team_page())
     # Custom 404 (GitHub Pages serves /404.html by default)
     (SITE / "404.html").write_text(not_found_page(), encoding="utf-8")
     write_page("/mvp/", mvp_page(graph, country=None))
