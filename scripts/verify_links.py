@@ -258,9 +258,20 @@ def main() -> int:
         print(f"✅ wrote {args.output} (no URLs to check)")
         return 0
     if args.internal_only:
-        # Trim external URLs (everything not file://) — for CI
+        # Trim external URLs (everything not file://) — for CI smoke test
         for k, v in list(urls.items()):
             urls[k] = [u for u in v if u.startswith("file://")]
+        total = sum(len(v) for v in urls.values())
+        if total == 0:
+            print("No internal URLs to verify (CI smoke test passes vacuously).")
+            Path(args.output).parent.mkdir(parents=True, exist_ok=True)
+            Path(args.output).write_text(json.dumps({
+                "checked_at": time.strftime("%Y-%m-%dT%H:%M:%SZ", time.gmtime()),
+                "total_urls": 0, "ok_count": 0, "broken_count": 0,
+                "breakage_pct": 0.0, "by_category": {}, "by_kind": {},
+                "by_language": {}, "results": [], "internal_only": True,
+            }, indent=2))
+            return 0
 
     print("Running checks...")
     t0 = time.time()
