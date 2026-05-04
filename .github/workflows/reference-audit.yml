@@ -76,14 +76,17 @@ jobs:
         id: audit
         continue-on-error: true
         # 403 = many gov.kg / gov.uz hosts WAF HEAD/GET from non-browser UAs.
-        # 999 = LinkedIn rate-limit response — URL is fine, bot is blocked.
         # 429 = transient rate-limit; retry would just hit it again on cron.
+        # 999 = LinkedIn rate-limit response — URL is fine, bot is blocked.
+        # 0   = DNS / TLS / geo-block from GitHub Actions IPs (multiple gov
+        #       hosts return 0 from US-based runners but 200 from a browser
+        #       on a CIS IP). Reported in the artifact, not build-blocking.
         run: |
           python3 scripts/audit_references.py \
             --report-md state/audit/references.md \
             --report-json state/audit/references.json \
             --fail-mode live-only \
-            --ignore-status 403 429 999
+            --ignore-status 0 403 429 999
       - name: Upload report
         if: always()
         uses: actions/upload-artifact@v4

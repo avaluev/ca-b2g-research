@@ -61,7 +61,13 @@ SITE_DIR = ROOT / "outputs" / "site"
 AUDIT_DIR = ROOT / "state" / "audit"
 DEFAULT_SITE_BASE = "https://avaluev.github.io/ca-b2g-research"
 DEFAULT_REPO_BASE = "https://github.com/avaluev/ca-b2g-research/blob/main"
-USER_AGENT = "ca-b2g-references-audit/1.0 (+https://avaluev.github.io/ca-b2g-research/)"
+# Use a browser-like UA so government CIS sites that filter on UA don't reject us
+# (zakupki.okmot.kg returns 0 with a custom UA but 200 with browser UA). The
+# auditor's identity is preserved via the From header.
+USER_AGENT = (
+    "Mozilla/5.0 (compatible; ca-b2g-references-audit/1.0; "
+    "+https://github.com/avaluev/ca-b2g-research/blob/main/scripts/audit_references.py)"
+)
 TIMEOUT = 20
 MAX_WORKERS = 12
 RATE_LIMIT_BACKOFF_SEC = 5
