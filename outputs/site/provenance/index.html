@@ -7,7 +7,7 @@
 <meta name="description" content="Every claim&#x27;s source, every cross-model verification card, every audit finding — public and reproducible.">
 <link rel="canonical" href="https://avaluev.github.io/ca-b2g-research/provenance/">
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
-<meta name="dateModified" content="2026-05-04T12:19:51.869773+00:00">
+<meta name="dateModified" content="2026-05-04T12:41:20.527191+00:00">
 
 <meta property="og:type" content="article">
 <meta property="og:title" content="Provenance and audit trail">
@@ -68,6 +68,16 @@ header.nav a:hover{color:var(--c-accent)}
 header.nav a[aria-current="page"]{color:var(--c-fg);background:var(--c-bg-soft)}
 header.nav .brand{font-weight:700;color:var(--c-fg);font-size:1rem;margin-inline-end:auto;text-decoration:none;padding-block:var(--s-2);min-height:44px;display:inline-flex;align-items:center;letter-spacing:-0.01em}
 header.nav .brand::before{content:"\25C6 ";color:var(--c-accent);margin-inline-end:6px}
+header.nav details.nav-more{position:relative;display:inline-flex;align-items:center;min-height:44px}
+header.nav details.nav-more>summary{list-style:none;cursor:pointer;color:var(--c-fg-muted);font-size:var(--fz-sm);font-weight:500;padding:10px 8px;min-height:44px;display:inline-flex;align-items:center;border-radius:var(--r-sm);user-select:none}
+header.nav details.nav-more>summary::-webkit-details-marker{display:none}
+header.nav details.nav-more>summary:hover{color:var(--c-accent)}
+header.nav details.nav-more>summary:focus-visible{outline:2px solid var(--c-focus);outline-offset:2px}
+header.nav details.nav-more[open]>summary{color:var(--c-fg);background:var(--c-bg-soft)}
+header.nav .nav-more-panel{position:absolute;top:calc(100% + 4px);right:0;min-width:220px;background:var(--c-bg);border:1px solid var(--c-border);border-radius:var(--r-md);box-shadow:0 8px 24px rgba(0,0,0,.08);padding:6px;display:flex;flex-direction:column;gap:2px;z-index:60}
+header.nav .nav-more-panel a{display:block;padding:10px 12px;min-height:44px;border-radius:var(--r-sm)}
+header.nav .nav-more-panel a:hover{background:var(--c-bg-soft);color:var(--c-accent)}
+@media (max-width:640px){header.nav .nav-more-panel{position:static;box-shadow:none;border:none;padding:0;margin-block-start:var(--s-1);width:100%}}
 nav.breadcrumbs{font-size:var(--fz-sm);color:var(--c-fg-soft);margin-block-start:var(--s-2)}
 nav.breadcrumbs ol{list-style:none;display:flex;flex-wrap:wrap;gap:var(--s-2);padding:0;margin:0}
 nav.breadcrumbs li::after{content:" \203A ";color:var(--c-fg-soft);margin-inline-start:var(--s-2)}
@@ -262,21 +272,10 @@ blockquote{border-inline-start:3px solid var(--c-accent);padding-inline-start:va
         <a href="/">Home</a>
         <a href="/uzbekistan/">Uzbekistan</a>
         <a href="/kyrgyzstan/">Kyrgyzstan</a>
-        <a href="/initiatives/">B2G Initiatives</a>
-        <a href="/decrees/uz/">Decrees UZ</a>
-        <a href="/decrees/kg/">Decrees KG</a>
-        <a href="/institutions/">Institutions</a>
+        <a href="/initiatives/">Initiatives</a>
         <a href="/donors/">Donors</a>
         <a href="/procurement/">Procurement</a>
-        <a href="/trends/">Trends</a>
-        <a href="/people/">People</a>
-        <a href="/mvp/">Solo MVPs</a>
-        <a href="/methodology/">Methodology</a>
-        <a href="/lenses/">Lenses</a>
-        <a href="/scoring/">Scoring</a>
-        <a href="/audit-team/">Audit Team</a>
-        <a href="/honesty/">Honesty</a>
-        <a href="/provenance/" aria-current="page">Provenance</a>
+        <details class="nav-more" open><summary aria-label="More navigation links">More <span aria-hidden="true">▾</span></summary><div class="nav-more-panel" role="group" aria-label="Secondary navigation"><a href="/decrees/uz/">Decrees UZ</a><a href="/decrees/kg/">Decrees KG</a><a href="/institutions/">Institutions</a><a href="/people/">People</a><a href="/trends/">Trends</a><a href="/mvp/">Solo MVPs</a><a href="/methodology/">Methodology</a><a href="/lenses/">Lenses</a><a href="/scoring/">Scoring</a><a href="/audit-team/">Audit Team</a><a href="/honesty/">Honesty</a><a href="/provenance/" aria-current="page">Provenance</a></div></details>
       </nav></header>
 <main id="main-content" class="container">
 <nav class="breadcrumbs" aria-label="Breadcrumb"><ol><li><a href="/">Home</a></li><li aria-current="page">Provenance and audit trail</li></ol></nav><h1>Provenance and audit trail</h1>

@@ -110,6 +110,16 @@ header.nav a:hover{color:var(--c-accent)}
 header.nav a[aria-current="page"]{color:var(--c-fg);background:var(--c-bg-soft)}
 header.nav .brand{font-weight:700;color:var(--c-fg);font-size:1rem;margin-inline-end:auto;text-decoration:none;padding-block:var(--s-2);min-height:44px;display:inline-flex;align-items:center;letter-spacing:-0.01em}
 header.nav .brand::before{content:"\\25C6 ";color:var(--c-accent);margin-inline-end:6px}
+header.nav details.nav-more{position:relative;display:inline-flex;align-items:center;min-height:44px}
+header.nav details.nav-more>summary{list-style:none;cursor:pointer;color:var(--c-fg-muted);font-size:var(--fz-sm);font-weight:500;padding:10px 8px;min-height:44px;display:inline-flex;align-items:center;border-radius:var(--r-sm);user-select:none}
+header.nav details.nav-more>summary::-webkit-details-marker{display:none}
+header.nav details.nav-more>summary:hover{color:var(--c-accent)}
+header.nav details.nav-more>summary:focus-visible{outline:2px solid var(--c-focus);outline-offset:2px}
+header.nav details.nav-more[open]>summary{color:var(--c-fg);background:var(--c-bg-soft)}
+header.nav .nav-more-panel{position:absolute;top:calc(100% + 4px);right:0;min-width:220px;background:var(--c-bg);border:1px solid var(--c-border);border-radius:var(--r-md);box-shadow:0 8px 24px rgba(0,0,0,.08);padding:6px;display:flex;flex-direction:column;gap:2px;z-index:60}
+header.nav .nav-more-panel a{display:block;padding:10px 12px;min-height:44px;border-radius:var(--r-sm)}
+header.nav .nav-more-panel a:hover{background:var(--c-bg-soft);color:var(--c-accent)}
+@media (max-width:640px){header.nav .nav-more-panel{position:static;box-shadow:none;border:none;padding:0;margin-block-start:var(--s-1);width:100%}}
 nav.breadcrumbs{font-size:var(--fz-sm);color:var(--c-fg-soft);margin-block-start:var(--s-2)}
 nav.breadcrumbs ol{list-style:none;display:flex;flex-wrap:wrap;gap:var(--s-2);padding:0;margin:0}
 nav.breadcrumbs li::after{content:" \\203A ";color:var(--c-fg-soft);margin-inline-start:var(--s-2)}
@@ -205,18 +215,22 @@ blockquote{border-inline-start:3px solid var(--c-accent);padding-inline-start:va
 }
 """
 
-NAV_LINKS = [
+# Primary nav — always visible. Keep small; ≥ 12 items wraps badly on mobile.
+NAV_PRIMARY = [
     ("/", "Home"),
     ("/uzbekistan/", "Uzbekistan"),
     ("/kyrgyzstan/", "Kyrgyzstan"),
-    ("/initiatives/", "B2G Initiatives"),
+    ("/initiatives/", "Initiatives"),
+    ("/donors/", "Donors"),
+    ("/procurement/", "Procurement"),
+]
+# Secondary nav — collapsed under a "More ▾" disclosure.
+NAV_SECONDARY = [
     ("/decrees/uz/", "Decrees UZ"),
     ("/decrees/kg/", "Decrees KG"),
     ("/institutions/", "Institutions"),
-    ("/donors/", "Donors"),
-    ("/procurement/", "Procurement"),
-    ("/trends/", "Trends"),
     ("/people/", "People"),
+    ("/trends/", "Trends"),
     ("/mvp/", "Solo MVPs"),
     ("/methodology/", "Methodology"),
     ("/lenses/", "Lenses"),
@@ -225,6 +239,8 @@ NAV_LINKS = [
     ("/honesty/", "Honesty"),
     ("/provenance/", "Provenance"),
 ]
+# Backwards-compat: full list for breadcrumbs / sitemap consumers.
+NAV_LINKS = NAV_PRIMARY + NAV_SECONDARY
 
 
 def jsonld_graph(
@@ -316,11 +332,26 @@ def render_page(
     breadcrumbs = breadcrumbs or [("/", "Home")]
     if (path, title) not in breadcrumbs:
         breadcrumbs = breadcrumbs + [(path, title)]
-    nav_parts = []
-    for p, t in NAV_LINKS:
+    primary_parts = []
+    for p, t in NAV_PRIMARY:
         aria = ' aria-current="page"' if p == path else ""
-        nav_parts.append(f'<a href="{escape(p)}"{aria}>{escape(t)}</a>')
-    nav = "\n        ".join(nav_parts)
+        primary_parts.append(f'<a href="{escape(p)}"{aria}>{escape(t)}</a>')
+    secondary_parts = []
+    secondary_active = False
+    for p, t in NAV_SECONDARY:
+        aria = ' aria-current="page"' if p == path else ""
+        if p == path:
+            secondary_active = True
+        secondary_parts.append(f'<a href="{escape(p)}"{aria}>{escape(t)}</a>')
+    open_attr = " open" if secondary_active else ""
+    more_block = (
+        f'<details class="nav-more"{open_attr}>'
+        f'<summary aria-label="More navigation links">More <span aria-hidden="true">▾</span></summary>'
+        f'<div class="nav-more-panel" role="group" aria-label="Secondary navigation">'
+        + "".join(secondary_parts)
+        + '</div></details>'
+    )
+    nav = "\n        ".join(primary_parts) + "\n        " + more_block
     # Visible breadcrumbs (skip on home)
     bc_html = ""
     if path != "/" and len(breadcrumbs) > 1:
