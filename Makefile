@@ -62,6 +62,12 @@ seo:
 verify-links:
 	python3 scripts/verify_links.py
 
+audit-references:
+	python3 scripts/audit_references.py
+
+audit-references-offline:
+	python3 scripts/audit_references.py --no-network
+
 check-quality:
 	python3 scripts/check_quality.py
 

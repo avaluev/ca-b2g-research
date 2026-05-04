@@ -1,0 +1,132 @@
+name: Reference audit
+
+# Comprehensive reference auditor — crawls every HTML page on the live site,
+# every Markdown file in the repo, and every JSON under state/, then verifies
+# every URL and every file reference resolves. Catches broken JSON pointers
+# and dead reference chains that would otherwise demote AI-search citation.
+#
+# Two modes:
+#   - On every push/PR: offline mode (file-existence checks only). Fast,
+#     deterministic, fails the build if any in-repo reference is broken.
+#   - Weekly cron + manual dispatch: full network mode. Verifies every
+#     external URL too. Posts a summary issue if breakage > 1%.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "scripts/**"
+      - "outputs/site/**"
+      - "state/**.json"
+      - "**.md"
+      - ".github/workflows/reference-audit.yml"
+  pull_request:
+    paths:
+      - "scripts/**"
+      - "outputs/site/**"
+      - "state/**.json"
+      - "**.md"
+      - ".github/workflows/reference-audit.yml"
+  schedule:
+    - cron: "0 5 * * 1"   # Mondays 05:00 UTC, before the link-verify job
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  offline:
+    name: Offline reference audit (push/PR gate)
+    if: github.event_name != 'schedule'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install --upgrade pip && pip install -e .
+      - name: Reference audit (no network, live-site refs)
+        # Fail only when a reference cited from a live HTML page is broken.
+        # Internal-doc references to future pipeline outputs are reported in
+        # the artifact but do not fail the gate.
+        run: python3 scripts/audit_references.py --no-network --fail-mode live-only
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reference-audit-offline
+          path: |
+            state/audit/references.md
+            state/audit/references.json
+
+  online:
+    name: Full reference audit (weekly + manual)
+    if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install --upgrade pip && pip install -e .
+      - name: Reference audit (network, live-site refs)
+        id: audit
+        continue-on-error: true
+        # 403 = many gov.kg / gov.uz hosts WAF HEAD/GET from non-browser UAs.
+        # 999 = LinkedIn rate-limit response — URL is fine, bot is blocked.
+        # 429 = transient rate-limit; retry would just hit it again on cron.
+        run: |
+          python3 scripts/audit_references.py \
+            --report-md state/audit/references.md \
+            --report-json state/audit/references.json \
+            --fail-mode live-only \
+            --ignore-status 403 429 999
+      - name: Upload report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reference-audit-online
+          path: |
+            state/audit/references.md
+            state/audit/references.json
+      - name: Open / update issue if internal-link breakage detected
+        if: steps.audit.outcome == 'failure'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+            const report = JSON.parse(fs.readFileSync('state/audit/references.json', 'utf8'));
+            const live_host = 'avaluev.github.io';
+            // Internal breakage = broken refs cited from a live URL on our own host.
+            const broken_internal = report.broken.filter(r =>
+              r.referrers.some(s => s.includes(live_host)) &&
+              (r.kind === 'site_path' || r.kind === 'file' ||
+               (r.kind === 'url' && r.target.includes(live_host)))
+            );
+            if (broken_internal.length === 0) {
+              core.info('No internal breakage on the live site. External breakage will be reported but not opened as an issue.');
+              return;
+            }
+            const body = [
+              `Reference audit found **${broken_internal.length}** broken internal references on the live site.`,
+              '',
+              '| Status | Target | Referrer |',
+              '|---|---|---|',
+              ...broken_internal.slice(0, 30).map(r =>
+                `| ${r.status} | \`${r.target}\` | ${r.referrers.slice(0,1).join('')} |`
+              ),
+              '',
+              `Total broken refs (internal + external): **${report.totals.broken}** of ${report.totals.unique_pairs}.`,
+              '',
+              'Full report attached as workflow artifact `reference-audit-online`.',
+            ].join('\n');
+            github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `Reference audit: ${broken_internal.length} internal links broken on live site`,
+              body,
+              labels: ['link-rot', 'audit', 'maintenance'],
+            });

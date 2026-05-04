@@ -1109,23 +1109,28 @@ def about_page() -> str:
 
 
 def audit_team_page() -> str:
+    # Tuple: (num, display name, description, audit-report slug, dispatch-prompt filename slug).
+    # The dispatch-prompt slug must match the actual file in .claude/audit-team/ and
+    # prompts/audit-team/ — DO NOT regenerate it from `name` via slugify(); the audit
+    # report slug and the dispatch slug have intentionally diverged for several
+    # specialists. Verified via: ls .claude/audit-team/.
     specialists = [
-        ("01", "Reference Benchmarker", "Score the audit site vs the padel-market-analysis reference dimension-by-dimension; identify copyable patterns and structural advantages.", "01_reference_benchmark"),
-        ("02", "Information Architect", "Audit nav, hierarchy, breadcrumbs, internal-link graph, and scent of information across all rendered pages.", "02_information_architecture"),
-        ("03", "Content Voice Editor", "Plain English, anti-jargon, third-person professional, Flesch-Kincaid grade ≤ 10. No marketing badges, no hedging fluff.", "03_voice_edit"),
-        ("04", "Citation / Provenance", "Every numeric claim and named entity traceable to a source. Russian / Uzbek / Kyrgyz share ≥ 30%. Dead-link health.", "04_citations"),
-        ("05", "GEO / AIO / AEO / LLMO", "Maximise discoverability for ChatGPT Search, Claude, Perplexity, Gemini, AI Overviews. llms.txt, JSON-LD @graph, FAQPage, HowTo, Dataset schemas.", "05_geo_aio_aeo_llmo"),
-        ("06", "Visual / Typography", "Beautiful, calm, scannable typography. Fluid type scale, 60–80ch line length, WCAG AA contrast, whitespace rhythm.", "06_visual_typography"),
-        ("07", "Mobile-First QA", "Flawless on a 320 px iPhone SE. Tap targets ≥ 44 px (WCAG 2.5.5), no horizontal scroll, hamburger nav, card layout for narrow viewports.", "07_mobile"),
-        ("08", "Accessibility (WCAG 2.2 AA)", "Skip-link, focus-visible, scope=col, lang attribution, semantic HTML5. Screen-reader-friendly + keyboard-only parity.", "08_accessibility"),
-        ("09", "Performance Engineer", "Core Web Vitals green: LCP < 1.5 s, FCP < 0.4 s, CLS < 0.05, INP < 100 ms. Lighthouse Performance ≥ 97.", "09_performance"),
-        ("10", "HTML Code Quality", "Semantic HTML5, W3C-validating, proper landmark structure. thead / tbody / scope=col, abbr, time, cite, figure.", "10_html_quality"),
-        ("11", "CSS Architect", "Custom properties, fluid clamp() type, logical properties, prefers-color-scheme dark mode, prefers-reduced-motion, complete print stylesheet.", "11_css"),
-        ("12", "Data Visualization", "Charts that justify their existence. Sortable tables ≥ 10 rows. Inline SVG. No chartjunk.", "12_dataviz"),
-        ("13", "Trust & Brand", "Establish trust at first scroll. Distinguish from generic SEO content farms and Big-4 boilerplate. Author surface, license badge, methodology openness, ethics statement.", "13_trust_brand"),
-        ("14", "Conversion / CTA", "Every page has ONE primary action (≤ 2 secondary). Persona-specific routing. Cite-this-research widget. Privacy-respecting share row.", "14_conversion"),
-        ("15", "Internationalization", "Cyrillic content renders correctly, is searchable, and screen-reader-friendly with proper lang= attribution. Hreflang for any /ru/ mirror pages.", "15_i18n"),
-        ("16", "Dev-Ex / Reproducibility", "Anyone can clone the repo and reproduce or extend. README clarity, mermaid architecture, CI badges, CONTRIBUTING, issue templates, citation file.", "16_devex"),
+        ("01", "Reference Benchmarker", "Score the audit site vs the padel-market-analysis reference dimension-by-dimension; identify copyable patterns and structural advantages.", "01_reference_benchmark", "01_reference_benchmark"),
+        ("02", "Information Architect", "Audit nav, hierarchy, breadcrumbs, internal-link graph, and scent of information across all rendered pages.", "02_information_architecture", "02_information_architect"),
+        ("03", "Content Voice Editor", "Plain English, anti-jargon, third-person professional, Flesch-Kincaid grade ≤ 10. No marketing badges, no hedging fluff.", "03_voice_edit", "03_content_voice"),
+        ("04", "Citation / Provenance", "Every numeric claim and named entity traceable to a source. Russian / Uzbek / Kyrgyz share ≥ 30%. Dead-link health.", "04_citations", "04_citation_provenance"),
+        ("05", "GEO / AIO / AEO / LLMO", "Maximise discoverability for ChatGPT Search, Claude, Perplexity, Gemini, AI Overviews. llms.txt, JSON-LD @graph, FAQPage, HowTo, Dataset schemas.", "05_geo_aio_aeo_llmo", "05_geo_aio_aeo_llmo"),
+        ("06", "Visual / Typography", "Beautiful, calm, scannable typography. Fluid type scale, 60–80ch line length, WCAG AA contrast, whitespace rhythm.", "06_visual_typography", "06_visual_typography"),
+        ("07", "Mobile-First QA", "Flawless on a 320 px iPhone SE. Tap targets ≥ 44 px (WCAG 2.5.5), no horizontal scroll, hamburger nav, card layout for narrow viewports.", "07_mobile", "07_mobile_first_qa"),
+        ("08", "Accessibility (WCAG 2.2 AA)", "Skip-link, focus-visible, scope=col, lang attribution, semantic HTML5. Screen-reader-friendly + keyboard-only parity.", "08_accessibility", "08_accessibility_wcag_aa"),
+        ("09", "Performance Engineer", "Core Web Vitals green: LCP < 1.5 s, FCP < 0.4 s, CLS < 0.05, INP < 100 ms. Lighthouse Performance ≥ 97.", "09_performance", "09_performance"),
+        ("10", "HTML Code Quality", "Semantic HTML5, W3C-validating, proper landmark structure. thead / tbody / scope=col, abbr, time, cite, figure.", "10_html_quality", "10_html_code_quality"),
+        ("11", "CSS Architect", "Custom properties, fluid clamp() type, logical properties, prefers-color-scheme dark mode, prefers-reduced-motion, complete print stylesheet.", "11_css", "11_css_architect"),
+        ("12", "Data Visualization", "Charts that justify their existence. Sortable tables ≥ 10 rows. Inline SVG. No chartjunk.", "12_dataviz", "12_data_visualization"),
+        ("13", "Trust & Brand", "Establish trust at first scroll. Distinguish from generic SEO content farms and Big-4 boilerplate. Author surface, license badge, methodology openness, ethics statement.", "13_trust_brand", "13_trust_brand"),
+        ("14", "Conversion / CTA", "Every page has ONE primary action (≤ 2 secondary). Persona-specific routing. Cite-this-research widget. Privacy-respecting share row.", "14_conversion", "14_conversion_cta"),
+        ("15", "Internationalization", "Cyrillic content renders correctly, is searchable, and screen-reader-friendly with proper lang= attribution. Hreflang for any /ru/ mirror pages.", "15_i18n", "15_internationalization"),
+        ("16", "Dev-Ex / Reproducibility", "Anyone can clone the repo and reproduce or extend. README clarity, mermaid architecture, CI badges, CONTRIBUTING, issue templates, citation file.", "16_devex", "16_devex_reproducibility"),
     ]
     cards_html = "\n".join(
         f'''<div class="persona" role="listitem">
@@ -1133,11 +1138,11 @@ def audit_team_page() -> str:
             <p class="meta">Specialist mandate</p>
             <p>{escape(desc)}</p>
             <p>
-              <a href="https://github.com/avaluev/ca-b2g-research/blob/main/.claude/audit-team/{escape(num)}_{slugify(name).replace("-", "_")}.md">Dispatch prompt</a>
+              <a href="https://github.com/avaluev/ca-b2g-research/blob/main/.claude/audit-team/{escape(prompt_slug)}.md">Dispatch prompt</a>
               · <a href="https://github.com/avaluev/ca-b2g-research/blob/main/state/audit/team/{escape(slug)}.md">Audit report</a>
             </p>
           </div>'''
-        for num, name, desc, slug in specialists
+        for num, name, desc, slug, prompt_slug in specialists
     )
 
     body = f"""<h1>Auditor AI Team</h1>

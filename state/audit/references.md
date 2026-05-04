@@ -1,0 +1,3420 @@
+# Reference Audit
+
+Site base: `https://avaluev.github.io/ca-b2g-research`
+
+- Total references: **11950**
+- Unique (kind, target) pairs: **1178**
+- OK: **680**
+- Broken: **498**
+
+## Broken references
+
+### file (8)
+
+- **[404]** `outputs/site/decrees/index.html` — missing on disk: outputs/site/decrees/index.html
+    - referenced by `state/audit/team/02_information_architecture.md:136`
+    - sample: `Add `outputs/site/decrees/index.html` with a 50-word summary, count of UZ vs KG decrees, and two prominent cards linking`
+- **[404]** `outputs/site/search/index.html` — missing on disk: outputs/site/search/index.html
+    - referenced by `state/audit/team/02_information_architecture.md:167`
+    - sample: `Pagefind (https://pagefind.app) runs as a post-build step: `npx pagefind --site outputs/site`. It indexes all HTML, adds`
+- **[404]** `state/decrees/uz/output.json` — missing on disk: state/decrees/uz/output.json
+    - referenced by `state/audit/team/16_devex.md:364`
+    - sample: `**Record ID or field path** (e.g. `state/decrees/uz/output.json > decrees[0].decree_number`):`
+- **[404]** `state/external/README.md` — missing on disk: state/external/README.md
+    - referenced by `state/audit/team/16_devex.md:37`
+    - referenced by `state/audit/team/16_devex.md:519`
+    - sample: `3. **`state/external/` is unexplained** — the directory holds OpenRouter evidence cards (JSON blobs per claim); this pur`
+- **[404]** `state/initiatives/convergent_initiatives.md` — missing on disk: state/initiatives/convergent_initiatives.md
+    - referenced by `.claude/agents/initiative-synthesizer.md:149`
+    - referenced by `.claude/agents/initiative-synthesizer.md:35`
+    - referenced by `prompts/pipeline/08-initiative-synthesizer.md:149`
+    - referenced by `prompts/pipeline/08-initiative-synthesizer.md:35`
+    - sample: `- `state/initiatives/convergent_initiatives.md` — initiatives scoring ≥ 7 on 4+ axes (the strategic prize)`
+- **[404]** `state/initiatives/master_index.md` — missing on disk: state/initiatives/master_index.md
+    - referenced by `.claude/agents/initiative-synthesizer.md:148`
+    - referenced by `.claude/agents/initiative-synthesizer.md:34`
+    - referenced by `prompts/pipeline/08-initiative-synthesizer.md:148`
+    - referenced by `prompts/pipeline/08-initiative-synthesizer.md:34`
+    - sample: `- `state/initiatives/master_index.md` — sortable index by sector, country, scoring axis`
+- **[404]** `state/initiatives/output.json` — missing on disk: state/initiatives/output.json
+    - referenced by `state/audit/team/01_reference_benchmark.md:115`
+    - sample: `- **P2-A**: Wrap all schema field names and file paths in monospace within prose (e.g., `verification_status`, `state/in`
+- **[404]** `state/initiatives/synthesis_notes.md` — missing on disk: state/initiatives/synthesis_notes.md
+    - referenced by `.claude/agents/initiative-synthesizer.md:150`
+    - referenced by `.claude/agents/initiative-synthesizer.md:36`
+    - referenced by `prompts/pipeline/08-initiative-synthesizer.md:150`
+    - referenced by `prompts/pipeline/08-initiative-synthesizer.md:36`
+    - sample: `- `state/initiatives/synthesis_notes.md` — your reasoning trace, contradictions surfaced, gaps identified`
+
+### url (490)
+
+- **[0]** `https://(www\.|[a-z` — malformed URL: Invalid IPv6 URL
+    - referenced by `state/audit/references.json#$.broken[8].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[8].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[8].target`
+    - referenced by `state/blueprint/blueprint.md:327`
+    - sample: `**Mitigation.** CLAUDE.md rule: no fabrication. Every `linkedin_url` field is either empirically verified by visiting th`
+- **[0]** `https://agro.uz` — <urlopen error timed out>
+    - referenced by `outputs/obsidian/Institutions/uz-minselxoz.md:36`
+    - referenced by `outputs/obsidian/People/uz-minselhhoz-minister.md:42`
+    - referenced by `state/audit/link_report.json#$.results[111].final_url`
+    - referenced by `state/audit/link_report.json#$.results[111].url`
+    - referenced by `state/audit/link_report.json#$.results[194].final_url`
+    - sample: `- [Ministry of Agriculture of Uzbekistan — Official Website](https://agro.uz) (uz-latn)`
+- **[0]** `https://agro.uz/` — <urlopen error timed out>
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-028.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-030.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-031.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-034.md:29`
+    - referenced by `state/audit/references.json#$.broken[10].samples[0]`
+    - sample: `**Evidence**: https://agro.uz/`
+- **[0]** `https://akfa.uz` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f
+    - referenced by `state/audit/link_report.json#$.results[286].final_url`
+    - referenced by `state/audit/link_report.json#$.results[286].url`
+    - referenced by `state/audit/references.json#$.broken[11].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[11].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[11].samples[2]`
+    - sample: `https://akfa.uz`
+- **[0]** `https://albert.etalab.studio/` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/link_report.json#$.results[525].final_url`
+    - referenced by `state/audit/link_report.json#$.results[525].url`
+    - referenced by `state/audit/references.json#$.broken[12].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[12].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[12].samples[2]`
+    - sample: `https://albert.etalab.studio/`
+- **[0]** `https://antimon.uz` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.
+    - referenced by `outputs/obsidian/People/uz-antimonopoly-head.md:42`
+    - referenced by `state/audit/link_report.json#$.results[287].final_url`
+    - referenced by `state/audit/link_report.json#$.results[287].url`
+    - referenced by `state/audit/references.json#$.broken[13].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[13].samples[2]`
+    - sample: `- 2024-01-01 — Digital market regulation announcement: Announced AI-assisted market monitoring system; digital platform `
+- **[0]** `https://antimonopoly.uz` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `outputs/obsidian/Institutions/uz-antimonopoly.md:35`
+    - referenced by `state/audit/link_report.json#$.results[113].final_url`
+    - referenced by `state/audit/link_report.json#$.results[113].url`
+    - referenced by `state/audit/link_report.json#$.results[197].final_url`
+    - referenced by `state/audit/link_report.json#$.results[197].url`
+    - sample: `- [Anti-Monopoly Committee of Uzbekistan — Official Website](https://antimonopoly.uz) (ru)`
+- **[0]** `https://astanadif.com` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `outputs/obsidian/People/kg-presidential-digital-dept-dep.md:43`
+    - referenced by `outputs/obsidian/People/kg-talant-sultanov-former.md:45`
+    - referenced by `state/audit/link_report.json#$.results[289].final_url`
+    - referenced by `state/audit/link_report.json#$.results[289].url`
+    - referenced by `state/audit/references.json#$.broken[15].samples[2]`
+    - sample: `- 2025-06-01 — Astana Digital Forum panel: Presented KG National AI Strategy draft; emphasized sovereign AI infrastructu`
+- **[0]** `https://boesl.gov.bd/` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.
+    - referenced by `state/audit/link_report.json#$.results[531].final_url`
+    - referenced by `state/audit/link_report.json#$.results[531].url`
+    - referenced by `state/audit/references.json#$.broken[17].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[17].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[17].samples[2]`
+    - sample: `https://boesl.gov.bd/`
+- **[0]** `https://cbd.m` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/references.json#$.broken[18].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[18].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[18].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[18].target`
+    - referenced by `state/audit/references.json#$.broken[193].samples[2]`
+    - sample: `https://cbd.m`
+- **[0]** `https://cbd.minj` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/references.json#$.broken[184].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[19].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[19].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[19].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[19].target`
+    - sample: `https://cbd.minj`
+- **[0]** `https://city-brain.alibabacloud.com/` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/link_report.json#$.results[534].final_url`
+    - referenced by `state/audit/link_report.json#$.results[534].url`
+    - referenced by `state/audit/references.json#$.broken[20].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[20].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[20].samples[2]`
+    - sample: `https://city-brain.alibabacloud.com/`
+- **[0]** `https://cowin.gov.in/` — Remote end closed connection without response
+    - referenced by `state/audit/link_report.json#$.results[536].final_url`
+    - referenced by `state/audit/link_report.json#$.results[536].url`
+    - referenced by `state/audit/references.json#$.broken[21].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[21].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[21].samples[2]`
+    - sample: `https://cowin.gov.in/`
+- **[0]** `https://customs.gov.kg` — <urlopen error _ssl.c:990: The handshake operation timed out>
+    - referenced by `outputs/obsidian/Institutions/kg-gts.md:36`
+    - referenced by `state/audit/link_report.json#$.results[116].url`
+    - referenced by `state/audit/link_report.json#$.results[202].final_url`
+    - referenced by `state/audit/link_report.json#$.results[202].url`
+    - referenced by `state/audit/references.json#$.broken[22].samples[0]`
+    - sample: `- [State Customs Service of Kyrgyzstan](https://customs.gov.kg) (ru)`
+- **[0]** `https://davlatxizmatlari.uz` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `outputs/obsidian/Institutions/uz-public-services-agency.md:37`
+    - referenced by `outputs/obsidian/People/uz-epgu-product-head.md:42`
+    - referenced by `state/audit/link_report.json#$.results[118].final_url`
+    - referenced by `state/audit/link_report.json#$.results[118].url`
+    - referenced by `state/audit/link_report.json#$.results[204].final_url`
+    - sample: `- [Agency for Public Services of Uzbekistan — Official Website](https://davlatxizmatlari.uz) (uz-latn)`
+- **[0]** `https://digi` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/references.json#$.broken[25].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[25].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[25].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[25].target`
+    - referenced by `state/audit/references.json#$.broken[324].samples[0]`
+    - sample: `https://digi`
+- **[0]** `https://digital.gov.kz/en/pages/digital-agri` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/link_report.json#$.results[540].final_url`
+    - referenced by `state/audit/link_report.json#$.results[540].url`
+    - referenced by `state/audit/references.json#$.broken[26].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[26].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[26].samples[2]`
+    - sample: `https://digital.gov.kz/en/pages/digital-agri`
+- **[0]** `https://digital.gov.kz/en/pages/egov_history` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/link_report.json#$.results[541].final_url`
+    - referenced by `state/audit/link_report.json#$.results[541].url`
+    - referenced by `state/audit/references.json#$.broken[27].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[27].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[27].samples[2]`
+    - sample: `https://digital.gov.kz/en/pages/egov_history`
+- **[0]** `https://digital.gov.kz/en/pages/national_ai_strategy` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/link_report.json#$.results[542].final_url`
+    - referenced by `state/audit/link_report.json#$.results[542].url`
+    - referenced by `state/audit/references.json#$.broken[28].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[28].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[28].samples[2]`
+    - sample: `https://digital.gov.kz/en/pages/national_ai_strategy`
+- **[0]** `https://digital.gov.kz/en/pages/national_ai_strategy_2024` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/link_report.json#$.results[543].final_url`
+    - referenced by `state/audit/link_report.json#$.results[543].url`
+    - referenced by `state/audit/references.json#$.broken[29].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[29].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[29].samples[2]`
+    - sample: `https://digital.gov.kz/en/pages/national_ai_strategy_2024`
+- **[0]** `https://digital.gov.kz/en/pages/smart-city` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/link_report.json#$.results[544].final_url`
+    - referenced by `state/audit/link_report.json#$.results[544].url`
+    - referenced by `state/audit/references.json#$.broken[30].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[30].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[30].samples[2]`
+    - sample: `https://digital.gov.kz/en/pages/smart-city`
+- **[0]** `https://digital.gov.ru/en/activity/directions/854/` — <urlopen error timed out>
+    - referenced by `state/audit/link_report.json#$.results[545].final_url`
+    - referenced by `state/audit/link_report.json#$.results[545].url`
+    - referenced by `state/audit/references.json#$.broken[31].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[31].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[31].samples[2]`
+    - sample: `https://digital.gov.ru/en/activity/directions/854/`
+- **[0]** `https://digital.gov.ru/en/events/45789/` — <urlopen error timed out>
+    - referenced by `state/audit/link_report.json#$.results[546].final_url`
+    - referenced by `state/audit/link_report.json#$.results[546].url`
+    - referenced by `state/audit/references.json#$.broken[32].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[32].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[32].samples[2]`
+    - sample: `https://digital.gov.ru/en/events/45789/`
+- **[0]** `https://dtm.uz/` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-070.md:29`
+    - referenced by `state/audit/references.json#$.broken[33].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[33].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[33].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[33].target`
+    - sample: `**Evidence**: https://dtm.uz/`
+- **[0]** `https://e-albania.al/` — <urlopen error [Errno 54] Connection reset by peer>
+    - referenced by `state/audit/link_report.json#$.results[550].final_url`
+    - referenced by `state/audit/link_report.json#$.results[550].url`
+    - referenced by `state/audit/references.json#$.broken[34].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[34].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[34].samples[2]`
+    - sample: `https://e-albania.al/`
+- **[0]** `https://e.visa.gov.uz/` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/link_report.json#$.results[559].final_url`
+    - referenced by `state/audit/link_report.json#$.results[559].url`
+    - referenced by `state/audit/references.json#$.broken[35].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[35].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[35].samples[2]`
+    - sample: `https://e.visa.gov.uz/`
+- **[0]** `https://eabr.org` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.
+    - referenced by `outputs/obsidian/People/kg-tigran-sargsyan.md:43`
+    - referenced by `state/audit/link_report.json#$.results[295].final_url`
+    - referenced by `state/audit/link_report.json#$.results[295].url`
+    - referenced by `state/audit/references.json#$.broken[36].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[36].samples[2]`
+    - sample: `- 2024-01-01 — EDB digital economy forum: Committed EDB to digital economy co-financing across EAEU; announced $200M dig`
+- **[0]** `https://eabr.org/en/about/facts-and-f` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.
+    - referenced by `state/audit/references.json#$.broken[37].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[37].target`
+    - sample: `https://eabr.org/en/about/facts-and-f`
+- **[0]** `https://eabr.org/en/about/facts-and-figures/` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.
+    - referenced by `outputs/obsidian/Donors/efsd-kg-stabilization.md:30`
+    - referenced by `state/audit/link_report.json#$.results[404].final_url`
+    - referenced by `state/audit/link_report.json#$.results[404].url`
+    - referenced by `state/audit/references.json#$.broken[38].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[38].samples[1]`
+    - sample: `- [Eurasian Development Bank — Facts and Figures (EFSD managed by EDB)](https://eabr.org/en/about/facts-and-figures/)`
+- **[0]** `https://eabr.org/en/p` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.
+    - referenced by `state/audit/references.json#$.broken[39].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[39].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[39].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[39].target`
+    - referenced by `state/audit/references.json#$.broken[41].samples[0]`
+    - sample: `https://eabr.org/en/p`
+- **[0]** `https://eabr.org/en/press/news/the-edb-fund-for-digital-initiatives-expands-cooperation-with-the-republic-of-` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.
+    - referenced by `state/audit/references.json#$.broken[40].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[40].target`
+    - sample: `https://eabr.org/en/press/news/the-edb-fund-for-digital-initiatives-expands-cooperation-with-the-republic-of-`
+- **[0]** `https://eabr.org/en/press/news/the-edb-fund-for-digital-initiatives-expands-cooperation-with-the-republic-of-uzbekistan-in-the-fiel/` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.
+    - referenced by `outputs/obsidian/Donors/edb-both-digital-initiatives.md:30`
+    - referenced by `state/audit/link_report.json#$.results[405].final_url`
+    - referenced by `state/audit/link_report.json#$.results[405].url`
+    - referenced by `state/audit/references.json#$.broken[41].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[41].samples[2]`
+    - sample: `- [EDB Fund for Digital Initiatives expands cooperation with Uzbekistan in digital transformation](https://eabr.org/en/p`
+- **[0]** `https://enbek.kz/` — <urlopen error [Errno 54] Connection reset by peer>
+    - referenced by `state/audit/link_report.json#$.results[565].final_url`
+    - referenced by `state/audit/link_report.json#$.results[565].url`
+    - referenced by `state/audit/references.json#$.broken[42].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[42].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[42].samples[2]`
+    - sample: `https://enbek.kz/`
+- **[0]** `https://frd.uz` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f
+    - referenced by `outputs/obsidian/Institutions/uz-frr.md:36`
+    - referenced by `state/audit/link_report.json#$.results[125].final_url`
+    - referenced by `state/audit/link_report.json#$.results[125].url`
+    - referenced by `state/audit/link_report.json#$.results[211].final_url`
+    - referenced by `state/audit/link_report.json#$.results[211].url`
+    - sample: `- [Reconstruction and Development Fund of Uzbekistan](https://frd.uz) (ru)`
+- **[0]** `https://fund.gov.kg` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `outputs/obsidian/Institutions/kg-social-fund.md:36`
+    - referenced by `state/audit/link_report.json#$.results[127].final_url`
+    - referenced by `state/audit/link_report.json#$.results[127].url`
+    - referenced by `state/audit/link_report.json#$.results[213].final_url`
+    - referenced by `state/audit/link_report.json#$.results[213].url`
+    - sample: `- [Social Fund of Kyrgyzstan — Official Website](https://fund.gov.kg) (ru)`
+- **[0]** `https://fvv.uz` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f
+    - referenced by `outputs/obsidian/Institutions/uz-mincss.md:36`
+    - referenced by `state/audit/link_report.json#$.results[128].final_url`
+    - referenced by `state/audit/link_report.json#$.results[128].url`
+    - referenced by `state/audit/link_report.json#$.results[214].final_url`
+    - referenced by `state/audit/link_report.json#$.results[214].url`
+    - sample: `- [Ministry of Emergency Situations of Uzbekistan — Official Website](https://fvv.uz) (ru)`
+- **[0]** `https://fvv.uz/` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-090.md:29`
+    - referenced by `state/audit/references.json#$.broken[46].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[46].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[46].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[46].target`
+    - sample: `**Evidence**: https://fvv.uz/`
+- **[0]** `https://gazeta.uz` — The read operation timed out
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/uz/`
+    - referenced by `outputs/obsidian/Decrees/uz-resolution-2024-2025-gov-uz.md:35`
+    - referenced by `state/audit/link_report.json#$.results[45].url`
+    - referenced by `state/audit/references.json#$.ok[242].samples[0]`
+    - referenced by `state/audit/references.json#$.ok[242].samples[2]`
+    - sample: `https://gazeta.uz`
+- **[0]** `https://github.c` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/references.json#$.broken[47].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[47].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[47].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[47].target`
+    - referenced by `state/audit/references.json#$.ok[251].samples[0]`
+    - sample: `https://github.c`
+- **[0]** `https://gov.kg` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.
+    - referenced by `outputs/obsidian/Institutions/kg-antimonopoly.md:35`
+    - referenced by `outputs/obsidian/Institutions/kg-cabinet.md:38`
+    - referenced by `outputs/obsidian/People/diaspora-kg-nursultan-dzhaksybekov-insead.md:43`
+    - referenced by `outputs/obsidian/People/kg-adylbek-kasymaliev.md:42`
+    - referenced by `outputs/obsidian/People/kg-talant-sultanov-former.md:44`
+    - sample: `- [Anti-Monopoly Authority Kyrgyzstan — referenced in government portal](https://gov.kg) (ru)`
+- **[0]** `https://grs.gov.kg` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `outputs/obsidian/Institutions/kg-grs.md:36`
+    - referenced by `outputs/obsidian/People/kg-grs-head.md:42`
+    - referenced by `state/audit/link_report.json#$.results[132].final_url`
+    - referenced by `state/audit/link_report.json#$.results[132].url`
+    - referenced by `state/audit/link_report.json#$.results[219].final_url`
+    - sample: `- [State Registration Service of Kyrgyz Republic — Official Website](https://grs.gov.kg) (ru)`
+- **[0]** `https://grs.gov.kg/` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `outputs/obsidian/Solopreneur MVPs/kg-mvp-011.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/kg-mvp-024.md:29`
+    - referenced by `state/audit/references.json#$.broken[50].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[50].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[50].samples[2]`
+    - sample: `**Evidence**: https://grs.gov.kg/`
+- **[0]** `https://icta.uz` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `outputs/obsidian/People/uz-icta-head.md:42`
+    - referenced by `state/audit/link_report.json#$.results[305].final_url`
+    - referenced by `state/audit/link_report.json#$.results[305].url`
+    - referenced by `state/audit/references.json#$.broken[51].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[51].samples[2]`
+    - sample: `- 2024-01-01 — 5G spectrum allocation announcement: Announced 5G pilot spectrum allocation for Tashkent; launched AI rad`
+- **[0]** `https://icwc-aral.uz/` — <urlopen error [Errno 61] Connection refused>
+    - referenced by `state/audit/link_report.json#$.results[574].final_url`
+    - referenced by `state/audit/link_report.json#$.results[574].url`
+    - referenced by `state/audit/references.json#$.broken[52].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[52].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[52].samples[2]`
+    - sample: `https://icwc-aral.uz/`
+- **[0]** `https://iiv.uz` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `outputs/obsidian/Institutions/uz-mvd.md:38`
+    - referenced by `outputs/obsidian/People/uz-pulat-bobojonov.md:42`
+    - referenced by `state/audit/link_report.json#$.results[134].final_url`
+    - referenced by `state/audit/link_report.json#$.results[134].url`
+    - referenced by `state/audit/link_report.json#$.results[221].final_url`
+    - sample: `- [Ministry of Internal Affairs of Uzbekistan — Official Website](https://iiv.uz) (ru)`
+- **[0]** `https://jica.go.jp` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/link_report.json#$.results[136].final_url`
+    - referenced by `state/audit/link_report.json#$.results[136].url`
+    - referenced by `state/audit/references.json#$.broken[56].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[56].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[56].samples[2]`
+    - sample: `https://jica.go.jp`
+- **[0]** `https://jica.go.jp/uzbekistan` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `outputs/obsidian/Institutions/uz-jica-piu.md:36`
+    - referenced by `state/audit/link_report.json#$.results[223].final_url`
+    - referenced by `state/audit/link_report.json#$.results[223].url`
+    - referenced by `state/audit/references.json#$.broken[57].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[57].samples[1]`
+    - sample: `- [JICA Uzbekistan Programs](https://jica.go.jp/uzbekistan) (en)`
+- **[0]** `https://kazvod.gov.kz/` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/link_report.json#$.results[579].final_url`
+    - referenced by `state/audit/link_report.json#$.results[579].url`
+    - referenced by `state/audit/references.json#$.broken[58].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[58].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[58].samples[2]`
+    - sample: `https://kazvod.gov.kz/`
+- **[0]** `https://koica.go.kr` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.
+    - referenced by `outputs/obsidian/Institutions/kg-koica-piu.md:36`
+    - referenced by `outputs/obsidian/Institutions/uz-koica-piu.md:36`
+    - referenced by `state/audit/link_report.json#$.results[139].final_url`
+    - referenced by `state/audit/link_report.json#$.results[139].url`
+    - referenced by `state/audit/link_report.json#$.results[227].final_url`
+    - sample: `- [KOICA Kyrgyzstan Digital Governance Program](https://koica.go.kr) (en)`
+- **[0]** `https://l` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/references.json#$.broken[60].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[60].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[60].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[60].target`
+    - referenced by `state/audit/references.json#$.ok[387].samples[1]`
+    - sample: `https://l`
+- **[0]** `https://le` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/references.json#$.broken[61].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[61].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[61].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[61].target`
+    - referenced by `state/audit/references.json#$.ok[399].samples[1]`
+    - sample: `https://le`
+- **[0]** `https://lex` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/references.json#$.broken[62].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[62].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[62].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[62].target`
+    - referenced by `state/audit/references.json#$.ok[389].samples[1]`
+    - sample: `https://lex`
+- **[0]** `https://lex.uz/ru/docs?q=ПП-{number` — verifier crashed: 'ascii' codec can't encode characters in position 16-17: ordinal not in range(128)
+    - referenced by `state/audit/references.json#$.broken[63].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[63].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[63].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[63].target`
+    - referenced by `state/blueprint/search_strategies.md:154`
+    - sample: `https://lex.uz/ru/docs?q=ПП-{number}`
+- **[0]** `https://lex.uz/ru/docs?q=УП-{number` — verifier crashed: 'ascii' codec can't encode characters in position 16-17: ordinal not in range(128)
+    - referenced by `state/audit/references.json#$.broken[64].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[64].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[64].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[64].target`
+    - referenced by `state/blueprint/search_strategies.md:155`
+    - sample: `https://lex.uz/ru/docs?q=УП-{number}`
+- **[0]** `https://med.kg/` — [SSL: SSLV3_ALERT_UNEXPECTED_MESSAGE] ssl/tls alert unexpected message (_ssl.c:2578)
+    - referenced by `outputs/obsidian/Solopreneur MVPs/kg-mvp-037.md:29`
+    - referenced by `state/audit/references.json#$.broken[65].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[65].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[65].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[65].target`
+    - sample: `**Evidence**: https://med.kg/`
+- **[0]** `https://mektep.kg/` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.
+    - referenced by `outputs/obsidian/Solopreneur MVPs/kg-mvp-066.md:29`
+    - referenced by `state/audit/references.json#$.broken[66].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[66].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[66].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[66].target`
+    - sample: `**Evidence**: https://mektep.kg/`
+- **[0]** `https://mes.gov.kg/` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1007)>
+    - referenced by `outputs/obsidian/Solopreneur MVPs/kg-mvp-036.md:29`
+    - referenced by `state/audit/references.json#$.broken[67].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[67].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[67].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[67].target`
+    - sample: `**Evidence**: https://mes.gov.kg/`
+- **[0]** `https://mineco.gov.kg` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `outputs/obsidian/Institutions/kg-mineconomy.md:36`
+    - referenced by `outputs/obsidian/People/kg-mineco-head.md:42`
+    - referenced by `state/audit/link_report.json#$.results[144].final_url`
+    - referenced by `state/audit/link_report.json#$.results[144].url`
+    - referenced by `state/audit/link_report.json#$.results[236].final_url`
+    - sample: `- [Ministry of Economy and Commerce of Kyrgyz Republic](https://mineco.gov.kg) (ru)`
+- **[0]** `https://mineconomy.gov.uz` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `outputs/obsidian/Institutions/uz-moef.md:38`
+    - referenced by `outputs/obsidian/People/uz-jamshid-kuchkarov.md:43`
+    - referenced by `outputs/obsidian/People/uz-minfinance-digi-dept.md:42`
+    - referenced by `state/audit/link_report.json#$.results[145].final_url`
+    - referenced by `state/audit/link_report.json#$.results[145].url`
+    - sample: `- [Ministry of Economy and Finance of Uzbekistan — Official Website](https://mineconomy.gov.uz) (ru)`
+- **[0]** `https://minenergo.gov.kg` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.
+    - referenced by `outputs/obsidian/Institutions/kg-minenergy.md:36`
+    - referenced by `state/audit/link_report.json#$.results[146].final_url`
+    - referenced by `state/audit/link_report.json#$.results[146].url`
+    - referenced by `state/audit/link_report.json#$.results[238].final_url`
+    - referenced by `state/audit/link_report.json#$.results[238].url`
+    - sample: `- [Ministry of Energy of Kyrgyzstan](https://minenergo.gov.kg) (ru)`
+- **[0]** `https://minfin.kg` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.
+    - referenced by `outputs/obsidian/Institutions/kg-minfin.md:38`
+    - referenced by `outputs/obsidian/People/kg-almaz-baketaev.md:43`
+    - referenced by `state/audit/link_report.json#$.results[148].final_url`
+    - referenced by `state/audit/link_report.json#$.results[148].url`
+    - referenced by `state/audit/link_report.json#$.results[240].final_url`
+    - sample: `- [Ministry of Finance of Kyrgyz Republic — Official Website](https://minfin.kg) (ru)`
+- **[0]** `https://mininnovation.uz` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)>
+    - referenced by `outputs/obsidian/Institutions/uz-national-advanced-projects-agency.md:36`
+    - referenced by `state/audit/link_report.json#$.results[149].final_url`
+    - referenced by `state/audit/link_report.json#$.results[149].url`
+    - referenced by `state/audit/link_report.json#$.results[241].final_url`
+    - referenced by `state/audit/link_report.json#$.results[241].url`
+    - sample: `- [Innovation Agency of Uzbekistan — Official Website](https://mininnovation.uz) (ru)`
+- **[0]** `https://mininvest.uz` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `outputs/obsidian/Institutions/uz-miit.md:38`
+    - referenced by `outputs/obsidian/People/uz-laziz-kudratov.md:43`
+    - referenced by `state/audit/link_report.json#$.results[150].final_url`
+    - referenced by `state/audit/link_report.json#$.results[150].url`
+    - referenced by `state/audit/link_report.json#$.results[242].final_url`
+    - sample: `- [Ministry of Investments, Industry and Trade of Uzbekistan](https://mininvest.uz) (ru)`
+- **[0]** `https://minstroy.uz` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `outputs/obsidian/Institutions/uz-minconstruct.md:36`
+    - referenced by `state/audit/link_report.json#$.results[152].final_url`
+    - referenced by `state/audit/link_report.json#$.results[152].url`
+    - referenced by `state/audit/link_report.json#$.results[244].final_url`
+    - referenced by `state/audit/link_report.json#$.results[244].url`
+    - sample: `- [Ministry of Construction of Uzbekistan](https://minstroy.uz) (ru)`
+- **[0]** `https://mintour.gov.uz` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `outputs/obsidian/Institutions/uz-mintourism.md:36`
+    - referenced by `state/audit/link_report.json#$.results[153].final_url`
+    - referenced by `state/audit/link_report.json#$.results[153].url`
+    - referenced by `state/audit/link_report.json#$.results[245].final_url`
+    - referenced by `state/audit/link_report.json#$.results[245].url`
+    - sample: `- [Ministry of Tourism and Cultural Heritage of Uzbekistan](https://mintour.gov.uz) (uz-latn)`
+- **[0]** `https://mintrans.gov.kg` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `outputs/obsidian/Institutions/kg-mintransport.md:36`
+    - referenced by `state/audit/link_report.json#$.results[154].final_url`
+    - referenced by `state/audit/link_report.json#$.results[154].url`
+    - referenced by `state/audit/link_report.json#$.results[246].final_url`
+    - referenced by `state/audit/link_report.json#$.results[246].url`
+    - sample: `- [Ministry of Transport of Kyrgyz Republic](https://mintrans.gov.kg) (ru)`
+- **[0]** `https://mintrud.uz` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `outputs/obsidian/Institutions/uz-minsocprot.md:36`
+    - referenced by `state/audit/link_report.json#$.results[156].final_url`
+    - referenced by `state/audit/link_report.json#$.results[156].url`
+    - referenced by `state/audit/link_report.json#$.results[248].final_url`
+    - referenced by `state/audit/link_report.json#$.results[248].url`
+    - sample: `- [Ministry of Social Protection of Uzbekistan](https://mintrud.uz) (ru)`
+- **[0]** `https://minvoda.uz` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `outputs/obsidian/People/uz-minvoda-minister.md:42`
+    - referenced by `state/audit/link_report.json#$.results[318].final_url`
+    - referenced by `state/audit/link_report.json#$.results[318].url`
+    - referenced by `state/audit/references.json#$.broken[78].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[78].samples[2]`
+    - sample: `- 2023-01-01 — ADB Water Digital project launch: Named implementing agency head for $125M ADB water supply digitalizatio`
+- **[0]** `https://minzdrav.gov.kg` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `outputs/obsidian/Institutions/kg-minhealth.md:36`
+    - referenced by `outputs/obsidian/People/kg-minzdrav-head.md:43`
+    - referenced by `state/audit/link_report.json#$.results[157].final_url`
+    - referenced by `state/audit/link_report.json#$.results[157].url`
+    - referenced by `state/audit/link_report.json#$.results[249].final_url`
+    - sample: `- [Ministry of Health of Kyrgyz Republic — Official Website](https://minzdrav.gov.kg) (ru)`
+- **[0]** `https://moa.gov.kg` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `outputs/obsidian/Institutions/kg-minagri.md:36`
+    - referenced by `outputs/obsidian/People/kg-minago-head.md:42`
+    - referenced by `state/audit/link_report.json#$.results[160].final_url`
+    - referenced by `state/audit/link_report.json#$.results[160].url`
+    - referenced by `state/audit/link_report.json#$.results[252].final_url`
+    - sample: `- [Ministry of Agriculture of Kyrgyz Republic — Official Website](https://moa.gov.kg) (ru)`
+- **[0]** `https://nbki.uz` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `outputs/obsidian/People/uz-nbki-head.md:42`
+    - referenced by `state/audit/link_report.json#$.results[324].final_url`
+    - referenced by `state/audit/link_report.json#$.results[324].url`
+    - referenced by `state/audit/references.json#$.broken[81].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[81].samples[2]`
+    - sample: `- 2024-01-01 — NBKI digital platform modernization: Announced NBKI API integration with banking sector; AI credit scorin`
+- **[0]** `https://negu.uz` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f
+    - referenced by `outputs/obsidian/People/uz-negu-ceo.md:42`
+    - referenced by `state/audit/references.json#$.broken[82].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[82].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[82].target`
+    - referenced by `state/knowledge_graph.json#$.people[13].public_statements_ai_digital[0].url`
+    - sample: `- 2024-01-01 — ADB 52322-004 project launch: Named as implementing agency head for $125M ADB SCADA/grid digitalization p`
+- **[0]** `https://nhrc.uz` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)>
+    - referenced by `outputs/obsidian/Institutions/uz-national-human-rights-centre.md:35`
+    - referenced by `state/audit/link_report.json#$.results[164].final_url`
+    - referenced by `state/audit/link_report.json#$.results[164].url`
+    - referenced by `state/audit/link_report.json#$.results[256].final_url`
+    - referenced by `state/audit/link_report.json#$.results[256].url`
+    - sample: `- [National Human Rights Centre of Uzbekistan](https://nhrc.uz) (ru)`
+- **[0]** `https://osh.kg` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)>
+    - referenced by `outputs/obsidian/People/kg-osh-akimat-head.md:42`
+    - referenced by `state/audit/link_report.json#$.results[327].final_url`
+    - referenced by `state/audit/link_report.json#$.results[327].url`
+    - referenced by `state/audit/references.json#$.broken[84].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[84].samples[2]`
+    - sample: `- 2024-01-01 — Smart City Osh initiative announcement: Announced Smart City Osh pilot: AI traffic management, digital pu`
+- **[0]** `https://patent.gov.kg` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f
+    - referenced by `outputs/obsidian/Institutions/kg-kyrgyzpatent.md:36`
+    - referenced by `state/audit/link_report.json#$.results[165].final_url`
+    - referenced by `state/audit/link_report.json#$.results[165].url`
+    - referenced by `state/audit/link_report.json#$.results[257].final_url`
+    - referenced by `state/audit/link_report.json#$.results[257].url`
+    - sample: `- [Kyrgyzpatent — Official Website](https://patent.gov.kg) (ru)`
+- **[0]** `https://pd.uz` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1007)>
+    - referenced by `outputs/obsidian/Institutions/uz-data-protection.md:36`
+    - referenced by `state/audit/link_report.json#$.results[166].final_url`
+    - referenced by `state/audit/link_report.json#$.results[166].url`
+    - referenced by `state/audit/link_report.json#$.results[258].final_url`
+    - referenced by `state/audit/link_report.json#$.results[258].url`
+    - sample: `- [Personal Data Protection Authority of Uzbekistan](https://pd.uz) (ru)`
+- **[0]** `https://projects.w` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/references.json#$.broken[87].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[87].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[87].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[87].target`
+    - referenced by `state/audit/references.json#$.ok[446].samples[0]`
+    - sample: `https://projects.w`
+- **[0]** `https://projects.worldbank` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/references.json#$.broken[88].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[88].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[88].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[88].target`
+    - referenced by `state/audit/references.json#$.ok[441].samples[0]`
+    - sample: `https://projects.worldbank`
+- **[0]** `https://prokuror.gov.kg` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `outputs/obsidian/Institutions/kg-prosecutor.md:36`
+    - referenced by `state/audit/link_report.json#$.results[171].final_url`
+    - referenced by `state/audit/link_report.json#$.results[171].url`
+    - referenced by `state/audit/link_report.json#$.results[264].final_url`
+    - referenced by `state/audit/link_report.json#$.results[264].url`
+    - sample: `- [Prosecutor General's Office of Kyrgyz Republic](https://prokuror.gov.kg) (ru)`
+- **[0]** `https://ranking.e.gov.kz/en/` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/link_report.json#$.results[590].final_url`
+    - referenced by `state/audit/link_report.json#$.results[590].url`
+    - referenced by `state/audit/references.json#$.broken[90].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[90].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[90].samples[2]`
+    - sample: `https://ranking.e.gov.kz/en/`
+- **[0]** `https://robodebt.royalcommission.gov.au/publications/report` — The read operation timed out
+    - referenced by `state/audit/link_report.json#$.results[591].final_url`
+    - referenced by `state/audit/link_report.json#$.results[591].url`
+    - referenced by `state/audit/references.json#$.broken[91].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[91].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[91].samples[2]`
+    - sample: `https://robodebt.royalcommission.gov.au/publications/report`
+- **[0]** `https://sdaia.gov.sa/en/MediaCenter/DocLib/NationalAIStrategy.pdf` — <urlopen error timed out>
+    - referenced by `state/audit/link_report.json#$.results[592].final_url`
+    - referenced by `state/audit/link_report.json#$.results[592].url`
+    - referenced by `state/audit/references.json#$.broken[92].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[92].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[92].samples[2]`
+    - sample: `https://sdaia.gov.sa/en/MediaCenter/DocLib/NationalAIStrategy.pdf`
+- **[0]** `https://sentinel.esa.int/web/sentinel/home` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/link_report.json#$.results[593].final_url`
+    - referenced by `state/audit/link_report.json#$.results[593].url`
+    - referenced by `state/audit/references.json#$.broken[93].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[93].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[93].samples[2]`
+    - sample: `https://sentinel.esa.int/web/sentinel/home`
+- **[0]** `https://sentinel.esa.int/web/sentinel/missions/sentinel-5p` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/link_report.json#$.results[594].final_url`
+    - referenced by `state/audit/link_report.json#$.results[594].url`
+    - referenced by `state/audit/references.json#$.broken[94].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[94].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[94].samples[2]`
+    - sample: `https://sentinel.esa.int/web/sentinel/missions/sentinel-5p`
+- **[0]** `https://smartcity.astana.kz/en` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/link_report.json#$.results[596].final_url`
+    - referenced by `state/audit/link_report.json#$.results[596].url`
+    - referenced by `state/audit/references.json#$.broken[95].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[95].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[95].samples[2]`
+    - sample: `https://smartcity.astana.kz/en`
+- **[0]** `https://smartcity.go.kr/en/` — The read operation timed out
+    - referenced by `state/audit/link_report.json#$.results[597].url`
+    - referenced by `state/audit/references.json#$.broken[96].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[96].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[96].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[96].target`
+    - sample: `https://smartcity.go.kr/en/`
+- **[0]** `https://socfond.kg/` — <urlopen error [Errno 61] Connection refused>
+    - referenced by `outputs/obsidian/Solopreneur MVPs/kg-mvp-016.md:29`
+    - referenced by `state/audit/references.json#$.broken[97].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[97].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[97].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[97].target`
+    - sample: `**Evidence**: https://socfond.kg/`
+- **[0]** `https://space.uz` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `outputs/obsidian/Institutions/uz-space-agency.md:36`
+    - referenced by `state/audit/link_report.json#$.results[173].final_url`
+    - referenced by `state/audit/link_report.json#$.results[173].url`
+    - referenced by `state/audit/link_report.json#$.results[266].final_url`
+    - referenced by `state/audit/link_report.json#$.results[266].url`
+    - sample: `- [Uzbekistan Space Agency — Official Website](https://space.uz) (ru)`
+- **[0]** `https://stat.kg` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f
+    - referenced by `outputs/obsidian/Institutions/kg-national-statcom.md:36`
+    - referenced by `state/audit/link_report.json#$.results[175].final_url`
+    - referenced by `state/audit/link_report.json#$.results[175].url`
+    - referenced by `state/audit/link_report.json#$.results[268].final_url`
+    - referenced by `state/audit/link_report.json#$.results[268].url`
+    - sample: `- [National Statistics Committee of Kyrgyzstan — Official Website](https://stat.kg) (ru)`
+- **[0]** `https://supreme.uz` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Hostname mismatch, certificate is not valid f
+    - referenced by `outputs/obsidian/Institutions/uz-supreme-court.md:39`
+    - referenced by `outputs/obsidian/People/uz-bahrom-ismoilov.md:42`
+    - referenced by `outputs/obsidian/People/uz-digitalcourt-proj-head.md:42`
+    - referenced by `state/audit/link_report.json#$.results[178].final_url`
+    - referenced by `state/audit/link_report.json#$.results[178].url`
+    - sample: `- [Supreme Court of Uzbekistan — Official Website](https://supreme.uz) (ru)`
+- **[0]** `https://tis.nhai.gov.in/` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1007)>
+    - referenced by `state/audit/link_report.json#$.results[599].final_url`
+    - referenced by `state/audit/link_report.json#$.results[599].url`
+    - referenced by `state/audit/references.json#$.broken[102].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[102].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[102].samples[2]`
+    - sample: `https://tis.nhai.gov.in/`
+- **[0]** `https://torelik.gov.kz/` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/link_report.json#$.results[600].final_url`
+    - referenced by `state/audit/link_report.json#$.results[600].url`
+    - referenced by `state/audit/references.json#$.broken[103].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[103].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[103].samples[2]`
+    - sample: `https://torelik.gov.kz/`
+- **[0]** `https://treasury.gov.uz` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `outputs/obsidian/Institutions/uz-treasury.md:35`
+    - referenced by `state/audit/link_report.json#$.results[179].final_url`
+    - referenced by `state/audit/link_report.json#$.results[179].url`
+    - referenced by `state/audit/link_report.json#$.results[272].final_url`
+    - referenced by `state/audit/link_report.json#$.results[272].url`
+    - sample: `- [Treasury of Uzbekistan — Official Website](https://treasury.gov.uz) (ru)`
+- **[0]** `https://uzautomotors.com` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.
+    - referenced by `outputs/obsidian/People/uz-uzauto-ceo.md:42`
+    - referenced by `state/audit/link_report.json#$.results[338].final_url`
+    - referenced by `state/audit/link_report.json#$.results[338].url`
+    - referenced by `state/audit/references.json#$.broken[105].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[105].samples[2]`
+    - sample: `- 2024-01-01 — Industrial AI pilot announcement: Announced factory AI quality control system pilot with Korean partners;`
+- **[0]** `https://uzposta.uz` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `outputs/obsidian/People/uz-uzposta-ceo.md:42`
+    - referenced by `state/audit/link_report.json#$.results[342].final_url`
+    - referenced by `state/audit/link_report.json#$.results[342].url`
+    - referenced by `state/audit/references.json#$.broken[106].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[106].samples[2]`
+    - sample: `- 2024-01-01 — Uzposta digital logistics announcement: Announced AI-assisted last-mile delivery optimization for e-comme`
+- **[0]** `https://uztrade.uz/` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self-signed certificate (_ssl.c:1007)>
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-032.md:29`
+    - referenced by `state/audit/references.json#$.broken[107].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[107].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[107].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[107].target`
+    - sample: `**Evidence**: https://uztrade.uz/`
+- **[0]** `https://vacancy.uz/` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-019.md:29`
+    - referenced by `state/audit/references.json#$.broken[108].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[108].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[108].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[108].target`
+    - sample: `**Evidence**: https://vacancy.uz/`
+- **[0]** `https://ww` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/references.json#$.broken[109].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[109].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[109].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[109].target`
+    - referenced by `state/audit/references.json#$.broken[502].samples[0]`
+    - sample: `https://ww`
+- **[0]** `https://www.a` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/references.json#$.broken[110].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[110].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[110].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[110].target`
+    - referenced by `state/audit/references.json#$.broken[238].samples[0]`
+    - sample: `https://www.a`
+- **[0]** `https://www.agromonitoring.kz/` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/link_report.json#$.results[606].final_url`
+    - referenced by `state/audit/link_report.json#$.results[606].url`
+    - referenced by `state/audit/references.json#$.broken[111].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[111].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[111].samples[2]`
+    - sample: `https://www.agromonitoring.kz/`
+- **[0]** `https://www.aral.kz/` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/link_report.json#$.results[608].final_url`
+    - referenced by `state/audit/link_report.json#$.results[608].url`
+    - referenced by `state/audit/references.json#$.broken[112].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[112].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[112].samples[2]`
+    - sample: `https://www.aral.kz/`
+- **[0]** `https://www.energo.gov.kg/` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/link_report.json#$.results[621].final_url`
+    - referenced by `state/audit/link_report.json#$.results[621].url`
+    - referenced by `state/audit/references.json#$.broken[113].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[113].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[113].samples[2]`
+    - sample: `https://www.energo.gov.kg/`
+- **[0]** `https://www.gazeta.uz/en/2025/05/22/world-bank/` — The read operation timed out
+    - referenced by `state/audit/link_report.json#$.results[481].final_url`
+    - referenced by `state/audit/link_report.json#$.results[481].url`
+    - referenced by `state/audit/references.json#$.broken[114].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[114].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[114].samples[2]`
+    - sample: `https://www.gazeta.uz/en/2025/05/22/world-bank/`
+- **[0]** `https://www.gazeta.uz/en/2025/08/23/courts/` — The read operation timed out
+    - referenced by `state/audit/link_report.json#$.results[482].final_url`
+    - referenced by `state/audit/link_report.json#$.results[482].url`
+    - referenced by `state/audit/references.json#$.broken[115].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[115].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[115].samples[2]`
+    - sample: `https://www.gazeta.uz/en/2025/08/23/courts/`
+- **[0]** `https://www.gazeta.uz/oz/` — The read operation timed out
+    - referenced by `state/audit/link_report.json#$.results[45].final_url`
+    - referenced by `state/audit/references.json#$.broken[116].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[116].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[116].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[116].target`
+    - sample: `https://www.gazeta.uz/oz/`
+- **[0]** `https://www.gazeta.uz/ru/2026/02/24/gov-procurement-uzb/` — The read operation timed out
+    - referenced by `state/audit/link_report.json#$.results[483].final_url`
+    - referenced by `state/audit/link_report.json#$.results[483].url`
+    - referenced by `state/audit/references.json#$.broken[117].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[117].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[117].samples[2]`
+    - sample: `https://www.gazeta.uz/ru/2026/02/24/gov-procurement-uzb/`
+- **[0]** `https://www.gazeta.uz/ru/list/economy/agriculture/` — The read operation timed out
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-026.md:29`
+    - referenced by `state/audit/references.json#$.broken[403].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[403].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[403].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[403].target`
+    - sample: `**Evidence**: https://www.gazeta.uz/ru/list/economy/agriculture/`
+- **[0]** `https://www.gazeta.uz/ru/list/health/` — The read operation timed out
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-036.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-046.md:29`
+    - referenced by `state/audit/references.json#$.broken[404].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[404].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[404].samples[2]`
+    - sample: `**Evidence**: https://www.gazeta.uz/ru/list/health/`
+- **[0]** `https://www.gazeta.uz/ru/list/society/` — The read operation timed out
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-016.md:29`
+    - referenced by `state/audit/references.json#$.broken[405].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[405].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[405].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[405].target`
+    - sample: `**Evidence**: https://www.gazeta.uz/ru/list/society/`
+- **[0]** `https://www.gef.int/project/10459` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/link_report.json#$.results[625].final_url`
+    - referenced by `state/audit/link_report.json#$.results[625].url`
+    - referenced by `state/audit/references.json#$.broken[118].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[118].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[118].samples[2]`
+    - sample: `https://www.gef.int/project/10459`
+- **[0]** `https://www.gov.kg` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.
+    - referenced by `state/audit/references.json#$.broken[119].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[119].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[119].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[119].target`
+    - referenced by `state/external/audit/9c731344851ef239.json#$.responses[1].answer`
+    - sample: `https://www.gov.kg`
+- **[0]** `https://www.gov.kg/ru/gov/s/374[/URL` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.
+    - referenced by `state/audit/references.json#$.broken[120].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[120].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[120].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[120].target`
+    - referenced by `state/external/audit/d288cc3d4a15a3da.json#$.responses[1].answer`
+    - sample: `https://www.gov.kg/ru/gov/s/374[/URL`
+- **[0]** `https://www.gov.kg/ru/page/ministry-of-health[/URL` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.
+    - referenced by `state/audit/references.json#$.broken[121].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[121].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[121].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[121].target`
+    - referenced by `state/external/audit/d288cc3d4a15a3da.json#$.responses[1].answer`
+    - sample: `https://www.gov.kg/ru/page/ministry-of-health[/URL`
+- **[0]** `https://www.gov.kr/portal/main` — verifier crashed: URL can't contain control characters. 'plus.gov.kr ' (found at least ' ')
+    - referenced by `state/audit/link_report.json#$.results[629].url`
+    - referenced by `state/audit/references.json#$.broken[122].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[122].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[122].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[122].target`
+    - sample: `https://www.gov.kr/portal/main`
+- **[0]** `https://www.havelsan.com.tr/en/products-and-solutions/smart-court-solutions` — <urlopen error [Errno 54] Connection reset by peer>
+    - referenced by `state/audit/link_report.json#$.results[636].final_url`
+    - referenced by `state/audit/link_report.json#$.results[636].url`
+    - referenced by `state/audit/references.json#$.broken[123].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[123].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[123].samples[2]`
+    - sample: `https://www.havelsan.com.tr/en/products-and-solutions/smart-court-solutions`
+- **[0]** `https://www.health.go.rw/fileadmin/user_upload/Babyl_Digital_Health_Rwanda.pdf` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/link_report.json#$.results[637].final_url`
+    - referenced by `state/audit/link_report.json#$.results[637].url`
+    - referenced by `state/audit/references.json#$.broken[124].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[124].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[124].samples[2]`
+    - sample: `https://www.health.go.rw/fileadmin/user_upload/Babyl_Digital_Health_Rwanda.pdf`
+- **[0]** `https://www.it-park.uz/` — Remote end closed connection without response
+    - referenced by `state/audit/link_report.json#$.results[135].final_url`
+    - referenced by `state/audit/link_report.json#$.results[222].final_url`
+    - referenced by `state/audit/link_report.json#$.results[308].final_url`
+    - referenced by `state/audit/references.json#$.broken[125].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[125].samples[1]`
+    - sample: `https://www.it-park.uz/`
+- **[0]** `https://www.koica.go.kr/sites/koica_en/country/asia/` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.
+    - referenced by `state/audit/link_report.json#$.results[649].final_url`
+    - referenced by `state/audit/link_report.json#$.results[649].url`
+    - referenced by `state/audit/references.json#$.broken[127].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[127].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[127].samples[2]`
+    - sample: `https://www.koica.go.kr/sites/koica_en/country/asia/`
+- **[0]** `https://www.koica.go.kr/sites/koica_en/country/asia/mongolia/index.do` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.
+    - referenced by `state/audit/link_report.json#$.results[650].final_url`
+    - referenced by `state/audit/link_report.json#$.results[650].url`
+    - referenced by `state/audit/references.json#$.broken[128].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[128].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[128].samples[2]`
+    - sample: `https://www.koica.go.kr/sites/koica_en/country/asia/mongolia/index.do`
+- **[0]** `https://www.koica.go.kr/sites/koica_en/index.do` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.
+    - referenced by `state/audit/link_report.json#$.results[651].final_url`
+    - referenced by `state/audit/link_report.json#$.results[651].url`
+    - referenced by `state/audit/references.json#$.broken[129].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[129].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[129].samples[2]`
+    - sample: `https://www.koica.go.kr/sites/koica_en/index.do`
+- **[0]** `https://www.kuipernet.com/images/bg.png` — The read operation timed out
+    - referenced by `state/audit/link_report.json#$.results[597].final_url`
+    - referenced by `state/audit/references.json#$.broken[130].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[130].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[130].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[130].target`
+    - sample: `https://www.kuipernet.com/images/bg.png`
+- **[0]** `https://www.linked` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/references.json#$.broken[131].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[131].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[131].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[131].target`
+    - referenced by `state/audit/references.json#$.broken[517].samples[0]`
+    - sample: `https://www.linked`
+- **[0]** `https://www.linkedi` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/references.json#$.broken[132].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[132].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[132].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[132].target`
+    - referenced by `state/audit/references.json#$.broken[501].samples[0]`
+    - sample: `https://www.linkedi`
+- **[0]** `https://www.miid.gov.kz/en/pages/mining-sector` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/link_report.json#$.results[659].final_url`
+    - referenced by `state/audit/link_report.json#$.results[659].url`
+    - referenced by `state/audit/references.json#$.broken[133].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[133].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[133].samples[2]`
+    - sample: `https://www.miid.gov.kz/en/pages/mining-sector`
+- **[0]** `https://www.minfin.kg/` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.
+    - referenced by `outputs/obsidian/Solopreneur MVPs/kg-mvp-010.md:29`
+    - referenced by `state/audit/references.json#$.broken[134].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[134].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[134].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[134].target`
+    - sample: `**Evidence**: https://www.minfin.kg/`
+- **[0]** `https://www.mohre.gov.ae/en/` — <urlopen error timed out>
+    - referenced by `state/audit/link_report.json#$.results[661].final_url`
+    - referenced by `state/audit/link_report.json#$.results[661].url`
+    - referenced by `state/audit/references.json#$.broken[135].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[135].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[135].samples[2]`
+    - sample: `https://www.mohre.gov.ae/en/`
+- **[0]** `https://www.mvd.kz/en/` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/link_report.json#$.results[662].final_url`
+    - referenced by `state/audit/link_report.json#$.results[662].url`
+    - referenced by `state/audit/references.json#$.broken[136].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[136].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[136].samples[2]`
+    - sample: `https://www.mvd.kz/en/`
+- **[0]** `https://www.mzsr.gov.kz/en` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/link_report.json#$.results[663].final_url`
+    - referenced by `state/audit/link_report.json#$.results[663].url`
+    - referenced by `state/audit/references.json#$.broken[137].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[137].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[137].samples[2]`
+    - sample: `https://www.mzsr.gov.kz/en`
+- **[0]** `https://www.m総務省.go.jp/en/` — verifier crashed: 'latin-1' codec can't encode characters in position 5-7: ordinal not in range(256)
+    - referenced by `state/audit/link_report.json#$.results[664].final_url`
+    - referenced by `state/audit/link_report.json#$.results[664].url`
+    - referenced by `state/audit/references.json#$.broken[138].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[138].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[138].samples[2]`
+    - sample: `https://www.m総務省.go.jp/en/`
+- **[0]** `https://www.sberspasibo.ru/sbertekh-blog/ai-gosuslugi` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.
+    - referenced by `state/audit/link_report.json#$.results[677].final_url`
+    - referenced by `state/audit/link_report.json#$.results[677].url`
+    - referenced by `state/audit/references.json#$.broken[139].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[139].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[139].samples[2]`
+    - sample: `https://www.sberspasibo.ru/sbertekh-blog/ai-gosuslugi`
+- **[0]** `https://www.smartrwanda.rw/` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/link_report.json#$.results[683].final_url`
+    - referenced by `state/audit/link_report.json#$.results[683].url`
+    - referenced by `state/audit/references.json#$.broken[140].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[140].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[140].samples[2]`
+    - sample: `https://www.smartrwanda.rw/`
+- **[0]** `https://www.tazabe` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/references.json#$.broken[141].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[141].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[141].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[141].target`
+    - referenced by `state/audit/references.json#$.ok[642].samples[0]`
+    - sample: `https://www.tazabe`
+- **[0]** `https://www.un` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/references.json#$.broken[143].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[143].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[143].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[143].target`
+    - referenced by `state/audit/references.json#$.broken[283].samples[0]`
+    - sample: `https://www.un`
+- **[0]** `https://www.undp.o` — <urlopen error [Errno 8] nodename nor servname provided, or not known>
+    - referenced by `state/audit/references.json#$.broken[144].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[144].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[144].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[144].target`
+    - referenced by `state/audit/references.json#$.broken[269].samples[0]`
+    - sample: `https://www.undp.o`
+- **[0]** `https://zakupki.gov.kg` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.
+    - referenced by `outputs/obsidian/Institutions/kg-procurement-dept.md:37`
+    - referenced by `outputs/obsidian/People/kg-goszakupki-head.md:42`
+    - referenced by `state/audit/link_report.json#$.results[188].final_url`
+    - referenced by `state/audit/link_report.json#$.results[188].url`
+    - referenced by `state/audit/link_report.json#$.results[281].final_url`
+    - sample: `- [Electronic Procurement Portal of Kyrgyz Republic — zakupki.gov.kg](https://zakupki.gov.kg) (ru)`
+- **[0]** `https://zakupki.gov.kg/` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.
+    - referenced by `outputs/obsidian/Solopreneur MVPs/kg-mvp-003.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/kg-mvp-008.md:29`
+    - referenced by `state/audit/references.json#$.broken[146].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[146].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[146].samples[2]`
+    - sample: `**Evidence**: https://zakupki.gov.kg/`
+- **[0]** `https://zakupki.okmot.kg/` — <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.
+    - referenced by `https://avaluev.github.io/ca-b2g-research/kyrgyzstan/`
+    - referenced by `https://avaluev.github.io/ca-b2g-research/procurement/`
+    - referenced by `outputs/obsidian/Tenders/kg-t-2026-003.md:27`
+    - referenced by `outputs/obsidian/Tenders/kg-t-2026-007.md:27`
+    - referenced by `outputs/obsidian/Tenders/kg-tf-2026-005.md:27`
+    - sample: `https://zakupki.okmot.kg/`
+- **[401]** `https://www.itu.int/en/ITU-D/Regional-Presence/CIS/Pages/News` 
+    - referenced by `state/audit/references.json#$.broken[148].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[148].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[148].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[148].target`
+    - referenced by `state/audit/references.json#$.ok[593].samples[0]`
+    - sample: `https://www.itu.int/en/ITU-D/Regional-Presence/CIS/Pages/News`
+- **[403]** `http://cbd.minjust.gov.kg/act/view/ru-ru/1` 
+    - referenced by `state/audit/references.json#$.broken[149].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[149].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[149].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[149].target`
+    - referenced by `state/audit/references.json#$.broken[152].samples[2]`
+    - sample: `http://cbd.minjust.gov.kg/act/view/ru-ru/1`
+- **[403]** `http://cbd.minjust.gov.kg/act/view/ru-ru/111125` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `outputs/obsidian/Decrees/kg-law-2015-072.md:34`
+    - referenced by `state/audit/link_report.json#$.results[0].url`
+    - referenced by `state/audit/references.json#$.broken[150].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[150].samples[1]`
+    - sample: `http://cbd.minjust.gov.kg/act/view/ru-ru/111125`
+- **[403]** `http://cbd.minjust.gov.kg/act/view/ru-ru/111634` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `outputs/obsidian/Decrees/kg-law-2017-127.md:34`
+    - referenced by `state/audit/link_report.json#$.results[1].url`
+    - referenced by `state/audit/references.json#$.broken[151].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[151].samples[1]`
+    - sample: `http://cbd.minjust.gov.kg/act/view/ru-ru/111634`
+- **[403]** `http://cbd.minjust.gov.kg/act/view/ru-ru/11736` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `outputs/obsidian/Decrees/kg-up-2018-201-tunduk-gp.md:35`
+    - referenced by `outputs/obsidian/Institutions/kg-gk-ict.md:36`
+    - referenced by `state/audit/link_report.json#$.results[189].url`
+    - referenced by `state/audit/link_report.json#$.results[2].url`
+    - sample: `http://cbd.minjust.gov.kg/act/view/ru-ru/11736`
+- **[403]** `http://cbd.minjust.gov.kg/act/view/ru-ru/14544` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `outputs/obsidian/Decrees/kg-cabinet-2019-340.md:35`
+    - referenced by `state/audit/link_report.json#$.results[3].url`
+    - referenced by `state/audit/references.json#$.broken[153].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[153].samples[2]`
+    - sample: `http://cbd.minjust.gov.kg/act/view/ru-ru/14544`
+- **[403]** `http://cbd.minjust.gov.kg/act/view/ru-ru/157967` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `outputs/obsidian/Decrees/kg-cabinet-2020-526-edms.md:35`
+    - referenced by `state/audit/link_report.json#$.results[4].url`
+    - referenced by `state/audit/references.json#$.broken[154].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[154].samples[2]`
+    - sample: `http://cbd.minjust.gov.kg/act/view/ru-ru/157967`
+- **[403]** `http://cbd.minjust.gov.kg/act/view/ru-ru/159060` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `outputs/obsidian/Decrees/kg-cabinet-2022-207-edoc.md:35`
+    - referenced by `state/audit/link_report.json#$.results[5].url`
+    - referenced by `state/audit/references.json#$.broken[155].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[155].samples[2]`
+    - sample: `http://cbd.minjust.gov.kg/act/view/ru-ru/159060`
+- **[403]** `http://cbd.minjust.gov.kg/act/view/ru-ru/159155` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `outputs/obsidian/Decrees/kg-cabinet-2022-245-tunduk.md:35`
+    - referenced by `state/audit/link_report.json#$.results[495].url`
+    - referenced by `state/audit/link_report.json#$.results[6].url`
+    - referenced by `state/audit/references.json#$.broken[156].samples[0]`
+    - sample: `http://cbd.minjust.gov.kg/act/view/ru-ru/159155`
+- **[403]** `https://abdm.gov.in/` 
+    - referenced by `state/audit/link_report.json#$.results[521].final_url`
+    - referenced by `state/audit/link_report.json#$.results[521].url`
+    - referenced by `state/audit/references.json#$.broken[157].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[157].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[157].samples[2]`
+    - sample: `https://abdm.gov.in/`
+- **[403]** `https://adb.org` 
+    - referenced by `outputs/obsidian/People/diaspora-uz-kamoliddin-yusupov-adb.md:43`
+    - referenced by `state/audit/link_report.json#$.results[283].url`
+    - referenced by `state/audit/references.json#$.broken[158].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[158].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[158].target`
+    - sample: `- 2024-01-01 — ADB CA Digital Forum: Co-authored ADB report on Central Asian digital transformation; provided technical `
+- **[403]** `https://adb.org/countries/uzbekistan` 
+    - referenced by `state/audit/link_report.json#$.results[108].url`
+    - referenced by `state/audit/references.json#$.broken[159].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[159].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[159].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[159].target`
+    - sample: `https://adb.org/countries/uzbekistan`
+- **[403]** `https://adb.org/countries/uzbekistan/projects` 
+    - referenced by `outputs/obsidian/Institutions/uz-adb-piu-digital.md:36`
+    - referenced by `state/audit/link_report.json#$.results[191].url`
+    - referenced by `state/audit/references.json#$.broken[160].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[160].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[160].samples[2]`
+    - sample: `- [ADB Uzbekistan Projects Portfolio](https://adb.org/countries/uzbekistan/projects) (en)`
+- **[403]** `https://adb.org/projects/55109-001` 
+    - referenced by `outputs/obsidian/Institutions/kg-adb-piu-eprocurement.md:37`
+    - referenced by `state/audit/link_report.json#$.results[109].url`
+    - referenced by `state/audit/link_report.json#$.results[192].url`
+    - referenced by `state/audit/references.json#$.broken[161].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[161].samples[1]`
+    - sample: `- [ADB Project 55109-001 — KG e-Procurement System Digitalization](https://adb.org/projects/55109-001) (en)`
+- **[403]** `https://cbd.minjust.gov.kg` 
+    - referenced by `outputs/obsidian/Institutions/kg-ai-secondary-reg-working-group.md:36`
+    - referenced by `outputs/obsidian/Institutions/kg-coord-committee-digital.md:36`
+    - referenced by `state/audit/link_report.json#$.results[199].final_url`
+    - referenced by `state/audit/link_report.json#$.results[199].url`
+    - referenced by `state/audit/references.json#$.broken[162].samples[0]`
+    - sample: `- [Цифровой кодекс КР — secondary regulations process](https://cbd.minjust.gov.kg) (ru)`
+- **[403]** `https://cbd.minjust.gov.kg/` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/kg-mvp-005.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/kg-mvp-021.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/kg-mvp-088.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/kg-mvp-091.md:29`
+    - referenced by `state/audit/references.json#$.broken[163].samples[0]`
+    - sample: `**Evidence**: https://cbd.minjust.gov.kg/`
+- **[403]** `https://cbd.minjust.gov.kg/112282/edit` 
+    - referenced by `state/audit/references.json#$.broken[164].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[164].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[164].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[164].target`
+    - referenced by `state/audit/references.json#$.broken[165].samples[1]`
+    - sample: `https://cbd.minjust.gov.kg/112282/edit`
+- **[403]** `https://cbd.minjust.gov.kg/112282/edition/1083610/ru` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `outputs/obsidian/Decrees/kg-law-2021-101-disinformation.md:35`
+    - referenced by `state/audit/link_report.json#$.results[10].final_url`
+    - referenced by `state/audit/link_report.json#$.results[10].url`
+    - referenced by `state/audit/references.json#$.broken[165].samples[0]`
+    - sample: `https://cbd.minjust.gov.kg/112282/edition/1083610/ru`
+- **[403]** `https://cbd.minjust.gov.kg/112333/edition/1263145/` 
+    - referenced by `state/audit/references.json#$.broken[166].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[166].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[166].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[166].target`
+    - referenced by `state/audit/references.json#$.broken[167].samples[1]`
+    - sample: `https://cbd.minjust.gov.kg/112333/edition/1263145/`
+- **[403]** `https://cbd.minjust.gov.kg/112333/edition/1263145/ru` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `outputs/obsidian/Decrees/kg-law-2021-154.md:35`
+    - referenced by `state/audit/link_report.json#$.results[11].final_url`
+    - referenced by `state/audit/link_report.json#$.results[11].url`
+    - referenced by `state/audit/references.json#$.broken[167].samples[0]`
+    - sample: `https://cbd.minjust.gov.kg/112333/edition/1263145/ru`
+- **[403]** `https://cbd.minjust.gov.kg/112361/edition/12398/ru` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `outputs/obsidian/Decrees/kg-law-2022-027.md:35`
+    - referenced by `state/audit/link_report.json#$.results[12].final_url`
+    - referenced by `state/audit/link_report.json#$.results[12].url`
+    - referenced by `state/audit/references.json#$.broken[168].samples[0]`
+    - sample: `https://cbd.minjust.gov.kg/112361/edition/12398/ru`
+- **[403]** `https://cbd.minjust.gov.kg/11735/edition/954119/ru` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `outputs/obsidian/Decrees/kg-up-2018-200-tunduk.md:35`
+    - referenced by `outputs/obsidian/Institutions/kg-gp-tunduk.md:39`
+    - referenced by `state/audit/audit_report.md:31`
+    - referenced by `state/audit/link_report.json#$.results[13].final_url`
+    - sample: `https://cbd.minjust.gov.kg/11735/edition/954119/ru`
+- **[403]** `https://cbd.minjust.gov.kg/15479/edition/962966/` 
+    - referenced by `state/audit/references.json#$.broken[170].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[170].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[170].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[170].target`
+    - referenced by `state/audit/references.json#$.broken[171].samples[1]`
+    - sample: `https://cbd.minjust.gov.kg/15479/edition/962966/`
+- **[403]** `https://cbd.minjust.gov.kg/15479/edition/962966/ru` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `outputs/obsidian/Decrees/kg-cabinet-2025-cybersec-strategy.md:35`
+    - referenced by `state/audit/link_report.json#$.results[14].final_url`
+    - referenced by `state/audit/link_report.json#$.results[14].url`
+    - referenced by `state/audit/references.json#$.broken[171].samples[0]`
+    - sample: `https://cbd.minjust.gov.kg/15479/edition/962966/ru`
+- **[403]** `https://cbd.minjust.gov.kg/202269/editi` 
+    - referenced by `state/audit/references.json#$.broken[172].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[172].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[172].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[172].target`
+    - referenced by `state/audit/references.json#$.broken[173].samples[1]`
+    - sample: `https://cbd.minjust.gov.kg/202269/editi`
+- **[403]** `https://cbd.minjust.gov.kg/202269/edition/1239270/ru` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `outputs/obsidian/Decrees/kg-law-2008-058.md:34`
+    - referenced by `state/audit/audit_report.md:32`
+    - referenced by `state/audit/link_report.json#$.results[15].final_url`
+    - referenced by `state/audit/link_report.json#$.results[15].url`
+    - sample: `https://cbd.minjust.gov.kg/202269/edition/1239270/ru`
+- **[403]** `https://cbd.minjust.gov.kg/230026481/edition/31484/ru` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `outputs/obsidian/Decrees/kg-up-2025-133.md:34`
+    - referenced by `state/audit/link_report.json#$.results[16].final_url`
+    - referenced by `state/audit/link_report.json#$.results[16].url`
+    - referenced by `state/audit/references.json#$.broken[174].samples[0]`
+    - sample: `https://cbd.minjust.gov.kg/230026481/edition/31484/ru`
+- **[403]** `https://cbd.minjust.gov.kg/230035062/edition/41235/ru` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `https://avaluev.github.io/ca-b2g-research/kyrgyzstan/`
+    - referenced by `outputs/obsidian/Decrees/kg-up-2025-327-academy.md:34`
+    - referenced by `state/audit/link_report.json#$.results[17].final_url`
+    - referenced by `state/audit/link_report.json#$.results[17].url`
+    - sample: `https://cbd.minjust.gov.kg/230035062/edition/41235/ru`
+- **[403]** `https://cbd.minjust.gov.kg/230037968/edition/44252/ru` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `https://avaluev.github.io/ca-b2g-research/kyrgyzstan/`
+    - referenced by `outputs/obsidian/Decrees/kg-up-2025-385.md:34`
+    - referenced by `state/audit/link_report.json#$.results[18].final_url`
+    - referenced by `state/audit/link_report.json#$.results[18].url`
+    - sample: `https://cbd.minjust.gov.kg/230037968/edition/44252/ru`
+- **[403]** `https://cbd.minjust.gov.kg/3-48` 
+    - referenced by `state/audit/audit_report.md:30`
+    - referenced by `state/audit/references.json#$.broken[177].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[177].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[177].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[177].target`
+    - sample: `| 5 | Decree | KG-CODE-2025-178 | https://cbd.minjust.gov.kg/3-48 | Reachable per blueprint citation; Цифровой кодекс №1`
+- **[403]** `https://cbd.minjust.gov.kg/3-48/edition/35412/ru` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `https://avaluev.github.io/ca-b2g-research/kyrgyzstan/`
+    - referenced by `outputs/obsidian/Decrees/kg-law-2025-178-digital-code.md:38`
+    - referenced by `state/audit/link_report.json#$.results[19].final_url`
+    - referenced by `state/audit/link_report.json#$.results[19].url`
+    - sample: `https://cbd.minjust.gov.kg/3-48/edition/35412/ru`
+- **[403]** `https://cbd.minjust.gov.kg/30-164` 
+    - referenced by `state/audit/audit_report.md:29`
+    - referenced by `state/audit/references.json#$.broken[179].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[179].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[179].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[179].target`
+    - sample: `| 4 | Decree | KG-DECREE-2024-090 | https://cbd.minjust.gov.kg/30-164 | Reachable, "Концепция Цифровой трансформации 202`
+- **[403]** `https://cbd.minjust.gov.kg/4-3134/edition/1220896/ru` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `outputs/obsidian/Decrees/kg-law-2022-012-virtual.md:35`
+    - referenced by `state/audit/link_report.json#$.results[20].final_url`
+    - referenced by `state/audit/link_report.json#$.results[20].url`
+    - referenced by `state/audit/references.json#$.broken[180].samples[0]`
+    - sample: `https://cbd.minjust.gov.kg/4-3134/edition/1220896/ru`
+- **[403]** `https://cbd.minjust.gov.kg/4-5371/ed` 
+    - referenced by `state/audit/references.json#$.broken[181].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[181].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[181].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[181].target`
+    - referenced by `state/audit/references.json#$.broken[182].samples[1]`
+    - sample: `https://cbd.minjust.gov.kg/4-5371/ed`
+- **[403]** `https://cbd.minjust.gov.kg/4-5371/edition/13381/ru` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `outputs/obsidian/Decrees/kg-law-2024-121-cybersec.md:35`
+    - referenced by `state/audit/link_report.json#$.results[21].final_url`
+    - referenced by `state/audit/link_report.json#$.results[21].url`
+    - referenced by `state/audit/link_report.json#$.results[497].final_url`
+    - sample: `https://cbd.minjust.gov.kg/4-5371/edition/13381/ru`
+- **[403]** `https://cbd.minjust.gov.kg/4-5473/edition/25496/ru` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `outputs/obsidian/Decrees/kg-law-2025-028-amend.md:35`
+    - referenced by `state/audit/link_report.json#$.results[22].final_url`
+    - referenced by `state/audit/link_report.json#$.results[22].url`
+    - referenced by `state/audit/references.json#$.broken[183].samples[0]`
+    - sample: `https://cbd.minjust.gov.kg/4-5473/edition/25496/ru`
+- **[403]** `https://cbd.minjust.gov.kg/4-5604/edition/35394/ru` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `outputs/obsidian/Decrees/kg-law-2025-179-digital-code-enactment.md:35`
+    - referenced by `state/audit/link_report.json#$.results[23].final_url`
+    - referenced by `state/audit/link_report.json#$.results[23].url`
+    - referenced by `state/audit/references.json#$.broken[184].samples[0]`
+    - sample: `https://cbd.minjust.gov.kg/4-5604/edition/35394/ru`
+- **[403]** `https://cbd.minjust.gov.kg/4-5687/edition/40576/ru` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `https://avaluev.github.io/ca-b2g-research/kyrgyzstan/`
+    - referenced by `outputs/obsidian/Decrees/kg-law-2025-243.md:35`
+    - referenced by `state/audit/link_report.json#$.results[24].final_url`
+    - referenced by `state/audit/link_report.json#$.results[24].url`
+    - sample: `https://cbd.minjust.gov.kg/4-5687/edition/40576/ru`
+- **[403]** `https://cbd.minjust.gov.kg/4-5694/edition/44811/ru` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `https://avaluev.github.io/ca-b2g-research/kyrgyzstan/`
+    - referenced by `outputs/obsidian/Decrees/kg-law-2025-262.md:34`
+    - referenced by `state/audit/link_report.json#$.results[25].final_url`
+    - referenced by `state/audit/link_report.json#$.results[25].url`
+    - sample: `https://cbd.minjust.gov.kg/4-5694/edition/44811/ru`
+- **[403]** `https://cbd.minjust.gov.kg/4-5695/edition/44884/ru` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `https://avaluev.github.io/ca-b2g-research/kyrgyzstan/`
+    - referenced by `outputs/obsidian/Decrees/kg-law-2026-003-va-amend.md:35`
+    - referenced by `state/audit/link_report.json#$.results[26].final_url`
+    - referenced by `state/audit/link_report.json#$.results[26].url`
+    - sample: `https://cbd.minjust.gov.kg/4-5695/edition/44884/ru`
+- **[403]** `https://cbd.minjust.gov.kg/5-10577/edition/6413/ru` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `outputs/obsidian/Decrees/kg-up-2024-090-concept.md:36`
+    - referenced by `state/audit/link_report.json#$.results[27].final_url`
+    - referenced by `state/audit/link_report.json#$.results[27].url`
+    - referenced by `state/audit/link_report.json#$.results[499].final_url`
+    - sample: `https://cbd.minjust.gov.kg/5-10577/edition/6413/ru`
+- **[403]** `https://cbd.minjust.gov.kg/5-10789/edition/24270/ru` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `outputs/obsidian/Decrees/kg-up-2025-001.md:35`
+    - referenced by `state/audit/link_report.json#$.results[28].final_url`
+    - referenced by `state/audit/link_report.json#$.results[28].url`
+    - referenced by `state/audit/references.json#$.broken[189].samples[0]`
+    - sample: `https://cbd.minjust.gov.kg/5-10789/edition/24270/ru`
+- **[403]** `https://cbd.minjust.gov.kg/5-10844/edition/28166/ru` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `outputs/obsidian/Decrees/kg-up-2025-083.md:34`
+    - referenced by `state/audit/link_report.json#$.results[29].final_url`
+    - referenced by `state/audit/link_report.json#$.results[29].url`
+    - referenced by `state/audit/references.json#$.broken[190].samples[0]`
+    - sample: `https://cbd.minjust.gov.kg/5-10844/edition/28166/ru`
+- **[403]** `https://cbd.minjust.gov.kg/5-10845/edition/28311/ru` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `outputs/obsidian/Decrees/kg-up-2025-071.md:34`
+    - referenced by `state/audit/link_report.json#$.results[30].final_url`
+    - referenced by `state/audit/link_report.json#$.results[30].url`
+    - referenced by `state/audit/references.json#$.broken[191].samples[0]`
+    - sample: `https://cbd.minjust.gov.kg/5-10845/edition/28311/ru`
+- **[403]** `https://cbd.minjust.gov.kg/5-10855/edition/28965/ru` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `outputs/obsidian/Decrees/kg-up-2025-091.md:35`
+    - referenced by `state/audit/link_report.json#$.results[31].final_url`
+    - referenced by `state/audit/link_report.json#$.results[31].url`
+    - referenced by `state/audit/link_report.json#$.results[500].final_url`
+    - sample: `https://cbd.minjust.gov.kg/5-10855/edition/28965/ru`
+- **[403]** `https://cbd.minjust.gov.kg/5-10977/edition/41601/ru` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `https://avaluev.github.io/ca-b2g-research/kyrgyzstan/`
+    - referenced by `outputs/obsidian/Decrees/kg-up-2025-350-economy.md:35`
+    - referenced by `state/audit/link_report.json#$.results[32].final_url`
+    - referenced by `state/audit/link_report.json#$.results[32].url`
+    - sample: `https://cbd.minjust.gov.kg/5-10977/edition/41601/ru`
+- **[403]** `https://cbd.minjust.gov.kg/57-19271/edition/14721/ru` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `outputs/obsidian/Decrees/kg-cabinet-2025-digital-concept-plan.md:35`
+    - referenced by `state/audit/link_report.json#$.results[33].final_url`
+    - referenced by `state/audit/link_report.json#$.results[33].url`
+    - referenced by `state/audit/references.json#$.broken[194].samples[0]`
+    - sample: `https://cbd.minjust.gov.kg/57-19271/edition/14721/ru`
+- **[403]** `https://cbd.minjust.gov.kg/7-26125/edition/7070/ru` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `outputs/obsidian/Decrees/kg-cabinet-2024-023-digital-services.md:34`
+    - referenced by `state/audit/link_report.json#$.results[34].final_url`
+    - referenced by `state/audit/link_report.json#$.results[34].url`
+    - referenced by `state/audit/references.json#$.broken[195].samples[0]`
+    - sample: `https://cbd.minjust.gov.kg/7-26125/edition/7070/ru`
+- **[403]** `https://cbd.minjust.gov.kg/7-31402/edition/15114/ru` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `outputs/obsidian/Decrees/kg-cabinet-2022-245-position.md:34`
+    - referenced by `state/audit/link_report.json#$.results[35].final_url`
+    - referenced by `state/audit/link_report.json#$.results[35].url`
+    - referenced by `state/audit/references.json#$.broken[196].samples[0]`
+    - sample: `https://cbd.minjust.gov.kg/7-31402/edition/15114/ru`
+- **[403]** `https://cbd.minjust.gov.kg/7-36254/edition/23099/ru` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `outputs/obsidian/Decrees/kg-cabinet-2024-746-cybersec.md:35`
+    - referenced by `state/audit/link_report.json#$.results[36].final_url`
+    - referenced by `state/audit/link_report.json#$.results[36].url`
+    - referenced by `state/audit/references.json#$.broken[197].samples[0]`
+    - sample: `https://cbd.minjust.gov.kg/7-36254/edition/23099/ru`
+- **[403]** `https://cbd.minjust.gov.kg/7-42280/edition/33194/ru` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `outputs/obsidian/Decrees/kg-cabinet-2025-may-30.md:34`
+    - referenced by `state/audit/link_report.json#$.results[37].final_url`
+    - referenced by `state/audit/link_report.json#$.results[37].url`
+    - referenced by `state/audit/references.json#$.broken[198].samples[0]`
+    - sample: `https://cbd.minjust.gov.kg/7-42280/edition/33194/ru`
+- **[403]** `https://cbd.minjust.gov.kg/7-43971/edition/36419/ru` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `https://avaluev.github.io/ca-b2g-research/kyrgyzstan/`
+    - referenced by `outputs/obsidian/Decrees/kg-cabinet-2025-sept-01.md:34`
+    - referenced by `state/audit/link_report.json#$.results[38].final_url`
+    - referenced by `state/audit/link_report.json#$.results[38].url`
+    - sample: `https://cbd.minjust.gov.kg/7-43971/edition/36419/ru`
+- **[403]** `https://cbd.minjust.gov.kg/7-44235/edition/36804/r` 
+    - referenced by `state/audit/references.json#$.broken[200].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[200].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[200].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[200].target`
+    - referenced by `state/audit/references.json#$.broken[201].samples[2]`
+    - sample: `https://cbd.minjust.gov.kg/7-44235/edition/36804/r`
+- **[403]** `https://cbd.minjust.gov.kg/7-44235/edition/36804/ru` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `https://avaluev.github.io/ca-b2g-research/kyrgyzstan/`
+    - referenced by `outputs/obsidian/Decrees/kg-cabinet-2025-aug.md:34`
+    - referenced by `state/audit/link_report.json#$.results[39].final_url`
+    - referenced by `state/audit/link_report.json#$.results[39].url`
+    - sample: `https://cbd.minjust.gov.kg/7-44235/edition/36804/ru`
+- **[403]** `https://cbd.minjust.gov.kg/7-45133/edition/38347/ru` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - referenced by `https://avaluev.github.io/ca-b2g-research/kyrgyzstan/`
+    - referenced by `outputs/obsidian/Decrees/kg-cabinet-2025-sept.md:35`
+    - referenced by `state/audit/link_report.json#$.results[40].final_url`
+    - referenced by `state/audit/link_report.json#$.results[40].url`
+    - sample: `https://cbd.minjust.gov.kg/7-45133/edition/38347/ru`
+- **[403]** `https://cbd.minjust.gov.kg/act/view/ru-ru/111125` 
+    - referenced by `state/audit/link_report.json#$.results[0].final_url`
+    - referenced by `state/audit/references.json#$.broken[203].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[203].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[203].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[203].target`
+    - sample: `https://cbd.minjust.gov.kg/act/view/ru-ru/111125`
+- **[403]** `https://cbd.minjust.gov.kg/act/view/ru-ru/111634` 
+    - referenced by `state/audit/link_report.json#$.results[1].final_url`
+    - referenced by `state/audit/references.json#$.broken[204].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[204].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[204].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[204].target`
+    - sample: `https://cbd.minjust.gov.kg/act/view/ru-ru/111634`
+- **[403]** `https://cbd.minjust.gov.kg/act/view/ru-ru/11736` 
+    - referenced by `state/audit/link_report.json#$.results[189].final_url`
+    - referenced by `state/audit/link_report.json#$.results[2].final_url`
+    - referenced by `state/audit/references.json#$.broken[205].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[205].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[205].samples[2]`
+    - sample: `https://cbd.minjust.gov.kg/act/view/ru-ru/11736`
+- **[403]** `https://cbd.minjust.gov.kg/act/view/ru-ru/14544` 
+    - referenced by `state/audit/link_report.json#$.results[3].final_url`
+    - referenced by `state/audit/references.json#$.broken[206].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[206].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[206].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[206].target`
+    - sample: `https://cbd.minjust.gov.kg/act/view/ru-ru/14544`
+- **[403]** `https://cbd.minjust.gov.kg/act/view/ru-ru/157967` 
+    - referenced by `state/audit/link_report.json#$.results[4].final_url`
+    - referenced by `state/audit/references.json#$.broken[207].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[207].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[207].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[207].target`
+    - sample: `https://cbd.minjust.gov.kg/act/view/ru-ru/157967`
+- **[403]** `https://cbd.minjust.gov.kg/act/view/ru-ru/159060` 
+    - referenced by `state/audit/link_report.json#$.results[5].final_url`
+    - referenced by `state/audit/references.json#$.broken[208].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[208].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[208].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[208].target`
+    - sample: `https://cbd.minjust.gov.kg/act/view/ru-ru/159060`
+- **[403]** `https://cbd.minjust.gov.kg/act/view/ru-ru/159155` 
+    - referenced by `state/audit/link_report.json#$.results[495].final_url`
+    - referenced by `state/audit/link_report.json#$.results[6].final_url`
+    - referenced by `state/audit/references.json#$.broken[209].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[209].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[209].samples[2]`
+    - sample: `https://cbd.minjust.gov.kg/act/view/ru-ru/159155`
+- **[403]** `https://cbd.minjust.gov.kg/act/view/ru-ru/{id` 
+    - referenced by `state/audit/references.json#$.broken[210].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[210].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[210].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[210].target`
+    - referenced by `state/blueprint/search_strategies.md:165`
+    - sample: `https://cbd.minjust.gov.kg/act/view/ru-ru/{id}`
+- **[403]** `https://cbd.minjust.gov.kg/poisk?` 
+    - referenced by `state/audit/references.json#$.broken[211].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[211].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[211].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[211].target`
+    - referenced by `state/blueprint/search_strategies.md:176`
+    - sample: `https://cbd.minjust.gov.kg/poisk?...`
+- **[403]** `https://cbd.minjust.gov.kg/{rubric` 
+    - referenced by `state/audit/references.json#$.broken[212].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[212].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[212].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[212].target`
+    - referenced by `state/blueprint/search_strategies.md:164`
+    - sample: `https://cbd.minjust.gov.kg/{rubric}/edition/{eid}/ru`
+- **[403]** `https://documents.worldbank.org/.../uzbekistan-agricultur` 
+    - referenced by `state/audit/references.json#$.broken[213].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[213].target`
+    - sample: `https://documents.worldbank.org/.../uzbekistan-agricultur`
+- **[403]** `https://documents.worldbank.org/.../uzbekistan-agriculture-moderniza` 
+    - referenced by `state/audit/references.json#$.broken[214].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[214].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[214].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[214].target`
+    - referenced by `state/audit/references.json#$.broken[215].samples[0]`
+    - sample: `https://documents.worldbank.org/.../uzbekistan-agriculture-moderniza`
+- **[403]** `https://documents.worldbank.org/.../uzbekistan-agriculture-modernization-project` 
+    - referenced by `state/audit/audit_report.md:54`
+    - referenced by `state/audit/references.json#$.broken[215].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[215].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[215].target`
+    - sample: `| 29 | Donor program | WB-UZ-AGRI-DIGITAL P168566 | https://documents.worldbank.org/.../uzbekistan-agriculture-moderniza`
+- **[403]** `https://esanjeevani.mohfw.gov.in/` 
+    - referenced by `state/audit/link_report.json#$.results[566].final_url`
+    - referenced by `state/audit/link_report.json#$.results[566].url`
+    - referenced by `state/audit/references.json#$.broken[216].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[216].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[216].samples[2]`
+    - sample: `https://esanjeevani.mohfw.gov.in/`
+- **[403]** `https://it-park.uz` 
+    - referenced by `outputs/obsidian/Institutions/uz-it-park.md:40`
+    - referenced by `outputs/obsidian/People/diaspora-uz-farida-rakhimova-amazon.md:43`
+    - referenced by `outputs/obsidian/People/uz-firdavs-abdullayev.md:42`
+    - referenced by `outputs/obsidian/People/uz-ibragimov-mirzo.md:42`
+    - referenced by `state/audit/link_report.json#$.results[135].url`
+    - sample: `- [IT Park Uzbekistan — Official Website](https://it-park.uz) (ru)`
+- **[403]** `https://it-park.uz/` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-056.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-062.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-065.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-071.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-074.md:29`
+    - sample: `**Evidence**: https://it-park.uz/`
+- **[403]** `https://kaktus.media` 
+    - referenced by `outputs/obsidian/Institutions/kg-mincifry.md:40`
+    - referenced by `state/audit/link_report.json#$.results[225].final_url`
+    - referenced by `state/audit/link_report.json#$.results[225].url`
+    - referenced by `state/audit/link_report.json#$.results[310].final_url`
+    - referenced by `state/audit/link_report.json#$.results[310].url`
+    - sample: `- [Упразднение Минцифры КР — Kaktus.media](https://kaktus.media) (ru)`
+- **[403]** `https://kaktus.media/` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/kg-mvp-001.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/kg-mvp-002.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/kg-mvp-004.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/kg-mvp-007.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/kg-mvp-009.md:29`
+    - sample: `**Evidence**: https://kaktus.media/`
+- **[403]** `https://knews.kg/2026/04/30/mintsifry-kyr` 
+    - referenced by `state/audit/references.json#$.broken[219].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[219].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[219].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[219].target`
+    - referenced by `state/audit/references.json#$.broken[220].samples[0]`
+    - sample: `https://knews.kg/2026/04/30/mintsifry-kyr`
+- **[403]** `https://knews.kg/2026/04/30/mintsifry-kyrgyzstana-uprazdnili-ego-prisoedinili-k-upravdelami-prezidenta/` 
+    - referenced by `outputs/obsidian/Decrees/kg-up-2026-mincifry-abolition.md:36`
+    - referenced by `state/audit/link_report.json#$.results[46].final_url`
+    - referenced by `state/audit/link_report.json#$.results[46].url`
+    - referenced by `state/audit/references.json#$.broken[220].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[220].samples[2]`
+    - sample: `- [Минцифры Кыргызстана упразднили, его присоединили к Управделами президента](https://knews.kg/2026/04/30/mintsifry-kyr`
+- **[403]** `https://minjust.gov.kg` 
+    - referenced by `outputs/obsidian/Institutions/kg-minust.md:34`
+    - referenced by `outputs/obsidian/Institutions/kg-moj.md:36`
+    - referenced by `outputs/obsidian/People/kg-digital-code-legal-adviser.md:43`
+    - referenced by `outputs/obsidian/People/kg-moj-head.md:42`
+    - referenced by `state/audit/link_report.json#$.results[151].final_url`
+    - sample: `- [Ministry of Justice — canonical record KG-MOJ](https://minjust.gov.kg) (ru)`
+- **[403]** `https://mitc.uz` 
+    - referenced by `outputs/obsidian/Institutions/uz-mintsifry.md:47`
+    - referenced by `outputs/obsidian/People/diaspora-uz-akbar-toshmatov-stanford.md:43`
+    - referenced by `outputs/obsidian/People/diaspora-uz-sarvar-sadikov-meta.md:43`
+    - referenced by `outputs/obsidian/People/uz-digital-trust-center-head.md:42`
+    - referenced by `outputs/obsidian/People/uz-mintsifry-dep1.md:42`
+    - sample: `- [Ministry of Digital Technologies of Uzbekistan — Official Website](https://mitc.uz) (ru)`
+- **[403]** `https://president.kg` 
+    - referenced by `outputs/obsidian/Institutions/kg-president.md:37`
+    - referenced by `outputs/obsidian/Institutions/kg-udp.md:41`
+    - referenced by `outputs/obsidian/People/diaspora-kg-azamat-kalmurzaev-google.md:43`
+    - referenced by `outputs/obsidian/People/diaspora-kg-baktygul-tashmetova-oxford.md:43`
+    - referenced by `outputs/obsidian/People/diaspora-kg-dinara-abeldinova-microsoft.md:43`
+    - sample: `- [President of Kyrgyz Republic — Official Website](https://president.kg) (ru)`
+- **[403]** `https://president.kg/` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/kg-mvp-015.md:29`
+    - referenced by `state/audit/references.json#$.broken[224].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[224].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[224].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[224].target`
+    - sample: `**Evidence**: https://president.kg/`
+- **[403]** `https://sal.org.sg/` 
+    - referenced by `state/audit/link_report.json#$.results[676].final_url`
+    - referenced by `state/audit/references.json#$.broken[225].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[225].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[225].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[225].target`
+    - sample: `https://sal.org.sg/`
+- **[403]** `https://undp.org/kyrgyzstan` 
+    - referenced by `outputs/obsidian/Institutions/kg-undp-piu-digital.md:36`
+    - referenced by `outputs/obsidian/Institutions/kg-undp-piu-governance.md:36`
+    - referenced by `state/audit/link_report.json#$.results[181].url`
+    - referenced by `state/audit/link_report.json#$.results[274].url`
+    - referenced by `state/audit/references.json#$.broken[226].samples[0]`
+    - sample: `- [UNDP Kyrgyzstan — Digital Programs](https://undp.org/kyrgyzstan) (en)`
+- **[403]** `https://undp.org/uzbekistan` 
+    - referenced by `outputs/obsidian/Institutions/uz-undp-piu-digital.md:36`
+    - referenced by `state/audit/link_report.json#$.results[182].url`
+    - referenced by `state/audit/link_report.json#$.results[275].url`
+    - referenced by `state/audit/references.json#$.broken[227].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[227].samples[1]`
+    - sample: `- [UNDP Uzbekistan Country Office — Digital Programs](https://undp.org/uzbekistan) (en)`
+- **[403]** `https://vm.fi/aurora-ai` 
+    - referenced by `state/audit/link_report.json#$.results[605].final_url`
+    - referenced by `state/audit/link_report.json#$.results[605].url`
+    - referenced by `state/audit/references.json#$.broken[228].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[228].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[228].samples[2]`
+    - sample: `https://vm.fi/aurora-ai`
+- **[403]** `https://www.adb.org/` 
+    - referenced by `state/audit/link_report.json#$.results[108].final_url`
+    - referenced by `state/audit/link_report.json#$.results[109].final_url`
+    - referenced by `state/audit/link_report.json#$.results[191].final_url`
+    - referenced by `state/audit/link_report.json#$.results[192].final_url`
+    - referenced by `state/audit/link_report.json#$.results[283].final_url`
+    - sample: `https://www.adb.org/`
+- **[403]** `https://www.adb.org/news/adb-support-digitalization-government-procurement-kyrgyz-republic` 
+    - referenced by `state/audit/link_report.json#$.results[478].final_url`
+    - referenced by `state/audit/link_report.json#$.results[478].url`
+    - referenced by `state/audit/references.json#$.broken[230].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[230].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[230].samples[2]`
+    - sample: `https://www.adb.org/news/adb-support-digitalization-government-procurement-kyrgyz-republic`
+- **[403]** `https://www.adb.org/news/adb-supports-digital-trans` 
+    - referenced by `state/audit/references.json#$.broken[231].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[231].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[231].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[231].target`
+    - referenced by `state/audit/references.json#$.broken[232].samples[0]`
+    - sample: `https://www.adb.org/news/adb-supports-digital-trans`
+- **[403]** `https://www.adb.org/news/adb-supports-digital-transformation-uzbekistan-s-water-sector` 
+    - referenced by `outputs/obsidian/Donors/adb-uz-water-digital.md:34`
+    - referenced by `state/audit/link_report.json#$.results[417].final_url`
+    - referenced by `state/audit/link_report.json#$.results[417].url`
+    - referenced by `state/audit/references.json#$.broken[232].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[232].samples[2]`
+    - sample: `- [ADB Supports Digital Transformation of Uzbekistan's Water Sector](https://www.adb.org/news/adb-supports-digital-trans`
+- **[403]** `https://www.adb.org/pro` 
+    - referenced by `state/audit/references.json#$.broken[233].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[233].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[233].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[233].target`
+    - referenced by `state/audit/references.json#$.broken[236].samples[0]`
+    - sample: `https://www.adb.org/pro`
+- **[403]** `https://www.adb.org/proj` 
+    - referenced by `state/audit/references.json#$.broken[234].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[234].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[234].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[234].target`
+    - referenced by `state/audit/references.json#$.broken[239].samples[2]`
+    - sample: `https://www.adb.org/proj`
+- **[403]** `https://www.adb.org/projects/` 
+    - referenced by `state/audit/references.json#$.broken[235].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[235].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[235].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[235].target`
+    - referenced by `state/audit/references.json#$.broken[237].samples[0]`
+    - sample: `https://www.adb.org/projects/`
+- **[403]** `https://www.adb.org/projects/38177-013/main` 
+    - referenced by `outputs/obsidian/Donors/adb-kg-customs-38177.md:30`
+    - referenced by `state/audit/link_report.json#$.results[418].final_url`
+    - referenced by `state/audit/link_report.json#$.results[418].url`
+    - referenced by `state/audit/references.json#$.broken[236].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[236].samples[2]`
+    - sample: `- [38177-013: Regional Customs Modernization and Infrastructure Development Project (KGZ) | ADB](https://www.adb.org/pro`
+- **[403]** `https://www.adb.org/projects/52322-004/main` 
+    - referenced by `outputs/obsidian/Donors/adb-uz-52322-004.md:35`
+    - referenced by `state/audit/audit_report.md:37`
+    - referenced by `state/audit/link_report.json#$.results[344].final_url`
+    - referenced by `state/audit/link_report.json#$.results[344].url`
+    - referenced by `state/audit/link_report.json#$.results[419].final_url`
+    - sample: `- [52322-004: Digitize to Decarbonize — Power Transmission Grid Enhancement Project | ADB](https://www.adb.org/projects/`
+- **[403]** `https://www.adb.org/projects/54383-001/main` 
+    - referenced by `outputs/obsidian/Donors/adb-kg-54383-001.md:30`
+    - referenced by `state/audit/link_report.json#$.results[420].final_url`
+    - referenced by `state/audit/link_report.json#$.results[420].url`
+    - referenced by `state/audit/references.json#$.broken[238].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[238].samples[2]`
+    - sample: `- [54383-001: Enhancing Knowledge and Capacity for Public Procurement System in the Kyrgyz Republic | ADB](https://www.a`
+- **[403]** `https://www.adb.org/projects/55109-001/main` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/kyrgyzstan/`
+    - referenced by `https://avaluev.github.io/ca-b2g-research/procurement/`
+    - referenced by `outputs/obsidian/Donors/adb-kg-55109-001.md:34`
+    - referenced by `outputs/obsidian/Tenders/kg-t-2026-001.md:27`
+    - referenced by `outputs/obsidian/Tenders/kg-t-2026-002.md:27`
+    - sample: `https://www.adb.org/projects/55109-001/main`
+- **[403]** `https://www.adb.org/projects/58435-001/main` 
+    - referenced by `outputs/obsidian/Donors/adb-uz-58435-001.md:34`
+    - referenced by `state/audit/link_report.json#$.results[346].final_url`
+    - referenced by `state/audit/link_report.json#$.results[346].url`
+    - referenced by `state/audit/link_report.json#$.results[422].final_url`
+    - referenced by `state/audit/link_report.json#$.results[422].url`
+    - sample: `- [58435-001: Supporting Climate Change Action, Economic Globalization and Digital Transformation through Advanced Stati`
+- **[403]** `https://www.adb.org/projects/country/kgz` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/kg-mvp-028.md:29`
+    - referenced by `state/audit/references.json#$.broken[241].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[241].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[241].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[241].target`
+    - sample: `**Evidence**: https://www.adb.org/projects/country/kgz`
+- **[403]** `https://www.adb.org/projects/country/kyrgyz-republic` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/procurement/`
+    - referenced by `outputs/obsidian/Tenders/kg-tf-2026-007.md:27`
+    - referenced by `state/audit/link_report.json#$.results[457].final_url`
+    - referenced by `state/audit/link_report.json#$.results[457].url`
+    - referenced by `state/audit/link_report.json#$.results[479].final_url`
+    - sample: `https://www.adb.org/projects/country/kyrgyz-republic`
+- **[403]** `https://www.adb.org/projects/country/uzb` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-027.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-035.md:29`
+    - referenced by `state/audit/references.json#$.broken[243].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[243].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[243].samples[2]`
+    - sample: `**Evidence**: https://www.adb.org/projects/country/uzb`
+- **[403]** `https://www.adb.org/where-we-work/uzbekistan` 
+    - referenced by `outputs/obsidian/Donors/adb-uz-egovt-pipeline.md:30`
+    - referenced by `state/audit/link_report.json#$.results[423].final_url`
+    - referenced by `state/audit/link_report.json#$.results[423].url`
+    - referenced by `state/audit/references.json#$.broken[244].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[244].samples[1]`
+    - sample: `- [Uzbekistan and ADB — Country Overview and Partnership](https://www.adb.org/where-we-work/uzbekistan)`
+- **[403]** `https://www.dewa.gov.ae/en/about-dewa/dewa-initiatives/smart-grid` 
+    - referenced by `state/audit/link_report.json#$.results[615].final_url`
+    - referenced by `state/audit/link_report.json#$.results[615].url`
+    - referenced by `state/audit/references.json#$.broken[245].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[245].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[245].samples[2]`
+    - sample: `https://www.dewa.gov.ae/en/about-dewa/dewa-initiatives/smart-grid`
+- **[403]** `https://www.gov.gr/en/` 
+    - referenced by `state/audit/link_report.json#$.results[628].final_url`
+    - referenced by `state/audit/link_report.json#$.results[628].url`
+    - referenced by `state/audit/references.json#$.broken[246].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[246].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[246].samples[2]`
+    - sample: `https://www.gov.gr/en/`
+- **[403]** `https://www.irena.org/countries/Kazakhstan` 
+    - referenced by `state/audit/link_report.json#$.results[643].final_url`
+    - referenced by `state/audit/link_report.json#$.results[643].url`
+    - referenced by `state/audit/references.json#$.broken[247].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[247].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[247].samples[2]`
+    - sample: `https://www.irena.org/countries/Kazakhstan`
+- **[403]** `https://www.it-park.uz/en/itpark` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/procurement/`
+    - referenced by `outputs/obsidian/Tenders/uz-t-2026-013.md:27`
+    - referenced by `outputs/obsidian/Tenders/uz-tf-2026-008.md:27`
+    - referenced by `state/audit/link_report.json#$.results[459].final_url`
+    - referenced by `state/audit/link_report.json#$.results[459].url`
+    - sample: `https://www.it-park.uz/en/itpark`
+- **[403]** `https://www.kg.undp.org/content/kyrgyzstan/en/home/projects/climate-change-glacial-lakes.html` 
+    - referenced by `state/audit/link_report.json#$.results[647].url`
+    - referenced by `state/audit/references.json#$.broken[248].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[248].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[248].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[248].target`
+    - sample: `https://www.kg.undp.org/content/kyrgyzstan/en/home/projects/climate-change-glacial-lakes.html`
+- **[403]** `https://www.kg.undp.org/content/kyrgyzstan/en/home/projects/nomadic-heritage-digital.html` 
+    - referenced by `state/audit/link_report.json#$.results[648].url`
+    - referenced by `state/audit/references.json#$.broken[249].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[249].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[249].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[249].target`
+    - sample: `https://www.kg.undp.org/content/kyrgyzstan/en/home/projects/nomadic-heritage-digital.html`
+- **[403]** `https://www.nec.com/en/global/solutions/biometrics/border-control/` 
+    - referenced by `state/audit/link_report.json#$.results[667].final_url`
+    - referenced by `state/audit/link_report.json#$.results[667].url`
+    - referenced by `state/audit/references.json#$.broken[251].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[251].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[251].samples[2]`
+    - sample: `https://www.nec.com/en/global/solutions/biometrics/border-control/`
+- **[403]** `https://www.npci.org.in/what-we-do/netc/fasttag` 
+    - referenced by `state/audit/link_report.json#$.results[669].final_url`
+    - referenced by `state/audit/link_report.json#$.results[669].url`
+    - referenced by `state/audit/references.json#$.broken[252].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[252].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[252].samples[2]`
+    - sample: `https://www.npci.org.in/what-we-do/netc/fasttag`
+- **[403]** `https://www.npci.org.in/what-we-do/upi/product-overview` 
+    - referenced by `state/audit/link_report.json#$.results[670].final_url`
+    - referenced by `state/audit/link_report.json#$.results[670].url`
+    - referenced by `state/audit/references.json#$.broken[253].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[253].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[253].samples[2]`
+    - sample: `https://www.npci.org.in/what-we-do/upi/product-overview`
+- **[403]** `https://www.president.kg/` 
+    - referenced by `state/audit/references.json#$.broken[254].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[254].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[254].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[254].target`
+    - referenced by `state/external/audit/110591d25ccfd397.json#$.responses[1].answer`
+    - sample: `https://www.president.kg/`
+- **[403]** `https://www.safaricom.co.ke/business/m-pesa` 
+    - referenced by `state/audit/link_report.json#$.results[675].final_url`
+    - referenced by `state/audit/link_report.json#$.results[675].url`
+    - referenced by `state/audit/references.json#$.broken[255].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[255].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[255].samples[2]`
+    - sample: `https://www.safaricom.co.ke/business/m-pesa`
+- **[403]** `https://www.sal.org.sg/` 
+    - referenced by `state/audit/link_report.json#$.results[676].url`
+    - referenced by `state/audit/references.json#$.broken[256].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[256].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[256].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[256].target`
+    - sample: `https://www.sal.org.sg/`
+- **[403]** `https://www.sigmaweb.org/publications/digital-transformation-public-administration-albania.htm` 
+    - referenced by `state/audit/link_report.json#$.results[679].final_url`
+    - referenced by `state/audit/link_report.json#$.results[679].url`
+    - referenced by `state/audit/references.json#$.broken[257].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[257].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[257].samples[2]`
+    - sample: `https://www.sigmaweb.org/publications/digital-transformation-public-administration-albania.htm`
+- **[403]** `https://www.singpass.gov.sg/main/about-us/about-singpass/` 
+    - referenced by `state/audit/link_report.json#$.results[680].final_url`
+    - referenced by `state/audit/link_report.json#$.results[680].url`
+    - referenced by `state/audit/references.json#$.broken[258].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[258].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[258].samples[2]`
+    - sample: `https://www.singpass.gov.sg/main/about-us/about-singpass/`
+- **[403]** `https://www.thecityfix.com/blog/hangzhou-city-brain-success-smart-city/` 
+    - referenced by `state/audit/link_report.json#$.results[688].final_url`
+    - referenced by `state/audit/link_report.json#$.results[688].url`
+    - referenced by `state/audit/references.json#$.broken[259].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[259].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[259].samples[2]`
+    - sample: `https://www.thecityfix.com/blog/hangzhou-city-brain-success-smart-city/`
+- **[403]** `https://www.tripadvisor.com/Restaurants-g293964-Samarkand_Samarkand_Province.html` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-079.md:29`
+    - referenced by `state/audit/references.json#$.broken[260].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[260].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[260].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[260].target`
+    - sample: `**Evidence**: https://www.tripadvisor.com/Restaurants-g293964-Samarkand_Samarkand_Province.html`
+- **[403]** `https://www.undp.org/bangladesh/blog/bangladesh-models-digital-public-service-delivery-through-union-digita` 
+    - referenced by `state/audit/references.json#$.broken[261].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[261].target`
+    - sample: `https://www.undp.org/bangladesh/blog/bangladesh-models-digital-public-service-delivery-through-union-digita`
+- **[403]** `https://www.undp.org/bangladesh/blog/bangladesh-models-digital-public-service-delivery-through-union-digital-` 
+    - referenced by `state/audit/references.json#$.broken[262].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[262].target`
+    - sample: `https://www.undp.org/bangladesh/blog/bangladesh-models-digital-public-service-delivery-through-union-digital-`
+- **[403]** `https://www.undp.org/bangladesh/blog/bangladesh-models-digital-public-service-delivery-through-union-digital-centres` 
+    - referenced by `state/audit/link_report.json#$.results[691].final_url`
+    - referenced by `state/audit/link_report.json#$.results[691].url`
+    - referenced by `state/audit/references.json#$.broken[263].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[263].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[263].samples[2]`
+    - sample: `https://www.undp.org/bangladesh/blog/bangladesh-models-digital-public-service-delivery-through-union-digital-centres`
+- **[403]** `https://www.undp.org/central-asia/environment-climate` 
+    - referenced by `state/audit/link_report.json#$.results[692].final_url`
+    - referenced by `state/audit/link_report.json#$.results[692].url`
+    - referenced by `state/audit/references.json#$.broken[264].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[264].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[264].samples[2]`
+    - sample: `https://www.undp.org/central-asia/environment-climate`
+- **[403]** `https://www.undp.org/content/kyrgyzstan/en/home/projects/climate-change-glacial-lakes.html` 
+    - referenced by `state/audit/link_report.json#$.results[647].final_url`
+    - referenced by `state/audit/references.json#$.broken[265].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[265].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[265].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[265].target`
+    - sample: `https://www.undp.org/content/kyrgyzstan/en/home/projects/climate-change-glacial-lakes.html`
+- **[403]** `https://www.undp.org/content/kyrgyzstan/en/home/projects/nomadic-heritage-digital.html` 
+    - referenced by `state/audit/link_report.json#$.results[648].final_url`
+    - referenced by `state/audit/references.json#$.broken[266].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[266].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[266].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[266].target`
+    - sample: `https://www.undp.org/content/kyrgyzstan/en/home/projects/nomadic-heritage-digital.html`
+- **[403]** `https://www.undp.org/kyrgyzstan` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/kg-mvp-049.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/kg-mvp-098.md:29`
+    - referenced by `state/audit/link_report.json#$.results[181].final_url`
+    - referenced by `state/audit/link_report.json#$.results[274].final_url`
+    - referenced by `state/audit/references.json#$.broken[267].samples[0]`
+    - sample: `**Evidence**: https://www.undp.org/kyrgyzstan`
+- **[403]** `https://www.undp.org/kyrgyzstan/press-releases/advancing-digital-transformation-kyrgyzstan-joint-effort-sus` 
+    - referenced by `state/audit/references.json#$.broken[268].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[268].target`
+    - sample: `https://www.undp.org/kyrgyzstan/press-releases/advancing-digital-transformation-kyrgyzstan-joint-effort-sus`
+- **[403]** `https://www.undp.org/kyrgyzstan/press-releases/advancing-digital-transformation-kyrgyzstan-joint-effort-sustainable-development` 
+    - referenced by `outputs/obsidian/Donors/undp-kg-digital-transform.md:34`
+    - referenced by `state/audit/link_report.json#$.results[442].final_url`
+    - referenced by `state/audit/link_report.json#$.results[442].url`
+    - referenced by `state/audit/references.json#$.broken[269].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[269].samples[2]`
+    - sample: `- [Advancing Digital Transformation in Kyrgyzstan: A Joint Effort for Sustainable Development — UNDP](https://www.undp.o`
+- **[403]** `https://www.undp.org/kyrgyzstan/press-releases/building-connected-digital-future-kyrgyzstan-strengthens-gov` 
+    - referenced by `state/audit/references.json#$.broken[270].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[270].target`
+    - sample: `https://www.undp.org/kyrgyzstan/press-releases/building-connected-digital-future-kyrgyzstan-strengthens-gov`
+- **[403]** `https://www.undp.org/kyrgyzstan/press-releases/building-connected-digital-future-kyrgyzstan-strengthens-govte` 
+    - referenced by `state/audit/references.json#$.broken[271].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[271].target`
+    - sample: `https://www.undp.org/kyrgyzstan/press-releases/building-connected-digital-future-kyrgyzstan-strengthens-govte`
+- **[403]** `https://www.undp.org/kyrgyzstan/press-releases/building-connected-digital-future-kyrgyzstan-strengthens-govtech-and-digital-health-systems` 
+    - referenced by `state/audit/link_report.json#$.results[486].final_url`
+    - referenced by `state/audit/link_report.json#$.results[486].url`
+    - referenced by `state/audit/references.json#$.broken[272].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[272].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[272].samples[2]`
+    - sample: `https://www.undp.org/kyrgyzstan/press-releases/building-connected-digital-future-kyrgyzstan-strengthens-govtech-and-digital-health-systems`
+- **[403]** `https://www.undp.org/kyrgyzstan/press-releases/kyrgyzstan-confidently-advancing-path-digital-transformation` 
+    - referenced by `state/audit/link_report.json#$.results[487].final_url`
+    - referenced by `state/audit/link_report.json#$.results[487].url`
+    - referenced by `state/audit/references.json#$.broken[273].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[273].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[273].samples[2]`
+    - sample: `https://www.undp.org/kyrgyzstan/press-releases/kyrgyzstan-confidently-advancing-path-digital-transformation`
+- **[403]** `https://www.undp.org/kyrgyzstan/press-releases/united-nations-launches-joint-digital-health-programme-kyrgy` 
+    - referenced by `state/audit/references.json#$.broken[274].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[274].target`
+    - sample: `https://www.undp.org/kyrgyzstan/press-releases/united-nations-launches-joint-digital-health-programme-kyrgy`
+- **[403]** `https://www.undp.org/kyrgyzstan/press-releases/united-nations-launches-joint-digital-health-programme-kyrgyzs` 
+    - referenced by `state/audit/references.json#$.broken[275].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[275].target`
+    - sample: `https://www.undp.org/kyrgyzstan/press-releases/united-nations-launches-joint-digital-health-programme-kyrgyzs`
+- **[403]** `https://www.undp.org/kyrgyzstan/press-releases/united-nations-launches-joint-digital-health-programme-kyrgyzstan` 
+    - referenced by `state/audit/link_report.json#$.results[488].final_url`
+    - referenced by `state/audit/link_report.json#$.results[488].url`
+    - referenced by `state/audit/references.json#$.broken[276].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[276].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[276].samples[2]`
+    - sample: `https://www.undp.org/kyrgyzstan/press-releases/united-nations-launches-joint-digital-health-programme-kyrgyzstan`
+- **[403]** `https://www.undp.org/kyrgyzstan/projects/digital-skills-and-youth-employment-opportunities-digital-economy-` 
+    - referenced by `state/audit/references.json#$.broken[277].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[277].target`
+    - sample: `https://www.undp.org/kyrgyzstan/projects/digital-skills-and-youth-employment-opportunities-digital-economy-`
+- **[403]** `https://www.undp.org/kyrgyzstan/projects/digital-skills-and-youth-employment-opportunities-digital-economy-ky` 
+    - referenced by `state/audit/references.json#$.broken[278].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[278].target`
+    - sample: `https://www.undp.org/kyrgyzstan/projects/digital-skills-and-youth-employment-opportunities-digital-economy-ky`
+- **[403]** `https://www.undp.org/kyrgyzstan/projects/digital-skills-and-youth-employment-opportunities-digital-economy-kyrgyz-republic` 
+    - referenced by `state/audit/link_report.json#$.results[489].final_url`
+    - referenced by `state/audit/link_report.json#$.results[489].url`
+    - referenced by `state/audit/references.json#$.broken[279].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[279].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[279].samples[2]`
+    - sample: `https://www.undp.org/kyrgyzstan/projects/digital-skills-and-youth-employment-opportunities-digital-economy-kyrgyz-republic`
+- **[403]** `https://www.undp.org/kyrgyzstan/projects/gender-mainstreaming-digital-transformation-good-governance` 
+    - referenced by `outputs/obsidian/Donors/undp-kg-gender-digital.md:30`
+    - referenced by `state/audit/link_report.json#$.results[443].final_url`
+    - referenced by `state/audit/link_report.json#$.results[443].url`
+    - referenced by `state/audit/references.json#$.broken[280].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[280].samples[2]`
+    - sample: `- [Gender Mainstreaming in Digital Transformation for Good Governance — UNDP Kyrgyzstan](https://www.undp.org/kyrgyzstan`
+- **[403]** `https://www.undp.org/uzbekistan` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-088.md:29`
+    - referenced by `state/audit/link_report.json#$.results[182].final_url`
+    - referenced by `state/audit/link_report.json#$.results[275].final_url`
+    - referenced by `state/audit/references.json#$.broken[281].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[281].samples[1]`
+    - sample: `**Evidence**: https://www.undp.org/uzbekistan`
+- **[403]** `https://www.undp.org/uzbekistan/press-releases/driving-digital-transformation-eu-and-undp-upskill-ict-speci` 
+    - referenced by `state/audit/references.json#$.broken[282].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[282].target`
+    - sample: `https://www.undp.org/uzbekistan/press-releases/driving-digital-transformation-eu-and-undp-upskill-ict-speci`
+- **[403]** `https://www.undp.org/uzbekistan/press-releases/driving-digital-transformation-eu-and-undp-upskill-ict-specialists-ai-and-data-science` 
+    - referenced by `outputs/obsidian/Donors/undp-uz-digital-pubadmin.md:36`
+    - referenced by `state/audit/link_report.json#$.results[444].final_url`
+    - referenced by `state/audit/link_report.json#$.results[444].url`
+    - referenced by `state/audit/references.json#$.broken[283].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[283].samples[2]`
+    - sample: `- [Driving Digital Transformation: EU and UNDP Upskill ICT Specialists in AI and Data Science (Oct 2025)](https://www.un`
+- **[403]** `https://www.undp.org/uzbekistan/pro` 
+    - referenced by `state/audit/references.json#$.broken[284].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[284].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[284].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[284].target`
+    - referenced by `state/audit/references.json#$.broken[286].samples[0]`
+    - sample: `https://www.undp.org/uzbekistan/pro`
+- **[403]** `https://www.undp.org/uzbekistan/projects/further` 
+    - referenced by `state/audit/references.json#$.broken[285].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[285].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[285].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[285].target`
+    - referenced by `state/audit/references.json#$.broken[286].samples[1]`
+    - sample: `https://www.undp.org/uzbekistan/projects/further`
+- **[403]** `https://www.undp.org/uzbekistan/projects/further-improvement-public-service-delivery-uzbekistan` 
+    - referenced by `outputs/obsidian/Donors/eu-uz-undp-publicservice.md:35`
+    - referenced by `outputs/obsidian/Donors/undp-uz-digital-pubadmin.md:35`
+    - referenced by `state/audit/link_report.json#$.results[445].final_url`
+    - referenced by `state/audit/link_report.json#$.results[445].url`
+    - referenced by `state/audit/references.json#$.broken[286].samples[2]`
+    - sample: `- [Further Improvement of Public Service Delivery in Uzbekistan — UNDP project page](https://www.undp.org/uzbekistan/pro`
+- **[403]** `https://www.undp.org/uzbekistan/public` 
+    - referenced by `state/audit/references.json#$.broken[287].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[287].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[287].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[287].target`
+    - referenced by `state/audit/references.json#$.broken[288].samples[0]`
+    - sample: `https://www.undp.org/uzbekistan/public`
+- **[403]** `https://www.undp.org/uzbekistan/publications/analytical-note-ict-implementation-civil-courts-uzbekistan` 
+    - referenced by `outputs/obsidian/Donors/undp-uz-ai-courts.md:34`
+    - referenced by `state/audit/link_report.json#$.results[446].final_url`
+    - referenced by `state/audit/link_report.json#$.results[446].url`
+    - referenced by `state/audit/references.json#$.broken[288].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[288].samples[2]`
+    - sample: `- [Analytical Note: ICT Implementation in Civil Courts of Uzbekistan — UNDP 2025](https://www.undp.org/uzbekistan/public`
+- **[403]** `https://www.unicef.org/inno` 
+    - referenced by `state/audit/references.json#$.broken[289].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[450].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[450].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[450].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[450].target`
+    - sample: `https://www.unicef.org/inno`
+- **[403]** `https://www.unicef.org/kyrgyzstan/press-releases/ministry-education-and-science-and-unicef-launch-digital-innovations-support-early` 
+    - referenced by `outputs/obsidian/Donors/unicef-kg-digital-early.md:34`
+    - referenced by `state/audit/link_report.json#$.results[448].final_url`
+    - referenced by `state/audit/link_report.json#$.results[448].url`
+    - referenced by `state/audit/references.json#$.ok[646].samples[1]`
+    - referenced by `state/audit/references.json#$.ok[646].samples[2]`
+    - sample: `- [Ministry of Education and Science and UNICEF launch digital innovations to support early learning in Kyrgyzstan](http`
+- **[404]** `https://24.kg/economy/309234_nbkr_zapustit_proekt_tsifrovogo_soma/` 
+    - referenced by `state/audit/link_report.json#$.results[519].final_url`
+    - referenced by `state/audit/link_report.json#$.results[519].url`
+    - referenced by `state/audit/references.json#$.broken[290].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[290].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[290].samples[2]`
+    - sample: `https://24.kg/economy/309234_nbkr_zapustit_proekt_tsifrovogo_soma/`
+- **[404]** `https://a2i.gov.bd/service/telemedicine/` 
+    - referenced by `state/audit/link_report.json#$.results[520].final_url`
+    - referenced by `state/audit/link_report.json#$.results[520].url`
+    - referenced by `state/audit/references.json#$.broken[291].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[291].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[291].samples[2]`
+    - sample: `https://a2i.gov.bd/service/telemedicine/`
+- **[404]** `https://aifc.kz/en/` 
+    - referenced by `state/audit/link_report.json#$.results[524].final_url`
+    - referenced by `state/audit/link_report.json#$.results[524].url`
+    - referenced by `state/audit/references.json#$.broken[292].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[292].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[292].samples[2]`
+    - sample: `https://aifc.kz/en/`
+- **[404]** `https://avaluev.github.io/ca-b2g-rese` 
+    - referenced by `state/audit/references.json#$.broken[293].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[293].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[293].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[293].target`
+    - referenced by `state/audit/references.json#$.ok[55].samples[0]`
+    - sample: `https://avaluev.github.io/ca-b2g-rese`
+- **[404]** `https://avaluev.github.io/ca-b2g-resea` 
+    - referenced by `state/audit/references.json#$.broken[294].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[294].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[294].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[294].target`
+    - referenced by `state/audit/references.json#$.ok[62].samples[0]`
+    - sample: `https://avaluev.github.io/ca-b2g-resea`
+- **[404]** `https://avaluev.github.io/ca-b2g-resear` 
+    - referenced by `state/audit/references.json#$.broken[295].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[295].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[295].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[295].target`
+    - referenced by `state/audit/references.json#$.ok[110].samples[2]`
+    - sample: `https://avaluev.github.io/ca-b2g-resear`
+- **[404]** `https://avaluev.github.io/ca-b2g-research/ru/` 
+    - referenced by `state/audit/references.json#$.broken[313].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[313].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[313].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[313].target`
+    - referenced by `state/audit/team/15_i18n.md:112`
+    - sample: `<link rel="alternate" hreflang="ru" href="https://avaluev.github.io/ca-b2g-research/ru/">`
+- **[404]** `https://bilimland.kz/en/about` 
+    - referenced by `state/audit/link_report.json#$.results[530].final_url`
+    - referenced by `state/audit/link_report.json#$.results[530].url`
+    - referenced by `state/audit/references.json#$.broken[318].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[318].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[318].samples[2]`
+    - sample: `https://bilimland.kz/en/about`
+- **[404]** `https://cigre.org/technical-publications/cigre-technical-brochure-predictive-maintenance` 
+    - referenced by `state/audit/link_report.json#$.results[533].url`
+    - referenced by `state/audit/references.json#$.broken[319].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[319].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[319].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[319].target`
+    - sample: `https://cigre.org/technical-publications/cigre-technical-brochure-predictive-maintenance`
+- **[404]** `https://cointelegraph.com/news/kyrgyzstan-president-signs-cbdc-law-giving-digital-som-legal-status` 
+    - referenced by `state/audit/link_report.json#$.results[464].final_url`
+    - referenced by `state/audit/link_report.json#$.results[464].url`
+    - referenced by `state/audit/references.json#$.broken[320].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[320].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[320].samples[2]`
+    - sample: `https://cointelegraph.com/news/kyrgyzstan-president-signs-cbdc-law-giving-digital-som-legal-status`
+- **[404]** `https://devtracker.fcdo.gov.uk/progr` 
+    - referenced by `state/audit/references.json#$.broken[321].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[321].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[321].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[321].target`
+    - referenced by `state/audit/references.json#$.ok[199].samples[0]`
+    - sample: `https://devtracker.fcdo.gov.uk/progr`
+- **[404]** `https://digital.gov.kg/wp-content/uploads/2024/06/plan-meropriyatij-po-realizaczii-konczepczii-czifrovoj-tr` 
+    - referenced by `state/audit/references.json#$.broken[322].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[322].target`
+    - sample: `https://digital.gov.kg/wp-content/uploads/2024/06/plan-meropriyatij-po-realizaczii-konczepczii-czifrovoj-tr`
+- **[404]** `https://digital.gov.kg/wp-content/uploads/2024/06/plan-meropriyatij-po-realizaczii-konczepczii-czifrovoj-transformaczii-kyrgyzskoj-respubliki-na-2024-2028-gody` 
+    - referenced by `state/audit/references.json#$.broken[323].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[323].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[323].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[323].target`
+    - referenced by `state/audit/references.json#$.broken[324].samples[1]`
+    - sample: `https://digital.gov.kg/wp-content/uploads/2024/06/plan-meropriyatij-po-realizaczii-konczepczii-czifrovoj-transformaczii-kyrgyzskoj-respubliki-na-2024-2028-gody`
+- **[404]** `https://digital.gov.kg/wp-content/uploads/2024/06/plan-meropriyatij-po-realizaczii-konczepczii-czifrovoj-transformaczii-kyrgyzskoj-respubliki-na-2024-2028-gody.pdf` 
+    - referenced by `outputs/obsidian/Decrees/kg-cabinet-2025-digital-concept-plan.md:36`
+    - referenced by `state/audit/link_report.json#$.results[41].final_url`
+    - referenced by `state/audit/link_report.json#$.results[41].url`
+    - referenced by `state/audit/references.json#$.broken[324].target`
+    - referenced by `state/decrees/kg_decrees.json#$[27].sources[1].url`
+    - sample: `- [План мероприятий по реализации Концепции цифровой трансформации Кыргызской Республики на 2024-2028 годы](https://digi`
+- **[404]** `https://diia.gov.ua/en/wartime` 
+    - referenced by `state/audit/link_report.json#$.results[548].final_url`
+    - referenced by `state/audit/link_report.json#$.results[548].url`
+    - referenced by `state/audit/references.json#$.broken[325].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[325].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[325].samples[2]`
+    - sample: `https://diia.gov.ua/en/wartime`
+- **[404]** `https://documents.worldbank.org/en/publication/d` 
+    - referenced by `state/audit/references.json#$.broken[326].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[326].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[326].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[326].target`
+    - referenced by `state/audit/references.json#$.ok[208].samples[0]`
+    - sample: `https://documents.worldbank.org/en/publication/d`
+- **[404]** `https://documents1.worldbank.org/curated/en/09` 
+    - referenced by `state/audit/references.json#$.broken[327].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[327].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[327].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[327].target`
+    - referenced by `state/audit/references.json#$.ok[209].samples[0]`
+    - sample: `https://documents1.worldbank.org/curated/en/09`
+- **[404]** `https://documents1.worldbank.org/curated/en/099042525031049395/` 
+    - referenced by `state/audit/references.json#$.broken[328].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[328].target`
+    - sample: `https://documents1.worldbank.org/curated/en/099042525031049395/`
+- **[404]** `https://documents1.worldbank.org/curated/en/099042525031049395/pdf/P178562` 
+    - referenced by `state/audit/audit_report.md:52`
+    - referenced by `state/audit/references.json#$.broken[329].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[329].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[329].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[329].target`
+    - sample: `| 27 | Donor program | WB-UZ-HEALTH-P178562 | https://documents1.worldbank.org/curated/en/099042525031049395/pdf/P178562`
+- **[404]** `https://e-estonia.com/salme-ai-powered-court-assistant/` 
+    - referenced by `state/audit/link_report.json#$.results[551].final_url`
+    - referenced by `state/audit/link_report.json#$.results[551].url`
+    - referenced by `state/audit/references.json#$.broken[330].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[330].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[330].samples[2]`
+    - sample: `https://e-estonia.com/salme-ai-powered-court-assistant/`
+- **[404]** `https://e-estonia.com/solutions/e-identity/e-residency/` 
+    - referenced by `state/audit/link_report.json#$.results[552].final_url`
+    - referenced by `state/audit/link_report.json#$.results[552].url`
+    - referenced by `state/audit/references.json#$.broken[331].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[331].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[331].samples[2]`
+    - sample: `https://e-estonia.com/solutions/e-identity/e-residency/`
+- **[404]** `https://e-estonia.com/solutions/e-taxes/e-tax-declaration/` 
+    - referenced by `state/audit/link_report.json#$.results[554].final_url`
+    - referenced by `state/audit/link_report.json#$.results[554].url`
+    - referenced by `state/audit/references.json#$.broken[332].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[332].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[332].samples[2]`
+    - sample: `https://e-estonia.com/solutions/e-taxes/e-tax-declaration/`
+- **[404]** `https://e-estonia.com/solutions/energy/smart-grid/` 
+    - referenced by `state/audit/link_report.json#$.results[555].final_url`
+    - referenced by `state/audit/link_report.json#$.results[555].url`
+    - referenced by `state/audit/references.json#$.broken[333].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[333].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[333].samples[2]`
+    - sample: `https://e-estonia.com/solutions/energy/smart-grid/`
+- **[404]** `https://e-estonia.com/solutions/healthcare/e-health-record/` 
+    - referenced by `state/audit/link_report.json#$.results[556].final_url`
+    - referenced by `state/audit/link_report.json#$.results[556].url`
+    - referenced by `state/audit/references.json#$.broken[334].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[334].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[334].samples[2]`
+    - sample: `https://e-estonia.com/solutions/healthcare/e-health-record/`
+- **[404]** `https://e-mongolia.mn/education` 
+    - referenced by `state/audit/link_report.json#$.results[558].final_url`
+    - referenced by `state/audit/link_report.json#$.results[558].url`
+    - referenced by `state/audit/references.json#$.broken[335].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[335].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[335].samples[2]`
+    - sample: `https://e-mongolia.mn/education`
+- **[404]** `https://eadaily.com/ru/news/2025/01/28/v-ki` 
+    - referenced by `state/audit/references.json#$.broken[336].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[336].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[336].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[336].target`
+    - referenced by `state/audit/references.json#$.ok[216].samples[0]`
+    - sample: `https://eadaily.com/ru/news/2025/01/28/v-ki`
+- **[404]** `https://ec.europa.eu/international-partnerships/where-we-work/central-asia` 
+    - referenced by `outputs/obsidian/Institutions/kg-eu-piu-c4ca.md:37`
+    - referenced by `outputs/obsidian/Institutions/uz-eu-piu-digital.md:37`
+    - referenced by `state/audit/link_report.json#$.results[207].url`
+    - referenced by `state/audit/references.json#$.broken[337].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[337].samples[2]`
+    - sample: `- [EU C4CA Program Kyrgyzstan Components](https://ec.europa.eu/international-partnerships/where-we-work/central-asia) (e`
+- **[404]** `https://ec.europa.eu/international-partnerships/where-we-work/central-asia/connectivity-central-asia_en` 
+    - referenced by `state/audit/link_report.json#$.results[561].url`
+    - referenced by `state/audit/references.json#$.broken[338].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[338].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[338].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[338].target`
+    - sample: `https://ec.europa.eu/international-partnerships/where-we-work/central-asia/connectivity-central-asia_en`
+- **[404]** `https://economist.kg/vlas` 
+    - referenced by `state/audit/references.json#$.broken[339].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[339].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[339].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[339].target`
+    - referenced by `state/audit/references.json#$.ok[221].samples[1]`
+    - sample: `https://economist.kg/vlas`
+- **[404]** `https://egov.kz/cms/en/about` 
+    - referenced by `state/audit/link_report.json#$.results[562].final_url`
+    - referenced by `state/audit/link_report.json#$.results[562].url`
+    - referenced by `state/audit/references.json#$.broken[340].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[340].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[340].samples[2]`
+    - sample: `https://egov.kz/cms/en/about`
+- **[404]** `https://egov.kz/cms/en/articles/health-epsd` 
+    - referenced by `state/audit/link_report.json#$.results[563].final_url`
+    - referenced by `state/audit/link_report.json#$.results[563].url`
+    - referenced by `state/audit/references.json#$.broken[341].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[341].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[341].samples[2]`
+    - sample: `https://egov.kz/cms/en/articles/health-epsd`
+- **[404]** `https://egov.kz/cms/en/articles/transport-documents` 
+    - referenced by `state/audit/link_report.json#$.results[564].final_url`
+    - referenced by `state/audit/link_report.json#$.results[564].url`
+    - referenced by `state/audit/references.json#$.broken[342].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[342].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[342].samples[2]`
+    - sample: `https://egov.kz/cms/en/articles/transport-documents`
+- **[404]** `https://en.kabar.kg/news/huawei-intends-to-cr` 
+    - referenced by `state/audit/references.json#$.broken[343].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[343].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[343].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[343].target`
+    - referenced by `state/audit/references.json#$.ok[231].samples[0]`
+    - sample: `https://en.kabar.kg/news/huawei-intends-to-cr`
+- **[404]** `https://gds.blog.gov.uk/2023/05/18/introducing-gov-uk-one-login/` 
+    - referenced by `state/audit/link_report.json#$.results[569].final_url`
+    - referenced by `state/audit/link_report.json#$.results[569].url`
+    - referenced by `state/audit/references.json#$.broken[344].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[344].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[344].samples[2]`
+    - sample: `https://gds.blog.gov.uk/2023/05/18/introducing-gov-uk-one-login/`
+- **[404]** `https://github.com/avaluev/ca-b` 
+    - referenced by `state/audit/references.json#$.broken[345].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[345].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[345].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[345].target`
+    - referenced by `state/audit/references.json#$.ok[325].samples[0]`
+    - sample: `https://github.com/avaluev/ca-b`
+- **[404]** `https://github.com/avaluev/ca-b2g-res` 
+    - referenced by `state/audit/references.json#$.broken[346].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[346].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[346].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[346].target`
+    - referenced by `state/audit/references.json#$.ok[282].samples[1]`
+    - sample: `https://github.com/avaluev/ca-b2g-res`
+- **[404]** `https://github.com/avaluev/ca-b2g-research/blob/main/.claude/audit-team/01_reference_benchmarker.md` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/audit-team/`
+    - referenced by `state/audit/references.json#$.broken[347].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[347].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[347].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[347].target`
+    - sample: `https://github.com/avaluev/ca-b2g-research/blob/main/.claude/audit-team/01_reference_benchmarker.md`
+- **[404]** `https://github.com/avaluev/ca-b2g-research/blob/main/.claude/audit-team/03_content_voice_editor.md` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/audit-team/`
+    - referenced by `state/audit/references.json#$.broken[348].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[348].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[348].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[348].target`
+    - sample: `https://github.com/avaluev/ca-b2g-research/blob/main/.claude/audit-team/03_content_voice_editor.md`
+- **[404]** `https://github.com/avaluev/ca-b2g-research/blob/main/.claude/audit-team/08_accessibility_wcag_22_aa.md` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/audit-team/`
+    - referenced by `state/audit/references.json#$.broken[349].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[349].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[349].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[349].target`
+    - sample: `https://github.com/avaluev/ca-b2g-research/blob/main/.claude/audit-team/08_accessibility_wcag_22_aa.md`
+- **[404]** `https://github.com/avaluev/ca-b2g-research/blob/main/.claude/audit-team/09_performance_engineer.md` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/audit-team/`
+    - referenced by `state/audit/references.json#$.broken[350].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[350].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[350].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[350].target`
+    - sample: `https://github.com/avaluev/ca-b2g-research/blob/main/.claude/audit-team/09_performance_engineer.md`
+- **[404]** `https://github.com/avaluev/ca-b2g-research/blob/main/.claude/audit-team/16_dev_ex_reproducibility.md` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/audit-team/`
+    - referenced by `state/audit/references.json#$.broken[351].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[351].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[351].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[351].target`
+    - sample: `https://github.com/avaluev/ca-b2g-research/blob/main/.claude/audit-team/16_dev_ex_reproducibility.md`
+- **[404]** `https://github.com/avaluev/ca-b2g-research/raw/main/outputs/crm/FILENAME.csv` 
+    - referenced by `state/audit/references.json#$.broken[352].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[352].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[352].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[352].target`
+    - referenced by `state/audit/team/14_conversion.md:175`
+    - sample: `<a href="https://github.com/avaluev/ca-b2g-research/raw/main/outputs/crm/FILENAME.csv" style="color:#062">CSV</a>`
+- **[404]** `https://github.com/avaluev/padel-` 
+    - referenced by `state/audit/references.json#$.broken[354].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[354].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[354].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[354].target`
+    - referenced by `state/audit/references.json#$.ok[174].samples[0]`
+    - sample: `https://github.com/avaluev/padel-`
+- **[404]** `https://international-partnerships.ec.europa.eu/countries/central-asia` 
+    - referenced by `state/audit/link_report.json#$.results[207].final_url`
+    - referenced by `state/audit/references.json#$.broken[355].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[355].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[355].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[355].target`
+    - sample: `https://international-partnerships.ec.europa.eu/countries/central-asia`
+- **[404]** `https://international-partnerships.ec.europa.eu/countries/central-asia/connectivity-central-asia_en` 
+    - referenced by `state/audit/link_report.json#$.results[561].final_url`
+    - referenced by `state/audit/references.json#$.broken[356].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[356].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[356].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[356].target`
+    - sample: `https://international-partnerships.ec.europa.eu/countries/central-asia/connectivity-central-asia_en`
+- **[404]** `https://interoperable-europe.ec.europa.eu/collection/egovernment/document/govgr-greece` 
+    - referenced by `state/audit/link_report.json#$.results[577].final_url`
+    - referenced by `state/audit/references.json#$.broken[357].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[357].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[357].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[357].target`
+    - sample: `https://interoperable-europe.ec.europa.eu/collection/egovernment/document/govgr-greece`
+- **[404]** `https://joinup.ec.europa.eu/collection/egovernment/document/govgr-greece` 
+    - referenced by `state/audit/link_report.json#$.results[577].url`
+    - referenced by `state/audit/references.json#$.broken[358].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[358].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[358].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[358].target`
+    - sample: `https://joinup.ec.europa.eu/collection/egovernment/document/govgr-greece`
+- **[404]** `https://kgd.gov.kz/en/content/digital-customs` 
+    - referenced by `state/audit/link_report.json#$.results[580].final_url`
+    - referenced by `state/audit/link_report.json#$.results[580].url`
+    - referenced by `state/audit/references.json#$.broken[359].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[359].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[359].samples[2]`
+    - sample: `https://kgd.gov.kz/en/content/digital-customs`
+- **[404]** `https://kgd.gov.kz/en/content/smart-bridge` 
+    - referenced by `state/audit/link_report.json#$.results[581].final_url`
+    - referenced by `state/audit/link_report.json#$.results[581].url`
+    - referenced by `state/audit/references.json#$.broken[360].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[360].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[360].samples[2]`
+    - sample: `https://kgd.gov.kz/en/content/smart-bridge`
+- **[404]** `https://kun.uz/en/news/2024/smart-meters-uzbekistan` 
+    - referenced by `state/audit/link_report.json#$.results[582].final_url`
+    - referenced by `state/audit/link_report.json#$.results[582].url`
+    - referenced by `state/audit/references.json#$.broken[361].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[361].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[361].samples[2]`
+    - sample: `https://kun.uz/en/news/2024/smart-meters-uzbekistan`
+- **[404]** `https://kun.uz/en/news/2026/04/27/` 
+    - referenced by `state/audit/references.json#$.broken[362].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[362].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[362].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[362].target`
+    - referenced by `state/audit/references.json#$.ok[343].samples[0]`
+    - sample: `https://kun.uz/en/news/2026/04/27/`
+- **[404]** `https://kun.uz/ru/category/society/` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-064.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-072.md:29`
+    - referenced by `state/audit/references.json#$.broken[363].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[363].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[363].samples[2]`
+    - sample: `**Evidence**: https://kun.uz/ru/category/society/`
+- **[404]** `https://kun.uz/ru/news/2024/06/12/zdorovie-uzbekistan` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-037.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-040.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-044.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-045.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-049.md:29`
+    - sample: `**Evidence**: https://kun.uz/ru/news/2024/06/12/zdorovie-uzbekistan`
+- **[404]** `https://kun.uz/ru/news/2024/12/15/uzbek-academia` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-067.md:29`
+    - referenced by `state/audit/references.json#$.broken[365].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[365].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[365].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[365].target`
+    - sample: `**Evidence**: https://kun.uz/ru/news/2024/12/15/uzbek-academia`
+- **[404]** `https://kun.uz/ru/news/2025/03/10/mahalla-shikoyatlar` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-005.md:29`
+    - referenced by `state/audit/references.json#$.broken[366].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[366].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[366].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[366].target`
+    - sample: `**Evidence**: https://kun.uz/ru/news/2025/03/10/mahalla-shikoyatlar`
+- **[404]** `https://kun.uz/ru/news/2025/09/15/elektronnoe-pravitelstvo-mahalla` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-002.md:29`
+    - referenced by `state/audit/references.json#$.broken[367].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[367].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[367].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[367].target`
+    - sample: `**Evidence**: https://kun.uz/ru/news/2025/09/15/elektronnoe-pravitelstvo-mahalla`
+- **[404]** `https://lex.uz/d` 
+    - referenced by `state/audit/references.json#$.broken[368].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[368].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[368].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[368].target`
+    - referenced by `state/audit/references.json#$.ok[360].samples[1]`
+    - sample: `https://lex.uz/d`
+- **[404]** `https://lex.uz/do` 
+    - referenced by `state/audit/references.json#$.broken[369].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[369].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[369].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[369].target`
+    - referenced by `state/audit/references.json#$.ok[356].samples[1]`
+    - sample: `https://lex.uz/do`
+- **[404]** `https://lex.uz/ru/d` 
+    - referenced by `state/audit/references.json#$.broken[370].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[370].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[370].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[370].target`
+    - referenced by `state/audit/references.json#$.ok[383].samples[1]`
+    - sample: `https://lex.uz/ru/d`
+- **[404]** `https://lex.uz/ru/do` 
+    - referenced by `state/audit/references.json#$.broken[371].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[371].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[371].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[371].target`
+    - referenced by `state/audit/references.json#$.ok[365].samples[1]`
+    - sample: `https://lex.uz/ru/do`
+- **[404]** `https://lex.uz/ru/doc` 
+    - referenced by `state/audit/references.json#$.broken[372].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[372].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[372].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[372].target`
+    - referenced by `state/audit/references.json#$.ok[363].samples[1]`
+    - sample: `https://lex.uz/ru/doc`
+- **[404]** `https://lex.uz/ru/docs/4720414` 
+    - referenced by `state/audit/references.json#$.broken[373].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[373].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[373].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[373].target`
+    - referenced by `state/external/audit/0ddf65e0e552b9df.json#$.responses[1].answer`
+    - sample: `https://lex.uz/ru/docs/4720414`
+- **[404]** `https://lex.uz/ru/docs/677` 
+    - referenced by `state/audit/references.json#$.broken[374].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[374].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[374].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[374].target`
+    - referenced by `state/audit/references.json#$.ok[376].samples[1]`
+    - sample: `https://lex.uz/ru/docs/677`
+- **[404]** `https://lex.uz/ru/docs/7203456` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-041.md:29`
+    - referenced by `state/audit/references.json#$.broken[375].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[375].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[375].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[375].target`
+    - sample: `**Evidence**: https://lex.uz/ru/docs/7203456`
+- **[404]** `https://lex.uz/ru/docs/{id` 
+    - referenced by `state/audit/references.json#$.broken[376].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[376].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[376].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[376].target`
+    - referenced by `state/blueprint/search_strategies.md:141`
+    - sample: `https://lex.uz/ru/docs/{id}?ONDATE=DD.MM.YYYY  # historical version on a date`
+- **[404]** `https://lex.uz/ru/docs/{numeric_id` 
+    - referenced by `state/audit/references.json#$.broken[377].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[377].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[377].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[377].target`
+    - referenced by `state/blueprint/search_strategies.md:139`
+    - sample: `https://lex.uz/ru/docs/{numeric_id}      # Russian`
+- **[404]** `https://lex.uz/uz/docs/` 
+    - referenced by `state/audit/references.json#$.broken[378].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[378].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[378].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[378].target`
+    - referenced by `state/audit/references.json#$.ok[400].samples[1]`
+    - sample: `https://lex.uz/uz/docs/`
+- **[404]** `https://lex.uz/uz/docs/{numeric_id` 
+    - referenced by `state/audit/references.json#$.broken[379].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[379].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[379].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[379].target`
+    - referenced by `state/blueprint/search_strategies.md:140`
+    - sample: `https://lex.uz/uz/docs/{numeric_id}      # Uzbek`
+- **[404]** `https://likumi.lv/ta/en/en/id/331378` 
+    - referenced by `state/audit/link_report.json#$.results[583].final_url`
+    - referenced by `state/audit/link_report.json#$.results[583].url`
+    - referenced by `state/audit/references.json#$.broken[380].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[380].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[380].samples[2]`
+    - sample: `https://likumi.lv/ta/en/en/id/331378`
+- **[404]** `https://publicadministration.un.org/unpsa/Portals/0/UNPSA%20Database%20Entries/2015/A3/2015_A3_Azerbaijan_A` 
+    - referenced by `state/audit/references.json#$.broken[381].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[381].target`
+    - sample: `https://publicadministration.un.org/unpsa/Portals/0/UNPSA%20Database%20Entries/2015/A3/2015_A3_Azerbaijan_A`
+- **[404]** `https://publicadministration.un.org/unpsa/Portals/0/UNPSA%20Database%20Entries/2015/A3/2015_A3_Azerbaijan_ASA` 
+    - referenced by `state/audit/references.json#$.broken[382].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[382].target`
+    - sample: `https://publicadministration.un.org/unpsa/Portals/0/UNPSA%20Database%20Entries/2015/A3/2015_A3_Azerbaijan_ASA`
+- **[404]** `https://publicadministration.un.org/unpsa/Portals/0/UNPSA%20Database%20Entries/2015/A3/2015_A3_Azerbaijan_ASAN%20Service.pdf` 
+    - referenced by `state/audit/link_report.json#$.results[589].final_url`
+    - referenced by `state/audit/link_report.json#$.results[589].url`
+    - referenced by `state/audit/references.json#$.broken[383].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[383].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[383].samples[2]`
+    - sample: `https://publicadministration.un.org/unpsa/Portals/0/UNPSA%20Database%20Entries/2015/A3/2015_A3_Azerbaijan_ASAN%20Service.pdf`
+- **[404]** `https://tuwaiq.edu.sa/en` 
+    - referenced by `state/audit/link_report.json#$.results[602].final_url`
+    - referenced by `state/audit/link_report.json#$.results[602].url`
+    - referenced by `state/audit/references.json#$.broken[384].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[384].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[384].samples[2]`
+    - sample: `https://tuwaiq.edu.sa/en`
+- **[404]** `https://www.aifc.kz/en/fintech-lab/` 
+    - referenced by `state/audit/link_report.json#$.results[607].final_url`
+    - referenced by `state/audit/link_report.json#$.results[607].url`
+    - referenced by `state/audit/references.json#$.broken[385].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[385].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[385].samples[2]`
+    - sample: `https://www.aifc.kz/en/fintech-lab/`
+- **[404]** `https://www.apache.org/licenses/LICEN` 
+    - referenced by `state/audit/references.json#$.broken[386].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[386].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[386].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[386].target`
+    - referenced by `state/audit/references.json#$.ok[323].samples[0]`
+    - sample: `https://www.apache.org/licenses/LICEN`
+- **[404]** `https://www.cgiar.org/news-events/news/india-agristack/` 
+    - referenced by `state/audit/link_report.json#$.results[612].final_url`
+    - referenced by `state/audit/link_report.json#$.results[612].url`
+    - referenced by `state/audit/references.json#$.broken[387].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[387].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[387].samples[2]`
+    - sample: `https://www.cgiar.org/news-events/news/india-agristack/`
+- **[404]** `https://www.cigre.org/technical-publications/cigre-technical-brochure-predictive-maintenance` 
+    - referenced by `state/audit/link_report.json#$.results[533].final_url`
+    - referenced by `state/audit/references.json#$.broken[388].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[388].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[388].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[388].target`
+    - sample: `https://www.cigre.org/technical-publications/cigre-technical-brochure-predictive-maintenance`
+- **[404]** `https://www.clevelandart.org/artlens-gallery/artlens-ai` 
+    - referenced by `state/audit/link_report.json#$.results[535].final_url`
+    - referenced by `state/audit/references.json#$.broken[389].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[389].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[389].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[389].target`
+    - sample: `https://www.clevelandart.org/artlens-gallery/artlens-ai`
+- **[404]** `https://www.deltares.nl/en/global-flood-monitor` 
+    - referenced by `state/audit/link_report.json#$.results[613].final_url`
+    - referenced by `state/audit/link_report.json#$.results[613].url`
+    - referenced by `state/audit/references.json#$.broken[390].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[390].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[390].samples[2]`
+    - sample: `https://www.deltares.nl/en/global-flood-monitor`
+- **[404]** `https://www.deltares.nl/expertise/urban-water/climate-adaptation/` 
+    - referenced by `state/audit/link_report.json#$.results[614].final_url`
+    - referenced by `state/audit/link_report.json#$.results[614].url`
+    - referenced by `state/audit/references.json#$.broken[391].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[391].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[391].samples[2]`
+    - sample: `https://www.deltares.nl/expertise/urban-water/climate-adaptation/`
+- **[404]** `https://www.deza.eda.admin.ch/en/country-central` 
+    - referenced by `state/audit/references.json#$.broken[392].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[392].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[392].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[392].target`
+    - referenced by `state/audit/references.json#$.ok[548].samples[0]`
+    - sample: `https://www.deza.eda.admin.ch/en/country-central`
+- **[404]** `https://www.donors.kg/en/agencie` 
+    - referenced by `state/audit/references.json#$.broken[393].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[393].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[393].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[393].target`
+    - referenced by `state/audit/references.json#$.ok[551].samples[0]`
+    - sample: `https://www.donors.kg/en/agencie`
+- **[404]** `https://www.ebrd.com/content/dam/ebrd_dxp/assets/pdfs/country-strate` 
+    - referenced by `state/audit/references.json#$.broken[394].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[394].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[394].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[394].target`
+    - referenced by `state/audit/references.json#$.ok[553].samples[0]`
+    - sample: `https://www.ebrd.com/content/dam/ebrd_dxp/assets/pdfs/country-strate`
+- **[404]** `https://www.ebrd.com/news/2024/ebrd-approves-new-country-st` 
+    - referenced by `state/audit/references.json#$.broken[395].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[395].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[395].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[395].target`
+    - referenced by `state/audit/references.json#$.ok[556].samples[0]`
+    - sample: `https://www.ebrd.com/news/2024/ebrd-approves-new-country-st`
+- **[404]** `https://www.eeas.europa.eu/dele` 
+    - referenced by `state/audit/references.json#$.broken[396].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[396].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[396].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[396].target`
+    - referenced by `state/audit/references.json#$.ok[559].samples[0]`
+    - sample: `https://www.eeas.europa.eu/dele`
+- **[404]** `https://www.eeas.europa.eu/delegations/kyrgyz-republic/global-gatew` 
+    - referenced by `state/audit/references.json#$.broken[397].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[397].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[397].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[397].target`
+    - referenced by `state/audit/references.json#$.ok[558].samples[0]`
+    - sample: `https://www.eeas.europa.eu/delegations/kyrgyz-republic/global-gatew`
+- **[404]** `https://www.eib.org/en/press/all/2025-148` 
+    - referenced by `state/audit/audit_report.md:51`
+    - referenced by `state/audit/references.json#$.broken[398].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[398].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[398].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[398].target`
+    - sample: `| 26 | Donor program | EU-BOTH-GLOBAL-GATEWAY-CA | https://www.eib.org/en/press/all/2025-148 | Reachable; €60M digital c`
+- **[404]** `https://www.emta.ee/en/private-client/tax-return` 
+    - referenced by `state/audit/link_report.json#$.results[620].final_url`
+    - referenced by `state/audit/link_report.json#$.results[620].url`
+    - referenced by `state/audit/references.json#$.broken[399].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[399].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[399].samples[2]`
+    - sample: `https://www.emta.ee/en/private-client/tax-return`
+- **[404]** `https://www.eon.com/en/business-customers/innovations/data-analytics.html` 
+    - referenced by `state/audit/link_report.json#$.results[622].final_url`
+    - referenced by `state/audit/link_report.json#$.results[622].url`
+    - referenced by `state/audit/references.json#$.broken[400].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[400].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[400].samples[2]`
+    - sample: `https://www.eon.com/en/business-customers/innovations/data-analytics.html`
+- **[404]** `https://www.eucybernet.eu/project/connectivity-for-c` 
+    - referenced by `state/audit/references.json#$.broken[401].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[401].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[401].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[401].target`
+    - referenced by `state/audit/references.json#$.ok[564].samples[2]`
+    - sample: `https://www.eucybernet.eu/project/connectivity-for-c`
+- **[404]** `https://www.euronews.com/20` 
+    - referenced by `state/audit/references.json#$.broken[402].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[402].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[402].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[402].target`
+    - referenced by `state/audit/references.json#$.ok[565].samples[0]`
+    - sample: `https://www.euronews.com/20`
+- **[404]** `https://www.ilo.org/asia/countries/india/WCMS_832540/lang--en/index.htm` 
+    - referenced by `state/audit/link_report.json#$.results[638].final_url`
+    - referenced by `state/audit/link_report.json#$.results[638].url`
+    - referenced by `state/audit/references.json#$.broken[406].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[406].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[406].samples[2]`
+    - sample: `https://www.ilo.org/asia/countries/india/WCMS_832540/lang--en/index.htm`
+- **[404]** `https://www.ilo.org/global/about-the-ilo/newsroom/news/WCMS_887302/lang--en/index.htm` 
+    - referenced by `state/audit/link_report.json#$.results[639].final_url`
+    - referenced by `state/audit/link_report.json#$.results[639].url`
+    - referenced by `state/audit/references.json#$.broken[407].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[407].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[407].samples[2]`
+    - sample: `https://www.ilo.org/global/about-the-ilo/newsroom/news/WCMS_887302/lang--en/index.htm`
+- **[404]** `https://www.ilo.org/global/publications/labour-market-central-asia-digital` 
+    - referenced by `state/audit/link_report.json#$.results[640].final_url`
+    - referenced by `state/audit/link_report.json#$.results[640].url`
+    - referenced by `state/audit/references.json#$.broken[408].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[408].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[408].samples[2]`
+    - sample: `https://www.ilo.org/global/publications/labour-market-central-asia-digital`
+- **[404]** `https://www.isdb.org/news/islamic-develop` 
+    - referenced by `state/audit/references.json#$.broken[409].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[409].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[409].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[409].target`
+    - referenced by `state/audit/references.json#$.ok[591].samples[0]`
+    - sample: `https://www.isdb.org/news/islamic-develop`
+- **[404]** `https://www.just.ee/en/courts/court-administration/e-court` 
+    - referenced by `state/audit/link_report.json#$.results[645].url`
+    - referenced by `state/audit/references.json#$.broken[410].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[410].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[410].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[410].target`
+    - sample: `https://www.just.ee/en/courts/court-administration/e-court`
+- **[404]** `https://www.justdigi.ee/en/courts/court-administration/e-court` 
+    - referenced by `state/audit/link_report.json#$.results[645].final_url`
+    - referenced by `state/audit/references.json#$.broken[411].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[411].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[411].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[411].target`
+    - sample: `https://www.justdigi.ee/en/courts/court-administration/e-court`
+- **[404]** `https://www.lta.gov.sg/content/ltagov/en/getting_around/public_transport/transport_smartcards_tickets.html` 
+    - referenced by `state/audit/link_report.json#$.results[655].final_url`
+    - referenced by `state/audit/link_report.json#$.results[655].url`
+    - referenced by `state/audit/references.json#$.broken[412].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[412].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[412].samples[2]`
+    - sample: `https://www.lta.gov.sg/content/ltagov/en/getting_around/public_transport/transport_smartcards_tickets.html`
+- **[404]** `https://www.mddi.gov.sg/news/speeches/` 
+    - referenced by `state/audit/link_report.json#$.results[657].final_url`
+    - referenced by `state/audit/link_report.json#$.results[657].url`
+    - referenced by `state/audit/references.json#$.broken[413].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[413].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[413].samples[2]`
+    - sample: `https://www.mddi.gov.sg/news/speeches/`
+- **[404]** `https://www.nao.org.uk/report/digital-transformation-of-services/` 
+    - referenced by `state/audit/link_report.json#$.results[665].url`
+    - referenced by `state/audit/references.json#$.broken[414].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[414].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[414].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[414].target`
+    - sample: `https://www.nao.org.uk/report/digital-transformation-of-services/`
+- **[404]** `https://www.nao.org.uk/reports/digital-transformation-of-services/` 
+    - referenced by `state/audit/link_report.json#$.results[665].final_url`
+    - referenced by `state/audit/references.json#$.broken[415].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[415].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[415].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[415].target`
+    - sample: `https://www.nao.org.uk/reports/digital-transformation-of-services/`
+- **[404]** `https://www.opensocietyfoundations.org/newsroom/open-soci` 
+    - referenced by `state/audit/references.json#$.broken[416].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[416].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[416].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[416].target`
+    - referenced by `state/audit/references.json#$.ok[634].samples[0]`
+    - sample: `https://www.opensocietyfoundations.org/newsroom/open-soci`
+- **[404]** `https://www.ria.ee/en/cyber-security.html` 
+    - referenced by `state/audit/link_report.json#$.results[673].final_url`
+    - referenced by `state/audit/link_report.json#$.results[673].url`
+    - referenced by `state/audit/references.json#$.broken[417].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[417].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[417].samples[2]`
+    - sample: `https://www.ria.ee/en/cyber-security.html`
+- **[404]** `https://www.rotterdam.nl/werken-leren/klimaat-adaptiestrategie` 
+    - referenced by `state/audit/link_report.json#$.results[674].final_url`
+    - referenced by `state/audit/references.json#$.broken[418].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[418].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[418].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[418].target`
+    - sample: `https://www.rotterdam.nl/werken-leren/klimaat-adaptiestrategie`
+- **[404]** `https://www.serpro.gov.br/menu/noticias/noticias-2022/gov-br-conquista-premio-internacional` 
+    - referenced by `state/audit/link_report.json#$.results[678].final_url`
+    - referenced by `state/audit/link_report.json#$.results[678].url`
+    - referenced by `state/audit/references.json#$.broken[419].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[419].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[419].samples[2]`
+    - sample: `https://www.serpro.gov.br/menu/noticias/noticias-2022/gov-br-conquista-premio-internacional`
+- **[404]** `https://www.sla.gov.sg/geospatial/virtual-singapore` 
+    - referenced by `state/audit/link_report.json#$.results[682].url`
+    - referenced by `state/audit/references.json#$.broken[420].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[420].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[420].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[420].target`
+    - sample: `https://www.sla.gov.sg/geospatial/virtual-singapore`
+- **[404]** `https://www.sla.gov.sg/geospatial/virtual-singapore/` 
+    - referenced by `state/audit/link_report.json#$.results[682].final_url`
+    - referenced by `state/audit/references.json#$.broken[421].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[421].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[421].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[421].target`
+    - sample: `https://www.sla.gov.sg/geospatial/virtual-singapore/`
+- **[404]** `https://www.spot.uz/ru/2024/01/15/uzbekistan-hotlines/` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-011.md:29`
+    - referenced by `state/audit/references.json#$.broken[422].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[422].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[422].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[422].target`
+    - sample: `**Evidence**: https://www.spot.uz/ru/2024/01/15/uzbekistan-hotlines/`
+- **[404]** `https://www.spot.uz/ru/2024/03/22/digital-documents/` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-015.md:29`
+    - referenced by `state/audit/references.json#$.broken[423].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[423].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[423].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[423].target`
+    - sample: `**Evidence**: https://www.spot.uz/ru/2024/03/22/digital-documents/`
+- **[404]** `https://www.spot.uz/ru/2024/06/02/dtm-tutors/` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-061.md:29`
+    - referenced by `state/audit/references.json#$.broken[424].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[424].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[424].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[424].target`
+    - sample: `**Evidence**: https://www.spot.uz/ru/2024/06/02/dtm-tutors/`
+- **[404]** `https://www.spot.uz/ru/2024/06/12/biometric-passport/` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-013.md:29`
+    - referenced by `state/audit/references.json#$.broken[425].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[425].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[425].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[425].target`
+    - sample: `**Evidence**: https://www.spot.uz/ru/2024/06/12/biometric-passport/`
+- **[404]** `https://www.spot.uz/ru/2024/06/12/maktab-uz/` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-066.md:29`
+    - referenced by `state/audit/references.json#$.broken[426].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[426].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[426].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[426].target`
+    - sample: `**Evidence**: https://www.spot.uz/ru/2024/06/12/maktab-uz/`
+- **[404]** `https://www.spot.uz/ru/2024/08/15/tiktok-uzbekistan/` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-022.md:29`
+    - referenced by `state/audit/references.json#$.broken[427].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[427].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[427].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[427].target`
+    - sample: `**Evidence**: https://www.spot.uz/ru/2024/08/15/tiktok-uzbekistan/`
+- **[404]** `https://www.spot.uz/ru/2024/09/05/itpark-junior/` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-069.md:29`
+    - referenced by `state/audit/references.json#$.broken[428].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[428].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[428].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[428].target`
+    - sample: `**Evidence**: https://www.spot.uz/ru/2024/09/05/itpark-junior/`
+- **[404]** `https://www.spot.uz/ru/2024/10/10/mental-health/` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-043.md:29`
+    - referenced by `state/audit/references.json#$.broken[429].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[429].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[429].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[429].target`
+    - sample: `**Evidence**: https://www.spot.uz/ru/2024/10/10/mental-health/`
+- **[404]** `https://www.spot.uz/ru/2024/12/05/myid/` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-003.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-020.md:29`
+    - referenced by `state/audit/references.json#$.broken[430].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[430].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[430].samples[2]`
+    - sample: `**Evidence**: https://www.spot.uz/ru/2024/12/05/myid/`
+- **[404]** `https://www.spot.uz/ru/2025/02/11/biznes-permits/` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-007.md:29`
+    - referenced by `state/audit/references.json#$.broken[431].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[431].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[431].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[431].target`
+    - sample: `**Evidence**: https://www.spot.uz/ru/2025/02/11/biznes-permits/`
+- **[404]** `https://www.spot.uz/ru/2025/05/14/zhaloba-guide/` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-017.md:29`
+    - referenced by `state/audit/references.json#$.broken[432].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[432].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[432].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[432].target`
+    - sample: `**Evidence**: https://www.spot.uz/ru/2025/05/14/zhaloba-guide/`
+- **[404]** `https://www.spot.uz/ru/2025/10/22/epigu/` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-001.md:29`
+    - referenced by `state/audit/references.json#$.broken[433].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[433].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[433].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[433].target`
+    - sample: `**Evidence**: https://www.spot.uz/ru/2025/10/22/epigu/`
+- **[404]** `https://www.spot.uz/ru/category/biznes/` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-012.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-099.md:29`
+    - referenced by `state/audit/references.json#$.broken[434].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[434].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[434].samples[2]`
+    - sample: `**Evidence**: https://www.spot.uz/ru/category/biznes/`
+- **[404]** `https://www.spot.uz/ru/category/biznes/agriculture/` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-029.md:29`
+    - referenced by `state/audit/references.json#$.broken[435].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[435].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[435].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[435].target`
+    - sample: `**Evidence**: https://www.spot.uz/ru/category/biznes/agriculture/`
+- **[404]** `https://www.spot.uz/ru/category/biznes/edu/` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-063.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-075.md:29`
+    - referenced by `state/audit/references.json#$.broken[436].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[436].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[436].samples[2]`
+    - sample: `**Evidence**: https://www.spot.uz/ru/category/biznes/edu/`
+- **[404]** `https://www.spot.uz/ru/category/biznes/finance/` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-052.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-055.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-060.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-092.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-098.md:29`
+    - sample: `**Evidence**: https://www.spot.uz/ru/category/biznes/finance/`
+- **[404]** `https://www.spot.uz/ru/category/biznes/health/` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-038.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-039.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-047.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-048.md:29`
+    - referenced by `state/audit/references.json#$.broken[438].samples[0]`
+    - sample: `**Evidence**: https://www.spot.uz/ru/category/biznes/health/`
+- **[404]** `https://www.spot.uz/ru/category/biznes/lifestyle/` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-077.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-086.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-095.md:29`
+    - referenced by `state/audit/references.json#$.broken[439].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[439].samples[1]`
+    - sample: `**Evidence**: https://www.spot.uz/ru/category/biznes/lifestyle/`
+- **[404]** `https://www.spot.uz/ru/category/biznes/logistics/` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-082.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-083.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-084.md:29`
+    - referenced by `state/audit/references.json#$.broken[440].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[440].samples[1]`
+    - sample: `**Evidence**: https://www.spot.uz/ru/category/biznes/logistics/`
+- **[404]** `https://www.spot.uz/ru/category/biznes/marketplace/` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-093.md:29`
+    - referenced by `state/audit/references.json#$.broken[441].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[441].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[441].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[441].target`
+    - sample: `**Evidence**: https://www.spot.uz/ru/category/biznes/marketplace/`
+- **[404]** `https://www.spot.uz/ru/category/biznes/transport/` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-080.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-081.md:29`
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-085.md:29`
+    - referenced by `state/audit/references.json#$.broken[442].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[442].samples[1]`
+    - sample: `**Evidence**: https://www.spot.uz/ru/category/biznes/transport/`
+- **[404]** `https://www.syke.fi/en-US/Research__Development/ICT_and_digitalization` 
+    - referenced by `state/audit/link_report.json#$.results[684].url`
+    - referenced by `state/audit/references.json#$.broken[443].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[443].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[443].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[443].target`
+    - sample: `https://www.syke.fi/en-US/Research__Development/ICT_and_digitalization`
+- **[404]** `https://www.syke.fi/en/en-US/Research__Development/ICT_and_digitalization` 
+    - referenced by `state/audit/link_report.json#$.results[684].final_url`
+    - referenced by `state/audit/references.json#$.broken[444].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[444].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[444].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[444].target`
+    - sample: `https://www.syke.fi/en/en-US/Research__Development/ICT_and_digitalization`
+- **[404]** `https://www.tech.gov.sg/media/technews/pair-ai-tool-public-service` 
+    - referenced by `state/audit/link_report.json#$.results[685].url`
+    - referenced by `state/audit/references.json#$.broken[445].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[445].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[445].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[445].target`
+    - sample: `https://www.tech.gov.sg/media/technews/pair-ai-tool-public-service`
+- **[404]** `https://www.tech.gov.sg/media/technews/singapore-police-force-artificial-intelligence` 
+    - referenced by `state/audit/link_report.json#$.results[686].url`
+    - referenced by `state/audit/references.json#$.broken[142].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[142].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[142].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[142].target`
+    - sample: `https://www.tech.gov.sg/media/technews/singapore-police-force-artificial-intelligence`
+- **[404]** `https://www.tech.gov.sg/technews/pair-ai-tool-public-service/` 
+    - referenced by `state/audit/link_report.json#$.results[685].final_url`
+    - referenced by `state/audit/references.json#$.broken[446].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[446].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[446].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[446].target`
+    - sample: `https://www.tech.gov.sg/technews/pair-ai-tool-public-service/`
+- **[404]** `https://www.tech.gov.sg/technews/singapore-police-force-artificial-intelligence/` 
+    - referenced by `state/audit/link_report.json#$.results[686].final_url`
+    - referenced by `state/audit/references.json#$.broken[447].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[447].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[447].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[447].target`
+    - sample: `https://www.tech.gov.sg/technews/singapore-police-force-artificial-intelligence/`
+- **[404]** `https://www.theguardian.com/australia-news/robodebt` 
+    - referenced by `state/audit/link_report.json#$.results[689].final_url`
+    - referenced by `state/audit/link_report.json#$.results[689].url`
+    - referenced by `state/audit/references.json#$.broken[448].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[448].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[448].samples[2]`
+    - sample: `https://www.theguardian.com/australia-news/robodebt`
+- **[404]** `https://www.theguardian.com/cities/2020/may/07/alphabet-sidewalk-labs-cancels-toronto-smart-city-project` 
+    - referenced by `state/audit/link_report.json#$.results[690].final_url`
+    - referenced by `state/audit/link_report.json#$.results[690].url`
+    - referenced by `state/audit/references.json#$.broken[449].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[449].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[449].samples[2]`
+    - sample: `https://www.theguardian.com/cities/2020/may/07/alphabet-sidewalk-labs-cancels-toronto-smart-city-project`
+- **[404]** `https://www.untourism.int/saudi-arabia-tourism` 
+    - referenced by `state/audit/link_report.json#$.results[693].final_url`
+    - referenced by `state/audit/references.json#$.broken[451].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[451].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[451].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[451].target`
+    - sample: `https://www.untourism.int/saudi-arabia-tourism`
+- **[404]** `https://www.unwto.org/saudi-arabia-tourism` 
+    - referenced by `state/audit/link_report.json#$.results[693].url`
+    - referenced by `state/audit/references.json#$.broken[452].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[452].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[452].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[452].target`
+    - sample: `https://www.unwto.org/saudi-arabia-tourism`
+- **[404]** `https://www.uzdaily.uz/en/tag/it-park/` 
+    - referenced by `state/audit/references.json#$.broken[453].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[453].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[453].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[453].target`
+    - referenced by `state/external/audit/0ddf65e0e552b9df.json#$.responses[1].answer`
+    - sample: `https://www.uzdaily.uz/en/tag/it-park/`
+- **[404]** `https://www.wcoomd.org/en/topics/facilitation/resources/tools.aspx` 
+    - referenced by `state/audit/link_report.json#$.results[696].final_url`
+    - referenced by `state/audit/link_report.json#$.results[696].url`
+    - referenced by `state/audit/references.json#$.broken[454].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[454].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[454].samples[2]`
+    - sample: `https://www.wcoomd.org/en/topics/facilitation/resources/tools.aspx`
+- **[404]** `https://www.who.int/news/item/25-11-2021-india-s-esanjeevani` 
+    - referenced by `state/audit/link_report.json#$.results[697].final_url`
+    - referenced by `state/audit/link_report.json#$.results[697].url`
+    - referenced by `state/audit/references.json#$.broken[455].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[455].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[455].samples[2]`
+    - sample: `https://www.who.int/news/item/25-11-2021-india-s-esanjeevani`
+- **[404]** `https://www.who.int/news/item/babyl-rwanda-award` 
+    - referenced by `state/audit/link_report.json#$.results[698].final_url`
+    - referenced by `state/audit/link_report.json#$.results[698].url`
+    - referenced by `state/audit/references.json#$.broken[456].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[456].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[456].samples[2]`
+    - sample: `https://www.who.int/news/item/babyl-rwanda-award`
+- **[404]** `https://www.who.int/publications/m/item/tuberculosis-country-profiles` 
+    - referenced by `state/audit/link_report.json#$.results[699].final_url`
+    - referenced by `state/audit/link_report.json#$.results[699].url`
+    - referenced by `state/audit/references.json#$.broken[457].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[457].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[457].samples[2]`
+    - sample: `https://www.who.int/publications/m/item/tuberculosis-country-profiles`
+- **[404]** `https://www.wired.com/story/ukraine-diia-digital-government-app/` 
+    - referenced by `state/audit/link_report.json#$.results[700].final_url`
+    - referenced by `state/audit/link_report.json#$.results[700].url`
+    - referenced by `state/audit/references.json#$.broken[458].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[458].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[458].samples[2]`
+    - sample: `https://www.wired.com/story/ukraine-diia-digital-government-app/`
+- **[404]** `https://www.worldbank.org/en/country/georgia/publication/georgia-public-service-halls` 
+    - referenced by `state/audit/link_report.json#$.results[701].final_url`
+    - referenced by `state/audit/link_report.json#$.results[701].url`
+    - referenced by `state/audit/references.json#$.broken[459].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[459].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[459].samples[2]`
+    - sample: `https://www.worldbank.org/en/country/georgia/publication/georgia-public-service-halls`
+- **[404]** `https://www.worldbank.org/en/country/indonesia/brief/open-data` 
+    - referenced by `state/audit/link_report.json#$.results[702].final_url`
+    - referenced by `state/audit/link_report.json#$.results[702].url`
+    - referenced by `state/audit/references.json#$.broken[460].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[460].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[460].samples[2]`
+    - sample: `https://www.worldbank.org/en/country/indonesia/brief/open-data`
+- **[404]** `https://www.worldbank.org/en/country/kazakhstan/brief/social-protection` 
+    - referenced by `state/audit/link_report.json#$.results[703].final_url`
+    - referenced by `state/audit/link_report.json#$.results[703].url`
+    - referenced by `state/audit/references.json#$.broken[461].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[461].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[461].samples[2]`
+    - sample: `https://www.worldbank.org/en/country/kazakhstan/brief/social-protection`
+- **[404]** `https://www.worldbank.org/en/country/kyrgyzrepublic/brief/kyrgyz-republic-energy-sector` 
+    - referenced by `state/audit/link_report.json#$.results[704].final_url`
+    - referenced by `state/audit/link_report.json#$.results[704].url`
+    - referenced by `state/audit/references.json#$.broken[462].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[462].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[462].samples[2]`
+    - sample: `https://www.worldbank.org/en/country/kyrgyzrepublic/brief/kyrgyz-republic-energy-sector`
+- **[404]** `https://www.worldbank.org/en/country/uzbekistan/brief/energy` 
+    - referenced by `state/audit/link_report.json#$.results[706].final_url`
+    - referenced by `state/audit/link_report.json#$.results[706].url`
+    - referenced by `state/audit/references.json#$.broken[463].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[463].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[463].samples[2]`
+    - sample: `https://www.worldbank.org/en/country/uzbekistan/brief/energy`
+- **[404]** `https://www.worldbank.org/en/country/uzbekistan/brief/water-resources-management` 
+    - referenced by `state/audit/link_report.json#$.results[707].final_url`
+    - referenced by `state/audit/link_report.json#$.results[707].url`
+    - referenced by `state/audit/references.json#$.broken[464].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[464].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[464].samples[2]`
+    - sample: `https://www.worldbank.org/en/country/uzbekistan/brief/water-resources-management`
+- **[404]** `https://www.worldbank.org/en/country/uzbekistan/projects` 
+    - referenced by `outputs/obsidian/Solopreneur MVPs/uz-mvp-033.md:29`
+    - referenced by `state/audit/references.json#$.broken[465].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[465].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[465].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[465].target`
+    - sample: `**Evidence**: https://www.worldbank.org/en/country/uzbekistan/projects`
+- **[404]** `https://www.worldbank.org/en/news/press-release/2023/11/30/world-bank-t` 
+    - referenced by `state/audit/references.json#$.broken[466].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[466].target`
+    - sample: `https://www.worldbank.org/en/news/press-release/2023/11/30/world-bank-t`
+- **[404]** `https://www.worldbank.org/en/news/press-release/2023/11/30/world-bank-to-support-u` 
+    - referenced by `state/audit/references.json#$.broken[467].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[467].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[467].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[467].target`
+    - referenced by `state/audit/references.json#$.broken[469].samples[0]`
+    - sample: `https://www.worldbank.org/en/news/press-release/2023/11/30/world-bank-to-support-u`
+- **[404]** `https://www.worldbank.org/en/news/press-release/2023/11/30/world-bank-to-support-uzbekistan-in-developing-t` 
+    - referenced by `state/audit/references.json#$.broken[468].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[468].target`
+    - sample: `https://www.worldbank.org/en/news/press-release/2023/11/30/world-bank-to-support-uzbekistan-in-developing-t`
+- **[404]** `https://www.worldbank.org/en/news/press-release/2023/11/30/world-bank-to-support-uzbekistan-in-developing-the-digital-economy` 
+    - referenced by `state/audit/audit_report.md:34`
+    - referenced by `state/audit/references.json#$.broken[469].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[469].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[469].target`
+    - sample: `| 9 | Donor program | WB-UZ-P179108 | https://www.worldbank.org/en/news/press-release/2023/11/30/world-bank-to-support-u`
+- **[404]** `https://www.worldbank.org/en/news/press-release/2023/11/30/world-bank-to-support-uzbekistan-in-developing-the-digital-economy-and-creating-new-jobs-in-the-it-se` 
+    - referenced by `state/audit/references.json#$.broken[470].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[470].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[470].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[470].target`
+    - referenced by `state/audit/references.json#$.ok[656].samples[1]`
+    - sample: `https://www.worldbank.org/en/news/press-release/2023/11/30/world-bank-to-support-uzbekistan-in-developing-the-digital-economy-and-creating-new-jobs-in-the-it-se`
+- **[404]** `https://www.worldbank.org/en/news/press-release/2024/01/12/world-b` 
+    - referenced by `state/audit/references.json#$.broken[471].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[471].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[471].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[471].target`
+    - referenced by `state/audit/references.json#$.ok[657].samples[2]`
+    - sample: `https://www.worldbank.org/en/news/press-release/2024/01/12/world-b`
+- **[404]** `https://www.worldbank.org/en/programs/korea-world-ban` 
+    - referenced by `state/audit/references.json#$.broken[472].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[472].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[472].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[472].target`
+    - referenced by `state/audit/references.json#$.ok[659].samples[0]`
+    - sample: `https://www.worldbank.org/en/programs/korea-world-ban`
+- **[404]** `https://www.worldbank.org/en/projects/p160230` 
+    - referenced by `https://avaluev.github.io/ca-b2g-research/kyrgyzstan/`
+    - referenced by `https://avaluev.github.io/ca-b2g-research/procurement/`
+    - referenced by `outputs/obsidian/Tenders/kg-t-2026-005.md:27`
+    - referenced by `state/audit/link_report.json#$.results[461].final_url`
+    - referenced by `state/audit/link_report.json#$.results[461].url`
+    - sample: `https://www.worldbank.org/en/projects/p160230`
+- **[404]** `https://www.worldbank.org/en/topic/financialinclusion/publication/mobile-money-gets-to-work-mpesa` 
+    - referenced by `state/audit/link_report.json#$.results[711].final_url`
+    - referenced by `state/audit/link_report.json#$.results[711].url`
+    - referenced by `state/audit/references.json#$.broken[474].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[474].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[474].samples[2]`
+    - sample: `https://www.worldbank.org/en/topic/financialinclusion/publication/mobile-money-gets-to-work-mpesa`
+- **[404]** `https://www.zakon.kz/transport/5048822-tsifrovye-dokumenty-voditelya-v-kazakhstane.html` 
+    - referenced by `state/audit/link_report.json#$.results[715].final_url`
+    - referenced by `state/audit/link_report.json#$.results[715].url`
+    - referenced by `state/audit/references.json#$.broken[475].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[475].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[475].samples[2]`
+    - sample: `https://www.zakon.kz/transport/5048822-tsifrovye-dokumenty-voditelya-v-kazakhstane.html`
+- **[429]** `https://www.linkedin.com/in/akbar-toshmatov-stanford` 
+    - referenced by `outputs/obsidian/People/diaspora-uz-akbar-toshmatov-stanford.md:8`
+    - referenced by `state/audit/link_report.json#$.results[357].final_url`
+    - referenced by `state/audit/link_report.json#$.results[357].url`
+    - referenced by `state/audit/references.json#$.broken[487].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[487].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/akbar-toshmatov-stanford"`
+- **[429]** `https://www.linkedin.com/in/elvira-janbekova-aieb` 
+    - referenced by `outputs/obsidian/People/kg-invest-forum-coordinator.md:8`
+    - referenced by `state/audit/link_report.json#$.results[367].final_url`
+    - referenced by `state/audit/link_report.json#$.results[367].url`
+    - referenced by `state/audit/references.json#$.broken[477].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[477].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/elvira-janbekova-aieb"`
+- **[429]** `https://www.linkedin.com/in/emil-bakytbekov` 
+    - referenced by `outputs/obsidian/People/kg-bishkek-smart-city-head.md:8`
+    - referenced by `state/audit/link_report.json#$.results[368].final_url`
+    - referenced by `state/audit/link_report.json#$.results[368].url`
+    - referenced by `state/audit/references.json#$.broken[497].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[497].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/emil-bakytbekov"`
+- **[429]** `https://www.linkedin.com/in/naveed-hassan-naqvi` 
+    - referenced by `outputs/obsidian/People/kg-naveed-hassan-naqvi.md:8`
+    - referenced by `state/audit/link_report.json#$.results[382].final_url`
+    - referenced by `state/audit/link_report.json#$.results[382].url`
+    - referenced by `state/audit/references.json#$.broken[509].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[509].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/naveed-hassan-naqvi"`
+- **[429]** `https://www.linkedin.com/in/sandra-sargent-worldbank` 
+    - referenced by `outputs/obsidian/People/kg-sandra-sargent.md:8`
+    - referenced by `state/audit/link_report.json#$.results[386].final_url`
+    - referenced by `state/audit/link_report.json#$.results[386].url`
+    - referenced by `state/audit/references.json#$.broken[513].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[513].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/sandra-sargent-worldbank"`
+- **[429]** `https://www.linkedin.com/in/timur-koichubaev` 
+    - referenced by `outputs/obsidian/People/kg-presidential-digital-dept-dep.md:8`
+    - referenced by `state/audit/link_report.json#$.results[393].final_url`
+    - referenced by `state/audit/link_report.json#$.results[393].url`
+    - referenced by `state/audit/references.json#$.broken[520].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[520].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/timur-koichubaev"`
+- **[500]** `https://www.aa.com.tr/ru/%D0%BC%D0%B8%D1%80/%D0` 
+    - referenced by `state/audit/references.json#$.broken[482].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[482].samples[1]`
+    - referenced by `state/audit/references.json#$.broken[482].samples[2]`
+    - referenced by `state/audit/references.json#$.broken[482].target`
+    - referenced by `state/audit/references.json#$.ok[537].samples[1]`
+    - sample: `https://www.aa.com.tr/ru/%D0%BC%D0%B8%D1%80/%D0`
+- **[999]** `https://www.linkedin.com/in/abror-tursunov-google` 
+    - referenced by `outputs/obsidian/People/diaspora-uz-abror-tursunov-google.md:8`
+    - referenced by `state/audit/link_report.json#$.results[353].final_url`
+    - referenced by `state/audit/link_report.json#$.results[353].url`
+    - referenced by `state/audit/references.json#$.broken[483].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[483].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/abror-tursunov-google"`
+- **[999]** `https://www.linkedin.com/in/aibek-abdybakirov-adb` 
+    - referenced by `outputs/obsidian/People/kg-aibek-abdybakirov.md:8`
+    - referenced by `state/audit/link_report.json#$.results[354].final_url`
+    - referenced by `state/audit/link_report.json#$.results[354].url`
+    - referenced by `state/audit/references.json#$.broken[484].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[484].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/aibek-abdybakirov-adb"`
+- **[999]** `https://www.linkedin.com/in/aigerim-bekova-wb` 
+    - referenced by `outputs/obsidian/People/diaspora-kg-aigerim-bekova-wb.md:8`
+    - referenced by `state/audit/link_report.json#$.results[355].final_url`
+    - referenced by `state/audit/link_report.json#$.results[355].url`
+    - referenced by `state/audit/references.json#$.broken[485].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[485].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/aigerim-bekova-wb"`
+- **[999]** `https://www.linkedin.com/in/aisha-mamytova-kg` 
+    - referenced by `outputs/obsidian/People/kg-aieb-head.md:8`
+    - referenced by `state/audit/link_report.json#$.results[356].final_url`
+    - referenced by `state/audit/link_report.json#$.results[356].url`
+    - referenced by `state/audit/references.json#$.broken[486].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[486].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/aisha-mamytova-kg"`
+- **[999]** `https://www.linkedin.com/in/alisher-tashkentov-samsung` 
+    - referenced by `outputs/obsidian/People/diaspora-uz-alisher-tashkentov-samsung.md:8`
+    - referenced by `state/audit/link_report.json#$.results[358].final_url`
+    - referenced by `state/audit/link_report.json#$.results[358].url`
+    - referenced by `state/audit/references.json#$.broken[488].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[488].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/alisher-tashkentov-samsung"`
+- **[999]** `https://www.linkedin.com/in/andrew-wachtel-auca` 
+    - referenced by `outputs/obsidian/People/kg-auca-rector.md:8`
+    - referenced by `state/audit/link_report.json#$.results[359].final_url`
+    - referenced by `state/audit/link_report.json#$.results[359].url`
+    - referenced by `state/audit/references.json#$.broken[489].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[489].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/andrew-wachtel-auca"`
+- **[999]** `https://www.linkedin.com/in/avaluev/` 
+    - referenced by `README.md:370`
+    - referenced by `https://avaluev.github.io/ca-b2g-research/`
+    - referenced by `https://avaluev.github.io/ca-b2g-research/about/`
+    - referenced by `https://avaluev.github.io/ca-b2g-research/audit-team/`
+    - referenced by `https://avaluev.github.io/ca-b2g-research/decrees/kg/`
+    - sample: `https://www.linkedin.com/in/avaluev/`
+- **[999]** `https://www.linkedin.com/in/azamat-kalmurzaev-google` 
+    - referenced by `outputs/obsidian/People/diaspora-kg-azamat-kalmurzaev-google.md:8`
+    - referenced by `state/audit/link_report.json#$.results[360].final_url`
+    - referenced by `state/audit/link_report.json#$.results[360].url`
+    - referenced by `state/audit/references.json#$.broken[491].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[491].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/azamat-kalmurzaev-google"`
+- **[999]** `https://www.linkedin.com/in/bahador-rakhmatov` 
+    - referenced by `outputs/memo/strategic_memo.md:200`
+    - referenced by `outputs/obsidian/People/uz-bahador-rakhmatov.md:8`
+    - referenced by `state/audit/link_report.json#$.results[361].final_url`
+    - referenced by `state/audit/link_report.json#$.results[361].url`
+    - referenced by `state/audit/references.json#$.broken[492].samples[1]`
+    - sample: `- **Bahador Rakhmatov** — Director, Agency for Strategic Reforms under the President of Uzbekistan • [LinkedIn](https://`
+- **[999]** `https://www.linkedin.com/in/baktygul-tashmetova-oxford` 
+    - referenced by `outputs/obsidian/People/diaspora-kg-baktygul-tashmetova-oxford.md:8`
+    - referenced by `state/audit/link_report.json#$.results[362].final_url`
+    - referenced by `state/audit/link_report.json#$.results[362].url`
+    - referenced by `state/audit/references.json#$.broken[493].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[493].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/baktygul-tashmetova-oxford"`
+- **[999]** `https://www.linkedin.com/in/bobur-yakubov-mit` 
+    - referenced by `outputs/obsidian/People/diaspora-uz-bobur-yakubov-mit.md:8`
+    - referenced by `state/audit/link_report.json#$.results[363].final_url`
+    - referenced by `state/audit/link_report.json#$.results[363].url`
+    - referenced by `state/audit/references.json#$.broken[476].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[476].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/bobur-yakubov-mit"`
+- **[999]** `https://www.linkedin.com/in/dilnoza-askarova-hsbc` 
+    - referenced by `outputs/obsidian/People/diaspora-uz-dilnoza-askarova-hsbc.md:8`
+    - referenced by `state/audit/link_report.json#$.results[364].final_url`
+    - referenced by `state/audit/link_report.json#$.results[364].url`
+    - referenced by `state/audit/references.json#$.broken[494].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[494].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/dilnoza-askarova-hsbc"`
+- **[999]** `https://www.linkedin.com/in/dinara-abeldinova-microsoft` 
+    - referenced by `outputs/obsidian/People/diaspora-kg-dinara-abeldinova-microsoft.md:8`
+    - referenced by `state/audit/link_report.json#$.results[365].final_url`
+    - referenced by `state/audit/link_report.json#$.results[365].url`
+    - referenced by `state/audit/references.json#$.broken[495].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[495].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/dinara-abeldinova-microsoft"`
+- **[999]** `https://www.linkedin.com/in/dostonbek-toshmatov` 
+    - referenced by `outputs/obsidian/People/uz-uzdigital-ai-center-head.md:8`
+    - referenced by `state/audit/link_report.json#$.results[366].final_url`
+    - referenced by `state/audit/link_report.json#$.results[366].url`
+    - referenced by `state/audit/references.json#$.broken[496].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[496].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/dostonbek-toshmatov"`
+- **[999]** `https://www.linkedin.com/in/farida-rakhimova-aws` 
+    - referenced by `outputs/obsidian/People/diaspora-uz-farida-rakhimova-amazon.md:8`
+    - referenced by `state/audit/link_report.json#$.results[369].final_url`
+    - referenced by `state/audit/link_report.json#$.results[369].url`
+    - referenced by `state/audit/references.json#$.broken[498].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[498].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/farida-rakhimova-aws"`
+- **[999]** `https://www.linkedin.com/in/firdavs-abdullayev` 
+    - referenced by `outputs/memo/strategic_memo.md:206`
+    - referenced by `outputs/obsidian/People/uz-firdavs-abdullayev.md:8`
+    - referenced by `state/audit/link_report.json#$.results[370].final_url`
+    - referenced by `state/audit/link_report.json#$.results[370].url`
+    - referenced by `state/audit/references.json#$.broken[499].samples[0]`
+    - sample: `- **Firdavs Abdullayev** — CEO, IT Park Uzbekistan • [LinkedIn](https://www.linkedin.com/in/firdavs-abdullayev)`
+- **[999]** `https://www.linkedin.com/in/jahongir-khalilov` 
+    - referenced by `outputs/obsidian/People/uz-ict-assoc-head.md:8`
+    - referenced by `state/audit/link_report.json#$.results[371].final_url`
+    - referenced by `state/audit/link_report.json#$.results[371].url`
+    - referenced by `state/audit/references.json#$.broken[500].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[500].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/jahongir-khalilov"`
+- **[999]** `https://www.linkedin.com/in/jamshid-kuchkarov` 
+    - referenced by `outputs/memo/strategic_memo.md:208`
+    - referenced by `outputs/obsidian/People/uz-jamshid-kuchkarov.md:8`
+    - referenced by `state/audit/link_report.json#$.results[372].final_url`
+    - referenced by `state/audit/link_report.json#$.results[372].url`
+    - referenced by `state/audit/references.json#$.broken[501].samples[1]`
+    - sample: `- **Jamshid Kuchkarov** — Minister of Economy and Finance of the Republic of Uzbekistan • [LinkedIn](https://www.linkedi`
+- **[999]** `https://www.linkedin.com/in/kamoliddin-yusupov-adb` 
+    - referenced by `outputs/obsidian/People/diaspora-uz-kamoliddin-yusupov-adb.md:8`
+    - referenced by `state/audit/link_report.json#$.results[373].final_url`
+    - referenced by `state/audit/link_report.json#$.results[373].url`
+    - referenced by `state/audit/references.json#$.broken[478].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[478].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/kamoliddin-yusupov-adb"`
+- **[999]** `https://www.linkedin.com/in/laziz-kudratov` 
+    - referenced by `outputs/memo/strategic_memo.md:216`
+    - referenced by `outputs/obsidian/People/uz-laziz-kudratov.md:8`
+    - referenced by `state/audit/link_report.json#$.results[374].final_url`
+    - referenced by `state/audit/link_report.json#$.results[374].url`
+    - referenced by `state/audit/references.json#$.broken[502].samples[1]`
+    - sample: `- **Laziz Kudratov** — Minister of Investments, Industry and Trade of the Republic of Uzbekistan • [LinkedIn](https://ww`
+- **[999]** `https://www.linkedin.com/in/laziz-umarov-bcg` 
+    - referenced by `outputs/obsidian/People/diaspora-uz-laziz-umarov-bcg.md:8`
+    - referenced by `state/audit/link_report.json#$.results[375].final_url`
+    - referenced by `state/audit/link_report.json#$.results[375].url`
+    - referenced by `state/audit/references.json#$.broken[503].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[503].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/laziz-umarov-bcg"`
+- **[999]** `https://www.linkedin.com/in/mahinthan-mariasingham-adb` 
+    - referenced by `outputs/obsidian/People/uz-mahinthan-mariasingham.md:8`
+    - referenced by `state/audit/link_report.json#$.results[376].final_url`
+    - referenced by `state/audit/link_report.json#$.results[376].url`
+    - referenced by `state/audit/references.json#$.broken[504].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[504].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/mahinthan-mariasingham-adb"`
+- **[999]** `https://www.linkedin.com/in/marat-isakov-tunduk` 
+    - referenced by `outputs/memo/strategic_memo.md:178`
+    - referenced by `outputs/obsidian/People/kg-tunduk-gp-head.md:8`
+    - referenced by `state/audit/link_report.json#$.results[377].final_url`
+    - referenced by `state/audit/link_report.json#$.results[377].url`
+    - referenced by `state/audit/references.json#$.broken[505].samples[1]`
+    - sample: `- **Marat Isakov** — Director, State Enterprise Tunduk (National e-Government Data Exchange Platform) • [LinkedIn](https`
+- **[999]** `https://www.linkedin.com/in/marco-mantovanelli-wb` 
+    - referenced by `outputs/obsidian/People/uz-marco-mantovanelli.md:8`
+    - referenced by `state/audit/link_report.json#$.results[378].final_url`
+    - referenced by `state/audit/link_report.json#$.results[378].url`
+    - referenced by `state/audit/references.json#$.broken[506].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[506].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/marco-mantovanelli-wb"`
+- **[999]** `https://www.linkedin.com/in/mirlan-asanbekov-tunduk` 
+    - referenced by `outputs/obsidian/People/kg-tunduk-tech-lead.md:8`
+    - referenced by `state/audit/link_report.json#$.results[379].final_url`
+    - referenced by `state/audit/link_report.json#$.results[379].url`
+    - referenced by `state/audit/references.json#$.broken[507].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[507].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/mirlan-asanbekov-tunduk"`
+- **[999]** `https://www.linkedin.com/in/mirzo-ibragimov-uz` 
+    - referenced by `outputs/memo/strategic_memo.md:218`
+    - referenced by `outputs/obsidian/People/uz-ibragimov-mirzo.md:8`
+    - referenced by `state/audit/link_report.json#$.results[380].final_url`
+    - referenced by `state/audit/link_report.json#$.results[380].url`
+    - referenced by `state/audit/references.json#$.broken[508].samples[1]`
+    - sample: `- **Mirzo Ibragimov** — IT Park Director (government counterpart for WB-UZ-P179108 Digital Inclusion Project) • [LinkedI`
+- **[999]** `https://www.linkedin.com/in/murod-mirsalimov-epgu` 
+    - referenced by `outputs/obsidian/People/uz-epgu-product-head.md:8`
+    - referenced by `state/audit/link_report.json#$.results[381].final_url`
+    - referenced by `state/audit/link_report.json#$.results[381].url`
+    - referenced by `state/audit/references.json#$.broken[479].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[479].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/murod-mirsalimov-epgu"`
+- **[999]** `https://www.linkedin.com/in/nodira-islamova-mckinsey` 
+    - referenced by `outputs/obsidian/People/diaspora-uz-nodira-islamova-mckinsey.md:8`
+    - referenced by `state/audit/link_report.json#$.results[383].final_url`
+    - referenced by `state/audit/link_report.json#$.results[383].url`
+    - referenced by `state/audit/references.json#$.broken[510].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[510].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/nodira-islamova-mckinsey"`
+- **[999]** `https://www.linkedin.com/in/nursultan-dzhaksybekov-bain` 
+    - referenced by `outputs/obsidian/People/diaspora-kg-nursultan-dzhaksybekov-insead.md:8`
+    - referenced by `state/audit/link_report.json#$.results[384].final_url`
+    - referenced by `state/audit/link_report.json#$.results[384].url`
+    - referenced by `state/audit/references.json#$.broken[511].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[511].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/nursultan-dzhaksybekov-bain"`
+- **[999]** `https://www.linkedin.com/in/ozod-tashpulatov-wb` 
+    - referenced by `outputs/obsidian/People/diaspora-uz-ozod-tashpulatov-wb.md:8`
+    - referenced by `state/audit/link_report.json#$.results[385].final_url`
+    - referenced by `state/audit/link_report.json#$.results[385].url`
+    - referenced by `state/audit/references.json#$.broken[512].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[512].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/ozod-tashpulatov-wb"`
+- **[999]** `https://www.linkedin.com/in/sardor-jabbor-uz` 
+    - referenced by `outputs/obsidian/People/uz-innovation-agency-head.md:8`
+    - referenced by `state/audit/link_report.json#$.results[387].final_url`
+    - referenced by `state/audit/link_report.json#$.results[387].url`
+    - referenced by `state/audit/references.json#$.broken[514].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[514].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/sardor-jabbor-uz"`
+- **[999]** `https://www.linkedin.com/in/sarvar-komilov` 
+    - referenced by `outputs/obsidian/People/uz-mintsifry-dep1.md:8`
+    - referenced by `state/audit/link_report.json#$.results[388].final_url`
+    - referenced by `state/audit/link_report.json#$.results[388].url`
+    - referenced by `state/audit/references.json#$.broken[515].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[515].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/sarvar-komilov"`
+- **[999]** `https://www.linkedin.com/in/sarvar-sadikov-meta` 
+    - referenced by `outputs/obsidian/People/diaspora-uz-sarvar-sadikov-meta.md:8`
+    - referenced by `state/audit/link_report.json#$.results[389].final_url`
+    - referenced by `state/audit/link_report.json#$.results[389].url`
+    - referenced by `state/audit/references.json#$.broken[516].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[516].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/sarvar-sadikov-meta"`
+- **[999]** `https://www.linkedin.com/in/sherzod-shermatov` 
+    - referenced by `outputs/memo/strategic_memo.md:224`
+    - referenced by `outputs/obsidian/People/uz-sherzod-shermatov.md:8`
+    - referenced by `state/audit/link_report.json#$.results[390].final_url`
+    - referenced by `state/audit/link_report.json#$.results[390].url`
+    - referenced by `state/audit/references.json#$.broken[517].samples[1]`
+    - sample: `- **Sherzod Shermatov** — Minister of Digital Technologies of the Republic of Uzbekistan • [LinkedIn](https://www.linked`
+- **[999]** `https://www.linkedin.com/in/talant-sultanov` 
+    - referenced by `outputs/memo/strategic_memo.md:184`
+    - referenced by `outputs/obsidian/People/kg-talant-sultanov-former.md:8`
+    - referenced by `state/audit/link_report.json#$.results[391].final_url`
+    - referenced by `state/audit/link_report.json#$.results[391].url`
+    - referenced by `state/audit/references.json#$.broken[518].samples[1]`
+    - sample: `- **Talant Sultanov** — Former Minister of Digital Development KG (dissolved April 2026); now likely repositioned within`
+- **[999]** `https://www.linkedin.com/in/tigran-sargsyan-edb` 
+    - referenced by `outputs/obsidian/People/kg-tigran-sargsyan.md:8`
+    - referenced by `state/audit/link_report.json#$.results[392].final_url`
+    - referenced by `state/audit/link_report.json#$.results[392].url`
+    - referenced by `state/audit/references.json#$.broken[519].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[519].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/tigran-sargsyan-edb"`
+- **[999]** `https://www.linkedin.com/in/tonis-mae-ega` 
+    - referenced by `outputs/obsidian/People/kg-tonis-mae.md:8`
+    - referenced by `state/audit/link_report.json#$.results[394].final_url`
+    - referenced by `state/audit/link_report.json#$.results[394].url`
+    - referenced by `state/audit/references.json#$.broken[480].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[480].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/tonis-mae-ega"`
+- **[999]** `https://www.linkedin.com/in/ulugbek-sobirov-myid` 
+    - referenced by `outputs/obsidian/People/uz-myid-head.md:8`
+    - referenced by `state/audit/link_report.json#$.results[395].final_url`
+    - referenced by `state/audit/link_report.json#$.results[395].url`
+    - referenced by `state/audit/references.json#$.broken[521].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[521].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/ulugbek-sobirov-myid"`
+- **[999]** `https://www.linkedin.com/in/viktor-kessler-giz` 
+    - referenced by `outputs/obsidian/People/kg-viktor-kessler.md:8`
+    - referenced by `state/audit/link_report.json#$.results[396].final_url`
+    - referenced by `state/audit/link_report.json#$.results[396].url`
+    - referenced by `state/audit/references.json#$.broken[481].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[481].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/viktor-kessler-giz"`
+- **[999]** `https://www.linkedin.com/in/yun-ji-suh-adb` 
+    - referenced by `outputs/obsidian/People/uz-yun-ji-suh.md:8`
+    - referenced by `state/audit/link_report.json#$.results[397].final_url`
+    - referenced by `state/audit/link_report.json#$.results[397].url`
+    - referenced by `state/audit/references.json#$.broken[522].samples[0]`
+    - referenced by `state/audit/references.json#$.broken[522].samples[1]`
+    - sample: `linkedin_url: "https://www.linkedin.com/in/yun-ji-suh-adb"`
