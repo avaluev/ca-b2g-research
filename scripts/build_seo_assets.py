@@ -45,9 +45,18 @@ def list_pages() -> list[tuple[str, str, str]]:
         if not url_path.endswith("/"):
             url_path = url_path.rsplit("/", 1)[0] + "/"
         soup = BeautifulSoup(f.read_text(encoding="utf-8"), "lxml")
-        title = (soup.find("title").text if soup.find("title") else "").strip()
-        desc_tag = soup.find("meta", attrs={"name": "description"})
-        desc = (desc_tag.get("content") if desc_tag else "").strip()
+        # Prefer H1 as full (untruncated) title; fall back to <title>
+        h1 = soup.find("h1")
+        title = (h1.get_text(" ", strip=True) if h1 else "").strip()
+        if not title:
+            title = (soup.find("title").text if soup.find("title") else "").strip()
+        # Prefer lead summary as full description; fall back to <meta description>
+        lead = soup.find("p", class_=lambda c: c and "lead" in c and "summary" in c)
+        if lead:
+            desc = lead.get_text(" ", strip=True)
+        else:
+            desc_tag = soup.find("meta", attrs={"name": "description"})
+            desc = (desc_tag.get("content") if desc_tag else "").strip()
         pages.append((url_path, title, desc))
     return pages
 
@@ -90,6 +99,12 @@ Allow: /
 User-agent: DuckDuckBot
 Allow: /
 User-agent: YandexBot
+Allow: /
+User-agent: cohere-ai
+Allow: /
+User-agent: meta-externalagent
+Allow: /
+User-agent: Bytespider
 Allow: /
 
 Sitemap: {SITE_URL}/sitemap.xml
@@ -139,21 +154,65 @@ def write_feed(pages: list[tuple[str, str, str]]) -> None:
 
 
 def write_llms_txt(pages: list[tuple[str, str, str]]) -> None:
+    # Route pages into sections based on URL path
+    pillar_paths = {"/", "/initiatives/", "/people/", "/donors/", "/procurement/"}
+    data_paths = {"/decrees/uz/", "/decrees/kg/", "/institutions/", "/trends/", "/mvp/", "/mvp/uz/", "/mvp/kg/"}
+    methodology_paths = {"/methodology/", "/lenses/", "/scoring/"}
+    optional_paths = {"/honesty/", "/provenance/"}
+
+    pillar, data, method, optional_, uncat = [], [], [], [], []
+    for path, title, desc in pages:
+        # Use full (untruncated) title for llms.txt
+        full_title = title.rstrip(".")
+        entry = f"- [{full_title}]({SITE_URL}{path}) — {desc}"
+        if path in pillar_paths:
+            pillar.append(entry)
+        elif path in data_paths:
+            data.append(entry)
+        elif path in methodology_paths:
+            method.append(entry)
+        elif path in optional_paths:
+            optional_.append(entry)
+        else:
+            uncat.append(entry)
+
     lines = [
         "# Central Asia B2G Intelligence",
         "",
-        "> Open research on B2G AI and digital-government opportunities in Uzbekistan + Kyrgyzstan. Typed knowledge graph mapping decrees, institutions, decision-makers, donor programmes, and global precedents to deployable initiatives. Apache 2.0.",
+        "> Open research on B2G AI and digital-government opportunities in Uzbekistan + Kyrgyzstan."
+        " Typed knowledge graph mapping decrees, institutions, decision-makers, donor programmes,"
+        " and global precedents to deployable initiatives. Apache 2.0.",
         "",
         "## Pillar pages",
         "",
+        *pillar,
+        "",
+        "## Data pages",
+        "",
+        *data,
+        "",
+        "## Methodology",
+        "",
+        *method,
+        "",
+        "## Optional",
+        "",
+        *optional_,
+        *(["", *uncat] if uncat else []),
+        "",
+        "## Source code",
+        "",
+        "- [GitHub repository](https://github.com/avaluev/ca-b2g-research)",
+        "- [Apache 2.0 License](https://github.com/avaluev/ca-b2g-research/blob/main/LICENSE)",
+        "",
+        "## Contact",
+        "",
+        f"- Contact: {OPERATOR_EMAIL}",
+        "",
+        "## License",
+        "",
+        "- Apache 2.0: https://www.apache.org/licenses/LICENSE-2.0",
     ]
-    for path, title, desc in pages:
-        lines.append(f"- [{title}]({SITE_URL}{path}) — {desc}")
-    lines.append("")
-    lines.append("## Source code")
-    lines.append("")
-    lines.append("- [GitHub repository](https://github.com/avaluev/ca-b2g-research)")
-    lines.append("- [Apache 2.0 License](https://github.com/avaluev/ca-b2g-research/blob/main/LICENSE)")
     (SITE / "llms.txt").write_text("\n".join(lines), encoding="utf-8")
 
 
@@ -194,6 +253,7 @@ def write_security_txt() -> None:
     content = f"""Contact: mailto:{OPERATOR_EMAIL}
 Expires: {expires_iso}
 Preferred-Languages: en, ru
+Policy: {SITE_URL}/
 Canonical: {SITE_URL}/.well-known/security.txt
 """
     target = SITE / ".well-known"

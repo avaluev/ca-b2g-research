@@ -200,11 +200,18 @@ def gate_freshness(soup: BeautifulSoup, page: str, issues: list[Issue]) -> None:
         issues.append(Issue("10_freshness", "WARN", page, f"unparseable dateModified: {val}"))
 
 
+_OPERATOR_EMAIL_ALLOWLIST = {"valuev.alexandr@gmail.com"}
+
+
 def gate_no_pii(text: str, page: str, issues: list[Issue]) -> None:
     if PHONE_UZ_RE.search(text) or PHONE_KG_RE.search(text):
         issues.append(Issue("12_no_pii", "ERROR", page, "personal phone number leaked"))
-    if PERSONAL_EMAIL_RE.search(text):
-        issues.append(Issue("12_no_pii", "ERROR", page, "personal email leaked"))
+    for m in PERSONAL_EMAIL_RE.finditer(text):
+        email = m.group(0).lower()
+        if email in _OPERATOR_EMAIL_ALLOWLIST:
+            continue
+        issues.append(Issue("12_no_pii", "ERROR", page, f"personal email leaked: {email}"))
+        break
 
 
 def country_tag(soup: BeautifulSoup, text_lower: str) -> str | None:

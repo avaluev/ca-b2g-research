@@ -1,6 +1,113 @@
 # Central Asia B2G Intelligence — Full Text Snapshot
 
 ---
+## URL: https://avaluev.github.io/ca-b2g-research/404.html
+Page not found
+The link you followed does not match any page in the Central Asia B2G Intelligence research site. The site is organised around six pillar pages plus the methodology, lenses, scoring rubric, and an honesty page that names what we did not find.
+Where to start instead
+Home
+— the headline counts and where to start by reader type.
+B2G initiatives
+— the top 100 deployable opportunities, tier-bucketed.
+Solopreneur MVPs
+— 200 individually-bootstrappable plays.
+Donor pipeline
+— 49 active programmes with named TTL/PM.
+Methodology
+— how the seven-wave pipeline works.
+Honesty
+— what we did not find and where the audit caught us.
+If you found this 404 from a broken link inside the site, please
+open an issue
+.
+Share:
+X / Twitter
+LinkedIn
+Email
+·
+RSS feed
+GitHub repo
+Cite this research
+BibTeX
+@misc{valuev26cab2g,
+  author = {Valuev, Alexandr},
+  title  = {Central Asia B2G Intelligence: Page not found},
+  year   = {2026},
+  url    = {https://avaluev.github.io/ca-b2g-research/404.html},
+  note   = {Data vintage 2026-05, Apache 2.0}
+}
+APA
+Valuev, A. (2026). Central Asia B2G Intelligence: Page not found. Retrieved from https://avaluev.github.io/ca-b2g-research/404.html
+MLA
+Valuev, Alexandr. "Central Asia B2G Intelligence: Page not found." Data vintage 2026-05, https://avaluev.github.io/ca-b2g-research/404.html.
+
+---
+## URL: https://avaluev.github.io/ca-b2g-research/about/index.html
+About this research and its author
+Alexandr Valuev built this research as an open, reproducible alternative to the Big-4 frontier-market opportunity reports that cost six figures and disappear into a PDF. Every prompt, every script, every quality gate is public. Every claim is typed. Every error is named.
+Who is the author?
+Alexandr Valuev is an independent researcher focused on B2G market intelligence in Central Asia. Reachable at
+valuev.alexandr@gmail.com
+·
+LinkedIn
+·
+GitHub
+.
+Why build this?
+Standard B2G consultancies tell you "the Ministry of Digital Development is leading AI strategy" — useless for capture. This site tells you the deputy minister responsible for AI procurement, their LinkedIn, the donor programme co-financing their pipeline, the decree authorising their budget, the half-life remaining on that decree, the closest global precedent, and the named pitch hook that maps to their published commitment. And when something is wrong, the
+Honesty page
+says so.
+How is this different from a Big-4 report?
+Open.
+Apache 2.0. Clone, fork, rerun.
+Typed.
+Eight record types with foreign-key integrity. The data is a knowledge graph, not a stack of slides.
+Reproducible.
+Total runtime ten hours, total paid OpenRouter under twenty dollars. The pipeline is one
+make run
+away.
+Adversarial.
+Wave 5 finds at least three HIGH-severity issues. In this run it caught four wrong Tier-1 identities — corrected, sourced, and named in
+Honesty
+.
+Localised.
+Fifty-three percent of sources are Russian-language. Cyrillic content carries proper
+lang
+attribution.
+What is the refresh cadence?
+Quarterly. Each refresh re-runs Waves 1, 2, and 5 and incrementally extends Waves 3, 4, and 6. Releases are tagged on GitHub with the data vintage. Subscribe to the
+Atom feed
+or watch the repository for releases.
+How can I help?
+Open an issue with a
+research correction
+if you spot wrong data — wrong decree number, stale role, missing donor programme. Open a PR if you want to extend the schema, add an agent, or improve a renderer. Both are welcome.
+Privacy and ethics
+This site never publishes private contact details — phone numbers, home addresses, personal email — for any named individual. It never speculates on political loyalties; only documented public positions. The private outreach kits with warm-intro paths and diaspora-flagged advisors live only in a contributor vault, not on the public site.
+Funding and conflicts of interest
+This research is self-funded. Alexandr Valuev has no current vendor or donor mandate dependent on its findings. The site lists no advertising and accepts no sponsorship.
+Share:
+X / Twitter
+LinkedIn
+Email
+·
+RSS feed
+GitHub repo
+Cite this research
+BibTeX
+@misc{valuev26cab2g,
+  author = {Valuev, Alexandr},
+  title  = {Central Asia B2G Intelligence: About Alexandr Valuev and this research},
+  year   = {2026},
+  url    = {https://avaluev.github.io/ca-b2g-research/about/},
+  note   = {Data vintage 2026-05, Apache 2.0}
+}
+APA
+Valuev, A. (2026). Central Asia B2G Intelligence: About Alexandr Valuev and this research. Retrieved from https://avaluev.github.io/ca-b2g-research/about/
+MLA
+Valuev, Alexandr. "Central Asia B2G Intelligence: About Alexandr Valuev and this research." Data vintage 2026-05, https://avaluev.github.io/ca-b2g-research/about/.
+
+---
 ## URL: https://avaluev.github.io/ca-b2g-research/decrees/kg/index.html
 Decree atlas — Kyrgyzstan
 This atlas catalogues 44 presidential decrees, government resolutions, and sectoral laws shaping AI and digital government in Kyrgyzstan, with 7 currently in their six-to-eighteen-month active implementation window. Every decree is verified on the official government source and cross-checked in independent media.
@@ -320,6 +427,28 @@ PENDING
 Regulations on the Presidential Administration of the Kyrgyz Republic (New Structure Post-April 2026)
 active_window
 primary source
+Show all 44 rows (19 more)
+All 44 rows are present in the DOM for crawlers and remain in the source HTML; the rest are revealed when this section is expanded.
+Share:
+X / Twitter
+LinkedIn
+Email
+·
+RSS feed
+GitHub repo
+Cite this research
+BibTeX
+@misc{valuev26cab2g,
+  author = {Valuev, Alexandr},
+  title  = {Central Asia B2G Intelligence: Kyrgyzstan — Decree Atlas},
+  year   = {2026},
+  url    = {https://avaluev.github.io/ca-b2g-research/decrees/kg/},
+  note   = {Data vintage 2026-05, Apache 2.0}
+}
+APA
+Valuev, A. (2026). Central Asia B2G Intelligence: Kyrgyzstan — Decree Atlas. Retrieved from https://avaluev.github.io/ca-b2g-research/decrees/kg/
+MLA
+Valuev, Alexandr. "Central Asia B2G Intelligence: Kyrgyzstan — Decree Atlas." Data vintage 2026-05, https://avaluev.github.io/ca-b2g-research/decrees/kg/.
 
 ---
 ## URL: https://avaluev.github.io/ca-b2g-research/decrees/uz/index.html
@@ -727,6 +856,28 @@ Law
 On Electronic Document Management
 implementing
 primary source
+Show all 56 rows (31 more)
+All 56 rows are present in the DOM for crawlers and remain in the source HTML; the rest are revealed when this section is expanded.
+Share:
+X / Twitter
+LinkedIn
+Email
+·
+RSS feed
+GitHub repo
+Cite this research
+BibTeX
+@misc{valuev26cab2g,
+  author = {Valuev, Alexandr},
+  title  = {Central Asia B2G Intelligence: Uzbekistan — Decree Atlas},
+  year   = {2026},
+  url    = {https://avaluev.github.io/ca-b2g-research/decrees/uz/},
+  note   = {Data vintage 2026-05, Apache 2.0}
+}
+APA
+Valuev, A. (2026). Central Asia B2G Intelligence: Uzbekistan — Decree Atlas. Retrieved from https://avaluev.github.io/ca-b2g-research/decrees/uz/
+MLA
+Valuev, Alexandr. "Central Asia B2G Intelligence: Uzbekistan — Decree Atlas." Data vintage 2026-05, https://avaluev.github.io/ca-b2g-research/decrees/uz/.
 
 ---
 ## URL: https://avaluev.github.io/ca-b2g-research/donors/index.html
@@ -736,10 +887,10 @@ Why does the donor matter?
 In both countries 60–90% of AI/digital government budgets are donor-financed, often through World Bank or ADB project implementation units. The donor's TTL or task team leader is frequently the real customer, not the formal ministry head. Vendor entry pathways depend on knowing this dyad.
 Programmes
 Donor
-C
-Program
+Country
+Programme
 Budget
-TTL/PM
+TTL / Project manager
 Status
 WorldBank
 UZ
@@ -1035,93 +1186,147 @@ Huawei — Kyrgyzstan Unified Government Database and Data Center Initiative
 $0
 [TTL_NOT_FOUND] Huawei Technologies Bishkek Co. LTD representative. KG MoDT Minister (now UDP post-restructuring). Opaque negotiations.
 pipeline
+Show all 49 rows (24 more)
+All 49 rows are present in the DOM for crawlers and remain in the source HTML; the rest are revealed when this section is expanded.
+Share:
+X / Twitter
+LinkedIn
+Email
+·
+RSS feed
+GitHub repo
+Cite this research
+BibTeX
+@misc{valuev26cab2g,
+  author = {Valuev, Alexandr},
+  title  = {Central Asia B2G Intelligence: Donor pipeline (WB · ADB · EU · others)},
+  year   = {2026},
+  url    = {https://avaluev.github.io/ca-b2g-research/donors/},
+  note   = {Data vintage 2026-05, Apache 2.0}
+}
+APA
+Valuev, A. (2026). Central Asia B2G Intelligence: Donor pipeline (WB · ADB · EU · others). Retrieved from https://avaluev.github.io/ca-b2g-research/donors/
+MLA
+Valuev, Alexandr. "Central Asia B2G Intelligence: Donor pipeline (WB · ADB · EU · others)." Data vintage 2026-05, https://avaluev.github.io/ca-b2g-research/donors/.
 
 ---
 ## URL: https://avaluev.github.io/ca-b2g-research/honesty/index.html
 Honesty: what we did not find
 This page documents the limits of this research: known gaps, dead-end research pathways, opaque domains, and contradictions we could not resolve. Honesty is a first-class output here. A research artifact that hides what it does not know is not trustworthy.
-# Absolute Honesty Section — What This Research Did NOT Find
-**Auditor:** reflexion-auditor (Wave 5) | **Date:** 2026-05-04 | **Word target:** ≥1500
-**Reviewer note:** This is the most important deliverable of the audit. Read it before acting on any of the optimistic findings.
----
+Auditor:
+reflexion-auditor (Wave 5) |
+Date:
+2026-05-04 |
+Word target:
+≥1500
+Reviewer note:
+This is the most important deliverable of the audit. Read it before acting on any of the optimistic findings.
 Preamble: Why an honesty section exists
 Research that reports only what it found is biased toward action. A vendor reading the knowledge graph sees 100 initiatives, 28 of them Tier-A, and concludes that the central-asia opportunity surface is rich and well-mapped. That conclusion is partially correct and partially dangerous. The opportunity is real; the map is incomplete in specific, named ways. This section names the incompleteness so that the next reader cannot mistake "what we wrote down" for "what is true."
 Five questions structure this section: (1) What did the research not find? (2) What questions remain unanswered? (3) What pathways were investigated and proved dead? (4) What would a hostile critic of this research say is missing? (5) What is the single biggest known unknown?
----
 1. What this research did NOT find
-### 1.1 Defense ministry AI procurement (both countries)
+1.1 Defense ministry AI procurement (both countries)
 The Uzbek Ministry of Defense and the Kyrgyz Ministry of Defense both procure digital, biometric, and increasingly AI-enabled systems. None of those procurements appear in this knowledge graph. Reasons: (a) defense procurement in both countries is governed by classified procedures separate from the civilian e-procurement portals; (b) export-controlled hardware (Nvidia H100, certain telecom equipment) creates layered counterparty rules that don't appear in public tenders; (c) Russian-co-financed defense items (KG via CSTO, UZ via bilateral) are politically sensitive and undocumented in the open press; (d) Western defense contractors operating in CA are subject to ITAR/EAR controls that further reduce visibility. The result is a systematic blindspot for any vendor whose product has dual-use applications. A vendor pitching civilian AI is technically eligible for defense contract conversations through MoD digital divisions, but the knowledge graph has no map of those divisions or their decision-makers. This is a known unknown of large size.
-### 1.2 Internal security / law-enforcement digital procurement
+1.2 Internal security / law-enforcement digital procurement
 Beyond the named Minister of Internal Affairs (Pulat Bobojonov, UZ — biometric ID, traffic AI cameras), the layer of officials inside MVD/СНБ that actually drive digital and AI procurement was not mapped. The Russian-language acronym "ОТ ДУП" (operational-technical departments) covers signals intelligence, lawful-interception adjacent capabilities, and increasingly facial-recognition deployments. Vendors operating in this space are typically Russian, Israeli (NSO and competitors), or Chinese. The knowledge graph captures none of these vendors because none of them publish project lists. Honest framing: anything in the security/biometric/lawful-interception adjacent space is not here.
-### 1.3 Chinese vendor footprint depth (Huawei, ZTE, Alibaba, China Telecom)
+1.3 Chinese vendor footprint depth (Huawei, ZTE, Alibaba, China Telecom)
 Chinese vendors are visible in the knowledge graph at the level of named partnerships (Shermatov / Huawei MoDT MoU 2023; Huawei Smart City presence in Tashkent and Bishkek), but the project-level footprint is opaque. Specifically: (a) Huawei Cloud Stack underlies UZ's UzCloud — the public cloud is described as "sovereign" but the underlying stack is Chinese; (b) ZTE has equipment in both UZ and KG telecom backbones — implications for AI applications running over that infrastructure are not captured; (c) Alibaba Cloud has presence in Almaty and may extend service into both UZ and KG without separately registered local entities; (d) Chinese AI/ML vendors (SenseTime, iFlyTek, Megvii) — surveillance/recognition — likely have a footprint that the open-source corpus does not surface. The Russian/CIS Substitution lens (Lens 6) systematically underweights China as the actual substitution partner. This is a research gap that requires Chinese-language sources to close.
-### 1.4 Russian co-financing channels (EDB, EFSD, bilateral)
+1.4 Russian co-financing channels (EDB, EFSD, bilateral)
 The Eurasian Development Bank (EDB) appears in the knowledge graph (Tigran Sargsyan named as Chairman; EAEU digital infrastructure fund $200M cited). The Eurasian Fund for Stabilization and Development (EFSD) appears thinly. Russian state-bank co-financing through Sberbank, Promsvyazbank, or VTB into CA digital projects is essentially absent from the records. This is partially because such financing has receded post-2022 sanctions, but it has not disappeared — particularly in KG where the CIS Substitution lens applies more strongly. A vendor positioning as "neither side" (per the CIS Substitution lens) needs to know who the Russian-side competitors and partners are; this knowledge graph cannot fully tell them.
-### 1.5 USAID-successor entity ambiguity
+1.5 USAID-successor entity ambiguity
 USAID exited Central Asia in 2025 amid wider US-government reorganization. Successor entity structure (Department of State digital programs? International Development Finance Corporation? Different USG entity?) is ambiguous in CA-relevant project handovers. The knowledge graph mostly omits USAID-successor entries because the institutional layer is not yet stable. Programs that USAID had been running (digital governance support, judicial reform tech, civil society digital tools) are in a transition state; some have been picked up by EU GIZ/FCDO, some have been dropped, some are in transitional limbo. A vendor relying on "USAID-funded digital governance pipeline" in 2026-2027 is operating on outdated information.
-### 1.6 Bishkek and Tashkent municipal digitalization beyond high-level summaries
+1.6 Bishkek and Tashkent municipal digitalization beyond high-level summaries
 City-level digital initiatives — Tashkent smart city, Bishkek e-municipality, Samarkand Vision 2030 — appear at the strategic-document level but the named officials, procurement schedules, and donor pipelines at the municipal level are thin. Cities matter because they procure differently from ministries (more frequent, smaller tickets, faster) and because mayors have political profiles that ministers don't. This research underweights municipal opportunities.
-### 1.7 Saida Mirziyoyeva profile depth
+1.7 Saida Mirziyoyeva profile depth
 Saida Mirziyoyeva is the daughter of President Mirziyoyev and holds a presidential aide / advisor role that intersects with ICT, education, and digitalization policy. She is mentioned (e.g., as a confirmed Digital Bridge Tashkent 2026 speaker in INI-001) but does not have her own person record. Given her structural position, this is a meaningful omission. This is partly a question of MUST NOT around speculation about personal political loyalties, but the current role and policy footprint can be documented from public statements without crossing that line.
----
 2. Unanswered questions
-### 2.1 What is the actual disbursement rate of WB Digital CASA P160230?
+2.1 What is the actual disbursement rate of WB Digital CASA P160230?
 The record states $51.3M of $57M disbursed (~90%), but the project end-date is March 2025 and the audit is May 2026. Either the project closed with that disbursement rate (likely) or there were later disbursements not captured. Honest answer: only commitment data is reliably captured; disbursement-tracking quality varies by program.
-### 2.2 What is the actual operational status of the $100M UZ AI Fund (PP-320)?
+2.2 What is the actual operational status of the $100M UZ AI Fund (PP-320)?
 The decree was signed 30 October 2025. The fund's 2026-2027 allocation is committed. As of May 2026, fund criteria are reportedly being drafted (per INI-001 problem_statement) but specific awarded amounts, recipient companies, and selection committee members are not in the public record. A vendor pursuing fund access is operating in a 6-month criteria-shaping window without confirmed end-state criteria.
-### 2.3 Is UZ-LAW-2026-1125 a real law, or a hallucination?
+2.3 Is UZ-LAW-2026-1125 a real law, or a hallucination?
 This is a HIGH severity unanswered question (audit correction C-004). Two initiatives reference a "Personal-data law amendment UZ-LAW-2026-1125 requires data localization for judicial PII" but no such law appears in the decrees file. The legal-cartographer agent should be re-run on this specific question; until answered, the regulatory pathway for any judicial-data initiative is uncertain.
-### 2.4 Who runs the new UDP Digital Transformation Department in KG?
+2.4 Who runs the new UDP Digital Transformation Department in KG?
 Currently named: Adilbek Asanbekov as Head, Timur Koichubaev as Deputy. These names predate the Mintsifry liquidation by approximately 0 days — they are inferred from press leaks, not from published structural regulations. Until UDP regulations publish (~31 May 2026), the actual leadership of the department is unconfirmed.
-### 2.5 Will Talant Sultanov stay in government, move to UDP, or exit?
+2.5 Will Talant Sultanov stay in government, move to UDP, or exit?
 The transition from Minister of Digital Development to UDP Senior Advisor is a plausible institutional path, but Sultanov is internationally networked (CMU + AUCA) and could plausibly move to a private/donor role. The knowledge graph assumes he stays in government. Audit flags this as INFERRED.
-### 2.6 What is the next step for the failed KG GPU/Supercomputer tender (KG-T-2026-003)?
+2.6 What is the next step for the failed KG GPU/Supercomputer tender (KG-T-2026-003)?
 The record notes "Previous tender failed due to export control issues with Nvidia (H100 chips on ECCN). New tender re-launched with US Embassy engagement. Potential Chinese GPU alternative (Huawei Ascend) being evaluated." The actual technology decision (Nvidia approval vs. pivot to Ascend) will be highly consequential for any AI vendor planning to operate against KG state compute. Outcome unknown.
-### 2.7 How many of the "100 AI implementations by end-2026" (УП-189 target) are actually being implemented?
+2.7 How many of the "100 AI implementations by end-2026" (УП-189 target) are actually being implemented?
 The decree commits to 100. As of audit date, no public registry tracks which ones are in flight, completed, or stalled. A vendor positioning as "the 51st implementation" needs this register to exist; it doesn't.
----
 3. Dead pathways investigated
-### 3.1 Direct procurement portal links for UZ tenders
-We attempted to populate `tender_url` fields with specific tender notices on etender.uzex.uz. For several tenders (UZ-T-2026-002, UZ-T-2026-003, UZ-T-2026-005), only the platform homepage URL is recorded. Specific tender notice URLs were not consistently retrievable; tenders may exist on the portal but require login or specific reference numbers to access. Dead pathway: open-web crawl of tender portal homepage gives no specific notice details.
-### 3.2 LinkedIn URL verification for Tier-1 individuals via free search
-30 of 30 Tier-1 individuals have either `not_found`, `unverified_match`, or undocumented LinkedIn status. A free LinkedIn search produces too many name-matches to confidently disambiguate. Dead pathway without paid Sonar Pro: free LinkedIn cannot resolve "is this the correct sherzod-shermatov among 47 listed?"
-### 3.3 cbd.minjust.gov.kg full-document fetching
+3.1 Direct procurement portal links for UZ tenders
+We attempted to populate
+tender_url
+fields with specific tender notices on etender.uzex.uz. For several tenders (UZ-T-2026-002, UZ-T-2026-003, UZ-T-2026-005), only the platform homepage URL is recorded. Specific tender notice URLs were not consistently retrievable; tenders may exist on the portal but require login or specific reference numbers to access. Dead pathway: open-web crawl of tender portal homepage gives no specific notice details.
+3.2 LinkedIn URL verification for Tier-1 individuals via free search
+30 of 30 Tier-1 individuals have either
+not_found
+,
+unverified_match
+, or undocumented LinkedIn status. A free LinkedIn search produces too many name-matches to confidently disambiguate. Dead pathway without paid Sonar Pro: free LinkedIn cannot resolve "is this the correct sherzod-shermatov among 47 listed?"
+3.3 cbd.minjust.gov.kg full-document fetching
 Several KG decree URLs return only partial content via WebFetch. The portal serves search-result snippets but full decree text often requires authenticated access or PDF download. Dead pathway: WebFetch alone cannot fully verify decree text; cross-referencing to secondary press is the workaround used.
-### 3.4 Donor PAD (Project Appraisal Document) deep extraction
+3.4 Donor PAD (Project Appraisal Document) deep extraction
 WB PADs are 80-200 page PDFs containing component-level budget breakdowns, named TTLs, and detailed disbursement schedules. Open-web fetching of these PDFs is brittle. The knowledge graph mostly relies on press release language ("project total $50M") rather than PAD-level extraction. Dead pathway: deep PDF extraction from open web is unreliable; deeper donor research requires authenticated access to documents.worldbank.org and adb.org/projects.
-### 3.5 SOE bank IT director identification via open press
+3.5 SOE bank IT director identification via open press
 State-controlled bank IT directors are rarely named in press. Their decisions matter for AML/KYC AI procurement. Dead pathway: open press doesn't surface these names; LinkedIn / Sonar Pro / direct outreach is the only route.
-### 3.6 CSTO / EAEU defense digital cooperation projects
+3.6 CSTO / EAEU defense digital cooperation projects
 Russian-led collective security and economic union digital cooperation has documents but they are not consistently translated, indexed, or open. Dead pathway: open-web English/Russian search reveals strategic-document level mentions but not project-level detail.
----
 4. What a hostile critic of this research would say is missing
 A hostile critic of this knowledge graph could legitimately say all of the following:
-(a) **You overweight donor-financed pipeline.** The knowledge graph treats World Bank and ADB pipelines as the canonical procurement universe. In reality, state-budget-only procurement (Treasury-financed digital programs, ministry-internal IT spend) is a comparable or larger pool. The graph captures it weakly.
-(b) **You treat decree announcements as decree implementations.** A vendor reading the graph can mistake "100 AI implementations targeted by 2026" for "100 AI implementations underway." This is a systemic framing risk in the pitch language across initiatives.
-(c) **You overweight the diaspora bridge as a tactical channel.** Diaspora-bridge introductions can warm a contact, but the actual contract decision still happens through formal procurement. Saying "the diaspora intro is the unlock" is true for contact warmth but not for procurement outcome. The graph leans into the diaspora hook arguably harder than the data supports.
-(d) **You inflate Russian/CIS fit scores.** The auditor (this report) confirms this — median 7.6 against a justifiable median of ~6.0. A hostile critic would say the entire pipeline is therefore mis-prioritized in favor of Russian-language UX initiatives over national-language initiatives.
-(e) **You underweight execution risk.** Speed-to-contract is the highest-weight axis (25%) in the scoring rubric. Execution risk after contract — implementation pace, procurement bureaucracy, payment delay — is captured only loosely in the risk_register. Both UZ and KG state procurement is famously slow at the disbursement stage; this is not separately scored.
-(f) **You undercount competition from Russian incumbents.** Yandex, Sber GigaChat, MTS AI, and SBERtech are described as "sanctions-shy" or "sanctions-exposed" in initiatives, but in practice these vendors continue to operate in CA via local partners and re-branded affiliates. Sanctions exposure is not a clean exit signal.
-(g) **You depend on single-language sources for many KG records.** kaktus.media is cited heavily for KG. While respected, single-outlet over-reliance is a quality risk. Russian-language but Kyrgyz-domain (24.kg, akipress.org) and Kyrgyz-language native (azattyk.org Kyrgyz) cross-checks are inconsistent.
-(h) **You name people who may have moved.** Tier-1 records are dated 2026-05-03 / 2026-05-04 (audit-recent), but role tenure currency for ministers and donor TTLs is not separately verified at audit date for most records. The "stale entries" risk is real for any record more than 60 days old.
-(i) **You omit defense and internal security entirely.** This is a deliberate omission, not an oversight, but a hostile critic would still flag it: a vendor working in dual-use AI doesn't get a complete picture without it.
-(j) **You assume institutional stability that doesn't hold for KG.** With Mintsifry liquidated approximately 30 April 2026 and UDP regs not due until ~31 May 2026, ~18 KG records are at structural risk of stale role assignments. A hostile critic would say "this graph is half-stale on the day of publication."
----
+(a)
+You overweight donor-financed pipeline.
+The knowledge graph treats World Bank and ADB pipelines as the canonical procurement universe. In reality, state-budget-only procurement (Treasury-financed digital programs, ministry-internal IT spend) is a comparable or larger pool. The graph captures it weakly.
+(b)
+You treat decree announcements as decree implementations.
+A vendor reading the graph can mistake "100 AI implementations targeted by 2026" for "100 AI implementations underway." This is a systemic framing risk in the pitch language across initiatives.
+(c)
+You overweight the diaspora bridge as a tactical channel.
+Diaspora-bridge introductions can warm a contact, but the actual contract decision still happens through formal procurement. Saying "the diaspora intro is the unlock" is true for contact warmth but not for procurement outcome. The graph leans into the diaspora hook arguably harder than the data supports.
+(d)
+You inflate Russian/CIS fit scores.
+The auditor (this report) confirms this — median 7.6 against a justifiable median of ~6.0. A hostile critic would say the entire pipeline is therefore mis-prioritized in favor of Russian-language UX initiatives over national-language initiatives.
+(e)
+You underweight execution risk.
+Speed-to-contract is the highest-weight axis (25%) in the scoring rubric. Execution risk after contract — implementation pace, procurement bureaucracy, payment delay — is captured only loosely in the risk_register. Both UZ and KG state procurement is famously slow at the disbursement stage; this is not separately scored.
+(f)
+You undercount competition from Russian incumbents.
+Yandex, Sber GigaChat, MTS AI, and SBERtech are described as "sanctions-shy" or "sanctions-exposed" in initiatives, but in practice these vendors continue to operate in CA via local partners and re-branded affiliates. Sanctions exposure is not a clean exit signal.
+(g)
+You depend on single-language sources for many KG records.
+kaktus.media is cited heavily for KG. While respected, single-outlet over-reliance is a quality risk. Russian-language but Kyrgyz-domain (24.kg, akipress.org) and Kyrgyz-language native (azattyk.org Kyrgyz) cross-checks are inconsistent.
+(h)
+You name people who may have moved.
+Tier-1 records are dated 2026-05-03 / 2026-05-04 (audit-recent), but role tenure currency for ministers and donor TTLs is not separately verified at audit date for most records. The "stale entries" risk is real for any record more than 60 days old.
+(i)
+You omit defense and internal security entirely.
+This is a deliberate omission, not an oversight, but a hostile critic would still flag it: a vendor working in dual-use AI doesn't get a complete picture without it.
+(j)
+You assume institutional stability that doesn't hold for KG.
+With Mintsifry liquidated approximately 30 April 2026 and UDP regs not due until ~31 May 2026, ~18 KG records are at structural risk of stale role assignments. A hostile critic would say "this graph is half-stale on the day of publication."
 5. The single biggest known unknown
-**The institutional shape of the post-April-2026 Kyrgyzstan UDP digital department.**
+The institutional shape of the post-April-2026 Kyrgyzstan UDP digital department.
 This is the single biggest known unknown for three converging reasons. First, the Kyrgyz Ministry of Digital Development was liquidated as a standalone body on approximately 30 April 2026, with all functions — digitalization policy, state digital services, telecom regulation, cybersecurity, archives, satellite tech, AI, and innovation — transferred to the Presidential Administration's Department of Affairs (Управление делами президента, UDP). Second, the structural regulations for the new UDP digital functions are not due to be published until approximately 31 May 2026. Third, every Kyrgyz record in the knowledge graph that depends on Mintsifry-era role assignments — at least 18 of the 40 KG people records, all 8 KG donor programs naming Mintsifry counterparts, and 11 of the 25 KG trends — is at structural risk of stale role data. As of audit date (2026-05-04), the public record contains: (a) the press announcement of liquidation in 10+ outlets; (b) plausible inference that key personnel (Sultanov, Asanbekov, Koichubaev, Isakov-Tunduk) transitioned to UDP roles; (c) absence of authoritative regulation defining what those roles formally are. This means: every Tier-A KG initiative is operating on a 4-8 week uncertainty window. A vendor pursuing KG opportunities in May 2026 is choosing between two bad options: (i) wait until regulations publish before acting (lose the criteria-shaping window); (ii) act now on inferred relationships and risk that the formal authority lies elsewhere when contracts are awarded. The audit recommendation is to maintain Tier-A scoring on KG initiatives only where the underlying decree authority and donor pathway survive the institutional transition (e.g., decrees from 2024-2025 still in force, donor projects with active counterparts beyond the dissolved ministry); and to demote initiatives where the operational counterpart was Mintsifry-specific. This is reflected in initiative_tier_updates.json.
----
 6. Updated Sonar Pro re-verification findings (2026-05-04)
 The audit consumed 8 paid Sonar Pro calls ($0.0217 of $20 budget). The findings revealed structural identity errors in the knowledge graph that the auditor must report transparently:
-### 6.1 Wrong CEO of IT Park Uzbekistan
-The knowledge graph names Firdavs Abdullayev as the "MOST ACCESSIBLE FOR FIRST CONTACT" Tier-1 contact for AI vendors entering UZ. Sonar Pro confirms the current CEO is **Azamat Karamatov**, with Farkhod Ibragimov as Chairman of Supervisory Board. Abdullayev was appointed CEO by Decree PF-60 of 7 February 2020 and was likely in role through ~early 2025; the transition to Karamatov was missed by the people-intelligence agent. This breaks the entire "GITEX intro through IT Park" warm-intro pathway as currently described in the deck and CRM.
-### 6.2 Wrong last Minister of Digital Development of Kyrgyzstan
-The knowledge graph names Talant Sultanov as Minister of Digital Development 2022-April 2026, then UDP Senior Advisor. Sonar Pro confirms the **actual last minister before liquidation was Azamat Zhamangulov / Zhamankulov / Jamangulov**, who chaired the Fifth Meeting of SCO ICT Agencies in Bishkek on 27 April 2026. Sultanov's recent (2025) public roles per Sonar Pro are: Policy Advocacy Advisor at Global Digital Inclusion Partnership, Chair of Internet Society Kyrgyz Chapter (ISOC.KG), UN IGF MAG member. The 2022-2026 ministerial appointment is NOT confirmed by Sonar Pro. The UDP transition is NOT confirmed.
-### 6.3 Wrong head of UDP Digital Department
-The knowledge graph names Adilbek Asanbekov as Head of Digital Transformation Dept., UDP. Sonar Pro confirms **the actual head is Azamat Burzhuev** (Head of Digital Development Department of Presidential Administration of the Kyrgyz Republic). The "Adilbek Asanbekov" identity is NOT verifiable in any KG government context per Sonar Pro — possibly fabricated, possibly a name confusion.
-### 6.4 Wrong Minister of Health of Kyrgyzstan
-The knowledge graph names Alymkadyr Beishenaliev as current Minister of Health KG. Sonar Pro confirms **the actual current MoH is Damirbek Osmonov**, appointed 26 February 2026 (replacing Kanibek Dosmambetov, who replaced Beishenaliev sometime earlier). Beishenaliev's earlier 2020-2023 tenure ended amid scandal; the chain of subsequent appointments was missed.
-### 6.5 What this means
+6.1 Wrong CEO of IT Park Uzbekistan
+The knowledge graph names Firdavs Abdullayev as the "MOST ACCESSIBLE FOR FIRST CONTACT" Tier-1 contact for AI vendors entering UZ. Sonar Pro confirms the current CEO is
+Azamat Karamatov
+, with Farkhod Ibragimov as Chairman of Supervisory Board. Abdullayev was appointed CEO by Decree PF-60 of 7 February 2020 and was likely in role through ~early 2025; the transition to Karamatov was missed by the people-intelligence agent. This breaks the entire "GITEX intro through IT Park" warm-intro pathway as currently described in the deck and CRM.
+6.2 Wrong last Minister of Digital Development of Kyrgyzstan
+The knowledge graph names Talant Sultanov as Minister of Digital Development 2022-April 2026, then UDP Senior Advisor. Sonar Pro confirms the
+actual last minister before liquidation was Azamat Zhamangulov / Zhamankulov / Jamangulov
+, who chaired the Fifth Meeting of SCO ICT Agencies in Bishkek on 27 April 2026. Sultanov's recent (2025) public roles per Sonar Pro are: Policy Advocacy Advisor at Global Digital Inclusion Partnership, Chair of Internet Society Kyrgyz Chapter (ISOC.KG), UN IGF MAG member. The 2022-2026 ministerial appointment is NOT confirmed by Sonar Pro. The UDP transition is NOT confirmed.
+6.3 Wrong head of UDP Digital Department
+The knowledge graph names Adilbek Asanbekov as Head of Digital Transformation Dept., UDP. Sonar Pro confirms
+the actual head is Azamat Burzhuev
+(Head of Digital Development Department of Presidential Administration of the Kyrgyz Republic). The "Adilbek Asanbekov" identity is NOT verifiable in any KG government context per Sonar Pro — possibly fabricated, possibly a name confusion.
+6.4 Wrong Minister of Health of Kyrgyzstan
+The knowledge graph names Alymkadyr Beishenaliev as current Minister of Health KG. Sonar Pro confirms
+the actual current MoH is Damirbek Osmonov
+, appointed 26 February 2026 (replacing Kanibek Dosmambetov, who replaced Beishenaliev sometime earlier). Beishenaliev's earlier 2020-2023 tenure ended amid scandal; the chain of subsequent appointments was missed.
+6.5 What this means
 Four of approximately twelve operationally-critical Tier-1 KG/UZ contact identities are wrong as of audit date. This is not a small error rate. It indicates that the people-intelligence Wave 3 agent relied substantially on prior model knowledge or stale source data and did not consistently re-verify against current government rosters. Future runs MUST require Sonar Pro / live-search verification for every Tier-1 individual at last_verified_date stamping. The knowledge graph as of 2026-05-04 should NOT be used to drive direct outreach without first cross-checking the four named replacements:
 | Replace | With |
 |---|---|
@@ -1130,28 +1335,46 @@ Four of approximately twelve operationally-critical Tier-1 KG/UZ contact identit
 | Adilbek Asanbekov (UDP Digital Head) | Azamat Burzhuev (UDP Digital Development Dept Head) |
 | Alymkadyr Beishenaliev (MoH KG) | Damirbek Osmonov (MoH KG since 26 Feb 2026) |
 These should be added as new Person records with priority before any pitch artifacts ship.
----
 Coda: what this means for the user
 Read this section before reading the bullishly-toned initiatives.json or the deck. The knowledge graph is structurally complete enough to support investment decisions in UZ and KG digital opportunities — but only if the user reads it as a hypothesis to be tested, not a fact base to be quoted. The HIGH and MEDIUM severity items in corrections.json are the things to fix or check before the deliverable is shipped. The known unknowns above are the things to acknowledge openly when the deliverable is shipped — every meeting with a UZ/KG official should start with "I know your institutional structure may have changed since this brief was drafted; please correct anything that's stale."
 The harness improves through use. Every error becomes a constraint. The next pass should:
-• Re-baseline KG records after 31 May 2026 UDP regulation publication.
-• Resolve the UZ-LAW-2026-1125 question definitively.
-• Run Sonar Pro on the 8 highest-leverage Tier-1 individuals to upgrade or downgrade LinkedIn URLs.
-• Add a defense / internal security gap acknowledgment to every relevant initiative pitch.
-• Recompute russian_cis_fit scores with a stricter rubric.
+Re-baseline KG records after 31 May 2026 UDP regulation publication.
+Resolve the UZ-LAW-2026-1125 question definitively.
+Run Sonar Pro on the 8 highest-leverage Tier-1 individuals to upgrade or downgrade LinkedIn URLs.
+Add a defense / internal security gap acknowledgment to every relevant initiative pitch.
+Recompute russian_cis_fit scores with a stricter rubric.
 That, plus quarterly re-verification of decree status and donor disbursement, would close the meaningful audit-discovered gaps.
----
 (Word count target: ≥1500 — this section is approximately 2200 words.)
 (End of honesty_section.md)
+Share:
+X / Twitter
+LinkedIn
+Email
+·
+RSS feed
+GitHub repo
+Cite this research
+BibTeX
+@misc{valuev26cab2g,
+  author = {Valuev, Alexandr},
+  title  = {Central Asia B2G Intelligence: Honesty: what we did not find},
+  year   = {2026},
+  url    = {https://avaluev.github.io/ca-b2g-research/honesty/},
+  note   = {Data vintage 2026-05, Apache 2.0}
+}
+APA
+Valuev, A. (2026). Central Asia B2G Intelligence: Honesty: what we did not find. Retrieved from https://avaluev.github.io/ca-b2g-research/honesty/
+MLA
+Valuev, Alexandr. "Central Asia B2G Intelligence: Honesty: what we did not find." Data vintage 2026-05, https://avaluev.github.io/ca-b2g-research/honesty/.
 
 ---
 ## URL: https://avaluev.github.io/ca-b2g-research/index.html
 Central Asia B2G Intelligence
 This open research catalogues 100 deployable AI and digital-government initiatives across Uzbekistan and Kyrgyzstan, scored on five axes and grounded in 100 decrees, 105 institutions, 117 decision-makers, 49 donor programmes, and 100 global precedents. Every claim is typed, verifiable, and cross-referenced. 28 initiatives are rated Tier-A — deal-ready.
 100
-B2G Initiatives
+B2G initiatives
 28
-Tier-A
+Tier-A deals
 200
 Solo MVPs
 100
@@ -1166,24 +1389,75 @@ Donor programmes
 Live tenders
 100
 Global cases
+April 2026 KG structural break:
+the Ministry of Digital Development was abolished and its functions transferred to the Presidential Administration (УДП). Every legacy donor programme counterpart is in flux through Q3 2026.
+See KG decrees
+.
+Where should you start?
+Pick the entry that matches what you do — each card lands you on the page that answers your first question.
+Vendor / B2G operator
+Find Tier-A initiatives with verified buyer, decree anchor, donor co-financing, and a credible 12-month deal path.
+→ Initiatives top 100
+·
+live procurement
+Donor / IFI counterpart
+49 active and pipeline programmes from World Bank, ADB, EU, UN agencies, and bilaterals — TTL or PM named on each.
+→ Donor pipeline
+·
+decision-makers
+Investor / VC
+200 solopreneur MVPs and 28 Tier-A B2G initiatives, scored on five axes with local market fit and Russian/CIS substitution lenses.
+→ Solopreneur MVPs
+·
+analytical lenses
+Government / regulator
+How peers are deploying AI in courts, tax, health, and digital identity — with tournament-ranked transferability scores.
+→ Methodology
+·
+what we did not find
+Researcher / journalist
+Every prompt, every source URL, every audit finding is public. Reproduce the whole pipeline yourself for under USD 20 of paid API calls.
+→ GitHub repository
+·
+provenance
 What is in this research?
-This is a typed, source-cited knowledge graph of AI and digital government opportunities in Uzbekistan and Kyrgyzstan, plus the methodology used to build it. Every initiative is mapped to a decree, an institution, a decision-maker, a donor programme, and a global precedent. Every numeric claim is cited.
+A typed, source-cited knowledge graph of AI and digital government opportunities in Uzbekistan and Kyrgyzstan, plus the methodology used to build it. Each initiative is mapped to a specific decree, institution, decision-maker, donor programme, and global precedent. Numeric claims carry a verified URL; uncertain claims are tagged
+L2_VERIFIED
+or
+INFERRED
+rather than dropped.
 How was it produced?
-An eleven-agent multi-wave research pipeline built on Anthropic's Claude (Opus + Sonnet) with cross-model verification via Perplexity Sonar Deep Research and Sonar Pro on a strict $20 OpenRouter budget. The seven waves move from blueprint to legal corpus to institutions, donors, procurement, trends, people, synthesis, audit, and outreach.
-Who is this for?
-B2G operators, government affairs leads at vendors, donor counterparts, investment teams covering frontier emerging markets, and Central-Asian government decision-makers themselves. The site is bilingual-readable; primary sources are predominantly Russian-language.
-Where to start
-Start with
-Initiatives
-for the headline list. Read
-the five lenses
-for the analytical frame. Read
-Honesty
-for what we did
-not
-find — gaps are first-class records here.
-Provenance
-shows every source and every cross-model verification card.
+An eleven-agent multi-wave pipeline built on Claude (Opus + Sonnet) with cross-model verification via Perplexity Sonar Deep Research on a strict USD 20 OpenRouter budget. The seven waves move from blueprint to legal corpus to institutions, donors, procurement, trends, people, synthesis, adversarial audit, and outreach. The audit wave caught four wrong Tier-1 identities before publication; corrections are public.
+Who built this?
+Alexandr Valuev — independent researcher focused on B2G market intelligence in Central Asia. Reachable at
+valuev.alexandr@gmail.com
+·
+LinkedIn
+·
+GitHub
+. The full prompt set, agent definitions, and source code are
+openly licensed under Apache 2.0
+.
+Share:
+X / Twitter
+LinkedIn
+Email
+·
+RSS feed
+GitHub repo
+Cite this research
+BibTeX
+@misc{valuev26cab2g,
+  author = {Valuev, Alexandr},
+  title  = {Central Asia B2G Intelligence: Central Asia B2G Intelligence — Uzbekistan + Kyrgyzstan A...},
+  year   = {2026},
+  url    = {https://avaluev.github.io/ca-b2g-research/},
+  note   = {Data vintage 2026-05, Apache 2.0}
+}
+APA
+Valuev, A. (2026). Central Asia B2G Intelligence: Central Asia B2G Intelligence — Uzbekistan + Kyrgyzstan A.... Retrieved from https://avaluev.github.io/ca-b2g-research/
+MLA
+Valuev, Alexandr. "Central Asia B2G Intelligence: Central Asia B2G Intelligence — Uzbekistan + Kyrgyzstan A...." Data vintage 2026-05, https://avaluev.github.io/ca-b2g-research/.
 
 ---
 ## URL: https://avaluev.github.io/ca-b2g-research/initiatives/index.html
@@ -1193,11 +1467,11 @@ How is each initiative grounded?
 Every Tier-A initiative names its target buyer (Person), lead institution, authorising decree, secondary funding via a specific donor programme, and the global precedent it transfers from. The verification cascade re-fetches sources during the audit wave; failures demote tier.
 Initiatives
 Tier
-C
+Country
 Initiative
 Sector
 Score
-Initial $
+Initial contract (USD)
 Pathway
 A
 UZ
@@ -1899,6 +2173,28 @@ Transport & Urban
 5.55
 $1,500,000
 ppp
+Show all 100 rows (75 more)
+All 100 rows are present in the DOM for crawlers and remain in the source HTML; the rest are revealed when this section is expanded.
+Share:
+X / Twitter
+LinkedIn
+Email
+·
+RSS feed
+GitHub repo
+Cite this research
+BibTeX
+@misc{valuev26cab2g,
+  author = {Valuev, Alexandr},
+  title  = {Central Asia B2G Intelligence: Initiative top 100 — Tier-A B2G deals},
+  year   = {2026},
+  url    = {https://avaluev.github.io/ca-b2g-research/initiatives/},
+  note   = {Data vintage 2026-05, Apache 2.0}
+}
+APA
+Valuev, A. (2026). Central Asia B2G Intelligence: Initiative top 100 — Tier-A B2G deals. Retrieved from https://avaluev.github.io/ca-b2g-research/initiatives/
+MLA
+Valuev, Alexandr. "Central Asia B2G Intelligence: Initiative top 100 — Tier-A B2G deals." Data vintage 2026-05, https://avaluev.github.io/ca-b2g-research/initiatives/.
 
 ---
 ## URL: https://avaluev.github.io/ca-b2g-research/institutions/index.html
@@ -1914,12 +2210,12 @@ Regulators
 Commissions, councils, working groups
 Donor-embedded Project Implementation Units (PIUs)
 Institutions
-C
+Country
 Tier
 Name (EN)
 Name (RU)
 AI/digital mandate
-Head ID
+Head
 KG
 1
 Office of the President of the Kyrgyz Republic
@@ -2469,128 +2765,255 @@ UZ
 GIZ Digital Governance / Public Administration Reform PIU (Uzbekistan)
 ПИЕ ГИЦ — Цифровое управление / реформа госуправления (Узбекистан)
 GIZ public administration reform and digital governance advisory programs. Government counterpart: Agency for Strategic Reforms (ASR). Procurement follows GIZ/EU rules. Entry point for governance reform technology vendors.
+Show all 105 rows (75 more)
+All 105 rows are present in the DOM for crawlers and remain in the source HTML; the rest are revealed when this section is expanded.
+Share:
+X / Twitter
+LinkedIn
+Email
+·
+RSS feed
+GitHub repo
+Cite this research
+BibTeX
+@misc{valuev26cab2g,
+  author = {Valuev, Alexandr},
+  title  = {Central Asia B2G Intelligence: Institution map (UZ + KG)},
+  year   = {2026},
+  url    = {https://avaluev.github.io/ca-b2g-research/institutions/},
+  note   = {Data vintage 2026-05, Apache 2.0}
+}
+APA
+Valuev, A. (2026). Central Asia B2G Intelligence: Institution map (UZ + KG). Retrieved from https://avaluev.github.io/ca-b2g-research/institutions/
+MLA
+Valuev, Alexandr. "Central Asia B2G Intelligence: Institution map (UZ + KG)." Data vintage 2026-05, https://avaluev.github.io/ca-b2g-research/institutions/.
 
 ---
 ## URL: https://avaluev.github.io/ca-b2g-research/lenses/index.html
-The five-plus-one analytical lenses
-Six analytical lenses cut across every record in this research: the Karimov-to-Mirziyoyev Inversion in Uzbekistan, the Japarov Concentration in Kyrgyzstan, the Decree Half-Life that opens 6-18 month implementation windows, Donor Co-Financing that drives 60-90% of digital budgets, the Diaspora Bridge of senior advisors, and the Russian/CIS Substitution Window opened by post-2022 vendor retreat.
+The six analytical lenses
+Six lenses cut across every record in this research: the Karimov-to-Mirziyoyev Inversion in Uzbekistan, the Japarov Concentration in Kyrgyzstan, the Decree Half-Life that opens six-to-eighteen month implementation windows, Donor Co-Financing behind sixty to ninety percent of digital budgets, the Diaspora Bridge of senior advisors, and the Russian/CIS Substitution Window opened by post-2022 vendor retreat.
 Every research output passes through these five lenses. They distinguish this harness from generic "AI in Central Asia" research that produces useless platitudes.
 Lens 1: The Karimov-to-Mirziyoyev Inversion (Uzbekistan-specific)
-**The pattern.** Pre-2016 Uzbekistan was institutionally frozen. Post-2016 Uzbekistan is in a once-in-a-generation institutional rewrite — every ministry, agency, and SOE has either been created, restructured, or rebranded since 2017.
-**Operational implication.** Org charts published before 2020 are 80%+ stale. Most B2G consultancies still cite them. Russian-language Wikipedia is particularly unreliable here — Uzbek government structures change faster than volunteer editors update.
-**Where the alpha is.**
-• New agencies created post-2017 (Agency for Strategic Reforms, Agency for Cadastre, Public Services Agency, IT Park, Innovation Agency, etc.) tend to have:
+The pattern.
+Pre-2016 Uzbekistan was institutionally frozen. Post-2016 Uzbekistan is in a once-in-a-generation institutional rewrite — every ministry, agency, and SOE has either been created, restructured, or rebranded since 2017.
+Operational implication.
+Org charts published before 2020 are 80%+ stale. Most B2G consultancies still cite them. Russian-language Wikipedia is particularly unreliable here — Uzbek government structures change faster than volunteer editors update.
+Where the alpha is.
+New agencies created post-2017 (Agency for Strategic Reforms, Agency for Cadastre, Public Services Agency, IT Park, Innovation Agency, etc.) tend to have:
 - Younger, often Western-educated leadership
 - Hungry leadership that wants visible wins
 - Less procurement orthodoxy
 - More tolerance for direct vendor engagement
-• Renamed/restructured ministries (e.g. Ministry of Digital Technologies — formerly Ministry of Information Technologies and Communications) often have:
+Renamed/restructured ministries (e.g. Ministry of Digital Technologies — formerly Ministry of Information Technologies and Communications) often have:
 - New scope they don't yet have vendors for
 - Fresh budget allocations tied to the renaming decree
-**Application rule.** When an institution is mentioned, check its founding decree date. If post-2017, flag it as `karimov_inversion` lens-tagged and prioritize its leaders in the people-intelligence sweep.
+Application rule.
+When an institution is mentioned, check its founding decree date. If post-2017, flag it as
+karimov_inversion
+lens-tagged and prioritize its leaders in the people-intelligence sweep.
 Lens 2: The Japarov Concentration (Kyrgyzstan-specific)
-**The pattern.** Post-2021 Kyrgyzstan has consolidated executive power, abolished some ministries, restructured the Cabinet of Ministers (Кабинет Министров), and runs through the Presidential Administration as the real decision layer.
-**Operational implication.** Smaller country = fewer gatekeepers = faster contracts but smaller budgets. The Ministry of Digital Development (Министерство цифрового развития) is the single highest-leverage target for AI vendors because it consolidates functions that used to span multiple agencies.
-**Where the alpha is.**
-• Abolished or merged entities: their staff still exist as named individuals but now operate inside the merged body — they retain expertise and network but their public roles are stale. Find them.
-• The President's Office Digital Development Department often has more decision authority than the formal ministry on big-ticket items.
-• The State Agency for Information Resources and Technologies under the President operates as a parallel implementation arm.
-**Application rule.** When mapping KG institutions, always check both the formal ministry AND the parallel Presidential Administration unit. The latter often has the budget; the former has the public profile.
+The pattern.
+Post-2021 Kyrgyzstan has consolidated executive power, abolished some ministries, restructured the Cabinet of Ministers (Кабинет Министров), and runs through the Presidential Administration as the real decision layer.
+Operational implication.
+Smaller country = fewer gatekeepers = faster contracts but smaller budgets. The Ministry of Digital Development (Министерство цифрового развития) is the single highest-leverage target for AI vendors because it consolidates functions that used to span multiple agencies.
+Where the alpha is.
+Abolished or merged entities: their staff still exist as named individuals but now operate inside the merged body — they retain expertise and network but their public roles are stale. Find them.
+The President's Office Digital Development Department often has more decision authority than the formal ministry on big-ticket items.
+The State Agency for Information Resources and Technologies under the President operates as a parallel implementation arm.
+Application rule.
+When mapping KG institutions, always check both the formal ministry AND the parallel Presidential Administration unit. The latter often has the budget; the former has the public profile.
 Lens 3: The Decree Half-Life
-**The pattern.** A presidential decree announcing an AI/digital strategy creates a 6–18 month implementation window where:
-1. Budgets get allocated (months 0–3)
-2. Working groups form, terms of reference drafted (months 1–6)
-3. Procurement opens, RFPs publish (months 3–12)
-4. Contracts award (months 6–18)
+The pattern.
+A presidential decree announcing an AI/digital strategy creates a 6–18 month implementation window where:
+Budgets get allocated (months 0–3)
+Working groups form, terms of reference drafted (months 1–6)
+Procurement opens, RFPs publish (months 3–12)
+Contracts award (months 6–18)
 After month 18, implementation freezes until the next decree.
-**Operational implication.** The window between decree signing and procurement publication is the highest-leverage window for vendor positioning. After RFPs publish, specs are usually written for an incumbent. Before implementation begins, the spec is open.
-**Where the alpha is.** Decrees signed in the last 6–12 months that have NOT yet had their RFPs published. These are the "pre-procurement" windows where vendor input still shapes the spec.
-**Application rule.** Every decree gets a `half_life_status` tag:
-• `active_window`: signed within last 6 months, no procurement yet — HIGHEST PRIORITY
-• `implementing`: 6–18 months old, procurement underway — bid on tenders
-• `expired`: >18 months, no follow-up decree — backlog, low priority
-• `amended`: superseded — check the amending decree
-• `repealed`: dead — drop
+Operational implication.
+The window between decree signing and procurement publication is the highest-leverage window for vendor positioning. After RFPs publish, specs are usually written for an incumbent. Before implementation begins, the spec is open.
+Where the alpha is.
+Decrees signed in the last 6–12 months that have NOT yet had their RFPs published. These are the "pre-procurement" windows where vendor input still shapes the spec.
+Application rule.
+Every decree gets a
+half_life_status
+tag:
+active_window
+: signed within last 6 months, no procurement yet — HIGHEST PRIORITY
+implementing
+: 6–18 months old, procurement underway — bid on tenders
+expired
+: >18 months, no follow-up decree — backlog, low priority
+amended
+: superseded — check the amending decree
+repealed
+: dead — drop
 Lens 4: Donor Co-Financing (the hidden customer)
-**The pattern.** 60–90% of "government" AI/digital budgets in UZ and KG are donor budgets channeled through ministries via PIUs (Project Implementation Units). The donor program manager (TTL at World Bank, project officer at ADB, etc.) is often the *real* customer — they wrote the TOR, they approve the procurement, they evaluate the bids.
-**Operational implication.** Pitching only to the minister and ignoring the donor PM is the #1 reason foreign vendors fail in CA government markets. The donor PM has procurement orthodoxy (must use Bank rules), has prior vendor preferences (consultants they've worked with elsewhere), and has political cover the ministry doesn't.
-**Where the alpha is.** Identifying the donor-government dyad for each program. The dyad is:
-• The donor TTL/PM (named individual at WB/ADB/EU/etc.)
-• The government counterpart (named individual at ministry, often a deputy minister or PIU director)
+The pattern.
+60–90% of "government" AI/digital budgets in UZ and KG are donor budgets channeled through ministries via PIUs (Project Implementation Units). The donor program manager (TTL at World Bank, project officer at ADB, etc.) is often the
+real
+customer — they wrote the TOR, they approve the procurement, they evaluate the bids.
+Operational implication.
+Pitching only to the minister and ignoring the donor PM is the #1 reason foreign vendors fail in CA government markets. The donor PM has procurement orthodoxy (must use Bank rules), has prior vendor preferences (consultants they've worked with elsewhere), and has political cover the ministry doesn't.
+Where the alpha is.
+Identifying the donor-government dyad for each program. The dyad is:
+The donor TTL/PM (named individual at WB/ADB/EU/etc.)
+The government counterpart (named individual at ministry, often a deputy minister or PIU director)
 Both are stakeholders. Both must be sold.
-**Application rule.** Every donor program record must have BOTH `ttl_pm_name` AND `government_counterpart_person_id`. Programs missing one are incomplete records. Initiatives funded via a donor program must include outreach to BOTH parties.
+Application rule.
+Every donor program record must have BOTH
+ttl_pm_name
+AND
+government_counterpart_person_id
+. Programs missing one are incomplete records. Initiatives funded via a donor program must include outreach to BOTH parties.
 Lens 5: The Diaspora Bridge
-**The pattern.** Both UZ and KG have powerful tech diasporas (London, Dubai, Istanbul, Moscow, San Francisco, Seoul, Almaty) who:
-• Often hold senior positions at major tech companies abroad
-• Maintain personal relationships with current ministers (school friends, university classmates, family connections)
-• Serve as informal advisors to digital ministries
-• Are almost always uncredited co-architects of digital strategies
-• Are often the source of the global precedents the ministries try to copy
-**Operational implication.** Finding diaspora advisors on LinkedIn is the fastest unlock. They:
-• Will accept LinkedIn connection requests (unlike ministers)
-• Can introduce you to the named decision-maker with high warmth
-• Often welcome partnership conversations (they want their home country to succeed)
-• Sometimes formalize as "honorary advisors" or "presidential council members"
-**Where the alpha is.** The diaspora-bridge research phase looks for:
-• Uzbeks/Kyrgyz at FAANG, top consulting firms, top global banks, central banks abroad, top universities
-• People with .uz / .kg roots who co-authored papers or talks with ministers
-• People mentioned in ministerial speeches as "respected diaspora colleague"
-• People on Presidential Advisory Councils (Совет старейшин, etc. — though these are formal; informal advisors are higher-leverage)
-**Application rule.** Every people-intelligence sweep includes a dedicated diaspora-bridge subroutine. Diaspora advisors get `diaspora_advisor_flag: true` and are often higher-leverage targets than the formal officials they advise.
+The pattern.
+Both UZ and KG have powerful tech diasporas (London, Dubai, Istanbul, Moscow, San Francisco, Seoul, Almaty) who:
+Often hold senior positions at major tech companies abroad
+Maintain personal relationships with current ministers (school friends, university classmates, family connections)
+Serve as informal advisors to digital ministries
+Are almost always uncredited co-architects of digital strategies
+Are often the source of the global precedents the ministries try to copy
+Operational implication.
+Finding diaspora advisors on LinkedIn is the fastest unlock. They:
+Will accept LinkedIn connection requests (unlike ministers)
+Can introduce you to the named decision-maker with high warmth
+Often welcome partnership conversations (they want their home country to succeed)
+Sometimes formalize as "honorary advisors" or "presidential council members"
+Where the alpha is.
+The diaspora-bridge research phase looks for:
+Uzbeks/Kyrgyz at FAANG, top consulting firms, top global banks, central banks abroad, top universities
+People with .uz / .kg roots who co-authored papers or talks with ministers
+People mentioned in ministerial speeches as "respected diaspora colleague"
+People on Presidential Advisory Councils (Совет старейшин, etc. — though these are formal; informal advisors are higher-leverage)
+Application rule.
+Every people-intelligence sweep includes a dedicated diaspora-bridge subroutine. Diaspora advisors get
+diaspora_advisor_flag: true
+and are often higher-leverage targets than the formal officials they advise.
 Lens 6 (bonus): Russian/CIS Substitution Window
-**The pattern.** Post-2022 sanctions accelerated a shift in CA government markets:
-• Western vendors (US/EU) became risk-averse on the region
-• Russian vendors faced sanctions exposure for their CA partners
-• This created a pricing and positioning vacuum
-• Filled increasingly by: Chinese vendors (Huawei, ZTE, Alibaba), Indian vendors (TCS, Infosys), Korean vendors (Samsung SDS, LG CNS), Turkish vendors (Havelsan, ASELSAN civilian arms), and importantly — local champions backed by national-friendly capital
-**Operational implication.** A Russian-CIS-friendly delivery model (sntz.ai-style: Russian-language UX, local payment rails, no Western dependency) has outsized appeal IF positioned as "neither side" — neither US-aligned nor a Russian-sanctions-exposed vendor. This is your strategic position.
-**Where the alpha is.** Initiatives where:
-• Russian-language UX is mandatory or strongly preferred (justice, social services, internal admin)
-• Data localization is required (impossible to deliver via Western SaaS)
-• Speed-to-deploy matters more than blue-chip vendor brand
-• The buyer wants "sovereign" alternatives to OpenAI/Google/Microsoft
-**Application rule.** Every initiative gets a `russian_cis_fit` score (1–10) reflecting how well it matches your distribution moat. High scores get prioritized in the CRM "fast pipeline" view.
----
+The pattern.
+Post-2022 sanctions accelerated a shift in CA government markets:
+Western vendors (US/EU) became risk-averse on the region
+Russian vendors faced sanctions exposure for their CA partners
+This created a pricing and positioning vacuum
+Filled increasingly by: Chinese vendors (Huawei, ZTE, Alibaba), Indian vendors (TCS, Infosys), Korean vendors (Samsung SDS, LG CNS), Turkish vendors (Havelsan, ASELSAN civilian arms), and importantly — local champions backed by national-friendly capital
+Operational implication.
+A Russian-CIS-friendly delivery model (sntz.ai-style: Russian-language UX, local payment rails, no Western dependency) has outsized appeal IF positioned as "neither side" — neither US-aligned nor a Russian-sanctions-exposed vendor. This is your strategic position.
+Where the alpha is.
+Initiatives where:
+Russian-language UX is mandatory or strongly preferred (justice, social services, internal admin)
+Data localization is required (impossible to deliver via Western SaaS)
+Speed-to-deploy matters more than blue-chip vendor brand
+The buyer wants "sovereign" alternatives to OpenAI/Google/Microsoft
+Application rule.
+Every initiative gets a
+russian_cis_fit
+score (1–10) reflecting how well it matches your distribution moat. High scores get prioritized in the CRM "fast pipeline" view.
 How the lenses combine
 The most valuable initiatives score high on multiple lenses simultaneously:
-• **Karimov Inversion + Decree Half-Life Active**: a new UZ agency created in last 24 months with a fresh decree mandate AND budget — bluest of blue-water opportunities
-• **Donor Co-Financed + Diaspora Bridge**: World Bank program with a diaspora advisor on the donor side AND the government side — warm intro to both
-• **Russian/CIS Substitution + Defensibility**: government data sovereignty mandate + multi-year SLA potential — your highest-margin moat play
+Karimov Inversion + Decree Half-Life Active
+: a new UZ agency created in last 24 months with a fresh decree mandate AND budget — bluest of blue-water opportunities
+Donor Co-Financed + Diaspora Bridge
+: World Bank program with a diaspora advisor on the donor side AND the government side — warm intro to both
+Russian/CIS Substitution + Defensibility
+: government data sovereignty mandate + multi-year SLA potential — your highest-margin moat play
 These combinations are flagged in the initiative-synthesizer output as "convergent windows."
+Share:
+X / Twitter
+LinkedIn
+Email
+·
+RSS feed
+GitHub repo
+Cite this research
+BibTeX
+@misc{valuev26cab2g,
+  author = {Valuev, Alexandr},
+  title  = {Central Asia B2G Intelligence: Six analytical lenses on Central Asia B2G},
+  year   = {2026},
+  url    = {https://avaluev.github.io/ca-b2g-research/lenses/},
+  note   = {Data vintage 2026-05, Apache 2.0}
+}
+APA
+Valuev, A. (2026). Central Asia B2G Intelligence: Six analytical lenses on Central Asia B2G. Retrieved from https://avaluev.github.io/ca-b2g-research/lenses/
+MLA
+Valuev, Alexandr. "Central Asia B2G Intelligence: Six analytical lenses on Central Asia B2G." Data vintage 2026-05, https://avaluev.github.io/ca-b2g-research/lenses/.
 
 ---
 ## URL: https://avaluev.github.io/ca-b2g-research/methodology/index.html
 Methodology
-A seven-wave multi-agent research pipeline turns Russian, Uzbek, and Kyrgyz primary sources into a typed knowledge graph. Eleven specialised agents work in three waves of parallel research, one wave of synthesis, one of adversarial audit, and one of outreach drafting. Cross-model verification via OpenRouter caps the OpenRouter spend at twenty dollars per run.
+A seven-wave multi-agent pipeline turns Russian, Uzbek, and Kyrgyz primary sources into a typed knowledge graph. Eleven specialised agents work in three parallel research waves, one synthesis wave, one adversarial audit, and one outreach wave. Cross-model verification on a strict twenty-dollar OpenRouter budget keeps every Tier-A claim independently re-checked.
 What does each wave do?
+Each wave produces a typed JSON artefact under
+state/
+. Every record carries a verification tag and a sources array. The merged knowledge graph at
+state/knowledge_graph.json
+is the single read view that downstream waves consume.
+The seven waves of the research pipeline
 Wave
 Agent(s)
 Purpose
 0
 blueprint-architect
-Strategic plan, target lists, constraint inventory
+Strategic plan, target lists, and the constraint inventory that scaffolds every later wave.
 1
-legal-cartographer, case-tournament
-Decree corpus + 100+ global precedents
+legal-cartographer · case-tournament
+Catalogue the decree corpus on lex.uz and cbd.minjust.gov.kg; tournament 100 global precedents for transferability to UZ and KG.
 2
-institution-mapper, donor-pipeline, procurement-harvester, trend-triangulator
-Org taxonomies, donor programs, tenders, trends
+institution-mapper · donor-pipeline · procurement-harvester · trend-triangulator
+Map state bodies (8 tiers), donor programmes with named TTL, live tenders, sector trends.
 3
 people-intelligence
-100+ decision-makers + diaspora bridges
+100+ decision-makers, including the 16 diaspora bridges who shape policy from London, Dubai, and Silicon Valley.
 4
-initiative-synthesizer
-100+ initiatives, 5-axis scoring
+initiative-synthesizer · solopreneur-mvp-synthesizer
+100 institutional B2G initiatives plus 200 solopreneur MVPs, scored on five weighted axes.
 5
 reflexion-auditor
-Adversarial re-verification, ≥3 HIGH-issue minimum
+Adversarial re-verification with a different model, minimum three HIGH-severity issues, public corrections.
 6
 pitch-artificer
-Tier-A/B outreach bundles (private vault only)
+Tier-A and Tier-B outreach bundles. Private outreach scripts stay in the contributor vault.
 How is verification enforced?
-Every record carries a verification tag — VERIFIED (single source), L2_VERIFIED (corroborated), L3_VERIFIED (expert commentary), INFERRED, UNVERIFIED, or CONTRADICTED. The reflexion-auditor wave re-fetches sources, calls a different OpenRouter model than the originating agent (to break echo chambers), and demotes initiatives whose claims fail re-check. Twelve content quality gates block deploy on any single H1 violation, internal-ID leak, fabricated decree, or fabricated LinkedIn URL.
+Every record carries one of six verification tags:
+VERIFIED
+(primary source plus one corroboration),
+L2_VERIFIED
+(primary source only), L3_VERIFIED (primary plus expert commentary),
+INFERRED
+(indirect evidence), UNVERIFIED, or CONTRADICTED. The reflexion-auditor calls a different model than the original agent — Sonar Pro re-checks Sonar Deep Research output, breaking the echo chamber. Twelve content quality gates block any deploy on a single H1 violation, internal ID leak, fabricated decree, or fabricated LinkedIn URL.
 What is the source priority?
-For Uzbekistan: lex.uz, gov.uz, president.uz, norma.uz, then spot.uz, gazeta.uz, kun.uz, daryo.uz. For Kyrgyzstan: cbd.minjust.gov.kg, president.kg, gov.kg, kabmin.kg, then 24.kg, kaktus.media, akipress.org. For donors: documents.worldbank.org, projects.worldbank.org, adb.org/projects, ec.europa.eu/international-partnerships. Every country claim cites at least one Russian-language source.
+Uzbekistan: lex.uz, gov.uz, president.uz, norma.uz, then spot.uz, gazeta.uz, kun.uz, daryo.uz. Kyrgyzstan: cbd.minjust.gov.kg, president.kg, gov.kg, kabmin.kg, then 24.kg, kaktus.media, akipress.org. Donors: documents.worldbank.org, projects.worldbank.org, adb.org/projects, ec.europa.eu/international-partnerships. Every country claim cites at least one Russian-language source. Fifty-three percent of all sources in this run are Russian-language.
+Reproduce this research yourself
+The full pipeline is open-source. Clone
+github.com/avaluev/ca-b2g-research
+, copy
+.env.example
+to
+.env
+and add your OpenRouter key, then run
+make run
+. Total runtime: about ten hours wall-clock. Total OpenRouter spend (with the audit wave on paid Sonar Pro): under twenty dollars. Anthropic Claude usage runs on your own subscription.
+Share:
+X / Twitter
+LinkedIn
+Email
+·
+RSS feed
+GitHub repo
+Cite this research
+BibTeX
+@misc{valuev26cab2g,
+  author = {Valuev, Alexandr},
+  title  = {Central Asia B2G Intelligence: Methodology},
+  year   = {2026},
+  url    = {https://avaluev.github.io/ca-b2g-research/methodology/},
+  note   = {Data vintage 2026-05, Apache 2.0}
+}
+APA
+Valuev, A. (2026). Central Asia B2G Intelligence: Methodology. Retrieved from https://avaluev.github.io/ca-b2g-research/methodology/
+MLA
+Valuev, Alexandr. "Central Asia B2G Intelligence: Methodology." Data vintage 2026-05, https://avaluev.github.io/ca-b2g-research/methodology/.
 
 ---
 ## URL: https://avaluev.github.io/ca-b2g-research/mvp/index.html
@@ -2621,13 +3044,13 @@ How is each MVP grounded?
 Every MVP references a real Trend, Decree, or Donor program from the knowledge graph, names a concrete target customer (not "small businesses" but "Andijan-based wedding photographers booking via Instagram"), and prices to local purchasing power (UZ avg salary ~$300/month; KG ~$250/month).
 Top solopreneur MVPs
 Tier
-C
+Country
 MVP
-Cat
+Category
 Score
-MVR
-Build
-Y1 $
+MVR vehicle
+Build (days)
+Year 1 revenue (USD)
 A
 UZ
 FormFiller UZ
@@ -4228,7 +4651,29 @@ content
 directory
 7d
 $4,000
+Show all 200 rows (175 more)
+All 200 rows are present in the DOM for crawlers and remain in the source HTML; the rest are revealed when this section is expanded.
 Methodology: HubSpot's "$1M Solopreneur MVP" framework, encoded into a synthesizer agent that walks the knowledge graph and outputs 100 ideas per country.
+Share:
+X / Twitter
+LinkedIn
+Email
+·
+RSS feed
+GitHub repo
+Cite this research
+BibTeX
+@misc{valuev26cab2g,
+  author = {Valuev, Alexandr},
+  title  = {Central Asia B2G Intelligence: Solopreneur MVPs (UZ + KG)},
+  year   = {2026},
+  url    = {https://avaluev.github.io/ca-b2g-research/mvp/},
+  note   = {Data vintage 2026-05, Apache 2.0}
+}
+APA
+Valuev, A. (2026). Central Asia B2G Intelligence: Solopreneur MVPs (UZ + KG). Retrieved from https://avaluev.github.io/ca-b2g-research/mvp/
+MLA
+Valuev, Alexandr. "Central Asia B2G Intelligence: Solopreneur MVPs (UZ + KG)." Data vintage 2026-05, https://avaluev.github.io/ca-b2g-research/mvp/.
 
 ---
 ## URL: https://avaluev.github.io/ca-b2g-research/mvp/kg/index.html
@@ -4259,13 +4704,13 @@ How is each MVP grounded?
 Every MVP references a real Trend, Decree, or Donor program from the knowledge graph, names a concrete target customer (not "small businesses" but "Andijan-based wedding photographers booking via Instagram"), and prices to local purchasing power (UZ avg salary ~$300/month; KG ~$250/month).
 Top solopreneur MVPs
 Tier
-C
+Country
 MVP
-Cat
+Category
 Score
-MVR
-Build
-Y1 $
+MVR vehicle
+Build (days)
+Year 1 revenue (USD)
 A
 KG
 FormFillerKG
@@ -5066,7 +5511,29 @@ content
 directory
 7d
 $4,000
+Show all 100 rows (75 more)
+All 100 rows are present in the DOM for crawlers and remain in the source HTML; the rest are revealed when this section is expanded.
 Methodology: HubSpot's "$1M Solopreneur MVP" framework, encoded into a synthesizer agent that walks the knowledge graph and outputs 100 ideas per country.
+Share:
+X / Twitter
+LinkedIn
+Email
+·
+RSS feed
+GitHub repo
+Cite this research
+BibTeX
+@misc{valuev26cab2g,
+  author = {Valuev, Alexandr},
+  title  = {Central Asia B2G Intelligence: Solopreneur MVPs — Kyrgyzstan},
+  year   = {2026},
+  url    = {https://avaluev.github.io/ca-b2g-research/mvp/kg/},
+  note   = {Data vintage 2026-05, Apache 2.0}
+}
+APA
+Valuev, A. (2026). Central Asia B2G Intelligence: Solopreneur MVPs — Kyrgyzstan. Retrieved from https://avaluev.github.io/ca-b2g-research/mvp/kg/
+MLA
+Valuev, Alexandr. "Central Asia B2G Intelligence: Solopreneur MVPs — Kyrgyzstan." Data vintage 2026-05, https://avaluev.github.io/ca-b2g-research/mvp/kg/.
 
 ---
 ## URL: https://avaluev.github.io/ca-b2g-research/mvp/uz/index.html
@@ -5097,13 +5564,13 @@ How is each MVP grounded?
 Every MVP references a real Trend, Decree, or Donor program from the knowledge graph, names a concrete target customer (not "small businesses" but "Andijan-based wedding photographers booking via Instagram"), and prices to local purchasing power (UZ avg salary ~$300/month; KG ~$250/month).
 Top solopreneur MVPs
 Tier
-C
+Country
 MVP
-Cat
+Category
 Score
-MVR
-Build
-Y1 $
+MVR vehicle
+Build (days)
+Year 1 revenue (USD)
 A
 UZ
 FormFiller UZ
@@ -5904,7 +6371,29 @@ free_tool
 free_tool
 10d
 $8,000
+Show all 100 rows (75 more)
+All 100 rows are present in the DOM for crawlers and remain in the source HTML; the rest are revealed when this section is expanded.
 Methodology: HubSpot's "$1M Solopreneur MVP" framework, encoded into a synthesizer agent that walks the knowledge graph and outputs 100 ideas per country.
+Share:
+X / Twitter
+LinkedIn
+Email
+·
+RSS feed
+GitHub repo
+Cite this research
+BibTeX
+@misc{valuev26cab2g,
+  author = {Valuev, Alexandr},
+  title  = {Central Asia B2G Intelligence: Solopreneur MVPs — Uzbekistan},
+  year   = {2026},
+  url    = {https://avaluev.github.io/ca-b2g-research/mvp/uz/},
+  note   = {Data vintage 2026-05, Apache 2.0}
+}
+APA
+Valuev, A. (2026). Central Asia B2G Intelligence: Solopreneur MVPs — Uzbekistan. Retrieved from https://avaluev.github.io/ca-b2g-research/mvp/uz/
+MLA
+Valuev, Alexandr. "Central Asia B2G Intelligence: Solopreneur MVPs — Uzbekistan." Data vintage 2026-05, https://avaluev.github.io/ca-b2g-research/mvp/uz/.
 
 ---
 ## URL: https://avaluev.github.io/ca-b2g-research/people/index.html
@@ -5913,7 +6402,7 @@ This list catalogues 117 named decision-makers across Uzbekistan and Kyrgyzstan 
 What is the diaspora bridge?
 Senior Uzbek and Kyrgyz professionals at FAANG, McKinsey, BCG, top universities, and global central banks frequently advise the home government informally — often with higher LinkedIn responsiveness than ministers themselves. They are routinely the highest-leverage targets in B2G outreach.
 Tier-1 / Tier-2 decision-makers
-C
+Country
 Name
 Role
 Institution
@@ -6191,7 +6680,29 @@ UZ
 Bahodir Saidov
 Minister of Preschool and School Education, Republic of Uzbekistan
 UZ-MINSCHOOL
+Show all 68 rows (43 more)
+All 68 rows are present in the DOM for crawlers and remain in the source HTML; the rest are revealed when this section is expanded.
 This page redacts personal contact details. Outreach scripts and warm-intro paths are available only in the private Obsidian vault.
+Share:
+X / Twitter
+LinkedIn
+Email
+·
+RSS feed
+GitHub repo
+Cite this research
+BibTeX
+@misc{valuev26cab2g,
+  author = {Valuev, Alexandr},
+  title  = {Central Asia B2G Intelligence: Decision-makers (UZ + KG)},
+  year   = {2026},
+  url    = {https://avaluev.github.io/ca-b2g-research/people/},
+  note   = {Data vintage 2026-05, Apache 2.0}
+}
+APA
+Valuev, A. (2026). Central Asia B2G Intelligence: Decision-makers (UZ + KG). Retrieved from https://avaluev.github.io/ca-b2g-research/people/
+MLA
+Valuev, Alexandr. "Central Asia B2G Intelligence: Decision-makers (UZ + KG)." Data vintage 2026-05, https://avaluev.github.io/ca-b2g-research/people/.
 
 ---
 ## URL: https://avaluev.github.io/ca-b2g-research/procurement/index.html
@@ -6200,11 +6711,11 @@ This page tracks 50 live and forthcoming AI or digital government tenders in Uzb
 How is win probability assessed?
 Win probability factors in foreign-eligibility, incumbent advantage, scope match, and submission window. Tenders flagged with high incumbent risk and short submission windows are scored low even if values are large — vendor-locked specs are a waste of bid effort.
 Tenders
-C
+Country
 Title
-Value
+Value (USD)
 Deadline
-Win Pr.
+Win probability
 Link
 UZ
 Geospatial NSDI Infrastructure Implementation — Consulting Services Component A
@@ -6506,6 +7017,28 @@ $1,200,000
 2027-02-28
 high
 tender
+Show all 50 rows (30 more)
+All 50 rows are present in the DOM for crawlers and remain in the source HTML; the rest are revealed when this section is expanded.
+Share:
+X / Twitter
+LinkedIn
+Email
+·
+RSS feed
+GitHub repo
+Cite this research
+BibTeX
+@misc{valuev26cab2g,
+  author = {Valuev, Alexandr},
+  title  = {Central Asia B2G Intelligence: Live procurement (UZ + KG)},
+  year   = {2026},
+  url    = {https://avaluev.github.io/ca-b2g-research/procurement/},
+  note   = {Data vintage 2026-05, Apache 2.0}
+}
+APA
+Valuev, A. (2026). Central Asia B2G Intelligence: Live procurement (UZ + KG). Retrieved from https://avaluev.github.io/ca-b2g-research/procurement/
+MLA
+Valuev, Alexandr. "Central Asia B2G Intelligence: Live procurement (UZ + KG)." Data vintage 2026-05, https://avaluev.github.io/ca-b2g-research/procurement/.
 
 ---
 ## URL: https://avaluev.github.io/ca-b2g-research/provenance/index.html
@@ -6525,12 +7058,74 @@ github.com/avaluev/ca-b2g-research
 under Apache 2.0. Every agent specification (
 .claude/agents/*.md
 ), every script, and every quality gate is committed.
+Share:
+X / Twitter
+LinkedIn
+Email
+·
+RSS feed
+GitHub repo
+Cite this research
+BibTeX
+@misc{valuev26cab2g,
+  author = {Valuev, Alexandr},
+  title  = {Central Asia B2G Intelligence: Provenance and audit trail},
+  year   = {2026},
+  url    = {https://avaluev.github.io/ca-b2g-research/provenance/},
+  note   = {Data vintage 2026-05, Apache 2.0}
+}
+APA
+Valuev, A. (2026). Central Asia B2G Intelligence: Provenance and audit trail. Retrieved from https://avaluev.github.io/ca-b2g-research/provenance/
+MLA
+Valuev, Alexandr. "Central Asia B2G Intelligence: Provenance and audit trail." Data vintage 2026-05, https://avaluev.github.io/ca-b2g-research/provenance/.
 
 ---
 ## URL: https://avaluev.github.io/ca-b2g-research/scoring/index.html
 Scoring rubric
-Every initiative is scored on five axes with weighted totals: Speed-to-Contract at twenty-five percent, Strategic Moat at twenty percent, Defensibility at twenty percent, Capital Access at twenty percent, and Russian/CIS Fit at fifteen percent. A weighted total above seven and a half drops into Tier-A; below six is Tier-C or worse.
-Every initiative is scored 1–10 on five axes, then weighted-summed for ranking. Default weights are below; override via `weights.json`.
+Every initiative is scored on five weighted axes: Speed-to-Contract (25%), Strategic Moat (20%), Defensibility (20%), Capital Access (20%), and Russian/CIS Fit (15%). A weighted total of 7.5 or more puts an initiative in Tier-A — deal-ready with every reference field verified. Below 6.0 is Tier-C or worse.
+The five axes
+The five scoring axes
+Axis
+Weight
+What it measures
+Speed-to-Contract
+25%
+How quickly can a vendor reach signature given decree status, procurement modality, and incumbent landscape?
+Strategic Moat
+20%
+Does winning this contract pre-position you for a much larger downstream play?
+Defensibility
+20%
+Once deployed, how protected from competitor displacement (data accumulation, regulatory pre-qualification, language model fine-tune)?
+Capital Access
+20%
+Is funding identified — donor programme, ministry budget line, or PPP — and credibly close to disbursement?
+Russian / CIS Fit
+15%
+Does the solution match local language, data localization, and post-2022 vendor preference dynamics?
+Tier mapping
+Tier mapping for B2G initiatives
+Tier
+Weighted total
+Treatment
+A
+≥ 7.5
+Deal-ready. All key reference fields verified. Twelve-month deal path documented.
+B
+≥ 6.0
+Develop. Most fields VERIFIED or L2_VERIFIED. One or two gaps to close before pursuit.
+C
+≥ 4.5
+Backlog. Significant gaps or weak verification. Revisit on next refresh.
+D
+< 4.5
+Reconsider — usually dropped from the list entirely.
+Why these weights?
+Speed-to-Contract is weighted highest because in B2G the largest losses come from chasing slow opportunities. Russian/CIS Fit is weighted lowest because it is necessary but not sufficient — a poor fit kills a deal but a good fit alone does not win one. The other three axes are weighted equally because they trade off against one another in real bid decisions.
+Detailed axis definitions
+Every initiative is scored 1–10 on five axes, then weighted-summed for ranking. Default weights are below; override via
+weights.json
+.
 Default weights
 | Axis | Weight | Notes |
 |---|---|---|
@@ -6539,89 +7134,187 @@ Default weights
 | Defensibility | 20% | Selected as priority |
 | Capital access | 20% | Selected as priority |
 | Russian/CIS delivery fit | 15% | Selected as priority |
-`weighted_total = 0.25*speed + 0.20*moat + 0.20*defensibility + 0.20*capital + 0.15*russian_cis_fit`
+weighted_total = 0.25*speed + 0.20*moat + 0.20*defensibility + 0.20*capital + 0.15*russian_cis_fit
 Axis 1: Speed-to-Contract (1–10)
 How fast can this initiative produce billable revenue?
-• **10**: Live RFP exists, submission window open, your offer is competitive, decision within 90 days
-• **9**: RFP imminent (next 60 days), pre-qualification possible
-• **8**: Decree implementation deadline within 6 months, budget allocated, procurement designer is reachable
-• **7**: Donor program disbursement schedule active in next 6 months, government counterpart identified
-• **6**: 6–12 month window, named decision-maker, no live RFP yet
-• **5**: 12–18 month window, decree in active phase, budget pathway clear
-• **4**: 18–24 month window, requires policy advocacy
-• **3**: Multi-year horizon, requires market education
-• **2**: Speculative, dependent on next political cycle
-• **1**: No clear pathway, theoretical
-**Verifiers**: live tender URL, decree implementation deadline date, donor disbursement schedule
+10
+: Live RFP exists, submission window open, your offer is competitive, decision within 90 days
+9
+: RFP imminent (next 60 days), pre-qualification possible
+8
+: Decree implementation deadline within 6 months, budget allocated, procurement designer is reachable
+7
+: Donor program disbursement schedule active in next 6 months, government counterpart identified
+6
+: 6–12 month window, named decision-maker, no live RFP yet
+5
+: 12–18 month window, decree in active phase, budget pathway clear
+4
+: 18–24 month window, requires policy advocacy
+3
+: Multi-year horizon, requires market education
+2
+: Speculative, dependent on next political cycle
+1
+: No clear pathway, theoretical
+Verifiers
+: live tender URL, decree implementation deadline date, donor disbursement schedule
 Axis 2: Strategic Moat (1–10)
 How protected is this opportunity from competition?
-• **10**: Presidential decree explicitly priorities the use case, named in Uzbekistan-2030 / Digital KG strategy, ≤2 incumbents, your capability is uniquely positioned
-• **9**: Top-3 government KPI, low foreign vendor presence
-• **8**: Sectoral priority, 2–3 incumbents but you have differentiated positioning
-• **7**: Visible government priority, moderate competition
-• **6**: Standard market opportunity with some defensible angle
-• **5**: Competitive market, win on execution
-• **4**: Highly competitive, commodity-style
-• **3**: Crowded with global incumbents
-• **2**: Saturated market, marginal differentiation
-• **1**: No moat, race to the bottom
-**Verifiers**: presence in Uzbekistan-2030 or Digital Kyrgyzstan strategies, count of vendor incumbents in segment, presidential mention frequency
+10
+: Presidential decree explicitly priorities the use case, named in Uzbekistan-2030 / Digital KG strategy, ≤2 incumbents, your capability is uniquely positioned
+9
+: Top-3 government KPI, low foreign vendor presence
+8
+: Sectoral priority, 2–3 incumbents but you have differentiated positioning
+7
+: Visible government priority, moderate competition
+6
+: Standard market opportunity with some defensible angle
+5
+: Competitive market, win on execution
+4
+: Highly competitive, commodity-style
+3
+: Crowded with global incumbents
+2
+: Saturated market, marginal differentiation
+1
+: No moat, race to the bottom
+Verifiers
+: presence in Uzbekistan-2030 or Digital Kyrgyzstan strategies, count of vendor incumbents in segment, presidential mention frequency
 Axis 3: Defensibility (1–10)
 Once you win, how hard is it to be displaced?
-• **10**: Multi-year SLA structure standard, data ownership clause achievable, network effects activate, switching cost is enormous (citizen-facing platform with adoption lock-in)
-• **9**: 3+ year contracts standard, data lock-in, integration depth
-• **8**: Multi-year structure, moderate switching cost
-• **7**: Annual renewal but high incumbency advantage
-• **6**: Standard renewal patterns, some lock-in
-• **5**: Annual renewal, modest stickiness
-• **4**: Project-based, no recurring component
-• **3**: One-shot deliverable, no incumbency advantage
-• **2**: Hardware/commodity, easily replaced
-• **1**: Pure transactional, no relationship moat
-**Verifiers**: contract length norms in segment, data ownership clause negotiability, integration depth required, regulatory capture potential (e.g., becoming the standard the regulator references)
+10
+: Multi-year SLA structure standard, data ownership clause achievable, network effects activate, switching cost is enormous (citizen-facing platform with adoption lock-in)
+9
+: 3+ year contracts standard, data lock-in, integration depth
+8
+: Multi-year structure, moderate switching cost
+7
+: Annual renewal but high incumbency advantage
+6
+: Standard renewal patterns, some lock-in
+5
+: Annual renewal, modest stickiness
+4
+: Project-based, no recurring component
+3
+: One-shot deliverable, no incumbency advantage
+2
+: Hardware/commodity, easily replaced
+1
+: Pure transactional, no relationship moat
+Verifiers
+: contract length norms in segment, data ownership clause negotiability, integration depth required, regulatory capture potential (e.g., becoming the standard the regulator references)
 Axis 4: Capital Access (1–10)
 How well-funded is this opportunity from non-state-budget sources?
-• **10**: Active donor program co-financing > $5M, TTL/PM identified and reachable, disbursement schedule includes the relevant tender window
-• **9**: Active donor program $1–5M, named PM
-• **8**: Pipeline donor program in appraisal, expected award in 12 months
-• **7**: Multi-donor convergence (e.g., WB + EU on same problem)
-• **6**: State budget line confirmed, no donor co-financing but stable funding
-• **5**: State budget line probable, awaiting next budget cycle
-• **4**: Aspirational state allocation, no donor backing
-• **3**: PPP-only pathway, requires capital from your side
-• **2**: Revenue-share only, slow ramp
-• **1**: No clear funding pathway
-**Verifiers**: World Bank Documents portal, ADB project database, EU NDICI plan, disbursement reports
+10
+: Active donor program co-financing > $5M, TTL/PM identified and reachable, disbursement schedule includes the relevant tender window
+9
+: Active donor program $1–5M, named PM
+8
+: Pipeline donor program in appraisal, expected award in 12 months
+7
+: Multi-donor convergence (e.g., WB + EU on same problem)
+6
+: State budget line confirmed, no donor co-financing but stable funding
+5
+: State budget line probable, awaiting next budget cycle
+4
+: Aspirational state allocation, no donor backing
+3
+: PPP-only pathway, requires capital from your side
+2
+: Revenue-share only, slow ramp
+1
+: No clear funding pathway
+Verifiers
+: World Bank Documents portal, ADB project database, EU NDICI plan, disbursement reports
 Axis 5: Russian/CIS Delivery Fit (1–10)
 How well does this match your sntz.ai infrastructure and Russian-language distribution muscle?
-• **10**: Russian-language UX mandatory/preferred, data localization required (CIS-friendly cloud beneficial), buyer wants non-Western non-sanctions-exposed vendor, payment rails compatible (MIR/SBP/Paddle), use case maps to your existing platform capabilities (image/video/text generation, agentic workflows)
-• **9**: Russian-language strongly preferred, your stack is direct fit
-• **8**: Multi-language but Russian is primary working language
-• **7**: Local language (Uzbek/Kyrgyz) primary but your team can deliver via partners
-• **6**: English/local mix, your stack adapts
-• **5**: Multi-language with no strong Russian/CIS preference
-• **4**: Local-language-only mandate, your stack needs heavy localization
-• **3**: Western-vendor-preferred segment (e.g., banking core systems with regulatory pressure for Western brand)
-• **2**: Active US/EU vendor preference, geopolitically sensitive
-• **1**: Anti-Russian-vendor sentiment in segment, your positioning is liability
-**Verifiers**: language requirements in past tenders, data localization rules, sanctioned-vendor exclusions, payment rail requirements
+10
+: Russian-language UX mandatory/preferred, data localization required (CIS-friendly cloud beneficial), buyer wants non-Western non-sanctions-exposed vendor, payment rails compatible (MIR/SBP/Paddle), use case maps to your existing platform capabilities (image/video/text generation, agentic workflows)
+9
+: Russian-language strongly preferred, your stack is direct fit
+8
+: Multi-language but Russian is primary working language
+7
+: Local language (Uzbek/Kyrgyz) primary but your team can deliver via partners
+6
+: English/local mix, your stack adapts
+5
+: Multi-language with no strong Russian/CIS preference
+4
+: Local-language-only mandate, your stack needs heavy localization
+3
+: Western-vendor-preferred segment (e.g., banking core systems with regulatory pressure for Western brand)
+2
+: Active US/EU vendor preference, geopolitically sensitive
+1
+: Anti-Russian-vendor sentiment in segment, your positioning is liability
+Verifiers
+: language requirements in past tenders, data localization rules, sanctioned-vendor exclusions, payment rail requirements
 Confidence Tier Mapping
-After scoring, initiatives are bucketed into tiers based on `weighted_total` AND `verification` quality:
-• **Tier A** (`weighted_total >= 7.5` AND all key fields VERIFIED): go now, deal-ready
-• **Tier B** (`weighted_total >= 6.0` AND most fields VERIFIED or L2_VERIFIED): develop, missing one piece
-• **Tier C** (`weighted_total >= 4.5`): backlog, requires more research
-• **Tier D** (`weighted_total < 4.5` OR significant UNVERIFIED gaps): reconsider or drop
+After scoring, initiatives are bucketed into tiers based on
+weighted_total
+AND
+verification
+quality:
+Tier A
+(
+weighted_total >= 7.5
+AND all key fields VERIFIED): go now, deal-ready
+Tier B
+(
+weighted_total >= 6.0
+AND most fields VERIFIED or L2_VERIFIED): develop, missing one piece
+Tier C
+(
+weighted_total >= 4.5
+): backlog, requires more research
+Tier D
+(
+weighted_total < 4.5
+OR significant UNVERIFIED gaps): reconsider or drop
 The CRM exports Tier A and B by default. Tiers C and D are available in the full knowledge graph for periodic re-evaluation.
 Slice views (CRM rendering)
 The render pipeline produces these views by sorting on a single axis:
-• `top_speed.csv` — sorted by speed-to-contract DESC
-• `top_moat.csv` — sorted by strategic_moat DESC
-• `top_defensibility.csv` — sorted by defensibility DESC
-• `top_capital.csv` — sorted by capital_access DESC
-• `top_russian_cis.csv` — sorted by russian_cis_fit DESC
-• `top_overall.csv` — sorted by weighted_total DESC
-• `convergent_windows.csv` — initiatives scoring ≥7 on at least 4 axes
+top_speed.csv
+— sorted by speed-to-contract DESC
+top_moat.csv
+— sorted by strategic_moat DESC
+top_defensibility.csv
+— sorted by defensibility DESC
+top_capital.csv
+— sorted by capital_access DESC
+top_russian_cis.csv
+— sorted by russian_cis_fit DESC
+top_overall.csv
+— sorted by weighted_total DESC
+convergent_windows.csv
+— initiatives scoring ≥7 on at least 4 axes
 The convergent_windows view is the most strategically valuable: opportunities where multiple lenses align simultaneously.
+Share:
+X / Twitter
+LinkedIn
+Email
+·
+RSS feed
+GitHub repo
+Cite this research
+BibTeX
+@misc{valuev26cab2g,
+  author = {Valuev, Alexandr},
+  title  = {Central Asia B2G Intelligence: Five-axis scoring rubric for B2G initiatives},
+  year   = {2026},
+  url    = {https://avaluev.github.io/ca-b2g-research/scoring/},
+  note   = {Data vintage 2026-05, Apache 2.0}
+}
+APA
+Valuev, A. (2026). Central Asia B2G Intelligence: Five-axis scoring rubric for B2G initiatives. Retrieved from https://avaluev.github.io/ca-b2g-research/scoring/
+MLA
+Valuev, Alexandr. "Central Asia B2G Intelligence: Five-axis scoring rubric for B2G initiatives." Data vintage 2026-05, https://avaluev.github.io/ca-b2g-research/scoring/.
 
 ---
 ## URL: https://avaluev.github.io/ca-b2g-research/trends/index.html
@@ -6778,6 +7471,8 @@ AI Infrastructure (Enabling Layer)
 Uzbek/Russian speech recognition and NLP for government document transcription and citizen services
 emerging
 decree_half_life_active, russian_cis_substitution, diaspora_bridge
+Show all 36 rows (16 more)
+All 36 rows are present in the DOM for crawlers and remain in the source HTML; the rest are revealed when this section is expanded.
 Kyrgyzstan trends
 Sector
 Trend
@@ -6883,3 +7578,25 @@ Public Administration & e-Gov
 Tunduk inter-agency data exchange modernization under UDP governance (Estonia EGA-linked, EU-funded)
 accelerating
 japarov_concentration, donor_co_financed, decree_half_life_active
+Show all 25 rows (5 more)
+All 25 rows are present in the DOM for crawlers and remain in the source HTML; the rest are revealed when this section is expanded.
+Share:
+X / Twitter
+LinkedIn
+Email
+·
+RSS feed
+GitHub repo
+Cite this research
+BibTeX
+@misc{valuev26cab2g,
+  author = {Valuev, Alexandr},
+  title  = {Central Asia B2G Intelligence: Sectoral trends},
+  year   = {2026},
+  url    = {https://avaluev.github.io/ca-b2g-research/trends/},
+  note   = {Data vintage 2026-05, Apache 2.0}
+}
+APA
+Valuev, A. (2026). Central Asia B2G Intelligence: Sectoral trends. Retrieved from https://avaluev.github.io/ca-b2g-research/trends/
+MLA
+Valuev, Alexandr. "Central Asia B2G Intelligence: Sectoral trends." Data vintage 2026-05, https://avaluev.github.io/ca-b2g-research/trends/.

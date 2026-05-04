@@ -66,38 +66,143 @@ def index_by_id(arr: list[dict[str, Any]]) -> dict[str, dict[str, Any]]:
 
 
 CSS = """
+:root{
+  --c-fg:#0d1117;--c-fg-muted:#3a4147;--c-fg-soft:#5a6066;
+  --c-bg:#fff;--c-bg-soft:#f6f8fa;--c-bg-card:#fafbfc;
+  --c-border:#d8dde2;--c-border-soft:#e7ebee;
+  --c-accent:#005c27;--c-accent-strong:#00471d;--c-accent-soft:#e9f6ee;
+  --c-link:#0057cc;--c-link-hover:#003e94;
+  --c-tier-a-bg:#fdebd3;--c-tier-a-fg:#7a4900;
+  --c-tier-b-bg:#e9f6ee;--c-tier-b-fg:#005c27;
+  --c-tier-c-bg:#f0f1f3;--c-tier-c-fg:#4a5158;
+  --c-focus:#005fcc;
+  --r-sm:3px;--r-md:6px;--r-lg:10px;
+  --s-1:4px;--s-2:8px;--s-3:12px;--s-4:16px;--s-5:24px;--s-6:32px;--s-7:48px;--s-8:64px;
+  --fz-h1:clamp(1.875rem,1.4rem + 2.4vw,2.625rem);
+  --fz-h2:clamp(1.375rem,1.15rem + 1.1vw,1.625rem);
+  --fz-h3:clamp(1.125rem,1.05rem + 0.4vw,1.25rem);
+  --fz-lead:clamp(1.05rem,1.0rem + 0.4vw,1.18rem);
+  --fz-body:1rem;--fz-sm:0.875rem;
+  --max-w-prose:64ch;--max-w-shell:760px;--max-w-wide:1200px;
+}
+@media (prefers-color-scheme:dark){
+  :root{
+    --c-fg:#e6edf3;--c-fg-muted:#9ba8b4;--c-fg-soft:#7a868f;
+    --c-bg:#0d1117;--c-bg-soft:#161b22;--c-bg-card:#1a1f26;
+    --c-border:#30363d;--c-border-soft:#21262d;
+    --c-accent:#3fb960;--c-accent-strong:#56d77a;--c-accent-soft:#0f2a18;
+    --c-link:#58a6ff;--c-link-hover:#79b8ff;
+    --c-tier-a-bg:#3a2607;--c-tier-a-fg:#f5b95d;
+    --c-tier-b-bg:#0f2a18;--c-tier-b-fg:#56d77a;
+    --c-tier-c-bg:#1a1f26;--c-tier-c-fg:#a3acb6;
+    --c-focus:#58a6ff;
+  }
+}
 *,*::before,*::after{box-sizing:border-box}
-html{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.55;color:#111;background:#fff;-webkit-text-size-adjust:100%}
-body{margin:0;padding:0}
-.container{max-width:880px;margin:0 auto;padding:24px 20px 80px}
-header.nav{position:sticky;top:0;background:#fff;border-bottom:1px solid #eaeaea;z-index:10}
-header.nav nav{max-width:1200px;margin:0 auto;padding:12px 20px;display:flex;flex-wrap:wrap;gap:12px;align-items:center}
-header.nav a{color:#0a4;text-decoration:none;font-size:14px;font-weight:500}
-header.nav a:hover{color:#062}
-header.nav .brand{font-weight:700;color:#111;font-size:16px;margin-right:auto}
-h1{font-size:36px;line-height:1.15;margin:24px 0 12px;color:#000}
-h2{font-size:24px;line-height:1.25;margin:36px 0 8px;border-top:1px solid #eaeaea;padding-top:24px}
-h3{font-size:18px;margin:24px 0 8px}
-p{margin:8px 0 16px}
-p.lead.summary{font-size:18px;color:#222;background:#f7f7f7;border-left:3px solid #0a4;padding:12px 16px;margin:16px 0 24px;border-radius:0 4px 4px 0}
-table{border-collapse:collapse;width:100%;margin:12px 0 24px;font-size:14px}
-th,td{padding:8px 10px;border-bottom:1px solid #eaeaea;text-align:left;vertical-align:top}
-th{background:#f7f7f7;font-weight:600}
-code,pre{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px}
-code{background:#f3f3f3;padding:2px 6px;border-radius:3px}
-pre{background:#f7f7f7;padding:12px 16px;border-radius:4px;overflow-x:auto}
-a{color:#062}
-a:hover{color:#0a4}
-.tag{display:inline-block;background:#e9f6ee;color:#0a4;font-size:12px;padding:2px 8px;border-radius:3px;margin-right:6px}
-.tier-a{background:#fdebd3;color:#a06000}
-.tier-b{background:#e9f6ee;color:#0a4}
-.tier-c{background:#f3f3f3;color:#555}
-footer.site{border-top:1px solid #eaeaea;padding:24px 20px;color:#555;font-size:13px;max-width:1200px;margin:60px auto 0}
-.kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:12px;margin:24px 0}
-.kpi-grid .kpi{background:#f7f7f7;padding:12px 16px;border-radius:4px}
-.kpi .num{font-size:24px;font-weight:700;color:#0a4}
-.kpi .lbl{font-size:12px;color:#555;text-transform:uppercase;letter-spacing:.05em}
-@media (max-width:640px){h1{font-size:28px}h2{font-size:20px}}
+html{font-family:system-ui,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;line-height:1.6;color:var(--c-fg);background:var(--c-bg);-webkit-text-size-adjust:100%;text-rendering:optimizeLegibility}
+body{margin:0;padding:0;font-size:var(--fz-body)}
+.container{max-inline-size:var(--max-w-shell);margin-inline:auto;padding-block:var(--s-5) var(--s-8);padding-inline:max(var(--s-5),env(safe-area-inset-left)) max(var(--s-5),env(safe-area-inset-right))}
+.container > p, .container > ul, .container > ol{max-inline-size:var(--max-w-prose)}
+header.nav{position:sticky;top:0;background:var(--c-bg);border-block-end:1px solid var(--c-border);z-index:50}
+header.nav nav{max-inline-size:var(--max-w-wide);margin-inline:auto;padding-block:var(--s-2);padding-inline:max(var(--s-5),env(safe-area-inset-left)) max(var(--s-5),env(safe-area-inset-right));display:flex;flex-wrap:wrap;gap:var(--s-1) var(--s-3);align-items:center}
+header.nav a{color:var(--c-fg-muted);text-decoration:none;font-size:var(--fz-sm);font-weight:500;padding:10px 8px;min-height:44px;display:inline-flex;align-items:center;border-radius:var(--r-sm)}
+header.nav a:hover{color:var(--c-accent)}
+header.nav a[aria-current="page"]{color:var(--c-fg);background:var(--c-bg-soft)}
+header.nav .brand{font-weight:700;color:var(--c-fg);font-size:1rem;margin-inline-end:auto;text-decoration:none;padding-block:var(--s-2);min-height:44px;display:inline-flex;align-items:center;letter-spacing:-0.01em}
+header.nav .brand::before{content:"\\25C6 ";color:var(--c-accent);margin-inline-end:6px}
+nav.breadcrumbs{font-size:var(--fz-sm);color:var(--c-fg-soft);margin-block-start:var(--s-2)}
+nav.breadcrumbs ol{list-style:none;display:flex;flex-wrap:wrap;gap:var(--s-2);padding:0;margin:0}
+nav.breadcrumbs li::after{content:" \\203A ";color:var(--c-fg-soft);margin-inline-start:var(--s-2)}
+nav.breadcrumbs li:last-child::after{content:""}
+nav.breadcrumbs a{color:var(--c-link);text-decoration:none}
+nav.breadcrumbs a:hover{text-decoration:underline}
+h1{font-size:var(--fz-h1);line-height:1.15;margin-block:var(--s-5) var(--s-3);color:var(--c-fg);font-weight:700;letter-spacing:-0.02em;max-inline-size:18ch}
+h2{font-size:var(--fz-h2);line-height:1.25;margin-block:var(--s-7) var(--s-2);padding-block-start:var(--s-5);border-block-start:1px solid var(--c-border-soft);color:var(--c-fg);font-weight:650;letter-spacing:-0.01em}
+h3{font-size:var(--fz-h3);margin-block:var(--s-5) var(--s-2);color:var(--c-fg);font-weight:600}
+p{margin-block:var(--s-2) var(--s-4);max-inline-size:var(--max-w-prose)}
+p.lead.summary{font-size:var(--fz-lead);line-height:1.55;color:var(--c-fg);background:var(--c-bg-soft);border-inline-start:3px solid var(--c-accent);padding-block:var(--s-3);padding-inline:var(--s-4);margin-block:var(--s-4) var(--s-5);border-radius:0 var(--r-md) var(--r-md) 0;max-inline-size:none}
+ul,ol{padding-inline-start:var(--s-5);max-inline-size:var(--max-w-prose)}
+li{margin-block:var(--s-1)}
+.table-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;margin-block:var(--s-3) var(--s-5);border:1px solid var(--c-border-soft);border-radius:var(--r-md);background:var(--c-bg)}
+table{border-collapse:collapse;inline-size:100%;font-size:var(--fz-sm);table-layout:auto;min-inline-size:max-content}
+th,td{padding:var(--s-2) var(--s-3);border-block-end:1px solid var(--c-border-soft);text-align:start;vertical-align:top}
+thead th{background:var(--c-bg-soft);font-weight:600;color:var(--c-fg);position:sticky;top:0}
+tbody tr:hover{background:color-mix(in srgb,var(--c-accent-soft) 30%,transparent)}
+caption{caption-side:top;text-align:start;font-size:var(--fz-sm);color:var(--c-fg-soft);padding-block:var(--s-2);font-style:italic}
+code,pre,kbd,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Consolas,monospace;font-size:0.9em}
+code{background:var(--c-bg-soft);padding:1px 5px;border-radius:var(--r-sm);color:var(--c-fg)}
+pre{background:var(--c-bg-soft);padding:var(--s-3) var(--s-4);border-radius:var(--r-md);overflow-x:auto;line-height:1.5}
+a{color:var(--c-link)}
+a:hover{color:var(--c-link-hover)}
+:focus-visible{outline:3px solid var(--c-focus);outline-offset:2px;border-radius:var(--r-sm)}
+.skip-link{position:absolute;inset-block-start:-9999px;inset-inline-start:auto;width:1px;height:1px;overflow:hidden}
+.skip-link:focus{position:fixed;inset-block-start:0;inset-inline-start:0;width:auto;height:auto;padding:var(--s-2) var(--s-4);background:var(--c-fg);color:var(--c-bg);font-size:var(--fz-sm);font-weight:600;z-index:9999;outline:2px solid var(--c-bg)}
+.tag{display:inline-block;background:var(--c-tier-c-bg);color:var(--c-tier-c-fg);font-size:0.75rem;padding:2px 8px;border-radius:99px;margin-inline-end:6px;font-weight:500;letter-spacing:0.01em}
+.tier-a{background:var(--c-tier-a-bg);color:var(--c-tier-a-fg)}
+.tier-b{background:var(--c-tier-b-bg);color:var(--c-tier-b-fg)}
+.tier-c{background:var(--c-tier-c-bg);color:var(--c-tier-c-fg)}
+.verified{color:var(--c-accent);font-weight:600}
+.l2-verified{color:var(--c-link);font-weight:500}
+.inferred{color:var(--c-fg-soft);font-style:italic}
+footer.site{border-block-start:1px solid var(--c-border);padding-block:var(--s-6);padding-inline:max(var(--s-5),env(safe-area-inset-left)) max(var(--s-5),env(safe-area-inset-right));color:var(--c-fg-muted);font-size:var(--fz-sm);max-inline-size:var(--max-w-wide);margin:var(--s-8) auto 0;line-height:1.7}
+footer.site h3{margin-block-start:0;color:var(--c-fg);font-size:1rem;border:0;padding:0}
+footer.site .grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:var(--s-5)}
+footer.site a{color:var(--c-link)}
+footer.site .colophon{margin-block-start:var(--s-5);padding-block-start:var(--s-3);border-block-start:1px solid var(--c-border-soft);font-size:0.78rem;color:var(--c-fg-soft)}
+.kpi-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:var(--s-3);margin-block:var(--s-5)}
+.kpi-grid .kpi{background:var(--c-bg-soft);padding:var(--s-3) var(--s-4);border-radius:var(--r-md);border:1px solid var(--c-border-soft)}
+.kpi .num{font-size:1.625rem;font-weight:700;color:var(--c-accent);line-height:1.1;font-variant-numeric:tabular-nums}
+.kpi .lbl{font-size:0.72rem;color:var(--c-fg-soft);text-transform:uppercase;letter-spacing:0.06em;margin-block-start:2px}
+.persona-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:var(--s-3);margin-block:var(--s-5)}
+.persona{background:var(--c-bg-soft);border:1px solid var(--c-border-soft);border-radius:var(--r-md);padding:var(--s-4);transition:border-color .15s}
+.persona:hover{border-color:var(--c-accent)}
+.persona h3{margin:0 0 var(--s-2);font-size:1rem;border:0;padding:0}
+.persona p{margin-block:0 var(--s-2);font-size:var(--fz-sm)}
+.persona a{font-weight:500;font-size:var(--fz-sm)}
+.cite-widget{margin-block:var(--s-6);border:1px solid var(--c-border-soft);border-radius:var(--r-md);background:var(--c-bg-soft)}
+.cite-widget summary{padding:var(--s-3) var(--s-4);font-weight:600;cursor:pointer;font-size:var(--fz-sm);color:var(--c-fg);list-style:none}
+.cite-widget summary::-webkit-details-marker{display:none}
+.cite-widget pre{margin:0;border-radius:0 0 var(--r-md) var(--r-md);font-size:0.78rem;background:var(--c-bg);border-block-start:1px solid var(--c-border-soft);white-space:pre-wrap;word-break:break-word}
+.cite-widget .cite-tabs{padding:var(--s-2) var(--s-4);background:var(--c-bg);border-block-start:1px solid var(--c-border-soft);font-size:var(--fz-sm);color:var(--c-fg-muted)}
+.cite-widget .cite-tabs strong{color:var(--c-fg)}
+.show-more{margin-block:var(--s-3);border:1px solid var(--c-border-soft);border-radius:var(--r-md)}
+.show-more summary{padding:var(--s-3) var(--s-4);cursor:pointer;font-size:var(--fz-sm);font-weight:600;color:var(--c-fg-muted);list-style:none}
+.show-more summary::-webkit-details-marker{display:none}
+.show-more summary::before{content:"+ ";color:var(--c-accent);font-weight:700}
+.show-more[open] summary::before{content:"\\2212 "}
+.banner{background:var(--c-tier-a-bg);color:var(--c-tier-a-fg);padding:var(--s-2) var(--s-4);border-radius:var(--r-md);font-size:var(--fz-sm);margin-block:var(--s-3);border:1px solid color-mix(in srgb,var(--c-tier-a-fg) 25%,transparent)}
+.share-row{display:flex;flex-wrap:wrap;gap:var(--s-3);margin-block:var(--s-5);font-size:var(--fz-sm);color:var(--c-fg-soft);align-items:center}
+.share-row a{color:var(--c-link);text-decoration:none}
+.share-row a:hover{text-decoration:underline}
+.section-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:var(--s-4);margin-block:var(--s-5)}
+.section-grid .card{background:var(--c-bg-soft);padding:var(--s-4);border-radius:var(--r-md);border:1px solid var(--c-border-soft)}
+.section-grid .card h3{margin-block-start:0;border:0;padding:0}
+.section-grid .card .meta{font-size:var(--fz-sm);color:var(--c-fg-soft);margin-block:0 var(--s-2)}
+abbr[title]{text-decoration:underline dotted;text-decoration-color:var(--c-fg-soft);text-underline-offset:2px;cursor:help}
+time{font-variant-numeric:tabular-nums}
+hr{border:0;border-block-start:1px solid var(--c-border-soft);margin-block:var(--s-6)}
+blockquote{border-inline-start:3px solid var(--c-accent);padding-inline-start:var(--s-4);margin-inline:0;color:var(--c-fg-muted);font-style:italic}
+@media (max-width:560px){
+  header.nav nav{gap:0}
+  .container{padding-block:var(--s-4) var(--s-7)}
+  table{font-size:0.82rem}
+  th,td{padding:var(--s-2)}
+  .kpi .num{font-size:1.4rem}
+  footer.site .grid{grid-template-columns:1fr}
+}
+@media (prefers-reduced-motion:reduce){
+  *,*::before,*::after{animation-duration:0.01ms !important;transition-duration:0.01ms !important}
+}
+@media print{
+  header.nav,footer.site .grid,.share-row,.cite-widget,.show-more,.banner,.skip-link{display:none}
+  body{font-size:11pt;color:#000;background:#fff}
+  .container{max-inline-size:100%;padding:0}
+  h1,h2,h3{page-break-after:avoid}
+  table,figure{page-break-inside:avoid}
+  a[href^="http"]::after{content:" (" attr(href) ")";font-size:0.85em;color:#444;word-break:break-all}
+  thead{display:table-header-group}
+  tr{page-break-inside:avoid}
+}
 """
 
 NAV_LINKS = [
@@ -153,6 +258,12 @@ def jsonld_graph(
                 "name": OPERATOR,
                 "url": OPERATOR_GITHUB,
                 "email": OPERATOR_EMAIL,
+                "jobTitle": "B2G Market Research",
+                "knowsAbout": [
+                    "Central Asia", "B2G", "AI in government",
+                    "Uzbekistan", "Kyrgyzstan", "digital procurement",
+                    "donor-funded projects", "government technology",
+                ],
                 "sameAs": [OPERATOR_LINKEDIN, OPERATOR_GITHUB],
             },
             {
@@ -207,9 +318,26 @@ def render_page(
         aria = ' aria-current="page"' if p == path else ""
         nav_parts.append(f'<a href="{escape(p)}"{aria}>{escape(t)}</a>')
     nav = "\n        ".join(nav_parts)
+    # Visible breadcrumbs (skip on home)
+    bc_html = ""
+    if path != "/" and len(breadcrumbs) > 1:
+        items = []
+        for i, (bp, bn) in enumerate(breadcrumbs):
+            if i == len(breadcrumbs) - 1:
+                items.append(f'<li aria-current="page">{escape(bn)}</li>')
+            else:
+                items.append(f'<li><a href="{escape(bp)}">{escape(bn)}</a></li>')
+        bc_html = (
+            f'<nav class="breadcrumbs" aria-label="Breadcrumb">'
+            f'<ol>{"".join(items)}</ol></nav>'
+        )
     title_truncated = title if len(title) <= 60 else title[:57] + "..."
     desc_short = description if len(description) <= 160 else description[:157] + "..."
     country_meta = f'<meta name="country" content="{country}">' if country else ""
+    body_with_bc = bc_html + body_html
+    cite_widget = _cite_widget(canonical, title_truncated)
+    share_row = _share_row(canonical, title_truncated)
+    footer = _site_footer()
     return f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -225,15 +353,16 @@ def render_page(
 <meta property="og:title" content="{escape(title_truncated)}">
 <meta property="og:description" content="{escape(desc_short)}">
 <meta property="og:url" content="{escape(canonical)}">
-<meta property="og:image" content="{SITE_URL}/og-default.png">
+<meta property="og:image" content="{SITE_URL}/og-default.svg">
 <meta property="og:site_name" content="Central Asia B2G Intelligence">
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{escape(title_truncated)}">
 <meta name="twitter:description" content="{escape(desc_short)}">
-<meta name="twitter:image" content="{SITE_URL}/og-default.png">
+<meta name="twitter:image" content="{SITE_URL}/og-default.svg">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="alternate" type="application/rss+xml" href="/feed.xml">
+<link rel="manifest" href="/manifest.webmanifest">
+<link rel="alternate" type="application/atom+xml" href="/feed.xml" title="Central Asia B2G Intelligence">
 <style>{CSS}</style>
 {extra_head}
 <script type="application/ld+json">
@@ -241,18 +370,17 @@ def render_page(
 </script>
 </head>
 <body>
-<header class="nav"><nav>
-        <span class="brand">Central Asia B2G</span>
+<a class="skip-link" href="#main-content">Skip to main content</a>
+<header class="nav"><nav aria-label="Main navigation">
+        <a href="/" class="brand" aria-label="Central Asia B2G — home">Central Asia B2G</a>
         {nav}
       </nav></header>
-<main class="container">
-{body_html}
+<main id="main-content" class="container">
+{body_with_bc}
+{share_row}
+{cite_widget}
 </main>
-<footer class="site">
-<p>Open research on AI/digital government opportunities in Uzbekistan + Kyrgyzstan.
-Apache 2.0 — <a href="{OPERATOR_GITHUB}/ca-b2g-research">{OPERATOR_GITHUB.replace('https://', '')}/ca-b2g-research</a>.
-Built {TODAY}.</p>
-</footer>
+{footer}
 </body>
 </html>
 """
@@ -265,12 +393,259 @@ def write_page(path_url: str, html_text: str) -> None:
 
 
 # ────────────────────────────────────────────────────────────────────────────
+# Reusable HTML components
+# ────────────────────────────────────────────────────────────────────────────
+
+
+_DATA_VINTAGE = TODAY[:7]
+
+
+def _cite_widget(canonical: str, title: str) -> str:
+    year = TODAY[:4]
+    bibtex = (
+        f"@misc{{valuev{year[2:]}cab2g,\n"
+        f"  author = {{Valuev, Alexandr}},\n"
+        f"  title  = {{Central Asia B2G Intelligence: {title}}},\n"
+        f"  year   = {{{year}}},\n"
+        f"  url    = {{{canonical}}},\n"
+        f"  note   = {{Data vintage {_DATA_VINTAGE}, Apache 2.0}}\n"
+        f"}}"
+    )
+    apa = (
+        f"Valuev, A. ({year}). Central Asia B2G Intelligence: {title}. "
+        f"Retrieved from {canonical}"
+    )
+    mla = (
+        f'Valuev, Alexandr. "Central Asia B2G Intelligence: {title}." '
+        f'Data vintage {_DATA_VINTAGE}, {canonical}.'
+    )
+    return f"""<details class="cite-widget">
+<summary>Cite this research</summary>
+<div class="cite-tabs"><strong>BibTeX</strong></div>
+<pre>{escape(bibtex)}</pre>
+<div class="cite-tabs"><strong>APA</strong> &nbsp; {escape(apa)}</div>
+<div class="cite-tabs"><strong>MLA</strong> &nbsp; {escape(mla)}</div>
+</details>"""
+
+
+def _share_row(canonical: str, title: str) -> str:
+    import urllib.parse as _u
+    enc_url = _u.quote(canonical, safe="")
+    enc_title = _u.quote(title, safe="")
+    tw = f"https://twitter.com/intent/tweet?text={enc_title}&url={enc_url}"
+    li = f"https://www.linkedin.com/sharing/share-offsite/?url={enc_url}"
+    em = f"mailto:?subject={enc_title}&body={enc_url}"
+    return (
+        '<div class="share-row" role="navigation" aria-label="Share and follow">'
+        f'<span>Share:</span>'
+        f'<a href="{tw}" rel="noopener" target="_blank">X / Twitter</a>'
+        f'<a href="{li}" rel="noopener" target="_blank">LinkedIn</a>'
+        f'<a href="{em}">Email</a>'
+        f'<span aria-hidden="true">·</span>'
+        f'<a href="/feed.xml">RSS feed</a>'
+        f'<a href="https://github.com/avaluev/ca-b2g-research">GitHub repo</a>'
+        '</div>'
+    )
+
+
+def _site_footer() -> str:
+    return f"""<footer class="site">
+<div class="grid">
+  <div>
+    <h3>About this research</h3>
+    <p>An open knowledge graph of B2G AI and digital-government opportunities in
+    Uzbekistan and Kyrgyzstan. Every claim is typed, sourced, and reproducible.
+    Built by {OPERATOR}.</p>
+    <p><a href="/about/">About the author</a> · <a href="/methodology/">Methodology</a> · <a href="/honesty/">Honesty: what we did not find</a></p>
+  </div>
+  <div>
+    <h3>Reproduce yourself</h3>
+    <p>Clone the repository, follow the quickstart, and run the same eleven-agent
+    pipeline. Total runtime ~10 hours, paid OpenRouter under USD 20.</p>
+    <p><a href="https://github.com/avaluev/ca-b2g-research">github.com/avaluev/ca-b2g-research</a></p>
+  </div>
+  <div>
+    <h3>Stay current</h3>
+    <p>Quarterly refresh. Subscribe via the Atom feed or watch the GitHub repository for releases.</p>
+    <p><a href="/feed.xml">Atom feed</a> · <a href="https://github.com/avaluev/ca-b2g-research/releases">Releases</a> · <a href="https://github.com/avaluev/ca-b2g-research/issues/new">Found an error?</a></p>
+  </div>
+  <div>
+    <h3>Contact</h3>
+    <address style="font-style:normal">
+      {OPERATOR}<br>
+      <a href="mailto:{OPERATOR_EMAIL}">{OPERATOR_EMAIL}</a><br>
+      <a href="{OPERATOR_LINKEDIN}">LinkedIn</a><br>
+      <a href="{OPERATOR_GITHUB}">GitHub</a>
+    </address>
+  </div>
+</div>
+<div class="colophon">
+  <p>Apache 2.0 licensed · Data vintage <time datetime="{TODAY}">{_DATA_VINTAGE}</time> · Built with Claude (Opus + Sonnet) on Anthropic and Perplexity Sonar Pro on OpenRouter · Last build {TODAY}</p>
+</div>
+</footer>"""
+
+
+# ────────────────────────────────────────────────────────────────────────────
 # Per-page rendering
 # ────────────────────────────────────────────────────────────────────────────
 
 
+def ru(text: str) -> str:
+    """Wrap non-empty text in a Russian-language span (WCAG 3.1.2)."""
+    if not text:
+        return ""
+    return f'<span lang="ru">{escape(text)}</span>'
+
+
+_CYRILLIC_RE = re.compile(r"[Ѐ-ӿԀ-ԯ]+(?:[\s.,\-—:;\d№][Ѐ-ӿԀ-ԯ\d]+)*")
+
+
+def auto_lang(text: str | None, lang: str = "ru") -> str:
+    """Auto-wrap Cyrillic runs in <span lang="..."> for screen readers."""
+    if not text:
+        return ""
+    s = escape(text)
+    return _CYRILLIC_RE.sub(lambda m: f'<span lang="{lang}">{m.group(0)}</span>', s)
+
+
+def render_table(
+    headers: list[str],
+    rows: list[str],
+    *,
+    caption: str | None = None,
+    paginate_after: int | None = None,
+    empty_msg: str = "No data yet.",
+) -> str:
+    """Render a semantic, scrollable, optionally paginated table.
+
+    `rows` is a list of pre-rendered "<tr>...</tr>" strings.
+    """
+    if not rows:
+        return f'<p>{escape(empty_msg)}</p>'
+    head_html = "".join(f'<th scope="col">{h}</th>' for h in headers)
+    cap = f"<caption>{escape(caption)}</caption>" if caption else ""
+    if paginate_after and len(rows) > paginate_after:
+        first = "".join(rows[:paginate_after])
+        rest = "".join(rows[paginate_after:])
+        body = (
+            f"<tbody>{first}</tbody>"
+            f"<tbody class='show-more-rows' hidden>{rest}</tbody>"
+        )
+        toggle = (
+            f'<details class="show-more">'
+            f'<summary>Show all {len(rows)} rows ({len(rows) - paginate_after} more)</summary>'
+            f'<p style="padding:0 16px 12px;color:var(--c-fg-soft);font-size:var(--fz-sm)">'
+            f'All {len(rows)} rows are present in the DOM for crawlers and remain in the source HTML; the rest are revealed when this section is expanded.</p>'
+            f'</details>'
+        )
+        return (
+            f'<div class="table-scroll">'
+            f'<table>{cap}<thead><tr>{head_html}</tr></thead>'
+            f'<tbody>{first}{rest}</tbody></table></div>{toggle}'
+        )
+    body = f"<tbody>{''.join(rows)}</tbody>"
+    return (
+        f'<div class="table-scroll">'
+        f'<table>{cap}<thead><tr>{head_html}</tr></thead>{body}</table></div>'
+    )
+
+
 def kpi_row(label: str, value: str | int) -> str:
-    return f'<div class="kpi"><div class="num">{escape(str(value))}</div><div class="lbl">{escape(label)}</div></div>'
+    return f'<div class="kpi" role="listitem"><div class="num">{escape(str(value))}</div><div class="lbl">{escape(label)}</div></div>'
+
+
+def _md_inline(text: str) -> str:
+    """Tiny inline markdown: **bold**, *italic*, `code`, [text](url)."""
+    s = escape(text)
+    s = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", s)
+    s = re.sub(r"(?<![*\w])\*([^*]+)\*(?![\w*])", r"<em>\1</em>", s)
+    s = re.sub(r"`([^`]+)`", r"<code>\1</code>", s)
+    s = re.sub(r"\[([^\]]+)\]\((https?://[^)]+)\)", r'<a href="\2">\1</a>', s)
+    return s
+
+
+def _md_to_html(md: str, *, skip_h1: bool = True) -> str:
+    """Lightweight Markdown → HTML for our generated audit / lenses / rubric files.
+
+    Handles: # h1 / ## h2 / ### h3, - / * bullet lists, numeric lists, paragraphs,
+    horizontal rules, fenced code blocks, blockquotes, inline emphasis/links.
+    """
+    lines = md.replace("\r\n", "\n").split("\n")
+    out: list[str] = []
+    in_ul = in_ol = in_code = in_bq = False
+
+    def close_lists() -> None:
+        nonlocal in_ul, in_ol, in_bq
+        if in_ul:
+            out.append("</ul>")
+            in_ul = False
+        if in_ol:
+            out.append("</ol>")
+            in_ol = False
+        if in_bq:
+            out.append("</blockquote>")
+            in_bq = False
+
+    for raw in lines:
+        line = raw.rstrip()
+        if line.startswith("```"):
+            close_lists()
+            if not in_code:
+                out.append("<pre><code>")
+                in_code = True
+            else:
+                out.append("</code></pre>")
+                in_code = False
+            continue
+        if in_code:
+            out.append(escape(raw) + "\n")
+            continue
+        if not line.strip():
+            close_lists()
+            continue
+        if re.match(r"^---+$|^\*\*\*+$", line.strip()):
+            close_lists()
+            out.append("<hr>")
+            continue
+        if skip_h1 and line.startswith("# "):
+            continue
+        m = re.match(r"^(#{1,6})\s+(.+)$", line)
+        if m:
+            close_lists()
+            level = min(len(m.group(1)), 6)
+            level = max(level, 2)  # never emit duplicate H1
+            out.append(f"<h{level}>{_md_inline(m.group(2))}</h{level}>")
+            continue
+        if line.startswith("> "):
+            if not in_bq:
+                close_lists()
+                out.append("<blockquote>")
+                in_bq = True
+            out.append(f"<p>{_md_inline(line[2:])}</p>")
+            continue
+        m = re.match(r"^[-*]\s+(.+)$", line)
+        if m:
+            if not in_ul:
+                close_lists()
+                out.append("<ul>")
+                in_ul = True
+            out.append(f"<li>{_md_inline(m.group(1))}</li>")
+            continue
+        m = re.match(r"^(\d+)\.\s+(.+)$", line)
+        if m:
+            if not in_ol:
+                close_lists()
+                out.append("<ol>")
+                in_ol = True
+            out.append(f"<li>{_md_inline(m.group(2))}</li>")
+            continue
+        # Plain paragraph
+        close_lists()
+        out.append(f"<p>{_md_inline(line)}</p>")
+    close_lists()
+    if in_code:
+        out.append("</code></pre>")
+    return "\n".join(out)
 
 
 def home(graph: dict[str, Any]) -> str:
@@ -295,9 +670,9 @@ def home(graph: dict[str, Any]) -> str:
     )
     body = f"""<h1>Central Asia B2G Intelligence</h1>
 <p class="lead summary">{escape(lead)}</p>
-<div class="kpi-grid">
-{kpi_row("B2G Initiatives", n_inits)}
-{kpi_row("Tier-A", tier_a)}
+<div class="kpi-grid" role="list" aria-label="Headline counts">
+{kpi_row("B2G initiatives", n_inits)}
+{kpi_row("Tier-A deals", tier_a)}
 {kpi_row("Solo MVPs", n_mvps)}
 {kpi_row("Decrees", n_decrees)}
 {kpi_row("Institutions", n_inst)}
@@ -306,107 +681,327 @@ def home(graph: dict[str, Any]) -> str:
 {kpi_row("Live tenders", n_tenders)}
 {kpi_row("Global cases", n_cases)}
 </div>
+
+<div class="banner">
+  <strong>April 2026 KG structural break:</strong> the Ministry of Digital Development was abolished and its functions transferred to the Presidential Administration (УДП). Every legacy donor programme counterpart is in flux through Q3 2026. <a href="/decrees/kg/">See KG decrees</a>.
+</div>
+
+<h2>Where should you start?</h2>
+<p>Pick the entry that matches what you do — each card lands you on the page that answers your first question.</p>
+<div class="persona-grid" role="list" aria-label="Reader entry paths">
+  <div class="persona" role="listitem">
+    <h3>Vendor / B2G operator</h3>
+    <p>Find Tier-A initiatives with verified buyer, decree anchor, donor co-financing, and a credible 12-month deal path.</p>
+    <p><a href="/initiatives/">→ Initiatives top 100</a> · <a href="/procurement/">live procurement</a></p>
+  </div>
+  <div class="persona" role="listitem">
+    <h3>Donor / IFI counterpart</h3>
+    <p>{n_donors} active and pipeline programmes from World Bank, ADB, EU, UN agencies, and bilaterals — TTL or PM named on each.</p>
+    <p><a href="/donors/">→ Donor pipeline</a> · <a href="/people/">decision-makers</a></p>
+  </div>
+  <div class="persona" role="listitem">
+    <h3>Investor / VC</h3>
+    <p>{n_mvps} solopreneur MVPs and {tier_a} Tier-A B2G initiatives, scored on five axes with local market fit and Russian/CIS substitution lenses.</p>
+    <p><a href="/mvp/">→ Solopreneur MVPs</a> · <a href="/lenses/">analytical lenses</a></p>
+  </div>
+  <div class="persona" role="listitem">
+    <h3>Government / regulator</h3>
+    <p>How peers are deploying AI in courts, tax, health, and digital identity — with tournament-ranked transferability scores.</p>
+    <p><a href="/methodology/">→ Methodology</a> · <a href="/honesty/">what we did not find</a></p>
+  </div>
+  <div class="persona" role="listitem">
+    <h3>Researcher / journalist</h3>
+    <p>Every prompt, every source URL, every audit finding is public. Reproduce the whole pipeline yourself for under USD 20 of paid API calls.</p>
+    <p><a href="https://github.com/avaluev/ca-b2g-research">→ GitHub repository</a> · <a href="/provenance/">provenance</a></p>
+  </div>
+</div>
+
 <h2>What is in this research?</h2>
-<p>This is a typed, source-cited knowledge graph of AI and digital government opportunities in Uzbekistan and Kyrgyzstan, plus the methodology used to build it. Every initiative is mapped to a decree, an institution, a decision-maker, a donor programme, and a global precedent. Every numeric claim is cited.</p>
+<p>A typed, source-cited knowledge graph of AI and digital government opportunities in Uzbekistan and Kyrgyzstan, plus the methodology used to build it. Each initiative is mapped to a specific decree, institution, decision-maker, donor programme, and global precedent. Numeric claims carry a verified URL; uncertain claims are tagged <code>L2_VERIFIED</code> or <code>INFERRED</code> rather than dropped.</p>
+
 <h2>How was it produced?</h2>
-<p>An eleven-agent multi-wave research pipeline built on Anthropic's Claude (Opus + Sonnet) with cross-model verification via Perplexity Sonar Deep Research and Sonar Pro on a strict $20 OpenRouter budget. The seven waves move from blueprint to legal corpus to institutions, donors, procurement, trends, people, synthesis, audit, and outreach.</p>
-<h2>Who is this for?</h2>
-<p>B2G operators, government affairs leads at vendors, donor counterparts, investment teams covering frontier emerging markets, and Central-Asian government decision-makers themselves. The site is bilingual-readable; primary sources are predominantly Russian-language.</p>
-<h2>Where to start</h2>
-<p>Start with <a href="/initiatives/">Initiatives</a> for the headline list. Read <a href="/lenses/">the five lenses</a> for the analytical frame. Read <a href="/honesty/">Honesty</a> for what we did <em>not</em> find — gaps are first-class records here. <a href="/provenance/">Provenance</a> shows every source and every cross-model verification card.</p>
+<p>An eleven-agent multi-wave pipeline built on Claude (Opus + Sonnet) with cross-model verification via Perplexity Sonar Deep Research on a strict USD 20 OpenRouter budget. The seven waves move from blueprint to legal corpus to institutions, donors, procurement, trends, people, synthesis, adversarial audit, and outreach. The audit wave caught four wrong Tier-1 identities before publication; corrections are public.</p>
+
+<h2>Who built this?</h2>
+<p>{escape(OPERATOR)} — independent researcher focused on B2G market intelligence in Central Asia. Reachable at <a href="mailto:{OPERATOR_EMAIL}">{OPERATOR_EMAIL}</a> · <a href="{OPERATOR_LINKEDIN}">LinkedIn</a> · <a href="{OPERATOR_GITHUB}">GitHub</a>. The full prompt set, agent definitions, and source code are <a href="https://github.com/avaluev/ca-b2g-research">openly licensed under Apache 2.0</a>.</p>
 """
     return render_page(
         path="/",
         title="Central Asia B2G Intelligence — Uzbekistan + Kyrgyzstan AI/Digital Government",
         description="Open research on B2G AI and digital-government opportunities in Uzbekistan + Kyrgyzstan: 100+ initiatives mapped to decrees, donors, decision-makers, and precedents.",
         body_html=body,
-        page_type="WebSite",
+        page_type="CollectionPage",
+        extra_head=_faq_jsonld_home() + _dataset_jsonld() + _speakable_jsonld(),
     )
 
 
+def _faq_jsonld_home() -> str:
+    """FAQPage schema for the home page Q&A sections."""
+    faq = {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+            {
+                "@type": "Question",
+                "name": "What is in this research?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": (
+                        "A typed, source-cited knowledge graph of AI and digital government "
+                        "opportunities in Uzbekistan and Kyrgyzstan. Every initiative is mapped "
+                        "to a decree, an institution, a decision-maker, a donor programme, and "
+                        "a global precedent. Every numeric claim is cited."
+                    ),
+                },
+            },
+            {
+                "@type": "Question",
+                "name": "How was the Central Asia B2G research produced?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": (
+                        "An eleven-agent multi-wave research pipeline built on Anthropic's Claude "
+                        "(Opus and Sonnet) with cross-model verification via Perplexity Sonar Deep "
+                        "Research and Sonar Pro on a strict $20 OpenRouter budget. Seven waves move "
+                        "from blueprint to legal corpus to institutions, donors, procurement, trends, "
+                        "people, synthesis, audit, and outreach."
+                    ),
+                },
+            },
+            {
+                "@type": "Question",
+                "name": "Who is the Central Asia B2G Intelligence research for?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": (
+                        "B2G operators, government affairs leads at vendors, donor counterparts, "
+                        "investment teams covering frontier emerging markets, and Central-Asian "
+                        "government decision-makers. Primary sources are predominantly Russian-language."
+                    ),
+                },
+            },
+            {
+                "@type": "Question",
+                "name": "Where should a B2G operator start with this research?",
+                "acceptedAnswer": {
+                    "@type": "Answer",
+                    "text": (
+                        "Start with the Initiatives page for the headline list of 100 deployable "
+                        "opportunities. Read the five lenses for the analytical frame. Read Honesty "
+                        "for gaps — gaps are first-class records here. Provenance shows every "
+                        "source and cross-model verification card."
+                    ),
+                },
+            },
+        ],
+    }
+    return f'\n<script type="application/ld+json">\n{json.dumps(faq, ensure_ascii=False, indent=2)}\n</script>'
+
+
+def _dataset_jsonld() -> str:
+    """Dataset schema pointing at the public knowledge graph JSON."""
+    dataset = {
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        "name": "Central Asia B2G Knowledge Graph",
+        "description": (
+            "Typed knowledge graph of AI and digital government opportunities in Uzbekistan "
+            "and Kyrgyzstan: decrees, institutions, decision-makers, donor programmes, "
+            "procurement tenders, sectoral trends, global precedents, and scored initiatives."
+        ),
+        "url": "https://github.com/avaluev/ca-b2g-research",
+        "license": "https://www.apache.org/licenses/LICENSE-2.0",
+        "creator": {"@id": SITE_URL + "/#operator"},
+        "dateModified": TODAY,
+        "inLanguage": ["en", "ru"],
+        "keywords": [
+            "Uzbekistan", "Kyrgyzstan", "B2G", "AI government", "digital procurement",
+            "Central Asia", "knowledge graph", "open data",
+        ],
+        "distribution": [
+            {
+                "@type": "DataDownload",
+                "encodingFormat": "application/json",
+                "contentUrl": "https://github.com/avaluev/ca-b2g-research/blob/main/state/knowledge_graph.json",
+            }
+        ],
+    }
+    return f'\n<script type="application/ld+json">\n{json.dumps(dataset, ensure_ascii=False, indent=2)}\n</script>'
+
+
+def _speakable_jsonld() -> str:
+    """SpeakableSpecification — tells Google Assistant which selectors to read aloud."""
+    speakable = {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "speakable": {
+            "@type": "SpeakableSpecification",
+            "cssSelector": ["h1", ".lead.summary"],
+        },
+        "url": SITE_URL + "/",
+    }
+    return f'\n<script type="application/ld+json">\n{json.dumps(speakable, ensure_ascii=False, indent=2)}\n</script>'
+
+
 def methodology() -> str:
-    body = """<h1>Methodology</h1>
-<p class="lead summary">A seven-wave multi-agent research pipeline turns Russian, Uzbek, and Kyrgyz primary sources into a typed knowledge graph. Eleven specialised agents work in three waves of parallel research, one wave of synthesis, one of adversarial audit, and one of outreach drafting. Cross-model verification via OpenRouter caps the OpenRouter spend at twenty dollars per run.</p>
+    waves_rows = [
+        ("<tr><td><strong>0</strong></td><td>blueprint-architect</td><td>Strategic plan, target lists, and the constraint inventory that scaffolds every later wave.</td></tr>"),
+        ("<tr><td><strong>1</strong></td><td>legal-cartographer · case-tournament</td><td>Catalogue the decree corpus on lex.uz and cbd.minjust.gov.kg; tournament 100 global precedents for transferability to UZ and KG.</td></tr>"),
+        ("<tr><td><strong>2</strong></td><td>institution-mapper · donor-pipeline · procurement-harvester · trend-triangulator</td><td>Map state bodies (8 tiers), donor programmes with named TTL, live tenders, sector trends.</td></tr>"),
+        ("<tr><td><strong>3</strong></td><td>people-intelligence</td><td>100+ decision-makers, including the 16 diaspora bridges who shape policy from London, Dubai, and Silicon Valley.</td></tr>"),
+        ("<tr><td><strong>4</strong></td><td>initiative-synthesizer · solopreneur-mvp-synthesizer</td><td>100 institutional B2G initiatives plus 200 solopreneur MVPs, scored on five weighted axes.</td></tr>"),
+        ("<tr><td><strong>5</strong></td><td>reflexion-auditor</td><td>Adversarial re-verification with a different model, minimum three HIGH-severity issues, public corrections.</td></tr>"),
+        ("<tr><td><strong>6</strong></td><td>pitch-artificer</td><td>Tier-A and Tier-B outreach bundles. Private outreach scripts stay in the contributor vault.</td></tr>"),
+    ]
+    waves_table = render_table(["Wave", "Agent(s)", "Purpose"], waves_rows, caption="The seven waves of the research pipeline")
+    body = f"""<h1>Methodology</h1>
+<p class="lead summary">A seven-wave multi-agent pipeline turns Russian, Uzbek, and Kyrgyz primary sources into a typed knowledge graph. Eleven specialised agents work in three parallel research waves, one synthesis wave, one adversarial audit, and one outreach wave. Cross-model verification on a strict twenty-dollar OpenRouter budget keeps every Tier-A claim independently re-checked.</p>
 <h2>What does each wave do?</h2>
-<table>
-<tr><th>Wave</th><th>Agent(s)</th><th>Purpose</th></tr>
-<tr><td>0</td><td>blueprint-architect</td><td>Strategic plan, target lists, constraint inventory</td></tr>
-<tr><td>1</td><td>legal-cartographer, case-tournament</td><td>Decree corpus + 100+ global precedents</td></tr>
-<tr><td>2</td><td>institution-mapper, donor-pipeline, procurement-harvester, trend-triangulator</td><td>Org taxonomies, donor programs, tenders, trends</td></tr>
-<tr><td>3</td><td>people-intelligence</td><td>100+ decision-makers + diaspora bridges</td></tr>
-<tr><td>4</td><td>initiative-synthesizer</td><td>100+ initiatives, 5-axis scoring</td></tr>
-<tr><td>5</td><td>reflexion-auditor</td><td>Adversarial re-verification, ≥3 HIGH-issue minimum</td></tr>
-<tr><td>6</td><td>pitch-artificer</td><td>Tier-A/B outreach bundles (private vault only)</td></tr>
-</table>
+<p>Each wave produces a typed JSON artefact under <code>state/</code>. Every record carries a verification tag and a sources array. The merged knowledge graph at <code>state/knowledge_graph.json</code> is the single read view that downstream waves consume.</p>
+{waves_table}
 <h2>How is verification enforced?</h2>
-<p>Every record carries a verification tag — VERIFIED (single source), L2_VERIFIED (corroborated), L3_VERIFIED (expert commentary), INFERRED, UNVERIFIED, or CONTRADICTED. The reflexion-auditor wave re-fetches sources, calls a different OpenRouter model than the originating agent (to break echo chambers), and demotes initiatives whose claims fail re-check. Twelve content quality gates block deploy on any single H1 violation, internal-ID leak, fabricated decree, or fabricated LinkedIn URL.</p>
+<p>Every record carries one of six verification tags: <span class="verified">VERIFIED</span> (primary source plus one corroboration), <span class="l2-verified">L2_VERIFIED</span> (primary source only), L3_VERIFIED (primary plus expert commentary), <span class="inferred">INFERRED</span> (indirect evidence), UNVERIFIED, or CONTRADICTED. The reflexion-auditor calls a different model than the original agent — Sonar Pro re-checks Sonar Deep Research output, breaking the echo chamber. Twelve content quality gates block any deploy on a single H1 violation, internal ID leak, fabricated decree, or fabricated LinkedIn URL.</p>
 <h2>What is the source priority?</h2>
-<p>For Uzbekistan: lex.uz, gov.uz, president.uz, norma.uz, then spot.uz, gazeta.uz, kun.uz, daryo.uz. For Kyrgyzstan: cbd.minjust.gov.kg, president.kg, gov.kg, kabmin.kg, then 24.kg, kaktus.media, akipress.org. For donors: documents.worldbank.org, projects.worldbank.org, adb.org/projects, ec.europa.eu/international-partnerships. Every country claim cites at least one Russian-language source.</p>
+<p>Uzbekistan: lex.uz, gov.uz, president.uz, norma.uz, then spot.uz, gazeta.uz, kun.uz, daryo.uz. Kyrgyzstan: cbd.minjust.gov.kg, president.kg, gov.kg, kabmin.kg, then 24.kg, kaktus.media, akipress.org. Donors: documents.worldbank.org, projects.worldbank.org, adb.org/projects, ec.europa.eu/international-partnerships. Every country claim cites at least one Russian-language source. Fifty-three percent of all sources in this run are Russian-language.</p>
+<h2>Reproduce this research yourself</h2>
+<p>The full pipeline is open-source. Clone <a href="https://github.com/avaluev/ca-b2g-research">github.com/avaluev/ca-b2g-research</a>, copy <code>.env.example</code> to <code>.env</code> and add your OpenRouter key, then run <code>make run</code>. Total runtime: about ten hours wall-clock. Total OpenRouter spend (with the audit wave on paid Sonar Pro): under twenty dollars. Anthropic Claude usage runs on your own subscription.</p>
 """
+    howto = {
+        "@context": "https://schema.org",
+        "@type": "HowTo",
+        "name": "How to run the Central Asia B2G research pipeline",
+        "description": "Seven-wave eleven-agent pipeline for mapping AI/digital government opportunities in Uzbekistan and Kyrgyzstan.",
+        "step": [
+            {"@type": "HowToStep", "position": 1, "name": "Wave 0 — Blueprint", "text": "blueprint-architect: strategic plan, target lists, constraint inventory"},
+            {"@type": "HowToStep", "position": 2, "name": "Wave 1 — Legal + Cases", "text": "legal-cartographer maps decree corpus; case-tournament harvests 100+ global precedents"},
+            {"@type": "HowToStep", "position": 3, "name": "Wave 2 — Institutions, Donors, Procurement, Trends", "text": "Four parallel agents: institution-mapper, donor-pipeline, procurement-harvester, trend-triangulator"},
+            {"@type": "HowToStep", "position": 4, "name": "Wave 3 — People", "text": "people-intelligence: 100+ decision-makers + diaspora bridges"},
+            {"@type": "HowToStep", "position": 5, "name": "Wave 4 — Synthesis", "text": "initiative-synthesizer: 100+ initiatives, 5-axis scoring"},
+            {"@type": "HowToStep", "position": 6, "name": "Wave 5 — Adversarial Audit", "text": "reflexion-auditor: cross-model re-verification, minimum 3 HIGH issues"},
+            {"@type": "HowToStep", "position": 7, "name": "Wave 6 — Outreach", "text": "pitch-artificer: Tier-A/B outreach bundles (private vault)"},
+        ],
+    }
+    howto_ld = f'\n<script type="application/ld+json">\n{json.dumps(howto, ensure_ascii=False, indent=2)}\n</script>'
     return render_page(
         path="/methodology/",
         title="Methodology",
         description="The seven-wave eleven-agent research pipeline behind Central Asia B2G Intelligence.",
         body_html=body,
+        page_type="Article",
+        extra_head=howto_ld,
     )
 
 
 def lenses_page(lenses_md: str) -> str:
-    # Convert a touch of markdown to HTML — headers + paragraphs
-    html_body = ["<h1>The five-plus-one analytical lenses</h1>"]
-    html_body.append(
-        '<p class="lead summary">Six analytical lenses cut across every record in this research: '
-        "the Karimov-to-Mirziyoyev Inversion in Uzbekistan, the Japarov Concentration in Kyrgyzstan, "
-        "the Decree Half-Life that opens 6-18 month implementation windows, Donor Co-Financing that "
-        "drives 60-90% of digital budgets, the Diaspora Bridge of senior advisors, and the Russian/CIS "
-        "Substitution Window opened by post-2022 vendor retreat.</p>"
+    head = (
+        '<h1>The six analytical lenses</h1>'
+        '<p class="lead summary">Six lenses cut across every record in this research: the Karimov-to-Mirziyoyev Inversion in Uzbekistan, the Japarov Concentration in Kyrgyzstan, the Decree Half-Life that opens six-to-eighteen month implementation windows, Donor Co-Financing behind sixty to ninety percent of digital budgets, the Diaspora Bridge of senior advisors, and the Russian/CIS Substitution Window opened by post-2022 vendor retreat.</p>'
     )
-    # Cheap markdown -> html
-    for line in lenses_md.splitlines():
-        line = line.rstrip()
-        if line.startswith("# "):
-            continue  # Already have H1
-        if line.startswith("## "):
-            html_body.append(f"<h2>{escape(line[3:])}</h2>")
-        elif line.startswith("### "):
-            html_body.append(f"<h3>{escape(line[4:])}</h3>")
-        elif line.startswith("- "):
-            html_body.append(f"<p>• {escape(line[2:])}</p>")
-        elif line:
-            html_body.append(f"<p>{escape(line)}</p>")
     return render_page(
         path="/lenses/",
-        title="The five analytical lenses",
-        description="The six lenses applied to every record in this research: Karimov Inversion, Japarov Concentration, Decree Half-Life, Donor Co-Financing, Diaspora Bridge, Russian/CIS Substitution Window.",
-        body_html="\n".join(html_body),
+        title="Six analytical lenses on Central Asia B2G",
+        description="Six lenses applied to every record in this research: Karimov Inversion, Japarov Concentration, Decree Half-Life, Donor Co-Financing, Diaspora Bridge, Russian/CIS Substitution.",
+        body_html=head + _md_to_html(lenses_md, skip_h1=True),
     )
 
 
 def scoring_page(rubric_md: str) -> str:
-    body = ["<h1>Scoring rubric</h1>"]
-    body.append(
-        '<p class="lead summary">Every initiative is scored on five axes with weighted totals: '
-        "Speed-to-Contract at twenty-five percent, Strategic Moat at twenty percent, Defensibility "
-        "at twenty percent, Capital Access at twenty percent, and Russian/CIS Fit at fifteen percent. "
-        "A weighted total above seven and a half drops into Tier-A; below six is Tier-C or worse.</p>"
+    rubric_rows = [
+        '<tr><td><strong>Speed-to-Contract</strong></td><td>25%</td><td>How quickly can a vendor reach signature given decree status, procurement modality, and incumbent landscape?</td></tr>',
+        '<tr><td><strong>Strategic Moat</strong></td><td>20%</td><td>Does winning this contract pre-position you for a much larger downstream play?</td></tr>',
+        '<tr><td><strong>Defensibility</strong></td><td>20%</td><td>Once deployed, how protected from competitor displacement (data accumulation, regulatory pre-qualification, language model fine-tune)?</td></tr>',
+        '<tr><td><strong>Capital Access</strong></td><td>20%</td><td>Is funding identified — donor programme, ministry budget line, or PPP — and credibly close to disbursement?</td></tr>',
+        '<tr><td><strong>Russian / CIS Fit</strong></td><td>15%</td><td>Does the solution match local language, data localization, and post-2022 vendor preference dynamics?</td></tr>',
+    ]
+    rubric_table = render_table(["Axis", "Weight", "What it measures"], rubric_rows, caption="The five scoring axes")
+    tier_rows = [
+        '<tr><td><span class="tag tier-a">A</span></td><td>≥ 7.5</td><td>Deal-ready. All key reference fields verified. Twelve-month deal path documented.</td></tr>',
+        '<tr><td><span class="tag tier-b">B</span></td><td>≥ 6.0</td><td>Develop. Most fields VERIFIED or L2_VERIFIED. One or two gaps to close before pursuit.</td></tr>',
+        '<tr><td><span class="tag tier-c">C</span></td><td>≥ 4.5</td><td>Backlog. Significant gaps or weak verification. Revisit on next refresh.</td></tr>',
+        '<tr><td>D</td><td>&lt; 4.5</td><td>Reconsider — usually dropped from the list entirely.</td></tr>',
+    ]
+    tier_table = render_table(["Tier", "Weighted total", "Treatment"], tier_rows, caption="Tier mapping for B2G initiatives")
+    head = (
+        '<h1>Scoring rubric</h1>'
+        '<p class="lead summary">Every initiative is scored on five weighted axes: Speed-to-Contract (25%), Strategic Moat (20%), Defensibility (20%), Capital Access (20%), and Russian/CIS Fit (15%). A weighted total of 7.5 or more puts an initiative in Tier-A — deal-ready with every reference field verified. Below 6.0 is Tier-C or worse.</p>'
+        '<h2>The five axes</h2>'
+        + rubric_table +
+        '<h2>Tier mapping</h2>'
+        + tier_table +
+        '<h2>Why these weights?</h2>'
+        '<p>Speed-to-Contract is weighted highest because in B2G the largest losses come from chasing slow opportunities. Russian/CIS Fit is weighted lowest because it is necessary but not sufficient — a poor fit kills a deal but a good fit alone does not win one. The other three axes are weighted equally because they trade off against one another in real bid decisions.</p>'
     )
-    for line in rubric_md.splitlines():
-        line = line.rstrip()
-        if line.startswith("# "):
-            continue
-        if line.startswith("## "):
-            body.append(f"<h2>{escape(line[3:])}</h2>")
-        elif line.startswith("### "):
-            body.append(f"<h3>{escape(line[4:])}</h3>")
-        elif line.startswith("- "):
-            body.append(f"<p>• {escape(line[2:])}</p>")
-        elif line:
-            body.append(f"<p>{escape(line)}</p>")
+    rest = _md_to_html(rubric_md, skip_h1=True)
     return render_page(
         path="/scoring/",
-        title="Scoring rubric",
-        description="The five-axis weighted scoring rubric for every initiative: Speed-to-Contract, Strategic Moat, Defensibility, Capital Access, Russian/CIS Fit.",
-        body_html="\n".join(body),
+        title="Five-axis scoring rubric for B2G initiatives",
+        description="The weighted scoring rubric for every initiative: Speed-to-Contract, Strategic Moat, Defensibility, Capital Access, Russian/CIS Fit.",
+        body_html=head + '<h2>Detailed axis definitions</h2>' + rest,
+    )
+
+
+def about_page() -> str:
+    body = f"""<h1>About this research and its author</h1>
+<p class="lead summary">{escape(OPERATOR)} built this research as an open, reproducible alternative to the Big-4 frontier-market opportunity reports that cost six figures and disappear into a PDF. Every prompt, every script, every quality gate is public. Every claim is typed. Every error is named.</p>
+
+<h2>Who is the author?</h2>
+<p>{escape(OPERATOR)} is an independent researcher focused on B2G market intelligence in Central Asia. Reachable at <a href="mailto:{OPERATOR_EMAIL}">{OPERATOR_EMAIL}</a> · <a href="{OPERATOR_LINKEDIN}">LinkedIn</a> · <a href="{OPERATOR_GITHUB}">GitHub</a>.</p>
+
+<h2>Why build this?</h2>
+<p>Standard B2G consultancies tell you "the Ministry of Digital Development is leading AI strategy" — useless for capture. This site tells you the deputy minister responsible for AI procurement, their LinkedIn, the donor programme co-financing their pipeline, the decree authorising their budget, the half-life remaining on that decree, the closest global precedent, and the named pitch hook that maps to their published commitment. And when something is wrong, the <a href="/honesty/">Honesty page</a> says so.</p>
+
+<h2>How is this different from a Big-4 report?</h2>
+<ul>
+  <li><strong>Open.</strong> Apache 2.0. Clone, fork, rerun.</li>
+  <li><strong>Typed.</strong> Eight record types with foreign-key integrity. The data is a knowledge graph, not a stack of slides.</li>
+  <li><strong>Reproducible.</strong> Total runtime ten hours, total paid OpenRouter under twenty dollars. The pipeline is one <code>make run</code> away.</li>
+  <li><strong>Adversarial.</strong> Wave 5 finds at least three HIGH-severity issues. In this run it caught four wrong Tier-1 identities — corrected, sourced, and named in <a href="/honesty/">Honesty</a>.</li>
+  <li><strong>Localised.</strong> Fifty-three percent of sources are Russian-language. Cyrillic content carries proper <code>lang</code> attribution.</li>
+</ul>
+
+<h2>What is the refresh cadence?</h2>
+<p>Quarterly. Each refresh re-runs Waves 1, 2, and 5 and incrementally extends Waves 3, 4, and 6. Releases are tagged on GitHub with the data vintage. Subscribe to the <a href="/feed.xml">Atom feed</a> or watch the repository for releases.</p>
+
+<h2>How can I help?</h2>
+<p>Open an issue with a <a href="https://github.com/avaluev/ca-b2g-research/issues/new?template=research-correction.md">research correction</a> if you spot wrong data — wrong decree number, stale role, missing donor programme. Open a PR if you want to extend the schema, add an agent, or improve a renderer. Both are welcome.</p>
+
+<h2>Privacy and ethics</h2>
+<p>This site never publishes private contact details — phone numbers, home addresses, personal email — for any named individual. It never speculates on political loyalties; only documented public positions. The private outreach kits with warm-intro paths and diaspora-flagged advisors live only in a contributor vault, not on the public site.</p>
+
+<h2>Funding and conflicts of interest</h2>
+<p>This research is self-funded. {escape(OPERATOR)} has no current vendor or donor mandate dependent on its findings. The site lists no advertising and accepts no sponsorship.</p>
+"""
+    return render_page(
+        path="/about/",
+        title=f"About {OPERATOR} and this research",
+        description=f"{OPERATOR} built this open research alternative to Big-4 frontier-market reports. Apache 2.0, reproducible in 10h for under USD 20.",
+        body_html=body,
+        page_type="AboutPage",
+    )
+
+
+def not_found_page() -> str:
+    body = """<h1>Page not found</h1>
+<p class="lead summary">The link you followed does not match any page in the Central Asia B2G Intelligence research site. The site is organised around six pillar pages plus the methodology, lenses, scoring rubric, and an honesty page that names what we did not find.</p>
+
+<h2>Where to start instead</h2>
+<ul>
+  <li><a href="/">Home</a> — the headline counts and where to start by reader type.</li>
+  <li><a href="/initiatives/">B2G initiatives</a> — the top 100 deployable opportunities, tier-bucketed.</li>
+  <li><a href="/mvp/">Solopreneur MVPs</a> — 200 individually-bootstrappable plays.</li>
+  <li><a href="/donors/">Donor pipeline</a> — 49 active programmes with named TTL/PM.</li>
+  <li><a href="/methodology/">Methodology</a> — how the seven-wave pipeline works.</li>
+  <li><a href="/honesty/">Honesty</a> — what we did not find and where the audit caught us.</li>
+</ul>
+
+<p>If you found this 404 from a broken link inside the site, please <a href="https://github.com/avaluev/ca-b2g-research/issues/new">open an issue</a>.</p>
+"""
+    return render_page(
+        path="/404.html",
+        title="Page not found",
+        description="The page you requested does not exist. Try the home page or one of the six pillar pages.",
+        body_html=body,
+        page_type="WebPage",
     )
 
 
@@ -425,12 +1020,17 @@ def decrees_page(graph: dict[str, Any], country: str) -> str:
         )
         rows.append(
             f"<tr><td>{escape(d.get('id') or '')}</td><td>{escape(d.get('decree_type') or '')}</td>"
-            f"<td>{escape(d.get('number') or '')}</td><td>{escape(d.get('date') or '')}</td>"
+            f"<td>{ru(d.get('number') or '')}</td><td>{escape(d.get('date') or '')}</td>"
             f"<td>{escape(d.get('title_en') or '')}</td>"
             f"<td><span class='tag'>{escape(d.get('half_life_status') or '')}</span></td>"
             f"<td>{link_html}</td></tr>"
         )
-    table = "<table><tr><th>ID</th><th>Type</th><th>Number</th><th>Date</th><th>Title</th><th>Status</th><th>Source</th></tr>" + "".join(rows) + "</table>" if rows else "<p>No decrees in the knowledge graph yet.</p>"
+    table = render_table(
+        ["ID", "Type", "Number", "Date", "Title", "Status", "Source"],
+        rows,
+        paginate_after=25,
+        empty_msg="No decrees in the knowledge graph yet.",
+    )
     body = f"""<h1>Decree atlas — {cname}</h1>
 <p class="lead summary">This atlas catalogues {n} presidential decrees, government resolutions, and sectoral laws shaping AI and digital government in {cname}, with {active} currently in their six-to-eighteen-month active implementation window. Every decree is verified on the official government source and cross-checked in independent media.</p>
 <h2>What is the decree half-life?</h2>
@@ -456,11 +1056,16 @@ def institutions_page(graph: dict[str, Any]) -> str:
         rows.append(
             f"<tr><td>{escape(i.get('country') or '')}</td><td>{escape(str(i.get('tier') or ''))}</td>"
             f"<td>{escape(i.get('name_en') or '')}</td>"
-            f"<td>{escape(i.get('name_ru') or '')}</td>"
+            f"<td>{ru(i.get('name_ru') or '')}</td>"
             f"<td>{escape(i.get('ai_digital_mandate') or '')}</td>"
             f"<td>{escape(head_id)}</td></tr>"
         )
-    table = "<table><tr><th>C</th><th>Tier</th><th>Name (EN)</th><th>Name (RU)</th><th>AI/digital mandate</th><th>Head ID</th></tr>" + "".join(rows) + "</table>" if rows else "<p>No institutions in the knowledge graph yet.</p>"
+    table = render_table(
+        ["Country", "Tier", "Name (EN)", "Name (RU)", "AI/digital mandate", "Head"],
+        rows,
+        paginate_after=30,
+        empty_msg="No institutions in the knowledge graph yet.",
+    )
     body = f"""<h1>Institution map</h1>
 <p class="lead summary">This map covers {n} state institutions across Uzbekistan and Kyrgyzstan with AI or digital mandate, organised in eight tiers from Presidential Administration through Cabinet, line ministries, agencies, SOEs, regulators, working groups, and donor PIUs. Every institution names its current head, parent, and recent decisions.</p>
 <h2>What are the eight tiers?</h2>
@@ -497,7 +1102,12 @@ def donors_page(graph: dict[str, Any]) -> str:
             f"<td>{escape(p.get('ttl_pm_name') or '')}</td>"
             f"<td>{escape(p.get('status') or '')}</td></tr>"
         )
-    table = "<table><tr><th>Donor</th><th>C</th><th>Program</th><th>Budget</th><th>TTL/PM</th><th>Status</th></tr>" + "".join(rows) + "</table>" if rows else "<p>No donor programmes in the knowledge graph yet.</p>"
+    table = render_table(
+        ["Donor", "Country", "Programme", "Budget", "TTL / Project manager", "Status"],
+        rows,
+        paginate_after=25,
+        empty_msg="No donor programmes in the knowledge graph yet.",
+    )
     body = f"""<h1>Donor programme pipeline</h1>
 <p class="lead summary">This pipeline lists {n} active and forthcoming donor programmes from World Bank, ADB, EU, EBRD, UN agencies, and bilaterals that fund AI and digital government work in Uzbekistan and Kyrgyzstan. Every record names the donor's TTL or project manager and the government counterpart they work with.</p>
 <h2>Why does the donor matter?</h2>
@@ -528,7 +1138,12 @@ def procurement_page(graph: dict[str, Any]) -> str:
             f"<td>{escape(t.get('win_probability') or '')}</td>"
             f"<td>{link}</td></tr>"
         )
-    table = "<table><tr><th>C</th><th>Title</th><th>Value</th><th>Deadline</th><th>Win Pr.</th><th>Link</th></tr>" + "".join(rows) + "</table>" if rows else "<p>No live tenders in the knowledge graph yet.</p>"
+    table = render_table(
+        ["Country", "Title", "Value (USD)", "Deadline", "Win probability", "Link"],
+        rows,
+        paginate_after=20,
+        empty_msg="No live tenders in the knowledge graph yet.",
+    )
     body = f"""<h1>Live procurement</h1>
 <p class="lead summary">This page tracks {n} live and forthcoming AI or digital government tenders in Uzbekistan and Kyrgyzstan, including donor-funded procurement through World Bank STEP and ADB CSRN. Each tender is annotated with incumbent risk, win probability, and the authorising decree where traceable.</p>
 <h2>How is win probability assessed?</h2>
@@ -567,7 +1182,12 @@ def trends_page(graph: dict[str, Any]) -> str:
                 f"<td>{escape(t.get('maturity') or '')}</td>"
                 f"<td>{escape(', '.join(t.get('lens_tags', []) or []))}</td></tr>"
             )
-        body_parts.append("<table><tr><th>Sector</th><th>Trend</th><th>Maturity</th><th>Lenses</th></tr>" + "".join(rows) + "</table>")
+        body_parts.append(render_table(
+            ["Sector", "Trend", "Maturity", "Lenses"],
+            rows,
+            paginate_after=20,
+            empty_msg="No trends in the knowledge graph yet.",
+        ))
     if n == 0:
         body_parts.append("<p>No trends in the knowledge graph yet.</p>")
     return render_page(
@@ -598,7 +1218,12 @@ def people_page(graph: dict[str, Any]) -> str:
             f"<td>{link}</td>"
             f"<td>{'diaspora' if p.get('diaspora_advisor_flag') else ''}</td></tr>"
         )
-    table = "<table><tr><th>C</th><th>Name</th><th>Role</th><th>Institution</th><th>LinkedIn</th><th>Tag</th></tr>" + "".join(rows) + "</table>" if rows else "<p>No people in the knowledge graph yet.</p>"
+    table = render_table(
+        ["Country", "Name", "Role", "Institution", "LinkedIn", "Tag"],
+        rows,
+        paginate_after=25,
+        empty_msg="No people in the knowledge graph yet.",
+    )
     body = f"""<h1>Decision-makers and diaspora bridges</h1>
 <p class="lead summary">This list catalogues {n} named decision-makers across Uzbekistan and Kyrgyzstan with mandate over AI or digital procurement, plus {diaspora} diaspora advisors who shape policy from London, Dubai, Moscow, San Francisco, and other cities. Only Tier-1 and Tier-2 individuals are shown publicly; outreach scripts and warm-intro paths stay in the private vault.</p>
 <h2>What is the diaspora bridge?</h2>
@@ -633,7 +1258,12 @@ def initiatives_page(graph: dict[str, Any]) -> str:
             f"<td>${(i.get('estimated_initial_contract_usd') or 0):,.0f}</td>"
             f"<td>{escape(i.get('procurement_pathway') or '')}</td></tr>"
         )
-    table = "<table><tr><th>Tier</th><th>C</th><th>Initiative</th><th>Sector</th><th>Score</th><th>Initial $</th><th>Pathway</th></tr>" + "".join(rows) + "</table>" if rows else "<p>No initiatives in the knowledge graph yet.</p>"
+    table = render_table(
+        ["Tier", "Country", "Initiative", "Sector", "Score", "Initial contract (USD)", "Pathway"],
+        rows,
+        paginate_after=25,
+        empty_msg="No initiatives in the knowledge graph yet.",
+    )
     body = f"""<h1>Initiative top {n}</h1>
 <p class="lead summary">This is the headline list: {n} deployable AI and digital government initiatives across Uzbekistan and Kyrgyzstan, scored on five axes and tier-bucketed. {len(a)} initiatives are Tier-A — every key reference field is verified, and a credible 12-month deal path is documented. The scoring rubric is on the Scoring page.</p>
 <h2>How is each initiative grounded?</h2>
@@ -673,7 +1303,12 @@ def mvp_page(graph: dict[str, Any], country: str | None = None) -> str:
             f"<td>{plan.get('build_time_days') or ''}d</td>"
             f"<td>${(mon.get('year_1_revenue_target_usd') or 0):,.0f}</td></tr>"
         )
-    table = "<table><tr><th>Tier</th><th>C</th><th>MVP</th><th>Cat</th><th>Score</th><th>MVR</th><th>Build</th><th>Y1 $</th></tr>" + "".join(rows) + "</table>" if rows else "<p>No solopreneur MVPs in the knowledge graph yet.</p>"
+    table = render_table(
+        ["Tier", "Country", "MVP", "Category", "Score", "MVR vehicle", "Build (days)", "Year 1 revenue (USD)"],
+        rows,
+        paginate_after=25,
+        empty_msg="No solopreneur MVPs in the knowledge graph yet.",
+    )
     if country:
         path = f"/mvp/{country.lower()}/"
         title = f"Solopreneur MVPs — {cname}"
@@ -720,14 +1355,7 @@ def honesty_page(graph: dict[str, Any]) -> str:
         '<p class="lead summary">This page documents the limits of this research: known gaps, dead-end research pathways, opaque domains, and contradictions we could not resolve. Honesty is a first-class output here. A research artifact that hides what it does not know is not trustworthy.</p>'
     )
     if md:
-        for line in md.splitlines():
-            line = line.rstrip()
-            if line.startswith("## "):
-                body_parts.append(f"<h2>{escape(line[3:])}</h2>")
-            elif line.startswith("- "):
-                body_parts.append(f"<p>• {escape(line[2:])}</p>")
-            elif line:
-                body_parts.append(f"<p>{escape(line)}</p>")
+        body_parts.append(_md_to_html(md, skip_h1=True))
     else:
         body_parts.append("<p>The honesty section is generated by the reflexion-auditor (Wave 5). It will appear once the pipeline runs.</p>")
     return render_page(
@@ -791,6 +1419,9 @@ def main() -> int:
     write_page("/trends/", trends_page(graph))
     write_page("/people/", people_page(graph))
     write_page("/initiatives/", initiatives_page(graph))
+    write_page("/about/", about_page())
+    # Custom 404 (GitHub Pages serves /404.html by default)
+    (SITE / "404.html").write_text(not_found_page(), encoding="utf-8")
     write_page("/mvp/", mvp_page(graph, country=None))
     write_page("/mvp/uz/", mvp_page(graph, country="UZ"))
     write_page("/mvp/kg/", mvp_page(graph, country="KG"))
@@ -798,7 +1429,7 @@ def main() -> int:
     write_page("/provenance/", provenance_page(graph))
 
     # Favicon (a single-letter B mark — small SVG, no external deps)
-    favicon_svg = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64"><rect width="64" height="64" fill="#0a4"/><text x="50%" y="55%" text-anchor="middle" fill="#fff" font-family="system-ui" font-size="40" font-weight="700">B</text></svg>"""
+    favicon_svg = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Central Asia B2G Intelligence logo"><title>Central Asia B2G Intelligence</title><rect width="64" height="64" fill="#007a33"/><text x="50%" y="55%" text-anchor="middle" fill="#fff" font-family="system-ui" font-size="40" font-weight="700">B</text></svg>"""
     (SITE / "favicon.svg").write_text(favicon_svg)
     # OG default image: a transparent 1200x630 placeholder (text-only SVG)
     og_svg = """<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630"><rect width="1200" height="630" fill="#0a4"/><text x="50%" y="40%" text-anchor="middle" fill="#fff" font-family="system-ui" font-size="64" font-weight="700">Central Asia B2G Intelligence</text><text x="50%" y="55%" text-anchor="middle" fill="#cfe9d6" font-family="system-ui" font-size="32">Uzbekistan + Kyrgyzstan AI/Digital Government</text></svg>"""

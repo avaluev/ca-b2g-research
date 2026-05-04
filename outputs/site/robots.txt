@@ -36,5 +36,11 @@ User-agent: DuckDuckBot
 Allow: /
 User-agent: YandexBot
 Allow: /
+User-agent: cohere-ai
+Allow: /
+User-agent: meta-externalagent
+Allow: /
+User-agent: Bytespider
+Allow: /
 
 Sitemap: https://avaluev.github.io/ca-b2g-research/sitemap.xml
