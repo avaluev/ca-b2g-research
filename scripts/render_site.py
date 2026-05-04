@@ -207,9 +207,9 @@ blockquote{border-inline-start:3px solid var(--c-accent);padding-inline-start:va
 
 NAV_LINKS = [
     ("/", "Home"),
-    ("/methodology/", "Methodology"),
-    ("/lenses/", "Lenses"),
-    ("/scoring/", "Scoring"),
+    ("/uzbekistan/", "Uzbekistan"),
+    ("/kyrgyzstan/", "Kyrgyzstan"),
+    ("/initiatives/", "B2G Initiatives"),
     ("/decrees/uz/", "Decrees UZ"),
     ("/decrees/kg/", "Decrees KG"),
     ("/institutions/", "Institutions"),
@@ -217,8 +217,10 @@ NAV_LINKS = [
     ("/procurement/", "Procurement"),
     ("/trends/", "Trends"),
     ("/people/", "People"),
-    ("/initiatives/", "B2G Initiatives"),
     ("/mvp/", "Solo MVPs"),
+    ("/methodology/", "Methodology"),
+    ("/lenses/", "Lenses"),
+    ("/scoring/", "Scoring"),
     ("/audit-team/", "Audit Team"),
     ("/honesty/", "Honesty"),
     ("/provenance/", "Provenance"),
@@ -1423,6 +1425,347 @@ def mvp_page(graph: dict[str, Any], country: str | None = None) -> str:
     )
 
 
+def country_page(graph: dict[str, Any], country: str) -> str:
+    """Render a country-level live report aggregating every record type for one country."""
+    cname = {"UZ": "Uzbekistan", "KG": "Kyrgyzstan"}[country]
+    cname_ru = {"UZ": "Узбекистан", "KG": "Кыргызстан"}[country]
+    slug = {"UZ": "uzbekistan", "KG": "kyrgyzstan"}[country]
+
+    # Filter
+    inits = [i for i in (graph.get("initiatives") or []) if i.get("country") == country]
+    decrees = [d for d in (graph.get("decrees") or []) if d.get("country") == country]
+    insts = [i for i in (graph.get("institutions") or []) if i.get("country") == country]
+    people = [p for p in (graph.get("people") or []) if p.get("country") == country]
+    donors = [p for p in (graph.get("donor_programs") or []) if p.get("country") in (country, "BOTH")]
+    tenders = [t for t in (graph.get("tenders") or []) if t.get("country") == country]
+    trends = [t for t in (graph.get("trends") or []) if t.get("country") == country]
+    mvps = [m for m in (graph.get("solopreneur_mvps") or []) if m.get("country") == country]
+
+    inst_idx = index_by_id(insts + (graph.get("institutions") or []))
+    person_idx = index_by_id(people + (graph.get("people") or []))
+    decree_idx = index_by_id(decrees + (graph.get("decrees") or []))
+    donor_idx = index_by_id(donors + (graph.get("donor_programs") or []))
+
+    tier_a = [i for i in inits if i.get("confidence_tier") == "A"]
+    active_decrees = [d for d in decrees if d.get("half_life_status") == "active_window"]
+    live_tenders = [t for t in tenders if t.get("status") in ("live", "forthcoming")]
+    tier_a_mvps = [m for m in mvps if m.get("confidence_tier") == "A"]
+
+    # Lead summary (40-60 words, country-specific framing)
+    if country == "UZ":
+        lead = (
+            f"Uzbekistan is the larger surface: {len(inits)} deployable AI and digital-government "
+            f"initiatives, {len(tier_a)} of them Tier-A, anchored in {len(decrees)} decrees including "
+            f"the $100M PP-320 AI fund and the УП-189 mandate for 100 AI projects by end-2026. "
+            f"{len(donors)} donor programmes, {len(people)} named decision-makers, "
+            f"{len(live_tenders)} live tenders. Russian-Uzbek bilingual UX is non-negotiable."
+        )
+        headline_shift = (
+            "<strong>October 2025 structural mandate:</strong> УП-189 and PP-320 created a $100M National "
+            "AI Project Support Fund and ordered 100 deployed AI projects across state bodies by end-2026. "
+            "AI procurement under the new fund became eligible 1 January 2026. Vendors with Russian-Uzbek "
+            "bilingual capability and existing IT-Park residency win first."
+        )
+    else:
+        lead = (
+            f"Kyrgyzstan is in flux: {len(inits)} initiatives, {len(tier_a)} Tier-A, mapped against "
+            f"{len(decrees)} decrees and the April 2026 abolition of the Ministry of Digital Development. "
+            f"All {len(donors)} donor programmes are renegotiating counterparts inside the Presidential "
+            f"Administration (УДП). {len(people)} decision-makers tracked. {len(live_tenders)} live tenders. "
+            f"Whoever co-drafts the new Digital Code regulations defines the next decade."
+        )
+        headline_shift = (
+            "<strong>April 2026 structural break:</strong> Kabmin postanovlenie abolished the Ministry of "
+            "Digital Development. Authority transferred to Presidential Administration (УДП). Every legacy "
+            "donor counterpart is under renegotiation through Q3 2026. The Digital Code (in force) needs "
+            "secondary regulations — first-mover vendors who help draft them lock in the regulatory rails."
+        )
+
+    # ── KPI grid
+    kpis = "\n".join([
+        kpi_row("B2G initiatives", len(inits)),
+        kpi_row("Tier-A deals", len(tier_a)),
+        kpi_row("Decrees mapped", len(decrees)),
+        kpi_row("Active-window decrees", len(active_decrees)),
+        kpi_row("Donor programmes", len(donors)),
+        kpi_row("Decision-makers", len(people)),
+        kpi_row("Live tenders", len(live_tenders)),
+        kpi_row("Solo MVPs", len(mvps)),
+        kpi_row("Tier-A MVPs", len(tier_a_mvps)),
+    ])
+
+    # ── Top initiatives table
+    init_rows = []
+    inits_sorted = sorted(inits, key=lambda x: (x.get("scoring", {}).get("weighted_total") or 0), reverse=True)
+    for i in inits_sorted[:15]:
+        sc = i.get("scoring", {}) or {}
+        tier = i.get("confidence_tier") or "—"
+        cls = {"A": "tier-a", "B": "tier-b"}.get(tier, "tier-c")
+        lead_inst_id = i.get("lead_institution_id") or ""
+        lead_inst = (inst_idx.get(lead_inst_id) or {}).get("name_en") or lead_inst_id
+        decree_ids = i.get("authorizing_decree_ids") or []
+        decree_chip = ", ".join(decree_ids[:2]) if decree_ids else "—"
+        init_rows.append(
+            f"<tr><td><span class='tag {cls}'>{escape(tier)}</span></td>"
+            f"<td>{escape(i.get('short_name') or '')}</td>"
+            f"<td>{escape(i.get('sector') or '')}</td>"
+            f"<td>{(sc.get('weighted_total') or 0):.2f}</td>"
+            f"<td>${(i.get('estimated_initial_contract_usd') or 0):,.0f}</td>"
+            f"<td>{escape(lead_inst)}</td>"
+            f"<td>{escape(decree_chip)}</td></tr>"
+        )
+    init_table = render_table(
+        ["Tier", "Initiative", "Sector", "Score", "Initial contract (USD)", "Lead institution", "Authorising decrees"],
+        init_rows,
+        paginate_after=15,
+        empty_msg="No initiatives in the knowledge graph yet.",
+    )
+
+    # ── Tier-A deep cards (top 5)
+    deep_cards: list[str] = []
+    for i in [x for x in inits_sorted if x.get("confidence_tier") == "A"][:5]:
+        sc = i.get("scoring", {}) or {}
+        target_id = i.get("target_buyer_person_id") or ""
+        target = (person_idx.get(target_id) or {}).get("full_name_latin") or target_id or "[unnamed]"
+        target_role = (person_idx.get(target_id) or {}).get("current_role") or ""
+        funding = i.get("primary_funding") or "—"
+        sec_donor_id = i.get("secondary_funding_donor_program_id") or ""
+        sec_donor = (donor_idx.get(sec_donor_id) or {}).get("program_name") or sec_donor_id or "—"
+        pathway = i.get("procurement_pathway") or "—"
+        pitch = i.get("pitch_hook") or i.get("one_liner") or ""
+        deep_cards.append(
+            f"<div class='persona' role='listitem'>"
+            f"<h3>{escape(i.get('short_name') or '')}</h3>"
+            f"<p><strong>One-liner:</strong> {escape(i.get('one_liner') or '')}</p>"
+            f"<p><strong>Pitch hook:</strong> {escape(pitch)}</p>"
+            f"<p><strong>Score {sc.get('weighted_total', 0):.2f}</strong> · "
+            f"speed {sc.get('speed_to_contract', 0)}/10 · moat {sc.get('strategic_moat', 0)}/10 · "
+            f"defensibility {sc.get('defensibility', 0)}/10 · capital {sc.get('capital_access', 0)}/10 · "
+            f"RU/CIS fit {sc.get('russian_cis_fit', 0)}/10</p>"
+            f"<p><strong>Target buyer:</strong> {escape(target)} — <em>{escape(target_role)}</em></p>"
+            f"<p><strong>Funding:</strong> {escape(funding)}"
+            + (f" + secondary via <em>{escape(sec_donor)}</em>" if sec_donor != "—" else "")
+            + f"</p>"
+            f"<p><strong>Procurement pathway:</strong> {escape(pathway)} · "
+            f"<strong>Initial contract:</strong> ${(i.get('estimated_initial_contract_usd') or 0):,.0f}</p>"
+            f"</div>"
+        )
+    deep_block = (
+        '<div class="persona-grid" role="list" aria-label="Tier-A initiative deep cards">'
+        + "".join(deep_cards) + "</div>"
+        if deep_cards else "<p>No Tier-A initiatives surfaced yet.</p>"
+    )
+
+    # ── Decrees (top 10 active or most recent)
+    dec_sorted = sorted(decrees, key=lambda d: (d.get("half_life_status") != "active_window", d.get("date") or ""), reverse=False)
+    dec_sorted = sorted(dec_sorted, key=lambda d: d.get("date") or "", reverse=True)
+    dec_rows = []
+    for d in dec_sorted[:12]:
+        sources = d.get("sources") or []
+        src = sources[0] if sources else None
+        link_html = f'<a href="{escape(src.get("url"))}">primary source</a>' if src and src.get("url") else "—"
+        dec_rows.append(
+            f"<tr><td>{escape(d.get('id') or '')}</td>"
+            f"<td>{escape(d.get('decree_type') or '')}</td>"
+            f"<td>{ru(d.get('number') or '')}</td>"
+            f"<td>{escape(d.get('date') or '')}</td>"
+            f"<td>{escape(d.get('title_en') or '')}</td>"
+            f"<td><span class='tag'>{escape(d.get('half_life_status') or '')}</span></td>"
+            f"<td>{link_html}</td></tr>"
+        )
+    dec_table = render_table(
+        ["ID", "Type", "Number", "Date", "Title", "Status", "Source"],
+        dec_rows,
+        paginate_after=12,
+        empty_msg="No decrees in the knowledge graph yet.",
+    )
+
+    # ── Donors (top 10 by budget)
+    don_rows = []
+    for p in sorted(donors, key=lambda x: x.get("total_budget_usd") or 0, reverse=True)[:12]:
+        don_rows.append(
+            f"<tr><td>{escape(p.get('donor') or '')}</td>"
+            f"<td>{escape(p.get('program_name') or '')}</td>"
+            f"<td>${(p.get('total_budget_usd') or 0):,.0f}</td>"
+            f"<td>{escape((p.get('ttl_pm_name') or '')[:80])}</td>"
+            f"<td>{escape(p.get('status') or '')}</td></tr>"
+        )
+    don_table = render_table(
+        ["Donor", "Programme", "Budget (USD)", "TTL / PM", "Status"],
+        don_rows,
+        paginate_after=12,
+        empty_msg="No donor programmes in the knowledge graph yet.",
+    )
+
+    # ── Live tenders
+    ten_rows = []
+    for t in sorted(live_tenders, key=lambda x: x.get("submission_deadline") or "9999")[:12]:
+        url = t.get("tender_url")
+        link = f"<a href='{escape(url)}'>tender</a>" if url else "—"
+        ten_rows.append(
+            f"<tr><td>{escape(t.get('title_en') or t.get('title') or '')}</td>"
+            f"<td>${(t.get('estimated_value_usd') or 0):,.0f}</td>"
+            f"<td>{escape(t.get('submission_deadline') or '')}</td>"
+            f"<td>{escape(t.get('procurement_method') or '')}</td>"
+            f"<td>{escape(t.get('win_probability') or '')}</td>"
+            f"<td>{link}</td></tr>"
+        )
+    ten_table = render_table(
+        ["Title", "Value (USD)", "Deadline", "Method", "Win prob.", "Link"],
+        ten_rows,
+        paginate_after=12,
+        empty_msg="No live tenders in the knowledge graph yet.",
+    )
+
+    # ── Trends (top 10 by TAM)
+    tr_sorted = sorted(trends, key=lambda x: x.get("estimated_tam_2025_2026_usd") or 0, reverse=True)
+    tr_rows = []
+    for t in tr_sorted[:12]:
+        tr_rows.append(
+            f"<tr><td>{escape(t.get('sector') or '')}</td>"
+            f"<td>{escape(t.get('name') or '')}</td>"
+            f"<td>{escape(t.get('maturity') or '')}</td>"
+            f"<td>${(t.get('estimated_tam_2025_2026_usd') or 0):,.0f}</td>"
+            f"<td>{escape(str(t.get('window_months_remaining') or ''))}</td></tr>"
+        )
+    tr_table = render_table(
+        ["Sector", "Trend", "Maturity", "TAM 2025-26 (USD)", "Window (mo.)"],
+        tr_rows,
+        paginate_after=12,
+        empty_msg="No trends in the knowledge graph yet.",
+    )
+
+    # ── Decision-makers (Tier 1+2)
+    ppl_rows = []
+    ppl_sorted = sorted(people, key=lambda x: (x.get("priority_tier") or 99, x.get("full_name_latin") or ""))
+    for p in ppl_sorted:
+        if p.get("priority_tier") not in (1, 2):
+            continue
+        link = ""
+        if p.get("linkedin_status") == "verified" and p.get("linkedin_url"):
+            link = f'<a href="{escape(p["linkedin_url"])}">LinkedIn</a>'
+        inst_id = p.get("current_institution_id") or ""
+        inst_name = (inst_idx.get(inst_id) or {}).get("name_en") or inst_id
+        ppl_rows.append(
+            f"<tr><td>{escape(str(p.get('priority_tier') or ''))}</td>"
+            f"<td>{escape(p.get('full_name_latin') or '')}</td>"
+            f"<td>{escape(p.get('current_role') or '')}</td>"
+            f"<td>{escape(inst_name)}</td>"
+            f"<td>{link}</td></tr>"
+        )
+    ppl_table = render_table(
+        ["Tier", "Name", "Role", "Institution", "LinkedIn"],
+        ppl_rows,
+        paginate_after=15,
+        empty_msg="No Tier-1/2 decision-makers in the knowledge graph yet.",
+    )
+
+    # ── Institutions (Tier 1-3)
+    inst_rows = []
+    for i in sorted(insts, key=lambda x: (x.get("tier") or 99, x.get("name_en") or "")):
+        if (i.get("tier") or 99) > 4:
+            continue
+        head_id = i.get("head_person_id") or ""
+        head_name = (person_idx.get(head_id) or {}).get("full_name_latin") or head_id or "—"
+        inst_rows.append(
+            f"<tr><td>{escape(str(i.get('tier') or ''))}</td>"
+            f"<td>{escape(i.get('name_en') or '')}</td>"
+            f"<td>{ru(i.get('name_ru') or '')}</td>"
+            f"<td>{escape(head_name)}</td></tr>"
+        )
+    inst_table = render_table(
+        ["Tier", "Institution (EN)", "Institution (RU)", "Head"],
+        inst_rows,
+        paginate_after=15,
+        empty_msg="No institutions in the knowledge graph yet.",
+    )
+
+    body = f"""<h1>{cname} — live B2G AI report</h1>
+<p class="lead summary">{escape(lead)}</p>
+
+<div class="banner">{headline_shift}</div>
+
+<div class="kpi-grid" role="list" aria-label="{cname} headline counts">
+{kpis}
+</div>
+
+<h2>Where should you start?</h2>
+<p>Pick the entry that matches what you do. Each card lands you on the page that answers your first question.</p>
+<div class="persona-grid" role="list" aria-label="{cname} reader entry paths">
+  <div class="persona" role="listitem">
+    <h3>Vendor / B2G operator</h3>
+    <p>The {len(tier_a)} Tier-A initiatives below are deal-ready: verified buyer, decree anchor, donor co-financing pathway, credible 12-month plan.</p>
+    <p><a href="#tier-a-initiatives">→ Tier-A initiatives</a> · <a href="#live-tenders">live tenders</a></p>
+  </div>
+  <div class="persona" role="listitem">
+    <h3>Donor / IFI counterpart</h3>
+    <p>{len(donors)} active and pipeline programmes touching {cname}, with TTL or PM and government counterpart named on each.</p>
+    <p><a href="#donor-programmes">→ Donor programmes</a> · <a href="/donors/">full pipeline</a></p>
+  </div>
+  <div class="persona" role="listitem">
+    <h3>Solopreneur / bootstrapper</h3>
+    <p>{len(mvps)} solopreneur MVP ideas grounded in the {cname} knowledge graph, scored on demand clarity, speed-to-MVR, and local market fit.</p>
+    <p><a href="/mvp/{country.lower()}/">→ {cname} solo MVPs</a></p>
+  </div>
+  <div class="persona" role="listitem">
+    <h3>Government / regulator</h3>
+    <p>The decree atlas and {len(active_decrees)} active-window decrees show what is already authorised but not yet procured.</p>
+    <p><a href="/decrees/{country.lower()}/">→ {cname} decree atlas</a></p>
+  </div>
+</div>
+
+<h2 id="tier-a-initiatives">Top {min(5, len(tier_a))} Tier-A initiatives — deep view</h2>
+<p>Each card pulls the named target buyer, the funding stack, the procurement pathway, and the five-axis score for the highest-rated Tier-A {cname} deals. Full record at <a href="/initiatives/">Initiatives</a>.</p>
+{deep_block}
+
+<h2>All Tier-A and Tier-B initiatives — table</h2>
+<p>Top {min(15, len(inits_sorted))} {cname} initiatives by weighted score. Full list of {len(inits)} on the <a href="/initiatives/">Initiatives</a> page.</p>
+{init_table}
+
+<h2 id="decrees">Decrees ({len(active_decrees)} in active implementation window)</h2>
+<p>The {min(12, len(dec_sorted))} most recent decrees in {cname} authorising AI or digital-government work. Status flag indicates whether the decree is in its 6–18 month active implementation window.</p>
+{dec_table}
+
+<h2 id="donor-programmes">Donor programmes ({len(donors)} active or pipeline)</h2>
+<p>The largest active and pipeline donor programmes in {cname} by total budget. The donor's TTL or task team leader is frequently the real customer, not the formal ministry head.</p>
+{don_table}
+
+<h2 id="live-tenders">Live and forthcoming tenders ({len(live_tenders)})</h2>
+<p>Live or forthcoming AI/digital procurements in {cname}, ordered by submission deadline. Each is annotated with win probability and procurement method.</p>
+{ten_table}
+
+<h2 id="trends">Sectoral trends ({len(trends)})</h2>
+<p>The {min(12, len(tr_sorted))} highest-TAM AI/digital trends in {cname} for 2025–2026, with the closing window in months.</p>
+{tr_table}
+
+<h2 id="decision-makers">Tier-1 and Tier-2 decision-makers</h2>
+<p>Named individuals with mandate over AI or digital procurement in {cname}. Personal contact details are redacted on the public site; outreach scripts and warm-intro paths stay in the private vault.</p>
+{ppl_table}
+
+<h2 id="institutions">Institutions (Tier 1–4)</h2>
+<p>State institutions in {cname} with explicit AI or digital mandate: Presidential Administration, Cabinet, line ministries, and agencies/SOEs.</p>
+{inst_table}
+
+<h2>Methodology</h2>
+<p>This report is auto-generated from <code>state/knowledge_graph.json</code> on every site build. The {len(inits)} {cname} initiatives are scored on five axes (speed-to-contract, strategic moat, defensibility, capital access, Russian/CIS fit) per the <a href="/scoring/">scoring rubric</a>. Records are sourced and verified per the <a href="/methodology/">methodology</a>; uncertainty is documented on the <a href="/honesty/">honesty page</a>.</p>
+
+<h2>Reproduce this report</h2>
+<p>The full pipeline is open at <a href="https://github.com/avaluev/ca-b2g-research">github.com/avaluev/ca-b2g-research</a> (Apache 2.0). The 16-specialist <a href="/audit-team/">Audit Team</a> verifies every page on every build. Cited in your work? Use the citation widget at the bottom of this page.</p>
+"""
+    return render_page(
+        path=f"/{slug}/",
+        title=f"{cname} — live B2G AI/digital report",
+        description=(
+            f"Live country report for {cname}: {len(tier_a)} Tier-A B2G initiatives, "
+            f"{len(decrees)} decrees, {len(donors)} donor programmes, {len(people)} decision-makers, "
+            f"{len(live_tenders)} live tenders. Auto-generated, cited, reproducible."
+        ),
+        body_html=body,
+        page_type="Report",
+        country=country,
+    )
+
+
 def honesty_page(graph: dict[str, Any]) -> str:
     honesty_path = ROOT / "state" / "audit" / "honesty_section.md"
     md = honesty_path.read_text() if honesty_path.exists() else ""
@@ -1484,6 +1827,8 @@ def main() -> int:
     rubric_md = (DOCS / "scoring_rubric.md").read_text() if (DOCS / "scoring_rubric.md").exists() else ""
 
     write_page("/", home(graph))
+    write_page("/uzbekistan/", country_page(graph, "UZ"))
+    write_page("/kyrgyzstan/", country_page(graph, "KG"))
     write_page("/methodology/", methodology())
     write_page("/lenses/", lenses_page(lenses_md))
     write_page("/scoring/", scoring_page(rubric_md))

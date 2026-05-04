@@ -155,7 +155,7 @@ def write_feed(pages: list[tuple[str, str, str]]) -> None:
 
 def write_llms_txt(pages: list[tuple[str, str, str]]) -> None:
     # Route pages into sections based on URL path
-    pillar_paths = {"/", "/initiatives/", "/people/", "/donors/", "/procurement/"}
+    pillar_paths = {"/", "/uzbekistan/", "/kyrgyzstan/", "/initiatives/", "/people/", "/donors/", "/procurement/"}
     data_paths = {"/decrees/uz/", "/decrees/kg/", "/institutions/", "/trends/", "/mvp/", "/mvp/uz/", "/mvp/kg/"}
     methodology_paths = {"/methodology/", "/lenses/", "/scoring/"}
     optional_paths = {"/honesty/", "/provenance/"}

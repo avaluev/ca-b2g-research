@@ -1,14 +1,164 @@
 {
-  "pages_checked": 907,
-  "total_issues": 16,
+  "pages_checked": 909,
+  "total_issues": 41,
   "by_severity": {
-    "WARN": 16
+    "WARN": 41
   },
   "by_gate": {
-    "02_no_internal_id_leak": 1,
-    "04_decree_slug_mismatch": 15
+    "04_decree_slug_mismatch": 40,
+    "02_no_internal_id_leak": 1
   },
   "issues": [
+    {
+      "gate": "04_decree_slug_mismatch",
+      "severity": "WARN",
+      "page": "outputs/site/kyrgyzstan/index.html",
+      "detail": "decree KG-LAW-2025-178 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_slug_mismatch",
+      "severity": "WARN",
+      "page": "outputs/site/kyrgyzstan/index.html",
+      "detail": "decree KG-LAW-2025-074 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_slug_mismatch",
+      "severity": "WARN",
+      "page": "outputs/site/kyrgyzstan/index.html",
+      "detail": "decree KG-LAW-2022-012 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_slug_mismatch",
+      "severity": "WARN",
+      "page": "outputs/site/kyrgyzstan/index.html",
+      "detail": "decree KG-UP-2024-090 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_slug_mismatch",
+      "severity": "WARN",
+      "page": "outputs/site/kyrgyzstan/index.html",
+      "detail": "decree KG-UP-2018-200 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_slug_mismatch",
+      "severity": "WARN",
+      "page": "outputs/site/kyrgyzstan/index.html",
+      "detail": "decree KG-LAW-2025-178 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_slug_mismatch",
+      "severity": "WARN",
+      "page": "outputs/site/kyrgyzstan/index.html",
+      "detail": "decree KG-LAW-2025-178 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_slug_mismatch",
+      "severity": "WARN",
+      "page": "outputs/site/kyrgyzstan/index.html",
+      "detail": "decree KG-LAW-2025-179 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_slug_mismatch",
+      "severity": "WARN",
+      "page": "outputs/site/kyrgyzstan/index.html",
+      "detail": "decree KG-UP-2024-090 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_slug_mismatch",
+      "severity": "WARN",
+      "page": "outputs/site/kyrgyzstan/index.html",
+      "detail": "decree KG-LAW-2024-121 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_slug_mismatch",
+      "severity": "WARN",
+      "page": "outputs/site/kyrgyzstan/index.html",
+      "detail": "decree KG-UP-2024-090 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_slug_mismatch",
+      "severity": "WARN",
+      "page": "outputs/site/kyrgyzstan/index.html",
+      "detail": "decree KG-LAW-2025-178 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_slug_mismatch",
+      "severity": "WARN",
+      "page": "outputs/site/kyrgyzstan/index.html",
+      "detail": "decree KG-UP-2024-090 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_slug_mismatch",
+      "severity": "WARN",
+      "page": "outputs/site/kyrgyzstan/index.html",
+      "detail": "decree KG-LAW-2025-178 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_slug_mismatch",
+      "severity": "WARN",
+      "page": "outputs/site/kyrgyzstan/index.html",
+      "detail": "decree KG-LAW-2025-178 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_slug_mismatch",
+      "severity": "WARN",
+      "page": "outputs/site/kyrgyzstan/index.html",
+      "detail": "decree KG-UP-2024-090 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_slug_mismatch",
+      "severity": "WARN",
+      "page": "outputs/site/kyrgyzstan/index.html",
+      "detail": "decree KG-UP-2024-090 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_slug_mismatch",
+      "severity": "WARN",
+      "page": "outputs/site/kyrgyzstan/index.html",
+      "detail": "decree KG-LAW-2025-074 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_slug_mismatch",
+      "severity": "WARN",
+      "page": "outputs/site/kyrgyzstan/index.html",
+      "detail": "decree KG-LAW-2024-121 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_slug_mismatch",
+      "severity": "WARN",
+      "page": "outputs/site/kyrgyzstan/index.html",
+      "detail": "decree KG-LAW-2025-178 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_slug_mismatch",
+      "severity": "WARN",
+      "page": "outputs/site/kyrgyzstan/index.html",
+      "detail": "decree KG-UP-2018-200 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_slug_mismatch",
+      "severity": "WARN",
+      "page": "outputs/site/kyrgyzstan/index.html",
+      "detail": "decree KG-LAW-2026-003 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_slug_mismatch",
+      "severity": "WARN",
+      "page": "outputs/site/kyrgyzstan/index.html",
+      "detail": "decree KG-UP-2025-350 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_slug_mismatch",
+      "severity": "WARN",
+      "page": "outputs/site/kyrgyzstan/index.html",
+      "detail": "decree KG-UP-2025-327 not in state/decrees/"
+    },
+    {
+      "gate": "04_decree_slug_mismatch",
+      "severity": "WARN",
+      "page": "outputs/site/kyrgyzstan/index.html",
+      "detail": "decree KG-LAW-2025-178 not in state/decrees/"
+    },
     {
       "gate": "02_no_internal_id_leak",
       "severity": "WARN",
