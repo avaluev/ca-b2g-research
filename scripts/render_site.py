@@ -41,6 +41,22 @@ DOCS = ROOT / "docs"
 
 load_dotenv(ROOT / ".env", override=False)
 SITE_URL = os.getenv("SITE_BASE_URL", "https://avaluev.github.io/ca-b2g-research").rstrip("/")
+# Path prefix for every internal link. Derived from SITE_URL so localhost / custom-
+# domain deployments work too. Empty when the site is hosted at host root.
+# Example: SITE_URL='https://avaluev.github.io/ca-b2g-research' -> BASE_PATH='/ca-b2g-research'
+import urllib.parse as _urlparse
+BASE_PATH = _urlparse.urlparse(SITE_URL).path.rstrip("/")
+
+
+def _bp(path: str) -> str:
+    """Prefix an internal absolute path with BASE_PATH. No-op when BASE_PATH is empty."""
+    if not path.startswith("/"):
+        return path
+    if not BASE_PATH:
+        return path
+    if path.startswith(BASE_PATH + "/") or path == BASE_PATH:
+        return path
+    return BASE_PATH + path
 OPERATOR = os.getenv("OPERATOR_NAME", "Alexandr Valuev")
 OPERATOR_EMAIL = os.getenv("OPERATOR_EMAIL", "valuev.alexandr@gmail.com")
 OPERATOR_LINKEDIN = os.getenv("OPERATOR_LINKEDIN", "https://www.linkedin.com/in/avaluev/")
@@ -335,14 +351,14 @@ def render_page(
     primary_parts = []
     for p, t in NAV_PRIMARY:
         aria = ' aria-current="page"' if p == path else ""
-        primary_parts.append(f'<a href="{escape(p)}"{aria}>{escape(t)}</a>')
+        primary_parts.append(f'<a href="{escape(_bp(p))}"{aria}>{escape(t)}</a>')
     secondary_parts = []
     secondary_active = False
     for p, t in NAV_SECONDARY:
         aria = ' aria-current="page"' if p == path else ""
         if p == path:
             secondary_active = True
-        secondary_parts.append(f'<a href="{escape(p)}"{aria}>{escape(t)}</a>')
+        secondary_parts.append(f'<a href="{escape(_bp(p))}"{aria}>{escape(t)}</a>')
     open_attr = " open" if secondary_active else ""
     more_block = (
         f'<details class="nav-more"{open_attr}>'
@@ -360,7 +376,7 @@ def render_page(
             if i == len(breadcrumbs) - 1:
                 items.append(f'<li aria-current="page">{escape(bn)}</li>')
             else:
-                items.append(f'<li><a href="{escape(bp)}">{escape(bn)}</a></li>')
+                items.append(f'<li><a href="{escape(_bp(bp))}">{escape(bn)}</a></li>')
         bc_html = (
             f'<nav class="breadcrumbs" aria-label="Breadcrumb">'
             f'<ol>{"".join(items)}</ol></nav>'
@@ -394,9 +410,9 @@ def render_page(
 <meta name="twitter:title" content="{escape(title_truncated)}">
 <meta name="twitter:description" content="{escape(desc_short)}">
 <meta name="twitter:image" content="{SITE_URL}/og-default.svg">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="manifest" href="/manifest.webmanifest">
-<link rel="alternate" type="application/atom+xml" href="/feed.xml" title="Central Asia B2G Intelligence">
+<link rel="icon" href="{_bp('/favicon.svg')}" type="image/svg+xml">
+<link rel="manifest" href="{_bp('/manifest.webmanifest')}">
+<link rel="alternate" type="application/atom+xml" href="{_bp('/feed.xml')}" title="Central Asia B2G Intelligence">
 <style>{CSS}</style>
 {extra_head}
 <script type="application/ld+json">
@@ -406,7 +422,7 @@ def render_page(
 <body>
 <a class="skip-link" href="#main-content">Skip to main content</a>
 <header class="nav"><nav aria-label="Main navigation">
-        <a href="/" class="brand" aria-label="Central Asia B2G — home">Central Asia B2G</a>
+        <a href="{_bp('/') or '/'}" class="brand" aria-label="Central Asia B2G — home">Central Asia B2G</a>
         {nav}
       </nav></header>
 <main id="main-content" class="container">
@@ -476,7 +492,7 @@ def _share_row(canonical: str, title: str) -> str:
         f'<a href="{li}" rel="noopener" target="_blank">LinkedIn</a>'
         f'<a href="{em}">Email</a>'
         f'<span aria-hidden="true">·</span>'
-        f'<a href="/feed.xml">RSS feed</a>'
+        f'<a href="{_bp("/feed.xml")}">RSS feed</a>'
         f'<a href="https://github.com/avaluev/ca-b2g-research">GitHub repo</a>'
         '</div>'
     )
@@ -490,7 +506,7 @@ def _site_footer() -> str:
     <p>An open knowledge graph of B2G AI and digital-government opportunities in
     Uzbekistan and Kyrgyzstan. Every claim is typed, sourced, and reproducible.
     Built by {OPERATOR}.</p>
-    <p><a href="/about/">About the author</a> · <a href="/methodology/">Methodology</a> · <a href="/honesty/">Honesty: what we did not find</a></p>
+    <p><a href="{_bp('/about/')}">About the author</a> · <a href="{_bp('/methodology/')}">Methodology</a> · <a href="{_bp('/honesty/')}">Honesty: what we did not find</a></p>
   </div>
   <div>
     <h3>Reproduce yourself</h3>
@@ -501,7 +517,7 @@ def _site_footer() -> str:
   <div>
     <h3>Stay current</h3>
     <p>Quarterly refresh. Subscribe via the Atom feed or watch the GitHub repository for releases.</p>
-    <p><a href="/feed.xml">Atom feed</a> · <a href="https://github.com/avaluev/ca-b2g-research/releases">Releases</a> · <a href="https://github.com/avaluev/ca-b2g-research/issues/new">Found an error?</a></p>
+    <p><a href="{_bp('/feed.xml')}">Atom feed</a> · <a href="https://github.com/avaluev/ca-b2g-research/releases">Releases</a> · <a href="https://github.com/avaluev/ca-b2g-research/issues/new">Found an error?</a></p>
   </div>
   <div>
     <h3>Contact</h3>
@@ -717,7 +733,7 @@ def home(graph: dict[str, Any]) -> str:
 </div>
 
 <div class="banner">
-  <strong>April 2026 KG structural break:</strong> the Ministry of Digital Development was abolished and its functions transferred to the Presidential Administration (УДП). Every legacy donor programme counterpart is in flux through Q3 2026. <a href="/decrees/kg/">See KG decrees</a>.
+  <strong>April 2026 KG structural break:</strong> the Ministry of Digital Development was abolished and its functions transferred to the Presidential Administration (УДП). Every legacy donor programme counterpart is in flux through Q3 2026. <a href="{_bp('/decrees/kg/')}">See KG decrees</a>.
 </div>
 
 <h2>Where should you start?</h2>
@@ -726,27 +742,27 @@ def home(graph: dict[str, Any]) -> str:
   <div class="persona" role="listitem">
     <h3>Vendor / B2G operator</h3>
     <p>Find Tier-A initiatives with verified buyer, decree anchor, donor co-financing, and a credible 12-month deal path.</p>
-    <p><a href="/initiatives/">→ Initiatives top 100</a> · <a href="/procurement/">live procurement</a></p>
+    <p><a href="{_bp('/initiatives/')}">→ Initiatives top 100</a> · <a href="{_bp('/procurement/')}">live procurement</a></p>
   </div>
   <div class="persona" role="listitem">
     <h3>Donor / IFI counterpart</h3>
     <p>{n_donors} active and pipeline programmes from World Bank, ADB, EU, UN agencies, and bilaterals — TTL or PM named on each.</p>
-    <p><a href="/donors/">→ Donor pipeline</a> · <a href="/people/">decision-makers</a></p>
+    <p><a href="{_bp('/donors/')}">→ Donor pipeline</a> · <a href="{_bp('/people/')}">decision-makers</a></p>
   </div>
   <div class="persona" role="listitem">
     <h3>Investor / VC</h3>
     <p>{n_mvps} solopreneur MVPs and {tier_a} Tier-A B2G initiatives, scored on five axes with local market fit and Russian/CIS substitution lenses.</p>
-    <p><a href="/mvp/">→ Solopreneur MVPs</a> · <a href="/lenses/">analytical lenses</a></p>
+    <p><a href="{_bp('/mvp/')}">→ Solopreneur MVPs</a> · <a href="{_bp('/lenses/')}">analytical lenses</a></p>
   </div>
   <div class="persona" role="listitem">
     <h3>Government / regulator</h3>
     <p>How peers are deploying AI in courts, tax, health, and digital identity — with tournament-ranked transferability scores.</p>
-    <p><a href="/methodology/">→ Methodology</a> · <a href="/honesty/">what we did not find</a></p>
+    <p><a href="{_bp('/methodology/')}">→ Methodology</a> · <a href="{_bp('/honesty/')}">what we did not find</a></p>
   </div>
   <div class="persona" role="listitem">
     <h3>Researcher / journalist</h3>
     <p>Every prompt, every source URL, every audit finding is public. Reproduce the whole pipeline yourself for under USD 20 of paid API calls.</p>
-    <p><a href="https://github.com/avaluev/ca-b2g-research">→ GitHub repository</a> · <a href="/provenance/">provenance</a></p>
+    <p><a href="https://github.com/avaluev/ca-b2g-research">→ GitHub repository</a> · <a href="{_bp('/provenance/')}">provenance</a></p>
   </div>
 </div>
 
@@ -982,19 +998,19 @@ def about_page() -> str:
 <p>{escape(OPERATOR)} is an independent researcher focused on B2G market intelligence in Central Asia. Reachable at <a href="mailto:{OPERATOR_EMAIL}">{OPERATOR_EMAIL}</a> · <a href="{OPERATOR_LINKEDIN}">LinkedIn</a> · <a href="{OPERATOR_GITHUB}">GitHub</a>.</p>
 
 <h2>Why build this?</h2>
-<p>Standard B2G consultancies tell you "the Ministry of Digital Development is leading AI strategy" — useless for capture. This site tells you the deputy minister responsible for AI procurement, their LinkedIn, the donor programme co-financing their pipeline, the decree authorising their budget, the half-life remaining on that decree, the closest global precedent, and the named pitch hook that maps to their published commitment. And when something is wrong, the <a href="/honesty/">Honesty page</a> says so.</p>
+<p>Standard B2G consultancies tell you "the Ministry of Digital Development is leading AI strategy" — useless for capture. This site tells you the deputy minister responsible for AI procurement, their LinkedIn, the donor programme co-financing their pipeline, the decree authorising their budget, the half-life remaining on that decree, the closest global precedent, and the named pitch hook that maps to their published commitment. And when something is wrong, the <a href="{_bp('/honesty/')}">Honesty page</a> says so.</p>
 
 <h2>How is this different from a Big-4 report?</h2>
 <ul>
   <li><strong>Open.</strong> Apache 2.0. Clone, fork, rerun.</li>
   <li><strong>Typed.</strong> Eight record types with foreign-key integrity. The data is a knowledge graph, not a stack of slides.</li>
   <li><strong>Reproducible.</strong> Total runtime ten hours, total paid OpenRouter under twenty dollars. The pipeline is one <code>make run</code> away.</li>
-  <li><strong>Adversarial.</strong> Wave 5 finds at least three HIGH-severity issues. In this run it caught four wrong Tier-1 identities — corrected, sourced, and named in <a href="/honesty/">Honesty</a>.</li>
+  <li><strong>Adversarial.</strong> Wave 5 finds at least three HIGH-severity issues. In this run it caught four wrong Tier-1 identities — corrected, sourced, and named in <a href="{_bp('/honesty/')}">Honesty</a>.</li>
   <li><strong>Localised.</strong> Fifty-three percent of sources are Russian-language. Cyrillic content carries proper <code>lang</code> attribution.</li>
 </ul>
 
 <h2>What is the refresh cadence?</h2>
-<p>Quarterly. Each refresh re-runs Waves 1, 2, and 5 and incrementally extends Waves 3, 4, and 6. Releases are tagged on GitHub with the data vintage. Subscribe to the <a href="/feed.xml">Atom feed</a> or watch the repository for releases.</p>
+<p>Quarterly. Each refresh re-runs Waves 1, 2, and 5 and incrementally extends Waves 3, 4, and 6. Releases are tagged on GitHub with the data vintage. Subscribe to the <a href="{_bp('/feed.xml')}">Atom feed</a> or watch the repository for releases.</p>
 
 <h2>How can I help?</h2>
 <p>Open an issue with a <a href="https://github.com/avaluev/ca-b2g-research/issues/new?template=research-correction.md">research correction</a> if you spot wrong data — wrong decree number, stale role, missing donor programme. Open a PR if you want to extend the schema, add an agent, or improve a renderer. Both are welcome.</p>
@@ -1095,12 +1111,12 @@ def not_found_page() -> str:
 
 <h2>Where to start instead</h2>
 <ul>
-  <li><a href="/">Home</a> — the headline counts and where to start by reader type.</li>
-  <li><a href="/initiatives/">B2G initiatives</a> — the top 100 deployable opportunities, tier-bucketed.</li>
-  <li><a href="/mvp/">Solopreneur MVPs</a> — 200 individually-bootstrappable plays.</li>
-  <li><a href="/donors/">Donor pipeline</a> — 49 active programmes with named TTL/PM.</li>
-  <li><a href="/methodology/">Methodology</a> — how the seven-wave pipeline works.</li>
-  <li><a href="/honesty/">Honesty</a> — what we did not find and where the audit caught us.</li>
+  <li><a href="{_bp('/')}">Home</a> — the headline counts and where to start by reader type.</li>
+  <li><a href="{_bp('/initiatives/')}">B2G initiatives</a> — the top 100 deployable opportunities, tier-bucketed.</li>
+  <li><a href="{_bp('/mvp/')}">Solopreneur MVPs</a> — 200 individually-bootstrappable plays.</li>
+  <li><a href="{_bp('/donors/')}">Donor pipeline</a> — 49 active programmes with named TTL/PM.</li>
+  <li><a href="{_bp('/methodology/')}">Methodology</a> — how the seven-wave pipeline works.</li>
+  <li><a href="{_bp('/honesty/')}">Honesty</a> — what we did not find and where the audit caught us.</li>
 </ul>
 
 <p>If you found this 404 from a broken link inside the site, please <a href="https://github.com/avaluev/ca-b2g-research/issues/new">open an issue</a>.</p>
@@ -1731,26 +1747,26 @@ def country_page(graph: dict[str, Any], country: str) -> str:
   <div class="persona" role="listitem">
     <h3>Donor / IFI counterpart</h3>
     <p>{len(donors)} active and pipeline programmes touching {cname}, with TTL or PM and government counterpart named on each.</p>
-    <p><a href="#donor-programmes">→ Donor programmes</a> · <a href="/donors/">full pipeline</a></p>
+    <p><a href="#donor-programmes">→ Donor programmes</a> · <a href="{_bp('/donors/')}">full pipeline</a></p>
   </div>
   <div class="persona" role="listitem">
     <h3>Solopreneur / bootstrapper</h3>
     <p>{len(mvps)} solopreneur MVP ideas grounded in the {cname} knowledge graph, scored on demand clarity, speed-to-MVR, and local market fit.</p>
-    <p><a href="/mvp/{country.lower()}/">→ {cname} solo MVPs</a></p>
+    <p><a href="{_bp(f'/mvp/{country.lower()}/')}">→ {cname} solo MVPs</a></p>
   </div>
   <div class="persona" role="listitem">
     <h3>Government / regulator</h3>
     <p>The decree atlas and {len(active_decrees)} active-window decrees show what is already authorised but not yet procured.</p>
-    <p><a href="/decrees/{country.lower()}/">→ {cname} decree atlas</a></p>
+    <p><a href="{_bp(f'/decrees/{country.lower()}/')}">→ {cname} decree atlas</a></p>
   </div>
 </div>
 
 <h2 id="tier-a-initiatives">Top {min(5, len(tier_a))} Tier-A initiatives — deep view</h2>
-<p>Each card pulls the named target buyer, the funding stack, the procurement pathway, and the five-axis score for the highest-rated Tier-A {cname} deals. Full record at <a href="/initiatives/">Initiatives</a>.</p>
+<p>Each card pulls the named target buyer, the funding stack, the procurement pathway, and the five-axis score for the highest-rated Tier-A {cname} deals. Full record at <a href="{_bp('/initiatives/')}">Initiatives</a>.</p>
 {deep_block}
 
 <h2>All Tier-A and Tier-B initiatives — table</h2>
-<p>Top {min(15, len(inits_sorted))} {cname} initiatives by weighted score. Full list of {len(inits)} on the <a href="/initiatives/">Initiatives</a> page.</p>
+<p>Top {min(15, len(inits_sorted))} {cname} initiatives by weighted score. Full list of {len(inits)} on the <a href="{_bp('/initiatives/')}">Initiatives</a> page.</p>
 {init_table}
 
 <h2 id="decrees">Decrees ({len(active_decrees)} in active implementation window)</h2>
@@ -1778,10 +1794,10 @@ def country_page(graph: dict[str, Any], country: str) -> str:
 {inst_table}
 
 <h2>Methodology</h2>
-<p>This report is auto-generated from <code>state/knowledge_graph.json</code> on every site build. The {len(inits)} {cname} initiatives are scored on five axes (speed-to-contract, strategic moat, defensibility, capital access, Russian/CIS fit) per the <a href="/scoring/">scoring rubric</a>. Records are sourced and verified per the <a href="/methodology/">methodology</a>; uncertainty is documented on the <a href="/honesty/">honesty page</a>.</p>
+<p>This report is auto-generated from <code>state/knowledge_graph.json</code> on every site build. The {len(inits)} {cname} initiatives are scored on five axes (speed-to-contract, strategic moat, defensibility, capital access, Russian/CIS fit) per the <a href="{_bp('/scoring/')}">scoring rubric</a>. Records are sourced and verified per the <a href="{_bp('/methodology/')}">methodology</a>; uncertainty is documented on the <a href="{_bp('/honesty/')}">honesty page</a>.</p>
 
 <h2>Reproduce this report</h2>
-<p>The full pipeline is open at <a href="https://github.com/avaluev/ca-b2g-research">github.com/avaluev/ca-b2g-research</a> (Apache 2.0). The 16-specialist <a href="/audit-team/">Audit Team</a> verifies every page on every build. Cited in your work? Use the citation widget at the bottom of this page.</p>
+<p>The full pipeline is open at <a href="https://github.com/avaluev/ca-b2g-research">github.com/avaluev/ca-b2g-research</a> (Apache 2.0). The 16-specialist <a href="{_bp('/audit-team/')}">Audit Team</a> verifies every page on every build. Cited in your work? Use the citation widget at the bottom of this page.</p>
 """
     return render_page(
         path=f"/{slug}/",
